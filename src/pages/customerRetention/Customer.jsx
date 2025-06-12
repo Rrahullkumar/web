@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import c2image from './resources/c2image.svg'
-import './lead.css'
+import './customer.css'
 import c3image from './resources/c3image.svg'
 import image1 from './resources/image1.svg'
 import image2 from './resources/image2.svg'

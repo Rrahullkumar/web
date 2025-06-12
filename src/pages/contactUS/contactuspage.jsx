@@ -140,4 +140,4 @@ const contactuspage = () => {
   )
 }
 
-export default contactuspage
+export default contactuspage;
