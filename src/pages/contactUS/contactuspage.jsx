@@ -42,17 +42,18 @@ const contactuspage = () => {
         <div className="mb-8 border-b pb-6">
           <h3 className="text-xl font-semibold text-black mb-1">Support</h3>
           <p className="text-sm text-gray-500 mb-2">Our friendly team is here to help.</p>
-          <p className="font-semibold text-sm text-black">support@sans.com</p>
+          <p className="font-semibold text-sm text-black">info@webnestmedia.com</p>
         </div>
         <div className="mb-8 border-b pb-6">
           <h3 className="text-xl font-semibold text-black mb-1">Sales</h3>
           <p className="text-sm text-gray-500 mb-2">Questions or queries? Get in touch!</p>
-          <p className="font-semibold text-sm text-black">sales@sans.com</p>
+          <p className="font-semibold text-sm text-black">Connect@webnestmedia.com</p>
         </div>
-        <div className="mb-8">
+        <div className="mb-8 leading-[150%]">
           <h3 className="text-xl font-semibold text-black mb-1">Phone</h3>
-          <p className="text-sm text-gray-500 mb-2">Mon–Fri from 8am to 5pm.</p>
-          <p className="font-semibold text-sm text-black">+1 (435) 345-7655</p>
+          <p className="text-sm text-gray-500 mb-2">Mon–Fri from 9:00 AM to 6:00 PM</p>
+          <p className="font-semibold text-sm text-black">+91-9696964606</p>
+          <p className="font-semibold text-sm text-black">+91-9211676307</p>
         </div>
       </div>
     </motion.div>
@@ -135,6 +136,17 @@ const contactuspage = () => {
           </div>
 
               
+      </div>
+      <div className="map w-full">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.774447042441!2d77.03399687450147!3d28.426061993428554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf6f764144b85249%3A0x7e97ea72b8e32db7!2sWebnest%20Media!5e0!3m2!1sen!2sin!4v1749705098195!5m2!1sen!2sin" 
+          width="100%" 
+          height="450" 
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </div>
     </div>
   )
