@@ -1,65 +1,107 @@
-import React from 'react'
+import React, { useState } from "react";
 import Map from './resources/Map.svg'
 import './contactus.css'
 import { motion } from 'framer-motion';
 import Contactus2 from './resources/Contactus2.svg'
 const contactuspage = () => {
+    const [submitting, setSubmitting] = useState(false);
+        const [responseMsg, setResponseMsg] = useState("");
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setSubmitting(true);
+        setResponseMsg("");
+    
+        const formData = new FormData(e.target);
+        const data = {
+            name: formData.get("name"),
+            email: formData.get("email"),
+            phone: formData.get("phone"),
+            message: formData.get("message"),
+            service: formData.get("service"),
+        };
+    
+        try {
+            const response = await fetch("https://webnestmedia.com/webnestmediacontac.php/contact", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
+    
+            if (response.ok) {
+                const result = await response.json();
+                setResponseMsg(result.message || "Form submitted successfully.");
+                e.target.reset(); // ✅ Clear form fields
+            } else {
+                const errorText = await response.text();
+                setResponseMsg("Submission failed: " + errorText);
+            }
+        } catch (error) {
+            console.error("Submission error:", error);
+            setResponseMsg("Submission failed. Please try again.");
+        } finally {
+            setSubmitting(false);
+        }
+    };
+    
   return (
     <div className='mt-[140px] max-w-[1440px] w-[100%] mx-auto'>
       <div className="cc1">
-  <motion.h1
-  initial={{ x: -100, opacity: 0 }}
-  whileInView={{ x: 0, opacity: 1 }}
-  viewport={{ once: false, amount: 0.3 }}
-  transition={{ duration: 0.8, ease: 'easeOut' }}
-  className='text-[52px] ml-[40px] font-bold leading-15 mb-[10px]'
->
-  <span className='highlight'>Contact</span> our team to <br />find out more
-</motion.h1>
+        <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+        className='text-[52px] ml-[40px] font-bold leading-15 mb-[10px]'
+      >
+        <span className='highlight'>Contact</span> our team to <br />find out more
+      </motion.h1>
 
-  <div className='flex flex-row mt-[20px]'>
-    
-    {/* LEFT SIDE: Map */}
-    <motion.div
-      initial={{ x: 100, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: false, amount: 0.3 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="cc1left ml-[40px] mt-[20px] h-auto"
-    >
-      <img src={Map} alt="" className='w-[986px]' />
-    </motion.div>
+        <div className='flex flex-row mt-[20px]'>
+          
+          {/* LEFT SIDE: Map */}
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: false, amount: 0.3 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="cc1left ml-[40px] mt-[20px] h-auto"
+          >
+            <img src={Map} alt="" className='w-[986px]' />
+          </motion.div>
 
-    {/* RIGHT SIDE: Info */}
-    <motion.div
-      initial={{ x: -100, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: false, amount: 0.3 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="cc2right"
-    >
-      <div className="max-w-sm mx-auto p-6">
-        <div className="mb-8 border-b pb-6">
-          <h3 className="text-xl font-semibold text-black mb-1">Support</h3>
-          <p className="text-sm text-gray-500 mb-2">Our friendly team is here to help.</p>
-          <p className="font-semibold text-sm text-black">info@webnestmedia.com</p>
-        </div>
-        <div className="mb-8 border-b pb-6">
-          <h3 className="text-xl font-semibold text-black mb-1">Sales</h3>
-          <p className="text-sm text-gray-500 mb-2">Questions or queries? Get in touch!</p>
-          <p className="font-semibold text-sm text-black">Connect@webnestmedia.com</p>
-        </div>
-        <div className="mb-8 leading-[150%]">
-          <h3 className="text-xl font-semibold text-black mb-1">Phone</h3>
-          <p className="text-sm text-gray-500 mb-2">Mon–Fri from 9:00 AM to 6:00 PM</p>
-          <p className="font-semibold text-sm text-black">+91-9696964606</p>
-          <p className="font-semibold text-sm text-black">+91-9211676307</p>
+          {/* RIGHT SIDE: Info */}
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: false, amount: 0.3 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="cc2right"
+          >
+            <div className="max-w-sm mx-auto p-6">
+              <div className="mb-8 border-b pb-6">
+                <h3 className="text-xl font-semibold text-black mb-1">Support</h3>
+                <p className="text-sm text-gray-500 mb-2">Our friendly team is here to help.</p>
+                <p className="font-semibold text-sm text-black" ><a href="mailto:info@webnestmedia.com" >info@webnestmedia.com</a></p>
+              </div>
+              <div className="mb-8 border-b pb-6">
+                <h3 className="text-xl font-semibold text-black mb-1">Sales</h3>
+                <p className="text-sm text-gray-500 mb-2">Questions or queries? Get in touch!</p>
+                <p className="font-semibold text-sm text-black" ><a href="mailto:info@webnestmedia.com" >Connect@webnestmedia.com</a></p>
+              </div>
+              <div className="mb-8 leading-[150%]">
+                <h3 className="text-xl font-semibold text-black mb-1">Phone</h3>
+                <p className="text-sm text-gray-500 mb-2">Mon–Fri from 9:00 AM to 6:00 PM</p>
+                <p className="font-semibold text-sm text-black p-1"><a href="tel:+91-9696964606">+91-9696964606</a></p>
+                <p className="font-semibold text-sm text-black p-1"><a href="tel:+91-9211676307">+91-9211676307</a></p>
+              </div>
+            </div>
+          </motion.div>
+
         </div>
       </div>
-    </motion.div>
-
-  </div>
-</div>
       <div className="cc2">
          <div className="relative w-full min-h-screen  flex items-center  px-4 py-16">
             {/* Background Image */}
@@ -85,22 +127,23 @@ const contactuspage = () => {
 
                   <input
                     type="text"
-                    placeholder="First name"
-                    className="w-1/2 border border-gray-300 rounded-md px-4 py-2 text-sm"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Last name"
-                    className="w-1/2 border border-gray-300 rounded-md px-4 py-2 text-sm"
+                    name='name'
+                    required
+                    placeholder="Full name"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 text-sm"
                   />
                 </div>
                 <input
                   type="email"
+                  name='email'
+                  required
                   placeholder="you@company.com"
                   className="w-full border border-gray-300 rounded-md px-4 py-2 text-sm"
                 />
                 <input
                   type="tel"
+                  name='phone'
+                  required
                   placeholder="+91 XXXXXXXXXXX"
                   className="w-full border border-gray-300 rounded-md px-4 py-2 text-sm"
                 />
