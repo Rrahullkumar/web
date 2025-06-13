@@ -68,7 +68,7 @@ const Leadgeneration = () => {
     <div className='max-w-[1440px] w-[100%] mx-auto mt-[50px]'>
       <div className="lgc1 relative">
         <img src={topimage} alt="" className='w-[100%] h-auto' />
-        <h1 className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
+        <h1 className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
           <span className='text-[#4CAF50]'>Lead</span> Generation
         </h1>
       </div>

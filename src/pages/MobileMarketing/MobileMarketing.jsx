@@ -73,7 +73,7 @@ const MobileMarketing = () => {
             <div className='mt-[50px]'>
             <div className="mmc1 relative ">
                     <img src={topimage} alt="" className='w-[100%] h-auto' />
-                    <h1 className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
+                    <h1 className='absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
                         <span className='text-[#4CAF50]'>Mobile</span> Marketing
                     </h1>
                     </div>
