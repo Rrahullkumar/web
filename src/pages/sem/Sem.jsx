@@ -461,7 +461,7 @@ const Sem = () => {
           </ul>
         </div>
       </div>
-       <div className="tabs">
+       <div className="tabs ">
         {tabsData.map((tab, index) => (
           <button
             key={tab.id}
@@ -473,10 +473,10 @@ const Sem = () => {
         ))}
       </div>
 
-      <div className="tab-content">
+      <div className="tab-content ">
         <div className="tab-image-description">
-          <div className="img_wrap">
-            <img className='tab_image' src={tabsData[activeTab].image} alt={tabsData[activeTab].label} />
+          <div className="img_wrap mb-[15px]">
+            <img className='tab_image ' src={tabsData[activeTab].image} alt={tabsData[activeTab].label} />
           </div>
           <div className="tab-description">
             {tabsData[activeTab].description}
@@ -486,11 +486,11 @@ const Sem = () => {
       </div>
       <div className="banner">
         <h2>Start Your Campaign Today</h2>
-        <p>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. Contact us today to start seeing real results with PPC advertising.</p>
+        <p>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
       </div>
         <div className="FAQS">
   
-  <h4 className="faq">Frequently Asked Questions (FAQs)</h4>
+          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
   <div className="accordion-wrapper-columns">
     {/* Left Column */}
     <div className="accordion-column">

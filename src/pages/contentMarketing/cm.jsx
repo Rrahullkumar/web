@@ -151,7 +151,7 @@ const ContentMarketing = () => {
       <div className="container2">
         <div className="c2left">
           <p id="c2headingleft" className="c2heading">
-            <span className='highlight'>Content</span> is the key to building audiences
+            <span className='highlight'>Content</span> is the key to <br /> building audiences
 
           </p>
           <p id="c2paraleft">

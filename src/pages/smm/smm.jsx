@@ -164,7 +164,7 @@ const Smm = () => {
   className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#5c945c] mt-[80px] sm:mt-[100px] md:mt-[150px] text-center px-4"
   style={{ lineHeight: 1.5 }}
 >
-  Social Media Marketing Agency <br />
+  Social Media Marketing Agency  <br />
   <span className="text-black">in Gurgaon</span>
 </h1>
 
@@ -378,7 +378,7 @@ const Smm = () => {
             </p>
 
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               {cardData.map((card) => (
                 <div key={card.id} className="bg-white rounded-2xl shadow p-6">
                   <div className=" ">
@@ -404,7 +404,7 @@ const Smm = () => {
 
         </div>
         <div className="newcontainer">
-          <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] mt-10 mb-5">
+          <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h3>
           <p className='mb-[10px]'>
