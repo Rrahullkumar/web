@@ -184,7 +184,7 @@ const ContentMarketing = () => {
             ))}
           </div>
        </div> */}
-            <div className="container3">
+            <div className="container3 pb-[72px]">
         <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Content Marketing Service</p>
         <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom:15}}>
           Build a Customer-Centric  <span className='highlight'>Marketing Strategy</span>
@@ -207,13 +207,13 @@ const ContentMarketing = () => {
 
       
 
-      <div className="container4">
+      <div className="container4 mt-[92px]">
   <h2 className="trust-heading ml-[40px] font-semibold text-6xl leading-[72px]">
-    Bringing Out the Best Content Writing <br />Company 
+    Bringing Out the Best Content Writing Company 
     <span className="highlight"> in Gurgaon</span>
   </h2>
-
-  <p className="trust-subheading ml-[40px] mb-[40px] ">
+    <br />
+  <p className="trust-subheading ml-[40px] mb-[40px] w-[80%]">
     In today’s competitive digital landscape, content is more than just information—it’s your voice,
     your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
     in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.

@@ -24,7 +24,7 @@ const menuItems = [
   {
     title: "Solutions",
     subItems: [
-      { title: "Online Reputation Managment", path: "/online-reputation-managment" },
+      { title: "Online Reputation Management", path: "/online-reputation-management" },
 
       { title: "Brand Strategy", path: "/brand-strategy" },
       { title: "Lead Generation", path: "/lead-generation" },
@@ -41,9 +41,9 @@ const menuItems = [
     title: "Promotions",
     subItems: [
       { title: "Mobile Marketing", path: "/mobile-marketing" },
-      { title: "Influencer Marketing", path: "influencer-marketing" },
-      { title: "SMS Marketing", path: "sms-marketing" },
-      { title: "Email Marketing", path: "email-marketing" }
+      { title: "Influencer Marketing", path: "/influencer-marketing" },
+      { title: "SMS Marketing", path: "/sms-marketing" },
+      { title: "Email Marketing", path: "/email-marketing" }
     ]
   },
 

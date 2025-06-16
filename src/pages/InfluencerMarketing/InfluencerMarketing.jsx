@@ -7,6 +7,7 @@ import icon3 from './resources/icon3.svg';
 import icon4 from './resources/icon4.svg';
 import icon5 from './resources/icon5.svg';
 import c5img from './resources/c5contaisner.svg'
+import Accordion from './components/Accordian';
 const InfluencerMarketing = () => {
   return (
     <div className="mt-[50px]">
@@ -21,7 +22,7 @@ const InfluencerMarketing = () => {
       {/* B2B Lead Generation Section */}
       <div className="imc2 mt-[93px] flex flex-row ml-[40px] h-[555px]">
         <div className="imc2left w-1/2 pt-[100px]">
-          <h2 className="text-[48px]">Explore Our B2B Lead Generation Agency</h2>
+          <h2 className="text-[48px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
           <br />
           <p className="text-[16px] font-[350]">
             WebNest Media is the best influencer company in Gurgaon, Delhi & India.
@@ -93,11 +94,11 @@ const InfluencerMarketing = () => {
 
       </div>
       <div className="imc5 flex flex-col justify-center items-center pt-[96px]">
-        <h2 className='text-[52px] w-[60%] mb-[54px]' > How Our Influencer Marketing Company Helps Brands?</h2>
+        <h2 className='text-[52px] w-[60%] mb-[54px] font-semibold' > How Our Influencer Marketing Company Helps Brands?</h2>
           <p className='text-[16px] w-[60%]'>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
           <div className="flex flex-row ml-[40px] justify-center items-center pt-[96px]">
               <div className="left w-[70%]">
-                <h2 className='text-[52px] pb-[36px]'>  How Our Influencer Marketing Company Helps Brands?</h2>
+                <h2 className='text-[52px] pb-[36px] font-semibold'>  How Our Influencer Marketing Company Helps Brands?</h2>
                 <p className='text-[16px] '>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
               </div>
               <div className="right">
@@ -105,7 +106,10 @@ const InfluencerMarketing = () => {
               </div>
           </div>
       </div>
-
+      <div className="lastcontainer mt-[126px]">
+          <p className=" mb-[50px] text-center font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          <Accordion></Accordion>
+      </div>
 
     </div>
   );

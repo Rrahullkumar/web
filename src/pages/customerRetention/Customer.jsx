@@ -18,22 +18,28 @@ const Lead = () => {
    <div className='mt-[150px] max-w-[1440px] w-[100%] mx-auto '>
         
       <div className="lmc2">
-        <h2 className='text-[52px] text-center mb-[12px]'> Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
+        <h2 className='text-[52px] text-center mb-[12px] font-semibold'> Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
         <p className='text-[16px] text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
         <img src={c2image} alt="" className='block mx-auto w-[1200px] h-[493px] mb-[93px] '/>
       </div>
-      <div className="lmc3 flex flex-row ml-[40px] mr-[40px] mb-[96px] ">
+     <div className="lmc3 flex flex-row ml-[40px] mr-[40px] mb-[96px]">
         <div className="lmc3_left flex flex-col w-[80%]">
-          <h2 className='text-[48px] mb-[30px]'>What is customer retention? Sounds heavy? No stress, we’ve got you covered!</h2>
-          <p className='text-[16px]'>The goal of customer retention is to keep your current clients satisfied, involved, and returning for more. It entails developing genuine relationships with those who already trust your business rather than concentrating just on acquiring new leads. Think of it like this: ever noticed how your favorite online store remembers your preferences, gives you exclusive offers, and checks in with personalized emails? That’s customer retention in action! <br /> <br />
-            We provide customer retention strategies in India that help businesses whether in Gurgaon, Delhi, or anywhere else reduce churn, increase repeat purchases, and turn first-time buyers into loyal fans. It is essential to long-term company success, cost-effective, and brand-building.o</p>
+          <h2 className="text-[48px] mb-[30px] font-semibold">
+            What is customer retention? Sounds heavy? No stress, we’ve got you covered!
+          </h2>
+          <p className="text-[16px]">
+            The goal of customer retention is to keep your current clients satisfied, involved, and returning for more. It entails developing genuine relationships with those who already trust your business rather than concentrating just on acquiring new leads. Think of it like this: ever noticed how your favorite online store remembers your preferences, gives you exclusive offers, and checks in with personalized emails? That’s customer retention in action! <br /> <br />
+            We provide customer retention strategies in India that help businesses whether in Gurgaon, Delhi, or anywhere else reduce churn, increase repeat purchases, and turn first-time buyers into loyal fans. It is essential to long-term company success, cost-effective, and brand-building.
+          </p>
         </div>
-      <div className="lmc3_right" >
-      <img src={c3image} alt="" className='w-[673.72px] h-[389px] '/>
+
+        <div className="lmc3_right w-[673.72px] h-[389px] flex items-center justify-center">
+          <img src={c3image} alt="" className="" />
+        </div>
       </div>
-      </div>
+
       <div className="lmc4 ml-[40px]">
-          <h2 className='text-[48px]'>How We Help You to <br />increase customer retention</h2>
+          <h2 className='text-[48px] font-semibold'>How We Help You to <br />increase customer retention</h2>
             <div className="services-grid">
           <div className="service-card">
             <div className="corner-wrapper">
@@ -86,7 +92,7 @@ const Lead = () => {
       </div>      
       <div className="lmc5 flex flex-row  ml-[20px] mr-[20px] ">
         <div className="lmc5_left w-[70%] pr-0 mb-[20px] ">
-          <h2 className="text-[32px] lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight">
+          <h2 className="text-[32px] lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight font-semibold">
             How We Help You to <br />
             increase customer retention
           </h2>
@@ -135,12 +141,7 @@ const Lead = () => {
           <img src={c5image} alt="" className="w-full h-auto object-contain" />
         </div>
       </div>
-      <div className="lmc6 mt-[120px]">
-
-        <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
-
-        
-      </div>
+    
                <div className="container6 mt-[96px] ">
                       <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
               
@@ -179,7 +180,13 @@ const Lead = () => {
                       </div>
                       
                     </div>
-                    <Accordion/>
+                      <div className="lmc6 mt-[120px]">
+
+        <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+
+      <Accordion/>
+      </div>
+                    
     </div>
   )
 }

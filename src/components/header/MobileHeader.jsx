@@ -25,7 +25,7 @@ const menuItems = [
   {
     title: "Solutions",
     subItems: [
-         { title: "Online Reputation Managment", path: "/online-reputation-managment" },
+         { title: "Online Reputation Management", path: "/online-reputation-management" },
     
       { title: "Brand Strategy", path: "/brand-strategy" },
       { title: "Lead Generation", path: "/lead-generation" },

@@ -91,15 +91,17 @@ const Affilatemarketing = () => {
           Affiliate Marketing Agency<span className='text-black'><br />in Gurgaon</span>  
         </h1>
 
-<h2 className="heading-styled relative h-[70px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[15px] ml-[44%]  ">
-  {text}
-</h2>
+        <h2 className="heading-styled relative h-[70px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[15px] ml-[44%]  ">
+          {text}
+        </h2>
 
 
 
 
-      </div>
-      
+      </div>     
+
+
+
       <div className="amc2">
         <div className="amc2-left">
           <h2 className="amc2-heading">Affiliate Marketing?</h2>
@@ -125,10 +127,11 @@ const Affilatemarketing = () => {
         </div>
       </div>
 
-      <div className="amc3-container">
+
+      <div className="amc3-container mt-[96px]">
         <div className="amc3-subcontainer">
           <h2 className="amc3-heading">Affiliate Marketing Types</h2>
-          <p className="amc3-subheading">
+          <p className="amc3-subheading text-base leading-relaxed">
             Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
             You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
           </p>
@@ -159,11 +162,11 @@ const Affilatemarketing = () => {
                 },
               ].map((item, index) => (
                 <div className="amc3-row" key={index}>
-                  <div className="amc3-title">
+                  <div className="amc3-title ">
                     {/* <span className="amc3-number text-[#252429]">{item.number}</span>{' '} */}
                     <span className="amc3-text-title">{item.title}</span>
                   </div>
-                  <div className="amc3-description">
+                  <div className="amc3-description w-[60%]">
                     {item.description}
                   </div>
                 </div>
@@ -172,8 +175,8 @@ const Affilatemarketing = () => {
 
         </div>
       </div>
-      <div className="amc4">
-          <div className="container3">
+      <div className="amc4 mb-[96px]">
+          <div className="container3 pb-[72px]">
         <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service</p>
          <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom:15}}> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
         <p style={{ fontSize: 16}}>
@@ -190,70 +193,110 @@ const Affilatemarketing = () => {
       </div>
 
       </div>
-      <div className="amc4">
-         <h2 className="trust-heading mt-[40px] ml-[40px] font-semibold text-6xl leading-[72px]">
-          <span className='highlight'>WebNest</span> Media's <br />Affiliate  Marketing
-          <span className="highlight"> in Gurgaon</span>
+      <div className="">
+        <h2 className="trust-heading mt-[40px] ml-[40px] font-semibold text-6xl leading-[72px] w-[40%] mb-[52px]">
+          <span className="highlight">WebNest</span> Media's <br />Affiliate Marketing
         </h2>
-        <p className="trust-subheading ml-[40px] mb-[40px] mr-[40px] ">
+
+        <p className="trust-subheading ml-[40px] mb-[40px] mr-[40px] w-[70%]">
           In today’s competitive digital landscape, content is more than just information—it’s your voice,
           your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
           in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
           Whether you're a startup looking to create your first content campaign or an established business aiming to scale,
           our content marketing strategies are crafted with precision, creativity, and purpose.
         </p>
-          <div className="affiliate-benefits-section">
-            <div className="affiliate-benefits-container">
-    <div className="affiliate-benefit-card">
-      <img src={Icons1} alt="Icon" className="affiliate-icon" />
-      <h3>Strategic Partner Selection</h3>
-      <p>We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.</p>
+              
+      </div>
+      <div className=" mb-[96px] px-4">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5  text-center">
+   <div className="flex flex-col items-center p-6 text-center max-w-60 border-r">
+
+       <div className="w-[64px] h-[64px]">
+        <img src={Icons1} alt="Icon" className="w-[100%] h-[100%] mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
+        Strategic Partner <br /> Selection
+      </h3>
+      <p className="text-sm text-[#444] leading-[1.6]">
+        We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
+      </p>
     </div>
-    <div className="affiliate-benefit-card">
-      <img src={Icons2} alt="Icon" className="affiliate-icon" />
-      <h3>Customized Campaign Setup</h3>
-      <p>Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.</p>
+
+    <div className="flex flex-col items-center  p-6 text-center max-w-60 border-r">
+
+       <div className="w-[64px] h-[64px]">
+        <img src={Icons2} alt="Icon" className="w-[100%] h-[100%] mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
+        Customized Campaign Setup
+      </h3>
+      <p className="text-sm text-[#444] leading-[1.6]">
+        Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
+      </p>
     </div>
-    <div className="affiliate-benefit-card">
-      <img src={Icons3} alt="Icon" className="affiliate-icon" />
-      <h3>Performance Tracking & Optimization</h3>
-      <p>We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.</p>
+
+ <div className="flex flex-col items-center  p-6 text-center max-w-60 border-r">
+
+       <div className="w-[64px] h-[64px]">
+        <img src={Icons3} alt="Icon" className="w-[100%] h-[100%] mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
+        Performance Tracking & Optimization
+      </h3>
+      <p className="text-sm text-[#444] leading-[1.6]">
+        We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
+      </p>
     </div>
-    <div className="affiliate-benefit-card">
-      <img src={Icons4} alt="Icon" className="affiliate-icon" />
-      <h3>Transparent Reporting</h3>
-      <p>You get clear, detailed performance reports so you always know where your affiliate budget is going.</p>
+
+<div className="flex flex-col items-center  p-6 text-center max-w-60 border-r">
+
+      <div className="w-[64px] h-[64px]">
+        <img src={Icons4} alt="Icon" className="w-[100%] h-[100%] mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-[12px] mt-[36px] text-[#222] text-[18px] text-center">
+        Transparent <br /> Reporting
+      </h3>
+      <p className="text-sm text-[#444] leading-[1.6]">
+        You get clear, detailed performance reports so you always know where your affiliate budget is going.
+      </p>
     </div>
-    <div className="affiliate-benefit-card">
-      <img src={Icons1} alt="Icon" className="affiliate-icon" />
-      <h3>Ethical, Scalable Growth</h3>
-      <p>We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from best affiliate marketing company in Gurgaon.</p>
-    </div>   
+
+<div className="flex flex-col items-center  p-6 text-center max-w-60 ">
+
+      <div className="w-[64px] h-[64px]">
+        <img src={Icons1} alt="Icon" className="w-[100%] h-[100%] mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-[12px] mt-[36px] text-[#222] text-[18px] text-center">
+        Ethical, Scalable <br /> Growth
+      </h3>
+      <p className="text-sm text-[#444] leading-relaxed">
+        We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+     
+        <div className="amc5 flex flex-row max-w-[1200px] justify-between items-center ml-[40px] mr-[40px] ">
+          <div className="amc5-left w-[80%]">
+            <h2 className="text-[52px] font-semibold mb-[42px]">Can you make money with <span className='highlight'>Affiliate Marketing?</span> </h2>
+            <p className="leading-relaxed">
+              Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
+              <br />
+              <br />
+              The concept is straightforward: you promote products or services using unique affiliate links and earn a commission for each sale made through your referral. Since there's no need to create your own products or handle inventory, affiliate marketing is a low-risk, scalable way to build income online.
+            </p>
+            
           </div>
 
+          <div className="object-contain">
+            <img src={image} alt="Woman with laptop" className="ml-[0px] pt-[80px]" />
+            {/* <div className="amc2-tag">SHARE WITH FOLLOWERS</div> */}
+          </div> 
         </div>
-
-      </div>
-     
-      <div className="amc5">
-        <div className="amc2">
-        <div className="amc2-left">
-          <h2 className="amc2-heading">Can you make money with <br /><span className='highlight'>Affiliate Marketing?</span> </h2>
-          <p className="amc2-desc">
-            Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
-            <br />
-            <br />
-            The concept is straightforward: you promote products or services using unique affiliate links and earn a commission for each sale made through your referral. Since there's no need to create your own products or handle inventory, affiliate marketing is a low-risk, scalable way to build income online.
-          </p>
-          
-        </div>
-
-        <div className="amc2-right">
-          <img src={image} alt="Woman with laptop" className="amc2-image justify-between" />
-          {/* <div className="amc2-tag">SHARE WITH FOLLOWERS</div> */}
-        </div>
-      </div>
-        <div className="container6 ">
+        <div className="container6 mt-[96px] ">
         <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
           {/* Left Side: Text + Numbers */}
@@ -291,7 +334,7 @@ const Affilatemarketing = () => {
         </div>
         
       </div>
-      <div className="amc5">
+      <div className="amc6">
 
         <div className="accordian">
         <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
@@ -426,7 +469,7 @@ const Affilatemarketing = () => {
       </div>
 
       </div>
-    </div>
+    
     </>
   )
 
