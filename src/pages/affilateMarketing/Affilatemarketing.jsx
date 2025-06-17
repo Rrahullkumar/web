@@ -193,12 +193,12 @@ const Affilatemarketing = () => {
       </div>
 
       </div>
-      <div className="">
-        <h2 className="trust-heading mt-[40px] ml-[40px] font-semibold text-6xl leading-[72px] w-[40%] mb-[52px]">
-          <span className="highlight">WebNest</span> Media's <br />Affiliate Marketing
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="trust-heading mt-[40px] ml-[40px] font-semibold text-6xl leading-[72px] w-[60%] text-center mb-[52px]">
+          <span className="highlight">WebNest</span> Media's Affiliate Marketing
         </h2>
 
-        <p className="trust-subheading ml-[40px] mb-[40px] mr-[40px] w-[70%]">
+        <p className="trust-subheading text-lg ml-[40px] mb-[40px] mr-[40px] w-[90%] text-center">
           In today’s competitive digital landscape, content is more than just information—it’s your voice,
           your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
           in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
@@ -208,7 +208,7 @@ const Affilatemarketing = () => {
               
       </div>
       <div className=" mb-[96px] px-4">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5  text-center">
+  <div className="flex justify-center text-center">
    <div className="flex flex-col items-center p-6 text-center max-w-60 border-r">
 
        <div className="w-[64px] h-[64px]">
@@ -217,7 +217,7 @@ const Affilatemarketing = () => {
       <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
         Strategic Partner <br /> Selection
       </h3>
-      <p className="text-sm text-[#444] leading-[1.6]">
+      <p className="text-base text-[#444] leading-[1.6]">
         We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
       </p>
     </div>
@@ -230,7 +230,7 @@ const Affilatemarketing = () => {
       <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
         Customized Campaign Setup
       </h3>
-      <p className="text-sm text-[#444] leading-[1.6]">
+      <p className="text-base text-[#444] leading-[1.6]">
         Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
       </p>
     </div>
@@ -243,7 +243,7 @@ const Affilatemarketing = () => {
       <h3 className="text-lg font-semibold mb-[12px] mt-[36px]  text-[#222] text-[18px] text-center">
         Performance Tracking & Optimization
       </h3>
-      <p className="text-sm text-[#444] leading-[1.6]">
+      <p className="text-base text-[#444] leading-[1.6]">
         We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
       </p>
     </div>
@@ -256,7 +256,7 @@ const Affilatemarketing = () => {
       <h3 className="text-lg font-semibold mb-[12px] mt-[36px] text-[#222] text-[18px] text-center">
         Transparent <br /> Reporting
       </h3>
-      <p className="text-sm text-[#444] leading-[1.6]">
+      <p className="text-base text-[#444] leading-[1.6]">
         You get clear, detailed performance reports so you always know where your affiliate budget is going.
       </p>
     </div>
@@ -269,7 +269,7 @@ const Affilatemarketing = () => {
       <h3 className="text-lg font-semibold mb-[12px] mt-[36px] text-[#222] text-[18px] text-center">
         Ethical, Scalable <br /> Growth
       </h3>
-      <p className="text-sm text-[#444] leading-relaxed">
+      <p className="text-base text-[#444] leading-relaxed">
         We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
       </p>
     </div>
@@ -282,7 +282,7 @@ const Affilatemarketing = () => {
         <div className="amc5 flex flex-row max-w-[1200px] justify-between items-center ml-[40px] mr-[40px] ">
           <div className="amc5-left w-[80%]">
             <h2 className="text-[52px] font-semibold mb-[42px]">Can you make money with <span className='highlight'>Affiliate Marketing?</span> </h2>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-base">
               Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
               <br />
               <br />

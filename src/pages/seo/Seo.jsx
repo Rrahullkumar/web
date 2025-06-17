@@ -10,8 +10,6 @@ import step2 from './resources/step2.svg';
 import step3 from './resources/step3.svg';
 import step4 from './resources/step4.svg';
 import step5 from './resources/step5.svg';
-
-
 import cneterstroke from "./resources/centerpaint.svg"
 import leftpaint from "./resources/leftpaint.svg"
 import rightpaint from "./resources/rightpaint.svg"
@@ -157,9 +155,9 @@ useEffect(() => {
 
 
 
-<h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px] ">
-  {text}
-</h2>
+      <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px] ">
+        {text}
+      </h2>
 
 
 
@@ -264,7 +262,7 @@ useEffect(() => {
               icon: step5,
             },
           ].map((item, index) => (
-            <div className="seo-step-card " key={index}>
+            <div className="seo-step-card" key={index}>
               <div>
               <div className="step-meta pb-8 ">
                 <img src={item.icon} alt={item.title} className="step-icon" />

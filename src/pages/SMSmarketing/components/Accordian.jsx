@@ -9,14 +9,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-1" />
           <label className="accordion-label" htmlFor="left-1">
-            What is Webnest Media?
+            What exactly is SMS Marketing?
           </label>
           <div className="accordion-content">
             <p>
-              Webnest Media is a full-service digital marketing agency that helps businesses
-              enhance their online presence through a combination of innovative strategies and
-              customized marketing solutions. Their expertise spans SEO, content marketing,
-              social media management, pay-per-click advertising, and website development.
+              SMS Marketing is a way for businesses to send promotional messages, updates, and alerts directly to customers' mobile phones via text messages. It's a direct and instant way to communicate.
             </p>
           </div>
         </div>
@@ -24,12 +21,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-2" />
           <label className="accordion-label" htmlFor="left-2">
-            What services does Webnest Media offer?
+            Why should my business use SMS Marketing?
           </label>
           <div className="accordion-content">
             <p>
-              Webnest Media provides a wide range of digital marketing services including:
-              SEO, PPC, content marketing, social media management, and web development.
+              SMS Marketing has very high open rates (nearly 98%), meaning your messages are almost always seen quickly. It's great for urgent offers, quick updates, and building a direct connection with your customers, leading to better engagement and sales.
             </p>
           </div>
         </div>
@@ -37,12 +33,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-3" />
           <label className="accordion-label" htmlFor="left-3">
-            How can Webnest Media help my business grow?
+            How do customers sign up to receive texts from my business?
           </label>
           <div className="accordion-content">
             <p>
-              Webnest Media increases visibility, drives traffic, and converts leads using
-              data-driven strategies aligned with your business goals.
+              Customers typically "opt-in" or give permission to receive messages. This can be done by texting a keyword to a number, filling out a form on your website, or checking a box during an online purchase.
             </p>
           </div>
         </div>
@@ -50,25 +45,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-4" />
           <label className="accordion-label" htmlFor="left-4">
-            What makes Webnest Media different?
+            What kinds of messages can I send through SMS Marketing?
           </label>
           <div className="accordion-content">
             <p>
-              Webnest Media crafts tailored digital strategies with a balance of creativity
-              and data to meet your business objectives.
-            </p>
-          </div>
-        </div>
-
-        <div className="accordion">
-          <input type="checkbox" id="left-5" />
-          <label className="accordion-label" htmlFor="left-5">
-            Do they work with all business sizes?
-          </label>
-          <div className="accordion-content">
-            <p>
-              Yes, from startups to enterprises, Webnest Media tailors services to fit the
-              specific needs of any business.
+              You can send various types of messages, including flash sales, discount codes, new product announcements, order confirmations, shipping updates, appointment reminders, and even requests for customer feedback.
             </p>
           </div>
         </div>
@@ -77,65 +58,49 @@ const Accordion = () => {
       {/* Right Column */}
       <div className="accordion-column">
         <div className="accordion">
-          <input type="checkbox" id="right-6" />
-          <label className="accordion-label" htmlFor="right-6">
-            How does Webnest Media measure success?
+          <input type="checkbox" id="right-1" />
+          <label className="accordion-label" htmlFor="right-1">
+            How often should I send SMS messages to my customers?
           </label>
           <div className="accordion-content">
             <p>
-              Success is measured through KPIs like traffic, conversions, ROI, and rankings.
-              Continuous optimization is key.
+              The ideal frequency varies by business and audience. We help you determine a schedule that keeps customers engaged without overwhelming them, balancing your goals with a positive customer experience.
             </p>
           </div>
         </div>
 
         <div className="accordion">
-          <input type="checkbox" id="right-7" />
-          <label className="accordion-label" htmlFor="right-7">
-            How long to see results?
+          <input type="checkbox" id="right-2" />
+          <label className="accordion-label" htmlFor="right-2">
+            Is SMS Marketing legal and compliant with regulations in India?
           </label>
           <div className="accordion-content">
             <p>
-              SEO results take months; PPC shows faster results. Timelines depend on the
-              strategy.
+              Yes, absolutely. We ensure all our SMS marketing campaigns strictly follow local regulations, like TRAI guidelines in India, including proper opt-in/opt-out procedures and DND (Do Not Disturb) list management, to keep your business compliant.
             </p>
           </div>
         </div>
 
         <div className="accordion">
-          <input type="checkbox" id="right-8" />
-          <label className="accordion-label" htmlFor="right-8">
-            How to get started?
+          <input type="checkbox" id="right-3" />
+          <label className="accordion-label" htmlFor="right-3">
+            How do you measure the success of an SMS Marketing campaign?
           </label>
           <div className="accordion-content">
             <p>
-              Contact Webnest Media via their website, phone, or email. Schedule a consultation
-              to begin.
+              We track key metrics like message delivery rates, click-through rates (how many people clicked links in your texts), conversion rates (how many made a purchase), and overall ROI. We provide clear reports so you can see your results.
             </p>
           </div>
         </div>
 
         <div className="accordion">
-          <input type="checkbox" id="right-9" />
-          <label className="accordion-label" htmlFor="right-9">
-            Do they offer custom packages?
+          <input type="checkbox" id="right-4" />
+          <label className="accordion-label" htmlFor="right-4">
+            What is the difference between SMS Marketing and WhatsApp Marketing?
           </label>
           <div className="accordion-content">
             <p>
-              Yes. Packages are tailored to your business goals and needs to maximize ROI.
-            </p>
-          </div>
-        </div>
-
-        <div className="accordion">
-          <input type="checkbox" id="right-10" />
-          <label className="accordion-label" htmlFor="right-10">
-            Can they improve existing campaigns?
-          </label>
-          <div className="accordion-content">
-            <p>
-              Yes. Webnest Media audits current efforts, identifies gaps, and optimizes for
-              better performance.
+              SMS Marketing uses standard text messages, while WhatsApp Marketing utilizes the WhatsApp Business API for richer communication, including images, videos, and interactive buttons, often allowing for more conversational flows. We offer solutions for both, depending on your needs.
             </p>
           </div>
         </div>
