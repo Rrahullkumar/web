@@ -39,10 +39,10 @@ const AnimatedCardList = () => {
               <div className="image_wrapcard1">
                 <img src={ball.icon} className="iconimage" alt={ball.content} />
               </div>
-              <p className="text-[14px] text-[black] font-bold">{ball.content}</p>
+              <p className="text-[14px] text-[black] font-bold" style={{fontSize:14}}>{ball.content}</p>
 
 
-              <div className="card-hover-text font-normal text-[11px]">{ball.hoverText}</div>
+              <div className="card-hover-text font-normal text-[12px]">{ball.hoverText}</div>
             </div>
 
           );

@@ -27,6 +27,8 @@ import MarketingResearch from './pages/marketing/MarketingResearch';
 import About from './pages/aboutus/AboutUS';
 import Conatct from './pages/contactUS/contactuspage';
 import Leadgeneration from './pages/lead_generation/Leadgeneration';
+import MobileMarketing from './pages/mobileMarketing/MobileMarketing';
+import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 const App = () => {
 
 
@@ -64,8 +66,8 @@ const App = () => {
           <Route path="/contact" element={<Conatct />} />
           <Route path="/lead-generation" element={<Leadgeneration/>}></Route>
           <Route path="*" element={<Navigate to="/" replace />} />
-
-
+          <Route path="/mobile-marketing" element={<MobileMarketing/>}></Route>
+          <Route path='/influencer-marketing' element={<InfluencerMarketing/>}></Route>
         </Routes>
         <Footer />
 

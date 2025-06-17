@@ -150,7 +150,7 @@ useEffect(() => {
   
       <div className="container1  " id='c1'>
         
-        <h1 id='c1h1'>SEO Agency in Gurgaon</h1>
+        <h1 id='c1h1'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1>
         {/* <h2 className="text-[40px] font-bold text-black bg-yellow-400 px-4 py-1 inline-block rounded-md typing mt-[250px]">
           {text}
         </h2> */}
@@ -173,7 +173,7 @@ useEffect(() => {
       <div className="container2">
         <div className="c2left">
           <p id="c2headingleft" className="c2heading">
-            Raise Your <span className='highlight'>Website</span> to #1 on Result Page with <span className='highlight'>WebNest Media</span>
+            Raise Your <span className='highlight'>Website</span> <br />#1 on Result Page with <span className='highlight'>WebNest Media</span>
           </p>
           <p id="c2paraleft">
             Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content,
@@ -226,7 +226,7 @@ useEffect(() => {
       </div>
 
       </div>
-      <div className="container5">
+      <div className="container5 bg-white">
         <p className="service-label text-center" style={{ fontSize: 20, fontWeight: 400 }}>Our Services</p>
         <h2 className="process-heading text-center">
           Proven <span className="highlight">SEO Process</span>

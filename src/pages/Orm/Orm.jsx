@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef, useState } from 'react';
 import './Orm.css';
 import timer from "../../pages/Orm/resourse/timer.svg"
-
+import  Conatctfrom from "../../components/contact/contactform";
 import brand1 from "./resourse/brand1.svg";
 import brand2 from "./resourse/brand2.svg";
 import brand3 from "./resourse/brand3.svg";

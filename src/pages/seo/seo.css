@@ -114,7 +114,7 @@
 
 .stat-number {
   color: #4CAF50;
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 300;
 }
 
@@ -141,11 +141,6 @@
   padding: 0 10px;
 }
 
-@media (max-width: 768px) {
-  .trust-card-container {
-    grid-template-columns: 1fr; /* Stack on smaller screens */
-  }
-}
 
 .trust-card {
   background-color: #EFF4EE; /* Light pastel green */
@@ -224,7 +219,7 @@
   display: flex;
   justify-content: center;
   align-items: space-between;
-  gap: 15px;
+  gap: 40px;
 }
 
 .seo-step-card {

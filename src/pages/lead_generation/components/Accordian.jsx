@@ -9,11 +9,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-1" />
           <label className="accordion-label" htmlFor="left-1">
-            What is digital transformation?
+            What is lead generation?
           </label>
           <div className="accordion-content">
             <p>
-              Digital transformation is the process of using digital technologies to enhance business operations, improve customer experiences, and drive innovation. It’s about more than just adopting new tools—it’s about changing how your business thinks, works, and grows.
+              Lead generation is the process of identifying and attracting potential customers for a business's products or services. It typically involves marketing strategies designed to capture interest and gather contact information for follow-up.
             </p>
           </div>
         </div>
@@ -21,11 +21,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-2" />
           <label className="accordion-label" htmlFor="left-2">
-            Why does my business need digital transformation?
+            Why is lead generation important for business growth?
           </label>
           <div className="accordion-content">
             <p>
-              It helps you stay competitive by automating processes, reducing costs, increasing efficiency, and offering better customer service. It also enables data-driven decision-making and faster innovation.
+              Lead generation helps businesses reach new audiences, build a sales pipeline, and ultimately drive more revenue. Without it, sustaining long-term growth and customer acquisition becomes difficult.
             </p>
           </div>
         </div>
@@ -33,11 +33,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-3" />
           <label className="accordion-label" htmlFor="left-3">
-            What services are included in digital transformation?
+            What are the main types of lead generation?
           </label>
           <div className="accordion-content">
             <p>
-              Services typically include business process automation, cloud migration, data analytics, AI integration, CRM/ERP implementation, software development, and cybersecurity upgrades.
+              There are two main types: inbound lead generation (through SEO, content marketing, social media) and outbound lead generation (through cold emails, calls, and ads). Both can be effective depending on the strategy and audience.
             </p>
           </div>
         </div>
@@ -45,11 +45,23 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="left-4" />
           <label className="accordion-label" htmlFor="left-4">
-            How long does digital transformation take?
+            What is a qualified lead?
           </label>
           <div className="accordion-content">
             <p>
-              There’s no one-size-fits-all answer. It depends on your business size, goals, and existing systems. Some companies start seeing results in weeks, while full transformations may take months.
+              A qualified lead is someone who has shown genuine interest in a product or service and fits the profile of an ideal customer. They’re more likely to convert into a paying customer compared to general inquiries.
+            </p>
+          </div>
+        </div>
+
+        <div className="accordion">
+          <input type="checkbox" id="left-5" />
+          <label className="accordion-label" htmlFor="left-5">
+            How is lead generation different from sales?
+          </label>
+          <div className="accordion-content">
+            <p>
+              Although sales involves converting those leads into actual customers, lead generation concentrates on drawing in and attracting potential clients.
             </p>
           </div>
         </div>
@@ -60,11 +72,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="right-1" />
           <label className="accordion-label" htmlFor="right-1">
-            Is digital transformation expensive?
+            What digital channels are commonly used for lead generation?
           </label>
           <div className="accordion-content">
             <p>
-              While there’s an initial investment, digital transformation often leads to significant cost savings over time through improved efficiency, automation, and reduced manual errors.
+              Popular digital channels include websites, social media platforms, email campaigns, search engines (via SEO and PPC), webinars, and landing pages. A multichannel approach often delivers the best results.
             </p>
           </div>
         </div>
@@ -72,11 +84,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="right-2" />
           <label className="accordion-label" htmlFor="right-2">
-            Will digital transformation disrupt my current operations?
+            Can small businesses benefit from lead generation?
           </label>
           <div className="accordion-content">
             <p>
-              Not if it’s planned well. At WebNest Media, we ensure a smooth transition with minimal disruption, integrating new systems gradually while supporting your team through the process.
+              Yes, lead generation is valuable for businesses of all sizes. For small businesses, it helps compete with larger players by connecting them with targeted audiences who are actively looking for specific solutions.
             </p>
           </div>
         </div>
@@ -84,11 +96,11 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="right-3" />
           <label className="accordion-label" htmlFor="right-3">
-            Is digital transformation suitable for small businesses?
+            How do I know if my lead generation campaign is successful?
           </label>
           <div className="accordion-content">
             <p>
-              Yes! In fact, small businesses can benefit the most. Affordable, scalable digital tools help streamline operations and improve customer engagement without large upfront costs.
+              Success can be measured by metrics such as the number of leads generated, lead quality, conversion rate, cost per lead, and return on investment (ROI). Regular analysis helps improve performance over time.
             </p>
           </div>
         </div>
@@ -96,11 +108,23 @@ const Accordion = () => {
         <div className="accordion">
           <input type="checkbox" id="right-4" />
           <label className="accordion-label" htmlFor="right-4">
-            What are the long-term benefits of digital transformation?
+            What’s the difference between B2B and B2C lead generation?
           </label>
           <div className="accordion-content">
             <p>
-              Improved scalability, increased agility, stronger customer relationships, better data insights, and the ability to adapt quickly to market changes are just a few of the long-term advantages.
+              B2B (business-to-business) lead generation targets decision-makers in companies, focusing on long-term relationships. B2C (business-to-consumer) targets individual buyers, usually with faster purchase decisions.
+            </p>
+          </div>
+        </div>
+
+        <div className="accordion">
+          <input type="checkbox" id="right-5" />
+          <label className="accordion-label" htmlFor="right-5">
+            How long does it take to see results from lead generation efforts?
+          </label>
+          <div className="accordion-content">
+            <p>
+              Results vary based on the strategy and industry. Some methods, like paid ads, show quick results, while organic strategies like SEO and content marketing may take a few months to generate consistent leads.
             </p>
           </div>
         </div>

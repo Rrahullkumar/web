@@ -9,27 +9,35 @@ import icon2 from './resources/diversity_1.svg'
 import icon3 from './resources/arrows_input.svg'
 import icon4 from './resources/lightbulb.svg'
 import Accordion from './components/Accordian';
+import Conatctfrom from '../../components/contact/contactform';
+import { FiPhone } from 'react-icons/fi';
+import { useEffect } from 'react';
 const Leadgeneration = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const accordionData = [
-    {
-      title: "Marketing Qualified Leads (MQLs): Engaging Interested Prospects",
-      content: "MQLs are leads who have shown interest through engagement, but aren't ready to buy yet. They're nurtured through targeted campaigns.",
-    },
-    {
-      title: "Sales Qualified Leads (SQLs): Ready-to-Convert Opportunities",
-      content: "SQLs are leads deemed ready for direct sales outreach, often after further engagement and qualification.",
-    },
-    {
-      title: "Account-Based Marketing (ABM): Targeting High-Value Accounts",
-      content: "ABM focuses marketing and sales efforts on specific high-value companies through personalized campaigns.",
-    },
-    {
-      title: "Content Syndication: Expanding Your Reach",
-      content: "This strategy repurposes your content across third-party platforms to reach a broader, targeted audience.",
-    },
-  ];
+  {
+    title: "Marketing Qualified Leads (MQLs): Engaging Interested Prospects",
+    content:
+      "We find and cultivate people who have expressed interest in your goods or services. By analyzing engagement metrics and behavioral data, we ensure that the leads passed to your sales team are primed for further interaction.",
+  },
+  {
+    title: "Sales Qualified Leads (SQLs): Ready-to-Convert Opportunities",
+    content:
+      "Our team rigorously qualifies leads based on criteria such as budget, authority, need, and timeline. This ensures that your sales efforts are focused on prospects with a high likelihood of conversion.",
+  },
+  {
+    title: "Account-Based Marketing (ABM): Targeting High-Value Accounts",
+    content:
+      "We create unique campaigns targeted at particular high-value accounts. By tailoring messaging and outreach strategies, we increase the chances of engaging decision-makers within these organizations.",
+  },
+  {
+    title: "Content Syndication: Expanding Your Reach",
+    content:
+      "Through strategic distribution of your content across various platforms, we amplify your brand's visibility and attract leads who are actively seeking solutions in your industry.",
+  },
+];
+
   const data=[
     {
         icon: icon1,
@@ -57,10 +65,10 @@ const Leadgeneration = () => {
   };
 
   return (
-    <div className='max-w-[1440px] w-[100%] mx-auto'>
+    <div className='max-w-[1440px] w-[100%] mx-auto mt-[50px]'>
       <div className="lgc1 relative">
         <img src={topimage} alt="" className='w-[100%] h-auto' />
-        <h1 className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
+        <h1 className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
           <span className='text-[#4CAF50]'>Lead</span> Generation
         </h1>
       </div>
@@ -190,11 +198,47 @@ const Leadgeneration = () => {
                 
                 </div>
         </div>
-     
-        <div className="lgc7 mt-[120px]">
+         <div className="container6 mt-[96px] ">
+                <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
+        
+                  {/* Left Side: Text + Numbers */}
+                  <div className="w-[45%] max-lg:w-full">
+                    <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
+                      Work With Us and Take <br />Your Business to the Next Level
+                    </h3>
+                    <p className="text-[17px] text-black mt-5 mb-5">
+                      We provide the tools, expertise, and support you need to grow faster,
+                      <br /> reach more customers, and stay ahead of the competition.
+                      <br /> Let’s take your business to the next level—together.
+                    </p>
+        
+                    <div className="space-y-2">
+                      <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
+                        <FiPhone className="text-white" />
+                        <a href="tel:+919696964606" className="text-white">
+                          +91-9696964606
+                        </a>
+                      </button>
+        
+                      <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
+                        <FiPhone className="text-white" />
+                        <a href="tel:+919211676307" className="text-white">
+                          +91-9211676307
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+        
+                  {/* Right Side: Contact Form */}
+                  <div className="w-[45%] max-lg:w-full">
+                    <Conatctfrom className="w-full" /> {/* Corrected component name */}
+                  </div>
+                </div>
+                
+              </div>
+        <div className="lgc7 mt-[96px]">
             <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
             <Accordion></Accordion>
-
         </div>
     </div>
   );
