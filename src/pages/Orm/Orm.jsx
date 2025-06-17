@@ -16,6 +16,7 @@ import iot from "./resourse/iot.svg"
 import Accordian from "./component/Accordian"
 import bannerimage from "./resourse/bannerimage.svg"
 import topimage from "./resourse/topimage.svg";
+import { Helmet } from 'react-helmet';
 const Orm = () => {
   const services = [
     {
@@ -67,6 +68,19 @@ const Orm = () => {
 
 
   return (
+
+<>
+
+
+    <Helmet>
+<title>Online Reputation Management (ORM) Services</title>
+<meta name="description" content="WebNest Media is one of the best Online Reputation Management Company that protects your brand's image from negative search results. We Protect, Monitor, and Enhance." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
+
+    </Helmet>
+
     <div className='mt-[120px] max-lg:mt-[20px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] 
   '>
     <div className="topsection">
@@ -323,6 +337,7 @@ const Orm = () => {
 
 
     </div>
+    </>
   )
 }
 

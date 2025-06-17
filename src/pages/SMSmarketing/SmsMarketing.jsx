@@ -9,14 +9,26 @@ import icon4 from './resources/icon4.svg'
 import icon5 from './resources/icon5.svg'
 import icon6 from './resources/icon6.svg'
 import Accordion from './components/Accordian'
+import { Helmet } from 'react-helmet'
 const SmsMarketing = () => {
-     <div className="mmc1 relative ">
-        <img src={topimage} alt="" className='w-[100%] h-auto' />
-        <h1 className='absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
-        <span className='text-[#4CAF50]'>Mobile</span> Marketing
-        </h1>
-    </div>
+
+
+
+  
   return (
+
+    <>
+    
+  
+    <Helmet>
+
+<title>SMS Marketing Services in Gurgaon | WebNest Media</title>
+<meta name="description" content="Reach customers instantly with WebNest Media's powerful SMS marketing services. Drive sales, send alerts, and boost engagement directly to mobile phones." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/sms-marketing"></link>
+    </Helmet>
+
     <div className='mt-[50px] max-w-[1440px] w-[100%] mx-auto'>
        <div className="smsc1 relative">
             {/* Background image */}
@@ -111,6 +123,7 @@ const SmsMarketing = () => {
           <Accordion></Accordion>
       </div>
     </div>
+      </>
   )
 }
 

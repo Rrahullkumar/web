@@ -12,6 +12,7 @@ import Accordion from './components/Accordian';
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 const Leadgeneration = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -65,6 +66,20 @@ const Leadgeneration = () => {
   };
 
   return (
+
+    <>
+    
+    <Helmet>
+
+
+      <title>Lead Generation Services | Drive Qualified Leads & Growth</title>
+<meta name="description" content="Power your sales pipeline with WebNest Media's expert lead generation services. We attract, develop, and convert qualified leads to accelerate your business growth." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/lead-generation" />
+    </Helmet>
+
+
     <div className='max-w-[1440px] w-[100%] mx-auto mt-[50px]'>
       <div className="lgc1 relative">
         <img src={topimage} alt="" className='w-[100%] h-auto' />
@@ -241,6 +256,8 @@ const Leadgeneration = () => {
             <Accordion></Accordion>
         </div>
     </div>
+
+      </>
   );
 };
 

@@ -7,8 +7,22 @@ import icon3 from './resources//icon3.svg'
 import icon4 from './resources//icon4.svg'
 import { FiPhone } from "react-icons/fi";
 import Accordion from './components/Accordian'
+import { Helmet } from 'react-helmet'
 const Emailmarketing = () => {
   return (
+
+    <>
+    
+
+    <Helmet>
+
+<title>Email Marketing Services | Unlock Sales with Email</title>
+<meta name="description" content="Our expert team helps businesses create engaging, personalized email marketing that drives real results and keeps customers coming back." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/email-marketing" />
+    </Helmet>
+
     <div className='mt-[50px] '>
       <div className="emailc1 relative">
                   {/* Background image */}
@@ -201,6 +215,7 @@ const Emailmarketing = () => {
         </div>
 
     </div>
+        </>
   )
 }
 

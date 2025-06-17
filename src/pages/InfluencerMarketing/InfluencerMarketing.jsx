@@ -10,6 +10,18 @@ import c5img from './resources/c5contaisner.svg'
 import Accordion from './components/Accordian';
 const InfluencerMarketing = () => {
   return (
+
+    <>
+    
+  
+    <Helmet>
+
+      <title>Influencer Marketing Agency | Connect with Creators</title>
+<meta name="description" content="Ready to get your brand noticed? We connects you with the perfect creators for campaigns that truly resonate and get results." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/influencer-marketing"></link>
+    </Helmet>
     <div className="mt-[50px]">
       {/* Top Image Banner */}
       <div className="imc1 relative">
@@ -112,6 +124,7 @@ const InfluencerMarketing = () => {
       </div>
 
     </div>
+      </>
   );
 };
 

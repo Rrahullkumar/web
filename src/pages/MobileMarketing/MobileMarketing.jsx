@@ -70,6 +70,17 @@ const MobileMarketing = () => {
 
     
         return (
+            <>
+            
+         
+            <Helmet>
+
+                <title>Mobile Marketing Services | Reach Customers via Mobile</title>
+<meta name="description" content="Boost your brand's reach with WebNest Media's mobile marketing agency. From SMS campaigns to app marketing, we connect you with customers on their devices." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
+            </Helmet>
             <div className='mt-[50px]'>
             <div className="mmc1 relative ">
                     <img src={topimage} alt="" className='w-[100%] h-auto' />
@@ -185,6 +196,8 @@ const MobileMarketing = () => {
                     <Accordion></Accordion>
                 </div>
             </div>
+
+               </>
         )
 }
 

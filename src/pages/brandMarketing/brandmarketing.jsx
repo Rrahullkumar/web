@@ -28,6 +28,7 @@ import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 
 import Accordian from "./component/Accordian";
+import { Helmet } from 'react-helmet'
 const Brandmarketing = () => {
 
   const cards = [
@@ -138,6 +139,18 @@ const Brandmarketing = () => {
   ];
 
   return (
+
+    <>
+    
+
+    <Helmet>
+
+      <title>Brand Strategy & Marketing Services | WebNest Media</title>
+<meta name="description" content="Our branding strategy services include market research and brand positioning to attract the right customers and grow brand loyalty." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
+    </Helmet>
     <div className='mt-[120px] '>
       <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px]" style={{ fontFamily: 'Segoe UI' }} >
         <h6 className='text-[52px]  text-center'>
@@ -388,6 +401,7 @@ const Brandmarketing = () => {
 
 
     </div>
+        </>
   )
 }
 

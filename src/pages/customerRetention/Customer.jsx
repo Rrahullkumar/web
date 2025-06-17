@@ -12,9 +12,25 @@ import c5image from './resources/c5image.svg'
 import Accordion from './Components/Accordian'
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
+import { Helmet } from 'react-helmet'
 const Lead = () => {
  
   return (
+
+    <>
+    
+
+<Helmet>
+
+
+
+
+    <title>Top Customer Retention Agency in Gurgaon | WebNest Media</title>
+<meta name="description" content="Keep your best customers coming back with simple and effective retention strategies. WebNest Media helps you boost loyalty, reduce churn, and grow your business." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/customer-retention" />
+  </Helmet>
    <div className='mt-[150px] max-w-[1440px] w-[100%] mx-auto '>
         
       <div className="lmc2">
@@ -188,6 +204,7 @@ const Lead = () => {
       </div>
                     
     </div>
+    </>
   )
 }
 
