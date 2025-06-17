@@ -28,7 +28,7 @@ const DigitalTranformationservice = () => {
          <h2><span className='text-[#4CAF50]'>Digital Transformation</span> Services</h2>
       </div>
       <div className="dtc1 mb-[96px]">
-        <h1 className='text-center text-[52px] mb-[12px]'>
+        <h1 className='text-center text-[52px] mb-[12px] font-semibold'>
           Digital Transformation
           <span className='text-[#4CAF50]'><br /> Services </span>
         </h1>
@@ -47,7 +47,7 @@ const DigitalTranformationservice = () => {
       {/* Section 2 */}
       <div className="dtc2 flex flex-row mb-[96px]">
         <div className="dtc2left w-[60%] ml-[40px]">
-          <h2 className='text-[48px] mb-[32px]'>
+          <h2 className='text-[48px] mb-[32px] font-semibold'>
             Not sure what is digital transformation? Let’s understand it in plain language.
           </h2>
           <p>
@@ -66,7 +66,7 @@ const DigitalTranformationservice = () => {
       {/* Section 3 */}
       <div className="dtc3 ml-[40px] mb-[96px]">
           <div >
-              <h2 className='text-[48px] mb-[35px]'>Digital Transformation Services We Offer</h2>
+              <h2 className='text-[48px] mb-[35px] font-semibold'>Digital Transformation Services We Offer</h2>
               <p className='text-[16px] w-[60%]'>
                 At WebNest Media, we don’t just help you "go digital"—we help you transform how your business works, connects, and grows. Our digital transformation services are designed to boost efficiency, elevate customer experiences, and future-proof your business with the right tech solutions.
               </p>
@@ -157,7 +157,7 @@ const DigitalTranformationservice = () => {
       </div>
       <div className="dtc4 flex flex-row mb-[96px]">
         <div className="dtc4 left w-[60%] ml-[40px]">
-          <h2 className='text-[48px] mb-[32px]'>
+          <h2 className='text-[48px] mb-[32px] font-semibold'>
             We Are a Leading Digital Transformation Solutions Company
           </h2>
           <div className='text-[16px] leading-[150%]'>
@@ -182,8 +182,8 @@ const DigitalTranformationservice = () => {
         </div>
       </div>
        <div className="dtc4 flex flex-row gap-10">
-        <div className="dtc4 left w-[60%] ml-[40px]">
-          <h2 className='text-[48px] mb-[32px]'>
+        <div className="dtc4 left w-[70%] ml-[40px]">
+          <h2 className='text-[48px] mb-[32px] font-semibold'>
             Advantages of Digital Transformation          </h2>
           <div className='text-[16px] leading-[150%]'>
             <p>

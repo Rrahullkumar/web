@@ -17,14 +17,15 @@
 
 .amc2-left {
   flex: 1;
-  width: 50%;
+  width: 60%;
   max-width: 900px;
 }
 
 .amc2-heading {
   font-size: 52px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  font-weight:600;
+  margin-bottom: 52px;
+  line-height: 152%;
 }
 
 .amc2-desc {
@@ -121,6 +122,9 @@
   text-align: right;
   width: 50%;  /* optional, depends on your design */
   font-size: 16px;
+  @apply 
+    leading-relaxed
+  
 }
 .amc3-table {
   margin-top: 50px;
@@ -149,7 +153,7 @@
 
 .amc3-description {
   flex: 2;
-  text-align: right;
+  text-align: left;
   font-size: 16px;
   color: #555;
 }
@@ -188,18 +192,20 @@
 .affiliate-benefits-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
+
   text-align: center;
 }
 
 .affiliate-benefit-card {
+  display: flex;
+  flex-direction: col;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
-
 .affiliate-icon {
   height: 48px;
   margin-bottom: 20px;
-  padding-left: 70px;
 }
 
 .affiliate-benefit-card h3 {

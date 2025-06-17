@@ -10,8 +10,6 @@ import step2 from './resources/step2.svg';
 import step3 from './resources/step3.svg';
 import step4 from './resources/step4.svg';
 import step5 from './resources/step5.svg';
-
-
 import cneterstroke from "./resources/centerpaint.svg"
 import leftpaint from "./resources/leftpaint.svg"
 import rightpaint from "./resources/rightpaint.svg"
@@ -157,9 +155,9 @@ useEffect(() => {
 
 
 
-<h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px] ">
-  {text}
-</h2>
+      <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px] ">
+        {text}
+      </h2>
 
 
 
@@ -182,8 +180,8 @@ useEffect(() => {
             boosting your rankings and growing your business.
           </p>
           <div className="c2buttons">
-            <button className='greenbutton'>Learn More</button>
-            <button className='whitebutton'>Contact Us</button>
+            <button className='c2greenbutton'>Learn More</button>
+            <button className='c2whitebutton'>Contact Us</button>
           </div>
         </div>
         <div className="c2right">
@@ -211,7 +209,7 @@ useEffect(() => {
         <h2 className="trust-heading ml-[40px] font-semibold">
           Why Businesses Trust <span className="highlight">Webnest Media</span> for SEO?
         </h2>
-        <p className="trust-subheading ml-[40px] mb-[40px]">
+        <p className="trust-subheading ml-[40px] mb-[40px] w-[70%]">
           Your web presence can be made or broken by your choice of SEO partner. At <span className="highlight">Webnest Media</span>, we reject formula approaches and false promises. We believe in real results, honest work, and long-term success.
         </p>
       <div className="trust-card-container">
@@ -226,7 +224,7 @@ useEffect(() => {
       </div>
 
       </div>
-      <div className="container5 bg-white">
+      <div className="container5 ">
         <p className="service-label text-center" style={{ fontSize: 20, fontWeight: 400 }}>Our Services</p>
         <h2 className="process-heading text-center">
           Proven <span className="highlight">SEO Process</span>
@@ -264,12 +262,17 @@ useEffect(() => {
               icon: step5,
             },
           ].map((item, index) => (
-            <div className="seo-step-card h-277" key={index}>
-              <img src={item.icon} alt={item.title} className="step-icon" />
-              <div className="step-meta">
-                <span className="step-tag">STEP</span>
-                <span className="step-number">{item.step}</span>
+            <div className="seo-step-card" key={index}>
+              <div>
+              <div className="step-meta pb-8 ">
+                <img src={item.icon} alt={item.title} className="step-icon" />
+               <div className='flex flex-col gap-2 '>
+                 <span className="step-tag">STEP</span>
+                <span className="step-number text-end">{item.step}</span>
+               </div>
               </div>
+              </div>
+              
               <h3 className="step-title">{item.title}</h3>
               <p className="step-desc">{item.text}</p>
             </div>

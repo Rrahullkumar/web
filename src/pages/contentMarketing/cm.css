@@ -61,9 +61,7 @@
   max-width: 100%;
 }
 /* Stats & Trust Section */
-.container3, .container4, .container5 {
-  padding: 40px 20px;
-}
+
 .c2_cards {
   flex-direction: column;
   justify-content: center;

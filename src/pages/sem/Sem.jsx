@@ -380,7 +380,7 @@ const Sem = () => {
   </Helmet>
 
 
-    <div className='mt-[120px]  max-w-[1440px] w-[100%] mx-auto  w-[100%] ' >
+    <div className='mt-[120px]  max-w-[1440px] w-[100%] mx-auto ' >
       <div className="container_1">
         <div>
           <img src={SEM1} alt="Search Engine Marketing" className="c1_img" />
@@ -486,7 +486,7 @@ const Sem = () => {
       </div>
       <div className="banner">
         <h2>Start Your Campaign Today</h2>
-        <p>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
+        <p className='bannerpara'>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
       </div>
         <div className="FAQS">
   

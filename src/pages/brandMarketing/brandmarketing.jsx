@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./brand.css"
-
-
 import box1 from "./resources/box1.svg"
 import box2 from "./resources/box2.svg"
 import box3 from "./resources/box3.svg"

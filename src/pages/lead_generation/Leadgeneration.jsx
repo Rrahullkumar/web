@@ -74,8 +74,8 @@ const Leadgeneration = () => {
       </div>
 
       <div className="lgc2 flex flex-col justify-center items-center w-[calc(100%-80px)] mx-auto">
-        <h2 className='text-[52px] text-center mt-[60px]'>
-          B2B Lead Generation <span className='text-[#4CAF50]'><br />Services</span>
+        <h2 className='text-[52px] text-center mt-[60px] font-semibold'>
+          B2B Lead Generation <span className='text-[#4CAF50] font-normal'><br />Services</span>
         </h2>
         <p className='text-[18px] text-center mt-[31px] w-[70%] font-semibold mb-10'>
           In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
@@ -85,7 +85,7 @@ const Leadgeneration = () => {
 
       <div className="lgc3 mt-[93px] flex flex-row ml-[40px] h-[555px]">
         <div className="lgc3left w-[50%]">
-          <h2 className='text-[48px]'>Explore Our B2B Lead Generation Agency</h2>
+          <h2 className='text-[48px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
           <br />
           <p className='text-[16px] font-[350]'>
             Explore our lead generation agency and discover how we turn interest into real business opportunities. At WebNest Media, we don't just deliver leads—we deliver the right leads. Our strategies are built to connect your business with decision-makers who are ready to engage. Whether you're targeting startups or enterprise clients, we tailor campaigns that bring in high-quality prospects, reduce wasted time, and boost your ROI
@@ -105,7 +105,7 @@ const Leadgeneration = () => {
       </div>
 
         <div className="lgc4 flex flex-col justify-center items-center w-[calc(100%-80px)] mx-auto mt-[60px] mb-[60px]">
-            <h2 className='text-[48px] w-[70%] text-center mb-4 '>
+            <h2 className='text-[48px] w-[70%] text-center mb-4 font-semibold'>
                 Powering Your Pipeline with Proven Lead Generation Services
             </h2>
             <div className=" px-8 py-12 w-full max-w-4xl mx-auto rounded-lg ">
@@ -176,7 +176,7 @@ const Leadgeneration = () => {
                     <div className="flex-1 text-left text-[32px] font-semibold text-[#252429]">
                     {item.title}
                     </div>
-                    <div className="flex-2 text-right text-[16px] text-[#555] w-[50%]">
+                    <div className="flex-2 text-left text-[16px] text-[#555] w-[50%]">
                     {item.description}
                     </div>
                 </div>
@@ -185,7 +185,7 @@ const Leadgeneration = () => {
             </div>
 
             <div className="lgc5 mt-[40px] flex flex-col justify-center items-center w-[calc(100%-80px)] mx-auto">
-                <h2 className='text-[48px] w-[50%] text-center'>Why Choose WebNest Media Lead Generation?</h2>
+                <h2 className='text-[48px] w-[50%] text-center font-semibold'>Why Choose WebNest Media Lead Generation?</h2>
                 <div className="lgc5cards grid grid-cols-4 mt-[80px] ">
                     {data.map((item,index)=>(
                         <div className="lgc5card flex flex-col items-center text-center ">
