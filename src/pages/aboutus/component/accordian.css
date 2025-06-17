@@ -12,7 +12,7 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   gap: 10%;
   width: 90%;
-  margin: 2rem auto;
+  margin: 2rem 0;
   border-radius: 10px;
 }
 

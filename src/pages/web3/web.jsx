@@ -85,9 +85,9 @@ const cardData = [
 
     </Helmet>
   
-   <div className='mt-[100px]   w-[100%] max-w-[1440px]  mx-auto '>
+   <div className='mt-[100px]    mx-auto '>
 
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 bg-white relative overflow-hidden">
+    <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">
       
       {/* Left Content */}
       <div className="w-full md:w-1/2 text-center md:text-left">
@@ -122,7 +122,7 @@ const cardData = [
     </section>
 
 
-<section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 bg-white">
+<section className="flex max-w-[1440px] mx-auto  w-[100%] flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 ">
       
         {/* Left Circle Image Placeholder */}
       <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
