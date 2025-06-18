@@ -141,10 +141,10 @@
 
 .h1tag {
   font-size: 46px;
-  font-weight: 500;
+  font-weight: 800;
   margin: 10px 0;
   line-height: 1.3em;
-  -webkit-text-stroke: 4px;
+  /* -webkit-text-stroke: 4px; */
 
 }
 

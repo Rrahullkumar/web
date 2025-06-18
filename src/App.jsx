@@ -67,11 +67,12 @@ const App = () => {
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<Conatct />} />
           <Route path="/lead-generation" element={<Leadgeneration/>}></Route>
-          <Route path="*" element={<Navigate to="/" replace />} />
           <Route path="/mobile-marketing" element={<MobileMarketing/>}></Route>
           <Route path='/influencer-marketing' element={<InfluencerMarketing/>}></Route>
           <Route path='/sms-marketing' element={<SmsMarketing/>}></Route>
           <Route path='/email-marketing' element={<Emailmarketing/>}></Route>
+          <Route path="*" element={<Navigate to="/" replace />} />
+      
         </Routes>
         <Footer />
 
