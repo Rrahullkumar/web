@@ -38,7 +38,7 @@ const AboutUS = () => {
 
   
   return (
-  <div className=" mt-[120px] px-4">
+  <div className=" mt-[120px]">
 
  <h4 className='text-center mt-[200px]  text-[48px] leading-[100%]'> <span className='font-semibold text-green-500'> About </span> <span className='font-normal text-black'>US</span> </h4>
 
