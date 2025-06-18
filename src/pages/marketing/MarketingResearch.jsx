@@ -14,8 +14,6 @@ import  m6img from './resources/m6img.svg'
 import m66img from './resources/m66img.svg'
 import m7img from './resources/m7img.svg'
 import m8img from './resources/m8img.svg'
-import { motion } from 'framer-motion'
-
 const MarketingResearch = () => {
 
 
@@ -24,7 +22,7 @@ const MarketingResearch = () => {
           <div className="mr1 max-w-[1440px] w-[100%] mx-auto flex flex-row max-md:flex-col px-[40px] max-md:px-[16px] items-center gap-4"
           
           >
-
+            
             <div className="mr1eft w-[60%] max-md:w-[100%] ">
                 <h2 className='text-[52px] max-md:text-[38px] mb-[36px]'>Let’s Decode Your Market Research Together</h2>
                 <p className='text-base'>Market research is evolving rapidly in today’s tech-driven world. With endless tools, platforms, and data streams available, brands and agencies often find themselves overwhelmed—not by a lack of information, but by too much of it. That’s where WebNest Media steps in.
