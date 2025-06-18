@@ -13,6 +13,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  line-height: unset;
 }
 
 
@@ -56,24 +57,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+html {
+  scroll-behavior: smooth;
+  line-height: normal;
+}
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #EFF4EE; 
+  background: #EFF4EE;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #9BC394, #5C945C); 
+  background: linear-gradient(to bottom, #9BC394, #5C945C);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6B946A; 
+  background: #6B946A;
 }
+
 
 @media (max-width: 768px) {
   .slick-dots li button:before {

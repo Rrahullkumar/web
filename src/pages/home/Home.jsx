@@ -252,16 +252,81 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
     <>
 
 
-      <Helmet>
-        <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta name="description" content="Grow your business online with with WebNest Media the Top Digital Marketing Agency in Gurgaon. Expert SEO, PPC, and social media solutions that deliver results." />
-        <meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon," />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/" />
+
+<Helmet>
+  <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
+  <meta name="description" content="Grow your business online with WebNest Media..." />
+  <meta name="keywords" content="digital marketing company in India, ..." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/" />
+
+  {/* Organization Schema */}
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/logo-Ctugwc9Y.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "WebNest Media is a leading digital marketing agency in Gurgaon...",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1ST Floor ALTF Coworking, Orchid Business Park, Sector 48, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "HR",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "customer service"
+        },
+        "sameAs": [
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.instagram.com/webnestmediagroup?igsh=MTFscDJvdGRzYjd3Zw=="
+        ]
+      })
+    }}
+  />
+
+  {/* WebSite Schema */}
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://webnestmedia.com/#website",
+        "url": "https://webnestmedia.com/",
+        "name": "WebNest Media",
+        "description": "WebNest Media is a Gurgaon-based digital marketing agency specializing in SEO, SMM, PPC, Email Marketing, Influencer Marketing, and content strategy for businesses of all sizes.",
+        "publisher": {
+          "@id": "https://webnestmedia.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://webnestmedia.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      })
+    }}
+  />
+</Helmet>
 
 
-      </Helmet>
 
       <div className=' max-w-7xl mx-auto  homeclass '>
         <div className="context  flex items-center justify-center gap-[60px]   ">
