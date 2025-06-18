@@ -11,6 +11,8 @@ import Accordion from './components/Accordian';
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet'
+
 const MobileMarketing = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const tabData = [

@@ -8,6 +8,8 @@ import icon4 from './resources/icon4.svg';
 import icon5 from './resources/icon5.svg';
 import c5img from './resources/c5contaisner.svg'
 import Accordion from './components/Accordian';
+import { Helmet } from 'react-helmet';
+
 const InfluencerMarketing = () => {
   return (
 
