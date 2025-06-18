@@ -67,7 +67,7 @@ const AboutUS = () => {
             data-aos-offset="200"
             data-aos-delay="200"
             alt="WebNest Media Logo"
-            className="w-[450px] h-[450px] sm:w-[250px] sm:h-[250px] md:w-[200px] md:h-[200px] object-contain mx-auto md:mx-0"
+            className="w-[450px] h-[450px]  object-contain mx-auto md:mx-0"
           />
         </div>
       </section>
@@ -162,7 +162,7 @@ const AboutUS = () => {
           <img
             src={bulb}
             alt="WebNest Media Logo"
-            className="w-[345px] h-[485px] sm:w-[250px] sm:h-[250px] md:w-[200px] md:h-[200px] object-contain mx-auto md:mx-0"
+            className="w-[345px] h-[485px]  object-contain mx-auto md:mx-0"
           />
         </div>
 
@@ -210,7 +210,7 @@ const AboutUS = () => {
         {/* Right Side - Team Member Highlight */}
         <div className="flex-1 text-center">
           <img
-            src={founder} // Replace with actual image path
+            src={founder} 
             alt="Stephanie Sobral"
             className="w-64 h-auto mx-auto mb-4 rounded"
           />
@@ -222,14 +222,14 @@ const AboutUS = () => {
       <section className="  max-w-[1440px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
         {/* Left Side: Text + Numbers */}
-        <div className="w-[45%] max-lg:w-full">
+        <div className="w-[100%] max-lg:w-full">
           <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] ">
             Work With Us and Take <br />Your Business to the Next Level
           </h3>
           <p className="text-[17px] text-black mt-5 mb-5 ">
             We provide the tools, expertise, and support you need to grow faster,
-            <br /> reach more customers, and stay ahead of the competition.
-            <br /> Let’s take your business to the next level—together.
+             reach more customers, and stay ahead of the competition.
+             Let’s take your business to the next level—together.
           </p>
 
 
@@ -252,22 +252,12 @@ const AboutUS = () => {
 
         </div>
 
-        {/* Right Side: Contact Form */}
-        <div className="w-[45%] max-lg:w-full">
-          <Conatctfrom className="w-full" />
-        </div>
-
-
 
 
       </section>
 
-
-
-
-
       <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[60px] mb-[50px]'>
-        <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
+        <h2 className='mt-[40px] text-[black] font-normal  text-center leading-[160%]
           text-[22px]           
     sm:text-[23px]        
     md:text-[36px]        
