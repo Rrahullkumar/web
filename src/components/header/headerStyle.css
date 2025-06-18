@@ -1,9 +1,19 @@
-.bookdemo {
-  border-radius: 5px;
+/* Shutter dropdown effect */
+.dropdown-container {
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease, visibility 0.3s ease;
+ 
 
 }
+.dropdown-container.open {
+  max-height: 70vh;
+  height: 100%;
 
-.borderradius {
-  
-  border-radius: 5px;
+  visibility: visible;
+   padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }

@@ -60,11 +60,12 @@ const App = () => {
           <Route path="/affiliate-marketing" element={<Affilatemarketing />} />
           <Route path="/brand-strategy" element={<Brandmarketing />} />
           <Route path="/customer-retention" element={<Customer />} />
-          <Route path="/online-reputation-managment" element={<Orm />} />
+          <Route path="/online-reputation-management" element={<Orm />} />
           <Route path="/digital-transformation" element={<DigitalTranformationservice />} />
           <Route path="/market-research" element={<MarketingResearch />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Conatct />} />
+
+          <Route path="/about-us" element={<About />} />
+          <Route path="/contact-us" element={<Conatct />} />
           <Route path="/lead-generation" element={<Leadgeneration/>}></Route>
           <Route path="*" element={<Navigate to="/" replace />} />
           <Route path="/mobile-marketing" element={<MobileMarketing/>}></Route>

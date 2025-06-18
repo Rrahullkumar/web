@@ -10,6 +10,7 @@ import Right_Arrow from './resources/Right_Arrow.svg';
 import image_6 from './resources/image_6.svg'
 import image_7 from './resources/image_7.svg'
 import topimage from './resources/topimage.svg';
+import { Helmet } from 'react-helmet';
 const DigitalTranformationservice = () => {
   const sliderRef = useRef(null);
 
@@ -21,6 +22,7 @@ const DigitalTranformationservice = () => {
     sliderRef.current.scrollBy({ left: 400, behavior: 'smooth' });
   };
 
+  
   return (
 <>
 

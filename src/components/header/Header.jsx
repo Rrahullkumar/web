@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import DesktopHeader from "./DesktopHeader";
+// import DesktopHeader from "./DesktopHeader";
+import NewdesktopHeader from "./newdesktopHeader";
 import MobileHeader from "./MobileHeader";
 
 export default function Header() {
@@ -19,5 +20,6 @@ export default function Header() {
   // Wait until screen size is known
   if (isMobile === null) return null;
 
-  return isMobile ? <MobileHeader /> : <DesktopHeader />;
+  // return isMobile ? <MobileHeader /> : <DesktopHeader />;
+  return isMobile ? <MobileHeader /> : <NewdesktopHeader />;
 }
