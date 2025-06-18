@@ -53,7 +53,6 @@ const menuItems = [
       { title: "Careers", path: "/careers" },
       { title: "Contact", path: "/contact" },
       { title: "Insight", path: "/insight" },
-      
     ]
   }
 ];

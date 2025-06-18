@@ -63,7 +63,6 @@ const App = () => {
           <Route path="/online-reputation-managment" element={<Orm />} />
           <Route path="/digital-transformation" element={<DigitalTranformationservice />} />
           <Route path="/market-research" element={<MarketingResearch />} />
-
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Conatct />} />
           <Route path="/lead-generation" element={<Leadgeneration/>}></Route>
@@ -72,6 +71,7 @@ const App = () => {
           <Route path='/influencer-marketing' element={<InfluencerMarketing/>}></Route>
           <Route path='/sms-marketing' element={<SmsMarketing/>}></Route>
           <Route path='/email-marketing' element={<Emailmarketing/>}></Route>
+
         </Routes>
         <Footer />
 
