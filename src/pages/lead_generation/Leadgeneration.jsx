@@ -132,7 +132,7 @@ const Leadgeneration = () => {
                     >
                     <span>{item.title}</span>
                     <ChevronDown
-                        className={`w-6 h-6 text-gray-600 font-thin transform transition-transform duration-100 ease-in-out rounded-full border ${
+                        className={`w-6 h-6 text-gray-600 font-thin transform transition-transform duration-1=300 ease-in-out rounded-full border ${
                         openIndex === index ? 'rotate-180' : ''
                         }`}
                     />
