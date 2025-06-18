@@ -85,15 +85,15 @@ const Affilatemarketing = () => {
 
 </Helmet>
 
-    <div className='  mt-[120px] max-w-[1440px] w-[100%] mx-auto vcc'>
-      <div className="amc1 mb-[5px] h-[300px]">
-        <h1 id="amc1h1" className='relative text-center'>
+    <div className='  mt-[120px] '>
+      <div className="mb-[5px] max-w-[1440px] w-[100%] mx-auto">
+        <h1 className=' text-[52px] max-lg:[38px] relative text-center text-[#4CAF50]'>
           Affiliate Marketing Agency<span className='text-black'><br />in Gurgaon</span>  
         </h1>
 
-        <h2 className="heading-styled relative h-[70px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[15px] ml-[44%]  ">
+        {/* <h2 className="heading-styled relative h-[70px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[15px] ml-[44%]  ">
           {text}
-        </h2>
+        </h2> */}
 
 
 
@@ -102,22 +102,25 @@ const Affilatemarketing = () => {
 
 
 
-      <div className="amc2">
-        <div className="amc2-left">
-          <h2 className="amc2-heading">Affiliate Marketing?</h2>
-          <p className="amc2-desc">
+      <div className=" max-w-[1440px] w-[100%] mx-auto flex flex-row max-lg:flex-col-reverse px-[40px] max-lg:px-[16px] mt-[96px] justify-between">
+        <div className="lg:w-[60%]">
+          <h2 className="text-[52px] max-lg:[38px] mb-12">Affiliate Marketing?</h2>
+          <p className="text-base ">
             Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services. 
             You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
           </p>
-          <h3 className="amc2-subheading">It's a Win-Win:</h3>
-          <ul className="amc2-list">
-            <li>The company gets more sales.</li>
-            <li>The customer gets what they're looking for.</li>
-            <li>And you get paid for making the connection.</li>
+          <br />
+          <h3 className="text-2xl font-semibold mb-4">It's a Win-Win:</h3>
+          
+          <ul className="text-base mb-12 leading-[160%] ">
+            <li>• The company gets more sales.</li>
+            
+            <li>• The customer gets what they're looking for.</li>
+            <li>• And you get paid for making the connection.</li>
           </ul>
-          <div className="amc2-buttons">
-            <button className="amc2-btn amc2-btn-learn">Learn More</button>
-            <button className="amc2-btn amc2-btn-contact">Contact Us</button>
+            <div className="c2buttons">
+            <button className='p-3 bg-[#4CAF50] rounded-lg text-white'>Learn More</button>
+            <button className='p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg'>Contact Us</button>
           </div>
         </div>
 
@@ -128,72 +131,92 @@ const Affilatemarketing = () => {
       </div>
 
 
-      <div className="amc3-container mt-[96px]">
-        <div className="amc3-subcontainer">
-          <h2 className="amc3-heading">Affiliate Marketing Types</h2>
-          <p className="amc3-subheading text-base leading-relaxed">
-            Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
-            You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
-          </p>
-        </div>
-        <div className="amc3-content">
-          <div className="amc3-image">
-            <img src={amc3img} alt="Affiliate Marketing Illustration" />
+      <div className="mt-[96px] max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+        
+
+        <div className="mt-[96px] px-[40px] ">
+          {/* Heading and Description */}
+          <div className="flex flex-col items-end mb-[52px] translate-y-20">
+            <h2 className="text-[52px] max-lg:[38px] font-semibold mb-12 text-right">Affiliate Marketing Types</h2>
+            <p className="text-base leading-relaxed text-right w-full max-w-[750px]">
+              Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
+              You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
+            </p>
           </div>
-          <div className="amc3-table">
-              {[
-                {
-                  number: '01',
-                  title: 'Unattached Affiliate Marketing',
-                  description:
-                    'No personal connection or niche authority. Affiliates run ads or share links without recommending the product. It’s simple but less trustworthy and often less effective.',
-                },
-                {
-                  number: '02',
-                  title: 'Related Affiliate Marketing',
-                  description:
-                    'Affiliates have a niche-related audience but haven’t used the product. They leverage their platform to drive traffic based on relevance, not personal experience.',
-                },
-                {
-                  number: '03',
-                  title: 'Involved Affiliate Marketing',
-                  description:
-                    'Affiliates use the product and share real experiences. This builds strong trust and often boosts conversions, but it also means their reputation is tied to the product’s quality.',
-                },
-              ].map((item, index) => (
-                <div className="amc3-row" key={index}>
-                  <div className="amc3-title ">
-                    {/* <span className="amc3-number text-[#252429]">{item.number}</span>{' '} */}
-                    <span className="amc3-text-title">{item.title}</span>
+
+          {/* Content Section */}
+            <div className="flex max-lg:flex-col justify-between gap-5 items-center">
+              {/* Image */}
+              <div className="max-lg:mb-[40px] flex justify-center lg:w-[40%]">
+                <img src={amc3img} alt="Affiliate Marketing Illustration" className="mb-[100px]" />
+              </div>
+
+              {/* Cards */}
+              <div className="flex flex-col gap-[20px] w-full lg:w-[60%]">
+                
+                {/* Card 1 */}
+                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                  <div className="flex gap-4 items-start">
+                    <span className="text-[18px] font-semibold text-[#888]">01</span>
+                    <div className="text-left text-[28px] font-semibold">
+                      Unattached Affiliate Marketing
+                    </div>
                   </div>
-                  <div className="amc3-description w-[60%]">
-                    {item.description}
+                  <div className="text-left text-[16px] text-[#555] lg:w-[60%]">
+                    No personal connection or niche authority. Affiliates run ads or share links without recommending the product. It’s simple but less trustworthy and often less effective.
                   </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                  <div className="flex gap-4 items-start">
+                    <span className="text-[18px] font-semibold text-[#888]">02</span>
+                    <div className="text-left text-[28px] font-semibold">
+                      Related Affiliate Marketing
+                    </div>
+                  </div>
+                  <div className="text-left text-[16px] text-[#555] lg:w-[60%]">
+                    Affiliates have a niche-related audience but haven’t used the product. They leverage their platform to drive traffic based on relevance, not personal experience.
+                  </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                  <div className="flex gap-4 items-start">
+                    <span className="text-[18px] font-semibold text-[#888]">03</span>
+                    <div className="text-left text-[28px] font-semibold">
+                      Involved Affiliate Marketing
+                    </div>
+                  </div>
+                  <div className="text-left text-[16px] text-[#555] lg:w-[60%]">
+                    Affiliates use the product and share real experiences. This builds strong trust and often boosts conversions, but it also means their reputation is tied to the product’s quality.
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div className="amc4 mb-[96px] pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto bg-[#EFF4EE] ">
+          <div className=" pb-[72px] text-center">
+          <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
+          <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom:15}}> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
+          <p className='text-base mb-14'>
+              Drive results through performance-based partnerships – only pay when you earn.
+          </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-2  ">
+              {statsData.map((item, index) => (
+                <div className="stat-card " key={index}>
+                  <h2 className="stat-number">{item.number}</h2>
+                  <p className="stat-label ">{item.label}</p>
                 </div>
               ))}
             </div>
-
         </div>
-      </div>
-      <div className="amc4 mb-[96px]">
-          <div className="container3 pb-[72px]">
-        <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service</p>
-         <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom:15}}> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
-        <p style={{ fontSize: 16}}>
-            Drive results through performance-based partnerships – only pay when you earn.
-        </p>
-        <div className="c2_cards">
-          {statsData.map((item, index) => (
-            <div className="stat-card" key={index}>
-              <h2 className="stat-number">{item.number}</h2>
-              <p className="stat-label">{item.label}</p>
-            </div>
-          ))}
-        </div>
-      </div>
 
       </div>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
         <h2 className="trust-heading mt-[40px] ml-[40px] font-semibold text-6xl leading-[72px] w-[60%] text-center mb-[52px]">
           <span className="highlight">WebNest</span> Media's Affiliate Marketing
         </h2>
@@ -279,7 +302,7 @@ const Affilatemarketing = () => {
 
 
      
-        <div className="amc5 flex flex-row max-w-[1200px] justify-between items-center ml-[40px] mr-[40px] ">
+        <div className="amc5 flex flex-row max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-between items-center ">
           <div className="amc5-left w-[80%]">
             <h2 className="text-[52px] font-semibold mb-[42px]">Can you make money with <span className='highlight'>Affiliate Marketing?</span> </h2>
             <p className="leading-relaxed text-base">
@@ -296,7 +319,7 @@ const Affilatemarketing = () => {
             {/* <div className="amc2-tag">SHARE WITH FOLLOWERS</div> */}
           </div> 
         </div>
-        <div className="container6 mt-[96px] ">
+        <div className="max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto container6 mt-[96px] ">
         <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
           {/* Left Side: Text + Numbers */}

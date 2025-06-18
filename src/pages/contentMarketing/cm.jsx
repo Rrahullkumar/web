@@ -161,8 +161,8 @@ const ContentMarketing = () => {
 
           </p>
           <div className="c2buttons">
-            <button className='greenbutton'>Learn More</button>
-            <button className='whitebutton'>Contact Us</button>
+            <button className='p-3 bg-[#4CAF50] rounded-lg text-white'>Learn More</button>
+            <button className='p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg'>Contact Us</button>
           </div>
         </div>
         <div className="c2right">

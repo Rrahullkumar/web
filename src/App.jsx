@@ -34,6 +34,14 @@ import Emailmarketing from './pages/emailmarketing/Emailmarketing'
 const App = () => {
 
 
+
+
+
+
+
+
+  
+
   useEffect(() => {
     AOS.init({
       duration: 800,

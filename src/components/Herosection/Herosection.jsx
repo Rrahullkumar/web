@@ -1,9 +1,18 @@
 import React from 'react'
 
-const Herosection = () => {
+const Herosection = ({image, heading, subheading}) => {
+  
   return (
-    <div>
-      
+    <div className='' style={{backgroundImage:`${props}`}}>
+      <div className="flex">
+        <div className="flex  flex-col justify-center items-center">
+          <h1>{heading}</h1>
+          <p>{subheading}</p>
+        </div>
+        <div className="">
+
+        </div>
+      </div>
     </div>
   )
 }
