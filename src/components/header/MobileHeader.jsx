@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/newlogo.svg";
 import { Link } from "react-router-dom";
 
 const menuItems = [
@@ -79,10 +79,7 @@ export default function MobileHeader() {
           <Link to="/">
             <img src={logo} alt="WebNest Media Logo" className="w-[80px] h-[80px] rounded-full cursor-pointer" />
           </Link>
-          <div>
-            <h6 className="text-[#5c945c] font-bold">WebNest Media</h6>
-            <p className="text-[grey] text-[10px]">(Nest your brand in the web of success)</p>
-          </div>
+         
         </div>
         <button onClick={() => setOpen(!open)} className="text-[#9ac496]  z-[10000] relativeborder-[#9ac496]">
           {open ? <X size={24} /> : <Menu size={24} />}

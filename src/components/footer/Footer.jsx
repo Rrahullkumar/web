@@ -3,7 +3,7 @@
 import React from 'react';
 import FooterSection from './FooterSection';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
-import logo from '../../assets/logo.png';
+import blacklogo from '../../assets/blacklogo.svg';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             < Link to={"/"} >
-              <img src={logo} alt="WebNest Media Logo" className="w-[90px] h-[90px]" />
+              <img src={blacklogo} alt="WebNest Media Logo" className="w-[186px] " />
             </Link>
 
           </div>

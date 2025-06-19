@@ -92,7 +92,7 @@ export default function NewdesktopHeader() {
     }, []);
 
     return (
-        <header className="fixed top-0 left-0 w-full z-[99999] border-b border-[#9ac496] bg-white ">
+        <header className="fixed  top-0 left-0 w-full z-[99999] border-b border-[#9ac496] backdrop-blur-md ">
             <div className="max-w-[1440px] w-full mx-auto">
                 <div className="flex items-center justify-between px-4  py-4  max-xl:px-[20px]">
                     <div className="flex items-center gap-2">
@@ -146,10 +146,10 @@ export default function NewdesktopHeader() {
                                     <div
                                         onMouseEnter={() => openDropdown(index)}
                                         onMouseLeave={() => closeDropdownWithDelay()}
-                                        className={`fixed top-[97px] left-0 w-full bg-white z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
+                                        className={`fixed backdrop-blur-md  top-[78.5px]  left-0 w-full z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
                                             }`}
                                     >
-                                        <div className="flex items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
+                                        <div className=" flex backdrop-blur-md items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
                                             <div className="max-w-[1440px] w-full mx-auto flex justify-between">
                                                 {item.columns.map((col, colIndex) => (
                                                     <div key={colIndex}>

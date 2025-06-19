@@ -14,6 +14,8 @@ import cneterstroke from "./resources/centerpaint.svg"
 import leftpaint from "./resources/leftpaint.svg"
 import rightpaint from "./resources/rightpaint.svg"
 import { Helmet } from 'react-helmet';
+import HeroSection from '../../components/Herosection/Herosection.jsx';
+import  heroimage from "../../pages/seo/resources/heroimage.svg";
 
 const Seo = () => {
   const [text, setText] = useState('');
@@ -272,7 +274,15 @@ const Seo = () => {
         `}</script>
       </Helmet>
 
-      <section className='mt-[100px]   max-lg:mt-[0] w-[100%]'>
+      <section className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
+        
+             <HeroSection
+        backgroundImage={heroimage}
+        heading="SEO Company"
+        highlight="In Gurgaon"
+        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+      />
+
 
 
   <h1 className='text-[52px] max-md:text-[38px] font-semibold text-center mt-[200px] max-lg:mt-[50px] text-[#4caf50]'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1>
