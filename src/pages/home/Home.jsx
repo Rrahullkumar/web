@@ -234,16 +234,16 @@ const Home = () => {
   }, []);
 
 
-const images = [
-  slide11, slide5, slideone, slide6, slidetwo, slide7,
-  slidethree, slide8, slidefour, slide13, slide14,
-  slide15, slide16, slide17, slide9, slide12, slide10
-];
+  const images = [
+    slide11, slide5, slideone, slide6, slidetwo, slide7,
+    slidethree, slide8, slidefour, slide13, slide14,
+    slide15, slide16, slide17, slide9, slide12, slide10
+  ];
 
-const firstTrackImages = [...images, ...images]; // repeat once for loop effect
+  const firstTrackImages = [...images, ...images , ...images , ...images]; // repeat once for loop effect
 
-// Simple shuffled version of the same array
-const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
+  // Simple shuffled version of the same array
+  const shuffledImages = [...images, ...images, ...images, ...images].sort(() => Math.random() - 0.5);
 
 
 
@@ -252,23 +252,23 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
     <>
 
 
-<Helmet>
-  <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
-  <meta
-    name="description"
-    content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more."
-  />
-  <meta
-    name="keywords"
-    content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon"
-  />
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/" />
+      <Helmet>
+        <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
+        <meta
+          name="description"
+          content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more."
+        />
+        <meta
+          name="keywords"
+          content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="WebNest Media" />
+        <link rel="canonical" href="https://webnestmedia.com/" />
 
-  {/* Organization Schema */}
-    <script type="application/ld+json">
-      {`
+        {/* Organization Schema */}
+        <script type="application/ld+json">
+          {`
       {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -301,11 +301,11 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         ]
       }
       `}
-    </script>
+        </script>
 
-    {/* LocalBusiness Schema */}
-    <script type="application/ld+json">
-      {`
+        {/* LocalBusiness Schema */}
+        <script type="application/ld+json">
+          {`
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -351,11 +351,11 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         }
       }
       `}
-    </script>
+        </script>
 
-    {/* WebSite Schema */}
-    <script type="application/ld+json">
-      {`
+        {/* WebSite Schema */}
+        <script type="application/ld+json">
+          {`
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
@@ -376,11 +376,12 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         }
       }
       `}
-    </script>
+        </script>
 
-</Helmet>
+      </Helmet>
 
-      <div className=' max-w-7xl mx-auto  homeclass '>
+      <div className=' homeclass '>
+
         <div className="context  flex items-center justify-center gap-[60px]   ">
           <div className='text-part max-md:p-[40px] '>
             <div className="relative">
@@ -454,13 +455,13 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
 
 
 
-        <div className="z-[999] relative flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px]  gap-8">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto z-[999] relative flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px]  gap-8">
 
-          <div className="w-full lg:w-1/2">
+          <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
 
-              Building Brands with 
-              Integrity and Innovation 
+              Building Brands with
+              Integrity and Innovation
               Across India
             </h2>
             <p className="text-sm md:text-base text-black mt-4 mb-6">
@@ -477,156 +478,49 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
             <img
               src={marketingbanner}
               alt="Marketing Banner"
-              className="w-[400px] h-[400px] object-cover"
+              className="w-[400px] h-[400px] object-contain"
             />
           </div>
         </div>
 
-<div className="text-center flex flex-col items-center justify-center overflow-hidden" >
-  <p className=" text-[black] text-[20px] font-semibold">Our CLient's</p>
-  <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
-</div>
+        <div className="text-center flex flex-col items-center justify-center overflow-hidden" >
+          <p className=" text-[black] text-[20px] font-semibold">Our Client</p>
+          <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
+        </div>
 
 
 
         <div className="  slider-container"
 
- >
-{/*           
-          <div className="slider-track p-2">
-            <div className="box"><img src={slide11} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide5} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide6} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-            <div className="box"><img src={slide7} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide8} className="w-[100%] h-[100%] object-cover" /></div>
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide13} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide14} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide15} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide16} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide17} className="w-[100%] h-[100%] object-contain " /></div>
+        >
 
-            <div className="box"><img src={slide11} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide5} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide9} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-
-            <div className="box"><img src={slide12} className="w-[100%] h-[100%] object-contain" /></div>
-
-
-
-
-            <div className="box"><img src={slide6} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-
-
-            <div className="box"><img src={slide10} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slide13} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slide7} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide12} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide8} className="w-[100%] h-[100%] object-cover" /></div>
-
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide9} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-            <div className="box"><img src={slide14} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide15} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide16} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide17} className="w-[100%] h-[100%] object-contain " /></div>
-
-            <div className="box"><img src={slide10} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-
-          </div> */}
 
           <div className="slider-track p-2">
-  {firstTrackImages.map((img, index) => (
-    <div className="box" key={index}>
-      <img src={img} className="w-[100%] h-[100%] object-contain" />
-    </div>
-  ))}
-</div>
+            {firstTrackImages.map((img, index) => (
+              <div className="box" key={index}>
+                <img src={img} className="w-[100%] h-[100%] object-contain" />
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="slider-container2">
-              {/* <div className="slider-track2 p-2">
-            <div className="box"><img src={slide11} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide5} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide6} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-            <div className="box"><img src={slide7} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide8} className="w-[100%] h-[100%] object-cover" /></div>
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide13} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide14} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide15} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide16} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide17} className="w-[100%] h-[100%] object-contain " /></div>
 
-            <div className="box"><img src={slide11} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide5} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide9} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-
-            <div className="box"><img src={slide12} className="w-[100%] h-[100%] object-contain" /></div>
-
-
-
-
-            <div className="box"><img src={slide6} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-
-
-            <div className="box"><img src={slide10} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slide13} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slide7} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide12} className="w-[100%] h-[100%] object-contain" /></div>
-
-            <div className="box"><img src={slidefour} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide8} className="w-[100%] h-[100%] object-cover" /></div>
-
-            <div className="box"><img src={slidethree} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slide9} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"><img src={slidetwo} className="w-[100%] h-[100%] object-contain" /> </div>
-            <div className="box"><img src={slide14} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide15} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box"><img src={slide16} className="w-[100%] h-[100%] object-contain " /></div>
-            <div className="box "><img src={slide17} className="w-[100%] h-[100%] object-contain " /></div>
-
-            <div className="box"><img src={slide10} className="w-[100%] h-[100%] object-contain" /></div>
-            <div className="box"> <img src={slideone} className="w-[100%] h-[100%] object-contain" /></div>
-
-          </div> */}
           <div className="slider-track2 p-2">
-  {shuffledImages.map((img, index) => (
-    <div className="box" key={index}>
-      <img src={img} className="w-[100%] h-[100%] object-contain" />
-    </div>
-  ))}
+            {shuffledImages.map((img, index) => (
+              <div className="box" key={index}>
+                <img src={img} className="w-[100%] h-[100%] object-contain" />
+              </div>
+            ))}
+          </div>
+
         </div>
 
-</div>
 
-        <div className="  pl-[40px] pr-[40px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
+
+
+
+        <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
 
 
           <div className="flex justify-center md:w-[35%] ">
@@ -645,7 +539,7 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
 
         </div>
 
-        <div className='  flipcard bg-[white] p-[40px] transparenbody'>
+        <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] transparenbody'>
 
 
           <h2 className=" "> Service's we Offered</h2>
@@ -682,7 +576,7 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
 
 
 
-        <div className=" Slidercrausol  ">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto Slidercrausol  ">
           <h2 className="heading">One Partner. Every Platform. Endless Growth </h2>
 
           <Slider slides={autoSlide} autoSlideInterval={4000} />
@@ -692,7 +586,7 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         <div
           ref={secondREf}
           onMouseEnter={() => setCardTrigger(true)}
-          className="industriweserve mb-[30px] "
+          className="industriweserve mb-[30px] w-[100%] max-w-[1440px]  mx-auto "
 
         >
 
@@ -708,12 +602,10 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         </div>
 
 
-
-
         <div
           ref={thirdREf}
           onMouseEnter={() => setThirdtrigger(true)}
-          className=" mt-[130px] mb-[120px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[40px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
+          className=" max-w-[1440px]  mt-[130px] mb-[120px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[40px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
         >
           {/* Phone Icon */}
           <div className="mb-4 md:mb-0">
@@ -751,10 +643,7 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         <div
           ref={wrapperRef}
           onMouseEnter={() => setTrigger(true)}
-          className="  counter flex mt-[20px] flex-col md:flex-row items-center justify-center gap-10 px-6 py-12">
-
-
-
+          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[20px] flex-col md:flex-row items-center justify-center gap-10 px-6 py-12">
           <div
 
             className="w-full md:w-1/2 lg:w-[40%]"
@@ -762,8 +651,6 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
           >
             <Countarcard trigger={trigger} />
           </div>
-
-          {/* Text Content Section */}
           <div className="w-full md:w-1/2 lg:w-[50%] text-center md:text-left space-y-6">
             <h4 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
               Why Choose WebNest Media?
@@ -780,16 +667,10 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
         </div>
 
 
-        <div className=" tetonomial mt-[30px] mb-[40px]">
-
+        <div className=" w-[100%] max-w-[1440px]  mx-auto tetonomial mt-[30px] mb-[40px]">
           <ImageSlider data={testimonialsData} />
         </div>
-
-
-
-
-
-        <div className=" conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
+        <div className="w-[100%] max-w-[1440px]  mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
           {/* Left Side: Text + Numbers */}
           <div className="w-[45%] max-lg:w-full">
@@ -829,19 +710,10 @@ const shuffledImages = [...images,].sort(() => Math.random() - 0.5);
 
         </div>
 
-        <div className=" accordian">
-
-
+        <div className="w-[100%] max-w-[1440px]  mx-auto accordian">
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
-
-
           <Accordion />
         </div>
-
-
-
-
-
       </div>
     </>
   )

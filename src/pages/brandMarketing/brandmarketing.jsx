@@ -152,7 +152,7 @@ const Brandmarketing = () => {
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
     <div className='mt-[120px] '>
-      <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px]" style={{ fontFamily: 'Segoe UI' }} >
+      <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px]"  >
         <h6 className='text-[52px]  text-center'>
           <span className="font-normal">Brand</span>{' '}
           <span className="italic font-light">Strategy?</span>

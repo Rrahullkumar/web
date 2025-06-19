@@ -11,8 +11,8 @@ import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-   <footer className="bg-[#1A1D1C] text-white p-[40px] relative">
-      <div className="max-w-7xl mx-auto space-y-10">
+   <footer className="bg-[#1A1D1C] text-white p-[40px] max-md:px-4 relative " >
+      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10">
 
         {/* Top Section */}
         <div className="flex flex-col items-center max-sm:items-start lg:flex-row justify-between gap-10">
