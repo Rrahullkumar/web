@@ -5,6 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import newlogo from "../../assets/newlogo.svg";
 import mobilehedaer from "../../assets/headerbuld.svg"
 import "./headerStyle.css";
 
@@ -97,9 +98,9 @@ export default function NewdesktopHeader() {
                     <div className="flex items-center gap-2">
                         <Link to="/">
                             <img
-                                src={logo}
+                                src={newlogo}
                                 alt="WebNest Media Logo"
-                                className="w-[64px] h-[64px] rounded-full cursor-pointer"
+                                className=" w-[152px] cursor-pointer"
                             />
                         </Link>
                     </div>

@@ -243,11 +243,15 @@
 
 }
 
-
+.slider-container,.slider-container2{
+width: 100%;
+overflow: hidden;
+cursor: pointer;
+}
 .slider-track  {
   display: flex;
-   animation: scrollLeft 50s linear infinite; 
-  width: fit-content;
+   animation: scrollLeft 40s linear infinite; 
+  width: max-content;
    gap: 20px 20px;
   will-change: transform;
   transform: translate3d(0, 0, 0);
@@ -256,14 +260,22 @@
 
 .slider-track2  {
   display: flex;
-   animation: scrollRight 50s linear infinite; 
-  width: fit-content;
+   animation: scrollRight 40s linear infinite; 
+  width: max-content;
    gap: 20px 20px;
   will-change: transform;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
 }
+.slider-track:hover {
+   animation: scrollLeft 60s linear infinite; 
 
+}
+
+
+.slider-track2:hover{
+  animation: scrollRight 60s linear infinite; 
+}
 
 
 .box {
