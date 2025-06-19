@@ -35,13 +35,6 @@ const App = () => {
 
 
 
-
-
-
-
-
-  
-
   useEffect(() => {
     AOS.init({
       duration: 800,

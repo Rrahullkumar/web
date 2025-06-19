@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const menuItems = [
   { title: "Home", path: "/" },
-  { title: "About Us", path: "/about" },
+  { title: "About Us", path: "/about-us" },
 
     {
     title: "Digital Marketing",
@@ -52,7 +52,7 @@ const menuItems = [
     title: "Contact",
     subItems: [
       { title: "Careers", path: "/contact/careers" },
-      { title: "Contact", path: "/contact" },
+      { title: "Contact", path: "/contact-us" },
       { title: "Insight", path: "/contact/insight" },
       { title: "Blogs", path: "/contact/blogs" }
     ]

@@ -161,7 +161,7 @@ export default function NewdesktopHeader() {
                                                                     <Link
                                                                         to={sub.path}
                                                                         onClick={handleDropdownItemClick}
-                                                                        className="font-[Segoe UI] font-normal text-lg leading-[100%] tracking-[0] text-black border-b-2 border-transparent hover:border-[#43b649] transition-all duration-300 hover:pb-[3px]"
+                                                                        className=" font-normal text-lg leading-[100%] tracking-[0] text-black border-b-2 border-transparent hover:border-[#43b649] transition-all duration-300 hover:pb-[3px]"
                                                                     >
                                                                         {sub.title}
                                                                     </Link>
@@ -189,7 +189,7 @@ export default function NewdesktopHeader() {
 
                     <div className="flex gap-2">
                         <Link to={"/contact-us"} >
-                            <button className="bookdemo px-[20px] py-[10px] text-[#277A2D] border-1-[#4CAF50] rounded-md border transition-colors duration-300 cursor-pointer">
+                            <button className="bookdemo px-[20px] py-[10px] text-[#277A2D] hover:bg-[#277A2D] hover:text-[white] border-1-[#4CAF50] rounded-md border transition-colors duration-300 cursor-pointer">
                                 Contact Us
                             </button>
                         </Link>

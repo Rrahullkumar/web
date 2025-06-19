@@ -398,7 +398,7 @@
   transform: rotateY(180deg);
   text-align: center;
   font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
@@ -642,7 +642,7 @@
 
   .h1tag {
     font-size: 20px;
-    -webkit-text-stroke: 2px !important;
+    /* -webkit-text-stroke: 2px !important; */
     align-items: start;
   }
 
