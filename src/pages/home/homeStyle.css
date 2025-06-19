@@ -267,15 +267,6 @@ cursor: pointer;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
 }
-.slider-track:hover {
-   animation: scrollLeft 60s linear infinite; 
-
-}
-
-
-.slider-track2:hover{
-  animation: scrollRight 60s linear infinite; 
-}
 
 
 .box {
