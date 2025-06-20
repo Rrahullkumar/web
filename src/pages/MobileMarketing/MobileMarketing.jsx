@@ -168,22 +168,22 @@ const MobileMarketing = () => {
                             <div className='flex flex-col items-center text-center'>
                                 <img src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
-                                <p className="text-gray-600 w-[80%]">We know the Gurugram audience and its mobile consumption patterns.</p>
+                                <p className="text-gray-600 w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
                             </div>
                             <div className='flex flex-col items-center  text-center'>
                                 <img src={icon2} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
-                                <p className="text-gray-600 w-[80%]">Our strategies deliver measurable results and high ROI.</p>
+                                <p className="text-gray-600 w-[78%]">Our strategies deliver measurable results and high ROI.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
                                 <img src={icon3} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
-                                <p className="text-gray-600 w-[80%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
+                                <p className="text-gray-600 w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
                                 <img src={icon4} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Dedicated Support</h4>
-                                <p className="text-gray-600 w-[80%]">A driven group of people who care about your success.</p>
+                                <p className="text-gray-600 w-[78%]">A driven group of people who care about your success.</p>
                             </div>
                         </div>
 

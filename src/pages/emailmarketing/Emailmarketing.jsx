@@ -12,210 +12,210 @@ const Emailmarketing = () => {
   return (
 
     <>
-    
 
-    <Helmet>
 
-<title>Email Marketing Services | Unlock Sales with Email</title>
-<meta name="description" content="Our expert team helps businesses create engaging, personalized email marketing that drives real results and keeps customers coming back." />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="WebNest Media" />
-<link rel="canonical" href="https://webnestmedia.com/email-marketing" />
-    </Helmet>
+      <Helmet>
 
-    <div className='mt-[50px] '>
-      <div className="emailc1 relative">
-                  {/* Background image */}
+        <title>Email Marketing Services | Unlock Sales with Email</title>
+        <meta name="description" content="Our expert team helps businesses create engaging, personalized email marketing that drives real results and keeps customers coming back." />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="WebNest Media" />
+        <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
+      </Helmet>
+
+      <div className='mt-[50px] '>
+        {/* <div className="emailc1 relative">
+ 
                   <img src={topimage} alt="" className="w-full h-auto" />
       
-                  {/* Overlay */}
+
                   <div className="absolute inset-0 bg-black opacity-60"></div>
       
-                  {/* Heading */}
                   <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
                       <span className="text-[#4CAF50]">Email</span> Marketing
                   </h1>
-        </div>
-        <div className="emailc2 flex flex-col mt-[96px] pl-10 pr-10">
-            <div className="emailc21 flex flex-col justify-center items-center">
-                <h2 className='text-[52px] text-center mb-9 '>Email Marketing Services</h2>
-                <p className='text-lg text-center w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
-            </div>
-            <div className="emailc22 flex flex-row mt-28 justify-between mb-12 ">
+        </div> */}
+        <div className="emailc2 flex flex-col mt-[96px] max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+          <div className="emailc21 flex flex-col justify-center items-center">
+            <h2 className='text-[52px]  max-lg:text-[38px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
+            <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
+          </div>
+          <div className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
+            <h2 className="text-[52px] max-lg:text-[30px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
+            <div className='flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10'>
 
-                <div className="emleft w-[60%]">
-                    <h2 className='text-[52px] mb-9'>What is Email Marketing?</h2>
-                    <p className='text-lg text-left'>When it comes to direct, impactful digital communication that genuinely drives results, there's arguably no more potent channel than Email Marketing. <br />
-                    <br />It's not just about sending out messages; it's a strategic powerhouse for building relationships, converting leads, and fostering customer loyalty. Consider this: for every $1 spent on email marketing, businesses typically see an average Return on Investment (ROI) of $36. That's a staggering figure, highlighting its unmatched efficiency.
-                    <br />The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.</p>
-                </div>
-
-                <div className="w-[calc(100% - 38%)]">
-                    <div className="emright object-contain w-[439px] h-[422px]">
-                        <img src={c2image} alt="" className='w-[100%] h-[100%]' />
-                    </div>
-                </div>
-              
-
-            </div>
-            <div className="emailc23 text-lg ">
-                <span className='italic font-semibold text-xl'> What is Email Marketing?</span> When it comes to direct, impactful digital communication that genuinely drives results, there's arguably no more potent channel than Email Marketing.
-                <br />
-                <br />
-                It's not just about sending out messages; it's a strategic powerhouse for building relationships, converting leads, and fostering customer loyalty. Consider this: for every $1 spent on email marketing, businesses typically see an average Return on Investment (ROI) of $36. That's a staggering figure, highlighting its unmatched efficiency.
-                <br />
-                <br />
-                The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.
-            </div>
-            <div className="emailc24 flex flex-col items-center justify-center mt-24">
-                <h2 className='text-[52px] text-center mb-12 font-semibold w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
-                <p className='text-lg'>In today's overflowing digital world, the inbox isn't just a folder; it's a direct line to your audience's attention, a privileged space that demands respect and strategic finesse. Don't let your brand's voice get lost in the noise, or worse, end up in the spam folder.
-
-                <br /> <br /> As an email marketing agency in India, we don't just optimize emails; we orchestrate genuine connections. We understand that behind every email address is a real person, a potential loyal customer whose time and trust are invaluable. Our unique approach dives deep into understanding their journey, crafting messages that resonate, inspire, and drive action – not just clicks.
-
-                <br /> <br />We transform your email campaigns into powerful conversations, ensuring every subject line sparks curiosity, every piece of content delivers value, and every call-to-action feels like a natural next step. Let us fine-tune your strategy, leverage advanced insights, and elevate your email marketing from a mere task to your most potent relationship-building and revenue-generating engine. Because when your emails connect on a human level, your business truly thrives.</p>
-            </div>
-        </div>
-       <div className="emailc3 flex flex-col items-center justify-center mt-32 px-10">
-            <h2 className="text-[52px] text-center mb-12 font-semibold w-[60%]">
-                WebNest’s Email Marketing Campaign Services
-            </h2>
-
-            <p className="text-base text-center w-[60%]">
-                Our email marketing services are engineered to transform your inbox presence from a hopeful broadcast into a powerful, personalized revenue engine. We know that behind every email address is a human waiting to be inspired, informed, or delighted.
-            </p>
-
-            <div className="emc3cards flex flex-wrap justify-center gap-6 mt-12 w-full max-w-[1400px] items-stretch">
-
-  <div className="emcard flex flex-col items-center text-center w-[300px] p-6">
-    <div className="flex-1 flex items-center justify-center">
-      <h3 className="text-3xl font-semibold w-[90%]">
-        Strategy & Planning
-      </h3>
-    </div>
-    <p className="text-sm leading-relaxed mt-4">
-      This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
-    </p>
-  </div>
-
-  <div className="emcard flex flex-col items-center text-center w-[300px] p-6">
-    <div className="flex-1 flex items-center justify-center">
-      <h3 className="text-3xl font-semibold w-[90%]">
-        Content Creation & Design
-      </h3>
-    </div>
-    <p className="text-sm leading-relaxed mt-4">
-      This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
-    </p>
-  </div>
-
-  <div className="emcard flex flex-col items-center text-center w-[300px] p-6">
-    <div className="flex-1 flex items-center justify-center">
-      <h3 className="text-3xl font-semibold w-[90%]">
-        Email Automation
-      </h3>
-    </div>
-    <p className="text-sm leading-relaxed mt-4">
-      This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
-    </p>
-  </div>
-
-  <div className="emcard flex flex-col items-center text-center w-[300px] p-6">
-    <div className="flex-1 flex items-center justify-center">
-      <h3 className="text-3xl font-semibold w-[90%]">
-        Performance Tracking & Reporting
-      </h3>
-    </div>
-    <p className="text-sm leading-relaxed mt-4">
-      This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
-    </p>
-  </div>
-
-</div>
-
-
-            </div>
-            <div className="emailc4 flex flex-col items-center justify-center mt-32 px-10">
-                 <h2 className="text-[52px] text-center mb-12 font-semibold w-[60%]">
-                    Why Opt for an Email Marketing Agency for Business?
-                </h2>
-
-                <p className="text-base text-center w-[70%] mb-16">
-                The best email marketing company can help you drive your business drive smoothly and grow your business apace. But are you truly maximizing its potential, or is email marketing just another task on an already overflowing to-do list? Working with a professional agency is not merely a choice for companies who are committed to utilizing email to its maximum potential; rather, it is a strategic need.
-                <br />
-                <br />
-            <span className='text-lg font-semibold'> Here's why entrusting your email marketing to an expert agency makes all the difference:</span>
+              <div className="lg:w-[60%] flex flex-col">
+                <p className="text-lg">
+                  When it comes to direct, impactful digital communication that genuinely drives results, there's arguably no more potent channel than Email Marketing. <br /><br />
+                  It's not just about sending out messages; it's a strategic powerhouse for building relationships, converting leads, and fostering customer loyalty. Consider this: for every $1 spent on email marketing, businesses typically see an average Return on Investment (ROI) of $36. That's a staggering figure, highlighting its unmatched efficiency. <br /><br />
+                  The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.
                 </p>
-                <div className="emc4cards flex flex-wrap justify-between gap-6 w-full max-w-[1400px] items-stretch">
+              </div>
 
-                <div className="emcard4 flex flex-col items-center text-center w-[300px] p-6 justify-between">
-                    <div className="mb-4">
-                    <img src={icon1} alt="" className="w-16 h-16 object-contain" />
-                    </div>
-                    <div className="flex flex-col items-center gap-4 flex-1">
-                    <h3 className="text-2xl font-semibold text-center">
-                        Unlock Deep, Specialized Expertise
-                    </h3>
-                    <p className="text-sm leading-relaxed text-center">
-                        We bring a dedicated team of email digital marketing specialists who live and breathe strategy, compliance (including TRAI’s DLT in India), and deliverability, aiming to be the best email marketing service for you.
-                    </p>
-                    </div>
-                </div>
-
-                <div className="emcard4 flex flex-col items-center text-center w-[300px] p-6 justify-between">
-                    <div className="mb-4">
-                    <img src={icon2} alt="" className="w-16 h-16 object-contain" />
-                    </div>
-                    <div className="flex flex-col items-center gap-4 flex-1">
-                    <h3 className="text-2xl font-semibold text-center">
-                        Reclaim Your Valuable Time & Resources
-                    </h3>
-                    <p className="text-sm leading-relaxed text-center">
-                        By outsourcing to leading email marketing companies, you free your team to focus on core business, eliminating the need to hire or train in-house experts.
-                    </p>
-                    </div>
-                </div>
-
-                <div className="emcard4 flex flex-col items-center text-center w-[300px] p-6 justify-between">
-                    <div className="mb-4">
-                    <img src={icon3} alt="" className="w-16 h-16 object-contain" />
-                    </div>
-                    <div className="flex flex-col items-center gap-4 flex-1">
-                    <h3 className="text-2xl font-semibold text-center">
-                        Access Cutting-Edge Tools & Technology
-                    </h3>
-                    <p className="text-sm leading-relaxed text-center">
-                        Gain instant access to premium platforms and advanced analytics tools, ensuring sophisticated campaign capabilities without significant upfront investment.
-                    </p>
-                    </div>
-                </div>
-
-                <div className="emcard4 flex flex-col items-center text-center w-[300px] p-6 justify-between">
-                    <div className="mb-4">
-                    <img src={icon4} alt="" className="w-16 h-16 object-contain" />
-                    </div>
-                    <div className="flex flex-col items-center gap-4 flex-1">
-                    <h3 className="text-2xl font-semibold text-center">
-                        Drive Data-Backed Performance & ROI
-                    </h3>
-                    <p className="text-sm leading-relaxed text-center">
-                        Our data-driven approach continuously optimizes campaigns, from targeted personalization to bulk email marketing, delivering higher engagement, better click-throughs, and a stronger, more predictable Return on Investment.
-                    </p>
-                    </div>
-                </div>
-
-                </div>
-
-               
+              <div className="amlef max-lg:w-[80%] mb-4">
+                <img src={c2image} alt="Email Marketing Visual" className="" />
+              </div>
 
             </div>
-            <div className="lgc7 mt-[96px]">
-            <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
-            <Accordion></Accordion>
+          </div>
+
+          <div className="emailc23 text-lg mt-5 ">
+            <span className='italic font-semibold text-lg'> What is Email Marketing? </span> When it comes to direct, impactful digital communication that genuinely drives results, there's arguably no more potent channel than Email Marketing.
+            <br />
+            <br />
+            It's not just about sending out messages; it's a strategic powerhouse for building relationships, converting leads, and fostering customer loyalty. Consider this: for every $1 spent on email marketing, businesses typically see an average Return on Investment (ROI) of $36. That's a staggering figure, highlighting its unmatched efficiency.
+            <br />
+            <br />
+            The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.
+          </div>
+          <div className="emailc24 flex flex-col items-center justify-center mt-24">
+            <h2 className='text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
+            <p className='text-lg'>In today's overflowing digital world, the inbox isn't just a folder; it's a direct line to your audience's attention, a privileged space that demands respect and strategic finesse. Don't let your brand's voice get lost in the noise, or worse, end up in the spam folder.
+
+              <br /> <br /> As an email marketing agency in India, we don't just optimize emails; we orchestrate genuine connections. We understand that behind every email address is a real person, a potential loyal customer whose time and trust are invaluable. Our unique approach dives deep into understanding their journey, crafting messages that resonate, inspire, and drive action – not just clicks.
+
+              <br /> <br />We transform your email campaigns into powerful conversations, ensuring every subject line sparks curiosity, every piece of content delivers value, and every call-to-action feels like a natural next step. Let us fine-tune your strategy, leverage advanced insights, and elevate your email marketing from a mere task to your most potent relationship-building and revenue-generating engine. Because when your emails connect on a human level, your business truly thrives.</p>
+          </div>
+        </div>
+        <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-32 max-w-[1440px] px-10 max-lg:px-[16px] ">
+          <h2 className="text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[60%]">
+            WebNest’s Email Marketing Campaign Services
+          </h2>
+
+          <p className="text-lg lg:text-center lg:w-[60%]">
+            Our email marketing services are engineered to transform your inbox presence from a hopeful broadcast into a powerful, personalized revenue engine. We know that behind every email address is a human waiting to be inspired, informed, or delighted.
+          </p>
+
+          <div className="emc3cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12 w-full max-w-[1400px] mx-auto items-stretch">
+
+            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+              <div className="flex-1 flex items-center justify-center">
+                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                  Strategy & Planning
+                </h3>
+              </div>
+              <p className="text-sm leading-relaxed mt-4">
+                This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
+              </p>
+            </div>
+
+            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+              <div className="flex-1 flex items-center justify-center">
+                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                  Content Creation & Design
+                </h3>
+              </div>
+              <p className="text-sm leading-relaxed mt-4">
+                This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
+              </p>
+            </div>
+
+            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+              <div className="flex-1 flex items-center justify-center">
+                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                  Email Automation
+                </h3>
+              </div>
+              <p className="text-sm leading-relaxed mt-4">
+                This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
+              </p>
+            </div>
+
+            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+              <div className="flex-1 flex items-center justify-center">
+                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                  Performance Tracking & Reporting
+                </h3>
+              </div>
+              <p className="text-sm leading-relaxed mt-4">
+                This foundational service involves understanding your business goals, target audience, and competitive landscape to develop a tailored email marketing strategy. It defines campaign objectives, identifies key performance indicators (KPIs), and maps out the customer journeys that will yield the best results.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div className="emailc4 flex flex-col items-center justify-center mt-32  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+          <h2 className="text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[80%]">
+            Why Opt for an Email Marketing Agency for Business?
+          </h2>
+
+          <p className="text-lg lg:text-center lg:w-[70%] mb-16">
+            The best email marketing company can help you drive your business drive smoothly and grow your business apace. But are you truly maximizing its potential, or is email marketing just another task on an already overflowing to-do list? Working with a professional agency is not merely a choice for companies who are committed to utilizing email to its maximum potential; rather, it is a strategic need.
+            <br />
+            <br />
+            <span className='text-lg font-semibold'> Here's why entrusting your email marketing to an expert agency makes all the difference:</span>
+          </p>
+          <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch">
+
+            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="mb-6">
+                <img src={icon1} alt="" className="w-16 h-16 object-contain" />
+              </div>
+              <div className="flex flex-col items-center gap-4 flex-1">
+                <h3 className="text-2xl font-semibold text-center ">
+                  Unlock Deep, Specialized Expertise
+                </h3>
+                <p className="text-sm leading-relaxed text-center">
+                  We bring a dedicated team of email digital marketing specialists who live and breathe strategy, compliance (including TRAI’s DLT in India), and deliverability, aiming to be the best email marketing service for you.
+                </p>
+              </div>
+            </div>
+
+            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="mb-6">
+                <img src={icon2} alt="" className="w-16 h-16 object-contain" />
+              </div>
+              <div className="flex flex-col items-center gap-4 flex-1">
+                <h3 className="text-2xl font-semibold text-center">
+                  Reclaim Your Valuable Time & Resources
+                </h3>
+                <p className="text-sm leading-relaxed text-center">
+                  By outsourcing to leading email marketing companies, you free your team to focus on core business, eliminating the need to hire or train in-house experts.
+                </p>
+              </div>
+            </div>
+
+            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="mb-6">
+                <img src={icon3} alt="" className="w-16 h-16 object-contain" />
+              </div>
+              <div className="flex flex-col items-center gap-4 flex-1">
+                <h3 className="text-2xl font-semibold text-center">
+                  Access Cutting-Edge Tools & Technology
+                </h3>
+                <p className="text-sm leading-relaxed text-center">
+                  Gain instant access to premium platforms and advanced analytics tools, ensuring sophisticated campaign capabilities without significant upfront investment.
+                </p>
+              </div>
+            </div>
+
+            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="mb-6">
+                <img src={icon4} alt="" className="w-16 h-16 object-contain" />
+              </div>
+              <div className="flex flex-col items-center gap-4 flex-1">
+                <h3 className="text-2xl font-semibold text-center">
+                  Drive Data-Backed Performance & ROI
+                </h3>
+                <p className="text-sm leading-relaxed text-center">
+                  Our data-driven approach continuously optimizes campaigns, from targeted personalization to bulk email marketing, delivering higher engagement, better click-throughs, and a stronger, more predictable Return on Investment.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px]">
+          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom lg:text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          <Accordion></Accordion>
         </div>
 
-    </div>
-        </>
+      </div>
+    </>
   )
 }
 
