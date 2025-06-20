@@ -8,7 +8,7 @@ const CounterCard = ({
   label,
   subtitle,
   suffix = "",
-  delay = 0,
+  delay = 100,
   trigger,
 }) => {
   const [count, setCount] = useState(0);
@@ -64,10 +64,10 @@ const CounterCard = ({
 
 const CardListCounter = ({ trigger }) => {
   const counters = [
-    { target: 21, label: "Years of Experience", suffix: "+", delay: 0 },
-    { target: 500, label: "Projects Completed", suffix: "+", delay: 300 },
-    { target: 1000, label: "Designs Created", suffix: "+", delay: 600 },
-    { target: 96, label: "Customer Retention", suffix: "%", delay: 900 },
+    { target: 21, label: "Years of Experience", suffix: "+", delay: 5 },
+    { target: 500, label: "Projects Completed", suffix: "+", delay: 400 },
+    { target: 1000, label: "Designs Created", suffix: "+", delay: 700 },
+    { target: 96, label: "Customer Retention", suffix: "%", delay: 1000 },
   ];
 
   return (

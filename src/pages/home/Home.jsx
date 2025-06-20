@@ -673,14 +673,14 @@ const Home = () => {
         <div className="w-[100%] max-w-[1440px]  mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
           {/* Left Side: Text + Numbers */}
-          <div className="w-[45%] max-lg:w-full">
+          <div className="w-[100%] max-lg:w-full">
             <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
               Work With Us and Take <br />Your Business to the Next Level
             </h3>
             <p className="text-[17px] text-black mt-5 mb-5">
               We provide the tools, expertise, and support you need to grow faster,
-              <br /> reach more customers, and stay ahead of the competition.
-              <br /> Let’s take your business to the next level—together.
+               reach more customers, and stay ahead of the competition.
+               Let’s take your business to the next level—together.
             </p>
 
 
@@ -703,11 +703,7 @@ const Home = () => {
 
           </div>
 
-          {/* Right Side: Contact Form */}
-          <div className="w-[45%] max-lg:w-full">
-            <Conatctfrom className="w-full" />
-          </div>
-
+      
         </div>
 
         <div className="w-[100%] max-w-[1440px]  mx-auto accordian">
