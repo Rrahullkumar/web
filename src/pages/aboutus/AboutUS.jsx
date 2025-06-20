@@ -75,7 +75,7 @@ const AboutUS = () => {
           data-aos-offset="200"
           data-aos-delay="100"
         >
-          <h1 className="text-[52px] max-lg:text-[38px] font-semibold text-[#000000]  mb-4">
+          <h1 className="text-[52px] max-lg:text-[38px] leading-[120%] font-semibold text-[#000000]  mb-4">
             Few Words About WebNest Media
           </h1>
           <p className=" text-[black] text-[18px] mb-4">

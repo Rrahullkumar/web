@@ -2,15 +2,25 @@
 .dropdown-containe {
   overflow: hidden;
   max-height: 0vh;
-  opacity: 1;
+
   transform: translateY(-10px);
   transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
   pointer-events: none;
+
+
+
 }
 
 .dropdown-containe.open {
   max-height: 70vh;
-  opacity: 1;
+
   transform: translateY(0);
   pointer-events: auto;
+
+
+
+
 }
+
+
+
