@@ -127,7 +127,7 @@ const Seo = () => {
   return (
     <>
 
-   <Helmet>
+      <Helmet>
         <title>Best SEO Agency in Gurgaon | Affordable SEO Solutions</title>
         <meta
           name="description"
@@ -285,15 +285,15 @@ const Seo = () => {
 
 
 
-  <h1 className='text-[52px] max-md:text-[38px] font-semibold text-center mt-[200px] max-lg:mt-[50px] text-[#4caf50]'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1>
+        <h1 className='text-[52px] max-md:text-[38px] font-semibold text-center mt-[200px] max-lg:mt-[50px] text-[#4caf50]'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1>
         {/* <div className="container1 max-w-[1440px] w-[100%] mx-auto max-lg:text-center  " id='c1'> */}
 
-          {/* <h1 id='c1h1'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1> */}
-          {/* <h2 className="text-[40px] font-bold text-black bg-yellow-400 px-4 py-1 inline-block rounded-md typing mt-[250px]">
+        {/* <h1 id='c1h1'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1> */}
+        {/* <h2 className="text-[40px] font-bold text-black bg-yellow-400 px-4 py-1 inline-block rounded-md typing mt-[250px]">
           {text}
         </h2> */}
 
-          {/* <div className='h-[80px]'>
+        {/* <div className='h-[80px]'>
             <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px]  ">
               {text}
             </h2>
@@ -334,7 +334,7 @@ const Seo = () => {
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
             <p style={{ color: '#EEC370', fontSize: 18 }}>The no.1 SEO Service</p>
             <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom: 32 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
-            <p style={{ fontSize: 16, marginBottom: 62 }}> 
+            <p style={{ fontSize: 16, marginBottom: 62 }}>
               We combine on page SEO, off page SEO and technical SEO to scale supply chain solutions and accelerate growth.
 
             </p>
@@ -348,48 +348,60 @@ const Seo = () => {
             ))}
           </div> */}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-2  ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
-                <div className="stat-card " key={index}>
-                  <h2 className="stat-number">{item.number}</h2>
-                  <p className="stat-label ">{item.label}</p>
+                <div
+                  key={index}
+                  className="bg-white border border-[#ddd] rounded-xl p-10 text-center 
+                 shadow-[0_2px_8px_rgba(0,0,0,0.05)] 
+                 transition-transform duration-200 ease-in-out 
+                 hover:-translate-y-1 
+                 max-w-full h-[200px] w-full"
+                >
+                  <h2 className="text-[#4CAF50] text-[42px] font-light">
+                    {item.number}
+                  </h2>
+                  <p className="text-2xl font-normal text-[#333] leading-[160%] mt-2.5 text-center">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
+
+        </section>
+
+        <section className=''>
+
+          <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
+
+            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold">
+              Why Businesses Trust <span className="highlight">Webnest Media</span> for SEO?
+            </h2>
+
+            <p className="trust-subheading  mb-[40px] w-[60%] max-md:w-[100%]">
+              Your web presence can be made or broken by your choice of SEO partner. At <span className="highlight">Webnest Media</span>, we reject formula approaches and false promises. We believe in real results, honest work, and long-term success.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+              {trustData.map((item, index) => (
+                // <div className="trust-card " >
+                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] p-[30px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+
+                  <h3 className=" flex items-center ">
+                    <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
+                    <p className='text-[24px] text-[#4CAF50] font-medium max-lg:pl-3'>{item.title}</p>
+                  </h3>
+                  <p className="text-bas leading-relaxed mt-9 mb-[74px]">
+                    {item.text}
+                  </p>
                 </div>
               ))}
             </div>
 
-          </div>
-
-
-          
-        </section>
-
-      <section className=''>
-
-          <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
-          
-          <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold">
-            Why Businesses Trust <span className="highlight">Webnest Media</span> for SEO?
-          </h2>
-         
-          <p className="trust-subheading  mb-[40px] w-[60%] max-md:w-[100%]">
-            Your web presence can be made or broken by your choice of SEO partner. At <span className="highlight">Webnest Media</span>, we reject formula approaches and false promises. We believe in real results, honest work, and long-term success.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
-            {trustData.map((item, index) => (
-              // <div className="trust-card " >
-              <div key={index} className="bg-[#EFF4EE]   rounded-[12px] p-[30px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
-  
-                <h3 className=" flex items-center ">
-                  <p className="trust-number text-[32px] ">{index + 1}.</p> 
-                  <p className='text-[24px]'>{item.title}</p>
-                </h3>
-                <p className="trust-description ">{item.text}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:lg:grid-cols-4 gap-6 m px-4 ">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:lg:grid-cols-4 gap-6 m px-4 ">
   {trustData.map((item, index) => (
     <div className="bg-white shadow-md rounded-lg p-6" key={index}>
       <h3 className="text-xl font-semibold mb-2">
@@ -403,15 +415,15 @@ const Seo = () => {
 </div> */}
 
 
-        </div>
-      </section>
+          </div>
+        </section>
 
         <div className="mt-[96px]  max-w-[1440px] w-[100%] mx-auto  mb-[96px]  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]">
           <p className="service-label text-center" style={{ fontSize: 20, fontWeight: 400 }}>Our Services</p>
           <h2 className="process-heading text-center">
             Proven <span className="highlight">SEO Process</span>
           </h2>
-          
+
           <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-[15px] justify-center items-stretch">
             {[
               {
@@ -445,21 +457,38 @@ const Seo = () => {
                 icon: step5,
               },
             ].map((item, index) => (
-              
-              <div className="seo-step-card-seo " key={index}>
-                <div>
-                  <div className="step-meta pb-8 ">
-                    <img src={item.icon} alt={item.title} className="step-icon" />
-                    <div className='flex flex-col gap-2 '>
-                      <span className="step-tag">STEP</span>
-                      <span className="step-number text-end">{item.step}</span>
-                    </div>
-                  </div>
-                </div>
 
-                <h3 className="step-title">{item.title}</h3>
-                <p className="step-desc">{item.text}</p>
-              </div>
+              <div 
+  key={index}
+  className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg 
+             hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 
+             text-left cursor-pointer"
+>
+  <div>
+    <div className="flex justify-between items-start pb-8">
+      <img 
+        src={item.icon} 
+        alt={item.title} 
+        className="w-9 h-9 mb-2.5" 
+      />
+      <div className="flex flex-col gap-2">
+        <span className="text-white text-base font-semibold uppercase">
+          STEP
+        </span>
+        <span className="text-[#ffcc00] text-end">
+          {item.step}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <h3 className="text-base font-semibold mb-2">
+    {item.title}
+  </h3>
+  <p className="text-sm ">
+    {item.text}
+  </p>
+</div>
             ))}
           </div>
         </div>
@@ -496,145 +525,145 @@ const Seo = () => {
               </div>
             </div>
 
-           
+
 
           </div>
 
         </div>
         <div className="accordian max-w-[1440px] w-[100%] mx-auto">
-          
-        <div>
-           <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
-         
-          <div className="accordion-wrapper-columns">
-             
-            {/* Left Column */}
-            <div className="accordion-column ">
-              <div className="accordion">
-                <input type="checkbox" id="left-1" />
-                <label className="accordion-label" htmlFor="left-1">
-                  What is Search Engine Optimization?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    The practice of improving your website to rank higher on search engines like Google is known as search engine optimization, or SEO. The higher you rank, the more visible your site is—and that means more traffic, leads, and sales. If people can't find you online, you're missing out on business.
-                  </p>
+
+          <div>
+            <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
+
+            <div className="accordion-wrapper-columns">
+
+              {/* Left Column */}
+              <div className="accordion-column ">
+                <div className="accordion">
+                  <input type="checkbox" id="left-1" />
+                  <label className="accordion-label" htmlFor="left-1">
+                    What is Search Engine Optimization?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      The practice of improving your website to rank higher on search engines like Google is known as search engine optimization, or SEO. The higher you rank, the more visible your site is—and that means more traffic, leads, and sales. If people can't find you online, you're missing out on business.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="accordion">
+                  <input type="checkbox" id="left-2" />
+                  <label className="accordion-label" htmlFor="left-2">
+                    Why is SEO important for my business?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO is important because it helps your business get found by people searching online. By improving your website’s visibility on search engines like Google, SEO drives more organic traffic and builds trust.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="accordion">
+                  <input type="checkbox" id="left-3" />
+                  <label className="accordion-label" htmlFor="left-3">
+                    What services does your SEO agency offer?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Our SEO agency offers a full range of services, including keyword research, on-page optimization, technical SEO audits, content creation, link building, local SEO, and ongoing performance tracking to help your website rank higher and attract more traffic.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="accordion">
+                  <input type="checkbox" id="left-4" />
+                  <label className="accordion-label" htmlFor="left-4">
+                    How much time take to see SEO results?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO isn’t instant—it’s a long-term strategy. Most businesses start seeing noticeable improvements in 3 to 6 months, depending on the competition and how much work is done. The key is consistency and quality.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="accordion">
+                  <input type="checkbox" id="left-5" />
+                  <label className="accordion-label" htmlFor="left-5">
+                    What’s the difference between SEO and paid ads (PPC)?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO earns you organic (free) traffic over time. Paid ads give you instant visibility, but only while you’re paying. SEO builds lasting authority and trust, while PPC offers quick wins. A smart strategy often includes both.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div className="accordion">
-                <input type="checkbox" id="left-2" />
-                <label className="accordion-label" htmlFor="left-2">
-                  Why is SEO important for my business?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO is important because it helps your business get found by people searching online. By improving your website’s visibility on search engines like Google, SEO drives more organic traffic and builds trust.
-                  </p>
+              {/* Right Column */}
+              <div className="accordion-column">
+                <div className="accordion">
+                  <input type="checkbox" id="right-6" />
+                  <label className="accordion-label" htmlFor="right-6">
+                    Do I need SEO if I already run ads?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Yes! SEO and ads serve different purposes. While ads can bring short-term traffic, SEO ensures your business is discoverable in the long run—without constantly paying for clicks.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="accordion">
-                <input type="checkbox" id="left-3" />
-                <label className="accordion-label" htmlFor="left-3">
-                  What services does your SEO agency offer?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Our SEO agency offers a full range of services, including keyword research, on-page optimization, technical SEO audits, content creation, link building, local SEO, and ongoing performance tracking to help your website rank higher and attract more traffic.
-                  </p>
+                <div className="accordion">
+                  <input type="checkbox" id="right-7" />
+                  <label className="accordion-label" htmlFor="right-7">
+                    Is SEO a one-time thing or ongoing?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO is an ongoing process. Search engines, competitors, and user behavior all change constantly. Ongoing SEO keeps your site optimized, competitive, and visible.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="accordion">
-                <input type="checkbox" id="left-4" />
-                <label className="accordion-label" htmlFor="left-4">
-                  How much time take to see SEO results?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO isn’t instant—it’s a long-term strategy. Most businesses start seeing noticeable improvements in 3 to 6 months, depending on the competition and how much work is done. The key is consistency and quality.
-                  </p>
+                <div className="accordion">
+                  <input type="checkbox" id="right-8" />
+                  <label className="accordion-label" htmlFor="right-8">
+                    How Search Engine Optimization Works?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO works by optimizing your website’s content, keywords, and structure so search engines can understand it better and rank it higher. The goal is to appear in front of the right audience, drive organic traffic, and build trust over time.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="accordion">
-                <input type="checkbox" id="left-5" />
-                <label className="accordion-label" htmlFor="left-5">
-                  What’s the difference between SEO and paid ads (PPC)?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO earns you organic (free) traffic over time. Paid ads give you instant visibility, but only while you’re paying. SEO builds lasting authority and trust, while PPC offers quick wins. A smart strategy often includes both.
-                  </p>
+                <div className="accordion">
+                  <input type="checkbox" id="right-9" />
+                  <label className="accordion-label" htmlFor="right-9">
+                    Can I do SEO myself?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Yes, basic SEO can be done on your own, but for long-term results and competitive keywords, working with SEO professionals often delivers better results.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </div>
 
-            {/* Right Column */}
-            <div className="accordion-column">
-              <div className="accordion">
-                <input type="checkbox" id="right-6" />
-                <label className="accordion-label" htmlFor="right-6">
-                  Do I need SEO if I already run ads?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Yes! SEO and ads serve different purposes. While ads can bring short-term traffic, SEO ensures your business is discoverable in the long run—without constantly paying for clicks.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-7" />
-                <label className="accordion-label" htmlFor="right-7">
-                  Is SEO a one-time thing or ongoing?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO is an ongoing process. Search engines, competitors, and user behavior all change constantly. Ongoing SEO keeps your site optimized, competitive, and visible.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-8" />
-                <label className="accordion-label" htmlFor="right-8">
-                  How Search Engine Optimization Works?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO works by optimizing your website’s content, keywords, and structure so search engines can understand it better and rank it higher. The goal is to appear in front of the right audience, drive organic traffic, and build trust over time.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-9" />
-                <label className="accordion-label" htmlFor="right-9">
-                  Can I do SEO myself?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Yes, basic SEO can be done on your own, but for long-term results and competitive keywords, working with SEO professionals often delivers better results.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-10" />
-                <label className="accordion-label" htmlFor="right-10">
-                  What makes Webnest Media different from other SEO companies?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    WebNest Media is the best SEO agency in Gurgaon. We don’t believe in one-size-fits-all solutions. At Webnest Media, we focus on real relationships, honest work, and results that matter. Our strategies are tailored, transparent, and rooted in what your business truly needs to grow.
-                  </p>
+                <div className="accordion">
+                  <input type="checkbox" id="right-10" />
+                  <label className="accordion-label" htmlFor="right-10">
+                    What makes Webnest Media different from other SEO companies?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      WebNest Media is the best SEO agency in Gurgaon. We don’t believe in one-size-fits-all solutions. At Webnest Media, we focus on real relationships, honest work, and results that matter. Our strategies are tailored, transparent, and rooted in what your business truly needs to grow.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
         </div>
       </section>

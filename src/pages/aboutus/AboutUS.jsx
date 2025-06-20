@@ -75,7 +75,7 @@ const AboutUS = () => {
           data-aos-offset="200"
           data-aos-delay="100"
         >
-          <h1 className="text-[52px] max-lg:text-[38px] font-bold text-[#000000]  mb-4">
+          <h1 className="text-[52px] max-lg:text-[38px] font-semibold text-[#000000]  mb-4">
             Few Words About WebNest Media
           </h1>
           <p className=" text-[black] text-[18px] mb-4">
@@ -85,7 +85,7 @@ const AboutUS = () => {
             WebNest Media is a digital marketing company in Gurgaon, working with awesome brands across India and worldwide. Our digital marketing experts do all things digital from SEO and PPC to social media marketing, SEM, and web development so you get the right services which you paid. We have a team of our services including SEO Executive, Web Developer, Graphic Designer, Social Media Experts & Content Writers. We also redesign and redevelopment of existing web sites.
           </p>
         </div>
-        <div className="flex-shrink-0   max-xl:w-[50%] items-center justify-center">
+        <div className="flex-shrink-0   max-xl:w-[40%] items-center justify-center">
           <img
             src={Webnest_Logo}
 
@@ -112,7 +112,7 @@ const AboutUS = () => {
         <h4 className="text-sm uppercase tracking-widest text-[#9bc394] font-semibold">
           Vision & Mission
         </h4>
-        <h1 className="text-[52px] max-lg:text-[38px] font-bold text-[black] mt-2 mb-4">
+        <h1 className="text-[52px] max-lg:text-[38px] font-semibold text-[black] mt-2 mb-4">
           What We Believe
         </h1>
         <p className="max-w-2xl mx-auto text-[18px] text-gray-600">
@@ -132,7 +132,7 @@ const AboutUS = () => {
     
     ">
 
-        <div className="flex-shrink-0   max-xl:w-[50%] items-center justify-center">
+        <div className="flex-shrink-0   max-xl:w-[40%] items-center justify-center">
           <img
             src={bulb}
             alt="WebNest Media bulb"
@@ -142,7 +142,7 @@ const AboutUS = () => {
 
 
         <div className="max-w-2xl max-md:w-[100%]">
-          <h2 className="text-[52px] max-lg:text-[38px] font-bold text-gray-900 mb-4">
+          <h2 className="text-[52px] max-lg:text-[38px] font-semibold text-gray-900 mb-4">
             Our Key to Excellence
           </h2>
           <p className=" text-gray-700 text-[18px] mb-4">
@@ -194,7 +194,7 @@ const AboutUS = () => {
 
         {/* Left Side: Text + Numbers */}
         <div className="w-[100%] max-lg:w-full">
-          <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] ">
+          <h3 className="text-2xl md:text-3xl font-semibold text-[#5c945c] ">
             Work With Us and Take <br />Your Business to the Next Level
           </h3>
           <p className="text-[17px] text-black mt-5 mb-5 ">
