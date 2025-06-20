@@ -25,9 +25,30 @@ import rightpaint from "./resources/rightpaint.svg"
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 
-
+import SeoConatct from "./resources/seoconatct.svg"
 import logo from "../../assets/newlogo.svg"
+
+import Left_Arrow from '../Digitalservice/resources/Left_Arrow.svg';
+import Right_Arrow from '../Digitalservice/resources/Right_Arrow.svg';
+
+import seocontactimage from "./resources/mailbox.svg";
+import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
+import seolocation from "./resources/seolocation.svg";
+
 const Seo = () => {
+
+
+  const sliderRef = useRef(null);
+
+  const scrollLeft = () => {
+    sliderRef.current.scrollBy({ left: -400, behavior: 'smooth' });
+  };
+
+  const scrollRight = () => {
+    sliderRef.current.scrollBy({ left: 400, behavior: 'smooth' });
+  };
+
+
   const [text, setText] = useState('');
   const words = ['Visibility', 'Rank', 'Traffic'];
   const delay = 150;
@@ -105,6 +126,35 @@ const Seo = () => {
       text: "Drive more sales and visibility by optimizing your online store to stand out and rank above the competition. We implement tailored SEO strategies for e-commerce businesses, including product and category page optimization, rich snippets, and SEO-friendly architecture ensuring your store stands out in competitive markets.",
     },
   ];
+
+
+  const trustDatasecond = [
+    {
+      title: "SEO That Works, Without the Gimmicks",
+      text: "Being a top SEO company in Gurgaon, we help your brand inflict with the right audience at right time. Our respected SEO specialist in Gurgaon focuses on integrity and utilizes ethically, data-driven strategies to increase visibility, traffic, and customer trust.",
+    },
+    {
+      title: "Proven Track Record of Results",
+      text: "At Webnest Media, we deliver real results. As top SEO services company in Gurgaon, our SEO expert boosts organic traffic, rankings, and conversions with data-driven strategies..",
+    },
+    {
+      title: "Experienced SEO Specialists",
+      text: "The SEO professionals on our team each have years of experience in various fields - we're passionate about SEO! We keep current on algorithm changes and industry trends, so we can keep your site competitive",
+    },
+
+    {
+      title: "Client-Centered Approach",
+      text: "Your success is our priority. We work as an extension of your team, keeping your business goals at the center of everything we do.",
+    },
+
+    {
+      title: "Ready to Rank Higher and Grow Smarter?",
+      text: "Whether you're just getting started or looking to scale, Webnest Media is here to help. Let’s turn your website into your most powerful marketing tool..",
+    },
+
+
+  ];
+
   const faqData = [
     {
       question: "What is Search Engine Marketing (SEM)?",
@@ -136,41 +186,40 @@ const Seo = () => {
 
 
   const features = [
-  {
-    icon: seoicon1,
-    title: "Increases Online Visibility",
-    description: "Effective SEO places your site near the top of search results; that spot receives lions share of clicks.",
-  },
-  {
-    icon: seoicon2,
-    title: "Drives Quality Organic Traffic",
-    description: "Pages tuned for search draw in people already looking for goods or services you provide.",
-  },
-  {
-    icon: seoicon3,
-    title: "Builds Brand Credibility",
-    description: "Consistent high rankings signal trust, letting visitors see your brand as a knowledgeable authority.",
-  },
-  {
-    icon: seoicon4,
-    title: "Delivers Long-Term Results",
-    description: "Unlike paid placements, solid SEO keeps your site visible and earning traffic long after work is done.",
-  },
-  {
-    icon: seoicon5,
-    title: "Improves User Experience",
-    description: "SEO at best speeds up pages, makes them mobile-ready, and smooths out usability for every visitor.",
-  },
-  {
-    icon:seoicon6,
-    title: "Boosts Conversions And ROI",
-    description: "By matching right audience to your offer, search-friendly sites turn more visitors into leads and paying customers.",
-  },
-];
+    {
+      icon: seoicon1,
+      title: "Increases Online Visibility",
+      description: "Effective SEO places your site near the top of search results; that spot receives lions share of clicks.",
+    },
+    {
+      icon: seoicon2,
+      title: "Drives Quality Organic Traffic",
+      description: "Pages tuned for search draw in people already looking for goods or services you provide.",
+    },
+    {
+      icon: seoicon3,
+      title: "Builds Brand Credibility",
+      description: "Consistent high rankings signal trust, letting visitors see your brand as a knowledgeable authority.",
+    },
+    {
+      icon: seoicon4,
+      title: "Delivers Long-Term Results",
+      description: "Unlike paid placements, solid SEO keeps your site visible and earning traffic long after work is done.",
+    },
+    {
+      icon: seoicon5,
+      title: "Improves User Experience",
+      description: "SEO at best speeds up pages, makes them mobile-ready, and smooths out usability for every visitor.",
+    },
+    {
+      icon: seoicon6,
+      title: "Boosts Conversions And ROI",
+      description: "By matching right audience to your offer, search-friendly sites turn more visitors into leads and paying customers.",
+    },
+  ];
 
   return (
     <>
-
       <Helmet>
         <title>Best SEO Agency in Gurgaon | Affordable SEO Solutions</title>
         <meta
@@ -188,134 +237,142 @@ const Seo = () => {
           href="https://webnestmedia.com/search-engine-optimization"
         />
         <script type="application/ld+json">{`
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@type": "WebPage",
-      "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
-      "url": "https://webnestmedia.com/search-engine-optimization/",
-      "name": "Search Engine Optimization Services | WebNest Media",
-      "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
-      "inLanguage": "en-IN",
-      "isPartOf": {
-        "@id": "https://webnestmedia.com/#website"
-      },
-      "breadcrumb": {
-        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
-      },
-      "mainEntity": {
-        "@id": "https://webnestmedia.com/search-engine-optimization/#service"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
-      "itemListElement": [
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://webnestmedia.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Search Engine Optimization"
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://webnestmedia.com/search-engine-optimization/#service",
-      "serviceType": "Search Engine Optimization (SEO)",
-      "provider": {
-        "@id": "https://webnestmedia.com/#organization"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "India"
-      },
-      "url": "https://webnestmedia.com/search-engine-optimization/",
-      "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://webnestmedia.com/contact",
-        "price": "Varies",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "120"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Anjali Sharma"
+          "@type": "WebPage",
+          "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
+          "url": "https://webnestmedia.com/search-engine-optimization/",
+          "name": "Search Engine Optimization Services | WebNest Media",
+          "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
+          "inLanguage": "en-IN",
+          "isPartOf": {
+            "@id": "https://webnestmedia.com/#website"
           },
-          "datePublished": "2025-03-10",
-          "reviewBody": "WebNest Media really helped our website climb the Google rankings. Amazing SEO team!",
-          "name": "Highly Recommended SEO Services",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Rahul Mehra"
+          "breadcrumb": {
+            "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
           },
-          "datePublished": "2025-03-12",
-          "reviewBody": "Very professional and great results in just 3 months. SEO strategy is on point.",
-          "name": "Great SEO Results",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is SEO and how does it work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
+          "mainEntity": {
+            "@id": "https://webnestmedia.com/search-engine-optimization/#service"
           }
         },
         {
-          "@type": "Question",
-          "name": "How long does SEO take to show results?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
-          }
+          "@type": "BreadcrumbList",
+          "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://webnestmedia.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Search Engine Optimization"
+            }
+          ]
         },
         {
-          "@type": "Question",
-          "name": "Do you offer local SEO services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
-          }
+          "@type": "Service",
+          "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+          "serviceType": "Search Engine Optimization (SEO)",
+          "provider": {
+            "@id": "https://webnestmedia.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "India"
+          },
+          "url": "https://webnestmedia.com/search-engine-optimization/",
+          "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://webnestmedia.com/contact",
+            "price": "Varies",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "120"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Anjali Sharma"
+              },
+              "datePublished": "2025-03-10",
+              "reviewBody": "WebNest Media really helped our website climb the Google rankings. Amazing SEO team!",
+              "name": "Highly Recommended SEO Services",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "itemReviewed": {
+                "@type": "Service",
+                "name": "Search Engine Optimization (SEO)"
+              }
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Rahul Mehra"
+              },
+              "datePublished": "2025-03-12",
+              "reviewBody": "Very professional and great results in just 3 months. SEO strategy is on point.",
+              "name": "Great SEO Results",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "itemReviewed": {
+                "@type": "Service",
+                "name": "Search Engine Optimization (SEO)"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is SEO and how does it work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does SEO take to show results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer local SEO services?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
-        `}</script>
+  `}</script>
       </Helmet>
 
       <section className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
@@ -373,11 +430,11 @@ const Seo = () => {
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
-    
-            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom:72 ,paddingTop:72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
-          
 
-        
+            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
+
+
+
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
@@ -409,26 +466,27 @@ const Seo = () => {
           <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
 
 
-<p className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
-            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold text-center">
-               <span className="highlight">SEO</span>Services
+            <p className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
+            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold text-center leading-snug">
+              <span className="highlight">SEO</span>Services
             </h2>
 
 
             <p className="text-base font-normal leading-7   mb-[83px]  text-center ">
-     We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
+              We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
               {trustData.map((item, index) => (
                 // <div className="trust-card " >
-                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
-                  <h3 className=" flex items-center ">
+                  <h3 className="flex items-end mb-[36px] gap-2 ">
                     <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
-                    <p className='text-[24px] text-[#4CAF50] font-medium '>{item.title}</p>
+                    <p className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</p>
                   </h3>
-                  <p className="text-bas leading-relaxed pb-[22px] ">
+
+                  <p className="text-base leading-relaxed ">
                     {item.text}
                   </p>
                 </div>
@@ -453,128 +511,184 @@ const Seo = () => {
         </section>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-<h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-[120%]'>Why SEO is Important?</h6>
-<p className='text-base text-[#000000] leading-[120%] font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h6>
+          <p className='text-base text-[#000000] leading-7 font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
-<p className='text-base text-[#000000] leading-[120%] font-[350] mt-[20px] max-lg:mt-[10px]'>
+          <p className='text-base text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
 
-That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
-      
-      
-      
-      
-         <div className="max-w-6xl  mt-[96px] mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
-      {features.map((item, index) => (
-        <div
-          key={index}
-          className=" relative  pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
-        >
-         
-          <div className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#0000008]" />
-          <div className="absolute top-0 right-0 w-12 h-12  border-t-2 border-r-2 border-[#0000008]" />
-          <div className="absolute bottom-0 left-0 w-12 h-12  border-b-2 border-l-2 border-[#0000008]" />
-          <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
-
-          <div className="flex justify-center  "> <img src={item.icon}  className='w-[64px] h-[64px]'/></div>
-          <h3 className="font-bold leading-[120%] text-[#000000] text-[24px]  mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>
-          <p className="text-[#000000] text-base leading-[120%]  font-normal">{item.description}</p>
-        </div>
-      ))}
-    </div>
+            That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
 
 
 
-    <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-[120%]'>
 
-      How the Best SEO Agency in Gurgaon is <br  className='max-lg:hidden' /> Transforming Digital Marketing Strategies
-    </h6>
-<p className='text-base text-[#000000] leading-[120%] font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
-
-
-      
-      
-        </section>
-
-        <div className="mt-[96px]  max-w-[1440px] w-[100%] mx-auto  mb-[96px]  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]">
-          <p className="service-label text-center" style={{ fontSize: 20, fontWeight: 400 }}>Our Services</p>
-          <h2 className="process-heading text-center">
-            Proven <span className="highlight">SEO Process</span>
-          </h2>
-
-          <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-[15px] justify-center items-stretch">
-            {[
-              {
-                step: "01",
-                title: "Local SEO",
-                text: "As the best local SEO agency, we help connect your business with people searching nearby—boosting visibility, calls, visits, and trust where it matters most.",
-                icon: step1,
-              },
-              {
-                step: "02",
-                title: "Organic SEO",
-                text: "Our organic SEO services improve your content, keywords, and site structure to help your website rank higher and achieve steady, long-term growth.",
-                icon: step2,
-              },
-              {
-                step: "03",
-                title: "Social Media Marketing",
-                text: "By interacting with consumers on channels they use on a daily basis, social media marketing increases sales, promotes your brand, and engages audiences.",
-                icon: step3,
-              },
-              {
-                step: "04",
-                title: "PPC Advertising",
-                text: "Our PPC advertising service drives instant traffic and leads by placing your business at the top of search results with targeted paid campaigns.",
-                icon: step4,
-              },
-              {
-                step: "05",
-                title: "SEO Optimization",
-                text: "SEO optimization improves your website’s visibility, boosts search rankings, and attracts organic traffic through content, keywords, and technical performance enhancements.",
-                icon: step5,
-              },
-            ].map((item, index) => (
-
+          <div className="max-w-6xl  mt-[96px] mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+            {features.map((item, index) => (
               <div
                 key={index}
-                className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg 
-             hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 
-             text-left cursor-pointer"
+                className=" relative  pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
               >
-                <div>
-                  <div className="flex justify-between items-start pb-8">
-                    <img
-                      src={item.icon}
-                      alt={item.title}
-                      className="w-9 h-9 mb-2.5"
-                    />
-                    <div className="flex flex-col gap-2">
-                      <span className="text-white text-base font-semibold uppercase">
-                        STEP
-                      </span>
-                      <span className="text-[#ffcc00] text-end">
-                        {item.step}
-                      </span>
-                    </div>
-                  </div>
-                </div>
 
-                <h3 className="text-base font-semibold mb-2">
-                  {item.title}
+                <div className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#0000008]" />
+                <div className="absolute top-0 right-0 w-12 h-12  border-t-2 border-r-2 border-[#0000008]" />
+                <div className="absolute bottom-0 left-0 w-12 h-12  border-b-2 border-l-2 border-[#0000008]" />
+                <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
+
+                <div className="flex justify-center  "> <img src={item.icon} className='w-[64px] h-[64px]' /></div>
+                <h3 className="font-bold leading-[120%] text-[#000000] text-[24px]  mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>
+                <p className="text-[#000000] text-base leading-7  font-normal">{item.description}</p>
+              </div>
+            ))}
+          </div>
+
+
+
+          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>
+
+            How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
+          </h6>
+          <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+
+
+          <h5 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every Business Requirement</h5>
+          <h6 className='text-[52px] text-center max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-[4px]'>Why WebNest Media?</h6>
+          <p className='text-base  text-center text-[#000000]leading-7  font-[350'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
+
+        </section>
+
+
+
+        <section className='mt-[62px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+
+
+
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+            {trustDatasecond.map((item, index) => (
+              // <div className="trust-card " >
+              <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+
+                <h3 className="flex items-end mb-[36px] gap-2 ">
+                  <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
+                  <p className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</p>
                 </h3>
-                <p className="text-sm ">
+
+                <p className="text-base leading-relaxed ">
                   {item.text}
                 </p>
               </div>
             ))}
           </div>
-        </div>
-        <div className="container6 ">
+        </section>
+
+    
+
+        <section className='max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+
+
+          <div className="flex justify-end  mb-[5px] ">
+            <button onClick={scrollLeft} className="">
+              <img src={Left_Arrow} alt="" />
+            </button>
+            <button onClick={scrollRight} className="">
+              <img src={Right_Arrow} alt="" />
+            </button>
+          </div>
+
+
+          <div className="relative overflow-hidden">
+            <div
+              ref={sliderRef}
+              className="overflow-x-scroll flex space-x-6 py-4 scrollbar-hide"
+            >
+
+           
+              {[
+                {
+                  id: 1,
+                  title: "Review",
+                  text: "We automate repetitive tasks using modern tools and workflows—saving time, reducing errors, and increasing productivity across departments. From invoice generation to HR onboarding, we help you build smart, self-operating systems.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 2,
+                  title: "Review",
+                  text: "We move your legacy systems and data to secure, scalable cloud environments like AWS, Azure, or Google Cloud. With cloud integration, your team can collaborate from anywhere, access real-time data, and scale as your business grows.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 3,
+                  title: "Review",
+                  text: "Stay ahead with AI-powered tools that automate decisions, personalize user experiences, and predict customer behavior. From chatbots to recommendation engines, we use AI to drive smarter outcomes for your business.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 4,
+                  title: "Review",
+                  text: "We implement CRM (like Salesforce or HubSpot) and ERP solutions to unify your operations—sales, inventory, finance, customer service—and streamline your entire workflow.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 5,
+                  title: "Review",
+                  text: "Good design = better engagement. We craft user-friendly, modern interfaces that deliver smooth digital experiences across websites, apps, and internal platforms. Because your customers deserve intuitive, delightful interactions.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 6,
+                  title: "Review",
+                  text: "Make sense of your data. We build custom dashboards, analytics pipelines, and visual reports that help you understand customer behavior, sales trends, and performance metrics—so you can make smarter business decisions.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 7,
+                  title: "Review",
+                  text: "Digital growth needs digital safety. We secure your data, applications, and infrastructure with advanced cybersecurity practices including firewalls, encryption, multi-factor authentication, and regular audits.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 8,
+                  title: "Review",
+                  text: "When off-the-shelf solutions don’t fit, we build custom software tailored to your processes and goals—whether it’s a new internal tool, a client portal, or a full-scale application.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 9,
+                  title: "Review",
+                  text: "Still running on outdated tools? We upgrade and re-engineer your legacy systems into modern, efficient platforms that integrate with current technologies and support your future needs.",
+                  name:"Abhishek"
+                },
+                {
+                  id: 10,
+                  title: "Review",
+                  text: "We help you deliver a seamless, consistent brand experience across all digital channels—web, mobile, email, social, and more—so your customers can connect with you anytime, anywhere.",
+                  name:"Abhishek"
+                }
+              ]
+                .map((card, index) => (
+                  <div
+                    key={index}
+                    className=" flex-shrink-0 items-stretch w-[609px] max-md:w-[375px] align-top bg-none  text-left bg-[#EDEAE9]  py-5 px-10 justify-between    "
+                  >
+                    <h3 className="mb-6  border-b  "> {card.title}</h3>
+
+                    <p className='text-left py-[46px]'>{card.text}</p>
+
+                  <div className=' flex justify-between gap-[30%]  '> <p>Client: </p>  <p> {card.name} </p></div>
+                  </div>
+                ))}
+
+                
+            </div>
+          </div>
+        </section>
+
+
+        {/* <div className="container6 ">
 
 
           <div className=" max-w-[1440px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
-            {/* Left Side: Text + Numbers */}
+           
             <div className="w-[100%] max-lg:w-full">
               <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
                 Work With Us and Take <br />Your Business to the Next Level
@@ -606,7 +720,53 @@ That’s exactly why SEO is important. We have SEO experts, they work on your pr
 
           </div>
 
+        </div> */}
+
+    
+<section  className='mt-[60px] mb-[60px]'>
+
+   <div className=" bg-cover bg-center flex  items-center px-6 md:px-20  py-10"
+        style={{ backgroundImage: `url(${SeoConatct})`}}>
+      <div className="w-full max-w-7xl mx-auto flex max-lg:flex-col  md:flex-row items-start justify-between">
+        {/* Left Section */}
+        <div className="w-full md:w-1/2 mb-12 md:mb-0 max-lg:w-[100%]  ">
+          <p className="uppercase text-base leading-7 mb-4 text-[#FFFFFF] ">Contact Us</p>
+          <h6 className="text-[52px] max-lg:text-[38px] font-normal leading-snug text-white">
+          Let’s make the web <br  className='max-md:hidden'/>  talk about your  <br  className='max-md:hidden'/> project
+          </h6>
         </div>
+
+       
+
+        <div className=" w-px  bg-white  mx-10" />
+
+        {/* Right Section */}
+        <div className="w-full md:w-1/2 space-y-10   max-lg:w-[100%]  border-l-2 border-grey pl-[100px] ">
+          <div className='px-[10px] py-[10px]'>
+            <h3 className="text-[24px]   font-normal mb-2 text-[#FFFFFF] ">Get a Free Consultation</h3>
+                <p className="text-[18px] leading-7 flex items-center gap-2 mb-2 text-[#FFFFFF] ">
+            <img src={seocontactphoneicon} /> <a href="mailto:info@webnest.in" className=""> +919696964606</a> </p>
+            
+            <p className="text-[18px] leading-7 flex items-center gap-2 text-[#FFFFFF] ">
+            <img src={seocontactimage} /> <a href="mailto:info@webnest.in" className="underline">info@webnest.in</a>
+            </p>
+          </div>
+
+          <div className='px-[10px] py-[10px]'>
+            <h3 className="text-[24px]  font-normal mb-2 text-[#FFFFFF] ">Get a Free Consultation</h3>
+            <p className="text-[18px] leading-7 flex items-start gap-2 text-[#FFFFFF] ">
+            <img src={seolocation} /> <span>
+                1st Floor Orchid Business Park,<br />
+                Near Subhash Chowk, Sector 48,<br />
+                Gurugram Haryana 122001
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
         <div className="accordian max-w-[1440px] w-[100%] mx-auto">
 
           <div>

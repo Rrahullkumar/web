@@ -12,6 +12,8 @@ import image_7 from './resources/image_7.svg'
 import topimage from './resources/topimage.svg';
 import { Helmet } from 'react-helmet';
 const DigitalTranformationservice = () => {
+
+  
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
