@@ -10,13 +10,23 @@ import step2 from './resources/step2.svg';
 import step3 from './resources/step3.svg';
 import step4 from './resources/step4.svg';
 import step5 from './resources/step5.svg';
+import heroimage from "./resources/heroimage.svg";
+
+import seoicon1 from "./resources/seoicon1.svg";
+import seoicon2 from "./resources/seoicon2.svg";
+import seoicon3 from "./resources/seoicon3.svg";
+import seoicon4 from "./resources/seoicon4.svg";
+import seoicon5 from "./resources/seoicon5.svg";
+import seoicon6 from "./resources/seoicon6.svg";
+
 import cneterstroke from "./resources/centerpaint.svg"
 import leftpaint from "./resources/leftpaint.svg"
 import rightpaint from "./resources/rightpaint.svg"
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-import  heroimage from "../../pages/seo/resources/heroimage.svg";
 
+
+import logo from "../../assets/newlogo.svg"
 const Seo = () => {
   const [text, setText] = useState('');
   const words = ['Visibility', 'Rank', 'Traffic'];
@@ -75,24 +85,24 @@ const Seo = () => {
   ];
   const trustData = [
     {
-      title: "SEO That Works, Without the Gimmicks",
-      text: "As a leading SEO company in Gurgaon, we ensure your business reaches the right audience at right moment. Our trusted SEO expert in Gurgaon uses ethical, data-driven strategies to boost visibility, traffic, and customer trust.",
+      title: "On-Page SEO",
+      text: "Optimize the structure and content of your website to increase visitors and rank well. Our on-page SEO services concentrate on improving important components including internal linking, URL structure, meta tags, keywords, and content quality. We guarantee that every page on your website is optimized for search engines..",
     },
     {
-      title: "Proven Track Record of Results",
-      text: "At Webnest Media, we deliver real results. As the best SEO services company in Gurgaon, our SEO expert boosts organic traffic, rankings, and conversions with data-driven strategies.",
+      title: "Off-Page SEO",
+      text: "Boost your website through high-quality backlinks and a stronger online presence. We develop effective off-page SEO strategies, including acquiring high-quality backlinks, improving your social media visibility, and fostering brand mentions across the web.",
     },
     {
-      title: "Experienced SEO Specialists",
-      text: "Our team is made up of passionate SEO professionals with years of experience across diverse industries. We stay ahead of algorithm changes and industry trends to keep your site competitive.",
+      title: "Technical SEO",
+      text: "Boost your website’s technical performance for faster load times, easier crawlability, and stronger search rankings. Our team optimizes the technical aspects of your site, from site speed and mobile-friendliness to error fixes, structured data, and secure HTTPS implementation ensuring your website is easy for search engines to index and users to navigate.",
     },
     {
-      title: "Client-Centered Approach",
-      text: "Your success is our priority. We work as an extension of your team, keeping your business goals at the center of everything we do.",
+      title: "Local SEO",
+      text: "Boost your local visibility with optimized listings, targeted local keywords, and a strong presence in local search results. We help businesses dominate local search results through Google My Business optimization, local keyword targeting, citation management, and review strategies giving you a strong presence where your customers are searching.",
     },
     {
-      title: "Ready to Rank Higher and Grow Smarter?",
-      text: "Whether you're just getting started or looking to scale, Webnest Media is here to help. Let’s turn your website into your most powerful marketing tool.",
+      title: "E-Commerse SEO",
+      text: "Drive more sales and visibility by optimizing your online store to stand out and rank above the competition. We implement tailored SEO strategies for e-commerce businesses, including product and category page optimization, rich snippets, and SEO-friendly architecture ensuring your store stands out in competitive markets.",
     },
   ];
   const faqData = [
@@ -123,6 +133,40 @@ const Seo = () => {
   const toggleAnswer = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
+
+  const features = [
+  {
+    icon: seoicon1,
+    title: "Increases Online Visibility",
+    description: "Effective SEO places your site near the top of search results; that spot receives lions share of clicks.",
+  },
+  {
+    icon: seoicon2,
+    title: "Drives Quality Organic Traffic",
+    description: "Pages tuned for search draw in people already looking for goods or services you provide.",
+  },
+  {
+    icon: seoicon3,
+    title: "Builds Brand Credibility",
+    description: "Consistent high rankings signal trust, letting visitors see your brand as a knowledgeable authority.",
+  },
+  {
+    icon: seoicon4,
+    title: "Delivers Long-Term Results",
+    description: "Unlike paid placements, solid SEO keeps your site visible and earning traffic long after work is done.",
+  },
+  {
+    icon: seoicon5,
+    title: "Improves User Experience",
+    description: "SEO at best speeds up pages, makes them mobile-ready, and smooths out usability for every visitor.",
+  },
+  {
+    icon:seoicon6,
+    title: "Boosts Conversions And ROI",
+    description: "By matching right audience to your offer, search-friendly sites turn more visitors into leads and paying customers.",
+  },
+];
 
   return (
     <>
@@ -275,78 +319,65 @@ const Seo = () => {
       </Helmet>
 
       <section className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
-        
-             <HeroSection
-        backgroundImage={heroimage}
-        heading="SEO Company"
-        highlight="In Gurgaon"
-        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
-      />
+
+        <HeroSection
+          backgroundImage={heroimage}
+          heading="SEO Company"
+          highlight="In Gurgaon"
+          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+        />
 
 
 
-        <h1 className='text-[52px] max-md:text-[38px] font-semibold text-center mt-[200px] max-lg:mt-[50px] text-[#4caf50]'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1>
-        {/* <div className="container1 max-w-[1440px] w-[100%] mx-auto max-lg:text-center  " id='c1'> */}
+        <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
-        {/* <h1 id='c1h1'>SEO Agency <span className='text-black'> in Gurgaon</span> </h1> */}
-        {/* <h2 className="text-[40px] font-bold text-black bg-yellow-400 px-4 py-1 inline-block rounded-md typing mt-[250px]">
-          {text}
-        </h2> */}
-
-        {/* <div className='h-[80px]'>
-            <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[250px]  ">
-              {text}
-            </h2>
-          </div> */}
+          <p id="c2headingleft" className="c2heading">
+            Best SEO Company  <br className='max-lg:hidden' /> in  Gurgaon
+          </p>
 
 
+          <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
 
-        {/* </div> */}
+            <div className="w-[60%] max-lg:w-[100%] ">
 
-        <div className="container2 max-w-[1440px] w-[100%] mx-auto ">
-          <div className="c2left">
 
-            <p id="c2headingleft" className="c2heading">
-              Raise Your <span className='highlight'>Website</span> <br />#1 on Result Page with <span className='highlight'>WebNest Media</span>
-            </p>
+              <p id="" className='text-base mt-[20px] font-manrope  '>
+                In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
+              </p>
+              <p id="" className='text-base mt-[20px] font-manrope '>
 
-            <p id="" className='text-base  '>
-              Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content,
-              smooth structure, and grow naturally. WebNest Media is the best SEO company in Gurgaon that
-              personalizes SEO strategies, clear reports, honest practices, and ongoing support focused on
-              boosting your rankings and growing your business.
-            </p>
-            <div className=" flex gap-3 mt-[32px]  ">
-              <button className='c2greenbutton'>Learn More</button>
-              <button className='c2whitebutton'>Contact Us</button>
+
+
+                The best SEO plan makes the right visitors, organic traffic, and lifts conversion rates. At WebNest Media, we combine analytics, creativity, and latest techniques to produce clear, measurable outcomes. Our team listens to your objectives and filters out suited strategies for fast growth, supporting your business in securing lasting online success
+              </p>
+
             </div>
+
+            <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
+              <p className='text-[28px] font-manrope'> SEO by</p>
+
+              <img src={logo} />
+
+            </div>
+
+          </div>
+          <div className=" flex gap-3 mt-[32px]  ">
+            <button className='c2greenbutton'>Learn More</button>
+            <button className='c2whitebutton'>Contact Us</button>
           </div>
 
-          <div className="c2right ">
-            <img src={c2_image} alt="" />
-          </div>
         </div>
 
 
 
-        <section className="bg-[#EFF4EE] pb-[72px] pt-[72px] flex flex-col items-center justify-center max-md: ">
+        <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
-            <p style={{ color: '#EEC370', fontSize: 18 }}>The no.1 SEO Service</p>
-            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom: 32 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
-            <p style={{ fontSize: 16, marginBottom: 62 }}>
-              We combine on page SEO, off page SEO and technical SEO to scale supply chain solutions and accelerate growth.
+    
+            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom:72 ,paddingTop:72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
+          
 
-            </p>
-
-            {/* <div className="c2_cards">
-            {statsData.map((item, index) => (
-              <div className="stat-card" key={index}>
-                <h2 className="stat-number">{item.number}</h2>
-                <p className="stat-label">{item.label}</p>
-              </div>
-            ))}
-          </div> */}
+        
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
@@ -377,24 +408,27 @@ const Seo = () => {
 
           <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
 
-            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold">
-              Why Businesses Trust <span className="highlight">Webnest Media</span> for SEO?
+
+<p className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
+            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold text-center">
+               <span className="highlight">SEO</span>Services
             </h2>
 
-            <p className="trust-subheading  mb-[40px] w-[60%] max-md:w-[100%]">
-              Your web presence can be made or broken by your choice of SEO partner. At <span className="highlight">Webnest Media</span>, we reject formula approaches and false promises. We believe in real results, honest work, and long-term success.
+
+            <p className="text-base font-normal leading-7   mb-[83px]  text-center ">
+     We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
               {trustData.map((item, index) => (
                 // <div className="trust-card " >
-                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] p-[30px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                   <h3 className=" flex items-center ">
                     <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
-                    <p className='text-[24px] text-[#4CAF50] font-medium max-lg:pl-3'>{item.title}</p>
+                    <p className='text-[24px] text-[#4CAF50] font-medium '>{item.title}</p>
                   </h3>
-                  <p className="text-bas leading-relaxed mt-9 mb-[74px]">
+                  <p className="text-bas leading-relaxed pb-[22px] ">
                     {item.text}
                   </p>
                 </div>
@@ -416,6 +450,49 @@ const Seo = () => {
 
 
           </div>
+        </section>
+
+        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+<h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-[120%]'>Why SEO is Important?</h6>
+<p className='text-base text-[#000000] leading-[120%] font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+
+<p className='text-base text-[#000000] leading-[120%] font-[350] mt-[20px] max-lg:mt-[10px]'>
+
+That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
+      
+      
+      
+      
+         <div className="max-w-6xl  mt-[96px] mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+      {features.map((item, index) => (
+        <div
+          key={index}
+          className=" relative  pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
+        >
+         
+          <div className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#0000008]" />
+          <div className="absolute top-0 right-0 w-12 h-12  border-t-2 border-r-2 border-[#0000008]" />
+          <div className="absolute bottom-0 left-0 w-12 h-12  border-b-2 border-l-2 border-[#0000008]" />
+          <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
+
+          <div className="flex justify-center  "> <img src={item.icon}  className='w-[64px] h-[64px]'/></div>
+          <h3 className="font-bold leading-[120%] text-[#000000] text-[24px]  mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>
+          <p className="text-[#000000] text-base leading-[120%]  font-normal">{item.description}</p>
+        </div>
+      ))}
+    </div>
+
+
+
+    <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-[120%]'>
+
+      How the Best SEO Agency in Gurgaon is <br  className='max-lg:hidden' /> Transforming Digital Marketing Strategies
+    </h6>
+<p className='text-base text-[#000000] leading-[120%] font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+
+
+      
+      
         </section>
 
         <div className="mt-[96px]  max-w-[1440px] w-[100%] mx-auto  mb-[96px]  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]">
@@ -458,37 +535,37 @@ const Seo = () => {
               },
             ].map((item, index) => (
 
-              <div 
-  key={index}
-  className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg 
+              <div
+                key={index}
+                className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg 
              hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 
              text-left cursor-pointer"
->
-  <div>
-    <div className="flex justify-between items-start pb-8">
-      <img 
-        src={item.icon} 
-        alt={item.title} 
-        className="w-9 h-9 mb-2.5" 
-      />
-      <div className="flex flex-col gap-2">
-        <span className="text-white text-base font-semibold uppercase">
-          STEP
-        </span>
-        <span className="text-[#ffcc00] text-end">
-          {item.step}
-        </span>
-      </div>
-    </div>
-  </div>
+              >
+                <div>
+                  <div className="flex justify-between items-start pb-8">
+                    <img
+                      src={item.icon}
+                      alt={item.title}
+                      className="w-9 h-9 mb-2.5"
+                    />
+                    <div className="flex flex-col gap-2">
+                      <span className="text-white text-base font-semibold uppercase">
+                        STEP
+                      </span>
+                      <span className="text-[#ffcc00] text-end">
+                        {item.step}
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
-  <h3 className="text-base font-semibold mb-2">
-    {item.title}
-  </h3>
-  <p className="text-sm ">
-    {item.text}
-  </p>
-</div>
+                <h3 className="text-base font-semibold mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm ">
+                  {item.text}
+                </p>
+              </div>
             ))}
           </div>
         </div>

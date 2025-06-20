@@ -30,7 +30,9 @@ import Leadgeneration from './pages/lead_generation/Leadgeneration';
 import MobileMarketing from './pages/mobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
-import Emailmarketing from './pages/emailmarketing/Emailmarketing'
+import Emailmarketing from './pages/emailmarketing/Emailmarketing';
+import Insight from "./pages/Insight/Insight";
+ 
 const App = () => {
 
 
@@ -72,6 +74,7 @@ const App = () => {
           <Route path='/influencer-marketing' element={<InfluencerMarketing/>}></Route>
           <Route path='/sms-marketing' element={<SmsMarketing/>}></Route>
           <Route path='/email-marketing' element={<Emailmarketing/>}></Route>
+               <Route path='/insight' element={<Insight/>}></Route>
           <Route path="*" element={<Navigate to="/" replace />} />
       
         </Routes>

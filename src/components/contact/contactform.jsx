@@ -157,7 +157,7 @@ const ContactForm = () => {
       >
         {service}
         <span
-          className="absolute top-[-6px] right-[-6px] w-5 h-5 bg-red-500 text-white rounded-full flex items-center justify-center text-xs cursor-pointer hover:bg-red-400"
+          className="absolute top-[-6px] right-[-6px] w-5 h-5 bg-white text-red-700 font-semibold rounded-full flex items-center justify-center text-xs cursor-pointer"
           onClick={() =>
             setSelectedServices((prev) =>
               prev.filter((s) => s !== service)

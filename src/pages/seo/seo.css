@@ -18,13 +18,7 @@
     gap:32px;
     
 }
-.c2left{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-   
 
-}
 #c2headingleft{
     font-size: 52px;
     font-weight: 600;
