@@ -29,51 +29,51 @@ const SmsMarketing = () => {
 <link rel="canonical" href="https://webnestmedia.com/sms-marketing"></link>
     </Helmet>
 
-    <div className='mt-[50px] max-w-[1440px] w-[100%] mx-auto'>
-       <div className="smsc1 relative">
-            {/* Background image */}
+    <div className='mt-[100px] max-w-[1440px] w-[100%] mx-auto'>
+       {/* <div className="smsc1 relative">
+        
             <img src={topimage} alt="" className="w-full h-auto" />
 
-            {/* Overlay */}
+  
             <div className="absolute inset-0 bg-black opacity-40"></div>
 
-            {/* Heading */}
+       
             <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
                 <span className="text-[#4CAF50]">SMS</span> Marketing
             </h1>
+            </div> */}
+        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px]">
+            <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
+            
+            <div className="smsc2left lg:w-[60%] ">
+                <h2 className='text-[52px] max-lg:text-[38px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
+                <p className='text-base'>Discover the possibility of business growth with The SMS Marketing Agency, a partner committed to quality. Set up a free 45-minute consultation today to see your conversions increase by two times.</p>
             </div>
-        <div className="smsc2 flex flex-row  max-w-[1247px] pt-[96px] ml-[40px]  mb-[96px]">
-            <div className="smsc2left w-[60%] mr-[135px]">
-                <h2 className='text-[52px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
-                <p className='text-[16px]'>Discover the possibility of business growth with The SMS Marketing Agency, a partner committed to quality. Set up a free 45-minute consultation today to see your conversions increase by two times.</p>
-            </div>
-            <div className="smsc2right">
-                <img src={c2image} alt="" />
-            </div>
+             
         </div>
-        <div className="smsc3 flex flex-row justify-center items-center ml-[40px] mr-[40px] mb-[96px]">
-            <div className="smsc3left mr-[73px]">
-                <img src={c3image} alt="" />
-            </div>
-            <div className="smsc3right w-[60%]">
-                <h2 className='text-[52px] mb-[36px] font-semibold'> WebNest Media The SMS Marketing Agency in Gurgaon</h2>
-                <p className='text-[16px] '>SMS marketing cuts through the clutter, offering an unparalleled direct line to your audience. Our teams of SMS marketing experts can conducts bulk SMS marketing at a point of time. As a leading SMS marketing agency in Gurgaon, we empower businesses like yours to forge immediate, impactful connections. Forget the crowded inbox; an SMS delivers your message instantly, ensuring it’s seen and acted upon, driving real results for your brand.</p>
+        <div className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-[96px]">
+            
+                <img src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
+            
+            <div className="smsc3right lg:w-[60%]">
+                <h2 className='text-[52px] max-lg:text-[36px]  mb-[36px] font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
+                <p className='text-base '>SMS marketing cuts through the clutter, offering an unparalleled direct line to your audience. Our teams of SMS marketing experts can conducts bulk SMS marketing at a point of time. As a leading SMS marketing agency in Gurgaon, we empower businesses like yours to forge immediate, impactful connections. Forget the crowded inbox; an SMS delivers your message instantly, ensuring it’s seen and acted upon, driving real results for your brand.</p>
                 <br />
-                <p className='text-[16px]'>We specialize in Navigating the complexities of SMS marketing in India requires local expertise combined with global best practices. For online businesses, SMS marketing for ecommerce is no longer optional, it's a necessity for competitive advantage. WebNest Media extends its mobile marketing prowess to include comprehensive WhatsApp SMS company in Gurgaon services.</p>
+                <p className='text-base'>We specialize in Navigating the complexities of SMS marketing in India requires local expertise combined with global best practices. For online businesses, SMS marketing for ecommerce is no longer optional, it's a necessity for competitive advantage. WebNest Media extends its mobile marketing prowess to include comprehensive WhatsApp SMS company in Gurgaon services.</p>
             </div>
         </div>
-        <div className="smsc4">
-            <div className="max-w-[1200px] mx-auto px-4">
+        <div className="smsc4 max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+            <div className="max-w-[1200px] mx-auto">
                 {/* Heading */}
-                <h2 className="text-[52px] w-[90%] mx-auto font-semibold text-center mb-8">
+                <h2 className="text-[52px] max-lg:text-[38px] lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
                     SMS Marketing Company Services | Your Pathway to Direct Engagement
                 </h2>
-                <p className="text-center text-gray-600 max-w-[800px] mx-auto mb-[109px]">
+                <p className="lg:text-center text-gray-600 max-w-[800px] mx-auto mb-[109px] max-lg:mb-[60px]">
                     A specialized SMS marketing company provides a full suite of services to ensure your mobile messaging campaigns are effective, compliant, and drive tangible results. They act as your expert partner, handling everything from strategy to execution and analysis.
                 </p>
 
                 {/* Grid Section */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center ">
                     {/* Card 1 */}
                     <div className="bg-[#4CAF50] text-white p-6  flex flex-col shadow-md text-center items-center">
                     <div className="text-3xl mb-3"><img src={icon1} alt="" /></div>
@@ -118,8 +118,8 @@ const SmsMarketing = () => {
                 </div>
                 </div>
         </div>
-         <div className="lastcontainer mt-[126px]">
-          <p className=" mb-[50px] text-center font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px]">
+          <p className=" mb-[50px] lg:text-center font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
       </div>
     </div>

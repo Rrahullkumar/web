@@ -26,35 +26,35 @@ const InfluencerMarketing = () => {
     </Helmet>
     <div className="mt-[50px]">
       {/* Top Image Banner */}
-      <div className="imc1 relative">
+      {/* <div className="imc1 relative">
         <img src={topimage} alt="" className="w-full h-auto" />
         <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]">
           <span className="text-[#4CAF50]">Influencer</span> Marketing
         </h1>
-      </div>
+      </div> */}
 
       {/* B2B Lead Generation Section */}
-      <div className="imc2 mt-[93px] flex flex-row ml-[40px] h-[555px]">
-        <div className="imc2left w-1/2 pt-[100px]">
-          <h2 className="text-[48px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
+      <div className="imc2 max-w-[1440px] px-10 max-lg:px-14 lg:flex flex-row-reverse lg:items-center lg:justify-between ">
+
+          <img src={image1} alt="" className="max-lg:w-1/2 max-lg:float-right " />
+        <div className="imc2left lg:w-[60%] ">
+          <h2 className="text-[52px] max-lg:text-[38px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
           <br />
-          <p className="text-[16px] font-[350]">
+          <p className="text-[16px] font-[350] ">
             WebNest Media is the best influencer company in Gurgaon, Delhi & India.
             We help brands to connect with popular people to get real attention and clear business growth all over country.
           </p>
         </div>
-        <div className="imc2right w-1/2 h-full flex items-center">
-          <img src={image1} alt="" className="w-full h-full object-contain pb-[20px]" />
-        </div>
+        
       </div>
 
       {/* Top Influencer Section */}
-      <div className="imc3 flex flex-col items-center mb-[96px]">
-        <h2 className="text-[52px] w-[50%] text-center font-semibold mb-[32px]">
+      <div className="imc3 max-w-[1440px] px-10 max-lg:px-4 flex flex-col items-center max-lg:mt-[40px] mb-[96px]">
+        <h2 className="text-[52px] max-lg:text-[36px] lg:w-[50%] lg:text-center font-semibold mb-[32px] ">
           India's Top Influencer Marketing Platform
         </h2>
-        <p className="text-[18px] w-[80%] text-center">
-          WebNest Media is the leading influencer marketing agency in India as well as social media influencer marketing
+        <p className="text-[18px] lg:w-[80%] lg:text-center">
+          WebNest Media is the leading influencer marketing span agency in India as well as social media influencer marketing
           that provides a complete range of services to help brands connect with their audience and get results.
           We handle the entire campaign, from creating content to tracking its success, all to make sure brands meet their goals.
         </p>
@@ -100,28 +100,26 @@ const InfluencerMarketing = () => {
               className="bg-black text-white rounded-lg shadow-lg p-6 max-w-[325px] w-full sm:w-[300px] h-[400px] flex flex-col items-center text-center transition-transform hover:scale-105 duration-300 ease-in-out"
             >
               <img src={item.image} alt={item.title} className="w-[64px] mb-6 mt-2" />
-              <h3 className="text-[18px] font-semibold mb-4">{item.title}</h3>
-              <p className="text-[16px] text-gray-300">{item.content}</p>
+              <h3 className="text-lg font-semibold mb-4">{item.title}</h3>
+              <p className="text-base text-gray-300">{item.content}</p>
             </div>
           ))}
         </div>
 
       </div>
-      <div className="imc5 flex flex-col justify-center items-center pt-[96px]">
-        <h2 className='text-[52px] w-[60%] mb-[54px] font-semibold' > How Our Influencer Marketing Company Helps Brands?</h2>
-          <p className='text-[16px] w-[60%]'>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
-          <div className="flex flex-row ml-[40px] justify-center items-center pt-[96px]">
-              <div className="left w-[70%]">
-                <h2 className='text-[52px] pb-[36px] font-semibold'>  How Our Influencer Marketing Company Helps Brands?</h2>
-                <p className='text-[16px] '>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
-              </div>
-              <div className="right">
-                  <img src={c5img} alt="" />
+      <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 max-lg:mt-14">
+          <h2 className='text-[52px] max-lg:text-[38px] pb-[36px] font-semibold lg:w-[70%] lg:translate-y-44'>  How Our Influencer Marketing Company Helps Brands?</h2>
+          <div className="lg:flex flex-row-reverse lg:justify-between lg:items-center gap-5">
+            <img src={c5img} alt="max-lg:float-right" />
+              
+              <div className="left lg:w-[45%]">
+                
+                <p className='text-base '>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
               </div>
           </div>
       </div>
-      <div className="lastcontainer mt-[126px]">
-          <p className=" mb-[50px] text-center font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+      <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px]">
+          <p className=" lg:mb-[50px] lg:text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
       </div>
 
