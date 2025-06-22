@@ -645,8 +645,10 @@ cursor: pointer;
 
   .h1tag {
     font-size: 20px;
-    /* -webkit-text-stroke: 2px !important; */
+    -webkit-text-stroke: 0.5px !important;
     align-items: start;
+    letter-spacing: 0.5px;
+        line-height: 1.75em !important;
   }
 
   .area {

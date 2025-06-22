@@ -383,7 +383,7 @@ const Home = () => {
       <div className=' homeclass '>
 
         <div className="context  flex items-center justify-center gap-[60px]   ">
-          <div className='text-part max-md:p-[40px] '>
+          <div className='text-part max-md:p-[16px] '>
             <div className="relative">
               <h1 className="h1tag ">
                 <span>Best </span>
@@ -437,7 +437,7 @@ const Home = () => {
         </div>
 
 
-        <div className="area pl-[40px] pr-[40px] bg-none" >
+        <div className="area pl-[40px] pr-[40px]  bg-none max-lg:hidden" >
           <ul className="circles">
             <li></li>
             <li></li>
@@ -455,7 +455,7 @@ const Home = () => {
 
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto z-[999] relative flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px]  gap-8">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto z-[999] relative flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[400px]">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
@@ -484,7 +484,7 @@ const Home = () => {
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden" >
-          <p className=" text-[black] text-[20px] font-semibold">Our Client</p>
+          <p className=" text-[black] text-[20px] font-semibold max-lg:mt-[52px]">Our Client</p>
           <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>
 
@@ -520,7 +520,7 @@ const Home = () => {
 
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
 
 
           <div className="flex justify-center md:w-[35%] ">
@@ -539,7 +539,7 @@ const Home = () => {
 
         </div>
 
-        <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] transparenbody'>
+        <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
           <h2 className=" "> Service's we Offered</h2>
@@ -706,7 +706,7 @@ const Home = () => {
       
         </div>
 
-        <div className="w-[100%] max-w-[1440px]  mx-auto accordian">
+        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
           <Accordion />
         </div>

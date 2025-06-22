@@ -94,7 +94,7 @@ export default function NewdesktopHeader() {
     return (
         <header className="fixed  backdrop-blur-md top-0 left-0 w-full z-[99999] border-b border-[#9ac496]  ">
             <div className="max-w-[1440px] w-full mx-auto">
-                <div className="flex items-center justify-between px-4  py-4  max-xl:px-[20px]">
+                <div className="flex items-center justify-between px-4  py-4  max-xl:px-[16px]">
                     <div className="flex items-center gap-2">
                         <Link to="/">
                             <img
@@ -146,7 +146,7 @@ export default function NewdesktopHeader() {
 
 
 
-     <div className=" flex    items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
+                                        <div className=" flex    items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
                                             <div className="max-w-[1440px]  w-full mx-auto flex justify-between">
                                                 {item.columns.map((col, colIndex) => (
                                                     <div key={colIndex}>
@@ -179,8 +179,8 @@ export default function NewdesktopHeader() {
                                             </div>
                                         </div>
 
-                                        
-                                       
+
+
 
                                     </div>
 

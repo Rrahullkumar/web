@@ -12,19 +12,22 @@ import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 const Footer = () => {
   return (
    <footer className="bg-[#1A1D1C] text-white p-[40px] max-md:px-4 relative " >
+
       <div className="max-w-[1440px] w-[100%] mx-auto space-y-10">
 
-        {/* Top Section */}
-        <div className="flex flex-col items-center max-sm:items-start lg:flex-row justify-between gap-10">
-          {/* Logo */}
-          <div className="flex-shrink-0">
+        {/* <div className="flex flex-col items-center max-sm:items-start lg:flex-row justify-between gap-10">
+     */}
+{/* 
+<div className="grid gap-10  lg:grid-cols-2  xl:grid-cols-4 ">
+
+          <div className="">
             < Link to={"/"} >
               <img src={blacklogo} alt="WebNest Media Logo" className="w-[186px] " />
             </Link>
 
           </div>
 
-          {/* Social Media */}
+     
           <div className=" flex flex-col items-center  max-sm:items-start   lg:text-left gap-[10px]">
             <h4 className="text-lg font-semibold mb-2 hover:text-[#25D366] transition-colors duration-300">
               Connect on Social Media
@@ -47,12 +50,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >    <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />   </a>
-              {/* <a
-                href="https://www.instagram.com/webnestmediagroup/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >    <FaYoutube className="hover:text-red-600 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />   </a>
-              */}
+             
              
               <a
                 href="https://www.instagram.com/webnestmediagroup/"
@@ -62,8 +60,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Address & Email */}
-          <div className="flex  flex-col text-center  max-sm:text-start lg:text-right">
+          <div className="flex  flex-col text-start  max-sm:text-start ">
             <div>
               <h4 className="text-lg font-semibold mb-2">Our Address</h4>
               <p className="text-sm mb-4">
@@ -75,10 +72,7 @@ const Footer = () => {
 
           </div>
 
-          <div>
-
-
-
+          <div className='flex items-center  flex-col text-start  max-sm:text-start'>
             <h4 className="text-lg font-semibold mb-2">Email Us</h4>
             <p> <a
               className="text-sm text-blue-300 hover:underline"
@@ -91,7 +85,85 @@ const Footer = () => {
               <p className='text-sm text-[white] hover:underline'>Privacy Policy</p>
             </Link>
           </div>
-        </div>
+
+        </div> */}
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  {/* Logo Section */}
+  <div className="flex   ">
+    <Link to="/">
+      <img
+        src={blacklogo}
+        alt="WebNest Media Logo"
+        className="w-[186px]"
+      />
+    </Link>
+  </div>
+
+  {/* Social Media Section */}
+  <div className="flex flex-col  gap-2">
+    <h4 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
+      Connect on Social Media
+    </h4>
+    <div className="flex justify-center max-md:justify-center lg:justify-start space-x-4 text-xl">
+      <a
+        href="https://www.facebook.com/profile.php?id=61576616442478"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+      </a>
+      <a
+        href="https://x.com/webnestmediag?s=21"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+      </a>
+      <a
+        href="https://www.linkedin.com/company/webnest-media-group/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+      </a>
+      <a
+        href="https://www.instagram.com/webnestmediagroup/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+      </a>
+    </div>
+  </div>
+
+  {/* Address Section */}
+  <div className="flex flex-col ">
+    <h4 className="text-lg font-semibold mb-2">Our Address</h4>
+    <p className="text-sm">
+      1st Floor Orchid Business Park,<br />
+      Near Subhash Chowk, Sector 48,<br />
+      Gurugram, Haryana 122004
+    </p>
+  </div>
+
+  {/* Email & Privacy Section */}
+  <div className="flex flex-col ">
+    <h4 className="text-lg font-semibold mb-2">Email Us</h4>
+    <p>
+      <a
+        href="mailto:info@webnestmedia.com"
+        className="text-sm text-blue-300 hover:underline"
+      >
+        info@webnestmedia.com
+      </a>
+    </p>
+    <Link to="/privacy-policy">
+      <p className="text-sm text-white hover:underline">Privacy Policy</p>
+    </Link>
+  </div>
+</div>
+
 
         <svg width="100%" height="2">
           <line x1="0" y1="1" x2="100%" y2="1" stroke="white" strokeWidth="2" strokeDasharray="6,6" />
