@@ -36,6 +36,7 @@ import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
+import  topimage from './resources/topimage.svg'
 
 const Smm = () => {
   const [text, setText] = useState('');
@@ -156,17 +157,17 @@ const Smm = () => {
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
       </Helmet>
 
-      <div className='mt-[150px] max-lg:mt-[30px] w-[100%] mb-[120px]  mx-auto'>
+      <div className='mt-[77px] max-lg:mt-[0px] w-[100%] mb-[120px]  mx-auto'>
         <div className=" ">
           {/* <h1 className='className="text-3xl md:text-5xl sm:text-2xl font-bold text-[#5c945c] mt-[150px] max-lg:mt-[30px] text-center ml-[30px]" ' id='head1' style={{ lineHeight: 1.5 }}>Social Media Marketing Agency <br />  <span className='text-black'>in Gurgaon</span></h1>
           */}
 
-          {/* <HeroSection
+          <HeroSection
                         backgroundImage={topimage}
                         heading="Mobile Marketing Company"
                         highlight="In Gurgaon"
                         paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
-                    /> */}
+                    />
 
           {/* <h2 className="heading-styled relative h-[70px] text-[35px]  bg-yellow font-bold text-black px-4 py-1 mt-[13px] ml-[43%]">
             {text}
@@ -179,7 +180,7 @@ const Smm = () => {
         {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
         <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
-          <p className="mt-[40px] text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+          <p className="mt-24 text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
           Boost Your Digital Impact with <br className='max-lg:hidden' />
           Smart Social Media Planning
         </p>

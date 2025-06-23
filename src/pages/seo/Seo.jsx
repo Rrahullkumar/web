@@ -541,7 +541,7 @@ const Seo = () => {
         </section>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h6>
+          <h6 className='text-[52px] font-semibold max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h6>
           <p className='text-base text-[#000000] leading-7 font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
           <p className='text-base text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
@@ -551,7 +551,7 @@ const Seo = () => {
 
 
 
-          <div className="max-w-6xl  mt-[96px] mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+          <div className="max-w-6xl  mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
             {features.map((item, index) => (
               <div
                 key={index}
@@ -572,14 +572,14 @@ const Seo = () => {
 
 
 
-          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>
+          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug font-semibold'>
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
           </h6>
           <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
-          <h5 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every  <br   className='max:lg:hidden'/> Business Requirement</h5>
+          <h5 className='text-[52px] font-semibold lg:text-center max-md:text-[38px] text-[#000000] mb-9 max-lg:mb-4 leading-snug  mt-[96px] '> SEO Agency for Every  <br   className='max:lg:hidden'/> Business Requirement</h5>
 
 
          <div
@@ -645,91 +645,117 @@ const Seo = () => {
           </div>
 
 
-          <div className="relative overflow-hidden">
-            <div
-              ref={sliderRef}
-              className="overflow-x-scroll flex space-x-6 py-4 scrollbar-hide"
-            >
+          <div className="relative overflow-hidden dark:bg-gray-900 py-10">
+      <div
+        ref={sliderRef}
+        className="overflow-x-scroll flex space-x-6 py-4 px-4 scrollbar-hide snap-x snap-mandatory"
+      >
+        {[
+          {
+            id: 1,
+            title: "Review",
+            text: "We automate repetitive tasks using modern tools and workflows—saving time, reducing errors, and increasing productivity across departments. From invoice generation to HR onboarding, we help you build smart, self-operating systems.",
+            name: "Abhishek"
+          },
+          {
+            id: 2,
+            title: "Review",
+            text: "We move your legacy systems and data to secure, scalable cloud environments like AWS, Azure, or Google Cloud. With cloud integration, your team can collaborate from anywhere, access real-time data, and scale as your business grows.",
+            name: "Abhishek"
+          },
+          {
+            id: 3,
+            title: "Review",
+            text: "Stay ahead with AI-powered tools that automate decisions, personalize user experiences, and predict customer behavior. From chatbots to recommendation engines, we use AI to drive smarter outcomes for your business.",
+            name: "Abhishek"
+          },
+          {
+            id: 4,
+            title: "Review",
+            text: "We implement CRM (like Salesforce or HubSpot) and ERP solutions to unify your operations—sales, inventory, finance, customer service—and streamline your entire workflow.",
+            name: "Abhishek"
+          },
+          {
+            id: 5,
+            title: "Review",
+            text: "Good design = better engagement. We craft user-friendly, modern interfaces that deliver smooth digital experiences across websites, apps, and internal platforms. Because your customers deserve intuitive, delightful interactions.",
+            name: "Abhishek"
+          },
+          {
+            id: 6,
+            title: "Review",
+            text: "Make sense of your data. We build custom dashboards, analytics pipelines, and visual reports that help you understand customer behavior, sales trends, and performance metrics—so you can make smarter business decisions.",
+            name: "Abhishek"
+          },
+          {
+            id: 7,
+            title: "Review",
+            text: "Digital growth needs digital safety. We secure your data, applications, and infrastructure with advanced cybersecurity practices including firewalls, encryption, multi-factor authentication, and regular audits.",
+            name: "Abhishek"
+          },
+          {
+            id: 8,
+            title: "Review",
+            text: "When off-the-shelf solutions don’t fit, we build custom software tailored to your processes and goals—whether it’s a new internal tool, a client portal, or a full-scale application.",
+            name: "Abhishek"
+          },
+          {
+            id: 9,
+            title: "Review",
+            text: "Still running on outdated tools? We upgrade and re-engineer your legacy systems into modern, efficient platforms that integrate with current technologies and support your future needs.",
+            name: "Abhishek"
+          },
+          {
+            id: 10,
+            title: "Review",
+            text: "We help you deliver a seamless, consistent brand experience across all digital channels—web, mobile, email, social, and more—so your customers can connect with you anytime, anywhere.",
+            name: "Abhishek"
+          }
+        ].map((card, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 snap-center w-[609px] max-md:w-[375px] dark:bg-gray-800 p-8 rounded-lg shadow-md"
+          >
+            <figure className="max-w-md mx-0 text-left">
+              <svg
+                className="h-12 mb-3 text-gray-400 dark:text-gray-600"
+                viewBox="0 0 24 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                  fill="currentColor"
+                />
+              </svg>
 
-           
-              {[
-                {
-                  id: 1,
-                  title: "Review",
-                  text: "We automate repetitive tasks using modern tools and workflows—saving time, reducing errors, and increasing productivity across departments. From invoice generation to HR onboarding, we help you build smart, self-operating systems.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 2,
-                  title: "Review",
-                  text: "We move your legacy systems and data to secure, scalable cloud environments like AWS, Azure, or Google Cloud. With cloud integration, your team can collaborate from anywhere, access real-time data, and scale as your business grows.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 3,
-                  title: "Review",
-                  text: "Stay ahead with AI-powered tools that automate decisions, personalize user experiences, and predict customer behavior. From chatbots to recommendation engines, we use AI to drive smarter outcomes for your business.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 4,
-                  title: "Review",
-                  text: "We implement CRM (like Salesforce or HubSpot) and ERP solutions to unify your operations—sales, inventory, finance, customer service—and streamline your entire workflow.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 5,
-                  title: "Review",
-                  text: "Good design = better engagement. We craft user-friendly, modern interfaces that deliver smooth digital experiences across websites, apps, and internal platforms. Because your customers deserve intuitive, delightful interactions.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 6,
-                  title: "Review",
-                  text: "Make sense of your data. We build custom dashboards, analytics pipelines, and visual reports that help you understand customer behavior, sales trends, and performance metrics—so you can make smarter business decisions.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 7,
-                  title: "Review",
-                  text: "Digital growth needs digital safety. We secure your data, applications, and infrastructure with advanced cybersecurity practices including firewalls, encryption, multi-factor authentication, and regular audits.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 8,
-                  title: "Review",
-                  text: "When off-the-shelf solutions don’t fit, we build custom software tailored to your processes and goals—whether it’s a new internal tool, a client portal, or a full-scale application.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 9,
-                  title: "Review",
-                  text: "Still running on outdated tools? We upgrade and re-engineer your legacy systems into modern, efficient platforms that integrate with current technologies and support your future needs.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 10,
-                  title: "Review",
-                  text: "We help you deliver a seamless, consistent brand experience across all digital channels—web, mobile, email, social, and more—so your customers can connect with you anytime, anywhere.",
-                  name:"Abhishek"
-                }
-              ]
-                .map((card, index) => (
-                  <div
-                    key={index}
-                    className=" flex-shrink-0 items-stretch w-[609px] max-md:w-[375px] align-top bg-none  text-left bg-[#EDEAE9]  py-5 px-10 justify-between    "
-                  >
-                    <h3 className="mb-6  border-b  "> {card.title}</h3>
+              <blockquote>
+                <p className="text-lg font-medium text-gray-900 dark:text-white">
+                  "{card.text}"
+                </p>
+              </blockquote>
 
-                    <p className='text-left py-[46px]'>{card.text}</p>
-
-                  <div className=' flex justify-between gap-[30%]  '> <p>Client: </p>  <p> {card.name} </p></div>
+              <figcaption className="flex items-center mt-6 space-x-3">
+                <img
+                  className="w-10 h-10 rounded-full object-cover"
+                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                  alt="profile picture"
+                />
+                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                  <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                    {card.name}
                   </div>
-                ))}
-
-                
-            </div>
+                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
+                    CEO at Google
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
           </div>
+        ))}
+      </div>
+    </div>
+
         </section>
 
 

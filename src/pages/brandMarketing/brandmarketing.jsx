@@ -30,6 +30,9 @@ import { FiPhone } from "react-icons/fi";
 import Accordian from "./component/Accordian";
 import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact'
+
+import HeroSection from '../../components/Herosection/Herosection';
+import topimage from './resources/topimage.svg'
 const Brandmarketing = () => {
 
   const cards = [
@@ -152,8 +155,14 @@ const Brandmarketing = () => {
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
-    <div className='mt-[120px] '>
-      <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px]"  >
+    <div className='mt-[77px] max-lg:mt-0 '>
+      <HeroSection
+                        backgroundImage={topimage}
+                        heading="Branding Agency "
+                        highlight="In Gurgaon"
+                        paragraph="Building strong, memorable brands with clear strategies that connect with audiences and help your business stand out in the market."
+                    />
+      <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-24"  >
         <h6 className='text-[52px]  text-center'>
           <span className="font-normal">Brand</span>{' '}
           <span className="italic font-light">Strategy?</span>
@@ -348,7 +357,7 @@ const Brandmarketing = () => {
 
       
       <Newcontact></Newcontact>
-      <section className=' max-w-[1440px] w-[100%] mx-auto mt-[60px] mb-[50px]'>
+      <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[22px]           
     sm:text-[23px]        

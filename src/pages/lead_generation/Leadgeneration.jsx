@@ -87,9 +87,10 @@ const Leadgeneration = () => {
         <div className="lgc1 relative">
           <HeroSection
             backgroundImage={topimage}
-            heading="Marketing Research Company"
+            heading="Lead Generation Company"
             highlight="In Gurgaon"
-            paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+            paragraph="Unlock new growth with lead generation that brings in prospects who are ready to buy and eager to connect with your brand.
+"
           />
         </div>
 
@@ -198,7 +199,7 @@ const Leadgeneration = () => {
               },
             ].map((item, index) => (
               <div
-                className="flex justify-between items-start border-b border-[#eee] py-[10px]"
+                className="flex justify-between items-start border-b gap-2 border-[#eee] py-[10px]"
                 key={index}
               >
                 <div className="flex-1 text-left text-[32px] max-lg:text-[20px] font-semibold text-[#252429]">

@@ -92,7 +92,7 @@ const Affilatemarketing = () => {
         backgroundImage={heroimage}
         heading="Affiiate Marketing Company"
         highlight="In Gurgaon"
-        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+        paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
       />
 
 

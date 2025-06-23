@@ -42,9 +42,10 @@ const DigitalTranformationservice = () => {
       <div className=' mt-[77px] max-lg:mt-0 w-[100%] mx-auto'>
         <HeroSection
                         backgroundImage={c1_image}
-                        heading="Marketing Research Company"
+                        heading="Digital Transformation Services"
                         highlight="In Gurgaon"
-                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                        paragraph="Unlock new opportunities with end-to-end digital transformation solutions designed to streamline workflows and accelerate growth.
+"
                     />
 
         <div className="dtc1 max-w-[1440px] mt-[100px] w-[100%] mx-auto px-10 max-lg:px-4 mb-[96px]">

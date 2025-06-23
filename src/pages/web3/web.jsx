@@ -95,7 +95,7 @@ const web = () => {
           backgroundImage={heroimage}
           heading="SEO Company"
           highlight="In Gurgaon"
-          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+          paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
         /> */}
 
         <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">

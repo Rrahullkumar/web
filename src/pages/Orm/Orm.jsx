@@ -18,6 +18,8 @@ import bannerimage from "./resourse/bannerimage.svg"
 import topimage from "./resourse/topimage.svg";
 import { Helmet } from 'react-helmet';
 import Newcontact from '../../components/Newcontact/Newcontact';
+import c1image from './resourse/c1image.svg'
+import HeroSection from '../../components/Herosection/Herosection';
 const Orm = () => {
   const services = [
     {
@@ -82,10 +84,16 @@ const Orm = () => {
 
     </Helmet>
 
-    <div className='mt-[120px] max-lg:mt-[20px] w-[100%] mx-auto 
+    <div className='mt-[77px] max-lg:mt-[0px] w-[100%] mx-auto 
   '>
     <div className="topsection">
-           
+           <HeroSection
+                        backgroundImage={c1image}
+                        heading="Marketing Research Company"
+                        highlight="In Gurgaon"
+                        paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
+"
+                    />
           </div>
 
 
@@ -102,86 +110,66 @@ const Orm = () => {
       </section> */}
 
 
+        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:py-10 lg:pb-24'>
 
-      <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
+  {/* Desktop Layout */}
+  <div className="flex flex-row justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
 
+    {/* Text Block */}
+    <div className="flex-1">
 
+      <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-semibold'>
+        Online Reputation <span className='text-[#4CAF50]'>Management Services?</span>
+      </h2>
 
-        {/* <h5 className='
-  text-[44px]
- 
-  font-normal
-  relative 
-  inline 
-  w-[calc(100% - 480px)] 
-  top-[120px] 
-  left-0
-  max-xl:top-[18px]
-  max-xl:w-full 
-  max-lg:text-[36px] 
-  max-md:text-[23px] 
-  max-sm:text-[22px]
-'>
-          <span className='text-[#000000]'>Online Reputation</span>
-          <span className='text-[#4CAF50]'> Management Services</span>
-          <span className='text-[#000000]'>?</span>
-        </h5> */}
+      <h3 className='text-lg font-semibold mb-12'>
+        Rebuild Your Reputation with India’s best Online Reputation Management Expert
+      </h3>
 
-        <h5
-          className="
-    text-[22px]          
-    sm:text-[23px]        
-    md:text-[36px]     
-    xl:text-[44px]       
-    font-normal
-    relative
-    inline
-    w-full              
-    xl:w-[calc(100%-480px)] 
-    top-[18px]           
-    xl:top-[120px]        
-    left-0
-  "
-        >
-          <span className="text-[#000000]">Online Reputation</span>
-          <span className="text-[#4CAF50]"> Management Services</span>
-          <span className="text-[#000000]">?</span>
-        </h5>
+      {/* Paragraph with Floating Image on Mobile */}
+      <p className='text-base leading-[1.8]'>
+        {/* Float only on Mobile */}
+        <img
+          src={timer}
+          alt=""
+          className='w-[35%] lg:hidden max-lg:mt-3 float-right ml-4 mb-4 rounded-[20px] max-lg:block max-lg:float-right max-lg:w-[55%] max-lg:h-72'
+        />
 
+        Whether your business is being unfairly targeted by competitors or naturally receiving mixed reviews due to a large customer base, our online reputation management services are designed to help you regain control.
 
+        <br /><br className='' />
 
+        We are a results-focused online reputation management company in India, driven by strategy, experience, and modern digital tools. With a skilled team and reliable systems in place, we work diligently to protect and uplift your brand’s online image.
 
-        <div className=" flex max-lg:flex-col justify-between items-start gap-8">
-          {/* Text Content */}
-          <div className="flex-1 min-w-0 max-w-[785px] max-md:w-[100%]">
-            <h6 className="text-[18px] text-[#000000] font-semibold  max-lg:font-normal mt-[120px] max-xl:mt-[20px]">
-              Rebuild Your Reputation with India’s best Online Reputation Management Expert
-            </h6>
+        <br /><br />
 
-            <p className="text-[15px] font-normal mt-[46px] max-lg:mt-[20px]">
-              Whether your business is being unfairly targeted by competitors or naturally receiving mixed reviews due to a large customer base, our online reputation management services are designed to help you regain control.
-              <br className="max-md:hidden" /><br className="max-md:hidden" />
-              We are a results-focused online reputation management company in India, driven by strategy, experience, and modern digital tools. With a skilled team and reliable systems in place, we work diligently to protect and uplift your brand’s online image.
-              <br className="max-md:hidden" /><br className="max-md:hidden" />
-              From handling dissatisfied customers to managing negative feedback from former employees or competitive sabotage, we offer discreet solutions trusted by businesses, influencers, and public figures alike.
-              <br className="max-md:hidden" /><br className="max-md:hidden" />
-              Our ORM services continuously track, manage, and improve your digital reputation while offering valuable insights into public sentiment. Your brand’s credibility matters — our solutions ensure that what people see online reflects the best version of your business.
-            </p>
-          </div>
+        From handling dissatisfied customers to managing negative feedback from former employees or competitive sabotage, we offer discreet solutions trusted by businesses, influencers, and public figures alike.
 
-          {/* Image */}
-          <div className="w-[35%] max-lg:w-[35% mt-[40px]  max-md:w-[100%]  lg:mt-0 max-lg:justify-center max-lg:items-end max-lg:mx-auto">
-            <img
-              src={timer}
-              alt="Example"
-              className="w-full  h-auto rounded-lg object-contain"
-            />
-          </div>
+        <br /><br />
 
-        </div>
+        Our ORM services continuously track, manage, and improve your digital reputation while offering valuable insights into public sentiment. Your brand’s credibility matters — our solutions ensure that what people see online reflects the best version of your business.
+      </p>
+
+    </div>
+
+    {/* Image for Desktop (Hidden on Mobile) */}
+    <div className="w-[35%] max-lg:hidden">
+      <img
+        src={timer}
+        alt=""
+        className='w-full h-auto rounded-[20px] object-contain'
+      />
+    </div>
+
+  </div>
+
+</div>
 
 
-      </section>
+
+
+
+
 
 
       <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24'>
@@ -189,7 +177,7 @@ const Orm = () => {
         <div className="flex max-lg:flex-col gap-6 justify-between">
 
           <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-            <h6 className='text-[46px] max-md:text-[23px] max-lg:text-[26px]  text-[black] font-normal'>Types of Online Reputation Management Services</h6>
+            <h6 className='text-[46px] max-md:text-[23px] max-lg:text-[26px]  text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
             <p className='text-[18px] mt-[32px] text-[black] font-normal'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
           </div>
 
@@ -234,11 +222,12 @@ const Orm = () => {
 
 
         <div className="w-full lg:w-[785px] pl-[20px] max-md:pl-[0]">
-          <h5 className="font-light leading-tight
+          <h5 className=" leading-tight
             text-[22px]          
     sm:text-[23px]       
     md:text-[36px]       
-    xl:text-[44px]    
+    xl:text-[44px]  
+    font-semibold
           ">
             Why Your Business Needs <br /> Reputation Management
           </h5>

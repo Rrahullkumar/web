@@ -153,7 +153,8 @@ const ContentMarketing = () => {
         backgroundImage={c1_image}
         heading="Content Marketing Company"
         highlight="In Gurgaon"
-        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+        paragraph="From blogs to web copy, we craft SEO-driven content that brings value to your audience and helps your business grow online.
+"
       />
 
           
