@@ -483,7 +483,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="text-center flex flex-col items-center justify-center overflow-hidden" >
+        <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
           <p className=" text-[black] text-[20px] font-semibold max-lg:mt-[52px]">Our Client</p>
           <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>

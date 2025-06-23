@@ -9,6 +9,7 @@ import ads from './resources/ads.svg';
 import { Helmet } from 'react-helmet';
 // import accordian from '../home/componnet/accordian.css'
 
+import herom from "./resources/semhero.svg";
 
 const Sem = () => {
   const [activeTab, setActiveTab] = useState(0);

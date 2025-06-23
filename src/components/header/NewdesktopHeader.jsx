@@ -140,7 +140,7 @@ export default function NewdesktopHeader() {
                                     <div
                                         onMouseEnter={() => openDropdown(index)}
                                         onMouseLeave={() => closeDropdownWithDelay()}
-                                        className={`fixed bg-white bg-opacity-100  top-[78.5px]  left-0 w-full z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
+                                        className={`fixed bg-white bg-opacity-100  top-[77px]  left-0 w-full z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
                                             }`}
                                     >
 
@@ -201,4 +201,6 @@ export default function NewdesktopHeader() {
         </header>
     );
 }
+
+
 

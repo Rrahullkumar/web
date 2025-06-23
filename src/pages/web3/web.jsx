@@ -10,6 +10,9 @@ import { FiPhone } from "react-icons/fi";
 import { FaWordpress, FaShoppingCart, FaBusinessTime, FaBlogger, FaGraduationCap, FaUsers, FaCalendarAlt, FaWpforms } from "react-icons/fa";
 
 import { Helmet } from 'react-helmet'
+// import heroimage from "./resources/heroimage.svg";
+
+
 const web = () => {
 
 
@@ -86,6 +89,13 @@ const web = () => {
       </Helmet>
 
       <div className='mt-[100px]    mx-auto '>
+
+         {/* <HeroSection
+          backgroundImage={heroimage}
+          heading="SEO Company"
+          highlight="In Gurgaon"
+          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+        /> */}
 
         <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">
 

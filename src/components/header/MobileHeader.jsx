@@ -126,11 +126,7 @@ export default function MobileHeader() {
             </div>
           ))}
 
-          {/* <div className="flex gap-[10px] hidden">
-            <button className="px-[10px] py-[6px] text-[#43b649] rounded-md border border-[#43b649] hover:bg-[#f0fdf4] transition">
-              Book a Demo
-            </button>
-          </div> */}
+       
         </div>
       )}
     </header>

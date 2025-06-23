@@ -74,7 +74,7 @@ const App = () => {
           <Route path='/influencer-marketing' element={<InfluencerMarketing/>}></Route>
           <Route path='/sms-marketing' element={<SmsMarketing/>}></Route>
           <Route path='/email-marketing' element={<Emailmarketing/>}></Route>
-               {/* <Route path='/insight' element={<Insight/>}></Route> */}
+               <Route path='/insight' element={<Insight/>}></Route>
           <Route path="*" element={<Navigate to="/" replace />} />
       
         </Routes>

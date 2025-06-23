@@ -63,13 +63,13 @@ const AboutUS = () => {
 
 
   return (
-    <div className=" mt-[120px] max-lg:mt-[50px]">
+    <div className=" mt-[79px] max-lg:mt-[50px]">
 
-      <h4 className='text-center   text-[48px] leading-[100%]'> <span className='font-semibold text-green-500'> About </span> <span className='font-normal text-black'>US</span> </h4>
+      <h4 className='text-center   text-[52px] pt-[60px] mb-[20px]  max-lg:text-[38px]   leading-[100%]'> <span className='font-semibold text-green-500'> About </span> <span className='font-normal text-black'>US</span> </h4>
 
 
 
-      <section className="max-w-[1440px] mt-[20px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center justify-between gap-12 overflow-hidden">
+      <section className="max-w-[1440px] mt-[96px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center justify-between gap-[106px] max-lg:gap-5  overflow-hidden">
         <div className="max-w-2xl  max-md:w-[100%]"
           data-aos="fade-right"
           data-aos-offset="200"
@@ -90,13 +90,13 @@ const AboutUS = () => {
             src={Webnest_Logo}
 
             alt="WebNest Media Logo"
-            className="w-full "
+            className="w-[85%]"
           />
         </div>
       </section>
 
 
-      <section className=" overflow-hidden max-w-[1440px] w-[100%] mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-center mt-[56px]" ref={wrapperRef}
+      <section className=" overflow-hidden max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-center mt-[96px] mb-[96px]" ref={wrapperRef}
         onMouseEnter={() => setTrigger(true)}
       >
 
@@ -128,7 +128,7 @@ const AboutUS = () => {
 
       <section className="
     
-    max-w-[1440px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-between gap-12
+    max-w-[1440px] mb-[96px] mt-[96px] max-lg:mt-[10px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-between gap-12 max-lg:gap-5
     
     ">
 
@@ -136,7 +136,7 @@ const AboutUS = () => {
           <img
             src={bulb}
             alt="WebNest Media bulb"
-            className="w-full "
+             className="w-[85%]"
           />
         </div>
 

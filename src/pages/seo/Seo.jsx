@@ -226,10 +226,7 @@ const Seo = () => {
           name="description"
           content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth."
         />
-        <meta
-          name="keywords"
-          content="SEO services, SEO agency, search engine optimization, on-page SEO, off-page SEO, technical SEO, SEO company, local SEO, SEO Gurgaon"
-        />
+      
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link
