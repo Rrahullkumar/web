@@ -34,6 +34,7 @@ import Right_Arrow from '../Digitalservice/resources/Right_Arrow.svg';
 import seocontactimage from "./resources/mailbox.svg";
 import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
 import seolocation from "./resources/seolocation.svg";
+import AnimatedCardList from '../home/componnet/AnimatedCardList.jsx';
 
 const Seo = () => {
 
@@ -104,6 +105,8 @@ const Seo = () => {
     { number: '98/100', label: 'Speed & UX Score' },
     { number: '231,580+', label: 'Leads Generated' },
   ];
+
+  
   const trustData = [
     {
       title: "On-Page SEO",
@@ -218,21 +221,52 @@ const Seo = () => {
     },
   ];
 
+
+  const secondREf = useRef();
+
+  const [cardtrigger, setCardTrigger] = useState(false);
+
+  useEffect(() => {
+  
+
+    const observer2 = new IntersectionObserver(
+      ([entry]) => {
+        setCardTrigger(entry.isIntersecting);
+      },
+      { threshold: 0.5 }
+    );
+
+  
+
+  
+    if (secondREf.current) {
+      observer2.observe(secondREf.current);
+    }
+
+   
+    return () => {
+      
+      if (secondREf.current) {
+        observer2.unobserve(secondREf.current);
+      }
+     
+    };
+  }, []);
+
+
   return (
     <>
       <Helmet>
-        <title>Best SEO Agency in Gurgaon | Affordable SEO Solutions</title>
-        <meta
-          name="description"
-          content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth."
-        />
-      
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link
-          rel="canonical"
-          href="https://webnestmedia.com/search-engine-optimization"
-        />
+
+    <title>Best SEO Agency in Gurgaon | Affordable SEO Solutions</title>
+    <meta data-react-helmet="true"  name="description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
+    <meta data-react-helmet="true" name="keywords" content="SEO services, SEO agency, search engine optimization, on-page SEO, off-page SEO, technical SEO, SEO company, local SEO, SEO Gurgaon" />
+    <meta data-react-helmet="true" name="robots" content="index, follow" />
+    <meta data-react-helmet="true" name="author" content="WebNest Media" />
+    <link  data-react-helmet="true" rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
+
+
+
         <script type="application/ld+json">{`
     {
       "@context": "https://schema.org",
@@ -372,7 +406,7 @@ const Seo = () => {
   `}</script>
       </Helmet>
 
-      <section className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
+      <section className='mt-[77px]   max-lg:mt-[0] '>
 
         <HeroSection
           backgroundImage={heroimage}
@@ -380,8 +414,6 @@ const Seo = () => {
           highlight="In Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
         />
-
-
 
         <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
@@ -546,7 +578,27 @@ const Seo = () => {
           <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
-          <h5 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every Business Requirement</h5>
+          <h5 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every  <br   className='max:lg:hidden'/> Business Requirement</h5>
+
+
+         <div
+          ref={secondREf}
+          onMouseEnter={() => setCardTrigger(true)}
+          className="industriweserve mb-[96px] mt-[64px] w-[100%] max-w-[1440px]  mx-auto overflow-hidden "
+
+        >
+
+          <h2 className="heading mb-[20px] " id="industries">Industries We serve </h2>
+
+          <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  "
+            ref={secondREf}
+            onMouseEnter={() => setCardTrigger(true)}
+
+          />
+
+
+        </div>
+
           <h6 className='text-[52px] text-center max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-[4px]'>Why WebNest Media?</h6>
           <p className='text-base  text-center text-[#000000]leading-7  font-[350'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
 

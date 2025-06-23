@@ -140,13 +140,13 @@ export default function NewdesktopHeader() {
                                     <div
                                         onMouseEnter={() => openDropdown(index)}
                                         onMouseLeave={() => closeDropdownWithDelay()}
-                                        className={`fixed bg-white bg-opacity-100  top-[77px]  left-0 w-full z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
+                                        className={`fixed backdrop-blur-md  bg-opacity-65  top-[77px]  left-0 w-full z-[99999] dropdown-containe ${dropdownOpen === index ? "open" : ""
                                             }`}
                                     >
 
 
 
-                                        <div className=" flex    items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
+                                        <div className=" flex   cursor-pointer  items-center justify-center w-full h-[50vh] pt-[56px] pb-[56px] pl-[40px] pr-[40px]">
                                             <div className="max-w-[1440px]  w-full mx-auto flex justify-between">
                                                 {item.columns.map((col, colIndex) => (
                                                     <div key={colIndex}>

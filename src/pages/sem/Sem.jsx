@@ -10,7 +10,10 @@ import { Helmet } from 'react-helmet';
 // import accordian from '../home/componnet/accordian.css'
 
 import herom from "./resources/semhero.svg";
+import semlogo from "./resources/semlogo.svg";
+import HeroSection from '../../components/Herosection/Herosection';
 
+import redlady from "./resources/redlady.svg"
 const Sem = () => {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -374,6 +377,14 @@ const Sem = () => {
       setSubmitting(false);
     }
   };
+
+  const statsData = [
+    { number: '21,3456', label: 'Organic Traffic Growth' },
+    { number: '13,200+', label: 'Keyword Rankings' },
+    { number: '98/100', label: 'Speed & UX Score' },
+    { number: '231,580+', label: 'Leads Generated' },
+  ];
+
   return (
     <>
 
@@ -389,52 +400,52 @@ const Sem = () => {
       </Helmet>
 
 
-      <div className='mt-[120px]  max-w-[1440px] w-[100%] mx-auto ' >
-        <div className="container_1">
-          <div>
-            <img src={SEM1} alt="Search Engine Marketing" className="c1_img" />
-            <div className="c1_text">
-              <h2 className='c1_introduction'>Search Engine Marketing</h2>
-              <p className="text-base text-[#555]">
-                SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness. At WebNest Media, we provide comprehensive search engine marketing SEM services.</p>
+      <div className='mt-[77px]   max-lg:mt-[0] ' >
+
+        <HeroSection
+          backgroundImage={herom}
+          heading="Search Engine Marketing Agency"
+          highlight="In Gurgaon"
+          paragraph="Grow your business with targeted Google Ads and smart SEM strategies from Gurgaon’s trusted Search Engine Marketing Agency."
+        />
+
+
+        <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+
+          <p id="c2headingleft" className="c2heading">
+            What is Search Engine   <br className='max-lg:hidden' /> Marketing?
+          </p>
+
+
+          <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
+
+            <div className="w-[60%] max-lg:w-[100%] ">
+
+
+              <p id="" className='text-base mt-[20px] font-manrope  '>
+                SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.    In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
+
+              </p>
+
+
             </div>
+
+            <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
+
+              <img src={semlogo} />
+
+            </div>
+
           </div>
-          <div className="loginform">
-            <form
-              onSubmit={handleSubmitsem}
-            >
-              <p className='Form_heading'>Get a free consultation!</p>
-
-              <label htmlFor="fullName">Full Name:</label>
-              <input type="text" id="name" name="name" placeholder="Enter your full name" required />
-
-              <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" placeholder="Enter your email" required />
-
-              <label htmlFor="phoneNumber">Phone Number:</label>
-              <input type="tel" id="phoneNumber" name="phone" placeholder="Enter your phone number" required />
-
-              <label htmlFor="services">What services are you looking for?</label>
-              <select id="service" name="service" required>
-                <option value="">Select a service</option>
-                <option value="sem">Search Engine Marketing(SEM)</option>
-                <option value="seo">Search Engine Optimization(SEO)</option>
-                <option value="webDesign">Social Media Marketing(SMM)</option>
-                <option value="webDevelopment">Web Development</option>
-                <option value="contentMarketing">Content Marketing</option>
-                <option value="affiliateMarketing">Affiliate Marketing</option>
-              </select>
-
-              <label htmlFor="specifications">Mention your specifications:</label>
-              <textarea id="specifications" name="specifications" placeholder="Mention your specific requirements"></textarea>
-
-              <button type="submit">{submitting ? "Submitting..." : "Submit"}</button>
-              {responseMsg && <p className="text-green-500 mt-2">{responseMsg}</p>}
-            </form>
+          <div className=" flex gap-3 mt-[32px]  ">
+            <button className='c2greenbutton'>Learn More</button>
+            <button className='c2whitebutton'>Contact Us</button>
           </div>
+
         </div>
 
-        <div className="container_2">
+
+        <div className=" max-w-[1440px] w-[100%] mx-auto container_2">
           <h2 className='c2_text'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
             <p style={{ paddingTop: '10px', paddingBottom: '10px' }}>
@@ -470,30 +481,119 @@ const Sem = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-10 flex justify-between overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide ">
+
+
+        <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
+
+          <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
+
+            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
+
+
+
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+              {statsData.map((item, index) => (
+                <div
+                  key={index}
+                  className="bg-white border border-[#ddd] rounded-xl p-10 text-center 
+                 shadow-[0_2px_8px_rgba(0,0,0,0.05)] 
+                 transition-transform duration-200 ease-in-out 
+                 hover:-translate-y-1 
+                 max-w-full h-[200px] w-full"
+                >
+                  <h2 className="text-[#4CAF50] text-[42px] font-light">
+                    {item.number}
+                  </h2>
+                  <p className="text-2xl font-normal text-[#333] leading-[160%] mt-2.5 text-center">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
+
+        </section>
+
+
+        <section>
+
+
+          <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+
+
+
+            <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
+
+              <div className="w-[60%] max-lg:w-[100%] ">
+
+                <p id="c2headingleft" className="c2heading">
+                  What is Search Engine   <br className='max-lg:hidden' /> Marketing?
+                </p>
+
+
+
+                <p id="" className='text-base mt-[36px] font-manrope  '>
+
+                  You have come to the correct place if you are in search of the best search engine marketing agency based out of Gurgaon. At WebNest Media, we believe every business needs a solid and results-driven digital strategy to stand out in a venture that is cutthroat in terms of competition for space online. We provide the best SEM agency according to your digital marketing objectives associated with your business’ needs—whether you are looking for brand awareness, qualified traffic, speed of conversions, or whatever your goals may be, WebNest Media provides the best SEM services you're looking for!
+
+                </p>
+
+                <p id="" className='text-base mt-[20px] font-manrope  '>
+
+
+                  Our certified professionals with years of industry knowledge put forth modern-day techniques to get your business quantifiable, identifiable and worthwhile results for potential consumers. We run a cost-effective, highly targeted paid and/or social campaign on your behalf and manage every aspect of your search engine marketing spend. When you partner with WebNest Media, you're partnering with the best SEM agency that genuinely cares about helping your business grow online and be successful in achieving its objectives!
+
+                </p>
+
+
+              </div>
+
+              <div className="max-w-[440px]  w-[100%] flex flex-col gap-[26px] justify-center  max-lg:items-center max-lg:mx-auto  ">
+
+                <img src={redlady} className='mx-auto w-[70%]' />
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </section>
+
+        <section>
+
+
+              <div className="max-w-[1440px] w-full mx-auto mt-10 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide ">
           {tabsData.map((tab, index) => (
             <button
               key={tab.id}
-              className={`px-5 py-2.5 border-none cursor-pointer transition-colors duration-300 flex-1 text-center 
-                 ml-10 min-w-fit hover:text-[#3e8e41] 
-                 ${activeTab === index ? 'border-b-2 border-[#3e8e41] text-[#3e8e41]' : ''}`}
               onClick={() => handleTabClick(index)}
+              className={`px-5 py-2.5 cursor-pointer transition-colors duration-300 text-center min-w-fit
+        hover:text-[#3e8e41]
+        ${activeTab === index
+                  ? 'border-b-2 border-[#3e8e41] text-[#3e8e41] pb-[16px]'
+                  : ' border-transparent pb-0'
+                }`}
             >
               {tab.label}
             </button>
           ))}
         </div>
 
-        <div className="text-gray-700 flex flex-col ml-[42px] mt-5 mr-5 p-5 border-none pr-[22px]">
-          <div className="flex items-start mb-[-20px] gap-10">
-            <div className="h-[350px] w-[400px] overflow-hidden mb-[15px]">
+        <div className="max-w-[1440px] universalwidth w-[100%] mx-auto text-gray-700 flex flex-col ml-[42px] mt-5 mr-5 p-5 border-none pr-[22px]">
+          <div className="flex items-start mb-[-20px] gap-10 max-lg:flex-col">
+            <div className="h-[350px] w-[400px]  mb-[15px] max-lg:w-[100%]">
               <img
                 className="w-full h-full object-cover block"
                 src={tabsData[activeTab].image}
                 alt={tabsData[activeTab].label}
               />
             </div>
-            <div className="pt-[50px]  w-[calc(100%-450px)]">
+            <div className="pt-[50px]  w-[calc(100%-450px)] max-lg:w-[100%]">
               {tabsData[activeTab].description}
             </div>
           </div>
@@ -502,12 +602,16 @@ const Sem = () => {
           </div>
         </div>
 
+        </section>
 
-        <div className="banner">
+
+    
+
+        <div className="banner max-w-[1440px] w-[100%] mx-auto">
           <h2>Start Your Campaign Today</h2>
           <p className='bannerpara'>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
         </div>
-        <div className="FAQS">
+        <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
 
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
           <div className="accordion-wrapper-columns">

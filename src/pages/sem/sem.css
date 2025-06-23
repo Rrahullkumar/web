@@ -5,6 +5,12 @@
   padding: 10px;
 }
 
+.universalwidth{
+  max-width: 1440px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+
+}
 .content-section {
   display: flex;
   flex-direction: row;
