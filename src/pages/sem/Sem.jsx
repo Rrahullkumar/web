@@ -132,77 +132,77 @@ const Sem = () => {
 
 
 
-              <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Advertising Solutions</h4>
+            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Advertising Solutions</h4>
 
 
-              <p className='text-sm leading-relaxed text-center'>WebNest Media is trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC <br className='max-lg:hidden' /> campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get <br className='max-lg:hidden' />  the best return on your ad spend. Here are the following PPC services that we provides:  </p >
+            <p className='text-sm leading-relaxed text-center'>WebNest Media is trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC <br className='max-lg:hidden' /> campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get <br className='max-lg:hidden' />  the best return on your ad spend. Here are the following PPC services that we provides:  </p >
 
-                <div className="w-full px-4 py-10">
-      <div className="w-[100%] mx-auto ">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
-          {adsData.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center justify-center space-y-2"
-            >
-              <img
-                src={item.icon}
-                alt={item.label}
-                className="w-[176px] h-[108px] object-contain"
-              />
-              <span className="text-sm text-gray-800 font-medium">
-                {item.label}
-              </span>
+            <div className="w-full px-4 py-10">
+              <div className="w-[100%] mx-auto ">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
+                  {adsData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="flex flex-col items-center justify-center space-y-2"
+                    >
+                      <img
+                        src={item.icon}
+                        alt={item.label}
+                        className="w-[176px] h-[108px] object-contain"
+                      />
+                      <span className="text-sm text-gray-800 font-medium">
+                        {item.label}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
 
 
-    
+
             <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
-    
+
               <h2 id="c2headingleft" className="c2heading">
-               Why Opt WebNest Media for  <br className='max-lg:hidden' />  PPC Ads?
+                Why Opt WebNest Media for  <br className='max-lg:hidden' />  PPC Ads?
               </h2>
-    
-    
+
+
               <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
-    
+
                 <div className="w-[60%] max-lg:w-[100%] ">
-    
-    
+
+
                   <p id="" className='text-base mt-[20px] font-manrope  '>
-                  When it comes to running successful PPC campaigns, experience and strategy make all the difference. That’s why so many businesses choose WebNest Media is a leading PPC company in Gurgaon, India — to manage their paid ads. Our team of certified specialists brings years of experience and deep industry know-how. Whether you need YouTube Ads, Google Ads, display ads, or remarketing, we know how to create campaigns that drive real results.
+                    When it comes to running successful PPC campaigns, experience and strategy make all the difference. That’s why so many businesses choose WebNest Media is a leading PPC company in Gurgaon, India — to manage their paid ads. Our team of certified specialists brings years of experience and deep industry know-how. Whether you need YouTube Ads, Google Ads, display ads, or remarketing, we know how to create campaigns that drive real results.
 
 
 
                   </p>
                   <p id="" className='text-base mt-[20px] font-manrope '>
-      As a trusted PPC agency in Gurgaon, we don’t believe in “one-size-fits-all” strategies. We take time to understand your business, target audience, and goals so we can design campaigns that actually convert. That’s why many clients call us the best PPC company in Gurgaon, we deliver what we promise.
-    
+                    As a trusted PPC agency in Gurgaon, we don’t believe in “one-size-fits-all” strategies. We take time to understand your business, target audience, and goals so we can design campaigns that actually convert. That’s why many clients call us the best PPC company in Gurgaon, we deliver what we promise.
+
 
 
                   </p>
 
-                    <p id="" className='text-base mt-[20px] font-manrope '>
-                      
-                        
-                          
-                          With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.  </p>
-    
+                  <p id="" className='text-base mt-[20px] font-manrope '>
+
+
+
+                    With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.  </p>
+
                 </div>
-    
+
                 <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
-               
+
                   <img src={tabone} />
-    
+
                 </div>
-    
+
               </div>
-             
-    
+
+
             </div>
           </section>
 

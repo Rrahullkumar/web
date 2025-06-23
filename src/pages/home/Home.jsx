@@ -46,7 +46,7 @@ import slide10 from "../../pages/home/resources/Houseforever.svg";
 import * as FaIcons from "react-icons/fa";
 
 import Slider from "./componnet/ResponsiveCarousel";
-import AnimatedCardList from "./componnet/AnimatedCardList";
+import AnimatedCardList from "../../components/industryCard/AnimatedCardList";
 
 import Countarcard from "./componnet/counterCard"
 
@@ -184,7 +184,7 @@ const Home = () => {
   const secondREf = useRef();
   const thirdREf = useRef();
   const [trigger, setTrigger] = useState(false);
-  const [cardtrigger, setCardTrigger] = useState(false);
+
   const [thirdtrigger, setThirdtrigger] = useState(false);
 
   useEffect(() => {
@@ -195,12 +195,7 @@ const Home = () => {
       { threshold: 0.5 }
     );
 
-    const observer2 = new IntersectionObserver(
-      ([entry]) => {
-        setCardTrigger(entry.isIntersecting);
-      },
-      { threshold: 0.5 }
-    );
+ 
 
     const observer3 = new IntersectionObserver(
       ([entry]) => {
@@ -212,9 +207,7 @@ const Home = () => {
     if (wrapperRef.current) {
       observer1.observe(wrapperRef.current);
     }
-    if (secondREf.current) {
-      observer2.observe(secondREf.current);
-    }
+  
 
     if (thirdREf.current) {
       observer3.observe(thirdREf.current);
@@ -224,9 +217,7 @@ const Home = () => {
       if (wrapperRef.current) {
         observer1.unobserve(wrapperRef.current);
       }
-      if (secondREf.current) {
-        observer2.unobserve(secondREf.current);
-      }
+   
       if (thirdREf.current) {
         observer3.unobserve(thirdREf.current);
       }
@@ -583,7 +574,7 @@ const Home = () => {
 
         </div>
 
-        <div
+        {/* <div
           ref={secondREf}
           onMouseEnter={() => setCardTrigger(true)}
           className="industriweserve mb-[30px] w-[100%] max-w-[1440px]  mx-auto "
@@ -599,7 +590,26 @@ const Home = () => {
           />
 
 
-        </div>
+        </div> */}
+
+         {/* <div
+  
+      className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto"
+    >
+      <h2 className="heading mb-[20px]" id="industries">
+        Industries We Serve
+      </h2>
+
+      <AnimatedCardList />
+    </div> */}
+
+
+    <div className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto">
+      <h2 className="heading mb-[20px]" id="industries">
+        Industries We Serve
+      </h2>
+      <AnimatedCardList />
+    </div>
 
 
         <div

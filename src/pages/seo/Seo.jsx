@@ -34,7 +34,7 @@ import Right_Arrow from '../Digitalservice/resources/Right_Arrow.svg';
 import seocontactimage from "./resources/mailbox.svg";
 import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
 import seolocation from "./resources/seolocation.svg";
-import AnimatedCardList from '../home/componnet/AnimatedCardList.jsx';
+import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx';
 
 const Seo = () => {
 
