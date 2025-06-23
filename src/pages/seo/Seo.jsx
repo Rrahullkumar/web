@@ -274,24 +274,24 @@ const Seo = () => {
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
+            "@id": "https://webnestmedia.com/search-engine-optimization",
             "url": "https://webnestmedia.com/search-engine-optimization/",
             "name": "Search Engine Optimization Services | WebNest Media",
             "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
             "inLanguage": "en-IN",
             "isPartOf": {
-              "@id": "https://webnestmedia.com/#website"
+              "@id": "https://webnestmedia.com"
             },
             "breadcrumb": {
-              "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
+              "@id": "https://webnestmedia.com/search-engine-optimization"
             },
             "mainEntity": {
-              "@id": "https://webnestmedia.com/search-engine-optimization/#service"
+              "@id": "https://webnestmedia.com/search-engine-optimization"
             }
           },
           {
             "@type": "BreadcrumbList",
-            "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+            "@id": "https://webnestmedia.com/search-engine-optimization",
             "itemListElement": [
               {
                 "@type": "ListItem",
@@ -308,10 +308,10 @@ const Seo = () => {
           },
           {
             "@type": "Service",
-            "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+            "@id": "https://webnestmedia.com/search-engine-optimization",
             "serviceType": "Search Engine Optimization (SEO)",
             "provider": {
-              "@id": "https://webnestmedia.com/#organization"
+              "@id": "https://webnestmedia.com/"
             },
             "areaServed": {
               "@type": "Place",
@@ -336,10 +336,14 @@ const Seo = () => {
                 "@type": "Review",
                 "author": {
                   "@type": "Person",
-                  "name": "Anjali Sharma"
+                  "name": "Love Pawar"
                 },
-                "datePublished": "2025-03-10",
-                "reviewBody": "WebNest Media really helped our website climb the Google rankings. Amazing SEO team!",
+                "datePublished": "2025-06-11",
+                "reviewBody": "I recently availed SEO services from Webnest Media, and I must say, I am extremely happy with the results. From the very beginning, their team was professional, responsive, and committed to helping my business grow online. They took the time to understand my goals and tailored an SEO strategy that truly delivered.
+
+Within a few months, I started seeing a noticeable improvement in my website's search engine rankings and organic traffic. Their regular reports, transparent communication, and attention to detail made the entire process smooth and stress-free.
+
+I highly recommend Webnest Media to anyone looking for reliable and effective SEO services. They know what they’re doing, and they genuinely care about their clients’ success. Thank you to the entire team for your excellent work!",
                 "name": "Highly Recommended SEO Services",
                 "reviewRating": {
                   "@type": "Rating",
@@ -347,17 +351,21 @@ const Seo = () => {
                   "bestRating": "5"
                 },
                 "itemReviewed": {
-                  "@id": "https://webnestmedia.com/search-engine-optimization/#service"
+                  "@id": "https://webnestmedia.com/search-engine-optimization"
                 }
               },
               {
                 "@type": "Review",
                 "author": {
                   "@type": "Person",
-                  "name": "Rahul Mehra"
+                  "name": "Deepak Yadav"
                 },
-                "datePublished": "2025-03-12",
-                "reviewBody": "Very professional and great results in just 3 months. SEO strategy is on point.",
+                "datePublished": "2025-06-11",
+                "reviewBody": "I took SEO services from Webnest Media for my car accessories business, and I’m extremely happy with the results. Their team was professional, knowledgeable, and took a strategic approach to improve my website’s visibility on search engines.
+
+They understood my niche very well and helped me target the right keywords related to car accessories. Within a few months, I started seeing significant improvements in my rankings, website traffic, and inquiries. Their detailed reports, regular updates, and transparent communication made the whole process smooth and hassle-free.
+
+If you’re in the automotive industry and looking to grow your online presence, I highly recommend Webnest Media. Their SEO expertise has made a real difference for my business. Thank you to the entire team!",
                 "name": "Great SEO Results",
                 "reviewRating": {
                   "@type": "Rating",
@@ -365,14 +373,14 @@ const Seo = () => {
                   "bestRating": "5"
                 },
                 "itemReviewed": {
-                  "@id": "https://webnestmedia.com/search-engine-optimization/#service"
+                  "@id": "https://webnestmedia.com/search-engine-optimization"
                 }
               }
             ]
           },
           {
             "@type": "FAQPage",
-            "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
+            "@id": "https://webnestmedia.com/search-engine-optimization",
             "mainEntity": [
               {
                 "@type": "Question",
@@ -419,9 +427,9 @@ const Seo = () => {
 
         <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
-          <p id="c2headingleft" className="c2heading">
+          <h2 id="c2headingleft" className="c2heading">
             Best SEO Company  <br className='max-lg:hidden' /> in  Gurgaon
-          </p>
+          </h2>
 
 
           <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
@@ -461,7 +469,7 @@ const Seo = () => {
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
-            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
+            <h2 style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
 
 
@@ -512,8 +520,8 @@ const Seo = () => {
                 <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                   <h3 className="flex items-end mb-[36px] gap-2 ">
-                    <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
-                    <p className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</p>
+                    <span className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</span>
+                    <span className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</span>
                   </h3>
 
                   <p className="text-base leading-relaxed ">
@@ -541,7 +549,7 @@ const Seo = () => {
         </section>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h6>
+          <h2 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
           <p className='text-base text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
@@ -572,14 +580,14 @@ const Seo = () => {
 
 
 
-          <h6 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>
+          <h2 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
-          </h6>
+          </h2>
           <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
-          <h5 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every  <br   className='max:lg:hidden'/> Business Requirement</h5>
+          <h2 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every  <br   className='max:lg:hidden'/> Business Requirement</h2>
 
 
          <div
@@ -600,7 +608,7 @@ const Seo = () => {
 
         </div>
 
-          <h6 className='text-[52px] text-center max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-[4px]'>Why WebNest Media?</h6>
+          <h2 className='text-[52px] text-center max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-[4px]'>Why WebNest Media?</h2>
           <p className='text-base  text-center text-[#000000]leading-7  font-[350'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
 
         </section>
@@ -618,8 +626,8 @@ const Seo = () => {
               <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                 <h3 className="flex items-end mb-[36px] gap-2 ">
-                  <p className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</p>
-                  <p className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</p>
+                  <span className=" text-[30px] text-[#EEC370] font-medium  ">{index + 1}.</span>
+                  <span className='text-[20px] text-[#4CAF50] font-medium  pb-[4px]'>{item.title}</span>
                 </h3>
 
                 <p className="text-base leading-relaxed ">
@@ -632,20 +640,28 @@ const Seo = () => {
 
     
 
-        <section className='max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+        <section className='max-w-[1440px] w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
 
-          <div className="flex justify-end  mb-[5px] ">
-            <button onClick={scrollLeft} className="">
+          <div className="flex justify-between  mb-[5px] ">
+            
+                  <h2 className='text-[52px] text-start max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-[4px]'>Testomonial</h2>
+            <div className='flex justify-end  mb-[5px]'>
+  <button onClick={scrollLeft} className="">
               <img src={Left_Arrow} alt="" />
             </button>
             <button onClick={scrollRight} className="">
               <img src={Right_Arrow} alt="" />
             </button>
+
+
+            </div>
+          
           </div>
 
 
           <div className="relative overflow-hidden">
+            
             <div
               ref={sliderRef}
               className="overflow-x-scroll flex space-x-6 py-4 scrollbar-hide"
@@ -656,63 +672,25 @@ const Seo = () => {
                 {
                   id: 1,
                   title: "Review",
-                  text: "We automate repetitive tasks using modern tools and workflows—saving time, reducing errors, and increasing productivity across departments. From invoice generation to HR onboarding, we help you build smart, self-operating systems.",
-                  name:"Abhishek"
+                  text: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online...........",
+                  name:"Kartik sharma"
                 },
                 {
                   id: 2,
                   title: "Review",
-                  text: "We move your legacy systems and data to secure, scalable cloud environments like AWS, Azure, or Google Cloud. With cloud integration, your team can collaborate from anywhere, access real-time data, and scale as your business grows.",
-                  name:"Abhishek"
+                  text: "As a startup, we need an SEO services in Gurgaon that can understand our specific need and deliver measurable growth. The team of WebNest Media provides us with strategies and best SEO marketing company in Gurgaon experience. Our traffic has doubled in just a few months!.",
+                  name:"Harsh Lodhi"
                 },
                 {
                   id: 3,
                   title: "Review",
-                  text: "Stay ahead with AI-powered tools that automate decisions, personalize user experiences, and predict customer behavior. From chatbots to recommendation engines, we use AI to drive smarter outcomes for your business.",
-                  name:"Abhishek"
+                  text: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization in Gurgaon is unmatched. Our online visibility and conversions have improved significantly.",
+                  name:"Shashank Panchal"
                 },
-                {
-                  id: 4,
-                  title: "Review",
-                  text: "We implement CRM (like Salesforce or HubSpot) and ERP solutions to unify your operations—sales, inventory, finance, customer service—and streamline your entire workflow.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 5,
-                  title: "Review",
-                  text: "Good design = better engagement. We craft user-friendly, modern interfaces that deliver smooth digital experiences across websites, apps, and internal platforms. Because your customers deserve intuitive, delightful interactions.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 6,
-                  title: "Review",
-                  text: "Make sense of your data. We build custom dashboards, analytics pipelines, and visual reports that help you understand customer behavior, sales trends, and performance metrics—so you can make smarter business decisions.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 7,
-                  title: "Review",
-                  text: "Digital growth needs digital safety. We secure your data, applications, and infrastructure with advanced cybersecurity practices including firewalls, encryption, multi-factor authentication, and regular audits.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 8,
-                  title: "Review",
-                  text: "When off-the-shelf solutions don’t fit, we build custom software tailored to your processes and goals—whether it’s a new internal tool, a client portal, or a full-scale application.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 9,
-                  title: "Review",
-                  text: "Still running on outdated tools? We upgrade and re-engineer your legacy systems into modern, efficient platforms that integrate with current technologies and support your future needs.",
-                  name:"Abhishek"
-                },
-                {
-                  id: 10,
-                  title: "Review",
-                  text: "We help you deliver a seamless, consistent brand experience across all digital channels—web, mobile, email, social, and more—so your customers can connect with you anytime, anywhere.",
-                  name:"Abhishek"
-                }
+
+
+              
+     
               ]
                 .map((card, index) => (
                   <div
@@ -781,9 +759,9 @@ const Seo = () => {
         {/* Left Section */}
         <div className="w-full md:w-1/2 mb-12 md:mb-0 max-lg:w-[100%]  ">
           <p className="uppercase text-base leading-7 mb-4 text-[#FFFFFF] ">Contact Us</p>
-          <h6 className="text-[52px] max-lg:text-[38px] font-normal leading-snug text-white">
+          <h2 className="text-[52px] max-lg:text-[38px] font-normal leading-snug text-white">
           Let’s make the web <br  className='max-md:hidden'/>  talk about your  <br  className='max-md:hidden'/> project
-          </h6>
+          </h2>
         </div>
 
        
