@@ -26,7 +26,7 @@ import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 
 import SeoConatct from "./resources/seoconatct.svg"
-import logo from "../../assets/newlogo.svg"
+import newlogo from "./resources/newsseologo.svg"
 
 import Left_Arrow from '../Digitalservice/resources/Left_Arrow.svg';
 import Right_Arrow from '../Digitalservice/resources/Right_Arrow.svg';
@@ -440,9 +440,8 @@ const Seo = () => {
             </div>
 
             <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
-              <p className='text-[28px] font-manrope'> SEO by</p>
-
-              <img src={logo} />
+           
+              <img src={newlogo} />
 
             </div>
 
