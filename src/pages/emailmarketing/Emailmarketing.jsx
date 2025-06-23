@@ -40,7 +40,8 @@ const Emailmarketing = () => {
           backgroundImage={topimage}
           heading="Email Marketing Company"
           highlight="In Gurgaon"
-          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+          paragraph="From compelling copy to smart automation, our email marketing helps you connect with your audience and grow your business.
+"
         />
 
         <div className="emailc2 flex flex-col mt-[96px] max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">

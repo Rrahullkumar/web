@@ -143,7 +143,8 @@ const MobileMarketing = () => {
                         backgroundImage={topimage}
                         heading="Mobile Marketing Company"
                         highlight="In Gurgaon"
-                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                        paragraph="From SMS to mobile ads and in-app experiences, we help you connect with your audience through impactful mobile marketing campaigns that convert.
+"
                     />
                     <div className="mmc3 mt-24 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
                         <img src={image1} alt="" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />

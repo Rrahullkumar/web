@@ -48,7 +48,7 @@ const SmsMarketing = () => {
                         backgroundImage={topimage}
                         heading="SMS Marketing Company"
                         highlight="In Gurgaon"
-                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                        paragraph="Fast, effective SMS marketing that connects with your customers, drives action, and supports your overall marketing strategy."
                     />
         <div className="smsc2 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto">
             <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>

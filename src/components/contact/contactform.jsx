@@ -13,10 +13,10 @@ const ContactForm = () => {
 
   const serviceOptions = [
     "Search Engine Marketing (SEM)",
-    "Search Engine Optimization (SEO)",
-    "Social Media Marketing (SMM)",
     "Web Development",
+    "Search Engine Optimization (SEO)",
     "Content Marketing",
+    "Social Media Marketing (SMM)",
     "Affiliate Marketing",
   ];
 
@@ -92,9 +92,9 @@ const ContactForm = () => {
             name="name"
             placeholder="Enter your full name"
             required
-         className="w-full h-[42px] px-4 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full h-[42px] px-4 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
 
-        />
+          />
         </div>
 
         {/* Email */}
@@ -104,9 +104,9 @@ const ContactForm = () => {
             name="email"
             placeholder="Enter your email"
             required
-        className="w-full h-[42px] px-4 text-white bg-[#FFFFFF66] placeholder-white rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full h-[42px] px-4 text-white bg-[#FFFFFF66] placeholder-white rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
 
-         />
+          />
         </div>
 
         {/* Phone */}
@@ -116,7 +116,7 @@ const ContactForm = () => {
             name="phone"
             placeholder="Enter your phone number"
             required
-         className="w-full h-[42px] px-4 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full h-[42px] px-4 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
 
           />
         </div>
@@ -148,34 +148,34 @@ const ContactForm = () => {
           )} */}
 
 
-{selectedServices.length > 0 && (
-  <div className="mt-2 flex flex-wrap gap-2">
-    {selectedServices.map((service) => (
-      <span
-        key={service}
-        className="relative bg-green-600 text-white text-sm px-3 py-1 rounded-full pr-6"
-      >
-        {service}
-        <span
-          className="absolute top-[-6px] right-[-6px] w-5 h-5 bg-white text-red-700 font-semibold rounded-full flex items-center justify-center text-xs cursor-pointer"
-          onClick={() =>
-            setSelectedServices((prev) =>
-              prev.filter((s) => s !== service)
-            )
-          }
-        >
-          ✕
-        </span>
-      </span>
-    ))}
-  </div>
-)}
+          {selectedServices.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {selectedServices.map((service) => (
+                <span
+                  key={service}
+                  className="relative bg-green-600 text-white text-sm px-3 py-1 rounded-full pr-6"
+                >
+                  {service}
+                  <span
+                    className="absolute top-[-6px] right-[-6px] w-5 h-5 bg-white text-red-700 font-semibold rounded-full flex items-center justify-center text-xs cursor-pointer"
+                    onClick={() =>
+                      setSelectedServices((prev) =>
+                        prev.filter((s) => s !== service)
+                      )
+                    }
+                  >
+                    ✕
+                  </span>
+                </span>
+              ))}
+            </div>
+          )}
 
 
           {/* Dropdown */}
           {isDropdownOpen && (
             // <div className="absolute z-999 backdrop-blur-md mt-2 w-full rounded-[16px] shadow-lg max-h-[200px] overflow-y-auto">
-              <div className="absolute z-[999] bg-black backdrop-blur-md mt-2 w-full rounded-[16px] shadow-lg max-h-[240px] ">
+            <div className="absolute z-[999] bg-black backdrop-blur-md mt-2 w-full rounded-[16px] shadow-lg max-h-[240px] ">
 
               <div className="p-4 space-y-2">
                 {serviceOptions.map((service) => (
@@ -209,8 +209,8 @@ const ContactForm = () => {
             name="message"
             placeholder="I need your help"
             className="w-full bg-[#FFFFFF66] rounded-[16px] px-4 py-3 outline-none resize-none text-white placeholder-white  border border-transparent  focus:border-white transition-all duration-200"
-         
-         />
+
+          />
         </div>
 
         {/* Submit Button */}

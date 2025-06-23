@@ -36,7 +36,8 @@ const InfluencerMarketing = () => {
                         backgroundImage={topimage}
                         heading="Influencer Marketing Company"
                         highlight="In Gurgaon"
-                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                        paragraph="Partner with influencers who matter—our marketing campaigns help you reach new audiences, build credibility, and drive measurable growth.
+"
                     />
 
         {/* B2B Lead Generation Section */}

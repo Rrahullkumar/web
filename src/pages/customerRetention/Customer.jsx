@@ -39,22 +39,22 @@ const Lead = () => {
           backgroundImage={topimage}
           heading="Customer Retention Company"
           highlight="In Gurgaon"
-          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+          paragraph="We design customer retention campaigns that strengthen relationships, build trust, and turn happy customers into brand advocates"
         />
-        <div className="lmc2 mt-[150px] max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
+        <div className="lmc2 mt-[96px] max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
           <img src={c2image} alt="" className='block mx-auto lg:w-[1200px] lg:h-[493px] ' />
         </div>
         <div className="lmc3 max-w-[1440px] w-[100%] mx-auto px-[40px] mt-24 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px]">
           <div className="lmc3_left flex flex-col w-full lg:w-[80%]">
-            <h2 className="text-[48px] max-lg:text-[38px] mb-[30px] font-semibold">
+            <h2 className="text-[48px] max-lg:text-[34px] mb-[30px] font-semibold">
               What is customer retention? Sounds heavy? No stress, we’ve got you covered!
             </h2>
 
             <p className="text-lg relative">
-              <span className="lg:hidden float-right w-[60%] ml-4 mb-2">
-                <img src={c3image} alt="" className="w-full h-auto" />
+              <span className="lg:hidden float-right lg:w-[60%] ml-4 mb-2">
+                <img src={c3image} alt="" className="w-full" />
               </span>
               The goal of customer retention is to keep your current clients satisfied, involved, and returning for more. It entails developing genuine relationships with those who already trust your business rather than concentrating just on acquiring new leads. Think of it like this: ever noticed how your favorite online store remembers your preferences, gives you exclusive offers, and checks in with personalized emails? That’s customer retention in action!
               <br /> <br />
@@ -72,7 +72,7 @@ const Lead = () => {
 
 
         <div className="lmc4 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
-          <h2 className='text-[48px] max-lg:text-[38px] font-semibold mb-10'>How We Help You to <br />increase customer retention</h2>
+          <h2 className='text-[48px] max-lg:text-[34px] font-semibold mb-10'>How We Help You to <br />increase customer retention</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] max-lg:gap-8 px-[5px] py-[20px] justify-center max-w-[960px] mx-auto place-items-center">
 
             {/* Card 1 */}
@@ -172,7 +172,7 @@ const Lead = () => {
         <div className="lmc5 flex flex-row max-lg:flex-col max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px] mt-24">
           {/* Left Section */}
           <div className="lmc5_left w-[70%] max-lg:w-full pr-0 mb-[20px] ">
-            <h2 className="text-[32px] max-lg:text-[38px] lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight font-semibold">
+            <h2 className="text-[32px] max-lg:text-[34px] lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight font-semibold">
               How We Help You to <br />
               increase customer retention
             </h2>

@@ -123,24 +123,32 @@ export default function NewdesktopHeader() {
                         : "max-h-0 backdrop-blur-md pointer-events-none"
                     }`}
                   >
-                    <div className="flex items-center justify-center w-full h-[50vh] pt-14 pb-14 px-10 cursor-pointer">
+                    <div className="flex items-center justify-center w-full h-[60vh] pt-14 pb-14 px-10 cursor-pointer">
                       <div className="max-w-[1440px] w-full mx-auto flex justify-between">
                         {item.columns.map((col, colIndex) => (
                           <div key={colIndex}>
                             <h3 className="text-3xl mb-6 font-normal text-black">{col.heading}</h3>
+                        
+
                             <ul>
-                              {col.items.map((sub, subIndex) => (
-                                <li key={subIndex} className="mb-3">
-                                  <Link
-                                    to={sub.path}
-                                    onClick={handleDropdownItemClick}
-                                    className="text-lg font-normal text-black border-b-2 border-transparent hover:border-[#43b649] transition-all duration-300 hover:pb-[3px]"
-                                  >
-                                    {sub.title}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
+  {col.items.map((sub, subIndex) => (
+    <li key={subIndex} className="mb-3">
+      <Link
+        to={sub.path}
+        onClick={handleDropdownItemClick}
+        className="relative inline-block text-lg font-normal text-black transition-all duration-300 group"
+      >
+        <span className="pb-[3px] inline-block after:block after:content-[''] 
+          after:border-b-[2px] after:border-[#43b649] after:scale-x-0 
+          after:transition-transform after:duration-300 after:ease-in-out 
+          group-hover:after:scale-x-100 after:[transform-origin:center]">
+          {sub.title}
+        </span>
+      </Link>
+    </li>
+  ))}
+</ul>
+
                           </div>
                         ))}
                         <div className="hidden md:block">

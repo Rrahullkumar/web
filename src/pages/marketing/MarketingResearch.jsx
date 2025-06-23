@@ -16,6 +16,7 @@ import m7img from './resources/m7img.svg'
 import m8img from './resources/m8img.svg'
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
+// import HeroSection from '../../components/Herosection/Herosection';
 const MarketingResearch = () => {
 
 
