@@ -86,7 +86,7 @@ const Affilatemarketing = () => {
 
       </Helmet>
 
-      <div className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
+      <div className=' w-[100%]'>
       
       <HeroSection
         backgroundImage={heroimage}
@@ -334,7 +334,7 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <Newcontact></Newcontact>
+        <Newcontact />
         <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4">
 
           <div className="accordian">

@@ -21,7 +21,7 @@ const MarketingResearch = () => {
 
 
   return (
-    <div className='lg:mt-[77px] max-lg:mt-0  ' >
+    <div className=' ' >
           <HeroSection
                         backgroundImage={c1image}
                         heading="Marketing Research Company"

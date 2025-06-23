@@ -84,7 +84,7 @@ const Orm = () => {
 
     </Helmet>
 
-    <div className='mt-[77px] max-lg:mt-[0px] w-[100%] mx-auto 
+    <div className=' max-lg:mt-[0px] w-[100%] mx-auto 
   '>
     <div className="topsection">
            <HeroSection

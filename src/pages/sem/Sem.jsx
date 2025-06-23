@@ -338,7 +338,7 @@ const Sem = () => {
       </Helmet>
 
 
-      <div className='mt-[77px]   max-lg:mt-[0] ' >
+      <div className='' >
 
         <HeroSection
           backgroundImage={herom}

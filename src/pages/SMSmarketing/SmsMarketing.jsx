@@ -31,7 +31,7 @@ const SmsMarketing = () => {
 <link rel="canonical" href="https://webnestmedia.com/sms-marketing"></link>
     </Helmet>
 
-    <div className='mt-[77px] max-lg:mt-0 w-[100%] mx-auto'>
+    <div className=' w-[100%] mx-auto'>
        {/* <div className="smsc1 relative">
         
             <img src={topimage} alt="" className="w-full h-auto" />

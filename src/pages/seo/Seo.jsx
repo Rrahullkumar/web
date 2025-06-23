@@ -416,7 +416,7 @@ If you’re in the automotive industry and looking to grow your online presence,
 
       </Helmet>
 
-      <section className='mt-[77px]   max-lg:mt-[0] '>
+      <section className='mt-[0px]   max-lg:mt-[0] '>
 
         <HeroSection
           backgroundImage={heroimage}

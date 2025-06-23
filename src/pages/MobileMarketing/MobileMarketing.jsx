@@ -136,7 +136,7 @@ const MobileMarketing = () => {
                 <meta name="author" content="WebNest Media" />
                 <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
             </Helmet>
-            <div className='mt-[77px] max-lg:mt-0 w-[100%]'>
+            <div className=' w-[100%]'>
 
                 <div>
                     <HeroSection
