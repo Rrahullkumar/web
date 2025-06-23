@@ -12,9 +12,62 @@ import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
 import { motion } from "framer-motion";
 import { Helmet } from 'react-helmet'
-
+import tabimage from './resources/tabimage.svg'
+import HeroSection from '../../components/Herosection/Herosection.jsx';
+import Newcontact from '../../components/Newcontact/Newcontact.jsx'
 const MobileMarketing = () => {
     const [activeIndex, setActiveIndex] = useState(0);
+     const tabs = [
+        {
+            label: "Mobile-Optimized Website Design & Development",
+            content: [
+                "Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:",
+                "Responsive Design: Websites that fluidly adapt to any screen size.",
+                "Fast Loading Speeds: Critical for mobile users to prevent bounce rates.",
+                "Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens."
+            ],
+            image: tabimage
+        },
+        {
+            label: "SMS & MMS Marketing Campaigns",
+            content: [
+                "Reach your audience instantly through targeted SMS and MMS campaigns.",
+                "Highly personalized messages for increased engagement.",
+                "Schedule messages to hit optimal engagement windows.",
+                "Track delivery and open rates in real time."
+            ],
+            image: tabimage
+        },
+        {
+            label: "Location-Based & Proximity Marketing",
+            content: [
+                "Deliver promotions and messages based on user location.",
+                "Target users when they are near your business or competitors.",
+                "Boost in-store visits with location-triggered alerts."
+            ],
+            image: tabimage
+        },
+        {
+            label: "Mobile App Marketing & Engagement (If Applicable)",
+            content: [
+                "Promote your mobile app to increase downloads and active users.",
+                "Use push notifications to retain and re-engage customers.",
+                "Track user behavior to optimize in-app experiences."
+            ],
+            image: tabimage
+        },
+        {
+            label: "QR Code Campaigns",
+            content: [
+                "Integrate QR codes into your offline marketing efforts.",
+                "Easily direct users to websites, app downloads, or special offers.",
+                "Track QR code scans for campaign effectiveness."
+            ],
+            image: tabimage
+        }
+    ];
+
+    const [activeTab, setActiveTab] = useState(0);
     const tabData = [
         {
             label: 'Mobile-Optimized Website Design & Development',
@@ -83,21 +136,21 @@ const MobileMarketing = () => {
                 <meta name="author" content="WebNest Media" />
                 <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
             </Helmet>
-            <div className='mt-[50px]'>
-                {/* <div className="mmc1 relative ">
-                    <img src={topimage} alt="" className='w-[100%] h-auto' />
-                    <h1 className='absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]'>
-                        <span className='text-[#4CAF50]'>Mobile</span> Marketing
-                    </h1>
-                </div> */}
-                <div>
+            <div className='mt-[77px] max-lg:mt-0 w-[100%]'>
 
-                    <div className="mmc3 mt-[150px] max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
+                <div>
+                    <HeroSection
+                        backgroundImage={topimage}
+                        heading="Mobile Marketing Company"
+                        highlight="In Gurgaon"
+                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                    />
+                    <div className="mmc3 mt-24 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
                         <img src={image1} alt="" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
                         <div className="lgc3left lg:w-[60%] justify-start ">
-                            <h2 className='text-[48px] max-md:text-[38px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
+                            <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                             <br />
-                            <p className='text-[16px] font-[350]'>
+                            <p className='text-lg font-[350]'>
                                 In today's fast-paced digital world, your customers are constantly on their mobile devices. From checking social media to searching for local businesses, smartphones and tablets have become the primary gateway to the internet.
 
                                 <br className='' /> <br className='' />We understand this shift and specialize in mobile marketing in Gurgaon that puts your brand directly into the hands of your target audience, whenever and wherever they are.
@@ -114,49 +167,63 @@ const MobileMarketing = () => {
 
                 </div>
 
-                <div className="mmc4 flex flex-col justify-center items-center mx-auto mt-[60px] mb-[60px] lg:py-24 py-16 bg-black lg:px-[40px]">
-                    <div className="text-center w-full max-w-[1440px]">
-                        <h2 className="text-[48px] max-lg:text-[30px] font-semibold text-white mb-[64px] max-lg:mb-[40px] mx-auto lg:w-[70%] ">
-                            Our Comprehensive Mobile Marketing Services in Gurgaon
-                        </h2>
+                 <div className='bg-black'>
+            <div className="text-white py-12 px-4 md:px-10 max-w-[1440px] w-[100%] mx-auto mt-24">
+                <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
+                    Our Comprehensive Mobile Marketing <br /> Services in Gurgaon
+                </h2>
 
-                        {/* Scrollable Tabs */}
-                        <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-6">
-                            <div className="inline-flex space-x-4 px-2 border-b ">
-                                {tabData.map((tab, index) => (
-                                    <button
-                                        key={index}
-                                        onClick={() => setActiveIndex(index)}
-                                        className={`text-white lg:px-4  py-2 border-b-2 transition-all duration-300 w-[50%] ${activeIndex === index
-                                                ? "border-green-400"
-                                                : "border-transparent hover:border-gray-500"
-                                            }`}
-                                    >
-                                        
-                                            {tab.label}
-                                       
-                                    </button>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Content + Image */}
-                        <div className="flex flex-col lg:flex-row items-start gap-10 text-left text-white w-full max-w-6xl mx-auto max-lg:px-[16px]">
-                            <div className="flex-1 whitespace-pre-line">
-                                {tabData[activeIndex].content}
-                            </div>
-                            <img
-                                src={tabData[activeIndex].image}
-                                alt=""
-                                className="w-full max-w-[400px] h-auto "
-                            />
-                        </div>
+                {/* Tab Bar */}
+                <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-8">
+                    <div className="inline-flex space-x-6 border-b px-2">
+                        {tabs.map((tab, idx) => (
+                            <button
+                                key={idx}
+                                onClick={() => setActiveTab(idx)}
+                                className={`text-white text-sm md:text-base whitespace-nowrap border-b-2 px-4 py-2 transition-all duration-300 ${idx === activeTab
+                                    ? "border-green-400"
+                                    : "border-transparent hover:border-gray-500"
+                                    }`}
+                            >
+                                {tab.label}
+                            </button>
+                        ))}
                     </div>
                 </div>
 
+                {/* Tab Content */}
+                <div className="flex flex-col lg:flex-row items-start justify-between gap-10">
+                    {/* Text */}
+                    <div className="lg:w-1/2 text-sm md:text-base leading-relaxed space-y-4">
+                        {tabs[activeTab].content.map((paragraph, idx) => (
+                            <p key={idx}>
+                                {paragraph.includes(":") ? (
+                                    <>
+                                        <strong>{paragraph.split(":")[0]}:</strong> {paragraph.split(":")[1]}
+                                    </>
+                                ) : (
+                                    paragraph
+                                )}
+                            </p>
+                        ))}
+                    </div>
 
-                <div className="mmc5 mx-auto max-w-[1440px]">
-                    <div className="lg:text-center px-4 py-16">
+                    {/* Image */}
+                    <div className="lg:w-1/3">
+                        <img
+                            src={tabs[activeTab].image}
+                            alt="Mobile Marketing"
+                            className="w-full h-auto"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+
+                <div className="mmc5 mx-auto max-w-[1440px] mt-24">
+                    <div className="lg:text-center px-4 ">
                         <h2 className="text-[52px] max-lg:text-[38px] font-bold mb-6">
                             Why Choose <span className="">WebNest Media</span> for <br /> Mobile Marketing in Gurgaon?
                         </h2>
@@ -164,7 +231,7 @@ const MobileMarketing = () => {
                             WebNest Media is leading agency for mobile marketing in Delhi-NCR and best mobile advertising services in India. When you partner with WebNest Media, you're choosing a team that understands the nuances of the Gurugram market and the power of mobile technology.
                         </p>
 
-                        <div className="grid grid-cols-4 max-md:grid-cols-2 gap-8 mb-16 px-4">
+                        <div className="grid grid-cols-4 max-md:grid-cols-1 gap-8 mb-16 px-4">
                             <div className='flex flex-col items-center text-center'>
                                 <img src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
@@ -194,6 +261,7 @@ const MobileMarketing = () => {
                     </div>
 
                 </div>
+                <Newcontact></Newcontact>
                 <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
                     <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>

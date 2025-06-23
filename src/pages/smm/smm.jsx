@@ -34,6 +34,8 @@ import { SiSmartthings } from "react-icons/si";
 import { GiLevelFourAdvanced } from "react-icons/gi";
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
+import Newcontact from '../../components/Newcontact/Newcontact';
+import HeroSection from '../../components/Herosection/Herosection';
 
 const Smm = () => {
   const [text, setText] = useState('');
@@ -147,55 +149,51 @@ const Smm = () => {
     <>
       <Helmet>
 
-<title>Best Social Media Marketing Agency in Gurgaon | WebNest Media</title>
-<meta name="description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="WebNest Media" />
-<link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
+        <title>Best Social Media Marketing Agency in Gurgaon | WebNest Media</title>
+        <meta name="description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="WebNest Media" />
+        <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
       </Helmet>
 
-      <div className='mt-[150px] max-lg:mt-[30px] w-[100%] mb-[120px] pr-[40px] pl-[40px] max-lg:pr-[20px] max-lg:pl-[20px] max-w-[1440px]  mx-auto'>
-        <div className="h-[200px] ">
+      <div className='mt-[150px] max-lg:mt-[30px] w-[100%] mb-[120px]  mx-auto'>
+        <div className=" ">
           {/* <h1 className='className="text-3xl md:text-5xl sm:text-2xl font-bold text-[#5c945c] mt-[150px] max-lg:mt-[30px] text-center ml-[30px]" ' id='head1' style={{ lineHeight: 1.5 }}>Social Media Marketing Agency <br />  <span className='text-black'>in Gurgaon</span></h1>
           */}
-         
-         <h1
-  id="head1"
-  className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#5c945c] mt-[80px] sm:mt-[100px] md:mt-[150px] text-center px-4"
-  style={{ lineHeight: 1.5 }}
->
-  Social Media Marketing Agency  <br />
-  <span className="text-black">in Gurgaon</span>
-</h1>
+
+          {/* <HeroSection
+                        backgroundImage={topimage}
+                        heading="Mobile Marketing Company"
+                        highlight="In Gurgaon"
+                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                    /> */}
 
           {/* <h2 className="heading-styled relative h-[70px] text-[35px]  bg-yellow font-bold text-black px-4 py-1 mt-[13px] ml-[43%]">
             {text}
           </h2> */}
 
-<div className="flex justify-center items-center">
-            <h2 className="heading-styled relative h-[70px] text-[35px] bg-yellow font-bold text-black px-4 py-1 mt-[13px] ">
-  {text}
-</h2>
-</div>
+         
 
 
         </div>
         {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
-<p className="mt-[40px] text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
-  Boost Your Digital Impact with <br  className='max-lg:hidden'/>
-  Smart Social Media Planning
-</p>
+        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
+          <p className="mt-[40px] text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+          Boost Your Digital Impact with <br className='max-lg:hidden' />
+          Smart Social Media Planning
+        </p>
 
         <p className=' max-sm:mt-[10px] text-[15px] mt-[100px] text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
 '>
 
           Enhance your brand’s digital footprint with our social media marketing company Gurgaon, crafted to simplify content creation, scheduling, and analytics unlock your brand’s true potential today.
         </p>
+        </div>
 
 
 
-        <div className="mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
+        <div className=" max-w-[1440px] px-10 max-lg:mx-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
           {icons.map((Icon, index) => (
             <div
               key={index}
@@ -211,7 +209,7 @@ const Smm = () => {
         </div>
 
         <div className="
-       flex flex-col md:flex-row">
+        flex flex-col md:flex-row max-w-[1440px] px-10 max-lg:mx-4 mx-auto">
           {/* Box 1 */}
           <div className="w-full md:basis-1/3  flex justify-center">
             <div className="w-[300px] h-[450px] rounded-md bg-gray-300 overflow-hidden bocshadowgif "  >
@@ -220,7 +218,7 @@ const Smm = () => {
           </div>
 
 
-          <div className="w-full md:basis-1/3   gap-4">
+          <div className=" max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3   gap-4">
 
             <div className="w-full max-w-[300px] h-[400px]   flex flex-col justify-end">
               <div className=' flex flex-col gap-[30px]' >
@@ -245,12 +243,10 @@ const Smm = () => {
                 </div>
               </div>
             </div>
-
-
           </div>
 
 
-          <div className="w-full md:basis-1/3  flex justify-center items-center max-md:hidden">
+          <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-md:hidden">
             <div className="text-center text-black font-semibold text-xl">
               <img src={cimage} className=' ' />
 
@@ -259,7 +255,7 @@ const Smm = () => {
         </div>
 
 
-        <div className='mt-[200px]'>
+        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto mt-[200px]'>
 
           <p className="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </p>
 
@@ -267,7 +263,7 @@ const Smm = () => {
         </div>
 
 
-        <div className='flex justify-center max-md:flex-col  gap-[40px] mt-[100px]'>
+        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto flex justify-center max-md:flex-col gap-[40px] mt-[100px]'>
 
 
           {/* 
@@ -329,7 +325,7 @@ const Smm = () => {
                 and stand out in the digital crowd.
               </p>
 
-              <button type="submit " class=" mb-[50px] text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
+              <button type="submit " class=" text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
 
               </button>
 
@@ -353,15 +349,13 @@ const Smm = () => {
                   </div>
                 </div>
               </div>
-
             </div>
-
           </div>
 
         </div>
 
 
-        <div className="smarter flex flex-col-reverse lg:flex-row  mt-[100px] gap-10 px-4  bg-no-repeat bg-contain bg-right"
+        <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto smarter flex flex-col-reverse lg:flex-row  mt-[100px] gap-10  bg-no-repeat bg-contain bg-right"
           style={{ backgroundImage: `url(${largesmart})` }}
         >
 
@@ -403,7 +397,7 @@ const Smm = () => {
 
 
         </div>
-        <div className="newcontainer">
+        <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto newcontainer">
           <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h3>
@@ -452,57 +446,9 @@ const Smm = () => {
           </ul>
 
         </div>
-        <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
-
-          <div className="w-[45%] max-lg:w-full">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
-              Work With Us and Take <br />Your Business to the Next Level
-            </h3>
-            <p className="text-[17px] text-black mt-5 mb-5">
-              We provide the tools, expertise, and support you need to grow faster,
-              <br /> reach more customers, and stay ahead of the competition.
-              <br /> Let’s take your business to the next level—together.
-            </p>
-
-            {/* <p>
-            <a href="tel:+919696964606" className="text-black font-bold hover:underline">
-              +91 9696964606
-            </a>
-          </p> */}
-            {/* <p>
-            <a href="tel:+919211676307" className="text-black font-bold hover:underline">
-              +91 9211676307
-            </a>
-          </p> */}
-            <div className="space-y-2">
-              <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                <FiPhone className="text-white" />
-                <a href="tel:+919696964606" className="text-white">
-                  +91-9696964606
-                </a>
-              </button>
-
-              <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                <FiPhone className="text-white" />
-                <a href="tel:+919211676307" className="text-white">
-                  +91-9211676307
-                </a>
-              </button>
-            </div>
-
-          </div>
-
-
-          <div className="w-[45%] max-lg:w-full">
-            <Contactform className="w-full" />
-          </div>
-
-
-        </div>
-
-
-        <div className='mt-[100px] '>
+        <Newcontact></Newcontact>
+        <div className='mt-[100px] max-w-[1440px] px-10 max-lg:mx-4 mx-auto '>
           <p className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </p>
 
           <Accordian />

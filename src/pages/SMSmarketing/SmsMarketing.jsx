@@ -10,6 +10,8 @@ import icon5 from './resources/icon5.svg'
 import icon6 from './resources/icon6.svg'
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
+import HeroSection from '../../components/Herosection/Herosection' 
+import Newcontact from '../../components/Newcontact/Newcontact'
 const SmsMarketing = () => {
 
 
@@ -29,7 +31,7 @@ const SmsMarketing = () => {
 <link rel="canonical" href="https://webnestmedia.com/sms-marketing"></link>
     </Helmet>
 
-    <div className='mt-[100px] max-w-[1440px] w-[100%] mx-auto'>
+    <div className='mt-[77px] max-lg:mt-0 w-[100%] mx-auto'>
        {/* <div className="smsc1 relative">
         
             <img src={topimage} alt="" className="w-full h-auto" />
@@ -42,21 +44,27 @@ const SmsMarketing = () => {
                 <span className="text-[#4CAF50]">SMS</span> Marketing
             </h1>
             </div> */}
-        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px]">
+            <HeroSection
+                        backgroundImage={topimage}
+                        heading="SMS Marketing Company"
+                        highlight="In Gurgaon"
+                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+                    />
+        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto">
             <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
             
             <div className="smsc2left lg:w-[60%] ">
-                <h2 className='text-[52px] max-lg:text-[38px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
+                <h2 className='text-[52px] max-lg:text-[34px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
                 <p className='text-base'>Discover the possibility of business growth with The SMS Marketing Agency, a partner committed to quality. Set up a free 45-minute consultation today to see your conversions increase by two times.</p>
             </div>
              
         </div>
-        <div className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-[96px]">
+        <div className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-28">
             
                 <img src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
             
             <div className="smsc3right lg:w-[60%]">
-                <h2 className='text-[52px] max-lg:text-[36px]  mb-[36px] font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
+                <h2 className='text-[52px] max-lg:text-[34px]  mb-9 font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
                 <p className='text-base '>SMS marketing cuts through the clutter, offering an unparalleled direct line to your audience. Our teams of SMS marketing experts can conducts bulk SMS marketing at a point of time. As a leading SMS marketing agency in Gurgaon, we empower businesses like yours to forge immediate, impactful connections. Forget the crowded inbox; an SMS delivers your message instantly, ensuring it’s seen and acted upon, driving real results for your brand.</p>
                 <br />
                 <p className='text-base'>We specialize in Navigating the complexities of SMS marketing in India requires local expertise combined with global best practices. For online businesses, SMS marketing for ecommerce is no longer optional, it's a necessity for competitive advantage. WebNest Media extends its mobile marketing prowess to include comprehensive WhatsApp SMS company in Gurgaon services.</p>
@@ -65,7 +73,7 @@ const SmsMarketing = () => {
         <div className="smsc4 max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
             <div className="max-w-[1200px] mx-auto">
                 {/* Heading */}
-                <h2 className="text-[52px] max-lg:text-[38px] lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
+                <h2 className="text-[52px] max-lg:text-[34px] lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
                     SMS Marketing Company Services | Your Pathway to Direct Engagement
                 </h2>
                 <p className="lg:text-center text-gray-600 max-w-[800px] mx-auto mb-[109px] max-lg:mb-[60px]">
@@ -118,7 +126,8 @@ const SmsMarketing = () => {
                 </div>
                 </div>
         </div>
-         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px]">
+        <Newcontact></Newcontact>
+         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
           <p className=" mb-[50px] lg:text-center font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
       </div>

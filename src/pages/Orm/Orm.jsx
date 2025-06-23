@@ -17,6 +17,7 @@ import Accordian from "./component/Accordian"
 import bannerimage from "./resourse/bannerimage.svg"
 import topimage from "./resourse/topimage.svg";
 import { Helmet } from 'react-helmet';
+import Newcontact from '../../components/Newcontact/Newcontact';
 const Orm = () => {
   const services = [
     {
@@ -81,11 +82,10 @@ const Orm = () => {
 
     </Helmet>
 
-    <div className='mt-[120px] max-lg:mt-[20px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] 
+    <div className='mt-[120px] max-lg:mt-[20px] w-[100%] mx-auto 
   '>
     <div className="topsection">
-            <img src={topimage} alt="" />
-             <h2><span className='text-[#4CAF50]'>Online Reputation </span> Management</h2>
+           
           </div>
 
 
@@ -103,7 +103,7 @@ const Orm = () => {
 
 
 
-      <section>
+      <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
 
 
 
@@ -151,7 +151,7 @@ const Orm = () => {
 
 
 
-        <div className="flex max-lg:flex-col justify-between items-start gap-8">
+        <div className=" flex max-lg:flex-col justify-between items-start gap-8">
           {/* Text Content */}
           <div className="flex-1 min-w-0 max-w-[785px] max-md:w-[100%]">
             <h6 className="text-[18px] text-[#000000] font-semibold  max-lg:font-normal mt-[120px] max-xl:mt-[20px]">
@@ -184,9 +184,9 @@ const Orm = () => {
       </section>
 
 
-      <section>
+      <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24'>
 
-        <div className="flex max-lg:flex-col mt-[96px] gap-6 justify-between">
+        <div className="flex max-lg:flex-col gap-6 justify-between">
 
           <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
             <h6 className='text-[46px] max-md:text-[23px] max-lg:text-[26px]  text-[black] font-normal'>Types of Online Reputation Management Services</h6>
@@ -230,7 +230,7 @@ const Orm = () => {
 
 
 
-      <section className="flex flex-col lg:flex-row items-start justify-between mt-[62px] gap-8 lg:gap-0 px-4 lg:px-0">
+      <section className="max-w-[1440px] mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] gap-8 lg:gap-0 lg:px-0  ">
 
 
         <div className="w-full lg:w-[785px] pl-[20px] max-md:pl-[0]">
@@ -279,50 +279,9 @@ const Orm = () => {
 
       </section>
 
-        <section className="  max-w-[1440px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
-      
-              {/* Left Side: Text + Numbers */}
-              <div className="w-[45%] max-lg:w-full">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] ">
-                  Work With Us and Take <br />Your Business to the Next Level
-                </h3>
-                <p className="text-[17px] text-black mt-5 mb-5 ">
-                  We provide the tools, expertise, and support you need to grow faster,
-                  <br /> reach more customers, and stay ahead of the competition.
-                  <br /> Let’s take your business to the next level—together.
-                </p>
-      
-      
-                <div className="space-y-2">
-                  <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                    <FiPhone className="text-white" />
-                    <a href="tel:+919696964606" className="text-white">
-                      +91-9696964606
-                    </a>
-                  </button>
-      
-                  <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                    <FiPhone className="text-white" />
-                    <a href="tel:+919211676307" className="text-white">
-                      +91-9211676307
-                    </a>
-                  </button>
-                </div>
-      
-      
-              </div>
-      
-              {/* Right Side: Contact Form */}
-              <div className="w-[45%] max-lg:w-full">
-                <Conatctfrom className="w-full" />
-              </div>
-      
-      
-      
-      
-            </section>
-
-      <section>
+        
+            <Newcontact></Newcontact>
+      <section className='max-w-[1440x] px-10 max-lg:px-'>
 
         <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[22px]           

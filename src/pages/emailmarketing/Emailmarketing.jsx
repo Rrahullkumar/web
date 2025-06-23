@@ -8,6 +8,8 @@ import icon4 from './resources//icon4.svg'
 import { FiPhone } from "react-icons/fi";
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
+import HeroSection from '../../components/Herosection/Herosection'
+import Newcontact from '../../components/Newcontact/Newcontact'
 const Emailmarketing = () => {
   return (
 
@@ -23,7 +25,7 @@ const Emailmarketing = () => {
         <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
       </Helmet>
 
-      <div className='mt-[50px] '>
+      <div className='mt-[77px] max-lg:mt-0 '>
         {/* <div className="emailc1 relative">
  
                   <img src={topimage} alt="" className="w-full h-auto" />
@@ -34,14 +36,20 @@ const Emailmarketing = () => {
                   <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
                       <span className="text-[#4CAF50]">Email</span> Marketing
                   </h1>
-        </div> */}
+        </div> */}<HeroSection
+          backgroundImage={topimage}
+          heading="Email Marketing Company"
+          highlight="In Gurgaon"
+          paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+        />
+
         <div className="emailc2 flex flex-col mt-[96px] max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
           <div className="emailc21 flex flex-col justify-center items-center">
-            <h2 className='text-[52px]  max-lg:text-[38px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
+            <h2 className='text-[52px]  max-lg:text-[34px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
             <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
           </div>
           <div className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
-            <h2 className="text-[52px] max-lg:text-[30px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
+            <h2 className="text-[52px] max-lg:text-[34px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
             <div className='flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10'>
 
               <div className="lg:w-[60%] flex flex-col">
@@ -209,7 +217,8 @@ const Emailmarketing = () => {
 
 
         </div>
-        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px]">
+        <Newcontact></Newcontact>
+        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
           <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom lg:text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>

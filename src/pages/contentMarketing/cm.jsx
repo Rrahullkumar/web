@@ -6,7 +6,8 @@ import Conatctfrom from '../../components/contact/contactform'; // Corrected imp
 import Accordian from '../home/componnet/Accordian.jsx';
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet';
-
+import HeroSection from '../../components/Herosection/Herosection.jsx';
+import Newcontact from '../../components/Newcontact/Newcontact.jsx';
 const ContentMarketing = () => {
   const [text, setText] = useState('');
   const words = ['Engage', 'Impact', 'Content'];
@@ -139,15 +140,24 @@ const ContentMarketing = () => {
 
       </Helmet>
 
-      <section className='max-w-[1440px] w-[100%] mx-auto lg:mt-[150px]'>
+      <section className=''>
 
 
 
-        <div className="container1 lg:mb-60 max-lg:mb ">
-          <h1 className='text-[52px] max-lg:text-[38px] text-center'>Content Marketing <span className='text-black'>Agency in Gurgaon </span></h1>
+        <div className="mt-[77px]   max-lg:mt-[0] w-[100%]">
+          {/* <h1 className='text-[52px] max-lg:text-[38px] text-center'>Content Marketing <span className='text-black'>Agency in Gurgaon </span></h1> */}
           {/* <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[320px] ">
             {text}
           </h2> */}
+          <HeroSection
+        backgroundImage={c1_image}
+        heading="Content Marketing Company"
+        highlight="In Gurgaon"
+        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+      />
+
+          
+
         </div>
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
@@ -202,7 +212,8 @@ const ContentMarketing = () => {
             ))}
           </div>
        </div> */}
-        <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto bg-[#EFF4EE]">
+       <div className=' bg-[#EFF4EE]'>
+        <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
           <div className="pb-[72px] text-center">
             <p className="text-[18px]" style={{ color: '#EEC370' }}>
               The no. 1 Content Marketing Service
@@ -226,6 +237,8 @@ const ContentMarketing = () => {
             </div>
           </div>
         </div>
+       </div>
+        
 
 
 
@@ -233,7 +246,7 @@ const ContentMarketing = () => {
 
 
 
-        <div className="mt-[96px] max-lg:mt-[40px]  max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] ">
+        <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] ">
           <h2 className=" font-semibold text-6xl max-lg:text-[38px] leading-[160%] max-lg:leading-[120%]">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
@@ -267,135 +280,10 @@ const ContentMarketing = () => {
 
         </div>
 
-        <div className="mt-[96px] max-w-[1440px] w-full mx-auto mb-[96px] pl-[40px] pr-[40px] max-md:pl-[16px] max-md:pr-[16px]">
-          <p className="service-label text-center text-[20px] font-normal">Our Services</p>
-          <h2 className="process-heading text-center text-[32px] font-semibold mb-4">
-            Types of <span className="highlight">Content Marketing</span>
-          </h2>
-          <p className="text-center text-base mb-14">
-            Drive results through performance-based partnerships – only pay when you earn.
-          </p>
+        
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-[15px] justify-center items-stretch">
-            {/* Card 1 */}
-            <div className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 text-left cursor-pointer">
-              <div className="flex justify-between items-start pb-8">
-                {/* Placeholder Icon */}
-                <div className="w-9 h-9 bg-white rounded-full"></div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-white text-base font-semibold uppercase">TYPE</span>
-                  <span className="text-[#ffcc00] text-end">01</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Blog Content Marketing</h3>
-              <p className="text-sm leading-relaxed">
-                Helpful, well-written blogs that answer real questions and bring your audience to your website naturally.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 text-left cursor-pointer">
-              <div className="flex justify-between items-start pb-8">
-                <div className="w-9 h-9 bg-white rounded-full"></div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-white text-base font-semibold uppercase">TYPE</span>
-                  <span className="text-[#ffcc00] text-end">02</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Social Media Content</h3>
-              <p className="text-sm leading-relaxed">
-                Creative posts and stories that spark conversations, build your brand, and connect you with real people.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 text-left cursor-pointer">
-              <div className="flex justify-between items-start pb-8">
-                <div className="w-9 h-9 bg-white rounded-full"></div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-white text-base font-semibold uppercase">TYPE</span>
-                  <span className="text-[#ffcc00] text-end">03</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Video Marketing</h3>
-              <p className="text-sm leading-relaxed">
-                Videos that tell your story in a way your audience loves—simple, emotional, and easy to remember.
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 text-left cursor-pointer">
-              <div className="flex justify-between items-start pb-8">
-                <div className="w-9 h-9 bg-white rounded-full"></div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-white text-base font-semibold uppercase">TYPE</span>
-                  <span className="text-[#ffcc00] text-end">04</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Email Marketing</h3>
-              <p className="text-sm leading-relaxed">
-                Friendly, helpful emails that keep your audience informed, engaged, and excited to hear from you.
-              </p>
-            </div>
-
-            {/* Card 5 */}
-            <div className="w-full bg-[#4caf50] text-white p-5 rounded-xl shadow-lg hover:-translate-y-[5px] hover:shadow-xl transition-all duration-300 text-left cursor-pointer">
-              <div className="flex justify-between items-start pb-8">
-                <div className="w-9 h-9 bg-white rounded-full"></div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-white text-base font-semibold uppercase">TYPE</span>
-                  <span className="text-[#ffcc00] text-end">05</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Infographics</h3>
-              <p className="text-sm leading-relaxed">
-                Fast, attractive pictures that make difficult concepts simple to learn and enjoyable to share.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-        <div className="container6 ">
-
-
-          <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
-
-            {/* Left Side: Text + Numbers */}
-            <div className="w-[45%] max-lg:w-full">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
-                Work With Us and Take <br />Your Business to the Next Level
-              </h3>
-              <p className="text-[17px] text-black mt-5 mb-5">
-                We provide the tools, expertise, and support you need to grow faster,
-                <br /> reach more customers, and stay ahead of the competition.
-                <br /> Let’s take your business to the next level—together.
-              </p>
-
-              <div className="space-y-2">
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919696964606" className="text-white">
-                    +91-9696964606
-                  </a>
-                </button>
-
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919211676307" className="text-white">
-                    +91-9211676307
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            {/* Right Side: Contact Form */}
-            <div className="w-[45%] max-lg:w-full">
-              <Conatctfrom className="w-full" /> {/* Corrected component name */}
-            </div>
-          </div>
-        </div>
-        <div className="accordian">
+        <Newcontact></Newcontact>
+        <div className="accordian max-w-[1440px] w-[100%] mx-auto ">
           <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
           <div className="accordion-wrapper-columns">
             {/* Left Column */}

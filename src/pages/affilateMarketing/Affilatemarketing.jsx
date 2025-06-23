@@ -10,9 +10,10 @@ import Icons4 from './resources/Icon4.svg'
 import image from './resources/Image.svg'
 import { Helmet } from 'react-helmet'
 import Conatctfrom from '../../components/contact/contactform';
-
+import HeroSection from '../../components/Herosection/Herosection.jsx';
 import { FiPhone } from "react-icons/fi";
-
+import heroimage from './resources/heroimage.svg'
+import Newcontact from '../../components/Newcontact/Newcontact.jsx'
 const Affilatemarketing = () => {
 
   const [text, setText] = useState('');
@@ -85,20 +86,17 @@ const Affilatemarketing = () => {
 
       </Helmet>
 
-      <div className='mt-[120px] max-lg:mt-[60px]'>
-        <div className="max-w-[1440px] w-[100%] mx-auto max-lg:px-[16px] ">
-          <h1 className=' text-[52px] max-lg:text-[38px] mx-auto lg:text-center lg:w-[50%] text-[#4CAF50]'>
-            Affiliate Marketing Agency<span className='text-black'> in Gurgaon</span>
-          </h1>
-
-          {/* <h2 className="heading-styled relative h-[70px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[15px] ml-[44%]  ">
-          {text}
-        </h2> */}
-
+      <div className='mt-[77px]   max-lg:mt-[0] w-[100%]'>
+      
+      <HeroSection
+        backgroundImage={heroimage}
+        heading="Affiiate Marketing Company"
+        highlight="In Gurgaon"
+        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+      />
 
 
 
-        </div>
 
 
 
@@ -199,8 +197,8 @@ const Affilatemarketing = () => {
             </div>
           </div>
         </div>
-
-        <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto bg-[#EFF4EE] ">
+        <div className='bg-[#EFF4EE] '>
+          <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
           <div className=" pb-[72px] text-center">
             <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
             <p className='text-[32px] font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
@@ -218,6 +216,8 @@ const Affilatemarketing = () => {
           </div>
 
         </div>
+        </div>
+        
         <div className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
           <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-4xl lg:w-[60%] lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
@@ -232,7 +232,7 @@ const Affilatemarketing = () => {
           </p>
 
         </div>
-        <div className=" max-lg:mb-10 px-4">
+        <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
             {/* Card 1 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
@@ -334,45 +334,8 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <div className="max-w-[1440px] w-[100%]  mx-auto container6 lg:mt-[96px] max-lg:mt-10 ">
-          <div className="conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
-
-            {/* Left Side: Text + Numbers */}
-            <div className="w-[45%] max-lg:w-full">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
-                Work With Us and Take <br />Your Business to the Next Level
-              </h3>
-              <p className="text-[17px] text-black mt-5 mb-5">
-                We provide the tools, expertise, and support you need to grow faster,
-                <br /> reach more customers, and stay ahead of the competition.
-                <br /> Let’s take your business to the next level—together.
-              </p>
-
-              <div className="space-y-2">
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919696964606" className="text-white">
-                    +91-9696964606
-                  </a>
-                </button>
-
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919211676307" className="text-white">
-                    +91-9211676307
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            {/* Right Side: Contact Form */}
-            <div className="w-[45%] max-lg:w-full">
-              <Conatctfrom className="w-full" /> {/* Corrected component name */}
-            </div>
-          </div>
-
-        </div>
-        <div className="amc6">
+        <Newcontact></Newcontact>
+        <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4">
 
           <div className="accordian">
             <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
