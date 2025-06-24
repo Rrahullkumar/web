@@ -39,7 +39,7 @@ const DigitalTranformationservice = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/digital-transformation" />
       </Helmet>
-      <div className=' mt-[77px] max-lg:mt-0 w-[100%] mx-auto'>
+      <div className=' w-[100%] mx-auto'>
         <HeroSection
                         backgroundImage={c1_image}
                         heading="Digital Transformation Services"

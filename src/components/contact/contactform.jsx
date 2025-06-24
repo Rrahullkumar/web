@@ -83,7 +83,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="max-w-[621px] backdrop-blur-md  w-full mx-auto pt-[47px] px-[44px] pb-[47px] rounded-[20px] border border-[#FFFFFF73] ">
+    <div className="max-w-[621px] backdrop-blur-md  w-full mx-auto py-[47px] px-[44px]  max-lg:px-[16px]  max-lg:py-[16px] rounded-[20px] border border-[#FFFFFF73] ">
       <form onSubmit={handleSubmit}>
         {/* Name */}
         <div className="form-group mb-[17px]">
@@ -92,7 +92,7 @@ const ContactForm = () => {
             name="name"
             placeholder="Enter your full name"
             required
-            className="w-full h-[42px] px-4 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full h-[42px] px-4 max-lg:px-2 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
 
           />
         </div>
