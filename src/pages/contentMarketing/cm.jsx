@@ -144,7 +144,7 @@ const ContentMarketing = () => {
 
 
 
-        <div className="mt-[77px]   max-lg:mt-[0] w-[100%]">
+        <div className="mt-[px]   max-lg:mt-[0] w-[100%]">
           {/* <h1 className='text-[52px] max-lg:text-[38px] text-center'>Content Marketing <span className='text-black'>Agency in Gurgaon </span></h1> */}
           {/* <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[320px] ">
             {text}
@@ -247,7 +247,7 @@ const ContentMarketing = () => {
 
 
 
-        <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] ">
+        <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
           <h2 className=" font-semibold text-6xl max-lg:text-[38px] leading-[160%] max-lg:leading-[120%]">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>

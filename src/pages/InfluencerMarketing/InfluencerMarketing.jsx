@@ -24,7 +24,7 @@ const InfluencerMarketing = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/influencer-marketing"></link>
       </Helmet>
-      <div className="mt-[77px] max-lg:mt-0 w-100% mx-auto">
+      <div className=" w-100% mx-auto">
         {/* Top Image Banner */}
         {/* <div className="imc1 relative">
         <img src={topimage} alt="" className="w-full h-auto" />

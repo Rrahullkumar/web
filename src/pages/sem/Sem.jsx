@@ -9,9 +9,34 @@ import ads from './resources/ads.svg';
 import { Helmet } from 'react-helmet';
 // import accordian from '../home/componnet/accordian.css'
 
-import herom from "./resources/semhero.svg";
+import herom from "./resources/heroimage.png";
 import semlogo from "./resources/semlogo.svg";
 import HeroSection from '../../components/Herosection/Herosection';
+
+import icon1 from "./resources/icon1.svg";
+import icon2 from "./resources/icon2.svg";
+import icon3 from "./resources/icon3.svg";
+import icon4 from "./resources/icon4.svg";
+
+import tabone from "./resources/tabone.svg"
+
+
+import googleIcon from "./resources/gads.svg";
+import metaIcon from "./resources/mads.svg";
+import shopifyIcon from "./resources/sads.svg";
+import remarketingIcon from "./resources/rads.svg";
+import youtubeIcon from "./resources/yads.svg";
+import displayIcon from "./resources/dads.svg";
+
+const adsData = [
+  { icon: googleIcon, label: "Google ads" },
+  { icon: metaIcon, label: "Meta Ads" },
+  { icon: shopifyIcon, label: "Ecommerce ads" },
+  { icon: remarketingIcon, label: "Remarketing ads" },
+  { icon: youtubeIcon, label: "Youtube ads" },
+  { icon: displayIcon, label: "Display ads" },
+];
+
 
 import redlady from "./resources/redlady.svg"
 const Sem = () => {
@@ -22,30 +47,169 @@ const Sem = () => {
       id: 0, label: 'Pay-Per-Click (PPC)', image: PPC,
       description: (
         <>
-          <h2 className='text-[30px] mb-3 font-medium my-3 '>What is Pay Per Click Advertising?</h2>
-          <p>Pay Per Click is a form of online advertising where advertisers pay a fee for every single click. In essence, it's a method of purchasing website traffic instead of obtaining it naturally through SEO. Pay Per Click Ads show up on social media sites like Facebook and Instagram and search engines like Google and Bing, enabling companies to target particular demographics based on keywords, location, and demographics.</p>
+
+
+          <section className='pb-[96px]'>
+
+
+            <div className='flex  gap-[131px] max-lg:flex-col max-lg:gap-5'>
+
+              <h4 className='w-[100%] text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Agency in Gurgaon</h4>
+
+
+              <div className=' '>
+
+                <h6 className='text-[32px] leading-snug  text-[#000000] mb-[8px] font-semibold  '> What is Pay Per Click Advertising? </h6>
+                <p className='text-base leading-7 text-[#000000] font-normal '>Pay-per-click is a form of online advertisement where advertisers pay a fee for each individual per click. It is the process of paying for website traffic rather than acquiring traffic organically through SEO. Pay-per-click ads appear on social media sites like Facebook and Instagram as well as search engines like Google and Bing, allowing companies an opportunity to target specific regions based on certain keywords and locations.</p>
+              </div>
+            </div>
+
+            <p className=' text-[32px]  mt-[74px] mb-[74px] leading-snug  text-[#000000]  font-semibold'>Top Reasons to Invest in Pay Per Click Marketing</p>
+
+
+            <p className='text-base leading-7 text-[#000000] font-normal '>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
+
+            <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch">
+
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+                <div className="mb-6">
+                  <img src={icon1} alt="" className="w-16 h-16 object-contain" />
+                </div>
+                <div className="flex flex-col items-center gap-4 flex-1">
+                  <h3 className="text-2xl font-semibold text-center ">
+                    Instant Exposure
+                  </h3>
+                  <p className="text-sm leading-relaxed text-center">
+                    Your PPC advertisements will be live immediately as your campaign goes live. Meaning, you are getting immediate traffic and awareness versus SEO which gets noticed and found months later.
+                  </p>
+                </div>
+              </div>
+
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+                <div className="mb-6">
+                  <img src={icon2} alt="" className="w-16 h-16 object-contain" />
+                </div>
+                <div className="flex flex-col items-center gap-4 flex-1">
+                  <h3 className="text-2xl font-semibold text-center">
+                    Specific Audience
+                  </h3>
+                  <p className="text-sm leading-relaxed text-center">
+                    The only time PPC will show your advertisements is when customers are searching for keywords and phrases that match your advertising. Essentially, PPC is able to target the correct audience by their search intent, location, and demographics.
+                  </p>
+                </div>
+              </div>
+
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+                <div className="mb-6">
+                  <img src={icon3} alt="" className="w-16 h-16 object-contain" />
+                </div>
+                <div className="flex flex-col items-center gap-4 flex-1">
+                  <h3 className="text-2xl font-semibold text-center">
+                    Budgeting
+                  </h3>
+                  <p className="text-sm leading-relaxed text-center">
+                    You can control your own budget, and you only pay for clicks, which makes managing your advertising budget that much easier.
+                  </p>
+                </div>
+              </div>
+
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+                <div className="mb-6">
+                  <img src={icon4} alt="" className="w-16 h-16 object-contain" />
+                </div>
+                <div className="flex flex-col items-center gap-4 flex-1">
+                  <h3 className="text-2xl font-semibold text-center">
+                    Measurable
+                  </h3>
+                  <p className="text-sm leading-relaxed text-center">
+                    With PPC, you'll get to track and analyze every click, it allows you to optimize your campaigns for every spent.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Advertising Solutions</h4>
+
+
+            <p className='text-sm leading-relaxed text-center'>WebNest Media is trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC <br className='max-lg:hidden' /> campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get <br className='max-lg:hidden' />  the best return on your ad spend. Here are the following PPC services that we provides:  </p >
+
+            <div className="w-full px-4 py-10">
+              <div className="w-[100%] mx-auto ">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
+                  {adsData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="flex flex-col items-center justify-center space-y-2"
+                    >
+                      <img
+                        src={item.icon}
+                        alt={item.label}
+                        className="w-[176px] h-[108px] object-contain"
+                      />
+                      <span className="text-sm text-gray-800 font-medium">
+                        {item.label}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+
+              <h2 id="c2headingleft" className="c2heading">
+                Why Opt WebNest Media for  <br className='max-lg:hidden' />  PPC Ads?
+              </h2>
+
+
+              <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
+
+                <div className="w-[60%] max-lg:w-[100%] ">
+
+
+                  <p id="" className='text-base mt-[20px] font-manrope  '>
+                    When it comes to running successful PPC campaigns, experience and strategy make all the difference. That’s why so many businesses choose WebNest Media is a leading PPC company in Gurgaon, India — to manage their paid ads. Our team of certified specialists brings years of experience and deep industry know-how. Whether you need YouTube Ads, Google Ads, display ads, or remarketing, we know how to create campaigns that drive real results.
+
+
+
+                  </p>
+                  <p id="" className='text-base mt-[20px] font-manrope '>
+                    As a trusted PPC agency in Gurgaon, we don’t believe in “one-size-fits-all” strategies. We take time to understand your business, target audience, and goals so we can design campaigns that actually convert. That’s why many clients call us the best PPC company in Gurgaon, we deliver what we promise.
+
+
+
+                  </p>
+
+                  <p id="" className='text-base mt-[20px] font-manrope '>
+
+
+
+                    With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.  </p>
+
+                </div>
+
+                <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
+
+                  <img src={tabone} />
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </section>
+
+
         </>
-      ),
-      content: (
-        <div>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Top Reasons to Invest in Pay Per Click Marketing</h2>
-          <p>Pay-Per-Click is one of the most cost-effective ways to reach potential customers who are actively searching for what you offer. Here are some key benefits:</p>
-          <ul className='tab-list' style={{ paddingBottom: '20px' }}>
-            <li className='c2_list_items'><div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Instant Visibility:</b> PPC ads appear as soon as your campaign is live, providing immediate traffic and brand exposure as compared to SEO, which can delay results for months.</li>
-            <li className='c2_list_items'><div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Highly Targeted:</b>  To make sure you reach the correct audience, PPC targets the right audience based on their search intent, location, and demographics.</li>
-            <li className='c2_list_items'><div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Budget Control:</b>  You can set your own budget and simply pay for clicks, making it easy to control your ad expenditure.</li>
-            <li className='c2_list_items'><div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Measurable Results:</b>  PPC offers tracking and analysis of every click, helping you optimize your campaigns for maximum impact.</li>
-          </ul>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>PPC Advertising Solutions</h2>
-          <ul className='tab-list' style={{ paddingBottom: '20px' }}>
-            <li style={{ paddingTop: '10px' }}><b> Google Ads Management:</b>  We craft highly targeted campaigns that appear in Google Search results and on the Google Display Network, ensuring your ads reach the right audience at the right time.</li>
-            <li style={{ paddingTop: '10px' }} ><b> Social Media Ads:</b>  We run powerful PPC campaigns on platforms like Facebook, Instagram, LinkedIn, and Twitter, targeting users based on their interests, behaviors, and engagement.</li>
-            <li style={{ paddingTop: '10px' }}><b> Remarketing Campaigns:</b>  We have a team of PPC experts in Gurgaon that keeps your brand top of mind by showing ads to users who have already visited your website, encouraging them to return and complete their purchase.</li>
-            <li style={{ paddingTop: '10px' }}><b>Video Ads (YouTube):</b> Use engaging video content to drive brand awareness, increase website visits, and generate leads through YouTube Ads.</li>
-            <li style={{ paddingTop: '10px' }}><b>Display Advertisements:</b> Our team targets users with banner advertisements across the Google Display Network, increasing brand visibility and driving conversions.</li>
-          </ul>
-        </div>
       )
+
     },
     {
       id: 1, label: 'Keyword Targeting', image: KeywordTargeting,
@@ -56,88 +220,6 @@ const Sem = () => {
             The technique of choosing and focusing on particular keywords that potential customers use to look for goods, services, or information about your company is known as keyword targeting. By strategically placing these keywords in your ads or content, you increase the likelihood of showing up in search results when your target audience is actively searching for solutions.
           </p>
         </>
-      ),
-      content: (
-        <div>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>What Makes Keyword Targeting So Effective</h2>
-          <ul className='tab-list'>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Audience Targeting:</strong> Keyword targeting ensures that your content or ads reach the exact audience searching for what you offer. We focus on highly specific keywords, attracting qualified leads and relevant traffic, avoiding wasted impressions.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Scalability & Flexibility:</strong> Whether we’re focused on local keywords to attract nearby customers or using broader keywords to scale to a global audience, keyword targeting offers the flexibility to adapt based on our goals.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>High-Intent Keywords for Higher Conversions:</strong> Targeting high-intent keywords means we’re reaching users ready to take action—leading to better quality traffic and improved conversion rates.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>SEO and Paid Media Synergy:</strong> By using the same keywords for SEO and PPC, we maximize reach across both paid and organic channels—improving visibility, traffic, and overall campaign effectiveness.
-            </li>
-          </ul>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>How Keyword Targeting Improves Your Ad Campaigns</h2>
-          <p>
-            PPC campaigns are all about targeting the right audience with the right message. Focusing on targeted keywords ensures your ads show up when users search for terms closely related to your business. This results in:
-          </p>
-          <ul className='tab-list'>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Higher Click-Through Rates (CTR):</strong> Your ads are more relevant to searchers, increasing the chance of clicks.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Better Quality Traffic:</strong> Keyword-focused targeting brings visitors more likely to convert, minimizing wasteful ad spend.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Improved Ad Ranking:</strong> A precise keyword strategy boosts your Quality Score in Google Ads, helping your ads rank higher.
-            </li>
-          </ul>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>How Keyword Targeting Boosts Your SEO Strategy</h2>
-          <p>
-            In SEO, keyword targeting helps your website rank for relevant search queries. Including keywords in title tags, meta descriptions, headers, and content makes it easier for search engines to understand your content. Benefits include:
-          </p>
-          <ul className='tab-list'>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Increased Organic Traffic:</strong> Targeting the right keywords gets your site seen by users actively searching for your offerings.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Better Search Engine Visibility:</strong> Keyword optimization helps you rank higher in search results, boosting visibility and credibility.
-            </li>
-            <li className='c2_list_items'>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Targeting User Intent:</strong> Aligning keywords with user intent helps deliver content that answers real queries, increasing engagement and reducing bounce rates.
-            </li>
-          </ul>
-
-        </div>
       )
     },
     {
@@ -153,55 +235,6 @@ const Sem = () => {
           </p>
 
         </>
-      ),
-      content: (
-        <div>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>How Bid Management Boosts Your Campaign Performance</h2>
-          <p>
-            Proper bid management helps your ads rank higher in auction results, improving visibility and attracting more qualified clicks. By continuously optimizing bids, we reduce unnecessary spend, increase click-through rates (CTR), and improve conversion rates — delivering better results with less budget.
-          </p>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Types of Bidding Strategies We Use</h2>
-          <ul className='tab-list'>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Manual CPC Bidding:</strong> Gives complete control by allowing you to set individual bids for each keyword.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Enhanced CPC:</strong> Automatically adjusts your manual bids to help get more conversions while maintaining cost-efficiency.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Target CPA (Cost Per Acquisition):</strong> Builds bids to drive as many conversions as possible at your preferred acquisition cost.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Target ROAS (Return On Ad Spend):</strong> Focuses on maximizing revenue while achieving your desired return on ad spend.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Maximize Clicks:</strong> Automatically modifies bids to gain the highest number of clicks while staying within your budget.
-            </li>
-          </ul>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Why Partner with WebNest Media for Bid Management?</h2>
-          <p>
-            At WebNest Media, we combine data-driven decision-making with years of digital marketing expertise to manage your bids smartly and strategically. Our continuous monitoring and optimization guarantee that your campaigns always perform at their best—maximizing ROI and accelerating business growth.
-          </p>
-        </div>
-
       )
     },
     {
@@ -217,48 +250,6 @@ const Sem = () => {
           </p>
 
         </>
-      ),
-      content: (
-        <div>
-
-          <h2 style={{ paddingTop: '40px' }}>Why Performance Tracking is Crucial</h2>
-          <p>
-            Marketing initiatives are predicated on assumptions in the absence of tracking and analytics, which results in lost opportunities and wasted money. By measuring the right metrics, you can see which ads drive results, allocate budgets wisely, and improve underperforming areas to maximize ROI.
-          </p>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3' >Tools We Use for Accurate Insights</h2>
-          <ul className='tab-list'>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Google Analytics:</strong> Tracks user behavior on your website, helping us understand what works and what needs improvement.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Google Ads Conversion Tracking:</strong> Monitors the performance of your paid campaigns, ensuring you get the most from your budget.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'>
-                <span className='tick text-[white]'>&#10003;</span>
-              </div>
-              <strong>Facebook Pixel:</strong> Provides valuable data on social media ad engagement and conversions to refine campaign strategies.
-            </li>
-          </ul>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>How We Optimize Your Campaigns</h2>
-          <p>
-            Collecting data is just the start. We analyze performance insights to refine targeting, improve ad creatives, optimize landing pages, and adjust budgets. This ongoing process ensures your campaigns deliver better results at lower costs.
-          </p>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Why Choose WebNest Media for Performance Tracking and Analytics?</h2>
-          <p>
-            Our team combines marketing expertise with technical skills to turn data into actionable strategies. We ensure your advertising budget is spent effectively, helping your business grow and outperform competitors.
-          </p>
-        </div>
-
       )
     },
     {
@@ -274,59 +265,6 @@ const Sem = () => {
           </p>
 
         </>
-      ),
-      content: (
-        <div>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Strategic Ad Creation & Optimization Services That Deliver Results</h2>
-          <p>
-            In today’s competitive digital space, just running ads isn’t enough. You need ads that speak to your audience, grab attention, and convert. At WebNest Media, we specialize in strategic ad creation and optimization that helps your brand cut through the noise and drive meaningful results — whether it’s sales, leads, or engagement.
-          </p>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Continuous Optimization for Maximum ROI</h2>
-          <p>
-            Launching the ad is just the beginning. We believe real success lies in continuous performance optimization. Our team monitors ad performance daily, analyzing what’s working and what needs to improve.
-          </p>
-          <ul className='tab-list'>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'><span className='tick text-[white]'>&#10003;</span></div>
-              <strong>Ad Creatives:</strong> Engaging visuals and formats tailored to resonate with your audience.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'><span className='tick text-[white]'>&#10003;</span></div>
-              <strong>Headlines and CTAs:</strong> Optimized copy that grabs attention and drives action.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'><span className='tick text-[white]'>&#10003;</span></div>
-              <strong>Target Audiences:</strong> Refined based on behavior and performance to reach the most relevant users.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'><span className='tick text-[white]'>&#10003;</span></div>
-              <strong>Bidding Strategies:</strong> Adjusted to maximize performance within your budget.
-            </li>
-            <li className='c2_list_items' style={{ paddingTop: '10px' }}>
-              <div className='tick_mark'><span className='tick text-[white]'>&#10003;</span></div>
-              <strong>Landing Pages:</strong> Optimized for conversions with clear messaging and fast load times.
-            </li>
-          </ul>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Multi-Platform Ad Expertise</h2>
-          <p>
-            Whether you're running ads on Google Search, Display Network, Meta (Facebook & Instagram), LinkedIn, or YouTube, we bring the expertise to design and optimize campaigns specific to each platform’s strengths.
-          </p>
-          <p>
-            Each channel has a unique user mindset, and our ad strategies adapt to fit — from high-intent Google Ads to visually impactful Meta campaigns.
-          </p>
-
-          <h2 className='text-[30px] mb-3 font-medium my-3'>Connect with WebNest Media to Make Your Ads Work Harder for You</h2>
-          <p>
-            We believe that ads should be more than just pretty designs — they should be powerful tools that drive measurable business growth. If you're ready to run high-impact campaigns with lower costs and higher conversions, we’re here to help.
-          </p>
-          <p>
-            Partner with WebNest Media for ad creation and optimization services that make your marketing budget work smarter — and harder.
-          </p>
-        </div>
-
       )
     },
   ];
@@ -400,7 +338,7 @@ const Sem = () => {
       </Helmet>
 
 
-      <div className='mt-[77px]   max-lg:mt-[0] ' >
+      <div className='' >
 
         <HeroSection
           backgroundImage={herom}
@@ -564,48 +502,38 @@ const Sem = () => {
 
         </section>
 
-        <section>
+        <section className='max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
 
 
-              <div className="max-w-[1440px] w-full mx-auto mt-10 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide ">
-          {tabsData.map((tab, index) => (
-            <button
-              key={tab.id}
-              onClick={() => handleTabClick(index)}
-              className={`px-5 py-2.5 cursor-pointer transition-colors duration-300 text-center min-w-fit
+          <div className="max-w-[1440px] w-full mx-auto mt-10 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide  ">
+            {tabsData.map((tab, index) => (
+              <button
+                key={tab.id}
+                onClick={() => handleTabClick(index)}
+                className={` cursor-pointer transition-colors duration-300 text-center min-w-fit
         hover:text-[#3e8e41]
         ${activeTab === index
-                  ? 'border-b-2 border-[#3e8e41] text-[#3e8e41] pb-[16px]'
-                  : ' border-transparent pb-0'
-                }`}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+                    ? 'border-b-2 border-[#3e8e41] text-[#3e8e41] pb-[16px]'
+                    : ' border-transparent pb-0'
+                  }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
 
-        <div className="max-w-[1440px] universalwidth w-[100%] mx-auto text-gray-700 flex flex-col ml-[42px] mt-5 mr-5 p-5 border-none pr-[22px]">
-          <div className="flex items-start mb-[-20px] gap-10 max-lg:flex-col">
-            <div className="h-[350px] w-[400px]  mb-[15px] max-lg:w-[100%]">
-              <img
-                className="w-full h-full object-cover block"
-                src={tabsData[activeTab].image}
-                alt={tabsData[activeTab].label}
-              />
-            </div>
-            <div className="pt-[50px]  w-[calc(100%-450px)] max-lg:w-[100%]">
+          <div className=" justify-center mx-auto text-gray-700 flex flex-col  border-none ">
+
+            <div className="pt-[25px] ">
               {tabsData[activeTab].description}
             </div>
+
           </div>
-          <div>
-            {tabsData[activeTab].content}
-          </div>
-        </div>
 
         </section>
 
 
-    
+
 
         <div className="banner max-w-[1440px] w-[100%] mx-auto">
           <h2>Start Your Campaign Today</h2>

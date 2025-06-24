@@ -1,4 +1,4 @@
-
+/* 
 .dropdown-containe {
   overflow: hidden;
   max-height: 0vh;
@@ -8,9 +8,7 @@
   pointer-events: none;
 
 
-    background-image: url('/public/headerbg.svg');
-  background-size: cover;
-  background-position: center;
+  
 
 }
 
@@ -22,8 +20,9 @@
 
 
 
-
 }
 
 
 
+
+ */

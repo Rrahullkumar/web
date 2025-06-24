@@ -16,11 +16,12 @@ import m7img from './resources/m7img.svg'
 import m8img from './resources/m8img.svg'
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
+// import HeroSection from '../../components/Herosection/Herosection';
 const MarketingResearch = () => {
 
 
   return (
-    <div className='lg:mt-[77px] max-lg:mt-0  ' >
+    <div className=' ' >
           <HeroSection
                         backgroundImage={c1image}
                         heading="Marketing Research Company"
