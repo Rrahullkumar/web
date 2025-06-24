@@ -155,7 +155,7 @@ const Brandmarketing = () => {
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
-    <div className='mt-[77px] max-lg:mt-0 '>
+    <div className=''>
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "
@@ -192,7 +192,7 @@ const Brandmarketing = () => {
 
       </section> */}
 
-      <section className="mt-[112px] overflow-hidden ">
+      <section className="mt-[112px] max-lg:mt-14 overflow-hidden ">
         <div className="flex w-max animate-scroll-x">
           {/* Duplicate the images to make it seamless */}
           {[...images, ...images].map((src, index) => (
@@ -238,7 +238,7 @@ const Brandmarketing = () => {
               <span className="font-semibold">Strategy?</span>
             </p>
 
-            <p className="text-[16px] text-[#000000] leading-relaxed mt-[52px] font-normal">
+            <p className="text-[16px] text-[#000000] leading-relaxed mt-14 font-normal">
               A powerful brand strategy does more than just make your business look good—it builds trust,
               loyalty, and long-term success. In today’s competitive digital world, customers don’t just
               buy products—they buy stories, values, and experiences.
@@ -250,7 +250,7 @@ const Brandmarketing = () => {
               {cards.map((card, index) => (
                 <div
                   key={index}
-                  className="w-[210px] h-[300px] flex flex-col justify-between items-center p-2"
+                  className="w-[210px] h-[300px] flex flex-col justify-between items-center  "
                 >
                   <img
                     src={card.image}

@@ -15,6 +15,7 @@ import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
+import arrow from './resources/arrow.svg'
 const Leadgeneration = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -82,7 +83,7 @@ const Leadgeneration = () => {
       </Helmet>
 
 
-      <div className=' mt-[77px] max-lg:mt-0 '>
+      <div className=''>
 
         <div className="lgc1 relative">
           <HeroSection
@@ -107,7 +108,7 @@ const Leadgeneration = () => {
         <div className="lgc3 max-w-[1440px] mt-[93px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto">
           {/* Left Section */}
           <div className="lgc3left w-[50%] max-lg:w-full">
-            <h2 className='text-[48px] max-lg:text-[38px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
+            <h2 className='text-[48px] max-lg:text-[34px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
             <br />
 
             {/* Mobile Image: Float right only on mobile */}
@@ -136,10 +137,10 @@ const Leadgeneration = () => {
 
 
         <div className="lgc4 max-w-[1440px] px-10 max-lg:px-4 flex flex-col justify-center items-center  mx-auto mt-[60px] mb-[60px]">
-          <h2 className='text-[48px] max-lg:text-[38px] lg:w-[70%] lg:text-center mb-4 font-semibold'>
+          <h2 className='text-[48px] max-lg:text-[34px] lg:w-[70%] lg:text-center mb-4 font-semibold'>
             Powering Your Pipeline with Proven Lead Generation Services
           </h2>
-          <div className="  py-12 w-full max-w-4xl mx-auto rounded-lg ">
+          <div className="  lg:py-12 w-full max-w-4xl mx-auto rounded-lg ">
             {accordionData.map((item, index) => (
               <div key={index} className="border-b  py-6">
                 <button
@@ -147,13 +148,15 @@ const Leadgeneration = () => {
                   className="w-full flex justify-between items-center text-left text-black text-lg focus:outline-none hover:text-[#4CAF50] transition-colors duration-300"
                 >
                   <span>{item.title}</span>
-                  <ChevronDown
-                    className={`w-6 h-6 max-lg:w-5 max-lg:h-5 text-gray-600 font-thin transform transition-transform duration-100 ease-in-out rounded-full border ${openIndex === index ? 'rotate-180' : ''
-                      }`}
-                  />
+                  <img
+  src={arrow}
+  alt=""
+  className={`max-lg:h-8 max-lg:w-8 border rounded-full transform transition-transform duration-300 ${openIndex === index ? 'rotate-180' : 'rotate-0'}`}
+/>
+
                 </button>
                 <div
-                  className={`grid transition-all duration-500 ease-in-out ${openIndex === index ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
+                  className={`grid transition-all duration-300 ease-in-out ${openIndex === index ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
                     }`}
                 >
                   <div className="overflow-hidden">

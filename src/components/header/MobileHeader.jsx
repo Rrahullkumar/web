@@ -12,13 +12,12 @@ const menuItems = [
     {
     title: "Digital Marketing",
     subItems: [
-           { title: "Search Engine Optimization", path: "/search-engine-optimization" },
-      { title: "Search Engine Marketing", path: "/search-engine-marketing" },
- 
-      { title: "Social Media Marketing", path: "/social-media-marketing" },
-      { title: "Web Development", path: "/web-development" },
-      { title: "Content Marketing", path: "/digital-marketing/content-marketing" },
-      { title: "Affiliate Marketing", path: "/digital-marketing/affiliate-marketing" }
+      { title: "Search Engine Optimization", path: "/search-engine-optimization" },
+          { title: "Search Engine Marketing", path: "/search-engine-marketing" },
+          { title: "Social Media Marketing", path: "/social-media-marketing" },
+          { title: "Web Development", path: "/web-development" },
+          { title: "Content Marketing", path: "/content-marketing" },
+          { title: "Affiliate Marketing", path: "/affiliate-marketing" },
     ]
   },
 
@@ -40,10 +39,10 @@ const menuItems = [
   {
     title: "Promotions",
     subItems: [
-      { title: "Mobile Marketing", path: "/promotions/mobile" },
-      { title: "Influencer Marketing", path: "/promotions/influencer" },
-      { title: "SMS Marketing", path: "/promotions/sms" },
-      { title: "Email Marketing", path: "/promotions/email" }
+      { title: "Mobile Marketing", path: "/mobile-marketing" },
+      { title: "Influencer Marketing", path: "/influencer-marketing" },
+      { title: "SMS Marketing", path: "/sms-marketing" },
+      { title: "Email Marketing", path: "/email-marketing" }
     ]
   },
 

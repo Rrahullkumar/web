@@ -418,12 +418,14 @@ If you’re in the automotive industry and looking to grow your online presence,
 
       <section className='mt-[0px]   max-lg:mt-[0] '>
 
-        <HeroSection
+        <div className="topsection">
+          <HeroSection
           backgroundImage={heroimage}
           heading="SEO Company"
           highlight="In Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
         />
+        </div>
 
         <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
@@ -597,7 +599,7 @@ If you’re in the automotive industry and looking to grow your online presence,
 
           >
 
-            <h2 className="heading mb-[20px] " id="industries">Industries We serveee </h2>
+            {/* <h2 className="heading mb-[20px] " id="industries">Industries We serve </h2> */}
 
             <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  jjj "
               ref={secondREf}
@@ -653,18 +655,8 @@ If you’re in the automotive industry and looking to grow your online presence,
               <button onClick={scrollRight} className="">
                 <img src={Right_Arrow} alt="" />
               </button>
-
-
             </div>
-
           </div>
-
-
-
-
-
-          
-
           </section>
 
 

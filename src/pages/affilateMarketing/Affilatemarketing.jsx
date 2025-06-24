@@ -100,35 +100,42 @@ const Affilatemarketing = () => {
 
 
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:translate-y-10 max-lg:mb-[20px]">Affiliate Marketing?</h2>
-          <div className='flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10'>
-            <div className="lg:w-[60%] flex flex-col">
-              <p className="text-base ">
-                Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
-                You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
-              </p>
-              <br />
-              <h3 className="text-2xl font-semibold mb-4">It's a Win-Win:</h3>
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
+  {/* Heading with stable spacing using margin only */}
+  <h2 className="text-[52px] max-lg:text-[38px] lg:mb-[40px] max-lg:mb-[20px]">
+    Affiliate Marketing?
+  </h2>
 
-              <ul className="text-base mb-12 leading-[160%] ">
-                <li>• The company gets more sales.</li>
+  {/* Main Content Section */}
+  <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
+    {/* Text Content */}
+    <div className="lg:w-[60%] flex flex-col">
+      <p className="text-base">
+        Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
+        You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
+      </p>
+      <br />
+      <h3 className="text-2xl font-semibold mb-4">It's a Win-Win:</h3>
 
-                <li>• The customer gets what they're looking for.</li>
-                <li>• And you get paid for making the connection.</li>
-              </ul>
-              <div className="flex flex-row gap-4">
-                <button className='p-3 bg-[#4CAF50] rounded-lg text-white'>Learn More</button>
-                <button className='p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg'>Contact Us</button>
-              </div>
-            </div>
+      <ul className="text-base mb-12 leading-[160%]">
+        <li>• The company gets more sales.</li>
+        <li>• The customer gets what they're looking for.</li>
+        <li>• And you get paid for making the connection.</li>
+      </ul>
 
-            <div className="amlef max-lg:w-[80%]  ">
-              <img src={amc2img} alt="Woman with laptop" className="" />
+      <div className="flex flex-row gap-4">
+        <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
+        <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
+      </div>
+    </div>
 
-            </div>
-          </div>
-        </div>
+    {/* Image Section */}
+    <div className="amlef max-lg:w-[80%]">
+      <img src={amc2img} alt="Woman with laptop" className="w-full h-auto" />
+    </div>
+  </div>
+</div>
+
 
 
         <div className="mt-[96px] max-lg:mt-10 max-lg:[30px] max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">

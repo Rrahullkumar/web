@@ -150,15 +150,12 @@ const ContentMarketing = () => {
             {text}
           </h2> */}
           <HeroSection
-        backgroundImage={c1_image}
-        heading="Content Marketing Company"
-        highlight="In Gurgaon"
-        paragraph="From blogs to web copy, we craft SEO-driven content that brings value to your audience and helps your business grow online.
+            backgroundImage={c1_image}
+            heading="Content Marketing Company"
+            highlight="In Gurgaon"
+            paragraph="From blogs to web copy, we craft SEO-driven content that brings value to your audience and helps your business grow online.
 "
-      />
-
-          
-
+          />
         </div>
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
@@ -213,33 +210,33 @@ const ContentMarketing = () => {
             ))}
           </div>
        </div> */}
-       <div className=' bg-[#EFF4EE]'>
-        <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
-          <div className="pb-[72px] text-center">
-            <p className="text-[18px]" style={{ color: '#EEC370' }}>
-              The no. 1 Content Marketing Service
-            </p>
+        <div className=' bg-[#EFF4EE]'>
+          <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
+            <div className="pb-[72px] text-center">
+              <p className="text-[18px] max-lg:mb-4" style={{ color: '#EEC370' }}>
+                The no. 1 Content Marketing Service
+              </p>
 
-            <p className='text-[32px] font-semibold mb-8'>
-              Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
-            </p>
+              <p className='text-[32px] font-semibold mb-8'>
+                Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
+              </p>
 
-            <p className="text-base mb-14">
-              Drive results through performance-based partnerships – only pay when you earn.
-            </p>
+              <p className="text-base mb-14">
+                Drive results through performance-based partnerships – only pay when you earn.
+              </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
-              {statsData.map((item, index) => (
-                <div className="stat-card" key={index}>
-                  <h2 className="stat-number">{item.number}</h2>
-                  <p className="stat-label">{item.label}</p>
-                </div>
-              ))}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+                {statsData.map((item, index) => (
+                  <div className="stat-card" key={index}>
+                    <h2 className="stat-number">{item.number}</h2>
+                    <p className="stat-label">{item.label}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-       </div>
-        
+
 
 
 
@@ -248,12 +245,12 @@ const ContentMarketing = () => {
 
 
         <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
-          <h2 className=" font-semibold text-6xl max-lg:text-[38px] leading-[160%] max-lg:leading-[120%]">
+          <h2 className=" font-semibold text-6xl max-lg:text-[36px] leading-tight ">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
           </h2>
           <br />
-          <p className="trust-subheading mb-[40px] lg:w-[80%] leading-[160%]">
+          <p className="trust-subheading mb-[40px] lg:w-[80%] text-base leading-[160%]">
             In today’s competitive digital landscape, content is more than just information—it’s your voice,
             your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
             in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
@@ -281,7 +278,7 @@ const ContentMarketing = () => {
 
         </div>
 
-        
+
 
         <Newcontact></Newcontact>
         <div className="accordian max-w-[1440px] w-[100%] mx-auto ">
