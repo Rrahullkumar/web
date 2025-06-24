@@ -78,7 +78,7 @@ export default function NewdesktopHeader() {
 
   return (
 
-    <header className="sticky top-0 left-0 w-full z-[99999] border-b border-[#9ac496] bg-white  ">
+    <header className="sticky top-0 left-0 w-full z-[99999] border-b border-[#9ac496]  backdrop-blur-md  ">
       <div className="max-w-[1440px] w-full mx-auto ">
         <div className="flex items-center justify-between px-4 py-4 max-xl:px-4">
             <Link to="/">
@@ -117,10 +117,10 @@ export default function NewdesktopHeader() {
                   <div
                     onMouseEnter={() => openDropdown(index)}
                     onMouseLeave={() => closeDropdownWithDelay()}
-                    className={`fixed top-[77px] left-0 w-full z-[99999] transition-all duration-300 ease-in-out overflow-hidden transform backdrop-blur-md ${
+                    className={`fixed top-[77px] left-0 w-full z-[99999] bg-white transition-all duration-300 ease-in-out overflow-hidden transform backdrop-blur-md ${
                       dropdownOpen === index
-                        ? "max-h-[70vh] backdrop-blur-md pointer-events-auto"
-                        : "max-h-0 backdrop-blur-md pointer-events-none"
+                        ? "max-h-[70vh] backdrop-blur-md pointer-events-auto bg-white"
+                        : "max-h-0 backdrop-blur-md pointer-events-none bg-white"
                     }`}
                   >
                     <div className="flex items-center justify-center w-full h-[60vh] pt-14 pb-14 px-10 cursor-pointer">

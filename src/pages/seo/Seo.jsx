@@ -254,6 +254,97 @@ const Seo = () => {
   }, []);
 
 
+   const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
+        "url": "https://webnestmedia.com/search-engine-optimization/",
+        "name": "Search Engine Optimization Services | WebNest Media",
+        "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
+        "inLanguage": "en-IN",
+        "isPartOf": {
+          "@id": "https://webnestmedia.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://webnestmedia.com/search-engine-optimization/#service"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Search Engine Optimization"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+        "serviceType": "Search Engine Optimization (SEO)",
+        "provider": {
+          "@id": "https://webnestmedia.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "India"
+        },
+        "url": "https://webnestmedia.com/search-engine-optimization/",
+        "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://webnestmedia.com/contact",
+          "price": "Varies",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SEO and how does it work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to show results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer local SEO services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -266,153 +357,10 @@ const Seo = () => {
         <link data-react-helmet="true" rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
 
-
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://webnestmedia.com/search-engine-optimization",
-            "url": "https://webnestmedia.com/search-engine-optimization/",
-            "name": "Search Engine Optimization Services | WebNest Media",
-            "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
-            "inLanguage": "en-IN",
-            "isPartOf": {
-              "@id": "https://webnestmedia.com"
-            },
-            "breadcrumb": {
-              "@id": "https://webnestmedia.com/search-engine-optimization"
-            },
-            "mainEntity": {
-              "@id": "https://webnestmedia.com/search-engine-optimization"
-            }
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://webnestmedia.com/search-engine-optimization",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://webnestmedia.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Search Engine Optimization"
-              }
-            ]
-          },
-          {
-            "@type": "Service",
-            "@id": "https://webnestmedia.com/search-engine-optimization",
-            "serviceType": "Search Engine Optimization (SEO)",
-            "provider": {
-              "@id": "https://webnestmedia.com/"
-            },
-            "areaServed": {
-              "@type": "Place",
-              "name": "India"
-            },
-            "url": "https://webnestmedia.com/search-engine-optimization/",
-            "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
-            "offers": {
-              "@type": "Offer",
-              "url": "https://webnestmedia.com/contact",
-              "price": "Varies",
-              "priceCurrency": "INR",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "reviewCount": "120"
-            },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Love Pawar"
-                },
-                "datePublished": "2025-06-11",
-                "reviewBody": "I recently availed SEO services from Webnest Media, and I must say, I am extremely happy with the results. From the very beginning, their team was professional, responsive, and committed to helping my business grow online. They took the time to understand my goals and tailored an SEO strategy that truly delivered.
-
-Within a few months, I started seeing a noticeable improvement in my website's search engine rankings and organic traffic. Their regular reports, transparent communication, and attention to detail made the entire process smooth and stress-free.
-
-I highly recommend Webnest Media to anyone looking for reliable and effective SEO services. They know what they’re doing, and they genuinely care about their clients’ success. Thank you to the entire team for your excellent work!",
-                "name": "Highly Recommended SEO Services",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "itemReviewed": {
-                  "@id": "https://webnestmedia.com/search-engine-optimization"
-                }
-              },
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Deepak Yadav"
-                },
-                "datePublished": "2025-06-11",
-                "reviewBody": "I took SEO services from Webnest Media for my car accessories business, and I’m extremely happy with the results. Their team was professional, knowledgeable, and took a strategic approach to improve my website’s visibility on search engines.
-
-They understood my niche very well and helped me target the right keywords related to car accessories. Within a few months, I started seeing significant improvements in my rankings, website traffic, and inquiries. Their detailed reports, regular updates, and transparent communication made the whole process smooth and hassle-free.
-
-If you’re in the automotive industry and looking to grow your online presence, I highly recommend Webnest Media. Their SEO expertise has made a real difference for my business. Thank you to the entire team!",
-                "name": "Great SEO Results",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "itemReviewed": {
-                  "@id": "https://webnestmedia.com/search-engine-optimization"
-                }
-              }
-            ]
-          },
-          {
-            "@type": "FAQPage",
-            "@id": "https://webnestmedia.com/search-engine-optimization",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is SEO and how does it work?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does SEO take to show results?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you offer local SEO services?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
-                }
-              }
-            ]
-          }
-        ]
-      }
-    `}
-        </script>
-
+ <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
+    
 
       </Helmet>
 
