@@ -154,6 +154,8 @@ const Emailmarketing = () => {
             <br />
             <span className='text-lg font-semibold'> Here's why entrusting your email marketing to an expert agency makes all the difference:</span>
           </p>
+
+          
           <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch">
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
