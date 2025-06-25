@@ -104,7 +104,7 @@ const web = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
               {/* Best Website Development Company in Gurgaon */}
 
-              Best <span className="text-[#409338]"> Web Development  <br />Company</span> in Gurgaon
+              Best <span className="text-[#409338] "> Web Development  <br />Company</span> in Gurgaon
             </h1>
             <p className="text-[black] mt-4 max-w-md mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
@@ -252,11 +252,11 @@ const web = () => {
 
         <section className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
-          <h2 class="text-[#409338] font-bold text-[40px] max-md:text-4xl leading-tight text-center stroke-custom fill-custom ">Web Development Company in Gurgaon | Your Vision, Our Expertise
+          <h2 class="text-[#409338] font-bold text-[40px] max-md:text-4xl leading-tight max-md:leading-snug kg:text-center stroke-custom fill-custom ">Web Development Company in Gurgaon | Your Vision, Our Expertise
           </h2>
 
 
-          <p className='text-[black] text-base mt-12 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
+          <p className='text-[black] text-base mt-12 max-md:mt-6 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
             <br /> <br />
 
             We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
@@ -382,7 +382,8 @@ const web = () => {
         <Newcontact></Newcontact>
 
 
-        <section className='max-w-[1440px] mx-auto  w-[100%]'>
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 -w-[100%]'>
+
           <Accordion />
         </section>
 

@@ -83,7 +83,7 @@ const Leadgeneration = () => {
       </Helmet>
 
 
-      <div className=''>
+      <div className='max-lg:mt-0 '>
 
         <div className="lgc1 relative">
           <HeroSection

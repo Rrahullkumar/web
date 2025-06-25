@@ -155,7 +155,11 @@ const Brandmarketing = () => {
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
+<<<<<<< HEAD
     <div className=''>
+=======
+    <div className='mt-[77px] max-lg:mt-0 '>
+>>>>>>> 0105e019916220e215b913e13992d7dc2b09e95c
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "
@@ -275,7 +279,7 @@ const Brandmarketing = () => {
       </section>
 
       <section className='max-w-[1440px] w-[100%] mx-auto'>
-        <h4 className='text-[52px] leading-[150%] text-center  mt-[96px] mb-[32px] '> <span className="font-normal">Brand Strategy Services by</span> <br className='max:max-md:hidden' /><span className="italic font-[350]"> WebNest Media</span></h4>
+        <h4 className='text-[52px] max-lg:text-[44px] leading-[150%] text-center  mt-[96px] mb-[32px] '> <span className="font-normal">Brand Strategy Services by</span> <br className='max:max-md:hidden' /><span className="italic font-[350]"> WebNest Media</span></h4>
       </section>
 
       <p className='text-[16px] text-[#00000] font-normal text-center p-[20px] '>At WebNest Media, we combine creativity, research, and strategy to craft brand identities that leave a lasting impact. Our  <br />services cover every stage of your brand-building journey: </p>
