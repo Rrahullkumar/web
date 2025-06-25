@@ -41,11 +41,11 @@ const InfluencerMarketing = () => {
                     />
 
         {/* B2B Lead Generation Section */}
-        <div className="imc2 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
+        <div className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
 
           <img src={image1} alt="" className="max-lg:w-1/2 max-lg:float-right " />
           <div className="imc2left lg:w-[60%] ">
-            <h2 className="text-[52px] max-lg:text-[34px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
+            <h2 className="text-[52px] max-lg:text-[36px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
             <br />
             <p className="text-[16px] font-[350] ">
               WebNest Media is the best influencer company in Gurgaon, Delhi & India.
@@ -56,11 +56,11 @@ const InfluencerMarketing = () => {
         </div>
 
         {/* Top Influencer Section */}
-        <div className="imc3 max-w-[1440px] px-10 max-lg:px-4 flex flex-col items-center max-lg:mt-[40px] mb-[96px] mx-auto">
-          <h2 className="text-[52px] max-lg:text-[34px] lg:w-[50%] lg:text-center font-semibold mb-[32px] ">
+        <div className="imc3 max-w-[1440px] px-10 max-lg:px-4 flex flex-col items-center max-lg:mt-[40px] mb-24 max-lg:mb-10 mx-auto">
+          <h2 className="text-[52px] max-lg:text-[34px] lg:w-[50%] lg:text-center font-semibold mb-8 ">
             India's Top Influencer Marketing Platform
           </h2>
-          <p className="text-[18px] lg:w-[80%] lg:text-center">
+          <p className="text-base lg:w-[80%] lg:text-center">
             WebNest Media is the leading influencer marketing span agency in India as well as social media influencer marketing
             that provides a complete range of services to help brands connect with their audience and get results.
             We handle the entire campaign, from creating content to tracking its success, all to make sure brands meet their goals.
@@ -114,17 +114,35 @@ const InfluencerMarketing = () => {
           </div>
 
         </div>
-        <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 max-lg:mt-14 mx-auto">
-          <h2 className='text-[52px] max-lg:text-[38px] pb-[34px] font-semibold lg:w-[70%] lg:translate-y-44'>  How Our Influencer Marketing Company Helps Brands?</h2>
-          <div className="lg:flex flex-row-reverse lg:justify-between lg:items-center gap-5">
-            <img src={c5img} alt="max-lg:float-right" />
+       <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto">
+  <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
+    {/* Desktop Image */}
+    <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
+      <img src={c5img} alt="Influencer Marketing" className="w-full" />
+    </div>
 
-            <div className="left lg:w-[45%]">
+    {/* Heading, Mobile Image, and Paragraph - All in Same Div */}
+    <div className="left lg:w-[60%]">
+      <h2 className='text-[52px] max-lg:text-[36px] pb-[34px] font-semibold'>
+        How Our Influencer Marketing Company Helps Brands?
+      </h2>
 
-              <p className='text-base '>As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.</p>
-            </div>
-          </div>
-        </div>
+      {/* Mobile Image - Visible Only on Mobile */}
+      <div className="block lg:hidden mb-8">
+        <img src={c5img} alt="Influencer Marketing" className="w-full" />
+      </div>
+
+      <p className='text-base'>
+        As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
         <Newcontact></Newcontact>
         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
           <p className=" lg:mb-[50px] lg:text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>

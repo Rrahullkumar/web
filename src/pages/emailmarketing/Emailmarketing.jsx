@@ -25,7 +25,7 @@ const Emailmarketing = () => {
         <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
       </Helmet>
 
-      <div className=' '>
+      <div className='mt-[0px]'>
         {/* <div className="emailc1 relative">
  
                   <img src={topimage} alt="" className="w-full h-auto" />
@@ -36,17 +36,20 @@ const Emailmarketing = () => {
                   <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
                       <span className="text-[#4CAF50]">Email</span> Marketing
                   </h1>
-        </div> */}<HeroSection
+        </div> */}
+        <div className="tops">
+          <HeroSection
           backgroundImage={topimage}
           heading="Email Marketing Company"
           highlight="In Gurgaon"
           paragraph="From compelling copy to smart automation, our email marketing helps you connect with your audience and grow your business.
 "
         />
+        </div>
 
-        <div className="emailc2 flex flex-col mt-[96px] max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
-          <div className="emailc21 flex flex-col justify-center items-center">
-            <h2 className='text-[52px]  max-lg:text-[34px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
+        <div className="emailc2 mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+          <div className="emailc21 flex flex-col lg:justify-center lg:items-center">
+            <h2 className='text-[52px] max-lg:text-[34px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
             <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
           </div>
           <div className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
@@ -77,8 +80,8 @@ const Emailmarketing = () => {
             <br />
             The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.
           </div>
-          <div className="emailc24 flex flex-col items-center justify-center mt-24">
-            <h2 className='text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
+          <div className="emailc24 flex flex-col items-center justify-center mt-24 max-lg:mt-10">
+            <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
             <p className='text-lg'>In today's overflowing digital world, the inbox isn't just a folder; it's a direct line to your audience's attention, a privileged space that demands respect and strategic finesse. Don't let your brand's voice get lost in the noise, or worse, end up in the spam folder.
 
               <br /> <br /> As an email marketing agency in India, we don't just optimize emails; we orchestrate genuine connections. We understand that behind every email address is a real person, a potential loyal customer whose time and trust are invaluable. Our unique approach dives deep into understanding their journey, crafting messages that resonate, inspire, and drive action – not just clicks.
@@ -86,8 +89,10 @@ const Emailmarketing = () => {
               <br /> <br />We transform your email campaigns into powerful conversations, ensuring every subject line sparks curiosity, every piece of content delivers value, and every call-to-action feels like a natural next step. Let us fine-tune your strategy, leverage advanced insights, and elevate your email marketing from a mere task to your most potent relationship-building and revenue-generating engine. Because when your emails connect on a human level, your business truly thrives.</p>
           </div>
         </div>
-        <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-32 max-w-[1440px] px-10 max-lg:px-[16px] ">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[60%]">
+
+
+        <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-24  max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] ">
+          <h2 className="text-[52px] max-lg:text-[36px] lg:text-center mb-12 font-semibold lg:w-[60%]">
             WebNest’s Email Marketing Campaign Services
           </h2>
 
@@ -143,12 +148,12 @@ const Emailmarketing = () => {
 
           </div>
         </div>
-        <div className="emailc4 flex flex-col items-center justify-center mt-32  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+        <div className="emailc4 flex flex-col items-center justify-center mt-24 max-lg:mt-14  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
           <h2 className="text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[80%]">
             Why Opt for an Email Marketing Agency for Business?
           </h2>
 
-          <p className="text-lg lg:text-center lg:w-[70%] mb-16">
+          <p className="text-base lg:text-center lg:w-[70%] mb-16">
             The best email marketing company can help you drive your business drive smoothly and grow your business apace. But are you truly maximizing its potential, or is email marketing just another task on an already overflowing to-do list? Working with a professional agency is not merely a choice for companies who are committed to utilizing email to its maximum potential; rather, it is a strategic need.
             <br />
             <br />

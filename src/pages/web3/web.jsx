@@ -11,9 +11,8 @@ import { FaWordpress, FaShoppingCart, FaBusinessTime, FaBlogger, FaGraduationCap
 
 import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
-// import heroimage from "./resources/heroimage.svg";
-
-
+import HeroSection from '../../components/Herosection/Herosection';
+import topimage from "./resources/topimage.svg";
 const web = () => {
 
 
@@ -89,20 +88,20 @@ const web = () => {
 
       </Helmet>
 
-      <div className='mt-[100px]    mx-auto '>
+      <div className='mx-auto '>
 
-         {/* <HeroSection
-          backgroundImage={heroimage}
-          heading="SEO Company"
+         <HeroSection
+          backgroundImage={topimage}
+          heading="Web Development Company"
           highlight="In Gurgaon"
           paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
-        /> */}
+        />
 
         <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">
 
           {/* Left Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold text-[black] leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
               {/* Best Website Development Company in Gurgaon */}
 
               Best <span className="text-[#409338]"> Web Development  <br />Company</span> in Gurgaon
@@ -111,7 +110,7 @@ const web = () => {
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
 
             </p>
-            <button className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold">
+            <button className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold ">
               Get Started
             </button>
           </div>
@@ -119,7 +118,7 @@ const web = () => {
           {/* Right Image */}
           <div className="w-full md:w-1/2 flex justify-center items-center relative mt-10 md:mt-0">
             {/* Main circle image placeholder */}
-            <div className="w-64 h-64 bg-gray-300 rounded-full flex items-center justify-center relative z-10">
+            <div className="w-64 h-64  bg-gray-300 rounded-full flex items-center justify-center relative z-10">
               {/* <img src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
             </div>
 
@@ -137,7 +136,7 @@ const web = () => {
 
           {/* Left Circle Image Placeholder */}
           <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
-            <div className="w-64 h-64 bg-gray-300 rounded-full flex items-center justify-center relative z-10">
+            <div className="w-64 h-64 max-lg:hidden bg-gray-300 rounded-full flex items-center justify-center relative z-10">
               {/* <img src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
             </div>
           </div>
@@ -149,7 +148,7 @@ const web = () => {
             </h2>
 
             <ul className="space-y-4 text-left text-gray-700">
-              <li className="flex items-start">
+              <li className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Experienced Web Developers</p>
@@ -159,7 +158,7 @@ const web = () => {
                 </div>
               </li>
 
-              <li className="flex items-start">
+              <li className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Performance-First Approach</p>
@@ -169,7 +168,7 @@ const web = () => {
                 </div>
               </li>
 
-              <li className="flex items-start">
+              <li className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Client-Centric Solutions</p>
@@ -180,7 +179,7 @@ const web = () => {
               </li>
             </ul>
 
-            <button className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold">
+            <button className="mt-6 max-md:mt-14 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold">
               Learn More
             </button>
           </div>
@@ -223,7 +222,7 @@ const web = () => {
               From responsive design to seamless functionality and CMS integration, we ensure every website is optimized for user experience and results. Let us help you turn your digital vision into a powerful online presence.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+            <div className="grid grid-cols-3 gap-6 items-start">
               <div>
                 <p className="text-3xl font-bold text-[#3f3d56]">100+</p>
                 <p className="text-sm text-gray-600 mt-2">Clients Served</p>
@@ -251,13 +250,13 @@ const web = () => {
           </div> */}
         </section>
 
-        <section className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px]'>
+        <section className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
-          <h2 class="text-[#409338] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom ">Web Development Company in Gurgaon | Your Vision, Our Expertise
+          <h2 class="text-[#409338] font-bold text-[40px] max-md:text-4xl leading-tight text-center stroke-custom fill-custom ">Web Development Company in Gurgaon | Your Vision, Our Expertise
           </h2>
 
 
-          <p className='text-[black] text-[15px] mt-[50px] mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
+          <p className='text-[black] text-base mt-12 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
             <br /> <br />
 
             We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
@@ -271,30 +270,36 @@ const web = () => {
 
         </section>
 
-        <section className='max-w-[1440px] mx-auto  w-[70%] bg-none
-'>
+        <section className='max-w-[1440px] mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
 
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 lg:gap-10">
+    {cardData.map((card) => (
+      <div 
+        key={card.id} 
+        className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer flex flex-col h-full"
+      >
+        <div className="flex flex-col h-full">
 
-
-          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {cardData.map((card) => (
-              <div key={card.id} className="bg-white rounded-2xl shadow p-6">
-                <div className=" ">
-
-                  <div className='flex items-center gap-2'>
-                    <h6 className="w-[20px] h-[20px] object-contain "> {card.icon}</h6>
-                    <h4 className="text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
-
-                  </div>
-                  <p className="mt-2 text-gray-600 text-sm">{card.description}</p>
-
-                </div>
-              </div>
-            ))}
+          {/* Icon and Title Row */}
+          <div className='flex items-center gap-3 mb-3 max-h-12'>
+            <h6 className="w-[24px] h-[24px] flex items-center justify-center">
+              {card.icon}
+            </h6>
+            <h4 className="text-base sm:text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
           </div>
-        </section>
 
-        <section className=" relative mt-[120px]  bg-[#C6E4C1] text-[#2d2d2d] px-4 py-20 overflow-hidden">
+          {/* Description */}
+          <p className="text-gray-600 text-sm flex-1">{card.description}</p>
+
+        </div>
+      </div>
+    ))}
+  </div>
+
+</section>
+
+
+        <section className=" relative mt-24 max-lg:mt-10  bg-[#C6E4C1] text-[#2d2d2d] px-4 py-20 max-lg:py-12 overflow-hidden">
           {/* Top SVG Wave */}
 
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
@@ -311,11 +316,11 @@ const web = () => {
           </div>
 
           {/* Content */}
-          <div className="max-w-[1440px]   w-[100%] mx-auto text-center relative z-10">
-            <p className="text-sm uppercase tracking-widest text-[black] font-semibold mb-2">Process</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-16">How It Works</h2>
+          <div className="max-w-[1440px] w-[100%] mx-auto text-center relative z-10">
+            <p className="text-sm uppercase tracking-widest text-[black] font-semibold max-md:mt-6 mb-6">Process</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-12">How It Works</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-14">
               {/* Step 1 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">

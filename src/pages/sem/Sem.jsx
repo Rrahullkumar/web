@@ -326,18 +326,116 @@ const Sem = () => {
   return (
     <>
 
+<Helmet>
+    <title>Best Search Engine Marketing Agency in Gurgaon | WebNest Media</title>
+    <meta
+      name="description"
+      content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management."
+    />
+    <meta name="keywords" content="Top SEM Agency, Top Search Engine Marketing Agency" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="WebNest Media" />
+    <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />
 
-      <Helmet>
-
-        <title>Best Search Engine Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta name="description" content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management." />
-        <meta name="keywords" content="Top SEM Agency, Top Search Engine Marketing Agency" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />
-      </Helmet>
-
-
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "@id": "https://webnestmedia.com/search-engine-marketing#service",
+            "name": "Search Engine Marketing",
+            "description": "WebNest Media offers expert Search Engine Marketing services to help businesses increase online visibility, drive quality traffic, and grow leads through PPC campaigns.",
+            "serviceType": "Search Engine Marketing",
+            "provider": {
+              "@type": "Organization",
+              "name": "WebNest Media",
+              "url": "https://webnestmedia.com",
+              "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+              "sameAs": [
+                "https://www.instagram.com/webnestmediagroup/",
+                "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+                "https://www.linkedin.com/company/webnest-media-group/"
+              ]
+            },
+            "areaServed": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+                "addressLocality": "Gurgaon",
+                "addressRegion": "Haryana",
+                "postalCode": "122001",
+                "addressCountry": "IN"
+              }
+            },
+            "url": "https://webnestmedia.com/search-engine-marketing"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://webnestmedia.com/search-engine-marketing#webpage",
+            "url": "https://webnestmedia.com/search-engine-marketing",
+            "name": "Search Engine Marketing Services - WebNest Media",
+            "description": "Boost your business with powerful SEM services from WebNest Media. Get expert Google Ads management and lead generation strategies tailored for you."
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://webnestmedia.com/search-engine-marketing#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://webnestmedia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://webnestmedia.com/#services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Search Engine Marketing",
+                "item": "https://webnestmedia.com/search-engine-marketing"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://webnestmedia.com/search-engine-marketing#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Search Engine Marketing (SEM)?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Search Engine Marketing (SEM) is a digital marketing strategy used to increase a website’s visibility on search engines through paid advertising."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does SEM help my business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SEM helps your business appear at the top of search engine results, drives targeted traffic, and delivers faster ROI through Google Ads."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose WebNest Media for SEM?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We’re a results-driven SEM agency in Gurgaon with experience in managing high-performing ad campaigns tailored to your business goals."
+                }
+              }
+            ]
+          }
+        ]
+      })}
+    </script>
+  </Helmet>
       <div className='' >
 
         <HeroSection

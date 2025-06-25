@@ -41,7 +41,7 @@ const Lead = () => {
           highlight="In Gurgaon"
           paragraph="We design customer retention campaigns that strengthen relationships, build trust, and turn happy customers into brand advocates"
         />
-        <div className="lmc2 mt-[96px] max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
+        <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
           <img src={c2image} alt="" className='block mx-auto lg:w-[1200px] lg:h-[493px] ' />
@@ -52,7 +52,7 @@ const Lead = () => {
               What is customer retention? Sounds heavy? No stress, we’ve got you covered!
             </h2>
 
-            <p className="text-lg relative">
+            <p className="text-base relative">
               <span className="lg:hidden float-right lg:w-[60%] ml-4 mb-2">
                 <img src={c3image} alt="" className="w-full" />
               </span>
@@ -169,7 +169,7 @@ const Lead = () => {
 
 
 
-        <div className="lmc5 flex flex-row max-lg:flex-col max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px] mt-24">
+        <div className="lmc5 flex flex-row max-lg:flex-col max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px] mt-24 max-lg:mt-10">
           {/* Left Section */}
           <div className="lmc5_left w-[70%] max-lg:w-full pr-0 mb-[20px] ">
             <h2 className="text-[32px] max-lg:text-[34px] lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight font-semibold">
@@ -193,7 +193,7 @@ const Lead = () => {
 
             <ol className="mt-[32px] lg:mt-[44px] max-lg:mx-auto max-lg:text-left">
               {/* Point 1 */}
-              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-[16px]">
+              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-10">
                 <h2 className="font-medium text-[24px] max-lg:text-[20px] lg:text-[32px] mb-[8px] lg:mb-[12px]">1. Lower Acquisition Costs</h2>
                 <p className="text-base max-lg:text-sm">
                   It costs 5x more to acquire a new client than to retain an being one. fastening on retention helps you save on marketing and deals charges.
@@ -201,7 +201,7 @@ const Lead = () => {
               </li>
 
               {/* Point 2 */}
-              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-[16px]">
+              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-10">
                 <h2 className="font-medium text-[24px] max-lg:text-[20px] lg:text-[32px] mb-[8px] lg:mb-[12px]">2. Advanced Customer Continuance Value (CLV)</h2>
                 <p className="text-base max-lg:text-sm">
                   Constant customers tend to spend more over time, adding their overall value to your business.
@@ -209,7 +209,7 @@ const Lead = () => {
               </li>
 
               {/* Point 3 */}
-              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-[16px]">
+              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-10">
                 <h2 className="font-medium text-[24px] max-lg:text-[20px] lg:text-[32px] mb-[8px] lg:mb-[12px]">3. More Brand fidelity</h2>
                 <p className="text-base max-lg:text-sm">
                   Satisfied customers are more likely to stick with your brand, relate to others, and become brand lawyers.
@@ -217,7 +217,7 @@ const Lead = () => {
               </li>
 
               {/* Point 4 */}
-              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-[16px]">
+              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-10">
                 <h2 className="font-medium text-[24px] max-lg:text-[20px] lg:text-[32px] mb-[8px] lg:mb-[12px]">4. Stronger connections</h2>
                 <p className="text-base max-lg:text-sm">
                   Retention strategies allow you to make meaningful connections through substantiated gests, offers, and support.
@@ -225,7 +225,7 @@ const Lead = () => {
               </li>
 
               {/* Point 5 */}
-              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-[16px]">
+              <li className="mb-[20px] lg:mb-[28px] max-lg:mb-10">
                 <h2 className="font-medium text-[24px] max-lg:text-[20px] lg:text-[32px] mb-[8px] lg:mb-[12px]">5. Sustainable Growth</h2>
                 <p className="text-base max-lg:text-sm">
                   A high retention rate creates a stable profit sluice, allowing you to plan and gauge with confidence.
@@ -243,7 +243,7 @@ const Lead = () => {
 
 
         <Newcontact></Newcontact>
-        <div className="lmc6 mt-[120px]">
+        <div className="lmc6 mt-[96px] max-lg:mt-10">
 
           <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
 

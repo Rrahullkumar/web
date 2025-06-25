@@ -44,16 +44,18 @@ const SmsMarketing = () => {
                 <span className="text-[#4CAF50]">SMS</span> Marketing
             </h1>
             </div> */}
-            <HeroSection
+            <div className="topsection">
+                <HeroSection
                         backgroundImage={topimage}
                         heading="SMS Marketing Company"
                         highlight="In Gurgaon"
                         paragraph="Fast, effective SMS marketing that connects with your customers, drives action, and supports your overall marketing strategy."
                     />
-        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto">
+            </div>
+        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
             <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
             
-            <div className="smsc2left lg:w-[60%] ">
+            <div className="smsc2left lg:w-[50%] ">
                 <h2 className='text-[52px] max-lg:text-[34px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
                 <p className='text-base'>Discover the possibility of business growth with The SMS Marketing Agency, a partner committed to quality. Set up a free 45-minute consultation today to see your conversions increase by two times.</p>
             </div>
@@ -64,7 +66,7 @@ const SmsMarketing = () => {
                 <img src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
             
             <div className="smsc3right lg:w-[60%]">
-                <h2 className='text-[52px] max-lg:text-[34px]  mb-9 font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
+                <h2 className='text-[52px] max-lg:text-[32px]  mb-9 font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
                 <p className='text-base '>SMS marketing cuts through the clutter, offering an unparalleled direct line to your audience. Our teams of SMS marketing experts can conducts bulk SMS marketing at a point of time. As a leading SMS marketing agency in Gurgaon, we empower businesses like yours to forge immediate, impactful connections. Forget the crowded inbox; an SMS delivers your message instantly, ensuring it’s seen and acted upon, driving real results for your brand.</p>
                 <br />
                 <p className='text-base'>We specialize in Navigating the complexities of SMS marketing in India requires local expertise combined with global best practices. For online businesses, SMS marketing for ecommerce is no longer optional, it's a necessity for competitive advantage. WebNest Media extends its mobile marketing prowess to include comprehensive WhatsApp SMS company in Gurgaon services.</p>

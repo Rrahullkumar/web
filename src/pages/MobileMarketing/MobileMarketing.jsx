@@ -1,5 +1,5 @@
-import React from 'react'
-import { useState } from 'react'
+import { useRef, useState, useEffect } from "react";
+import { AnimatePresence, motion } from 'framer-motion';
 import topimage from './resources/topimage.svg'
 import image1 from './resources/image1.svg'
 import phoneImg from './resources/tabimage.svg'
@@ -10,64 +10,169 @@ import icon4 from './resources/icon4.svg'
 import Accordion from './components/Accordian';
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
-import { motion } from "framer-motion";
+
 import { Helmet } from 'react-helmet'
 import tabimage from './resources/tabimage.svg'
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+import tabimage2 from './resources/Rectangle2.svg'
+import tabimage3 from './resources/Rectangle3.svg'
+import tabimage4 from './resources/Rectangle4.svg'
+import tabimage5 from './resources/Rectangle5.svg'
 const MobileMarketing = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-     const tabs = [
+    const [activeTab, setActiveTab] = useState(0);
+    const [prevTab, setPrevTab] = useState(0);
+    const tabRefs = useRef([]);
+    const [indicatorStyle, setIndicatorStyle] = useState({ left: 0, width: 0 });
+
+    useEffect(() => {
+        if (tabRefs.current[activeTab]) {
+            const tabRect = tabRefs.current[activeTab].getBoundingClientRect();
+            const parentRect = tabRefs.current[activeTab].parentElement.getBoundingClientRect();
+            setIndicatorStyle({
+                left: tabRect.left - parentRect.left,
+                width: tabRect.width
+            });
+        }
+    }, [activeTab]);
+
+    const handleTabClick = (index) => {
+        setPrevTab(activeTab);
+        setActiveTab(index);
+    };
+
+    const direction = activeTab > prevTab ? 1 : -1;
+
+    const tabVariants = {
+        enter: (direction) => ({
+            y: direction > 0 ? '100%' : '-100%',
+            opacity: 0,
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%'
+        }),
+        center: {
+            y: 0,
+            opacity: 1,
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%'
+        },
+        exit: (direction) => ({
+            y: direction > 0 ? '-100%' : '100%',
+            opacity: 0,
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%'
+        })
+    };
+
+
+    // const tabs = [
+    //     {
+    //         label: "Mobile-Optimized Website Design & Development",
+    //         content: [
+    //             "Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:",
+    //             "Responsive Design: Websites that fluidly adapt to any screen size.",
+    //             "Fast Loading Speeds: Critical for mobile users to prevent bounce rates.",
+    //             "Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens."
+    //         ],
+    //         image: tabimage
+    //     },
+    //     {
+    //         label: "SMS & MMS Marketing Campaigns",
+    //         content: [
+    //             "Reach your audience instantly through targeted SMS and MMS campaigns.",
+    //             "Highly personalized messages for increased engagement.",
+    //             "Schedule messages to hit optimal engagement windows.",
+    //             "Track delivery and open rates in real time."
+    //         ],
+    //         image: tabimage2
+    //     },
+    //     {
+    //         label: "Location-Based & Proximity Marketing",
+    //         content: [
+    //             "Deliver promotions and messages based on user location.",
+    //             "Target users when they are near your business or competitors.",
+    //             "Boost in-store visits with location-triggered alerts."
+    //         ],
+    //         image: tabimage3
+    //     },
+    //     {
+    //         label: "Mobile App Marketing & Engagement (If Applicable)",
+    //         content: [
+    //             "Promote your mobile app to increase downloads and active users.",
+    //             "Use push notifications to retain and re-engage customers.",
+    //             "Track user behavior to optimize in-app experiences."
+    //         ],
+    //         image: tabimage4
+    //     },
+    //     {
+    //         label: "QR Code Campaigns",
+    //         content: [
+    //             "Integrate QR codes into your offline marketing efforts.",
+    //             "Easily direct users to websites, app downloads, or special offers.",
+    //             "Track QR code scans for campaign effectiveness."
+    //         ],
+    //         image: tabimage5
+    //     }
+    // ];
+
+
+
+    const tabsContent = [
         {
-            label: "Mobile-Optimized Website Design & Development",
-            content: [
-                "Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:",
-                "Responsive Design: Websites that fluidly adapt to any screen size.",
-                "Fast Loading Speeds: Critical for mobile users to prevent bounce rates.",
-                "Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens."
+            title: 'Mobile-Optimized Website Design & Development',
+            paragraphs: [
+                'Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:',
+                'Responsive Design: Websites that fluidly adapt to any screen size.',
+                'Fast Loading Speeds: Critical for mobile users to prevent bounce rates.',
+                'Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens.',
             ],
             image: tabimage
         },
         {
-            label: "SMS & MMS Marketing Campaigns",
-            content: [
-                "Reach your audience instantly through targeted SMS and MMS campaigns.",
-                "Highly personalized messages for increased engagement.",
-                "Schedule messages to hit optimal engagement windows.",
-                "Track delivery and open rates in real time."
+            title: 'SMS & MMS Marketing Campaigns',
+            paragraphs: [
+                'Reach your audience instantly through targeted SMS and MMS campaigns.',
+                'Highly personalized messages for increased engagement.',
+                'Schedule messages to hit optimal engagement windows.',
+                'Track delivery and open rates in real time.',
             ],
-            image: tabimage
+            image: tabimage2
         },
         {
-            label: "Location-Based & Proximity Marketing",
-            content: [
-                "Deliver promotions and messages based on user location.",
-                "Target users when they are near your business or competitors.",
-                "Boost in-store visits with location-triggered alerts."
+            title: 'Location-Based & Proximity Marketing',
+            paragraphs: [
+                'Deliver promotions and messages based on user location.',
+                'Target users when they are near your business or competitors.',
+                'Boost in-store visits with location-triggered alerts.',
             ],
-            image: tabimage
+            image: tabimage3
         },
         {
-            label: "Mobile App Marketing & Engagement (If Applicable)",
-            content: [
-                "Promote your mobile app to increase downloads and active users.",
-                "Use push notifications to retain and re-engage customers.",
-                "Track user behavior to optimize in-app experiences."
+            title: 'Mobile App Marketing & Engagement',
+            paragraphs: [
+                'Promote your mobile app to increase downloads and active users.',
+                'Use push notifications to retain and re-engage customers.',
+                'Track user behavior to optimize in-app experiences.',
             ],
-            image: tabimage
+            image: tabimage4
         },
         {
-            label: "QR Code Campaigns",
-            content: [
-                "Integrate QR codes into your offline marketing efforts.",
-                "Easily direct users to websites, app downloads, or special offers.",
-                "Track QR code scans for campaign effectiveness."
+            title: 'QR Code Campaigns',
+            paragraphs: [
+                'Integrate QR codes into your offline marketing efforts.',
+                'Easily direct users to websites, app downloads, or special offers.',
+                'Track QR code scans for campaign effectiveness.',
             ],
-            image: tabimage
+            image: tabimage5
         }
     ];
 
-    const [activeTab, setActiveTab] = useState(0);
     const tabData = [
         {
             label: 'Mobile-Optimized Website Design & Development',
@@ -138,7 +243,7 @@ const MobileMarketing = () => {
             </Helmet>
             <div className=' w-[100%]'>
 
-                <div>
+                <div className="topsection">
                     <HeroSection
                         backgroundImage={topimage}
                         heading="Mobile Marketing Company"
@@ -146,89 +251,118 @@ const MobileMarketing = () => {
                         paragraph="From SMS to mobile ads and in-app experiences, we help you connect with your audience through impactful mobile marketing campaigns that convert.
 "
                     />
-                    <div className="mmc3 mt-24 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
-                        <img src={image1} alt="" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
-                        <div className="lgc3left lg:w-[60%] justify-start ">
-                            <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
-                            <br />
-                            <p className='text-lg font-[350]'>
-                                In today's fast-paced digital world, your customers are constantly on their mobile devices. From checking social media to searching for local businesses, smartphones and tablets have become the primary gateway to the internet.
+                </div>
+                <div className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
+                    <img src={image1} alt="" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
+                    <div className="lgc3left lg:w-[60%] justify-start ">
+                        <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
+                        <br />
+                        <p className='text-base font-[350]'>
+                            In today's fast-paced digital world, your customers are constantly on their mobile devices. From checking social media to searching for local businesses, smartphones and tablets have become the primary gateway to the internet.
 
-                                <br className='' /> <br className='' />We understand this shift and specialize in mobile marketing in Gurgaon that puts your brand directly into the hands of your target audience, whenever and wherever they are.
+                            <br className='' /> <br className='' />We understand this shift and specialize in mobile marketing in Gurgaon that puts your brand directly into the hands of your target audience, whenever and wherever they are.
 
-                                <br className='' /> <br />Our expert strategies are designed to capture attention, drive engagement, and convert mobile users into loyal customers, giving your business a significant competitive edge in the bustling Gurugram market.
-                            </p>
-                            <br />
+                            <br className='' /> <br />Our expert strategies are designed to capture attention, drive engagement, and convert mobile users into loyal customers, giving your business a significant competitive edge in the bustling Gurugram market.
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+
+                <div className="bg-black">
+                    <div className=' px-4 md:px-10 max-w-[1440px] w-full mx-auto mt-24'>
+                        <div className="text-white py-12 ">
+                            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
+                                Our Comprehensive Mobile Marketing <br /> Services in Gurgaon
+                            </h2>
+
+                            {/* Tab Bar */}
+                            <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-8">
+                                <div className="relative inline-flex space-x-6 border-b px-2 pb-6">
+
+                                    {/* Sliding Indicator */}
+                                    <span
+                                        className="absolute bottom-0 h-[4px] rounded-sm bg-green-400 transition-all duration-300"
+                                        style={{
+                                            left: indicatorStyle.left,
+                                            width: indicatorStyle.width,
+                                        }}
+                                    ></span>
+
+                                    {tabsContent.map((tab, index) => (
+                                        <button
+                                            key={index}
+                                            ref={(el) => tabRefs.current[index] = el}
+                                            onClick={() => handleTabClick(index)}
+                                            className="text-white text-sm md:text-base whitespace-nowrap px-2 md:px-3 py-1 transition-all duration-300"
+                                        >
+                                            {tab.title}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Tab Content */}
+                            <div className="relative flex items-start justify-center lg:px-32 pt-20 max-lg:pt-10 overflow-hidden min-h-[450px]">
+                                <div className="relative w-full min-h-[400px]">
+                                    <AnimatePresence custom={direction}>
+                                        <motion.div
+                                            key={activeTab}
+                                            custom={direction}
+                                            variants={tabVariants}
+                                            initial="enter"
+                                            animate="center"
+                                            exit="exit"
+                                            transition={{
+                                                y: { type: "spring", stiffness: 250, damping: 30 }, // lower stiffness for smoother movement
+                                                opacity: { duration: 0.1 }
+                                            }}
+
+                                            className="flex flex-col lg:flex-row items-start justify-between  w-full absolute top-0 left-0"
+                                        >
+                                            {/* Text Section */}
+                                            <div className="lg:w-[60%] text-sm md:text-base leading-relaxed space-y-4 px-4 lg:px-8">
+                                                {tabsContent[activeTab].paragraphs.map((para, idx) => (
+                                                    <p key={idx}>
+                                                        {para.includes(':') ? (
+                                                            <><strong>{para.split(':')[0]}:</strong> {para.split(':')[1]}</>
+                                                        ) : (
+                                                            para
+                                                        )}
+                                                    </p>
+                                                ))}
+                                            </div>
+
+                                            {/* Image Section */}
+                                            <div className="lg:w-[40%] w-full flex justify-center px-4 lg:px-8">
+                                                <img
+                                                    src={tabsContent[activeTab].image}
+                                                    alt="Mobile Marketing"
+                                                    className="w-full h-auto rounded-lg object-contain"
+                                                />
+                                            </div>
+                                        </motion.div>
+                                    </AnimatePresence>
+                                </div>
+                            </div>
+
+
 
                         </div>
-
-
-
-                    </div>
-
-                </div>
-
-                 <div className='bg-black'>
-            <div className="text-white py-12 px-4 md:px-10 max-w-[1440px] w-[100%] mx-auto mt-24">
-                <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
-                    Our Comprehensive Mobile Marketing <br /> Services in Gurgaon
-                </h2>
-
-                {/* Tab Bar */}
-                <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-8">
-                    <div className="inline-flex space-x-6 border-b px-2">
-                        {tabs.map((tab, idx) => (
-                            <button
-                                key={idx}
-                                onClick={() => setActiveTab(idx)}
-                                className={`text-white text-sm md:text-base whitespace-nowrap border-b-2 px-4 py-2 transition-all duration-300 ${idx === activeTab
-                                    ? "border-green-400"
-                                    : "border-transparent hover:border-gray-500"
-                                    }`}
-                            >
-                                {tab.label}
-                            </button>
-                        ))}
                     </div>
                 </div>
 
-                {/* Tab Content */}
-                <div className="flex flex-col lg:flex-row items-start justify-between gap-10">
-                    {/* Text */}
-                    <div className="lg:w-1/2 text-sm md:text-base leading-relaxed space-y-4">
-                        {tabs[activeTab].content.map((paragraph, idx) => (
-                            <p key={idx}>
-                                {paragraph.includes(":") ? (
-                                    <>
-                                        <strong>{paragraph.split(":")[0]}:</strong> {paragraph.split(":")[1]}
-                                    </>
-                                ) : (
-                                    paragraph
-                                )}
-                            </p>
-                        ))}
-                    </div>
-
-                    {/* Image */}
-                    <div className="lg:w-1/3">
-                        <img
-                            src={tabs[activeTab].image}
-                            alt="Mobile Marketing"
-                            className="w-full h-auto"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
- 
 
 
-                <div className="mmc5 mx-auto max-w-[1440px] mt-24">
+
+
+
+                <div className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10">
                     <div className="lg:text-center px-4 ">
-                        <h2 className="text-[52px] max-lg:text-[38px] font-bold mb-6">
+                        <h2 className="text-[52px] max-lg:text-[34px] font-semibold mb-6">
                             Why Choose <span className="">WebNest Media</span> for <br /> Mobile Marketing in Gurgaon?
                         </h2>
-                        <p className="max-w-2xl text-[18px] mx-auto text-gray-700 mb-12">
+                        <p className="max-w-2xl text-base mx-auto text-gray-700 mb-12">
                             WebNest Media is leading agency for mobile marketing in Delhi-NCR and best mobile advertising services in India. When you partner with WebNest Media, you're choosing a team that understands the nuances of the Gurugram market and the power of mobile technology.
                         </p>
 
@@ -256,7 +390,7 @@ const MobileMarketing = () => {
                         </div>
 
                         <h3 className="text-[32px] font-semibold mb-4">Ready to Mobilize Your Marketing?</h3>
-                        <p className="text-gray-700 text-[18px] max-w-xl mx-auto">
+                        <p className="text-gray-700 text-base max-w-xl mx-auto">
                             Don't let your competitors capture the mobile market. Connect with WebNest Media today to discuss how our expert mobile marketing services can help your Gurgaon business thrive on the go.
                         </p>
                     </div>

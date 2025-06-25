@@ -180,7 +180,7 @@ const Smm = () => {
         {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
         <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
-          <p className="mt-24 text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+          <p className="mt-24 max-md:mt-10 text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
           Boost Your Digital Impact with <br className='max-lg:hidden' />
           Smart Social Media Planning
         </p>
@@ -256,9 +256,9 @@ const Smm = () => {
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto mt-[200px]'>
+        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px]'>
 
-          <p className="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </p>
+          <p className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </p>
 
           <Cards className="" />
         </div>
@@ -316,7 +316,7 @@ const Smm = () => {
 
 
 
-          <div className="w-[50%] max-md:w-[100%]   text-center lg:text-left">
+          <div className="lg:w-[50%] max-md:w-[100%]   text-center lg:text-left">
             <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between gap-10">
               <p class="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
               </p>
@@ -356,9 +356,11 @@ const Smm = () => {
         </div>
 
 
-        <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto smarter flex flex-col-reverse lg:flex-row  mt-[100px] gap-10  bg-no-repeat bg-contain bg-right"
-          style={{ backgroundImage: `url(${largesmart})` }}
-        >
+ <div
+  className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-[96px] max-md:mt-10 gap-10 
+    bg-no-repeat bg-contain bg-right 
+    md:bg-[url('${largesmart}')]`}
+>
 
           <div className="w-full lg:w-[65%]">
             <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
@@ -396,16 +398,15 @@ const Smm = () => {
           <img src={smartright} alt="Smarter visual" className="w-full max-w-sm" />
         </div> */}
 
-
         </div>
-        <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto newcontainer">
+        <div className="max-w-[1440px] px-10 max-lg:px-4 mx-auto newcontainer">
           <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h3>
-          <p className='mb-[10px]'>
+          <p className='mb-4'>
             The advantages of social media marketing are many. Here are some ways that social media marketing might benefit your company:
           </p>
-          <ul className='ml-[25px] mt-[10px]'>
+          <ul className='lg:ml-[25px] mt-[10px]'>
             <li className="mb-[30px] lg:mb-[28px] ">
               <h3 className="font-semibold text-xl ">• Get your brand seen by more people.</h3>
               <p className="text-[16px]">

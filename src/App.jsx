@@ -27,7 +27,7 @@ import MarketingResearch from './pages/marketing/MarketingResearch';
 import About from './pages/aboutus/AboutUS';
 import Conatct from './pages/contactUS/contactuspage';
 import Leadgeneration from './pages/lead_generation/Leadgeneration';
-import MobileMarketing from './pages/mobileMarketing/MobileMarketing';
+import MobileMarketing from './pages/MobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
