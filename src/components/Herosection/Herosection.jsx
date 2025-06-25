@@ -21,7 +21,7 @@ const HeroSection = ({ backgroundImage, heading, highlight, paragraph }) => {
         </div>
 
         {/* Form Section */}
-        <div className="w-full max-w-[621px] px-4">
+        <div className="w-full max-w-[621px] ">
           <ContactForm />
         </div>
       </div>

@@ -3,7 +3,7 @@ import Accordion from './component/Accordian'
 import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 
-import Webnest_Logo from "./resources/Webnest_Logo.svg";
+import Webnest_Logo from "../../assets/newlogo.svg";
 import difference from "./resources/difference.svg";
 import bulb from "./resources/bulb.svg"
 import team from "./resources/team.svg";
@@ -69,7 +69,7 @@ const AboutUS = () => {
 
 
 
-      <section className="max-w-[1440px] mt-[96px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center justify-between gap-[106px] max-lg:gap-5  overflow-hidden">
+      <section className="max-w-[1440px] mt-[96px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center  gap-[106px] max-lg:gap-5  overflow-hidden">
         <div className="max-w-2xl  max-md:w-[100%]"
           data-aos="fade-right"
           data-aos-offset="200"
@@ -85,12 +85,12 @@ const AboutUS = () => {
             WebNest Media is a digital marketing company in Gurgaon, working with awesome brands across India and worldwide. Our digital marketing experts do all things digital from SEO and PPC to social media marketing, SEM, and web development so you get the right services which you paid. We have a team of our services including SEO Executive, Web Developer, Graphic Designer, Social Media Experts & Content Writers. We also redesign and redevelopment of existing web sites.
           </p>
         </div>
-        <div className="flex-shrink-0   max-xl:w-[40%] items-center justify-center">
+        <div className="flex-shrink-0   max-xl:w-[40%] items-start justify-start">
           <img
             src={Webnest_Logo}
 
             alt="WebNest Media Logo"
-            className="w-[85%]"
+            className="w-[400px] "
           />
         </div>
       </section>
@@ -128,7 +128,7 @@ const AboutUS = () => {
 
       <section className="
     
-    max-w-[1440px] mb-[96px] mt-[96px] max-lg:mt-[10px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-between gap-12 max-lg:gap-5
+    max-w-[1440px] mb-[96px] mt-[96px] max-lg:mt-[10px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-evenly gap-12 max-lg:gap-5
     
     ">
 

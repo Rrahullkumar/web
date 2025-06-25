@@ -268,9 +268,9 @@ const Home = () => {
         "url": "https://webnestmedia.com/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/logo-Ctugwc9Y.png",
-          "width": 600,
-          "height": 60
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "width": 152,
+          "height": 43
         },
         "description": "WebNest Media is a leading digital marketing agency in Gurgaon, offering SEO, SMM, Email Marketing, Influencer Marketing, PPC, Content Strategy, and more.",
         "address": {
@@ -304,9 +304,9 @@ const Home = () => {
         "name": "WebNest Media",
         "image": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/logo-Ctugwc9Y.png",
-          "width": 600,
-          "height": 60
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "width": 152,
+          "height": 43
         },
         "address": {
           "@type": "PostalAddress",

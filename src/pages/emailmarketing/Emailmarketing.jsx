@@ -25,7 +25,7 @@ const Emailmarketing = () => {
         <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
       </Helmet>
 
-      <div className='mt-[0px]'>
+      <div className=' '>
         {/* <div className="emailc1 relative">
  
                   <img src={topimage} alt="" className="w-full h-auto" />

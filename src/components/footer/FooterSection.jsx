@@ -23,13 +23,16 @@ const FooterSection = ({ title, items,path }) => {
   to={item.path}
   className="relative inline-block text-inherit no-underline font-medium group"
 >
-  <span className="pb-[5px] inline-block transition-all duration-300 group-hover:text-[#25D366] 
-    after:block after:content-[''] after:border-b-[2px] after:border-[#25D366] 
-    after:scale-x-0 after:transition-transform after:duration-300 after:ease-in-out 
-    group-hover:after:scale-x-100 after:[transform-origin:center]">
+  <span
+    className="pb-[5px] inline-block transition-all duration-300 group-hover:text-[#25D366]
+      after:block after:content-[''] after:border-b-[1px] after:border-[#25D366]
+      after:scale-x-0 after:transition-transform after:duration-300 after:ease-in-out
+      group-hover:after:scale-x-100 after:[transform-origin:center]"
+  >
     {item.label}
   </span>
 </Link>
+
 
 
 </li>
