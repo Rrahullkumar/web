@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./sem.css";
 import SEM1 from './Resources/SEM1.svg';
 import KeywordTargeting from './resources/KeywordTargeting.svg';
-import PPC from './resources/PPC.svg';
+import PPC from './resources/tabone.svg';
 import bid from './resources/bid.svg';
 import analytics from "./resources/analytics.svg";
 import ads from './resources/ads.svg';
@@ -43,8 +43,223 @@ const Sem = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabsData = [
-    {
-      id: 0, label: 'Pay-Per-Click (PPC)', image: PPC,
+  
+{
+    id: 1,
+    label: 'Keyword Targeting',
+    image: KeywordTargeting,
+    description: (
+      <>
+        <section className='pb-[96px]'>
+          <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
+              <div className='w-full'>
+              <img src={KeywordTargeting} alt="" className='w-full' />
+            </div>
+
+            <div>
+              <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                What is Keyword Targeting?
+              </h6>
+              <p className='text-base leading-7 text-[#000000] font-normal'>
+                Keyword targeting ensures your website or ads appear when people search for relevant terms. By using the exact keywords your potential customers are searching for, you can bring more of the right audience to your website—whether it's a product, service, or helpful content.
+              </p>
+              <p className='text-base leading-7 text-[#000000] font-normal mt-4'>
+                Keyword targeting is the key to connecting with users who are already looking for what you offer.
+              </p>
+            </div>
+          </div>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            How Keyword Targeting Improves Your Ad Campaigns
+          </p>
+
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <li>✓ Higher Click-Through Rates (CTR): Your ads appear for more relevant searches.</li>
+            <li>✓ Better Quality Traffic: Brings visitors more likely to convert.</li>
+            <li>✓ Improved Ad Ranking: Boosts Quality Score and ad placement in Google Ads.</li>
+          </ul>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            Keyword Targeting Across Platforms
+          </p>
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-2 mb-8'>
+            <li>Search Engines (Google, Bing)</li>
+            <li>Social Media</li>
+            <li>Display Networks</li>
+            <li>Video Platforms (YouTube)</li>
+          </ul>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            Benefits of Keyword Targeting
+          </p>
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <li>✓ Increased Relevance: Focus on users actively searching for your offering.</li>
+            <li>✓ Improved ROI: Reach more likely-to-convert audiences efficiently.</li>
+            <li>✓ Brand Awareness: Get discovered by people searching for your solutions.</li>
+            <li>✓ Competitive Advantage: Target keywords your competitors may miss.</li>
+          </ul>
+
+          <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            Why WebNest Media for Keyword Targeting?
+          </h4>
+
+          <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>
+            At WebNest Media, we build smart keyword targeting strategies that connect you to the right audience across Google, YouTube, Facebook, and display networks. We don’t guess — we deliver data-driven keyword targeting that generates clicks, leads, and conversions.
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    label: 'Bid Management',
+    image: bid,
+    description: (
+      <>
+        <section className='pb-[96px]'>
+          <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
+            <div className='w-full'>
+              <img src={bid} alt="" className='w-full'/>
+            </div>
+
+            <div>
+              <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                What is Bid Management?
+              </h6>
+              <p className='text-base leading-7 text-[#000000] font-normal'>
+                Bid management controls the amount you’re willing to pay for your ads on platforms like Google Ads and Facebook. It’s about spending smarter, optimizing in real-time, and ensuring your ads show to the right people at the right time without wasting budget.
+              </p>
+            </div>
+          </div>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            How Bid Management Boosts Your Campaign Performance
+          </p>
+
+          <p className='text-base leading-7 text-[#000000] font-normal mb-8'>
+            Smart bid management improves ad visibility, click-through rates, and conversions while minimizing wasted spending.
+          </p>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            Types of Bidding Strategies We Use
+          </p>
+
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <li>✓ Manual CPC Bidding</li>
+            <li>✓ Enhanced CPC</li>
+            <li>✓ Target CPA</li>
+            <li>✓ Target ROAS</li>
+            <li>✓ Maximize Clicks</li>
+          </ul>
+
+          <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            Why Partner with WebNest Media for Bid Management?
+          </h4>
+
+          <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>
+            WebNest Media’s bid management team actively monitors and adjusts your bids daily to maximize performance. We help you achieve more clicks, better conversions, and a higher return on your ad spend — across Google, Facebook, YouTube, and more.
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+    id: 3,
+    label: 'Performance Tracking and Analytics',
+    image: analytics,
+    description: (
+      <>
+        <section className='pb-[96px]'>
+          <div className='flex flex-row items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
+              <img src={analytics} alt="" className='w-full' />
+            <div>
+              <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                What is Performance Tracking and Analytics?
+              </h6>
+              <p className='text-base leading-7 text-[#000000] font-normal'>
+                Performance tracking shows which ads work, which keywords drive traffic, and what type of audience engages with your content. It’s about using real data — not guesswork — to grow your business with smarter marketing decisions.
+              </p>
+            </div>
+          </div>
+
+          <p className='text-[32px]  mb-6 leading-snug text-[#000000] font-semibold'>
+            Why Performance Tracking is Crucial
+          </p>
+
+          <p className='text-base leading-7 text-[#000000] font-normal mb-8'>
+            Without tracking and analytics, you can waste budget and miss opportunities. Tracking helps you optimize ad spending, fix weak areas, and maximize ROI.
+          </p>
+
+          <p className='text-[32px]  mb-6 leading-snug text-[#000000] font-semibold'>
+            Tools We Use for Accurate Insights
+          </p>
+
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <li>✓ Google Analytics</li>
+            <li>✓ Google Ads Conversion Tracking</li>
+            <li>✓ Facebook Pixel</li>
+          </ul>
+
+          <h4 className='w-[100%] mt-10 mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            Why Choose WebNest Media for Performance Tracking and Analytics?
+          </h4>
+
+          <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>
+            WebNest Media sets up advanced tracking for Google Ads, social media, and your website. We turn your performance data into actionable steps that improve ROI and drive growth — no guesswork, just results.
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    label: 'Ad Creation and Optimization',
+    image: ads,
+    description: (
+      <>
+        <section className='pb-[96px]'>
+          <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
+            <div className='w-full'>
+              <img src={ads} alt="" className='w-full' />
+            </div>
+
+            <div>
+              <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                What is Ad Creation and Optimization?
+              </h6>
+              <p className='text-base leading-7 text-[#000000] font-normal'>
+                Ad creation is about designing powerful ads with catchy headlines, engaging visuals, and the right audience targeting. Optimization means continuously testing and refining your ads to maximize clicks, conversions, and ROI.
+              </p>
+            </div>
+          </div>
+
+          <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            Continuous Optimization for Maximum ROI
+          </p>
+
+          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <li>✓ Ad Creatives: Custom visuals that grab attention</li>
+            <li>✓ Headlines and CTAs: Copy that drives action</li>
+            <li>✓ Target Audiences: Laser-focused audience targeting</li>
+            <li>✓ Bidding Strategies: Smart bid adjustments for peak performance</li>
+            <li>✓ Landing Pages: High-converting, fast-loading pages</li>
+          </ul>
+
+          <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            Why WebNest Media for Ad Creation and Optimization?
+          </h4>
+
+          <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>
+            At WebNest Media, we go beyond pretty ads. We build high-impact campaigns that lower costs and maximize conversions. If you’re ready to make your ad budget work harder, we’re here to help.
+          </p>
+        </section>
+      </>
+    ),
+  },
+  {
+   id: 5, 
+   label: 'Pay-Per-Click (PPC)', 
+   image: PPC,
       description: (
         <>
 
@@ -52,10 +267,11 @@ const Sem = () => {
           <section className='pb-[96px]'>
 
 
-            <div className='flex  gap-[131px] max-lg:flex-col max-lg:gap-5'>
+            <div className='flex flex-row lg:h-[300px] items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
 
-              <h4 className='w-[100%] text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Agency in Gurgaon</h4>
-
+              <div className='w-full '>
+                <img src={PPC} alt="w-full" />
+              </div>
 
               <div className=' '>
 
@@ -64,10 +280,10 @@ const Sem = () => {
               </div>
             </div>
 
-            <p className=' text-[32px]  mt-[74px] mb-[74px] leading-snug  text-[#000000]  font-semibold'>Top Reasons to Invest in Pay Per Click Marketing</p>
+            <p className=' text-[32px]  mt-[74px] mb-18 max-md:mb-8 leading-snug  text-[#000000]  font-semibold'>Top Reasons to Invest in Pay Per Click Marketing</p>
 
 
-            <p className='text-base leading-7 text-[#000000] font-normal '>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
+            <p className='text-base leading-7 text-[#000000] font-normal mb-8 '>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
 
             <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch">
 
@@ -128,15 +344,8 @@ const Sem = () => {
               </div>
 
             </div>
-
-
-
-
-            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug  text-[#000000] font-semibold '>PPC Advertising Solutions</h4>
-
-
             <p className='text-sm leading-relaxed text-center'>WebNest Media is trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC <br className='max-lg:hidden' /> campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get <br className='max-lg:hidden' />  the best return on your ad spend. Here are the following PPC services that we provides:  </p >
-
+{/* 
             <div className="w-full px-4 py-10">
               <div className="w-[100%] mx-auto ">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
@@ -157,7 +366,7 @@ const Sem = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
 
 
 
@@ -188,17 +397,10 @@ const Sem = () => {
 
                   <p id="" className='text-base mt-[20px] font-manrope '>
 
-
-
                     With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.  </p>
 
                 </div>
 
-                <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
-
-                  <img src={tabone} />
-
-                </div>
 
               </div>
 
@@ -211,63 +413,8 @@ const Sem = () => {
       )
 
     },
-    {
-      id: 1, label: 'Keyword Targeting', image: KeywordTargeting,
-      description: (
-        <>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>What is Keyword Targeting?</h2>
-          <p>
-            The technique of choosing and focusing on particular keywords that potential customers use to look for goods, services, or information about your company is known as keyword targeting. By strategically placing these keywords in your ads or content, you increase the likelihood of showing up in search results when your target audience is actively searching for solutions.
-          </p>
-        </>
-      )
-    },
-    {
-      id: 2, label: 'Bid Management', image: bid,
-      description: (
-        <>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>What is Bid Management?</h2>
-          <p>
-            Bid Management is the strategic process of setting and adjusting how much you’re willing to pay for each click or impression in your online advertising campaigns. It involves monitoring real-time data, analyzing competitor activity, and optimizing bids to ensure your ads get the best possible placement without overspending.
-          </p>
-          <p>
-            Effective bid management helps maximize your return on investment by balancing cost with performance, ensuring your budget is spent where it drives the most valuable traffic and conversions.
-          </p>
+];
 
-        </>
-      )
-    },
-    {
-      id: 3, label: 'Performance Tracking and Analytics', image: analytics,
-      description: (
-        <>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>What is Performance Tracking and Analytics?</h2>
-          <p>
-            We know that successful marketing depends on understanding how your campaigns perform. Performance tracking and analytics give you clear visibility into every aspect of your marketing efforts, allowing us to make smart, data-driven decisions that maximize your ROI and business growth.
-          </p>
-          <p>
-            By using tools and reports, businesses can make informed decisions, optimize strategies in real-time, and maximize the effectiveness of their advertising efforts to achieve better results and higher returns.
-          </p>
-
-        </>
-      )
-    },
-    {
-      id: 2, label: 'Ad creation and optimization', image: ads,
-      description: (
-        <>
-          <h2 className='text-[30px] mb-3 font-medium my-3'>What is Ad Creation and Optimization?</h2>
-          <p>
-            Ad Creation and Optimization is the process of designing compelling advertisements and continuously refining them to achieve the best possible results. It involves crafting engaging ad copy, selecting eye-catching visuals, and targeting the right audience.
-          </p>
-          <p>
-            Optimization means regularly testing and adjusting ads—like headlines, images, and bids—based on performance data to increase clicks, conversions, and return on investment (ROI). This ensures your advertising budget is used efficiently to drive sales, leads, or brand awareness.
-          </p>
-
-        </>
-      )
-    },
-  ];
 
   const [submitting, setSubmitting] = useState(false);
   const [responseMsg, setResponseMsg] = useState("");
@@ -348,11 +495,11 @@ const Sem = () => {
         />
 
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+        <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
-          <p id="c2headingleft" className="c2heading">
+          <h2 className="text-[48px] max-lg:text-[34px] font-semibold">
             What is Search Engine   <br className='max-lg:hidden' /> Marketing?
-          </p>
+          </h2>
 
 
           <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
@@ -360,22 +507,15 @@ const Sem = () => {
             <div className="w-[60%] max-lg:w-[100%] ">
 
 
-              <p id="" className='text-base mt-[20px] font-manrope  '>
+              <p id="" className='text-base mt-[20px] font-manrope '>
                 SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.    In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
-
               </p>
-
-
             </div>
-
-            <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center ">
-
+            <div className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
               <img src={semlogo} />
-
             </div>
-
           </div>
-          <div className=" flex gap-3 mt-[32px]  ">
+          <div className=" flex gap-2 mt-8 max-lg:mt-12 ">
             <button className='c2greenbutton'>Learn More</button>
             <button className='c2whitebutton'>Contact Us</button>
           </div>
@@ -384,9 +524,9 @@ const Sem = () => {
 
 
         <div className=" max-w-[1440px] w-[100%] mx-auto container_2">
-          <h2 className='c2_text'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
+          <h2 className='text-[40px] text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
-            <p style={{ paddingTop: '10px', paddingBottom: '10px' }}>
+            <p style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
               WebNest Media is the search engine marketing company india and offers several benefits that set them apart from other agencies. Here are a few reasons why you might want to consider them:
             </p>
             <ul className='c2_list'>
@@ -425,10 +565,7 @@ const Sem = () => {
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
-            <p style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></p>
-
-
-
+            <h2 style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
@@ -440,9 +577,9 @@ const Sem = () => {
                  hover:-translate-y-1 
                  max-w-full h-[200px] w-full"
                 >
-                  <h2 className="text-[#4CAF50] text-[42px] font-light">
+                  <p className="text-[#4CAF50] text-[42px] font-light">
                     {item.number}
-                  </h2>
+                  </p>
                   <p className="text-2xl font-normal text-[#333] leading-[160%] mt-2.5 text-center">
                     {item.label}
                   </p>
@@ -457,50 +594,42 @@ const Sem = () => {
 
 
         <section>
+  <div className="max-w-[1440px] w-[100%] mx-auto pt-[96px] max-md:pt-10 pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]">
 
+    <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
 
-          <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+      {/* Left Section */}
+      <div className="lg:w-[60%] max-lg:w-[100%] order-1">
 
+        <h2 id="" className="text-[48px] max-lg:text-[34px] font-semibold">
+          Top Search Engine Marketing Company in Gurgaon
+        </h2>
 
+        {/* Image should come here on mobile */}
+        <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto lg:hidden mt-6">
+          <img src={redlady} className='mx-auto w-[70%]' />
+        </div>
 
-            <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
+        <p id="" className='text-base mt-[36px] font-manrope'>
+          You have come to the correct place if you are in search of the best search engine marketing agency based out of Gurgaon. At WebNest Media, we believe every business needs a solid and results-driven digital strategy to stand out in a venture that is cutthroat in terms of competition for space online. We provide the best SEM agency according to your digital marketing objectives associated with your business’ needs—whether you are looking for brand awareness, qualified traffic, speed of conversions, or whatever your goals may be, WebNest Media provides the best SEM services you're looking for!
+        </p>
 
-              <div className="w-[60%] max-lg:w-[100%] ">
+        <p id="" className='text-base mt-[20px] font-manrope'>
+          Our certified professionals with years of industry knowledge put forth modern-day techniques to get your business quantifiable, identifiable and worthwhile results for potential consumers. We run a cost-effective, highly targeted paid and/or social campaign on your behalf and manage every aspect of your search engine marketing spend. When you partner with WebNest Media, you're partnering with the best SEM agency that genuinely cares about helping your business grow online and be successful in achieving its objectives!
+        </p>
 
-                <p id="c2headingleft" className="c2heading">
-                  What is Search Engine   <br className='max-lg:hidden' /> Marketing?
-                </p>
+      </div>
 
+      {/* Image - only for large screens */}
+      <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto hidden lg:flex order-2">
+        <img src={redlady} className='mx-auto w-[70%]' />
+      </div>
 
+    </div>
 
-                <p id="" className='text-base mt-[36px] font-manrope  '>
+  </div>
+</section>
 
-                  You have come to the correct place if you are in search of the best search engine marketing agency based out of Gurgaon. At WebNest Media, we believe every business needs a solid and results-driven digital strategy to stand out in a venture that is cutthroat in terms of competition for space online. We provide the best SEM agency according to your digital marketing objectives associated with your business’ needs—whether you are looking for brand awareness, qualified traffic, speed of conversions, or whatever your goals may be, WebNest Media provides the best SEM services you're looking for!
-
-                </p>
-
-                <p id="" className='text-base mt-[20px] font-manrope  '>
-
-
-                  Our certified professionals with years of industry knowledge put forth modern-day techniques to get your business quantifiable, identifiable and worthwhile results for potential consumers. We run a cost-effective, highly targeted paid and/or social campaign on your behalf and manage every aspect of your search engine marketing spend. When you partner with WebNest Media, you're partnering with the best SEM agency that genuinely cares about helping your business grow online and be successful in achieving its objectives!
-
-                </p>
-
-
-              </div>
-
-              <div className="max-w-[440px]  w-[100%] flex flex-col gap-[26px] justify-center  max-lg:items-center max-lg:mx-auto  ">
-
-                <img src={redlady} className='mx-auto w-[70%]' />
-
-              </div>
-
-            </div>
-
-
-          </div>
-
-        </section>
 
         <section className='max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
 
@@ -525,7 +654,8 @@ const Sem = () => {
           <div className=" justify-center mx-auto text-gray-700 flex flex-col  border-none ">
 
             <div className="pt-[25px] ">
-              {tabsData[activeTab].description}
+              {tabsData[activeTab].description} 
+            
             </div>
 
           </div>
@@ -533,15 +663,16 @@ const Sem = () => {
         </section>
 
 
-
+   
 
         <div className="banner max-w-[1440px] w-[100%] mx-auto">
-          <h2>Start Your Campaign Today</h2>
-          <p className='bannerpara'>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
+          <p className='text-[36px] text-center font-bold'>Start Your Campaign Today</p>
+          <p className='text-[18px] text-center mt-3 '>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
         </div>
+
         <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
 
-          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
+          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</h2>
           <div className="accordion-wrapper-columns">
             {/* Left Column */}
             <div className="accordion-column">

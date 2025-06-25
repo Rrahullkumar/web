@@ -453,13 +453,13 @@
 
   .c2_list_items,
   .c2_list_item {
-    padding-left: 30px;
-    font-size: 14px;
+    padding-left: 35px;
+    font-size: 16px;
   }
 
   .tick_mark {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     left: 5px;
   }
 
@@ -479,14 +479,3 @@
   align-items: center;
 }
 
-.banner h2{
-  font-size: 36px;
-  margin: 0;
-  text-align: center;
-  font-weight: bold;
-}
-.banner p {
-  font-size: 18px;
-  margin: 10px 0;
-  text-align: center;
-}

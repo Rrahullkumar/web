@@ -69,7 +69,7 @@ const DigitalTranformationservice = () => {
         <div className="dtc2 max-w-[1440px] mt-[100px] w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row mb-[96px] gap-6">
 
           <div className="dtc2left lg:w-[80%] flex flex-col">
-            <h2 className='text-[48px] max-lg:text-[38px] mb-8 font-semibold order-1'>
+            <h2 className='text-[48px] max-lg:text-[34px] mb-8 font-semibold order-1'>
               Not sure what is digital transformation? <br />Let’s understand it in plain language.
             </h2>
 
@@ -100,7 +100,7 @@ const DigitalTranformationservice = () => {
         {/* Section 3 */}
         <div className="dtc3 max-w-[1440px] mt-[100px] w-full mx-auto px-10 max-lg:px-4 mb-24">
           <div >
-            <h2 className='text-[48px] max-lg:text-[38px] mb-9 font-semibold'>Digital Transformation Services We Offer</h2>
+            <h2 className='text-[48px] max-lg:text-[34px] mb-9 font-semibold'>Digital Transformation Services We Offer</h2>
             <p className='text-lg lg:w-[60%] max-lg:mb-10'>
               At WebNest Media, we don’t just help you "go digital"—we help you transform how your business works, connects, and grows. Our digital transformation services are designed to boost efficiency, elevate customer experiences, and future-proof your business with the right tech solutions.
             </p>
@@ -202,7 +202,7 @@ const DigitalTranformationservice = () => {
           {/* Left Content */}
           <div className="dtc4 left lg:w-[60%] flex flex-col">
 
-            <h2 className='text-[48px] max-lg:text-[38px] mb-[32px] font-semibold order-1'>
+            <h2 className='text-[48px] max-lg:text-[34px] mb-[32px] font-semibold order-1'>
               We Are a Leading Digital Transformation Solutions Company
             </h2>
 
@@ -211,7 +211,7 @@ const DigitalTranformationservice = () => {
               <img src={image_6} alt="" />
             </div>
 
-            <div className='text-lg leading-[150%] order-3'>
+            <div className='text-base leading-[150%] order-3'>
               <p>
                 At WebNest Media, our deep technical expertise combined with a forward-thinking approach makes us a trusted leader in digital transformation solutions. With a strong history of delivering tailored digital strategies, we help businesses harness next-gen technologies to streamline operations, enhance performance, and scale faster.
               </p>
@@ -246,7 +246,7 @@ const DigitalTranformationservice = () => {
 
           {/* Text Content */}
           <div className="dtc4 left w-full lg:w-[70%] order-2">
-            <h2 className="text-[48px] max-lg:text-[38px] mb-[32px] font-semibold">
+            <h2 className="text-[48px] max-lg:text-[34px] mb-[32px] font-semibold">
               Advantages of Digital Transformation
             </h2>
 
@@ -255,7 +255,7 @@ const DigitalTranformationservice = () => {
               <img src={image_7} alt="" />
             </div>
 
-            <div className="text-lg">
+            <div className="text-base">
               <p>
                 Every business from all industries quickly adopts digitalization. With our digital transformation company, we help you by following benefits:
               </p>

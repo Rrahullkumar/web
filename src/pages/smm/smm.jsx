@@ -36,7 +36,7 @@ import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
-import  topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.svg'
 
 const Smm = () => {
   const [text, setText] = useState('');
@@ -163,33 +163,33 @@ const Smm = () => {
           */}
 
           <HeroSection
-                        backgroundImage={topimage}
-                        heading="Mobile Marketing Company"
-                        highlight="In Gurgaon"
-                        paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
-                    />
+            backgroundImage={topimage}
+            heading="Social Media Marketing Company"
+            highlight="In Gurgaon"
+            paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
+          />
 
           {/* <h2 className="heading-styled relative h-[70px] text-[35px]  bg-yellow font-bold text-black px-4 py-1 mt-[13px] ml-[43%]">
             {text}
           </h2> */}
 
-         
+
 
 
         </div>
         {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
         <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
-          <p className="mt-24 max-md:mt-10 text-2xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
-          Boost Your Digital Impact with <br className='max-lg:hidden' />
-          Smart Social Media Planning
-        </p>
+          <p className="mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+            Boost Your Digital Impact with <br className='max-lg:hidden' />
+            Smart Social Media Planning
+          </p>
 
-        <p className=' max-sm:mt-[10px] text-[15px] mt-[100px] text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
+          <p className=' max-sm:mt-[40px] text-[15px] mt-24 text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
 '>
 
-          Enhance your brand’s digital footprint with our social media marketing company Gurgaon, crafted to simplify content creation, scheduling, and analytics unlock your brand’s true potential today.
-        </p>
+            Enhance your brand’s digital footprint with our social media marketing company Gurgaon, crafted to simplify content creation, scheduling, and analytics unlock your brand’s true potential today.
+          </p>
         </div>
 
 
@@ -320,7 +320,7 @@ const Smm = () => {
             <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between gap-10">
               <p class="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
               </p>
-              <p className="text-[black] text-[15px]   max-w-xl">
+              <p className="text-[black] text-[15px] max-md:text-left  max-w-xl">
                 Unlock the full potential of your brand online with Social Hub. From social media
                 management to content optimization, Social Hub helps you grow faster, engage smarter,
                 and stand out in the digital crowd.
@@ -338,11 +338,11 @@ const Smm = () => {
 
                   <div className='flex items-center  gap-2 '>
                     <span className="w-[20px] h-[20px] object-contain"> <SiSmartthings />  </span>
-                    <h3 className="text-lg font-semibold text-[#1a1a1a]">Smart Social Media Management</h3>
+                    <h3 className="text-lg font-semibold max-md:text-left text-[#1a1a1a]">Smart Social Media Management</h3>
                   </div>
                   <div>
 
-                    <p className="mt-2 text-sm text-gray-600">
+                    <p className="mt-2 text-sm max-md:text-left text-gray-600">
                       Schedule, publish, and monitor content across all platforms in one easy-to-use tool.
                       Automate and boost reach, improve engagement, track performance, and stay consistent
                       with your brand’s voice.
@@ -356,54 +356,65 @@ const Smm = () => {
         </div>
 
 
- <div
-  className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-[96px] max-md:mt-10 gap-10 
+        <div
+          className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-[96px] max-md:mt-10 gap-10 
     bg-no-repeat bg-contain bg-right 
     md:bg-[url('${largesmart}')]`}
->
+        >
 
           <div className="w-full lg:w-[65%]">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
+
+            {/* Heading */}
+            <h3 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c]">
               Smarter, Not Harder <br /> Win Big on Social Media
             </h3>
 
-            <p className="text-[15px] md:text-base mb-5 text-black mt-10 leading-relaxed">
+            {/* Mobile Image Below Heading */}
+            <div className="block lg:hidden w-[80%] mx-auto mt-6s">
+              <img src={smartright} alt="Smarter visual" className="w-full h-auto rounded-lg" />
+            </div>
 
+            {/* Paragraphs */}
+            <p className="text-[15px] md:text-base mb-5 text-black mt-10 leading-relaxed">
               Social media is where your audience is—and it’s growing every day. It gives your business a way to connect, and build lasting relationships with your target customers. But managing social platforms effectively takes more than just posting. It requires strategy, consistency, and a deep understanding of what works.
             </p>
-            <p>As a leading provider of social media marketing services in Gurgaon, we help businesses grow their brand presence, connect with the right audience, and drive real results. Whether it’s building awareness, increasing followers, or generating leads, our expert team crafts tailored strategies that get your message in front of the people who matter.
+
+            <p>
+              As a leading provider of social media marketing services in Gurgaon, we help businesses grow their brand presence, connect with the right audience, and drive real results. Whether it’s building awareness, increasing followers, or generating leads, our expert team crafts tailored strategies that get your message in front of the people who matter.
             </p>
 
-
+            {/* Cards Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               {cardData.map((card) => (
                 <div key={card.id} className="bg-white rounded-2xl shadow p-6">
-                  <div className=" ">
+                  <div className="">
 
                     <div className='flex items-center gap-2'>
                       <h6 className="w-[20px] h-[20px] object-contain "> {card.icon}</h6>
                       <h4 className="text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
-
                     </div>
+
                     <p className="mt-2 text-gray-600 text-sm">{card.description}</p>
 
                   </div>
                 </div>
               ))}
             </div>
+
           </div>
 
-
-          {/* <div className="w-full lg:w-[35%]  ">
-          <img src={smartright} alt="Smarter visual" className="w-full max-w-sm" />
-        </div> */}
+          {/* Desktop Image */}
+          <div className="w-full lg:w-[35%] hidden lg:flex justify-center items-center">
+            <img src={smartright} alt="Smarter visual" className="w-full max-w-sm" />
+          </div>
 
         </div>
+
         <div className="max-w-[1440px] px-10 max-lg:px-4 mx-auto newcontainer">
-          <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
+          <h3 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h3>
-          <p className='mb-4'>
+          <p className='mb-8'>
             The advantages of social media marketing are many. Here are some ways that social media marketing might benefit your company:
           </p>
           <ul className='lg:ml-[25px] mt-[10px]'>
@@ -450,7 +461,7 @@ const Smm = () => {
         </div>
 
         <Newcontact></Newcontact>
-        <div className='mt-[100px] max-w-[1440px] px-10 max-lg:mx-4 mx-auto '>
+        <div className='mt-[100px] max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
           <p className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </p>
 
           <Accordian />
