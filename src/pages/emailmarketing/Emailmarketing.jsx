@@ -165,7 +165,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon1} alt="" className="w-16 h-16 object-contain" />
+                <img src={icon1} alt=" Specialized Expertise" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center ">
@@ -179,7 +179,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon2} alt="" className="w-16 h-16 object-contain" />
+                <img src={icon2} alt="    Reclaim Your Valuable Time & Resources" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center">
@@ -193,7 +193,8 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon3} alt="" className="w-16 h-16 object-contain" />
+                <img src={icon3} alt="                  Access Cutting-Edge Tools & Technology
+" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center">
@@ -207,7 +208,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon4} alt="" className="w-16 h-16 object-contain" />
+                <img src={icon4} alt=" Drive Data-Backed Performance & ROI" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center">

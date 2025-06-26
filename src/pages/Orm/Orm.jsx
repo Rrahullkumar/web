@@ -131,7 +131,7 @@ const Orm = () => {
                 {/* Float only on Mobile */}
                 <img
                   src={timer}
-                  alt=""
+                  alt="Online Reputation"
                   className='w-[35%] lg:hidden max-lg:mt-3 float-right ml-4 mb-4 rounded-[20px] max-lg:block max-lg:float-right max-lg:w-[55%] max-lg:h-72'
                 />
 
@@ -156,7 +156,7 @@ const Orm = () => {
             <div className="w-[35%] max-lg:hidden">
               <img
                 src={timer}
-                alt=""
+                alt=" ORM services"
                 className='w-full h-auto rounded-[20px] object-contain'
               />
             </div>
@@ -230,7 +230,7 @@ const Orm = () => {
     <div className="w-full flex justify-center mt-6 mb-6 lg:hidden">
       <img
         src={iot}
-        alt="Reputation Management Illustration"
+        alt="Business Needs Reputation Management"
         className="w-full max-w-[440px] h-auto rounded-lg object-contain"
       />
     </div>
@@ -261,7 +261,7 @@ const Orm = () => {
   </div>
 
   {/* Image - Desktop position */}
-  <div className="w-full lg:w-[40%] flex justify-center lg:justify-center hidden lg:flex">
+  <div className="w-full lg:w-[40%] flex justify-center lg:justify-center lg:flex">
     <img
       src={iot}
       alt="Reputation Management Illustration"

@@ -244,7 +244,7 @@ const Affilatemarketing = () => {
             {/* Card 1 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons1} alt="Icon" className="w-full h-full mb-4" />
+                <img src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Strategic Partner <br /> Selection
@@ -257,7 +257,7 @@ const Affilatemarketing = () => {
             {/* Card 2 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons2} alt="Icon" className="w-full h-full mb-4" />
+                <img src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Customized Campaign Setup
@@ -270,7 +270,7 @@ const Affilatemarketing = () => {
             {/* Card 3 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons3} alt="Icon" className="w-full h-full mb-4" />
+                <img src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Performance Tracking & Optimization
@@ -283,7 +283,7 @@ const Affilatemarketing = () => {
             {/* Card 4 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons4} alt="Icon" className="w-full h-full mb-4" />
+                <img src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Transparent <br /> Reporting
@@ -296,7 +296,7 @@ const Affilatemarketing = () => {
             {/* Card 5 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons1} alt="Icon" className="w-full h-full mb-4" />
+                <img src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Ethical, Scalable <br /> Growth

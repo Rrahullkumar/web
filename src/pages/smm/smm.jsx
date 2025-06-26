@@ -249,7 +249,7 @@ const Smm = () => {
 
           <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-md:hidden">
             <div className="text-center text-black font-semibold text-xl">
-              <img src={cimage} className=' ' />
+              <img src={cimage} alt="Smart socail media Managment " className=' ' />
 
             </div>
           </div>
@@ -267,35 +267,15 @@ const Smm = () => {
         <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto flex justify-center max-md:flex-col gap-[40px] mt-[100px]'>
 
 
-          {/* 
-        <div className='w-[48%]  max-md:w-[100%]  flex flex-col  items-end justify-between'>
-
-        
-
-            <img src={accelerate} className='  ' />
-          
-
-
-         <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-md">
-              <div className="flex items-start gap-4">
-                <img src="/assets/smart-icon.svg" alt="Smart Social Media Management" className="w-6 h-6 object-contain" />
-                <div>
-                  <h3 className="text-lg font-semibold text-[#1a1a1a]">Smart Social Media Management</h3>
-                  <p className="mt-2 text-sm text-gray-600">
-                    Schedule, publish, and monitor content across all platforms in one easy-to-use tool.
-                    Automate and boost reach, improve engagement, track performance, and stay consistent
-                    with your brand’s voice.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-        </div> */}
 
           <div
             className="w-[48%] max-md:w-[100%] flex flex-col items-end justify-end  bg-no-repeat bg-contain bg-left-top"
             style={{ backgroundImage: `url(${accelerate})` }}
           >
+
+            <img src={accelerate} alt="Advance Analytics & Insights" className="hidden" aria-hidden="true" />
+
+
             <div className="max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-md">
               <div className="">
                 <div className='flex items-center  gap-2 '>
@@ -405,7 +385,7 @@ const Smm = () => {
 
           {/* Desktop Image */}
           <div className="w-full lg:w-[35%] hidden lg:flex justify-center items-center">
-            <img src={smartright} alt="Smarter visual" className="w-full max-w-sm" />
+            <img src={smartright} alt="Smarter visual right" className="w-full max-w-sm" />
           </div>
 
         </div>
@@ -461,7 +441,7 @@ const Smm = () => {
         </div>
 
         <div className='mt-24 max-md:mt-10'>
-          <Newcontact/>
+          <Newcontact />
         </div>
         <div className='mt-[100px] max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
           <p className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </p>

@@ -102,7 +102,7 @@ const Leadgeneration = () => {
           <p className='text-lg lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
             In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
           </p>
-          <img src={image2} alt="" />
+          <img src={image2} alt=" B2B Lead Generation" />
         </div>
 
         <div className="lgc3 max-w-[1440px] mt-[93px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto">
@@ -113,7 +113,7 @@ const Leadgeneration = () => {
 
             {/* Mobile Image: Float right only on mobile */}
             <div className="block lg:hidden float-right w-[50%] ml-4 mb-4">
-              <img src={image3} alt="" className='w-full h-auto object-contain' />
+              <img src={image3} alt="lead generation agency" className='w-full h-auto object-contain' />
             </div>
 
             <p className='text-base font-[350]'>
@@ -131,7 +131,7 @@ const Leadgeneration = () => {
 
           {/* Desktop Image: Visible only on large screens */}
           <div className="lgc3right w-[50%] max-lg:hidden h-full flex items-center">
-            <img src={image3} alt="" className='w-full h-full object-contain pb-[20px]' />
+            <img src={image3} alt="Proven Lead Generation Services" className='w-full h-full object-contain pb-[20px]' />
           </div>
         </div>
 
@@ -150,7 +150,7 @@ const Leadgeneration = () => {
                   <span>{item.title}</span>
                   <img
   src={arrow}
-  alt=""
+  alt="Lead Generation Campaigns"
   className={`max-lg:h-8 max-lg:w-8 border rounded-full transform transition-transform duration-300 ${openIndex === index ? 'rotate-180' : 'rotate-0'}`}
 />
 
@@ -221,7 +221,7 @@ const Leadgeneration = () => {
           <div className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 ">
             {data.map((item, index) => (
               <div className="lgc5card flex flex-col items-center text-center max-lg:border max-lg:py-8 max-lg:shadow-md max-lg:rounded-md ">
-                <img src={item.icon} alt="" className='w-[50px] h-[50px] mb-9' />
+                <img src={item.icon} alt={item.title} className='w-[50px] h-[50px] mb-9' />
                 <h3 className='text-[24px] font-semibold mb-6'>{item.title}</h3>
                 <p className='text-[16px] w-[80%]'>{item.content}</p>
 
