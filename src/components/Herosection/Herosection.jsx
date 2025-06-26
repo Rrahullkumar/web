@@ -7,6 +7,8 @@ const HeroSection = ({ backgroundImage, heading, highlight, paragraph }) => {
       className="w-full bg-cover bg-center relative flex items-center justify-center py-12 px-4 md:py-[59px] md:px-[43px]"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
+        <img src={backgroundImage} alt={heading + highlight} className="hidden" aria-hidden="true" />
+  
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40 z-0" />
 

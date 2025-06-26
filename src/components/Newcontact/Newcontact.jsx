@@ -22,6 +22,9 @@ const Newcontact = () => {
               
               
               >
+                <img src={SeoConatct} alt='ContactUs image' className="hidden" aria-hidden="true" />
+  
+
             <div className="w-full max-w-7xl mx-auto flex max-lg:flex-col  md:flex-row items-start justify-between max-lg:pl-[16px] max-lg:pr-[16px]">
               {/* Left Section */}
               <div className="w-full md:w-1/2 mb-12 md:mb-0 max-lg:w-[100%]  ">

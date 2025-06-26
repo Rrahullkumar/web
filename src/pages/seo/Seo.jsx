@@ -237,6 +237,7 @@ const Seo = () => {
       icon: seoicon1,
       title: "Increases Online Visibility",
       description: "Effective SEO places your site near the top of search results; that spot receives lions share of clicks.",
+    
     },
     {
       icon: seoicon2,
@@ -428,7 +429,9 @@ const Seo = () => {
 
           {/* Mobile Image Below Heading */}
           <div className="block lg:hidden w-[80%] mx-auto mt-8 mb-6">
-            <img src={newlogo} className="w-full h-auto rounded-lg" />
+            <img src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
+          
+          
           </div>
 
           {/* Main Content */}
@@ -449,7 +452,7 @@ const Seo = () => {
 
             {/* Desktop Image */}
             <div className="max-w-[440px] w-full flex flex-col gap-6 max-lg:hidden justify-center ">
-              <img src={newlogo} className="w-full h-auto" />
+              <img src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
             </div>
 
           </div>
@@ -518,7 +521,7 @@ const Seo = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
               {trustData.map((item, index) => (
                 // <div className="trust-card " >
-                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                   <h3 className="flex items-end mb-[36px] gap-2 ">
                     <span className=" text-[30px] max-md:text-[26px] text-[#EEC370] font-medium  ">{index + 1}.</span>
@@ -550,7 +553,7 @@ const Seo = () => {
         </section>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <h2 className='text-[52px] max-md:text-[38px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
+          <h2 className='text-[52px] max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
           <p className='text-base text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
@@ -572,7 +575,9 @@ const Seo = () => {
                 <div className="absolute bottom-0 left-0 w-12 h-12  border-b-2 border-l-2 border-[#0000008]" />
                 <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
 
-                <div className="flex justify-center  "> <img src={item.icon} className='w-[64px] h-[64px]' /></div>
+                <div className="flex justify-center  "> <img src={item.icon} alt={item.title} className='w-[64px] h-[64px]' /></div>
+              
+              
                 <h3 className="font-bold leading-[120%] text-[#000000] text-[24px]  mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>
                 <p className="text-[#000000] text-base leading-7  font-normal">{item.description}</p>
               </div>
@@ -581,14 +586,14 @@ const Seo = () => {
 
 
 
-          <h2 className='text-[52px] mt-24 max-md:mt-10 max-md:text-[34px] text-[#000000] mb-[36px] leading-snug'>
+          <h2 className='text-[52px] mt-24 max-md:mt-10 max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
           </h2>
           <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
-          <h2 className='text-[52px] text-center max-md:text-[38px] text-[#000000] mb-[36px] leading-snug  mt-[96px] '> SEO Agency for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
+          <h2 className='text-[52px] text-center max-md:text-[32px] text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[10px] '> SEO Agency for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
 
 
           <div
@@ -609,7 +614,7 @@ const Seo = () => {
 
           </div>
 
-          <h2 className='text-[52px] lg:text-center max-md:text-[38px] text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
+          <h2 className='text-[52px] lg:text-center max-md:text-[32px] text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
           <p className='text-base  lg:text-center text-[#000000]leading-7  font-[350'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
 
         </section>
@@ -624,7 +629,7 @@ const Seo = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
-              <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+              <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                 <h3 className="flex items-end mb-9 max-md:mb-6 gap-2 max:md:h-4 max-md:items-start ">
                   <span className=" text-[30px] max-md:text-[24px] text-[#EEC370] font-medium  ">{index + 1}.</span>
@@ -652,44 +657,7 @@ const Seo = () => {
         </section>
 
 
-        {/* <div className="container6 ">
-
-
-          <div className=" max-w-[1440px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
-
-           
-            <div className="w-[100%] max-lg:w-full">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
-                Work With Us and Take <br />Your Business to the Next Level
-              </h3>
-              <p className="text-[17px] text-black mt-5 mb-5">
-                We provide the tools, expertise, and support you need to grow faster,
-                reach more customers, and stay ahead of the competition.
-                Let’s take your business to the next level—together.
-              </p>
-
-              <div className="space-y-2">
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919696964606" className="text-white">
-                    +91-9696964606
-                  </a>
-                </button>
-
-                <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                  <FiPhone className="text-white" />
-                  <a href="tel:+919211676307" className="text-white">
-                    +91-9211676307
-                  </a>
-                </button>
-              </div>
-            </div>
-
-
-
-          </div>
-
-        </div> */}
+       
 
 
         < section className='mt-[60px] mb-[60px]' >

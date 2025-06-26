@@ -1,144 +1,4 @@
-/* .card-list-container {
-  display: flex;
-  flex-wrap: wrap;
-   gap: 20px 20px; 
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.animated-card {
-  width: 200px;
-  height: 200px;
-  perspective: 1000px;
-  cursor: pointer;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-
-  background-color: #f0f0f0;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-
-  border-radius: 20px;
-  border: 1px solid black;
-  opacity: 1;
- 
-}
-
-.image_wrapcard {
-  width: 120px;
-  height: 100px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #f0f0f0;
-  border-radius: 10px; 
-  overflow: hidden;    
-}
-
-.image_wrapcard img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-
-
-
-.animatedcard {
-  opacity: 1;
-  overflow: hidden;
-}
-
-.animated-card {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: none;
-}
-
-.from-left,
-.from-right,
-.from-top,
-.from-bottom {
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-delay: var(--animation-delay);
-}
-
-.animatedcard.visible .from-left {
-  animation-name: slideFromLeft;
-}
-.animatedcard.visible .from-right {
-  animation-name: slideFromRight;
-}
-.animatedcard.visible .from-top {
-  animation-name: slideFromTop;
-}
-.animatedcard.visible .from-bottom {
-  animation-name: slideFromBottom;
-}
-
-@keyframes slideFromLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes slideFromRight {
-  from {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes slideFromTop {
-  from {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes slideFromBottom {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-.reset {
-  opacity: 0;
-  transform: scale(0.95);
-}
- */
-
-
- .card-list-container {
+.card-list-container1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 20px;
@@ -147,12 +7,12 @@
   align-items: center;
 }
 
-.animatedcard {
+.animatedcard1 {
   opacity: 1;
   overflow: hidden;
 }
 
-.animated-card {
+.animated-card1 {
   width: 200px;
   height: 200px;
   perspective: 1000px;
@@ -179,7 +39,7 @@
 }
 
 /* Hover Effect */
-.animated-card:hover {
+.animated-card1:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
@@ -196,16 +56,19 @@
 }
 
 /* Trigger animations only when visible */
-.animatedcard.visible .from-left {
+.animatedcard1.visible .from-left {
   animation-name: slideFromLeft;
 }
-.animatedcard.visible .from-right {
+
+.animatedcard1.visible .from-right {
   animation-name: slideFromRight;
 }
-.animatedcard.visible .from-top {
+
+.animatedcard1.visible .from-top {
   animation-name: slideFromTop;
 }
-.animatedcard.visible .from-bottom {
+
+.animatedcard1.visible .from-bottom {
   animation-name: slideFromBottom;
 }
 
@@ -215,6 +78,7 @@
     opacity: 0;
     transform: translateX(-40px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateX(0) scale(1);
@@ -226,6 +90,7 @@
     opacity: 0;
     transform: translateX(40px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateX(0) scale(1);
@@ -237,6 +102,7 @@
     opacity: 0;
     transform: translateY(-40px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -248,6 +114,7 @@
     opacity: 0;
     transform: translateY(40px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -260,7 +127,7 @@
   transform: scale(0.95);
 }
 
-.image_wrapcard {
+.image_wrapcard1 {
   width: 120px;
   height: 100px;
 
@@ -273,9 +140,29 @@
   overflow: hidden;
 }
 
-.image_wrapcard img {
+.image_wrapcard1 img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   display: block;
+}
+
+
+@media (max-width: 768px) {
+  .card-list-container1 {
+    gap: 10px 10px !important;
+    padding: 0px !important;
+  }
+
+  .animated-card1 {
+    width: 140px !important;
+    height: 140px !important;
+    gap: 0px !important;
+  }
+
+  .image_wrapcard1 {
+    width: 60px !important;
+    height: 50px !important;
+
+  }
 }
