@@ -155,11 +155,7 @@ const Brandmarketing = () => {
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
-<<<<<<< HEAD
-    <div className=''>
-=======
     <div className='mt-[77px] max-lg:mt-0 '>
->>>>>>> 0105e019916220e215b913e13992d7dc2b09e95c
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "

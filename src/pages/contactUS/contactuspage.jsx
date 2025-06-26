@@ -3,6 +3,9 @@ import Map from './resources/Map.svg'
 import './contactus.css'
 import { motion } from 'framer-motion';
 import Contactus2 from './resources/Contactus2.svg'
+import { Helmet } from "react-helmet";
+
+
 const contactuspage = () => {
     const [submitting, setSubmitting] = useState(false);
         const [responseMsg, setResponseMsg] = useState("");
@@ -47,6 +50,13 @@ const contactuspage = () => {
     };
     
   return (
+
+<>
+
+
+    <Helmet>
+      <link rel="canonical" href="https://webnestmedia.com/contact-us"></link>
+    </Helmet>
     <div className='mt-[140px] max-w-[1440px] w-[100%] mx-auto'>
       <div className="cc1">
         <motion.h1
@@ -192,6 +202,8 @@ const contactuspage = () => {
         />
       </div>
     </div>
+
+    </>
   )
 }
 
