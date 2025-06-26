@@ -345,7 +345,7 @@ const Sem = () => {
 
             </div>
             <p className='text-sm leading-relaxed text-center'>WebNest Media is trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC <br className='max-lg:hidden' /> campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get <br className='max-lg:hidden' />  the best return on your ad spend. Here are the following PPC services that we provides:  </p >
-{/* 
+
             <div className="w-full px-4 py-10">
               <div className="w-[100%] mx-auto ">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
@@ -366,7 +366,7 @@ const Sem = () => {
                   ))}
                 </div>
               </div>
-            </div> */}
+            </div>
 
 
 

@@ -32,7 +32,8 @@ import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
 import Insight from "./pages/Insight/Insight";
- 
+import SmoothCursor from "./components/smoothCursor";
+
 const App = () => {
 
 
@@ -47,7 +48,9 @@ const App = () => {
 
   return (
     <>
+     <SmoothCursor />
       <Router>
+     
         <ScrollToTop />
         <Header />
 
