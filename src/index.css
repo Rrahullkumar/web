@@ -22,10 +22,10 @@
 body {
   margin: 0;
   padding: 0; 
-  background-image: url('./pages/home/resources/Shadowbody.svg');
+  /* background-image: url('./pages/home/resources/Shadowbody.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   width: 100%;
   font-smooth: antialiased;
  -webkit-font-smoothing: antialiased;

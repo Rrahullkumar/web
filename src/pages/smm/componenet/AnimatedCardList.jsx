@@ -27,16 +27,16 @@ const AnimatedCardList = () => {
   return (
     <div
 
-      className="animatedcard1 mt-[50px]"
+      className="animatedcard2 mt-[50px]"
     >
-      <div className="card-list-container1">
+      <div className="card-list-container2">
 
         {ballsData.map((ball, i) => {
 
 
           return (
-            <div key={i} className="animated-card1">
-              <div className="image_wrapcard1">
+            <div key={i} className="animated-card2">
+              <div className="image_wrapcard2">
                 <img src={ball.icon} className="iconimage" alt={ball.content} />
               </div>
               <p className="text-[14px] text-[black] font-bold" style={{fontSize:14}}>{ball.content}</p>

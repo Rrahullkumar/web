@@ -34,6 +34,8 @@ import Emailmarketing from './pages/emailmarketing/Emailmarketing';
 import Insight from "./pages/Insight/Insight";
 import SmoothCursor from "./components/smoothCursor";
 
+import box from "./components/box"
+
 const App = () => {
 
 
@@ -48,6 +50,14 @@ const App = () => {
 
   return (
     <>
+         <div className="relative min-h-screen overflow-hidden">
+        <box
+          width={30}
+          height={30}
+          squares={[40, 40]}
+          className="[mask-image:radial-gradient(600px_circle_at_center,white,transparent)] opacity-20"
+        />
+
      <SmoothCursor />
       <Router>
      
@@ -84,7 +94,7 @@ const App = () => {
         <Footer />
 
       </Router>
-
+  </div>
 
     </>
   )
