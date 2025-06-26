@@ -39,7 +39,9 @@ const Newcontact = () => {
               <div className=" w-px  bg-white  mx-10" />
       
 
-              <div className="w-full md:w-1/2 max-lg:w-full space-y-10 border-l-2 pl-[150px] max-lg:pl-0 max-md:border-none">
+           <div className="w-full md:w-1/2 max-lg:w-full space-y-10 border-l-2 pl-[150px] max-lg:pl-0 max-lg:border-none">
+
+
   {/* Contact Section */}
   <div className="space-y-3">
     <h3 className="text-[24px] font-normal text-white">Get a Free Consultation</h3>

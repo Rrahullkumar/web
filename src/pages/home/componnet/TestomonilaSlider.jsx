@@ -93,7 +93,7 @@ export default function App() {
           <div className="hidden xl:flex flex-col justify-start w-full xl:w-1/2">
             <h2 className="headingstroke">Every Insight Matters.</h2>
             <h2 className="headingstrokesecond">Every Voice Fuels Us.</h2>
-            <img src={maninwhite} className="w-full h-auto object-contain mt-6" alt="Description" />
+            <img src={maninwhite} alt='White man Image' className="w-full h-auto object-contain mt-6"  />
           </div>
 
           <div

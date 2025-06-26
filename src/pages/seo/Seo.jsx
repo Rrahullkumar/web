@@ -36,6 +36,7 @@ import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
 import seolocation from "./resources/seolocation.svg";
 import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
+import Newcontact from '../../components/Newcontact/Newcontact.jsx';
 
 const Seo = () => {
 
@@ -556,18 +557,18 @@ const Seo = () => {
           <h2 className='text-[52px] max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
-          <p className='text-base text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
+          <p className='text-base mb-[10px] text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
 
             That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
 
 
 
 
-          <div className="max-w-6xl  mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+          <div className="max-w-6xl   mx-auto px-4 py-10 max-md:py-0 max-md:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
             {features.map((item, index) => (
               <div
                 key={index}
-                className=" relative  pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
+                className=" relative    pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
               >
 
                 <div className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-[#0000008]" />
@@ -659,50 +660,7 @@ const Seo = () => {
 
        
 
-
-        < section className='mt-[60px] mb-[60px]' >
-
-          <div className=" bg-cover bg-center flex  items-center px-6 md:px-20  py-10"
-            style={{ backgroundImage: `url(${SeoConatct})` }}>
-            <div className="w-full max-w-7xl mx-auto flex max-lg:flex-col  md:flex-row items-start justify-between">
-              {/* Left Section */}
-              <div className="w-full md:w-1/2 mb-12 md:mb-0 max-lg:w-[100%]  ">
-                <p className="uppercase text-base leading-7 mb-4 text-[#FFFFFF] ">Contact Us</p>
-                <h2 className="text-[52px] max-lg:text-[38px] font-normal leading-snug text-white">
-                  Let’s make the web <br className='max-md:hidden' />  talk about your  <br className='max-md:hidden' /> project
-                </h2>
-              </div>
-
-
-
-              <div className=" w-px  bg-white  mx-10" />
-
-              {/* Right Section */}
-              <div className="w-full md:w-1/2 space-y-10   max-lg:w-[100%]  border-l-2 border-grey pl-[100px] ">
-                <div className='px-[10px] py-[10px]'>
-                  <h3 className="text-[24px]   font-normal mb-2 text-[#FFFFFF] ">Get a Free Consultation</h3>
-                  <p className="text-[18px] leading-7 flex items-center gap-2 mb-2 text-[#FFFFFF] ">
-                    <img src={seocontactphoneicon} /> <a href="mailto:info@webnest.in" className=""> +919696964606</a> </p>
-
-                  <p className="text-[18px] leading-7 flex items-center gap-2 text-[#FFFFFF] ">
-                    <img src={seocontactimage} /> <a href="mailto:info@webnest.in" className="underline">info@webnest.in</a>
-                  </p>
-                </div>
-
-                <div className='px-[10px] py-[10px]'>
-                  <h3 className="text-[24px]  font-normal mb-2 text-[#FFFFFF] ">Get a Free Consultation</h3>
-                  <p className="text-[18px] leading-7 flex items-start gap-2 text-[#FFFFFF] ">
-                    <img src={seolocation} /> <span>
-                      1st Floor Orchid Business Park,<br />
-                      Near Subhash Chowk, Sector 48,<br />
-                      Gurugram Haryana 122001
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<Newcontact />
 
         <div className="accordian max-w-[1440px] w-[100%] mx-auto">
 

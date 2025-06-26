@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 const TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
     return (
-        <section className="py-24">
+        <section className="py-24 max-lg:py-2">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mb-16">
                     <span className="text-sm text-gray-500 font-medium text-center block mb-2">{sectionSubtitle}</span>

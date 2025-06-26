@@ -10,10 +10,9 @@ import Star1 from "../../pages/home/resources/Frame4.png"
 import Star2 from "../../pages/home/resources/Frame5.png"
 import Star3 from "../../pages/home/resources/Frame6.png"
 import Star4 from "../../pages/home/resources/Frame4.png"
-import slideone from "../../pages/home/resources/monday.png";
-import slidetwo from "../../pages/home/resources/Notion.png";
+
 import slidethree from "../../pages/home/resources/Slack.png";
-import slidefour from "../../pages/home/resources/trello.png";
+import trello from "../../pages/home/resources/trello.png";
 import pana from "../../pages/home/resources/pana.svg";
 import rocket from "../../pages/home/resources/rocket.png";
 import marketingbanner from "../../pages/home/resources/marketingbanner.svg";
@@ -34,12 +33,8 @@ import facebookads from "../../pages/home/resources/Facebookads.svg";
 import instagramads from "../../pages/home/resources/instagramads.svg";
 import Youtubeads from "../../pages/home/resources/Youtubeads.svg";
 
-import slide5 from "../../pages/home/resources/lotus.svg";
-import slide6 from "../../pages/home/resources/sportsline.svg";
-import slide7 from "../../pages/home/resources/heritagebadminton.svg";
-import slide8 from "../../pages/home/resources/sandstone.svg";
-import slide9 from "../../pages/home/resources/readit360.svg";
-import slide10 from "../../pages/home/resources/Houseforever.svg";
+
+
 
 
 // import "./FlipCard.css";
@@ -57,14 +52,45 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from "react-helmet";
-import slide11 from "./resources/forcorner.svg"
-import slide12 from "./resources/ntechnologies.webp";
-import slide13 from "./resources/residency.svg"
-import slide14 from "./resources/shreehari.svg";
-import slide15 from "./resources/ank.svg";
-import slide16 from "./resources/carworld.svg";
-import slide17 from "./resources/dosa.jpg";
 
+import Monday from "../../pages/home/resources/monday.png";
+import Notion from "../../pages/home/resources/Notion.png";
+import forcorner from "./resources/forcorner.svg";
+import ntechnologies from "./resources/ntechnologies.webp";
+import residency from "./resources/residency.svg";
+import shreehari from "./resources/shreehari.svg";
+import ank from "./resources/ank.svg";
+import carworld from "./resources/carworld.svg";
+import dosa from "./resources/dosa.jpg";
+import lotus from "../../pages/home/resources/lotus.svg";
+import sportsline from "../../pages/home/resources/sportsline.svg";
+import heritagebadminton from "../../pages/home/resources/heritagebadminton.svg";
+import sandstone from "../../pages/home/resources/sandstone.svg";
+import readit360 from "../../pages/home/resources/readit360.svg";
+import Houseforever from "../../pages/home/resources/Houseforever.svg";
+
+
+const images = [
+  { src: Monday, name: "Monday" },
+  { src: Notion, name: "Notion" },
+  { src: forcorner, name: "Forcorner" },
+  { src: ntechnologies, name: "NTechnologies" },
+  { src: residency, name: "Residency" },
+  { src: shreehari, name: "Shree Hari" },
+  { src: ank, name: "ANK" },
+  { src: carworld, name: "Car World" },
+  { src: dosa, name: "Dosa" },
+  { src: lotus, name: "Lotus" },
+  { src: sportsline, name: "Sportsline" },
+  { src: heritagebadminton, name: "Heritage Badminton" },
+  { src: sandstone, name: "Sandstone" },
+  { src: readit360, name: "Readit 360" },
+  { src: Houseforever, name: "House Forever" },
+];
+
+
+const firstTrackImages = [...images, ...images, ...images, ...images];
+const shuffledImages = [...images, ...images, ...images, ...images].sort(() => Math.random() - 0.5);
 
 const autoSlide = [
   {
@@ -225,18 +251,6 @@ const Home = () => {
   }, []);
 
 
-  const images = [
-    slide11, slide5, slideone, slide6, slidetwo, slide7,
-    slidethree, slide8, slidefour, slide13, slide14,
-    slide15, slide16, slide17, slide9, slide12, slide10
-  ];
-
-  const firstTrackImages = [...images, ...images , ...images , ...images]; // repeat once for loop effect
-
-  // Simple shuffled version of the same array
-  const shuffledImages = [...images, ...images, ...images, ...images].sort(() => Math.random() - 0.5);
-
-
 
 
   return (
@@ -388,6 +402,7 @@ const Home = () => {
 
                 <img
                   src={rocket}
+                   alt="Rocket"
                   className="absolute  max-sm:hidden top-[90px] max-md:top-[440px] left-[90px] animate-floatUp leftrocket]"
                 />
 
@@ -417,7 +432,7 @@ const Home = () => {
             <strong className='text-[grey] trust '>Trusted by 2,000+ local brands and businesses</strong>
 
             <div className='text-center flex items-center justify-center'>
-              <img src={client} />
+              <img src={client} alt="Client Logo" />
             </div>
 
 
@@ -487,22 +502,45 @@ const Home = () => {
 
 
           <div className="slider-track p-2">
-            {firstTrackImages.map((img, index) => (
+            {/* {firstTrackImages.map((img, index) => (
               <div className="box" key={index}>
                 <img src={img} className="w-[100%] h-[100%] object-contain" />
               </div>
-            ))}
+            ))} */}
+
+            {firstTrackImages.map((img, index) => (
+  <div className="box" key={index}>
+    <img
+      src={img.src}
+      alt={img.name}
+      className="w-[100%] h-[100%] object-contain"
+    />
+  </div>
+))}
+
           </div>
         </div>
 
         <div className="slider-container2">
 
           <div className="slider-track2 p-2">
-            {shuffledImages.map((img, index) => (
+            {/* {shuffledImages.map((img, index) => (
               <div className="box" key={index}>
                 <img src={img} className="w-[100%] h-[100%] object-contain" />
               </div>
-            ))}
+            ))} */}
+
+
+                   {shuffledImages.map((img, index) => (
+  <div className="box" key={index}>
+    <img
+      src={img.src}
+      alt={img.name}
+      className="w-[100%] h-[100%] object-contain"
+    />
+  </div>
+))}
+            
           </div>
 
         </div>
@@ -515,7 +553,7 @@ const Home = () => {
 
 
           <div className="flex justify-center md:w-[35%] ">
-            <img src={pana} className="w-[200px] md:w-full max-w-xs" alt="Image" />
+            <img src={pana}  className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
           </div>
 
           <div className="md:w-[60%]  comprensive w-[100%]">
@@ -549,7 +587,7 @@ const Home = () => {
                     <div className="flip-card-front">
 
                       <div className="image_wrap">
-                        <img src={icon} className="  iconimage " />
+                        <img src={icon} alt={content} className="  iconimage " />
                       </div>
 
                       <p className="text-[14px] text-[black] font-bold">{content}</p>
