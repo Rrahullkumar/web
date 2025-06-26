@@ -87,54 +87,71 @@ const Affilatemarketing = () => {
       </Helmet>
 
       <div className=' w-[100%]'>
-      
-      <HeroSection
-        backgroundImage={heroimage}
-        heading="Affiiate Marketing Company"
-        highlight="In Gurgaon"
-        paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
-      />
+
+        <HeroSection
+          backgroundImage={heroimage}
+          heading="Affiiate Marketing Company"
+          highlight="In Gurgaon"
+          paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
+        />
 
 
 
 
 
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-  {/* Heading with stable spacing using margin only */}
-  <h2 className="text-[52px] max-lg:text-[38px] lg:mb-[40px] max-lg:mb-[20px]">
-    Affiliate Marketing?
-  </h2>
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
 
-  {/* Main Content Section */}
-  <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
-    {/* Text Content */}
-    <div className="lg:w-[60%] flex flex-col">
-      <p className="text-base">
+  {/* Main Container */}
+  <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
+
+    {/* Left Section: Heading + Paragraph + List + Buttons */}
+    <div className="lg:w-[60%] flex flex-col justify-start">
+
+      {/* Heading */}
+      <h2 className="text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold">
+        Affiliate Marketing?
+      </h2>
+
+      {/* Mobile View Image */}
+      <div className="lg:hidden w-full flex justify-center my-6">
+        <img src={amc2img} alt="Woman with laptop" className="max-lg:w-[80%]" />
+      </div>
+
+      {/* Paragraph */}
+      <p className="text-base leading-relaxed">
         Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
         You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
       </p>
       <br />
+
+      {/* Subheading */}
       <h3 className="text-2xl font-semibold mb-4">It's a Win-Win:</h3>
 
+      {/* Bullet Points */}
       <ul className="text-base mb-12 leading-[160%]">
         <li>• The company gets more sales.</li>
         <li>• The customer gets what they're looking for.</li>
         <li>• And you get paid for making the connection.</li>
       </ul>
 
+      {/* Buttons */}
       <div className="flex flex-row gap-4">
         <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
         <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
       </div>
     </div>
 
-    {/* Image Section */}
-    <div className="amlef max-lg:w-[80%]">
-      <img src={amc2img} alt="Woman with laptop" className="w-full h-auto" />
+    {/* Right Section: Image Vertically Centered on Desktop */}
+    <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
+      <img src={amc2img} alt="Woman with laptop" />
     </div>
+
   </div>
+
 </div>
+ 
+
 
 
 
@@ -206,25 +223,25 @@ const Affilatemarketing = () => {
         </div>
         <div className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
-          <div className=" pb-[72px] text-center">
-            <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
-            <p className='text-[32px] font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
-            <p className='text-base mb-14'>
-              Drive results through performance-based partnerships – only pay when you earn.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-2  ">
-              {statsData.map((item, index) => (
-                <div className="stat-card " key={index}>
-                  <h2 className="stat-number">{item.number}</h2>
-                  <p className="stat-label ">{item.label}</p>
-                </div>
-              ))}
+            <div className=" pb-[72px] text-center">
+              <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
+              <p className='text-[32px] font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
+              <p className='text-base mb-14'>
+                Drive results through performance-based partnerships – only pay when you earn.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-2  ">
+                {statsData.map((item, index) => (
+                  <div className="stat-card " key={index}>
+                    <p className="stat-number">{item.number}</p>
+                    <p className="stat-label ">{item.label}</p>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
 
+          </div>
         </div>
-        </div>
-        
+
         <div className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
           <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-4xl lg:w-[60%] lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
@@ -242,7 +259,8 @@ const Affilatemarketing = () => {
         <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
             {/* Card 1 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
+            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+
               <div className="w-[64px] h-[64px]">
                 <img src={Icons1} alt="Icon" className="w-full h-full mb-4" />
               </div>
@@ -255,7 +273,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
+            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                 <img src={Icons2} alt="Icon" className="w-full h-full mb-4" />
               </div>
@@ -268,7 +286,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
+            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
               <div className="w-[64px] h-[64px]">
                 <img src={Icons3} alt="Icon" className="w-full h-full mb-4" />
               </div>
@@ -281,7 +299,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 4 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r ">
+            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                 <img src={Icons4} alt="Icon" className="w-full h-full mb-4" />
               </div>
@@ -294,7 +312,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 5 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60">
+            <div className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                 <img src={Icons1} alt="Icon" className="w-full h-full mb-4" />
               </div>
@@ -315,34 +333,45 @@ const Affilatemarketing = () => {
 
 
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:translate-y-10 max-lg:mb-[20px] font-semibold lg:w-[60%]">
-            Can you make money with <span className="highlight">Affiliate Marketing?</span>
-          </h2>
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
 
-          <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
+          {/* Main Container */}
+          <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
 
-            {/* Text Section */}
-            <div className="lg:w-[60%] flex flex-col">
+            {/* Left Section: Heading + Paragraph (Stacked) */}
+            <div className="lg:w-[60%] flex flex-col justify-start">
+              {/* Heading */}
+              <h2 className="text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold">
+                Can you make money with <span className="highlight">Affiliate Marketing?</span>
+              </h2>
+
+              {/* Mobile View Image */}
+              <div className="lg:hidden w-full flex justify-center my-6">
+                <img src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
+              </div>
+
+              {/* Paragraph */}
               <p className="text-base leading-relaxed">
                 Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
-                <br />
-                <br />
+                <br /><br />
                 The concept is straightforward: you promote products or services using unique affiliate links and earn a commission for each sale made through your referral. Since there's no need to create your own products or handle inventory, affiliate marketing is a low-risk, scalable way to build income online.
               </p>
-
-
             </div>
 
-            {/* Image Section */}
-            <div className="max-lg:w-[80%]">
-              <img src={image} alt="Woman with laptop" className="pt-[80px] max-lg:pt-0" />
+            {/* Right Section: Image Vertically Centered */}
+            <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
+              <img src={image} alt="Woman with laptop" />
             </div>
+
           </div>
         </div>
 
+
+
+
+
         <Newcontact />
-        <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4">
+        <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
 
           <div className="accordian">
             <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>

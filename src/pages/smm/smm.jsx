@@ -180,10 +180,10 @@ const Smm = () => {
         {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
         <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
-          <p className="mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+          <h2 className="mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
             Boost Your Digital Impact with <br className='max-lg:hidden' />
             Smart Social Media Planning
-          </p>
+          </h2>
 
           <p className=' max-sm:mt-[40px] text-[15px] mt-24 text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
 '>
@@ -258,9 +258,9 @@ const Smm = () => {
 
         <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px]'>
 
-          <p className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </p>
+          <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
-          <Cards className="" />
+          <Cards className=""/>
         </div>
 
 
@@ -318,8 +318,8 @@ const Smm = () => {
 
           <div className="lg:w-[50%] max-md:w-[100%]   text-center lg:text-left">
             <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between gap-10">
-              <p class="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
-              </p>
+              <h2 class="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
+              </h2>
               <p className="text-[black] text-[15px] max-md:text-left  max-w-xl">
                 Unlock the full potential of your brand online with Social Hub. From social media
                 management to content optimization, Social Hub helps you grow faster, engage smarter,
@@ -365,9 +365,10 @@ const Smm = () => {
           <div className="w-full lg:w-[65%]">
 
             {/* Heading */}
-            <h3 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c]">
+            <h2 className="text-[40px] max-md:text-3xl mb-4
+            font-bold text-[#5c945c]">
               Smarter, Not Harder <br /> Win Big on Social Media
-            </h3>
+            </h2>
 
             {/* Mobile Image Below Heading */}
             <div className="block lg:hidden w-[80%] mx-auto mt-6s">
@@ -411,9 +412,9 @@ const Smm = () => {
         </div>
 
         <div className="max-w-[1440px] px-10 max-lg:px-4 mx-auto newcontainer">
-          <h3 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
+          <h2 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
-          </h3>
+          </h2>
           <p className='mb-8'>
             The advantages of social media marketing are many. Here are some ways that social media marketing might benefit your company:
           </p>
@@ -464,7 +465,7 @@ const Smm = () => {
           <Newcontact/>
         </div>
         <div className='mt-[100px] max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
-          <p className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </p>
+          <h2 className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
 
           <Accordian />
 

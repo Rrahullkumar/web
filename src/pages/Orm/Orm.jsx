@@ -86,7 +86,7 @@ const Orm = () => {
 
       <div className=' max-lg:mt-[0px] w-[100%] mx-auto 
   '>
-        <div className="topsection">
+        <div className="">
           <HeroSection
             backgroundImage={c1image}
             heading="Online Research Management Company"
@@ -110,7 +110,7 @@ const Orm = () => {
       </section> */}
 
 
-        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:py-10 lg:pb-24'>
+        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:py-10 lg:pb-24 mt-24 max-lg:mt-10'>
 
           {/* Desktop Layout */}
           <div className="flex flex-row justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
@@ -122,7 +122,7 @@ const Orm = () => {
                 Online Reputation <span className='text-[#4CAF50]'>Management Services?</span>
               </h2>
 
-              <h3 className='text-lg font-semibold mb-12'>
+              <h3 className='text-lg font-semibold mb-12 max-lg:mb-8'>
                 Rebuild Your Reputation with India’s best Online Reputation Management Expert
               </h3>
 
@@ -172,13 +172,13 @@ const Orm = () => {
 
 
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10'>
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-16'>
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
             <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-              <h6 className='text-[46px] max-md:text-[34px] max-lg:text-[26px]  text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
-              <p className='text-base mt-[32px] text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
+              <h6 className='text-[46px] max-md:text-[28px] text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
+              <p className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
             </div>
 
 
@@ -216,7 +216,7 @@ const Orm = () => {
 
 
 
-        <section className="max-w-[1440px] mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
+        <section className="max-w-[1440px] mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
 
   {/* Text Section */}
   <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">
@@ -274,13 +274,11 @@ const Orm = () => {
 
 
         <Newcontact></Newcontact>
-        <section className='max-w-[1440x] px-10 max-lg:px-'>
+        <section className='max-w-[1440x] px-10 max-lg:px-4'>
 
-          <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
-          text-[22px]           
-    sm:text-[23px]        
-    md:text-[36px]        
-    xl:text-[44px]    
+          <h2 className='mt-[40px] text-center text-[black] font-normal leading-[160%]
+          text-[32px]           
+
         '>Let's address your <span className='text-[#4CAF50] '>questions </span>today</h2>
 
           <Accordian />

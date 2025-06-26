@@ -237,7 +237,7 @@ const DigitalTranformationservice = () => {
 
         </div>
 
-        <div className="dtc4 max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row gap-10">
+        <div className="dtc4 max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row gap-10 mb-24 max-lg:mb-10">
 
           {/* Image block - shown first on desktop */}
           <div className="dtc4 right hidden lg:block mt-[20px] px-2 w-[30%] order-1">

@@ -552,7 +552,7 @@ const Seo = () => {
           <h2 className='text-[52px] max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
-          <p className='text-base mb-[10px] text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px]'>
+          <p className='text-base mb-[10px] text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px] max-lg:mb-10'>
 
             That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
 
@@ -638,7 +638,7 @@ const Seo = () => {
 
 
 
-        <section className='max-w-[1440px] w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+        <section className='max-w-[1440px] mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
                <TestimonialSlider
                 sectionTitle="What Our Clients Say"
@@ -651,7 +651,7 @@ const Seo = () => {
 
        
 
-<Newcontact />
+        <Newcontact />
 
         <div className="accordian max-w-[1440px] w-[100%] mx-auto mt-[96px]">
 

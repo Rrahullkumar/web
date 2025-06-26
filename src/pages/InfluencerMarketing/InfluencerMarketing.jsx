@@ -114,7 +114,7 @@ const InfluencerMarketing = () => {
           </div>
 
         </div>
-       <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto">
+       <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto mb-24 max-lg:mb-10">
   <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
     {/* Desktop Image */}
     <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
@@ -144,7 +144,7 @@ const InfluencerMarketing = () => {
 
 
         <Newcontact></Newcontact>
-        <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
+        <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" lg:mb-[50px] lg:text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>

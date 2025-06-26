@@ -49,11 +49,11 @@ const Emailmarketing = () => {
 
         <div className="emailc2 mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
           <div className="emailc21 flex flex-col lg:justify-center lg:items-center">
-            <h2 className='text-[52px] max-lg:text-[34px] font-semibold lg:text-center mb-9 '>Email Marketing Services</h2>
+            <h2 className='text-[52px] max-lg:text-[30px] font-semibold lg:text-center mb-9 max-lg:mb-3'>Email Marketing Services</h2>
             <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
           </div>
           <div className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
-            <h2 className="text-[52px] max-lg:text-[34px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
+            <h2 className="text-[52px] max-lg:text-[30px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
             <div className='flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10'>
 
               <div className="lg:w-[60%] flex flex-col">
@@ -92,7 +92,7 @@ const Emailmarketing = () => {
 
 
         <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-24  max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] ">
-          <h2 className="text-[52px] max-lg:text-[36px] lg:text-center mb-12 font-semibold lg:w-[60%]">
+          <h2 className="text-[52px] max-lg:text-[34px] lg:text-center mb-12 max-lg:mb-6 font-semibold lg:w-[60%]">
             WebNest’s Email Marketing Campaign Services
           </h2>
 
@@ -149,11 +149,11 @@ const Emailmarketing = () => {
           </div>
         </div>
         <div className="emailc4 flex flex-col items-center justify-center mt-24 max-lg:mt-14  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:text-center mb-12 font-semibold lg:w-[80%]">
+          <h2 className="text-[52px] max-lg:text-[34px] lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]">
             Why Opt for an Email Marketing Agency for Business?
           </h2>
 
-          <p className="text-base lg:text-center lg:w-[70%] mb-16">
+          <p className="text-base lg:text-center lg:w-[70%] mb-16 ">
             The best email marketing company can help you drive your business drive smoothly and grow your business apace. But are you truly maximizing its potential, or is email marketing just another task on an already overflowing to-do list? Working with a professional agency is not merely a choice for companies who are committed to utilizing email to its maximum potential; rather, it is a strategic need.
             <br />
             <br />
@@ -161,7 +161,7 @@ const Emailmarketing = () => {
           </p>
 
           
-          <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch">
+          <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch mb-24 max-lg:mb-10">
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
@@ -226,8 +226,8 @@ const Emailmarketing = () => {
 
         </div>
         <Newcontact></Newcontact>
-        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
-          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom lg:text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto ">
+          <p className=" mb-12 font-medium text-[32px] leading-[40px] stroke-custom fill-custom text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>
 

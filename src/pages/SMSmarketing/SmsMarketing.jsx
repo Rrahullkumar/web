@@ -44,7 +44,7 @@ const SmsMarketing = () => {
                 <span className="text-[#4CAF50]">SMS</span> Marketing
             </h1>
             </div> */}
-            <div className="topsection">
+            <div className="">
                 <HeroSection
                         backgroundImage={topimage}
                         heading="SMS Marketing Company"
@@ -52,7 +52,7 @@ const SmsMarketing = () => {
                         paragraph="Fast, effective SMS marketing that connects with your customers, drives action, and supports your overall marketing strategy."
                     />
             </div>
-        <div className="smsc2 max-w-[1440px] px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
+        <div className="smsc2 max-w-[1440px] mt-24 max-lg:mt-10 px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
             <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
             
             <div className="smsc2left lg:w-[50%] ">
@@ -72,7 +72,7 @@ const SmsMarketing = () => {
                 <p className='text-base'>We specialize in Navigating the complexities of SMS marketing in India requires local expertise combined with global best practices. For online businesses, SMS marketing for ecommerce is no longer optional, it's a necessity for competitive advantage. WebNest Media extends its mobile marketing prowess to include comprehensive WhatsApp SMS company in Gurgaon services.</p>
             </div>
         </div>
-        <div className="smsc4 max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+        <div className="smsc4 max-w-[1440px] px-10 max-lg:px-[16px] mx-auto mb-24 max-lg:mb-10">
             <div className="max-w-[1200px] mx-auto">
                 {/* Heading */}
                 <h2 className="text-[52px] max-lg:text-[34px] lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
@@ -129,7 +129,7 @@ const SmsMarketing = () => {
                 </div>
         </div>
         <Newcontact></Newcontact>
-         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[126px] max-lg:mt-[80px] mx-auto">
+         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" mb-[50px] lg:text-center font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
       </div>

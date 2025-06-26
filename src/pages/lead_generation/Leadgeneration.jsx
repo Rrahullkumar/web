@@ -170,11 +170,11 @@ const Leadgeneration = () => {
           </div>
         </div>
         <div className="flex flex-col max-w-[1440px] px-10 max-lg:px-4 justify-center items-center mx-auto mt-[60px] mb-[96px]">
-          <h2 className="text-[48px] max-lg:text-[38px] lg:w-[80%] lg:text-center font-semibold leading-tight">
-            Our Process for Lead Generation Campaigns: From Discovery to Conversion
+          <h2 className="text-[48px] max-lg:text-[32px] lg:w-[80%] lg:text-center font-semibold leading-tight">
+            Our Process for Lead Generation Campaigns <br className='lg:hidden'/>:From <span className=''>Discovery </span>to  <span className=''> Conversion </span>
           </h2>
 
-          <div className="flex flex-col justify-end mt-[64px] gap-[20px] lg:w-[80%]">
+          <div className="flex flex-col justify-end mt-[64px] max-lg:mt-[40px] gap-[20px] lg:w-[80%]">
             {[
               {
                 number: '01',
@@ -216,9 +216,9 @@ const Leadgeneration = () => {
           </div>
         </div>
 
-        <div className="lgc5 mt-[40px] max-w-[1440px] flex flex-col px-10 max-lg:px-4 justify-center items-center mx-auto">
-          <h2 className='text-[48px] max-lg:text-[38px]  lg:w-[50%] lg:text-center font-semibold'>Why Choose WebNest Media Lead Generation?</h2>
-          <div className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 ">
+        <div className="lgc5 mt-[40px] max-w-[1440px] flex flex-col px-10 max-lg:px-4 justify-center items-center mx-auto mb-24 max-lg:mb-10">
+          <h2 className='text-[48px] max-lg:text-[36px]  lg:w-[50%] lg:text-center font-semibold'>Why Choose WebNest Media's <br className='lg:hidden'/> Lead Generation?</h2>
+          <div className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 max-lg:mt-14 ">
             {data.map((item, index) => (
               <div className="lgc5card flex flex-col items-center text-center max-lg:border max-lg:py-8 max-lg:shadow-md max-lg:rounded-md ">
                 <img src={item.icon} alt="" className='w-[50px] h-[50px] mb-9' />
@@ -231,8 +231,8 @@ const Leadgeneration = () => {
           </div>
         </div>
         <Newcontact></Newcontact>
-        <div className="lgc7 mt-[96px] max-w-[1440px] mx-auto px-10 max-lg:4">
-          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+        <div className="lgc7 mt-[96px] max-lg:mt-10 max-w-[1440px] mx-auto px-10 max-lg:4">
+          <p className=" mb-[50px] font-medium text-[32px]  max-md:text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>
       </div>

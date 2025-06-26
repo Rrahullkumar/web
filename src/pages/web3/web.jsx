@@ -103,11 +103,11 @@ const web = () => {
 
           {/* Left Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
               {/* Best Website Development Company in Gurgaon */}
 
               Best <span className="text-[#409338] "> Web Development  <br />Company</span> in Gurgaon
-            </h1>
+            </h2>
             <p className="text-[black] mt-4 max-w-md text-base mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
 
@@ -379,8 +379,7 @@ const web = () => {
 
         </section>
           <Newcontact/>
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 -w-[100%]'>
-
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 -w-[100%]'>
           <Accordion />
         </section>
 

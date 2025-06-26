@@ -155,7 +155,7 @@ const Brandmarketing = () => {
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
     </Helmet>
-    <div className='mt-[77px] max-lg:mt-0 '>
+    <div className='max-lg:mt-0 '>
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "
@@ -238,7 +238,7 @@ const Brandmarketing = () => {
               <span className="font-semibold">Strategy?</span>
             </p>
 
-            <p className="text-[16px] text-[#000000] leading-relaxed mt-14 font-normal">
+            <p className="text-[16px] text-[#000000] leading-relaxed mt-14 max-lg:mt-7 font-normal">
               A powerful brand strategy does more than just make your business look good—it builds trust,
               loyalty, and long-term success. In today’s competitive digital world, customers don’t just
               buy products—they buy stories, values, and experiences.
@@ -250,20 +250,20 @@ const Brandmarketing = () => {
               {cards.map((card, index) => (
                 <div
                   key={index}
-                  className="w-[210px] h-[300px] flex flex-col justify-between items-center  "
+                  className="w-[210px] h-[300px] max-lg:h-[280px] flex flex-col justify-between items-center max-lg:border-b-2 max-lg:pb-5  "
                 >
                   <img
                     src={card.image}
                     alt={card.title}
                     className="w-[64px] h-[64px] object-contain"
                   />
-                  <h3 className="text-[24px] font-normal mt-[24px] mb-[12px] text-center leading-[150%]">{card.title}</h3>
+                  <h3 className="text-[24px] font-normal mt-[24px] max-lg:mt-0 mb-[12px] text-center leading-[150%]">{card.title}</h3>
                   <p className="text-[14px] font-light text-center leading-[150%]">{card.text}</p>
                 </div>
               ))}
             </div>
 
-            <p className="text-[16px] text-[#000000] font-normal">
+            <p className="text-[16px] text-[#000000] max-lg:text-center font-normal">
               At WebNest Media, we help shape your brand story so that every interaction feels authentic
               <br />and purposeful—leading to stronger customer engagement and business growth.
             </p>
@@ -340,14 +340,14 @@ const Brandmarketing = () => {
           {whycard.map((card, index) => (
             <div
               key={index}
-              className="w-[325px] flex flex-col justify-center items-center   p-2"
+              className="w-[325px] flex flex-col justify-center items-center   p-8"
             >
               <img
                 src={card.image}
                 alt={card.title}
                 className="w-[64px] h-[64px] object-contain "
               />
-              <h3 className=" text-[24px] font-semibold mt-[24px] mb-[12px] text-center  ">{card.title}</h3>
+              <h3 className=" text-[24px] font-semibold mt-[24px] mb-[16px] text-center  ">{card.title}</h3>
               <p className=" text-[14px] font-normal text-center ">{card.text}</p>
             </div>
           ))}
@@ -359,10 +359,7 @@ const Brandmarketing = () => {
       <Newcontact></Newcontact>
       <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
-          text-[22px]           
-    sm:text-[23px]        
-    md:text-[36px]        
-    xl:text-[44px]    
+text-[32px] text-center 
         '>Let's address your <span className='text-[#4CAF50] '>questions </span>today</h2>
 
         <Accordian />

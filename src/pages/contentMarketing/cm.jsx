@@ -217,9 +217,9 @@ const ContentMarketing = () => {
                 The no. 1 Content Marketing Service
               </p>
 
-              <p className='text-[32px] font-semibold mb-8'>
+              <h2 className='text-[32px] font-semibold mb-8'>
                 Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
-              </p>
+              </h2>
 
               <p className="text-base mb-14">
                 Drive results through performance-based partnerships – only pay when you earn.
@@ -228,7 +228,7 @@ const ContentMarketing = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
                 {statsData.map((item, index) => (
                   <div className="stat-card" key={index}>
-                    <h2 className="stat-number">{item.number}</h2>
+                    <p className="stat-number">{item.number}</p>
                     <p className="stat-label">{item.label}</p>
                   </div>
                 ))}
@@ -280,11 +280,11 @@ const ContentMarketing = () => {
 
 
 
-        <div className='mt-24 max-md:mt-10'>
+        <div className='mt-24 max-md:mt-10 '>
           <Newcontact/>
         </div>
-        <div className="accordian max-w-[1440px] w-[100%] mx-auto ">
-          <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
+        <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
+          <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
           <div className="accordion-wrapper-columns">
             {/* Left Column */}
             <div className="accordion-column">

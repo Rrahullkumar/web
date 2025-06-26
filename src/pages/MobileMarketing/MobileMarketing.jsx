@@ -243,7 +243,7 @@ const MobileMarketing = () => {
             </Helmet>
             <div className=' w-[100%]'>
 
-                <div className="topsection">
+                <div className="">
                     <HeroSection
                         backgroundImage={topimage}
                         heading="Mobile Marketing Company"
@@ -278,11 +278,11 @@ const MobileMarketing = () => {
 
                             {/* Tab Bar */}
                             <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-8">
-                                <div className="relative inline-flex space-x-6 border-b px-2 pb-6">
+                                <div className="relative inline-flex border-b px-2 pb-6">
 
                                     {/* Sliding Indicator */}
                                     <span
-                                        className="absolute bottom-0 h-[4px] rounded-sm bg-green-400 transition-all duration-300"
+                                        className="absolute bottom-0 h-[3px] rounded-sm bg-green-400 transition-all duration-300"
                                         style={{
                                             left: indicatorStyle.left,
                                             width: indicatorStyle.width,
@@ -294,7 +294,7 @@ const MobileMarketing = () => {
                                             key={index}
                                             ref={(el) => tabRefs.current[index] = el}
                                             onClick={() => handleTabClick(index)}
-                                            className="text-white text-sm md:text-base whitespace-nowrap px-2 md:px-3 py-1 transition-all duration-300"
+                                            className="text-white text-base md:text-base whitespace-normal  min-w-[250px] break-words text-center px-2 md:px-2 py-1 transition-all duration-300"
                                         >
                                             {tab.title}
                                         </button>
@@ -303,8 +303,8 @@ const MobileMarketing = () => {
                             </div>
 
                             {/* Tab Content */}
-                            <div className="relative flex items-start justify-center lg:px-32 pt-20 max-lg:pt-10 overflow-hidden min-h-[450px]">
-                                <div className="relative w-full min-h-[400px]">
+                            <div className="relative flex items-start justify-center lg:px-32 pt-20 max-lg:pt-10 overflow-hidden lg:min-h-[450px]">
+                                <div className="relative w-full max-lg:min-h-[600px]">
                                     <AnimatePresence custom={direction}>
                                         <motion.div
                                             key={activeTab}
@@ -318,7 +318,7 @@ const MobileMarketing = () => {
                                                 opacity: { duration: 0.1 }
                                             }}
 
-                                            className="flex flex-col lg:flex-row items-start justify-between  w-full absolute top-0 left-0"
+                                            className="flex flex-col lg:flex-row items-start justify-between  w-full absolute top-0 left-0 gap-5"
                                         >
                                             {/* Text Section */}
                                             <div className="lg:w-[60%] text-sm md:text-base leading-relaxed space-y-4 px-4 lg:px-8">
@@ -338,7 +338,7 @@ const MobileMarketing = () => {
                                                 <img
                                                     src={tabsContent[activeTab].image}
                                                     alt="Mobile Marketing"
-                                                    className="w-full h-auto rounded-lg object-contain"
+                                                    className="w-full h-auto object-contain"
                                                 />
                                             </div>
                                         </motion.div>
@@ -357,7 +357,7 @@ const MobileMarketing = () => {
 
 
 
-                <div className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10">
+                <div className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
                     <div className="lg:text-center px-4 ">
                         <h2 className="text-[52px] max-lg:text-[34px] font-semibold mb-6">
                             Why Choose <span className="">WebNest Media</span> for <br /> Mobile Marketing in Gurgaon?
@@ -367,37 +367,37 @@ const MobileMarketing = () => {
                         </p>
 
                         <div className="grid grid-cols-4 max-md:grid-cols-1 gap-8 mb-16 px-4">
-                            <div className='flex flex-col items-center text-center'>
+                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
                                 <img src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
                                 <p className="text-gray-600 w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
                             </div>
-                            <div className='flex flex-col items-center  text-center'>
+                            <div className='flex flex-col items-center  text-center max-lg:border-b max-lg:pb-10'>
                                 <img src={icon2} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
                                 <p className="text-gray-600 w-[78%]">Our strategies deliver measurable results and high ROI.</p>
                             </div>
-                            <div className='flex flex-col items-center text-center'>
+                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
                                 <img src={icon3} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
                                 <p className="text-gray-600 w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
                             </div>
-                            <div className='flex flex-col items-center text-center'>
+                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
                                 <img src={icon4} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Dedicated Support</h4>
                                 <p className="text-gray-600 w-[78%]">A driven group of people who care about your success.</p>
                             </div>
                         </div>
 
-                        <h3 className="text-[32px] font-semibold mb-4">Ready to Mobilize Your Marketing?</h3>
-                        <p className="text-gray-700 text-base max-w-xl mx-auto">
+                        <h3 className="text-[32px] font-semibold max-lg:text-center mb-4">Ready to Mobilize Your Marketing?</h3>
+                        <p className="text-gray-700 max-lg:text-center text-base max-w-xl mx-auto">
                             Don't let your competitors capture the mobile market. Connect with WebNest Media today to discuss how our expert mobile marketing services can help your Gurgaon business thrive on the go.
                         </p>
                     </div>
 
                 </div>
                 <Newcontact></Newcontact>
-                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
+                <div className="mmc6 mt-[96px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
                     <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>
                 </div>
