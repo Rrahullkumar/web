@@ -194,7 +194,7 @@ const Smm = () => {
 
 
 
-        <div className=" max-w-[1440px] px-10 max-lg:mx-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
+        <div className=" max-w-[1440px] px-10 max-lg:px-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
           {icons.map((Icon, index) => (
             <div
               key={index}
@@ -375,11 +375,11 @@ const Smm = () => {
             </div>
 
             {/* Paragraphs */}
-            <p className="text-[15px] md:text-base mb-5 text-black mt-10 leading-relaxed">
+            <p className="text-basse md:text-base mb-5 text-black mt-0 leading-relaxed">
               Social media is where your audience is—and it’s growing every day. It gives your business a way to connect, and build lasting relationships with your target customers. But managing social platforms effectively takes more than just posting. It requires strategy, consistency, and a deep understanding of what works.
             </p>
 
-            <p>
+            <p className='text-base '>
               As a leading provider of social media marketing services in Gurgaon, we help businesses grow their brand presence, connect with the right audience, and drive real results. Whether it’s building awareness, increasing followers, or generating leads, our expert team crafts tailored strategies that get your message in front of the people who matter.
             </p>
 
@@ -460,7 +460,9 @@ const Smm = () => {
 
         </div>
 
-        <Newcontact></Newcontact>
+        <div className='mt-24 max-md:mt-10'>
+          <Newcontact/>
+        </div>
         <div className='mt-[100px] max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
           <p className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </p>
 

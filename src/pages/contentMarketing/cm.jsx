@@ -280,7 +280,9 @@ const ContentMarketing = () => {
 
 
 
-        <Newcontact></Newcontact>
+        <div className='mt-24 max-md:mt-10'>
+          <Newcontact/>
+        </div>
         <div className="accordian max-w-[1440px] w-[100%] mx-auto ">
           <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
           <div className="accordion-wrapper-columns">
