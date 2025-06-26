@@ -106,50 +106,45 @@ const Seo = () => {
     { number: '98/100', label: 'Speed & UX Score' },
     { number: '231,580+', label: 'Leads Generated' },
   ];
+ // testimonialData.js
   const testimonialData = [
     {
         rating: "4.9",
-        feedback: "Pagedone has made it possible for me to stay on top of my portfolio and make informed decisions quickly and easily.",
+        feedback: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was the best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online.",
         avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Jane D",
+        name: "Business Owner",
         designation: "CEO"
     },
     {
         rating: "4.9",
-        feedback: "Thanks to pagedone, I feel more informed and confident about my investment decisions than ever before.",
+        feedback: "As a startup, we needed SEO services in Gurgaon that could understand our specific needs and deliver measurable growth. The team at WebNest Media provided us with strategies and expertise. Our traffic has doubled in just a few months!",
         avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Harsh P.",
-        designation: "Product Designer"
+        name: "Startup Founder",
+        designation: "Marketing Head"
     },
     {
         rating: "4.9",
-        feedback: "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",
+        feedback: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization is unmatched. Our online visibility and conversions have improved significantly.",
         avatar: "https://pagedone.io/asset/uploads/1696230027.png",
-        name: "Alex K.",
-        designation: "Design Lead"
+        name: "Company Representative",
+        designation: "Operations Manager"
     },
     {
         rating: "4.9",
-        feedback: "Pagedone has made it possible for me to stay on top of my portfolio and make informed decisions quickly and easily.",
+        feedback: "We have amazing experience with WebNest Media. They have a team that is knowledgeable and creative. I prefer them, if you need the best SEO services.",
         avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Jane D",
-        designation: "CEO"
+        name: "Client One",
+        designation: "Business Owner"
     },
     {
         rating: "4.9",
-        feedback: "Thanks to pagedone, I feel more informed and confident about my investment decisions than ever before.",
+        feedback: "I am very happy with the team of WebNest Media, they improve my business ranking through SEO services. It is the best SEO agency.",
         avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Harsh P.",
-        designation: "Product Designer"
-    },
-    {
-        rating: "4.9",
-        feedback: "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",
-        avatar: "https://pagedone.io/asset/uploads/1696230027.png",
-        name: "Alex K.",
-        designation: "Design Lead"
+        name: "Client Two",
+        designation: "Entrepreneur"
     }
 ];
+
 
   const trustData = [
     {
@@ -410,7 +405,7 @@ const Seo = () => {
 
       <section className=''>
 
-        <div className="topsection">
+        <div className="">
           <HeroSection
             backgroundImage={heroimage}
             heading="SEO Company"
@@ -419,7 +414,7 @@ const Seo = () => {
           />
         </div>
 
-        <section className="max-w-[1440px] mt-[0] w-full mx-auto pb-24 pl-10 pr-10 max-lg:pl-4 max-lg:pr-4">
+        <section className="max-w-[1440px] mt-[96px] max-md:mt-[40px] w-full mx-auto pb-24 pl-10 pr-10 max-lg:pl-4 max-lg:pr-4">
 
           {/* Heading */}
           <h2 id="" className="text-[48px] max-lg:text-[34px] font-semibold leading-tight">
@@ -560,7 +555,7 @@ const Seo = () => {
 
 
 
-          <div className="max-w-6xl  mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+          <div className="max-w-6xl  mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px] max-md:gap-10  ">
             {features.map((item, index) => (
               <div
                 key={index}
@@ -617,10 +612,6 @@ const Seo = () => {
 
 
         <section className='mt-[62px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-
-
-
-
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
@@ -643,11 +634,11 @@ const Seo = () => {
 
         <section className='max-w-[1440px] w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
-              <TestimonialSlider
-            sectionTitle="What our happy users say!"
-            sectionSubtitle="TESTIMONIAL"
-            testimonials={testimonialData}
-        />
+               <TestimonialSlider
+                sectionTitle="What Our Clients Say"
+                sectionSubtitle="Testimonials"
+                testimonials={testimonialData}
+            />
           
         </section>
 

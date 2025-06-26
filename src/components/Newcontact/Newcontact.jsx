@@ -7,7 +7,7 @@ import SeoConatct from './Resources/seoconatct.svg'
 const Newcontact = () => {
   return (
     <div>
-      <section  className='mt-[60px] mb-[60px]'>
+      <section  className=''>
       
          <div className=" bg-cover bg-center flex  items-center py-10"
             style={{
