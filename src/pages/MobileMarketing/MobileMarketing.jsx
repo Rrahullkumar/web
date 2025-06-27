@@ -289,6 +289,14 @@ const MobileMarketing = () => {
                 <meta name="author" content="WebNest Media" />
                 <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
 
+                <meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/mobile-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
+
+
                  <script type="application/ld+json">
         {JSON.stringify(schemaData)}
       </script>

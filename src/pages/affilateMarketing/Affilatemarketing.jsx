@@ -181,6 +181,14 @@ const Affilatemarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/affiliate-marketing" />
+
+        <meta property="og:title" content="Top Affiliate Marketing Agency in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media: Top affiliate marketing agency in Gurgaon. We build and manage programs to ensure maximum ROI for your brand." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/affiliate-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/heroimage--fNAPUCz.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
+
          <script type="application/ld+json">
         {JSON.stringify(affiliateMarketingSchema)}
       </script>

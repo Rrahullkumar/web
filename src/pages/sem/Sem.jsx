@@ -511,6 +511,14 @@ const Sem = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />
 
+        <meta property="og:title" content="Best Search Engine Marketing Agency in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/search-engine-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-h3UpqiFv.png" />
+  <meta property="og:site_name" content="WebNest Media" />
+
+
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

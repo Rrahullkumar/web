@@ -23,6 +23,21 @@ const Emailmarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
+
+        <title>Email Marketing Company in Gurgaon | WebNest Media</title>
+<meta name="description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
+
+
+
+
+
+<meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/email-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-n24Nf5ba.svg" />
+ <meta property="og:site_name" content="WebNest Media" />
+
       </Helmet>
 
       <div className=' '>

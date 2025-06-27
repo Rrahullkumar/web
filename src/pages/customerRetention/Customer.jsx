@@ -33,6 +33,22 @@ const Lead = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
+
+        <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
+<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
+" />
+
+
+
+
+
+<meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/customer-retention" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-E-ZJr6R3.svg" />
+ <meta property="og:site_name" content="WebNest Media" />
+
       </Helmet>
       <div className=''>
         <HeroSection

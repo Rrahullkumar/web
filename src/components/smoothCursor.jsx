@@ -6,8 +6,8 @@ const DefaultCursorSVG = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={40}
-      height={44}
+      width={36}
+      height={42}
       viewBox="0 0 50 54"
       fill="#FFBA34"
       style={{ scale: 0.5 }}

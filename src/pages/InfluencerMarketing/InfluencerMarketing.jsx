@@ -23,6 +23,20 @@ const InfluencerMarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/influencer-marketing"></link>
+        <title>Influencer Marketing Company in Gurgaon | Instagram, YouTube & More</title>
+<meta name="description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+
+
+
+
+
+<meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More"/>
+  <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+ <meta property="og:site_name" content="WebNest Media" />
+
       </Helmet>
       <div className=" w-100% mx-auto">
         {/* Top Image Banner */}

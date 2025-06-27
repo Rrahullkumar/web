@@ -236,6 +236,14 @@ const ContentMarketing = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
  <script type="application/ld+json">
+
+ <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
+
         {JSON.stringify(contentMarketingSchema)}
       </script>
 

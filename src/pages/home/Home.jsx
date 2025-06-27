@@ -403,11 +403,11 @@ const Home = () => {
                 <img
                   src={rocket}
                   alt="Rocket"
-                  className="absolute  max-sm:hidden top-[90px] max-md:top-[440px] left-[90px] animate-floatUp leftrocket]"
+                  className=" hidden absolute  max-sm:hidden top-[90px] max-md:top-[440px] left-[90px] animate-floatUp leftrocket]"
                 />
 
 
-                <div className=" absolute top-[90px] sm:top-[90px] right-[90px] animate-float_Up  max-sm:hidden">
+                <div className="hidden  absolute top-[90px] sm:top-[90px] right-[90px] animate-float_Up  max-sm:hidden">
                   <div className="rotate-[263deg] rightr max-sm:hidden">
                     <img src={rocket} alt="Rocket" className="rightrocket max-sm:hidden" />
                   </div>
