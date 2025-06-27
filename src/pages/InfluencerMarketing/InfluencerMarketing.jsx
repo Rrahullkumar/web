@@ -43,7 +43,7 @@ const InfluencerMarketing = () => {
         {/* B2B Lead Generation Section */}
         <div className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
 
-          <img src={image1} alt="" className="max-lg:w-1/2 max-lg:float-right " />
+          <img src={image1} alt="Best Influencer Marketing Agency" className="max-lg:w-1/2 max-lg:float-right " />
           <div className="imc2left lg:w-[60%] ">
             <h2 className="text-[52px] max-lg:text-[36px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
             <br />

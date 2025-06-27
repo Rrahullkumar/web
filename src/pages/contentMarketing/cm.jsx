@@ -193,23 +193,7 @@ const ContentMarketing = () => {
           </div>
         </div>
 
-        {/* <div className="custom-stats-section">
-          <p style={{ color: '#EEC370', fontSize: 18 }}>The no.1 SEO Service</p>
-          <p style={{ color: 'black', fontSize: 32, fontWeight: 600, marginBottom: 15 }}>
-            Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span>
-          </p>
-          <p style={{ fontSize: 16 }}>
-            From strategy to execution, we align your content with what your audience truly values.
-          </p>
-          <div className="custom-stats-cards">
-            {statsData.map((item, index) => (
-              <div className="custom-stat-card" key={index}>
-                <h2 className="stat-number">{item.number}</h2>
-                <p className="stat-label">{item.label}</p>
-              </div>
-            ))}
-          </div>
-       </div> */}
+      
         <div className=' bg-[#EFF4EE]'>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
             <div className="pb-[72px] text-center">

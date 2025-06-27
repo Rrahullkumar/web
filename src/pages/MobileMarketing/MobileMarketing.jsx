@@ -71,56 +71,6 @@ const MobileMarketing = () => {
     };
 
 
-    // const tabs = [
-    //     {
-    //         label: "Mobile-Optimized Website Design & Development",
-    //         content: [
-    //             "Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:",
-    //             "Responsive Design: Websites that fluidly adapt to any screen size.",
-    //             "Fast Loading Speeds: Critical for mobile users to prevent bounce rates.",
-    //             "Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens."
-    //         ],
-    //         image: tabimage
-    //     },
-    //     {
-    //         label: "SMS & MMS Marketing Campaigns",
-    //         content: [
-    //             "Reach your audience instantly through targeted SMS and MMS campaigns.",
-    //             "Highly personalized messages for increased engagement.",
-    //             "Schedule messages to hit optimal engagement windows.",
-    //             "Track delivery and open rates in real time."
-    //         ],
-    //         image: tabimage2
-    //     },
-    //     {
-    //         label: "Location-Based & Proximity Marketing",
-    //         content: [
-    //             "Deliver promotions and messages based on user location.",
-    //             "Target users when they are near your business or competitors.",
-    //             "Boost in-store visits with location-triggered alerts."
-    //         ],
-    //         image: tabimage3
-    //     },
-    //     {
-    //         label: "Mobile App Marketing & Engagement (If Applicable)",
-    //         content: [
-    //             "Promote your mobile app to increase downloads and active users.",
-    //             "Use push notifications to retain and re-engage customers.",
-    //             "Track user behavior to optimize in-app experiences."
-    //         ],
-    //         image: tabimage4
-    //     },
-    //     {
-    //         label: "QR Code Campaigns",
-    //         content: [
-    //             "Integrate QR codes into your offline marketing efforts.",
-    //             "Easily direct users to websites, app downloads, or special offers.",
-    //             "Track QR code scans for campaign effectiveness."
-    //         ],
-    //         image: tabimage5
-    //     }
-    // ];
-
 
 
     const tabsContent = [
@@ -253,7 +203,7 @@ const MobileMarketing = () => {
                     />
                 </div>
                 <div className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
-                    <img src={image1} alt="" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
+                    <img src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
@@ -338,7 +288,7 @@ const MobileMarketing = () => {
                                                 <img
                                                     src={tabsContent[activeTab].image}
                                                     alt="Mobile Marketing"
-                                                    className="w-full h-auto object-contain"
+                                                    className="w-full h-auto rounded-lg object-contain"
                                                 />
                                             </div>
                                         </motion.div>
@@ -367,22 +317,22 @@ const MobileMarketing = () => {
                         </p>
 
                         <div className="grid grid-cols-4 max-md:grid-cols-1 gap-8 mb-16 px-4">
-                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
+                            <div className='flex flex-col items-center text-center'>
                                 <img src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
                                 <p className="text-gray-600 w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
                             </div>
-                            <div className='flex flex-col items-center  text-center max-lg:border-b max-lg:pb-10'>
+                            <div className='flex flex-col items-center  text-center'>
                                 <img src={icon2} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
                                 <p className="text-gray-600 w-[78%]">Our strategies deliver measurable results and high ROI.</p>
                             </div>
-                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
+                            <div className='flex flex-col items-center text-center'>
                                 <img src={icon3} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
                                 <p className="text-gray-600 w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
                             </div>
-                            <div className='flex flex-col items-center text-center max-lg:border-b max-lg:pb-10'>
+                            <div className='flex flex-col items-center text-center'>
                                 <img src={icon4} alt="" className='p-6'></img>
                                 <h4 className="font-semibold text-lg mb-6">Dedicated Support</h4>
                                 <p className="text-gray-600 w-[78%]">A driven group of people who care about your success.</p>
@@ -397,7 +347,7 @@ const MobileMarketing = () => {
 
                 </div>
                 <Newcontact></Newcontact>
-                <div className="mmc6 mt-[96px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
+                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
                     <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>
                 </div>

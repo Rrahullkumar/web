@@ -262,8 +262,7 @@ const Seo = () => {
     },
   ];
 
-
-  const secondREf = useRef();
+ const secondREf = useRef();
 
   const [cardtrigger, setCardTrigger] = useState(false);
 
@@ -293,6 +292,8 @@ const Seo = () => {
 
     };
   }, []);
+
+
 
 
   const structuredData = {

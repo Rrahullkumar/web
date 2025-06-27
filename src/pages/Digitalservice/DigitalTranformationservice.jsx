@@ -61,7 +61,7 @@ const DigitalTranformationservice = () => {
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
           <div className="flex justify-center mt-10">
-            <img src={c1_image} alt="img" className="mx-auto" />
+            <img src={c1_image} alt="Digital Transformation" className="mx-auto" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ const DigitalTranformationservice = () => {
 
             {/* Image moves below heading on mobile, stays on right in desktop */}
             <div className="lg:hidden order-2 mb-6">
-              <img src={c2_image} alt="" className='' />
+              <img src={c2_image} alt="what is digital transformation" className='' />
             </div>
 
             <p className="text-lg order-3">
@@ -91,7 +91,7 @@ const DigitalTranformationservice = () => {
 
           {/* This image is shown only on desktop to preserve original layout */}
           <div className="dtc2right hidden lg:block order-2">
-            <img src={c2_image} alt="" />
+            <img src={c2_image} alt="Digital Transformation Services" />
           </div>
 
         </div>
@@ -109,10 +109,10 @@ const DigitalTranformationservice = () => {
             {/* Navigation buttons */}
             <div className="flex justify-end mt-[-50px] mb-[40px] ml-10] max-lg:hidden">
               <button onClick={scrollLeft} className="">
-                <img src={Left_Arrow} alt="" />
+                <img src={Left_Arrow} alt=" Left Arrow" />
               </button>
               <button onClick={scrollRight} className="">
-                <img src={Right_Arrow} alt="" />
+                <img src={Right_Arrow} alt="Right arrow" />
               </button>
             </div>
 
@@ -208,7 +208,7 @@ const DigitalTranformationservice = () => {
 
             {/* Image between heading and content for mobile */}
             <div className="lg:hidden order-2 mb-6">
-              <img src={image_6} alt="" />
+              <img src={image_6} alt="Leading Digital Transformation" />
             </div>
 
             <div className='text-base leading-[150%] order-3'>
@@ -232,7 +232,7 @@ const DigitalTranformationservice = () => {
 
           {/* Image for desktop view */}
           <div className="dtc4 right hidden lg:block order-2 mt-[20px]">
-            <img src={image_6} alt="" />
+            <img src={image_6} alt="On-Time Delivery" />
           </div>
 
         </div>
@@ -241,7 +241,7 @@ const DigitalTranformationservice = () => {
 
           {/* Image block - shown first on desktop */}
           <div className="dtc4 right hidden lg:block mt-[20px] px-2 w-[30%] order-1">
-            <img src={image_7} alt="" />
+            <img src={image_7} alt=" Advantages of Digital Transformation" />
           </div>
 
           {/* Text Content */}
@@ -252,7 +252,7 @@ const DigitalTranformationservice = () => {
 
             {/* Float image inside paragraph on mobile */}
             <div className="lg:hidden float-right w-[50%] ml-4">
-              <img src={image_7} alt="" />
+              <img src={image_7} alt="digital transformation company" />
             </div>
 
             <div className="text-base">

@@ -105,7 +105,7 @@ const Footer = () => {
     <h4 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
       Connect on Social Media
     </h4>
-    <div className="flex justify-center max-md:justify-center lg:justify-start space-x-4 text-xl">
+    <div className="flex justify-center max-md:justify-start lg:justify-start space-x-4 text-xl">
       <a
         href="https://www.facebook.com/profile.php?id=61576616442478"
         target="_blank"
