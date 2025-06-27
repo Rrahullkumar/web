@@ -127,6 +127,105 @@ const ContentMarketing = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+
+  const contentMarketingSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/content-marketing#service",
+      "name": "Content Marketing",
+      "description": "WebNest Media is a leading content marketing agency in Gurgaon offering strategy-driven content creation, blog writing, SEO content, social content, and storytelling that drives traffic, engagement, and conversions for your brand.",
+      "serviceType": "Content Marketing",
+      "provider": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "sameAs": [
+          "https://www.instagram.com/webnestmediagroup/",
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.linkedin.com/company/webnest-media-group/"
+        ]
+      },
+      "areaServed": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://webnestmedia.com/content-marketing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/content-marketing#webpage",
+      "url": "https://webnestmedia.com/content-marketing",
+      "name": "Content Marketing Services in Gurgaon – WebNest Media",
+      "description": "Looking to grow your brand with high-impact content? WebNest Media offers expert content marketing services in Gurgaon — including blog writing, SEO content, and strategy to attract and engage your ideal audience."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/content-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://webnestmedia.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Content Marketing",
+          "item": "https://webnestmedia.com/content-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/content-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does content marketing include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our content marketing includes blog writing, SEO-optimized content, landing pages, social media content, email campaigns, and content strategy development to boost your brand visibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can content marketing grow my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It helps build trust, improve search engine rankings, and attract the right audience to your website—leading to more traffic, engagement, and conversions over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why choose WebNest Media for content marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We combine storytelling, SEO, and strategy to create content that resonates with your audience and drives business growth. Our team creates content that ranks and converts."
+          }
+        }
+      ]
+    }
+  ]
+};
+
+
   return (
     <>
       <Helmet>
@@ -136,7 +235,9 @@ const ContentMarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
-
+ <script type="application/ld+json">
+        {JSON.stringify(contentMarketingSchema)}
+      </script>
 
       </Helmet>
 

@@ -71,6 +71,104 @@ const Affilatemarketing = () => {
     { number: '100%', label: 'Managed Setup' },
   ];
 
+  const affiliateMarketingSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/affiliate-marketing#service",
+      "name": "Affiliate Marketing",
+      "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
+      "serviceType": "Affiliate Marketing",
+      "provider": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "sameAs": [
+          "https://www.instagram.com/webnestmediagroup/",
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.linkedin.com/company/webnest-media-group/"
+        ]
+      },
+      "areaServed": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://webnestmedia.com/affiliate-marketing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
+      "url": "https://webnestmedia.com/affiliate-marketing",
+      "name": "Affiliate Marketing Services – WebNest Media",
+      "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://webnestmedia.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Affiliate Marketing",
+          "item": "https://webnestmedia.com/affiliate-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/affiliate-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is affiliate marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Affiliate marketing is a performance-based strategy where affiliates promote your product or service, and you pay them only when they deliver a lead or sale. It's a cost-effective way to scale online revenue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does WebNest Media manage affiliate campaigns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We handle everything from affiliate recruitment, setup, and tracking to performance optimization and reporting—ensuring your campaign runs smoothly and profitably."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is affiliate marketing suitable for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you're looking to grow your brand without upfront ad spend. It works best for e-commerce, SaaS, and service-based businesses that can offer commissions to trusted partners or influencers."
+          }
+        }
+      ]
+    }
+  ]
+};
+
+
   return (
 
     <>
@@ -83,6 +181,9 @@ const Affilatemarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/affiliate-marketing" />
+         <script type="application/ld+json">
+        {JSON.stringify(affiliateMarketingSchema)}
+      </script>
 
       </Helmet>
 

@@ -221,7 +221,7 @@ const Home = () => {
       { threshold: 0.5 }
     );
 
- 
+
 
     const observer3 = new IntersectionObserver(
       ([entry]) => {
@@ -233,7 +233,7 @@ const Home = () => {
     if (wrapperRef.current) {
       observer1.observe(wrapperRef.current);
     }
-  
+
 
     if (thirdREf.current) {
       observer3.observe(thirdREf.current);
@@ -243,7 +243,7 @@ const Home = () => {
       if (wrapperRef.current) {
         observer1.unobserve(wrapperRef.current);
       }
-   
+
       if (thirdREf.current) {
         observer3.unobserve(thirdREf.current);
       }
@@ -402,7 +402,7 @@ const Home = () => {
 
                 <img
                   src={rocket}
-                   alt="Rocket"
+                  alt="Rocket"
                   className="absolute  max-sm:hidden top-[90px] max-md:top-[440px] left-[90px] animate-floatUp leftrocket]"
                 />
 
@@ -443,25 +443,10 @@ const Home = () => {
         </div>
 
 
-        <div className="area pl-[40px] pr-[40px]  bg-none max-lg:hidden" >
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div >
 
 
 
-
-        <div className=" w-[100%] max-w-[1440px]  mx-auto z-[999] relative flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[400px]">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto mt-[450px]  flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[400px]">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
@@ -509,14 +494,14 @@ const Home = () => {
             ))} */}
 
             {firstTrackImages.map((img, index) => (
-  <div className="box" key={index}>
-    <img
-      src={img.src}
-      alt={img.name}
-      className="w-[100%] h-[100%] object-contain"
-    />
-  </div>
-))}
+              <div className="box" key={index}>
+                <img
+                  src={img.src}
+                  alt={img.name}
+                  className="w-[100%] h-[100%] object-contain"
+                />
+              </div>
+            ))}
 
           </div>
         </div>
@@ -531,16 +516,16 @@ const Home = () => {
             ))} */}
 
 
-                   {shuffledImages.map((img, index) => (
-  <div className="box" key={index}>
-    <img
-      src={img.src}
-      alt={img.name}
-      className="w-[100%] h-[100%] object-contain"
-    />
-  </div>
-))}
-            
+            {shuffledImages.map((img, index) => (
+              <div className="box" key={index}>
+                <img
+                  src={img.src}
+                  alt={img.name}
+                  className="w-[100%] h-[100%] object-contain"
+                />
+              </div>
+            ))}
+
           </div>
 
         </div>
@@ -553,7 +538,7 @@ const Home = () => {
 
 
           <div className="flex justify-center md:w-[35%] ">
-            <img src={pana}  className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
+            <img src={pana} className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
           </div>
 
           <div className="md:w-[60%]  comprensive w-[100%]">
@@ -630,7 +615,7 @@ const Home = () => {
 
         </div> */}
 
-         {/* <div
+        {/* <div
   
       className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto"
     >
@@ -642,12 +627,12 @@ const Home = () => {
     </div> */}
 
 
-    <div className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto">
-      <h2 className="heading mb-[20px]" id="industries">
-        Industries We Serve
-      </h2>
-      <AnimatedCardList />
-    </div>
+        <div className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto">
+          <h2 className="heading mb-[20px]" id="industries">
+            Industries We Serve
+          </h2>
+          <AnimatedCardList />
+        </div>
 
 
         <div
@@ -727,8 +712,8 @@ const Home = () => {
             </h3>
             <p className="text-[17px] text-black mt-5 mb-5">
               We provide the tools, expertise, and support you need to grow faster,
-               reach more customers, and stay ahead of the competition.
-               Let’s take your business to the next level—together.
+              reach more customers, and stay ahead of the competition.
+              Let’s take your business to the next level—together.
             </p>
 
 
@@ -751,7 +736,7 @@ const Home = () => {
 
           </div>
 
-      
+
         </div>
 
         <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">

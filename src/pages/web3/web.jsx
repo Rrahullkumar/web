@@ -13,6 +13,104 @@ import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.svg";
+
+const webDevelopmentSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/web-development#service",
+      "name": "Web Development",
+      "description": "WebNest Media is a top web development company in Gurgaon offering responsive, SEO-friendly, and scalable website solutions. We specialize in custom websites, eCommerce platforms, CMS development, and performance optimization for businesses of all sizes.",
+      "serviceType": "Web Development",
+      "provider": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "sameAs": [
+          "https://www.instagram.com/webnestmediagroup/",
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.linkedin.com/company/webnest-media-group/"
+        ]
+      },
+      "areaServed": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://webnestmedia.com/web-development"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/web-development#webpage",
+      "url": "https://webnestmedia.com/web-development",
+      "name": "Web Development Company in Gurgaon – WebNest Media",
+      "description": "Get high-performing, mobile-friendly websites developed by WebNest Media – a leading web development company in Gurgaon. We build fast, scalable, and SEO-ready websites that convert visitors into customers."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/web-development#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://webnestmedia.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web Development",
+          "item": "https://webnestmedia.com/web-development"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/web-development#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What web development services do you offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer custom website development, WordPress development, eCommerce site creation, CMS integration, landing pages, speed optimization, and website maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you create mobile-friendly websites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every website we build is fully responsive and works flawlessly on mobile, tablet, and desktop devices to ensure a seamless user experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why choose WebNest Media for web development?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We’re a top web development company in Gurgaon with a team of skilled developers focused on delivering clean code, fast performance, SEO optimization, and custom design tailored to your brand."
+          }
+        }
+      ]
+    }
+  ]
+};
+
 const web = () => {
 
 
@@ -85,6 +183,10 @@ const web = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify(webDevelopmentSchema)}
+      </script>
 
       </Helmet>
 
