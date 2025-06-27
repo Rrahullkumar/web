@@ -260,7 +260,7 @@ const Smm = () => {
 
           <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
-          <Cards className=""/>
+          <Cards className="" />
         </div>
 
 
