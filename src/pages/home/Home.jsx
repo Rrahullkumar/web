@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-
+import { Link } from "react-router-dom";
 // import '../../../src/index.css'; // or './styles.css'
 
 import "./homeStyle.css"
@@ -474,9 +474,11 @@ const Home = () => {
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
+           <Link to={"/contact-us"}>
             <button className="bg-[#5c945c] text-white rounded-md px-6 py-3 max-md:py-1 max-md:px-2 hover:bg-[#4f834f] transition">
               Get Started
             </button>
+           </Link> 
           </div>
 
 
