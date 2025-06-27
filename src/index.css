@@ -49,6 +49,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+img {
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+}
 .slick-dots li button:before {
   font-size: 12px; 
   color: #409338; 

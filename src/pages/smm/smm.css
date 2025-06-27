@@ -140,6 +140,23 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .paraheading::before {
+    right: 0%;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+  
+  }
+
+  .paraheading::after {
+    left: 0%;
+    width: 60px;
+    height: 60px;
+    top:100px
+  }
+}
+
 @media (max-width: 576px) {
 .paraheading::after{
   display: none;

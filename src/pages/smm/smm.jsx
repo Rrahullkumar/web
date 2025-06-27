@@ -146,101 +146,101 @@ const Smm = () => {
 
 
   const socialMediaSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "@id": "https://webnestmedia.com/social-media-marketing#service",
-      "name": "Social Media Marketing",
-      "description": "WebNest Media is a trusted social media marketing agency in Gurgaon offering expert services in Instagram ads, Facebook marketing, content creation, influencer outreach, and brand engagement to help your business grow online.",
-      "serviceType": "Social Media Marketing",
-      "provider": {
-        "@type": "Organization",
-        "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
-        "sameAs": [
-          "https://www.instagram.com/webnestmediagroup/",
-          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
-          "https://www.linkedin.com/company/webnest-media-group/"
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://webnestmedia.com/social-media-marketing#service",
+        "name": "Social Media Marketing",
+        "description": "WebNest Media is a trusted social media marketing agency in Gurgaon offering expert services in Instagram ads, Facebook marketing, content creation, influencer outreach, and brand engagement to help your business grow online.",
+        "serviceType": "Social Media Marketing",
+        "provider": {
+          "@type": "Organization",
+          "name": "WebNest Media",
+          "url": "https://webnestmedia.com",
+          "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "sameAs": [
+            "https://www.instagram.com/webnestmediagroup/",
+            "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+            "https://www.linkedin.com/company/webnest-media-group/"
+          ]
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "postalCode": "122001",
+            "addressCountry": "IN"
+          }
+        },
+        "url": "https://webnestmedia.com/social-media-marketing"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://webnestmedia.com/social-media-marketing#webpage",
+        "url": "https://webnestmedia.com/social-media-marketing",
+        "name": "Social Media Marketing Services – WebNest Media",
+        "description": "Grow your brand presence and engagement with social media marketing services by WebNest Media. We create tailored content strategies, run paid social ad campaigns, and help you connect with your audience on every platform."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://webnestmedia.com/social-media-marketing#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Social Media Marketing",
+            "item": "https://webnestmedia.com/social-media-marketing"
+          }
         ]
       },
-      "areaServed": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
-          "addressLocality": "Gurgaon",
-          "addressRegion": "Haryana",
-          "postalCode": "122001",
-          "addressCountry": "IN"
-        }
-      },
-      "url": "https://webnestmedia.com/social-media-marketing"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://webnestmedia.com/social-media-marketing#webpage",
-      "url": "https://webnestmedia.com/social-media-marketing",
-      "name": "Social Media Marketing Services – WebNest Media",
-      "description": "Grow your brand presence and engagement with social media marketing services by WebNest Media. We create tailored content strategies, run paid social ad campaigns, and help you connect with your audience on every platform."
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/social-media-marketing#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://webnestmedia.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://webnestmedia.com/#services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Social Media Marketing",
-          "item": "https://webnestmedia.com/social-media-marketing"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/social-media-marketing#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does your social media marketing service include?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We handle content creation, paid social ad campaigns, strategy development, community management, and influencer outreach tailored to your brand goals."
+      {
+        "@type": "FAQPage",
+        "@id": "https://webnestmedia.com/social-media-marketing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does your social media marketing service include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We handle content creation, paid social ad campaigns, strategy development, community management, and influencer outreach tailored to your brand goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which platforms do you manage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We manage campaigns and content across Instagram, Facebook, LinkedIn, Twitter, and YouTube, depending on where your audience is most active."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why choose WebNest Media for social media marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We’re a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
+            }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Which platforms do you manage?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We manage campaigns and content across Instagram, Facebook, LinkedIn, Twitter, and YouTube, depending on where your audience is most active."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why choose WebNest Media for social media marketing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We’re a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
-          }
-        }
-      ]
-    }
-  ]
-};
+        ]
+      }
+    ]
+  };
 
   return (
 
@@ -252,9 +252,9 @@ const Smm = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
-         <script type="application/ld+json">
-        {JSON.stringify(socialMediaSchema)}
-      </script>
+        <script type="application/ld+json">
+          {JSON.stringify(socialMediaSchema)}
+        </script>
       </Helmet>
 
       <div className=' w-[100%] mb-[120px]  mx-auto'>
@@ -277,13 +277,15 @@ const Smm = () => {
 
 
         </div>
-        {/* <p className=" mt-[60px] paraheading text-[#409338] font-bold text-[40px]  leading-[60px]  text-center stroke-custom fill-custom">Boost Your Digital Impact with  <br /> Smart Social Media Planning  </p> */}
 
-        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto'>
-          <h2 className="mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[40px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom px-4">
+        <div className='max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto'>
+
+          <h2 className="  w-[100% ] mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[32px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom ">
             Boost Your Digital Impact with <br className='max-lg:hidden' />
             Smart Social Media Planning
           </h2>
+
+
 
           <p className=' max-sm:mt-[40px] text-[15px] mt-24 text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
 '>
@@ -310,7 +312,7 @@ const Smm = () => {
         </div>
 
         <div className="
-        flex flex-col md:flex-row max-w-[1440px] px-10 max-lg:mx-4 mx-auto">
+        flex flex-col lg:flex-row max-w-[1440px] mx-auto">
           {/* Box 1 */}
           <div className="w-full md:basis-1/3  flex justify-center">
             <div className="w-[300px] h-[450px] rounded-md bg-gray-300 overflow-hidden bocshadowgif "  >
@@ -319,13 +321,13 @@ const Smm = () => {
           </div>
 
 
-          <div className=" max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3   gap-4">
+          <div className=" max-w-[1440px]  max-lg:mx-0 mx-auto w-full md:basis-1/3   gap-4 max-lg:flex max-lg:justify-center max-lg:items-center ">
 
-            <div className="w-full max-w-[300px] h-[400px]   flex flex-col justify-end">
+            <div className="w-full max-w-[300px] h-[400px]   flex flex-col justify-end max-lg:justify-center">
               <div className=' flex flex-col gap-[30px]' >
 
 
-                <div className="flex flex-col gap-2 rounded-md bg-white p-6 relative right-[-130px]       max-md:right-[0px]  bocshadowgif border-b ">
+                <div className="flex flex-col gap-2 rounded-md bg-white p-6 relative right-[-130px]       max-lg:right-[0px]  bocshadowgif border-b ">
                   <h6 className="text-black text-[15px] font-bold">
                     Smart Social Media Management
                   </h6>
@@ -347,7 +349,7 @@ const Smm = () => {
           </div>
 
 
-          <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-md:hidden">
+          <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-xl:hidden">
             <div className="text-center text-black font-semibold text-xl">
               <img src={cimage} alt="Smart socail media Managment " className=' ' />
 
@@ -356,7 +358,7 @@ const Smm = () => {
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px]'>
+        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px] max-lg:mt-[100px]'>
 
           <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
@@ -364,19 +366,19 @@ const Smm = () => {
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:mx-4 mx-auto flex justify-center max-md:flex-col gap-[40px] mt-[100px]'>
+        <div className='max-w-[1440px] px-10 max-lg:px4 mx-auto flex justify-center max-lg:flex-col gap-[40px] mt-[100px]'>
 
 
 
           <div
-            className="w-[48%] max-md:w-[100%] flex flex-col items-end justify-end  bg-no-repeat bg-contain bg-left-top"
+            className="w-[48%] max-lg:w-[100%] flex flex-col items-end justify-end  bg-no-repeat bg-contain bg-left-top"
             style={{ backgroundImage: `url(${accelerate})` }}
           >
 
             <img src={accelerate} alt="Advance Analytics & Insights" className="hidden" aria-hidden="true" />
 
 
-            <div className="max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-md">
+            <div className="max-lg:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
               <div className="">
                 <div className='flex items-center  gap-2 '>
                   <span><GiLevelFourAdvanced /></span>
@@ -412,7 +414,7 @@ const Smm = () => {
 
 
 
-              <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-md">
+              <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
                 <div className="">
                   {/* <img src="/assets/smart-icon.svg" alt="Smart Social Media Management" className="w-6 h-6 object-contain" /> */}
 
@@ -452,7 +454,7 @@ const Smm = () => {
 
             {/* Mobile Image Below Heading */}
             <div className="block lg:hidden w-[80%] mx-auto mt-6s">
-              <img src={smartright} alt="Smarter visual" className="w-full h-auto rounded-lg" />
+              <img src={smartright} alt="Smarter visual" className="max-w-[300px] w-[100%] h-auto rounded-lg" />
             </div>
 
             {/* Paragraphs */}
@@ -492,48 +494,65 @@ const Smm = () => {
         </div>
 
         <div className="max-w-[1440px] px-10 max-lg:px-4 mx-auto newcontainer">
-          <h2 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] mb-5">
+          <h2 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h2>
           <p className='mb-8'>
             The advantages of social media marketing are many. Here are some ways that social media marketing might benefit your company:
           </p>
-          <ul className='lg:ml-[25px] mt-[10px]'>
-            <li className="mb-[30px] lg:mb-[28px] ">
-              <h3 className="font-semibold text-xl ">• Get your brand seen by more people.</h3>
-              <p className="text-[16px]">
 
+
+          <ul className="lg:ml-[25px] mt-[10px]">
+            <li className="mb-[30px] lg:mb-[28px]">
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Get your brand seen by more people.
+              </h3>
+              <p className="text-[16px]">
                 Regular posts and updates keep your business in front of the right audience every day.
-
               </p>
             </li>
+
             <li className="mb-[20px] lg:mb-[28px]">
-              <h3 className="font-semibold text-xl ">• Bring the right visitors to your website.</h3>
-              <p className="text-[16px]">
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Bring the right visitors to your website.
+              </h3>
+              <p className="text-base pl-2">
                 Social media helps attract people who are actually interested in what you offer.
-
               </p>
             </li>
+
             <li className="mb-[20px] lg:mb-[28px]">
-              <h3 className="font-semibold text-xl ">• Start real conversations with your audience.</h3>
-              <p className="text-[16px]">
-                Reply to comments, answer questions, and build genuine relationships with your followers.              </p>
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Start real conversations with your audience.
+              </h3>
+              <p className="text-base pl-2">
+                Reply to comments, answer questions, and build genuine relationships with your followers.
+              </p>
             </li>
+
             <li className="mb-[20px] lg:mb-[28px]">
-              <h3 className="font-semibold text-xl">• Give your search rankings a little boost.</h3>
-              <p className="text-[16px]">
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Give your search rankings a little boost.
+              </h3>
+              <p className="text-base pl-2">
                 While not a direct ranking factor, active social sharing can drive traffic and support your SEO efforts.
               </p>
             </li>
+
             <li className="mb-[20px] lg:mb-[28px]">
-              <h3 className="font-semibold text-xl ">• Turn likes and clicks into real leads.</h3>
-              <p className="text-[16px]">
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Turn likes and clicks into real leads.
+              </h3>
+              <p className="text-base pl-2">
                 Engaging postings and targeted advertisements can turn followers into paying consumers.
               </p>
             </li>
+
             <li className="mb-[20px] lg:mb-[28px]">
-              <h3 className="font-semibold text-xl ">• Grow your business without breaking the bank.</h3>
-              <p className="text-[16px]">
+              <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
+                Grow your business without breaking the bank.
+              </h3>
+              <p className="text-base pl-2">
                 Compared to traditional ads, social media is budget-friendly and highly effective.
               </p>
             </li>

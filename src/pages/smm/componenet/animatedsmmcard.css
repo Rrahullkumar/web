@@ -22,7 +22,7 @@
   cursor: pointer;
   padding: 10px;
   border: 1px solid black;
-  z-index: 9999999;
+  z-index: 999;
 }
 
 .image_wrapcard2 {
