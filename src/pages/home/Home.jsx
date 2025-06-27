@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-
+import { Link } from "react-router-dom";
 // import '../../../src/index.css'; // or './styles.css'
 
 import "./homeStyle.css"
@@ -69,6 +69,7 @@ import sandstone from "../../pages/home/resources/sandstone.svg";
 import readit360 from "../../pages/home/resources/readit360.svg";
 import Houseforever from "../../pages/home/resources/Houseforever.svg";
 import ParticlesBackground from "../../components/ParticlesBackground";
+import Newcontact from "../../components/Newcontact/Newcontact";
 
 const images = [
   { src: Monday, name: "Monday" },
@@ -445,9 +446,11 @@ const Home = () => {
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
+           <Link to={"/contact-us"}>
             <button className="bg-[#5c945c] text-white rounded-md px-6 py-3 max-md:py-1 max-md:px-2 hover:bg-[#4f834f] transition">
               Get Started
             </button>
+           </Link> 
           </div>
 
 
@@ -665,7 +668,7 @@ const Home = () => {
         <div
           ref={wrapperRef}
           onMouseEnter={() => setTrigger(true)}
-          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[10px] flex-col md:flex-row items-center justify-center gap-10 px-6 py-12">
+          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[10px] flex-col md:flex-row items-center justify-center gap-10 px-6 ">
           <div
 
             className="w-full md:w-1/2 lg:w-[40%]"
@@ -689,44 +692,14 @@ const Home = () => {
         </div>
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto tetonomial mt-[30px] mb-[40px]">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
 
-        <div className=" hidden w-[100%] max-w-[1440px]  mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
-
-          {/* Left Side: Text + Numbers */}
-          <div className="w-[100%] max-lg:w-full">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
-              Work With Us and Take <br />Your Business to the Next Level
-            </h3>
-            <p className="text-[17px] text-black mt-5 mb-5">
-              We provide the tools, expertise, and support you need to grow faster,
-              reach more customers, and stay ahead of the competition.
-              Let’s take your business to the next level—together.
-            </p>
-
-
-            <div className="space-y-2">
-              <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                <FiPhone className="text-white" />
-                <a href="tel:+919696964606" className="text-white">
-                  +91-9696964606
-                </a>
-              </button>
-
-              <button className="getstarted-btnn w-[200px] flex items-center gap-2 px-4 py-2 rounded bg-[#5c945c] text-white">
-                <FiPhone className="text-white" />
-                <a href="tel:+919211676307" className="text-white">
-                  +91-9211676307
-                </a>
-              </button>
-            </div>
-
-
-          </div>
-
-
+     
+       
+        <div className='mb-[24px]'>
+          <Newcontact/>
         </div>
 
         <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">

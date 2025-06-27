@@ -44,7 +44,7 @@ const Newcontact = () => {
 
               <div className="flex items-center gap-3  mt-[7px] mb-[7px]">
                 <img src={seocontactimage} alt="Email" className="w-5 h-5" />
-                <a href="mailto:info@webnest.in" className="underline text-[18px] font-normal leading-[130%] text-white">info@webnest.in</a>
+                <a href="mailto:info@webnest.in" className="underline text-[18px] font-normal leading-[130%] text-white">info@webnestmedia.com</a>
               </div>
 
               <div className="flex gap-3 ">

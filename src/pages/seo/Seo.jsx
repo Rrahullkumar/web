@@ -113,35 +113,35 @@ const Seo = () => {
         rating: "4.9",
         feedback: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was the best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online.",
         avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Business Owner",
+        name: "Anamika ",
         designation: "CEO"
     },
     {
         rating: "4.9",
         feedback: "As a startup, we needed SEO services in Gurgaon that could understand our specific needs and deliver measurable growth. The team at WebNest Media provided us with strategies and expertise. Our traffic has doubled in just a few months!",
         avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Startup Founder",
+        name: "Aman Bajwa",
         designation: "Marketing Head"
     },
     {
         rating: "4.9",
         feedback: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization is unmatched. Our online visibility and conversions have improved significantly.",
         avatar: "https://pagedone.io/asset/uploads/1696230027.png",
-        name: "Company Representative",
+        name: "Tushar Negi",
         designation: "Operations Manager"
     },
     {
         rating: "4.9",
         feedback: "We have amazing experience with WebNest Media. They have a team that is knowledgeable and creative. I prefer them, if you need the best SEO services.",
         avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Client One",
+        name: "Naina Sharma",
         designation: "Business Owner"
     },
     {
         rating: "4.9",
         feedback: "I am very happy with the team of WebNest Media, they improve my business ranking through SEO services. It is the best SEO agency.",
         avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Client Two",
+        name: "Rahul Kaushik",
         designation: "Entrepreneur"
     }
 ];
@@ -557,8 +557,8 @@ const Seo = () => {
           </div>
         </section>
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-[40px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <h2 className='text-[52px] max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>Why SEO is Important?</h2>
+        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+          <h2 className='text-[52px] max-md:text-[32px] text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
           <p className='text-base mb-[10px] text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px] max-lg:mb-10'>
@@ -591,7 +591,7 @@ const Seo = () => {
 
 
 
-          <h2 className='text-[52px] mt-24 max-md:mt-10 max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>
+          <h2 className='text-[52px] mt-24  max-md:text-[32px] text-[#000000] mb-[36px] leading-snug'>
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
           </h2>
@@ -626,7 +626,7 @@ const Seo = () => {
 
 
 
-        <section className='mt-[62px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
@@ -662,10 +662,10 @@ const Seo = () => {
 
         <Newcontact />
 
-        <div className="accordian max-w-[1440px] w-[100%] mx-auto mt-[96px]">
+        <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
 
           <div>
-            <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
+            <h2 className='text-center' style={{fontSize:32}}>Let's address your <span className='text-black '>questions </span>today</h2>
 
             <div className="accordion-wrapper-columns">
 

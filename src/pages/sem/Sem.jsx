@@ -39,6 +39,7 @@ const adsData = [
 
 
 import redlady from "./resources/redlady.svg"
+import Newcontact from '../../components/Newcontact/Newcontact';
 const Sem = () => {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -160,7 +161,7 @@ const Sem = () => {
 
 
 
-            <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[170px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+            <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[10px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
               <h2 id="c2headingleft" className="c2heading">
                 Why Opt WebNest Media for  <br className='max-lg:hidden' />  PPC Ads?
@@ -797,20 +798,11 @@ const Sem = () => {
 
         </section>
 
-
-        <section>
-
-
-
-        </section>
-
-
-
-
-        <div className="banner max-w-[1440px] w-[100%] mx-auto">
-          <p className='text-[36px] text-center font-bold'>Start Your Campaign Today</p>
-          <p className='text-[18px] text-center mt-3 '>Ready to drive more traffic and boost conversions? Our team of PPC experts is here to design and manage custom campaigns that align with your business goals. <br /> Contact us today to start seeing real results with PPC advertising.</p>
+   <div className='mb-[24px]'>
+          <Newcontact/>
         </div>
+
+        
 
         <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
 
