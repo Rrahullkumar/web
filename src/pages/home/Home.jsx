@@ -638,10 +638,12 @@ const Home = () => {
         <div
           ref={thirdREf}
           onMouseEnter={() => setThirdtrigger(true)}
-          className=" max-w-[1440px]  mt-[130px] mb-[120px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[40px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
+          className=" max-w-[1440px]  mt-[130px] mb-[50px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[20px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
         >
+          
           {/* Phone Icon */}
-          <div className="mb-4 md:mb-0">
+    <div className="flex items-center gap-[30px] max-md:gap-3 ">
+            <div className="mb-4 md:mb-0">
             <FaPhoneVolume className="ringing text-white text-[50px] md:text-[70px] flex items-center justify-center" />
           </div>
 
@@ -664,6 +666,7 @@ const Home = () => {
               <span>06</span>
             </div>
           </div>
+    </div>
 
           {/* CTA Message */}
           <p className="text-white text-[20px] md:text-[30px] font-bold pr-0 md:pr-[30px] text-center md:text-left">
@@ -676,7 +679,7 @@ const Home = () => {
         <div
           ref={wrapperRef}
           onMouseEnter={() => setTrigger(true)}
-          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[20px] flex-col md:flex-row items-center justify-center gap-10 px-6 py-12">
+          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[10px] flex-col md:flex-row items-center justify-center gap-10 px-6 py-12">
           <div
 
             className="w-full md:w-1/2 lg:w-[40%]"
@@ -703,7 +706,8 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px]  mx-auto tetonomial mt-[30px] mb-[40px]">
           <ImageSlider data={testimonialsData} />
         </div>
-        <div className="w-[100%] max-w-[1440px]  mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
+
+        <div className=" hidden w-[100%] max-w-[1440px]  mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 px-5 py-10">
 
           {/* Left Side: Text + Numbers */}
           <div className="w-[100%] max-lg:w-full">
