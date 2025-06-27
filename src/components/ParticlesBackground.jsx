@@ -546,7 +546,7 @@ const ParticlesBackground = () => {
     <canvas
       ref={canvasRef}
       id="particles"
-      className="fixed top-0 left-0 w-full h-full z-[-1]"
+      className="absolute top-0 left-0 w-full h-[100vh] z-[-1]"
     ></canvas>
   );
 };

@@ -30,8 +30,7 @@ import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
 import SmoothCursor from "./components/smoothCursor";
 
-// ✅ Import your Particles Background Component
-import ParticlesBackground from "./components/ParticlesBackground";
+
 
 const App = () => {
   useEffect(() => {
@@ -42,15 +41,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <>
       
-      {/* ✅ Particles Background - Behind everything */}
-      <ParticlesBackground />
 
-      {/* ✅ Foreground App Content */}
-      <div className="relative z-10">
-        
-        {/* Optional Smooth Cursor */}
+
+      
         <div className='max-md:hidden'>
           <SmoothCursor />
         </div>
@@ -85,8 +80,8 @@ const App = () => {
 
           <Footer />
         </Router>
-      </div>
-    </div>
+      
+    </>
   );
 }
 

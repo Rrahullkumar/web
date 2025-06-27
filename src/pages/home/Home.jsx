@@ -68,7 +68,7 @@ import heritagebadminton from "../../pages/home/resources/heritagebadminton.svg"
 import sandstone from "../../pages/home/resources/sandstone.svg";
 import readit360 from "../../pages/home/resources/readit360.svg";
 import Houseforever from "../../pages/home/resources/Houseforever.svg";
-
+import ParticlesBackground from "../../components/ParticlesBackground";
 
 const images = [
   { src: Monday, name: "Monday" },
@@ -385,9 +385,10 @@ const Home = () => {
 
       </Helmet>
 
-      <div className=' homeclass '>
+      <div className=' homeclass relative '>
+           <ParticlesBackground />
 
-        <div className="context  flex items-center justify-center gap-[60px]   ">
+        <div className="context  relative top-[100px]  max-lg:top-[50px] flex items-center justify-center gap-[60px]   ">
           <div className='text-part max-md:p-[16px] '>
             <div className="relative">
               <h1 className="h1tag ">
@@ -400,21 +401,7 @@ const Home = () => {
                 </span>
 
 
-                <img
-                  src={rocket}
-                  alt="Rocket"
-                  className=" hidden absolute  max-sm:hidden top-[90px] max-md:top-[440px] left-[90px] animate-floatUp leftrocket]"
-                />
-
-
-                <div className="hidden  absolute top-[90px] sm:top-[90px] right-[90px] animate-float_Up  max-sm:hidden">
-                  <div className="rotate-[263deg] rightr max-sm:hidden">
-                    <img src={rocket} alt="Rocket" className="rightrocket max-sm:hidden" />
-                  </div>
-                </div>
-
-
-
+              
 
               </h1>
 
@@ -439,14 +426,13 @@ const Home = () => {
 
           </div>
 
-
+ 
         </div>
 
 
 
 
-
-        <div className=" w-[100%] max-w-[1440px]  mx-auto mt-[450px]  flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[400px]">
+        <div className=" w-[100%] max-w-[1440px]  mx-auto mt-[200px]  flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[100px]">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
