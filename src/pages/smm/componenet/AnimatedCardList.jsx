@@ -10,6 +10,9 @@ import Health from "../../home/resources/industries/health.svg";
 import Realstate from "../../home/resources/industries/Real-Estate.svg";
 import Restaurants from "../../home/resources/industries/Restaurants.svg";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const AnimatedCardList = () => {
 
@@ -37,7 +40,7 @@ const AnimatedCardList = () => {
           return (
             <div key={i} className="animated-card2">
               <div className="image_wrapcard2">
-                <img src={ball.icon} className="iconimage" alt={ball.content} />
+                  <LazyLoadImage src={ball.icon} className="iconimage" alt={ball.content} />
               </div>
               <p className="text-[14px] text-[black] font-bold" style={{fontSize:14}}>{ball.content}</p>
 

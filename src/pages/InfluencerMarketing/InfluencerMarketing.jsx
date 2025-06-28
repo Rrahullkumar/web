@@ -11,6 +11,8 @@ import Accordion from './components/Accordian';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const InfluencerMarketing = () => {
   return (
 
@@ -41,7 +43,7 @@ const InfluencerMarketing = () => {
       <div className=" w-100% mx-auto">
         {/* Top Image Banner */}
         {/* <div className="imc1 relative">
-        <img src={topimage} alt="" className="w-full h-auto" />
+          <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
         <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]">
           <span className="text-[#4CAF50]">Influencer</span> Marketing
         </h1>
@@ -57,7 +59,7 @@ const InfluencerMarketing = () => {
         {/* B2B Lead Generation Section */}
         <div className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
 
-          <img src={image1} alt="Best Influencer Marketing Agency" className="max-lg:w-1/2 max-lg:float-right " />
+            <LazyLoadImage src={image1} alt="Best Influencer Marketing Agency" className="max-lg:w-1/2 max-lg:float-right " />
           <div className="imc2left lg:w-[60%] ">
             <h2 className="text-[52px] max-lg:text-[36px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
             <br />
@@ -120,7 +122,7 @@ const InfluencerMarketing = () => {
                 key={index}
                 className="bg-black text-white rounded-lg shadow-lg p-6 max-w-[325px] w-full sm:w-[300px] h-[400px] flex flex-col items-center text-center transition-transform hover:scale-105 duration-300 ease-in-out"
               >
-                <img src={item.image} alt={item.title} className="w-[64px] mb-6 mt-2" />
+                  <LazyLoadImage src={item.image} alt={item.title} className="w-[64px] mb-6 mt-2" />
                 <h3 className="text-lg font-semibold mb-4">{item.title}</h3>
                 <p className="text-base text-gray-300">{item.content}</p>
               </div>
@@ -132,7 +134,7 @@ const InfluencerMarketing = () => {
   <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
     {/* Desktop Image */}
     <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
-      <img src={c5img} alt="Influencer Marketing" className="w-full" />
+        <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
     </div>
 
     {/* Heading, Mobile Image, and Paragraph - All in Same Div */}
@@ -143,7 +145,7 @@ const InfluencerMarketing = () => {
 
       {/* Mobile Image - Visible Only on Mobile */}
       <div className="block lg:hidden mb-8">
-        <img src={c5img} alt="Influencer Marketing" className="w-full" />
+          <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
       </div>
 
       <p className='text-base'>

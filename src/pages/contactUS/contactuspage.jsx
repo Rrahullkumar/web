@@ -8,6 +8,8 @@ import call from './resources/call2.svg';
 import chat from './resources/chat2.svg';
 import location from './resources/location2.svg';
 import Accordion from "./components/Accordian";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const ContactUsPage = () => {
   const mapRef = useRef(null);
@@ -110,7 +112,7 @@ const ContactUsPage = () => {
             transition={{ duration: 0.4 }}
             className="flex flex-col items-start justify-between border border-white/30 backdrop-blur-md bg-white/30 rounded-2xl w-[310px] p-6 gap-6 shadow-xl"
           >
-            <img src={sales} alt="Chat to sales" className="w-10 h-10" />
+              <LazyLoadImage src={sales} alt="Chat to sales" className="w-10 h-10" />
             <div>
               <p className="text-lg font-semibold text-left">Chat to sales</p>
               <p className="text-base mb-4">Speak to our friendly team</p>
@@ -130,7 +132,7 @@ const ContactUsPage = () => {
             transition={{ duration: 0.4, delay: 0.1 }}
             className="flex flex-col items-start justify-between border border-white/30 backdrop-blur-md bg-white/30 rounded-2xl w-[310px] p-6 gap-6 shadow-xl"
           >
-            <img src={chat} alt="Chat to support" className="w-10 h-10" />
+              <LazyLoadImage src={chat} alt="Chat to support" className="w-10 h-10" />
             <div>
               <p className="text-lg font-semibold text-left">Chat to support</p>
               <p className="text-base mb-4">We're here to help</p>
@@ -150,7 +152,7 @@ const ContactUsPage = () => {
             transition={{ duration: 0.4, delay: 0.1 }}
             className="flex flex-col items-start justify-between border border-white/30 backdrop-blur-md bg-white/30 rounded-2xl w-[310px] p-6 gap-6 shadow-xl"
           >
-            <img src={location} alt="Visit our office" className="w-10 h-10" />
+              <LazyLoadImage src={location} alt="Visit our office" className="w-10 h-10" />
             <div>
               <p className="text-lg font-semibold text-left">Visit our office</p>
               <p className="text-base mb-4">Visit our office HQ</p>
@@ -171,7 +173,7 @@ const ContactUsPage = () => {
             transition={{ duration: 0.4, delay: 0.1 }}
             className="flex flex-col items-start justify-between border border-white/30 backdrop-blur-md bg-white/30 rounded-2xl w-[310px] p-6 gap-6 shadow-xl"
           >
-            <img src={call} alt="Call us" className="w-10 h-10" />
+              <LazyLoadImage src={call} alt="Call us" className="w-10 h-10" />
             <div>
               <p className="text-lg font-semibold text-left">Call us</p>
               <p className="text-base mb-4">Speak to our friendly team</p>

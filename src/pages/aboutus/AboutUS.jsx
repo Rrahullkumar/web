@@ -32,6 +32,8 @@ const cards = [
 ];
 
 import  Photoslider  from "./component/Photoslider"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const AboutUS = () => {
 
@@ -87,7 +89,7 @@ const AboutUS = () => {
           </p>
         </div>
         <div className="flex-shrink-0 max-md:w-[80%] max-md:mt-10 max-md: w-max-xl:w-[40%] items-start justify-start">
-          <img
+            <LazyLoadImage
             src={Webnest_Logo}
 
             alt="WebNest Media Logo"
@@ -134,7 +136,7 @@ const AboutUS = () => {
     ">
 
         <div className="flex-shrink-0   max-xl:w-[40%] items-center justify-center">
-          <img
+            <LazyLoadImage
             src={bulb}
             alt="WebNest Media bulb"
              className="lg:w-[85%]"
@@ -170,7 +172,7 @@ const AboutUS = () => {
 <section className="max-w-[1440px] w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-5 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  overflow-hidden">
       {/* Left Side - Team Image and Description */}
       <div className="w-full md:w-1/2 text-center md:text-center">
-        <img
+         <LazyLoadImage
           src={team}
           alt="Team"
           className="mb-6 w-full "

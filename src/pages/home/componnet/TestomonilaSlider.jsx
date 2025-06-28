@@ -10,6 +10,8 @@ import SocialMediaMarketing from "../../home/resources/Socialmediamarketing.svg"
 import WebDevelopment from "../../home/resources/WebDevelopment.svg";
 import EmailMarketing from "../../home/resources/EmailMarketing.svg";
 import maninwhite from "../../home/resources/maninwhite.svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const testimonials = [
   {
@@ -81,7 +83,7 @@ export default function App() {
   const cards = testimonials.slice(index * 3, index * 3 + 3);
 
   return (
-    <div className="bg-gradient-to-br bg-transparent to-gray-900  text-white px-4  sm:px-6 md:px-10">
+    <div className="bg-gradient-to-br bg-transparent to-gray-900  text-white px-4  sm:px-6 md:px-10 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Mobile Headings */}
         <div className="text-start xl:hidden mb-10">
@@ -89,7 +91,7 @@ export default function App() {
           <h2 className="headingstrokesecond">Every Voice Fuels Us.</h2>
         </div>
 
-        <div className="flex flex-col xl:flex-row justify-end gap-10">
+        <div className="flex flex-col xl:flex-row justify-end gap-10 max-md:mb-[60px]">
           <div className="hidden xl:flex flex-col justify-start w-full xl:w-1/2">
             <h2 className="headingstroke">Every Insight Matters.</h2>
             <h2 className="headingstrokesecond">Every Voice Fuels Us.</h2>
@@ -97,7 +99,7 @@ export default function App() {
           </div>
 
           <div
-            className={`flex flex-col md:flex-row gap-10 items-center transition-all duration-500 ${
+            className={`flex flex-col md:flex-row gap-10 items-center py-[5] transition-all duration-500  ${
               animating ? "slide-out-right" : "slide-in-right"
             } w-full xl:w-1/2`}
           >

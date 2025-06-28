@@ -5,6 +5,8 @@ import blog3 from "./resourses/blog3.svg"
 import blog4 from "./resourses/blog4.svg"
 import blog5 from "./resourses/blog5.svg"
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const insight = () => {
 
@@ -58,7 +60,7 @@ const insight = () => {
       <div className=" mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-[15px] justify-center mt-[96px]">
         {posts.map((post, index) => (
           <div key={index} >
-            <img
+              <LazyLoadImage
               src={post.image}
               alt={post.title}
               className="w-full max-h-[420px] object-cover"

@@ -67,7 +67,7 @@ const App = () => {
             <Route path="/customer-retention" element={<Customer />} />
             <Route path="/online-reputation-management" element={<Orm />} />
             <Route path="/digital-transformation" element={<DigitalTranformationservice />} />
-            <Route path="/market-research" element={<MarketingResearch />} />
+            <Route path="/market-research-insights" element={<MarketingResearch />} />
             <Route path="/about-us" element={<About />} />
             <Route path="/contact-us" element={<Conatct />} />
             <Route path="/lead-generation" element={<Leadgeneration />} />

@@ -2,6 +2,9 @@ import React, { useState, useRef } from "react";
 
 import founder from "../resources/founder.svg";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 const slides = [
   {
     image: founder,
@@ -70,7 +73,7 @@ const Photoslider = () => {
         onTouchEnd={handleTouchEnd}
       >
         {slides.map((slide, index) => (
-          <img
+            <LazyLoadImage
             key={index}
             src={slide.image}
             alt={`slide-${index}`}

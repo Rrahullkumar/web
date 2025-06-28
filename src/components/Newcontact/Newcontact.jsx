@@ -1,66 +1,105 @@
-import React from 'react'
-import seocontactimage from "./Resources/mailbox.svg";
-import seocontactphoneicon from "./Resources/seocontactphoneicon.svg";
-import seolocation from "./Resources/seolocation.svg";
-import mailbox from './Resources/mailbox.svg'
-import SeoConatct from './Resources/seoconatct.svg'
+import React from 'react';
+import seocontactimage from './Resources/mailbox.svg';
+import seocontactphoneicon from './Resources/seocontactphoneicon.svg';
+import seolocation from './Resources/seolocation.svg';
+import SeoConatct from './Resources/seoconatct.svg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Newcontact = () => {
   return (
-    <div>
-      <section className=''>
+    <>
+      {/* Custom Background Position for Mobile */}
+      <style>
+        {`
+          @media (max-width: 768px) {
+            .contact-bg {
+              background-position: 90% center !important;
+              background-size: cover !important;
+            }
+          }
+          @media (min-width: 769px) {
+            .contact-bg {
+              background-position: 30% center !important;
+              background-size: cover !important;
+            }
+          }
+        `}
+      </style>
 
-        <div className=" bg-cover bg-center flex  items-center py-10"
+      <section className="relative w-full overflow-hidden">
+        {/* Background Image Layer */}
+        <div
+          className="absolute inset-0 w-full h-full bg-no-repeat bg-cover contact-bg"
           style={{
             backgroundImage: `url(${SeoConatct})`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover", // or "contain" if you want full image visible
- // optional: adjust height as needed
-            width: "100%",
           }}
+          aria-hidden="true"
+        ></div>
 
+        {/* Hidden Lazy Load Image for SEO */}
+        <LazyLoadImage
+          src={SeoConatct}
+          alt="Contact Us image"
+          className="hidden"
+          aria-hidden="true"
+          loading="lazy"
+        />
 
+        {/* Foreground Content */}
+        <div className="relative w-full max-w-7xl mx-auto flex flex-col px-[40px] max-lg:px-4 max-md:px-3 py-10 max-lg:py-6 max-md:py-4">
+          
+          {/* Section Title */}
+          <div className="w-full">
+            <p className="uppercase text-[16px] max-md:text-[14px] font-normal leading-[160%] mb-4 text-white">
+              Contact Us
+            </p>
+            <h6 className="text-[32px] max-lg:text-[24px] max-md:text-[20px] font-normal leading-[130%] text-white mt-5">
+              Let’s make the web talk about
+              <br className="max-md:hidden" />
+              your project
+            </h6>
+          </div>
 
-        >
-          <img src={SeoConatct} alt='ContactUs image' className="hidden" aria-hidden="true" />
+          {/* Sub Heading */}
+          <h3 className="text-[24px] max-lg:text-[20px] max-md:text-[18px] font-normal leading-[130%] text-white mt-12 max-lg:mt-6 max-md:mt-4">
+            Get a Free Consultation
+          </h3>
 
+          {/* Phone */}
+          <div className="flex items-center gap-3 mt-3 max-md:mt-2">
+            <LazyLoadImage src={seocontactphoneicon} alt="Phone" className="w-5 h-5" />
+            <a
+              href="tel:+919696964606"
+              className="text-[24px] max-lg:text-[20px] max-md:text-[18px] font-normal leading-[130%] text-white"
+            >
+              +91 9696964606
+            </a>
+          </div>
 
-          <div className="w-full max-w-7xl  mx-auto flex  flex-col px-[40px]  max-lg:px-[16px] ">
-         
-            <div className="w-full   ">
-              <p className="uppercase text-[16px] font-normal leading-[160%] mb-4 text-[#FFFFFF] ">Contact Us</p>
-              <h6 className="text-[32px] max-lg:text-[24px] font-normal leading-[130%] text-white mt-[1.2rem]">
-                Let’s make the web   talk about  <br className='max-md:hidden' />your   project
-              </h6>
-            </div>
+          {/* Email */}
+          <div className="flex items-center gap-3 mt-2 mb-2">
+            <LazyLoadImage src={seocontactimage} alt="Email" className="w-5 h-5" />
+            <a
+              href="mailto:info@webnest.in"
+              className="text-[18px] max-md:text-[16px] font-normal leading-[130%] text-white"
+            >
+              info@webnestmedia.com
+            </a>
+          </div>
 
-           
-              <h3 className="text-[24px] font-normal leading-[130%] text-white mt-[50px] max-lg:mt-[10px]">Get a Free Consultation</h3>
-
-              <div className="flex items-center gap-3  mt-[9.5px]">
-                <img src={seocontactphoneicon} alt="Phone" className="w-5 h-5" />
-                <a href="tel:+919696964606" className='text-[24px] font-normal leading-[130%] text-white'>+91 9696964606</a>
-              </div>
-
-              <div className="flex items-center gap-3  mt-[7px] mb-[7px]">
-                <img src={seocontactimage} alt="Email" className="w-5 h-5" />
-                <a href="mailto:info@webnest.in" className="underline text-[18px] font-normal leading-[130%] text-white">info@webnestmedia.com</a>
-              </div>
-
-              <div className="flex gap-3 ">
-                <img src={seolocation} alt="Location" className="w-5 h-5 mt-1" />
-                <span className='text-[18px] font-normal leading-[130%] text-white'>
-                  1st Floor Orchid Business Park,<br />
-                  Near Subhash Chowk, Sector 48,<br />
-                  Gurugram, Haryana 122001
-                </span>
-              </div>
-            </div>
-
+          {/* Location */}
+          <div className="flex gap-3 mt-2">
+            <LazyLoadImage src={seolocation} alt="Location" className="w-5 h-5 mt-1" />
+            <span className="text-[18px] max-md:text-[16px] font-normal leading-[130%] text-white">
+              1st Floor Orchid Business Park,<br />
+              Near Subhash Chowk, Sector 48,<br />
+              Gurugram, Haryana 122001
+            </span>
+          </div>
         </div>
       </section>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Newcontact
+export default Newcontact;

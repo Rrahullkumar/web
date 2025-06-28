@@ -33,6 +33,9 @@ import Newcontact from '../../components/Newcontact/Newcontact'
 
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.svg'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Brandmarketing = () => {
 
   const cards = [
@@ -170,7 +173,7 @@ const Brandmarketing = () => {
  <meta property="og:site_name" content="WebNest Media" />
 
     </Helmet>
-    <div className='mt-[77px] max-lg:mt-0 '>
+    <div className=' '>
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "
@@ -195,7 +198,7 @@ const Brandmarketing = () => {
         <div className="flex w-full">
           {images.map((src, index) => (
             <div key={index} className="flex-shrink-0 w-1/6 h-[250px]">
-              <img
+                <LazyLoadImage
                 src={src}
                 alt={`Image ${index + 1}`}
                 className="w-full h-full object-cover"
@@ -212,7 +215,7 @@ const Brandmarketing = () => {
             {/* Duplicate the images to make it seamless */}
             {[...images, ...images].map((src, index) => (
               <div key={index} className="flex-shrink-0 w-[16.666%] h-[250px]">
-                <img
+                  <LazyLoadImage
                   src={src}
                   alt={`Image ${index + 1}`}
                   className="w-full h-full object-cover"
@@ -235,7 +238,7 @@ const Brandmarketing = () => {
 
             {/* Fixed Left Image on Large Screens */}
             <div className="w-full md:w-[540px] lg:sticky lg:top-[200px] self-start">
-              <img
+                <LazyLoadImage
                 src={leftiamge}
                 alt="Real Talk Image"
                 className="w-full h-auto rounded-lg object-cover"
@@ -267,7 +270,7 @@ const Brandmarketing = () => {
                   key={index}
                   className="w-[210px] h-[300px] flex flex-col justify-between items-center  "
                 >
-                  <img
+                    <LazyLoadImage
                     src={card.image}
                     alt={card.title}
                     className="w-[64px] h-[64px] object-contain"
@@ -357,7 +360,7 @@ const Brandmarketing = () => {
               key={index}
               className="w-[325px] flex flex-col justify-center items-center   p-2"
             >
-              <img
+                <LazyLoadImage
                 src={card.image}
                 alt={card.title}
                 className="w-[64px] h-[64px] object-contain "

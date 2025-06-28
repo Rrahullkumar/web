@@ -8,6 +8,8 @@ import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 import Newcontact from '../../components/Newcontact/Newcontact.jsx';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const ContentMarketing = () => {
   const [text, setText] = useState('');
   const words = ['Engage', 'Impact', 'Content'];
@@ -235,7 +237,6 @@ const ContentMarketing = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
- <script type="application/ld+json">
 
  <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
@@ -243,6 +244,7 @@ const ContentMarketing = () => {
   <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
   <meta property="og:site_name" content="WebNest Media" />
+ <script type="application/ld+json">
 
         {JSON.stringify(contentMarketingSchema)}
       </script>
@@ -297,7 +299,7 @@ const ContentMarketing = () => {
 
             {/* Right Image */}
             <div className="max-lg:w-[80%]">
-              <img src={image} alt="Content Strategy Visual" />
+                <LazyLoadImage src={image} alt="Content Strategy Visual" />
             </div>
           </div>
         </div>

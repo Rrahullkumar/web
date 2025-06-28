@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
     return (
@@ -50,7 +52,7 @@ const TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
 
                                 {/* Pushes Footer to Bottom */}
                                 <div className="flex items-center gap-5 border-t border-gray-200 pt-5 mt-auto">
-                                    <img className="rounded-full h-10 w-10 object-cover" src={item.avatar} alt={item.name} />
+                                      <LazyLoadImage className="rounded-full h-10 w-10 object-cover" src={item.avatar} alt={item.name} />
                                     <div>
                                         <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">{item.name}</h5>
                                         <span className="text-sm leading-4 text-gray-500">{item.designation}</span>

@@ -20,6 +20,8 @@ import { Helmet } from 'react-helmet';
 import Newcontact from '../../components/Newcontact/Newcontact';
 import c1image from './resourse/c1image.svg'
 import HeroSection from '../../components/Herosection/Herosection';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Orm = () => {
   const services = [
     {
@@ -114,7 +116,7 @@ const Orm = () => {
 
         {/* 
       <section>
-        <img src={bannerimage} />
+          <LazyLoadImage src={bannerimage} />
       </section> */}
 
         {/* <section className='text-center h-[80px] '>
@@ -144,7 +146,7 @@ const Orm = () => {
               {/* Paragraph with Floating Image on Mobile */}
               <p className='text-base '>
                 {/* Float only on Mobile */}
-                <img
+                  <LazyLoadImage
                   src={timer}
                   alt="Online Reputation"
                   className='w-[35%] lg:hidden max-lg:mt-3 float-right ml-4 mb-4 rounded-[20px] max-lg:block max-lg:float-right max-lg:w-[55%] max-lg:h-72'
@@ -169,7 +171,7 @@ const Orm = () => {
 
             {/* Image for Desktop (Hidden on Mobile) */}
             <div className="w-[35%] max-lg:hidden">
-              <img
+                <LazyLoadImage
                 src={timer}
                 alt=" ORM services"
                 className='w-full h-auto rounded-[20px] object-contain'
@@ -207,7 +209,7 @@ const Orm = () => {
                 return (
                   <div key={index} className="flex items-start max-md:flex-col gap-4 mb-7 ">
 
-                    <img
+                      <LazyLoadImage
                       src={service.image}
                       alt={service.title}
                       className="w-[61px] h-[52px] object-cover rounded-lg"
@@ -243,7 +245,7 @@ const Orm = () => {
 
     {/* Image - Mobile position */}
     <div className="w-full flex justify-center mt-6 mb-6 lg:hidden">
-      <img
+        <LazyLoadImage
         src={iot}
         alt="Business Needs Reputation Management"
         className="w-full max-w-[440px] h-auto rounded-lg object-contain"
@@ -277,7 +279,7 @@ const Orm = () => {
 
   {/* Image - Desktop position */}
   <div className="w-full lg:w-[40%] flex justify-center lg:justify-center lg:flex">
-    <img
+      <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"
       className="w-full max-w-[440px] h-auto rounded-lg object-contain"

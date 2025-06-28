@@ -19,6 +19,8 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import { Helmet } from 'react-helmet';
 // import HeroSection from '../../components/Herosection/Herosection';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const MarketingResearch = () => {
 
@@ -69,7 +71,7 @@ const MarketingResearch = () => {
 
           {/* Mobile Image Below Heading */}
           <div className="block lg:hidden w-[80%] mx-auto mt-6 mb-6">
-            <img src={c1image} alt="Market Research" className="w-full h-auto rounded-lg" />
+              <LazyLoadImage src={c1image} alt="Market Research" className="w-full h-auto rounded-lg" />
           </div>
 
           {/* Paragraph */}
@@ -86,7 +88,7 @@ const MarketingResearch = () => {
 
         {/* Desktop Image */}
         <div className="mr1right hidden lg:block">
-          <img src={c1image} alt="WebNest Media Market Research" />
+            <LazyLoadImage src={c1image} alt="WebNest Media Market Research" />
         </div>
 
       </div>
@@ -95,24 +97,24 @@ const MarketingResearch = () => {
         <div className="flex flex-col lg:flex-row gap-10 justify-between lg:items-start">
           <div className="mrcard flex flex-col gap-12 items-center max-lg:border-b max-lg:p-8 ">
 
-            <img src={icon1} className='w-24' alt="Understand Customer Needs" />
+              <LazyLoadImage src={icon1} className='w-24' alt="Understand Customer Needs" />
             <p className='text-2xl max-lg:text- font-semibold text-center lg:w-[70%]'>Understand Customer Needs</p>
           </div>
           <div className="mrcard flex flex-col gap-12 items-center max-lg:border-b max-lg:p-8 ">
-            <img src={icon2} className='w-24' alt="Track Market Trends" />
+              <LazyLoadImage src={icon2} className='w-24' alt="Track Market Trends" />
             <p className='text-2xl font-semibold text-center lg:w-[70%]'> Track Market Trends</p>
           </div>
           <div className="mrcard flex flex-col gap-12 items-center">
-            <img src={icon3} className='w-24' alt="Know Your Competitors" />
+              <LazyLoadImage src={icon3} className='w-24' alt="Know Your Competitors" />
             <p className='text-2xl font-semibold text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Know Your Competitors</p>
 
           </div>
           <div className="mrcard flex flex-col gap-12 items-center">
-            <img src={icon4} className='w-24' alt="Reduce Business Risks" />
+              <LazyLoadImage src={icon4} className='w-24' alt="Reduce Business Risks" />
             <p className='text-2xl font-semibold text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Reduce Business Risks</p>
           </div>
           <div className="mrcard flex flex-col gap-12 items-center">
-            <img src={icon5} className='w-24' alt="Fuel Business Growth" />
+              <LazyLoadImage src={icon5} className='w-24' alt="Fuel Business Growth" />
             <p className='text-2xl font-semibold text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Fuel Business Growth</p>
 
           </div>
@@ -136,7 +138,7 @@ const MarketingResearch = () => {
               </p>
             </div>
             <div className="mright  ">
-              <img src={m3image} className='w-[80%]' alt="Telephone Surveys" />
+                <LazyLoadImage src={m3image} className='w-[80%]' alt="Telephone Surveys" />
             </div>
           </div>
         </div>
@@ -161,7 +163,7 @@ const MarketingResearch = () => {
               </p>
             </div>
             <div className="mr4ight ">
-              <img src={m5img} alt="face to face Surveys" />
+                <LazyLoadImage src={m5img} alt="face to face Surveys" />
             </div>
           </div>
         </div>
@@ -183,7 +185,7 @@ const MarketingResearch = () => {
             </p>
           </div>
           <div className="mr5ight  ">
-            <img src={m6img} alt="Mobile Surveys" />
+              <LazyLoadImage src={m6img} alt="Mobile Surveys" />
           </div>
         </div>
       </section>
@@ -205,7 +207,7 @@ const MarketingResearch = () => {
               </p>
             </div>
             <div className="mr4ight ">
-              <img src={m66img} alt="Mobile-optimized surveys" />
+                <LazyLoadImage src={m66img} alt="Mobile-optimized surveys" />
             </div>
           </div>
         </div>
@@ -227,7 +229,7 @@ const MarketingResearch = () => {
             </p>
           </div>
           <div className="mr7ight  ">
-            <img src={m7img} alt="Mail Surveys" />
+              <LazyLoadImage src={m7img} alt="Mail Surveys" />
           </div>
         </div>
       </section>
@@ -247,7 +249,7 @@ const MarketingResearch = () => {
             </p>
           </div>
           <div className="mr7ight  ">
-            <img src={m8img} alt="Panel Surveys" />
+              <LazyLoadImage src={m8img} alt="Panel Surveys" />
           </div>
         </div>
       </section>

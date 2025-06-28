@@ -5,6 +5,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import "./slider.css";
 
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const ImageSlider = ({ slides, autoSlideInterval = 4000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef(null);
@@ -44,7 +47,7 @@ const ImageSlider = ({ slides, autoSlideInterval = 4000 }) => {
           >
             {/* Left: Image */}
             <div className="w-full sm:w-1/2 h-60 sm:h-full p-4 sm:p-6 flex items-center justify-center">
-              <img
+                <LazyLoadImage
                 src={slide.image}
                 alt={slide.Heading}
                 className="object-contain rounded-lg max-h-[250px] sm:max-h-[400px] w-full"

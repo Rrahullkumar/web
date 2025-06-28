@@ -8,6 +8,8 @@ import blacklogo from '../../assets/blacklogo.svg';
 import { Link } from 'react-router-dom';
 
 import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const Footer = () => {
   return (
@@ -22,7 +24,7 @@ const Footer = () => {
 
           <div className="">
             < Link to={"/"} >
-              <img src={blacklogo} alt="WebNest Media Logo" className="w-[186px] " />
+                <LazyLoadImage src={blacklogo} alt="WebNest Media Logo" className="w-[186px] " />
             </Link>
 
           </div>
@@ -92,7 +94,7 @@ const Footer = () => {
   {/* Logo Section */}
   <div className="flex   ">
     <Link to="/">
-      <img
+        <LazyLoadImage
         src={blacklogo}
         alt="WebNest Media Logo"
         className="w-[186px]"
@@ -210,17 +212,17 @@ const Footer = () => {
               { label: 'Customer Retention', path: '/customer-retention' },
               { label: 'Digital Transformation', path: '/digital-transformation' },
               { label: 'Market Research & Insights', path: '/market-research-insights' },
-              { label: 'Online Reputation Marketing', path: '/online-reputation-managment' },
+              { label: 'Online Reputation Marketing', path: '/online-reputation-management' },
             ]}
           />
 
           <FooterSection
             title="Promotions"
             items={[
-              { label: 'Email Marketing', path: '/' },
-              { label: 'Mobile Marketing', path: '/' },
-              { label: 'Influencer Marketing', path: '/' },
-              { label: 'SMS Marketing', path: '/' },
+              { label: 'Email Marketing', path: '/email-marketing' },
+              { label: 'Mobile Marketing', path: '/mobile-marketing' },
+              { label: 'Influencer Marketing', path: '/influencer-marketing' },
+              { label: 'SMS Marketing', path: '/sms-marketing' },
             ]}
           />
 

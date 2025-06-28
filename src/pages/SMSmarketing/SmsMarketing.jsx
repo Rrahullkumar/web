@@ -12,6 +12,9 @@ import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection' 
 import Newcontact from '../../components/Newcontact/Newcontact'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const SmsMarketing = () => {
 
 
@@ -49,7 +52,7 @@ const SmsMarketing = () => {
     <div className=' w-[100%] mx-auto'>
        {/* <div className="smsc1 relative">
         
-            <img src={topimage} alt="" className="w-full h-auto" />
+              <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
 
   
             <div className="absolute inset-0 bg-black opacity-40"></div>
@@ -68,7 +71,7 @@ const SmsMarketing = () => {
                     />
             </div>
         <div className="smsc2 max-w-[1440px] mt-24 max-lg:mt-10 px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
-            <img src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
+              <LazyLoadImage src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
             
             <div className="smsc2left lg:w-[50%] ">
                 <h2 className='text-[52px] max-lg:text-[34px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
@@ -78,7 +81,7 @@ const SmsMarketing = () => {
         </div>
         <div className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-28">
             
-                <img src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
+                  <LazyLoadImage src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
             
             <div className="smsc3right lg:w-[60%]">
                 <h2 className='text-[52px] max-lg:text-[32px]  mb-9 font-semibold'> WebNest Media  The SMS Marketing Agency in Gurgaon</h2>
@@ -101,42 +104,42 @@ const SmsMarketing = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center ">
                     {/* Card 1 */}
                     <div className="bg-[#4CAF50] text-white p-6  flex flex-col shadow-md text-center items-center">
-                    <div className="text-3xl mb-3"><img src={icon1} alt="" /></div>
+                    <div className="text-3xl mb-3">  <LazyLoadImage src={icon1} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Bulk SMS Campaigns</h3>
                     <p>Send out your messages to a large audience quickly and reliably. Perfect for announcements, deals, or important updates to all your subscribers at once.</p>
                     </div>
 
                     {/* Card 2 */}
                     <div className="bg-[#EEC370] text-white p-6 flex flex-col shadow-md text-center items-center">
-                     <div className="text-3xl mb-3"><img src={icon2} alt="" /></div>
+                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon2} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Tailored Customer Texts</h3>
                     <p>Go beyond generic texts. We help you send unique messages tailored to each customer’s preferences and behavior, making every text feel special.</p>
                     </div>
 
                     {/* Card 3 */}
                     <div className="bg-[#4CAF50] text-white p-6 flex flex-col shadow-md text-center items-center">
-                     <div className="text-3xl mb-3"><img src={icon3} alt="" /></div>
+                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon3} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Automated Journey Flows</h3>
                     <p>Set up smart, automated text sequences that trigger based on customer actions. Think welcome messages, abandoned cart reminders, or timely follow-ups, all on autopilot.</p>
                     </div>
 
                     {/* Card 4 */}
                     <div className="bg-[#EEC370] text-white p-6 flex flex-col shadow-md text-center items-center">
-                     <div className="text-3xl mb-3"><img src={icon4} alt="" /></div>
+                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon4} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Precision Targeted Offers</h3>
                     <p>Reach the right people at the right time. We help you segment your audience and send highly specific offers to groups most likely to convert, maximizing your ROI.</p>
                     </div>
 
                     {/* Card 5 */}
                     <div className="bg-[#4CAF50] text-white p-6 flex flex-col shadow-md text-center items-center">
-                     <div className="text-3xl mb-3"><img src={icon5} alt="" /></div>
+                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon5} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Transactional Updates</h3>
                     <p>Keep customers informed with essential real-time notifications. This includes order confirmations, shipping alerts, appointment reminders, and other crucial updates.</p>
                     </div>
 
                     {/* Card 6 */}
                     <div className="bg-[#EEC370] text-white p-6 flex flex-col shadow-md text-center items-center">
-                     <div className="text-3xl mb-3"><img src={icon6} alt="" /></div>
+                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon6} alt="" /></div>
                     <h3 className="text-lg font-semibold mb-2">Quick Feedback & Surveys</h3>
                     <p>Gather valuable insights directly from your customers. Easily send short surveys or requests for feedback via text, making it simple for them to share their thoughts.</p>
                     </div>

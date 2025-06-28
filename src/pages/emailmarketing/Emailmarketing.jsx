@@ -10,6 +10,9 @@ import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
 import Newcontact from '../../components/Newcontact/Newcontact'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Emailmarketing = () => {
   return (
 
@@ -43,7 +46,7 @@ const Emailmarketing = () => {
       <div className=' '>
         {/* <div className="emailc1 relative">
  
-                  <img src={topimage} alt="" className="w-full h-auto" />
+                    <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
       
 
                   <div className="absolute inset-0 bg-black opacity-60"></div>
@@ -80,7 +83,7 @@ const Emailmarketing = () => {
               </div>
 
               <div className="amlef max-lg:w-[80%] mb-4">
-                <img src={c2image} alt="Email Marketing Visual" className="" />
+                  <LazyLoadImage src={c2image} alt="Email Marketing Visual" className="" />
               </div>
 
             </div>
@@ -180,7 +183,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon1} alt=" Specialized Expertise" className="w-16 h-16 object-contain" />
+                  <LazyLoadImage src={icon1} alt=" Specialized Expertise" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center ">
@@ -194,7 +197,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon2} alt="    Reclaim Your Valuable Time & Resources" className="w-16 h-16 object-contain" />
+                  <LazyLoadImage src={icon2} alt="    Reclaim Your Valuable Time & Resources" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center">
@@ -208,7 +211,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon3} alt="                  Access Cutting-Edge Tools & Technology
+                  <LazyLoadImage src={icon3} alt="                  Access Cutting-Edge Tools & Technology
 " className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
@@ -223,7 +226,7 @@ const Emailmarketing = () => {
 
             <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
-                <img src={icon4} alt=" Drive Data-Backed Performance & ROI" className="w-16 h-16 object-contain" />
+                  <LazyLoadImage src={icon4} alt=" Drive Data-Backed Performance & ROI" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col items-center gap-4 flex-1">
                 <h3 className="text-2xl font-semibold text-center">

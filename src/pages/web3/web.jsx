@@ -14,6 +14,8 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.svg";
 
+
+
 const webDevelopmentSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -232,7 +234,7 @@ const web = () => {
           <div className="w-full md:w-1/2 flex justify-center items-center relative mt-10 md:mt-0">
             {/* Main circle image placeholder */}
             <div className="w-64 h-64  bg-gray-300 rounded-full flex items-center justify-center relative z-10">
-              {/* <img src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
+              {/*   <LazyLoadImage src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
             </div>
 
             {/* Background blob shapes */}
@@ -250,7 +252,7 @@ const web = () => {
           {/* Left Circle Image Placeholder */}
           <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
             <div className="w-64 h-64 max-lg:hidden bg-gray-300 rounded-full flex items-center justify-center relative z-10">
-              {/* <img src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
+              {/*   <LazyLoadImage src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
             </div>
           </div>
           {/* Right Content */}
@@ -437,7 +439,7 @@ const web = () => {
               {/* Step 1 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/* <img src="/icons/chat.svg" alt="Consultation" className="w-8 h-8" /> */}
+                  {/*   <LazyLoadImage src="/icons/chat.svg" alt="Consultation" className="w-8 h-8" /> */}
                   <SiConsul className='w-[30px] h-[30px] ' />
                 </div>
                 <h3 className="font-semibold text-[#2d2d2d] mb-2">Consultation</h3>
@@ -449,7 +451,7 @@ const web = () => {
               {/* Step 2 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-[white] rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/* <img src="/icons/tools.svg" alt="Creation" className="w-8 h-8" /> */}
+                  {/*   <LazyLoadImage src="/icons/tools.svg" alt="Creation" className="w-8 h-8" /> */}
                   <MdMovieCreation className='w-[30px] h-[30px] ' />
 
                 </div>
@@ -463,7 +465,7 @@ const web = () => {
               {/* Step 3 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/* <img src="/icons/settings.svg" alt="Implementation" className="w-8 h-8" /> */}
+                  {/*   <LazyLoadImage src="/icons/settings.svg" alt="Implementation" className="w-8 h-8" /> */}
                   <FaHandshakeSimple  className='w-[30px] h-[30px] '/>
                 </div>
                 <h3 className="font-semibold text-[#2d2d2d] mb-2">Implementation</h3>
@@ -475,7 +477,7 @@ const web = () => {
               {/* Step 4 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/* <img src="/icons/bulb.svg" alt="Optimization" className="w-8 h-8" /> */}
+                  {/*   <LazyLoadImage src="/icons/bulb.svg" alt="Optimization" className="w-8 h-8" /> */}
                   <GrOptimize className='w-[30px] h-[30px] ' />
                 </div>
                 <h3 className="font-semibold text-[#2d2d2d] mb-2">Optimization</h3>

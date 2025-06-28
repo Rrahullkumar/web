@@ -27,6 +27,8 @@ import shopifyIcon from "./resources/sads.svg";
 import remarketingIcon from "./resources/rads.svg";
 import youtubeIcon from "./resources/yads.svg";
 import displayIcon from "./resources/dads.svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const adsData = [
   { icon: googleIcon, label: "Google ads" },
@@ -61,7 +63,7 @@ const Sem = () => {
             <div className='flex flex-row lg:h-[300px] items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
 
               <div className='w-full '>
-                <img src={PPC} alt="Pap Per click" />
+                  <LazyLoadImage src={PPC} alt="Pap Per click" />
               </div>
 
               <div className=' '>
@@ -80,7 +82,7 @@ const Sem = () => {
 
               <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
                 <div className="mb-6">
-                  <img src={icon1} alt=" Instant Exposure" className="w-16 h-16 object-contain" />
+                    <LazyLoadImage src={icon1} alt=" Instant Exposure" className="w-16 h-16 object-contain" />
                 </div>
                 <div className="flex flex-col items-center gap-4 flex-1">
                   <h3 className="text-2xl font-semibold text-center ">
@@ -94,7 +96,7 @@ const Sem = () => {
 
               <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
                 <div className="mb-6">
-                  <img src={icon2} alt="Specific Audience" className="w-16 h-16 object-contain" />
+                    <LazyLoadImage src={icon2} alt="Specific Audience" className="w-16 h-16 object-contain" />
                 </div>
                 <div className="flex flex-col items-center gap-4 flex-1">
                   <h3 className="text-2xl font-semibold text-center">
@@ -108,7 +110,7 @@ const Sem = () => {
 
               <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
                 <div className="mb-6">
-                  <img src={icon3} alt="Budgeting" className="w-16 h-16 object-contain" />
+                    <LazyLoadImage src={icon3} alt="Budgeting" className="w-16 h-16 object-contain" />
                 </div>
                 <div className="flex flex-col items-center gap-4 flex-1">
                   <h3 className="text-2xl font-semibold text-center">
@@ -122,7 +124,7 @@ const Sem = () => {
 
               <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
                 <div className="mb-6">
-                  <img src={icon4} alt="Measurable" className="w-16 h-16 object-contain" />
+                    <LazyLoadImage src={icon4} alt="Measurable" className="w-16 h-16 object-contain" />
                 </div>
                 <div className="flex flex-col items-center gap-4 flex-1">
                   <h3 className="text-2xl font-semibold text-center">
@@ -145,7 +147,7 @@ const Sem = () => {
                       key={index}
                       className="flex flex-col items-center justify-center space-y-2"
                     >
-                      <img
+                        <LazyLoadImage
                         src={item.icon}
                         alt={item.label}
                         className="w-[176px] h-[108px] object-contain"
@@ -218,7 +220,7 @@ const Sem = () => {
           <section className='pb-[96px]'>
             <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
               <div className='w-full'>
-                <img src={bid} alt="" className='w-full' />
+                  <LazyLoadImage src={bid} alt="" className='w-full' />
               </div>
 
               <div>
@@ -270,7 +272,7 @@ const Sem = () => {
         <>
           <section className='pb-[96px]'>
             <div className='flex flex-row items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
-              <img src={analytics} alt="analytics-image" className='w-full' />
+                <LazyLoadImage src={analytics} alt="analytics-image" className='w-full' />
               <div>
                 <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
                   What is Performance Tracking and Analytics?
@@ -319,7 +321,7 @@ const Sem = () => {
           <section className='pb-[96px]'>
             <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
               <div className='w-full'>
-                <img src={ads} alt="add creation and Optimization" className='w-full' />
+                  <LazyLoadImage src={ads} alt="add creation and Optimization" className='w-full' />
               </div>
 
               <div>
@@ -365,7 +367,7 @@ const Sem = () => {
           <section className='pb-[96px]'>
             <div className='flex flex-row items-center justify-center gap-[131px] max-lg:flex-col max-lg:gap-5'>
               <div className='w-full'>
-                <img src={KeywordTargeting} alt="KeywardTargeting" className='w-full' />
+                  <LazyLoadImage src={KeywordTargeting} alt="KeywardTargeting" className='w-full' />
               </div>
 
               <div>
@@ -646,7 +648,7 @@ const Sem = () => {
               </p>
             </div>
             <div className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
-              <img src={semlogo} alt='WebNest Logo' />
+                <LazyLoadImage src={semlogo} alt='WebNest Logo' />
             </div>
           </div>
           <div className=" flex gap-2 mt-8 max-lg:mt-12 ">
@@ -741,7 +743,7 @@ const Sem = () => {
 
                 {/* Image should come here on mobile */}
                 <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto lg:hidden mt-6">
-                  <img src={redlady} alt="Top Sem" className='mx-auto w-[70%]' />
+                    <LazyLoadImage src={redlady} alt="Top Sem" className='mx-auto w-[70%]' />
                 </div>
 
                 <p id="" className='text-base mt-[36px] font-manrope'>
@@ -756,7 +758,7 @@ const Sem = () => {
 
               {/* Image - only for large screens */}
               <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto  lg:flex order-2">
-                <img src={redlady} alt='Search-Engine-Marketing-Company-in-Gurgaon' className='mx-auto w-[70%]' />
+                  <LazyLoadImage src={redlady} alt='Search-Engine-Marketing-Company-in-Gurgaon' className='mx-auto w-[70%]' />
               </div>
 
             </div>

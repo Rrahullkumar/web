@@ -14,6 +14,9 @@ import HeroSection from '../../components/Herosection/Herosection.jsx';
 import { FiPhone } from "react-icons/fi";
 import heroimage from './resources/heroimage.svg'
 import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Affilatemarketing = () => {
 
   const [text, setText] = useState('');
@@ -224,7 +227,7 @@ const Affilatemarketing = () => {
 
       {/* Mobile View Image */}
       <div className="lg:hidden w-full flex justify-center my-6">
-        <img src={amc2img} alt="Woman with laptop" className="max-lg:w-[80%]" />
+          <LazyLoadImage src={amc2img} alt="Woman with laptop" className="max-lg:w-[80%]" />
       </div>
 
       {/* Paragraph */}
@@ -253,7 +256,7 @@ const Affilatemarketing = () => {
 
     {/* Right Section: Image Vertically Centered on Desktop */}
     <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
-      <img src={amc2img} alt="Woman with laptop" />
+        <LazyLoadImage src={amc2img} alt="Woman with laptop" />
     </div>
 
   </div>
@@ -281,7 +284,7 @@ const Affilatemarketing = () => {
             <div className="flex max-lg:flex-col justify-between lg:Lgap-5 items-center">
               {/* Image */}
               <div className="max-lg:mb-[40px] flex justify-center lg:w-[40%]">
-                <img src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
+                  <LazyLoadImage src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
               </div>
 
               {/* Cards */}
@@ -371,7 +374,7 @@ const Affilatemarketing = () => {
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
 
               <div className="w-[64px] h-[64px]">
-                <img src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
+                  <LazyLoadImage src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Strategic Partner <br /> Selection
@@ -384,7 +387,7 @@ const Affilatemarketing = () => {
             {/* Card 2 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
+                  <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Customized Campaign Setup
@@ -397,7 +400,7 @@ const Affilatemarketing = () => {
             {/* Card 3 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
+                  <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Performance Tracking & Optimization
@@ -410,7 +413,7 @@ const Affilatemarketing = () => {
             {/* Card 4 */}
             <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
+                  <LazyLoadImage src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Transparent <br /> Reporting
@@ -423,7 +426,7 @@ const Affilatemarketing = () => {
             {/* Card 5 */}
             <div className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
-                <img src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
+                  <LazyLoadImage src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
               </div>
               <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
                 Ethical, Scalable <br /> Growth
@@ -456,7 +459,7 @@ const Affilatemarketing = () => {
 
               {/* Mobile View Image */}
               <div className="lg:hidden w-full flex justify-center my-6">
-                <img src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
+                  <LazyLoadImage src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
               </div>
 
               {/* Paragraph */}
@@ -469,7 +472,7 @@ const Affilatemarketing = () => {
 
             {/* Right Section: Image Vertically Centered */}
             <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
-              <img src={image} alt="Woman with laptop" />
+                <LazyLoadImage src={image} alt="Woman with laptop" />
             </div>
 
           </div>

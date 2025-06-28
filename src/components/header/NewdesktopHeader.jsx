@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import newlogo from "../../assets/newlogo.svg";
 import mobilehedaer from "../../assets/headerbuld.svg";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 const menuItems = [
   { title: "About Us", path: "/about-us" },
   {
@@ -38,7 +41,7 @@ const menuItems = [
           { title: "Lead Generation", path: "/lead-generation" },
           { title: "Customer Retention", path: "/customer-retention" },
           { title: "Digital Transformation", path: "/digital-transformation" },
-          { title: "Market Research & Insights", path: "/market-research" },
+          { title: "Market Research & Insights", path: "/market-research-insights" },
         ],
       },
     ],
@@ -82,7 +85,7 @@ export default function NewdesktopHeader() {
       <div className="max-w-[1440px] w-full mx-auto ">
         <div className="flex items-center justify-between px-4 py-4 max-xl:px-4">
             <Link to="/">
-              <img src={newlogo} alt="WebNest Media Logo" className="w-[152px] cursor-pointer" />
+                <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-[152px] cursor-pointer" />
             </Link>
           
 
@@ -152,7 +155,7 @@ export default function NewdesktopHeader() {
                           </div>
                         ))}
                         <div className="hidden md:block">
-                          <img
+                            <LazyLoadImage
                             src={mobilehedaer}
                             alt="Decorative"
                             className="w-[200px] h-auto object-cover"

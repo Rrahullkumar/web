@@ -19,6 +19,9 @@ import tabimage2 from './resources/Rectangle2.svg'
 import tabimage3 from './resources/Rectangle3.svg'
 import tabimage4 from './resources/Rectangle4.svg'
 import tabimage5 from './resources/Rectangle5.svg'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const MobileMarketing = () => {
     const [activeTab, setActiveTab] = useState(0);
     const [prevTab, setPrevTab] = useState(0);
@@ -313,7 +316,7 @@ const MobileMarketing = () => {
                     />
                 </div>
                 <div className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
-                    <img src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
+                      <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
@@ -395,7 +398,7 @@ const MobileMarketing = () => {
 
                                             {/* Image Section */}
                                             <div className="lg:w-[40%] w-full flex justify-center px-4 lg:px-8">
-                                                <img
+                                                  <LazyLoadImage
                                                     src={tabsContent[activeTab].image}
                                                     alt="Mobile Marketing"
                                                     className="w-full h-auto rounded-lg object-contain"
@@ -428,22 +431,22 @@ const MobileMarketing = () => {
 
                         <div className="grid grid-cols-4 max-md:grid-cols-1 gap-8 mb-16 px-4">
                             <div className='flex flex-col items-center text-center'>
-                                <img src={icon1} alt="" className='p-6' />
+                                  <LazyLoadImage src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
                                 <p className="text-gray-600 w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
                             </div>
                             <div className='flex flex-col items-center  text-center'>
-                                <img src={icon2} alt="" className='p-6'></img>
+                                  <LazyLoadImage src={icon2} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
                                 <p className="text-gray-600 w-[78%]">Our strategies deliver measurable results and high ROI.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
-                                <img src={icon3} alt="" className='p-6'></img>
+                                  <LazyLoadImage src={icon3} alt="" className='p-6' /> 
                                 <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
                                 <p className="text-gray-600 w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
-                                <img src={icon4} alt="" className='p-6'></img>
+                                  <LazyLoadImage src={icon4} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6">Dedicated Support</h4>
                                 <p className="text-gray-600 w-[78%]">A driven group of people who care about your success.</p>
                             </div>

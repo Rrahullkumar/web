@@ -1,8 +1,7 @@
 
-
-
 import React, { useState, useEffect, useRef } from "react";
 import "./contactform.css";
+
 
 const ContactForm = () => {
   const [submitting, setSubmitting] = useState(false);

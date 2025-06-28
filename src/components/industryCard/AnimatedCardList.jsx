@@ -14,6 +14,7 @@ import Retailers from "./industries/Retailers.svg";
 import Startups from "./industries/Startups.svg";
 import Technology from "./industries/Technology.svg";
 import Travel from "./industries/Travel.svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AnimatedCardList = () => {
   const wrapperRef = useRef(null);
@@ -64,7 +65,7 @@ const AnimatedCardList = () => {
               style={{ '--animation-delay': `${i * 0.2}s` }}
             >
               <div className="image_wrapcard1">
-                <img src={ball.icon} alt={ball.content} />
+                  <LazyLoadImage src={ball.icon} alt={ball.content} />
               </div>
               <p className="text-[14px] text-black font-bold">{ball.content}</p>
             </div>

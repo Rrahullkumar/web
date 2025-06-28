@@ -37,6 +37,8 @@ import seolocation from "./resources/seolocation.svg";
 import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
 import Newcontact from '../../components/Newcontact/Newcontact.jsx';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const Seo = () => {
 
@@ -434,7 +436,7 @@ const Seo = () => {
 
           {/* Mobile Image Below Heading */}
           <div className="block lg:hidden w-[80%] mx-auto mt-8 mb-6">
-            <img src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
+              <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
           
           
           </div>
@@ -457,7 +459,7 @@ const Seo = () => {
 
             {/* Desktop Image */}
             <div className="max-w-[440px] w-full flex flex-col gap-6 max-lg:hidden justify-center ">
-              <img src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
+                <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
             </div>
 
           </div>
@@ -580,7 +582,7 @@ const Seo = () => {
                 <div className="absolute bottom-0 left-0 w-12 h-12  border-b-2 border-l-2 border-[#0000008]" />
                 <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
 
-                <div className="flex justify-center  "> <img src={item.icon} alt={item.title} className='w-[64px] h-[64px]' /></div>
+                <div className="flex justify-center  ">   <LazyLoadImage src={item.icon} alt={item.title} className='w-[64px] h-[64px]' /></div>
               
               
                 <h3 className="font-bold leading-[120%] text-[#000000] text-[24px]  mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>

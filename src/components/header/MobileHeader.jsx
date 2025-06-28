@@ -30,7 +30,7 @@ const menuItems = [
       { title: "Lead Generation", path: "/lead-generation" },
       { title: "Customer Retention", path: "/customer-retention" },
       { title: "Digital Transformation", path: "/digital-transformation" },
-      { title: "Market Research & Insights", path: "/market-research" },
+      { title: "Market Research & Insights", path: "/market-research-insights" },
  
   ]
   },

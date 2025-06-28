@@ -71,6 +71,9 @@ import Houseforever from "../../pages/home/resources/Houseforever.svg";
 import ParticlesBackground from "../../components/ParticlesBackground";
 import Newcontact from "../../components/Newcontact/Newcontact";
 
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const images = [
   { src: Monday, name: "Monday" },
   { src: Notion, name: "Notion" },
@@ -386,12 +389,13 @@ const Home = () => {
 
       </Helmet>
 
-      <div className=' homeclass relative '>
-           <ParticlesBackground />
+      <div className=' homeclass  '>
 
-        <div className="context  relative top-[100px]  max-lg:top-[50px] flex items-center justify-center gap-[60px]   ">
+
+        <div className="flex items-center justify-center gap-[60px] h-[90vh]  max-md:h-[50vh] overflow-hidden  ">
+          <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
-            <div className="relative">
+            <div className="">
               <h1 className="h1tag ">
                 <span>Best </span>
                 <span className="text-[#409338] floating-text">Digital Marketing</span> <br />
@@ -400,18 +404,8 @@ const Home = () => {
                   Agency with
                   <span className="text-[#409338] floating-text-two pl-3 inline-block"> Smart Strategies </span>
                 </span>
-
-
-              
-
               </h1>
-
-
             </div>
-
-
-
-
 
             <h2 className='h2tag text-[black]'>Where strategy meets trust to fuel digital growth</h2>
 
@@ -419,21 +413,20 @@ const Home = () => {
 
             <strong className='text-[grey] trust '>Trusted by 2,000+ local brands and businesses</strong>
 
-            <div className='text-center flex items-center justify-center'>
-              <img src={client} alt="Client Logo" />
-            </div>
 
+
+
+            <div className='text-center flex items-center justify-center'>
+              <LazyLoadImage src={client} alt="Client Logo" />
+            </div>
 
 
           </div>
 
- 
+
         </div>
 
-
-
-
-        <div className=" w-[100%] max-w-[1440px]  mx-auto mt-[200px]  flex flex-col-reverse lg:flex-row items-center justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 max-lg:mt-[100px]">
+        <div className=" w-[100%] max-w-[1440px]  max-lg:mt-[10px] flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
@@ -446,21 +439,28 @@ const Home = () => {
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
-           <Link to={"/contact-us"}>
-            <button className="bg-[#5c945c] text-white rounded-md px-6 py-3 max-md:py-1 max-md:px-2 hover:bg-[#4f834f] transition">
-              Get Started
-            </button>
-           </Link> 
+            <Link to={"/contact-us"}>
+              <button className="bg-[#5c945c] text-white rounded-md px-6 py-3 max-md:py-1 max-md:px-2 hover:bg-[#4f834f] transition">
+                Get Started
+              </button>
+            </Link>
           </div>
 
 
-          <div className="w-1/2 lg:w-1/2 flex items-center justify-end  max-lg:hidden">
-            <img
+          {/* <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
+              <LazyLoadImage
               src={marketingbanner}
               alt="Marketing Banner"
               className="w-[400px] h-[400px] object-contain"
             />
-          </div>
+          </div> */}
+
+          <LazyLoadImage
+            src={marketingbanner}
+            alt="Marketing Banner"
+
+            className="w-[400px] h-[400px] object-contain"
+          />
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
@@ -478,13 +478,13 @@ const Home = () => {
           <div className="slider-track p-2">
             {/* {firstTrackImages.map((img, index) => (
               <div className="box" key={index}>
-                <img src={img} className="w-[100%] h-[100%] object-contain" />
+                  <LazyLoadImage src={img} className="w-[100%] h-[100%] object-contain" />
               </div>
             ))} */}
 
             {firstTrackImages.map((img, index) => (
               <div className="box" key={index}>
-                <img
+                <LazyLoadImage
                   src={img.src}
                   alt={img.name}
                   className="w-[100%] h-[100%] object-contain"
@@ -500,14 +500,14 @@ const Home = () => {
           <div className="slider-track2 p-2">
             {/* {shuffledImages.map((img, index) => (
               <div className="box" key={index}>
-                <img src={img} className="w-[100%] h-[100%] object-contain" />
+                  <LazyLoadImage src={img} className="w-[100%] h-[100%] object-contain" />
               </div>
             ))} */}
 
 
             {shuffledImages.map((img, index) => (
               <div className="box" key={index}>
-                <img
+                <LazyLoadImage
                   src={img.src}
                   alt={img.name}
                   className="w-[100%] h-[100%] object-contain"
@@ -527,7 +527,7 @@ const Home = () => {
 
 
           <div className="flex justify-center md:w-[35%] ">
-            <img src={pana} className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
+            <LazyLoadImage src={pana} className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
           </div>
 
           <div className="md:w-[60%]  comprensive w-[100%]">
@@ -561,7 +561,7 @@ const Home = () => {
                     <div className="flip-card-front">
 
                       <div className="image_wrap">
-                        <img src={icon} alt={content} className="  iconimage " />
+                        <LazyLoadImage src={icon} alt={content} className="  iconimage " />
                       </div>
 
                       <p className="text-[14px] text-[black] font-bold">{content}</p>
@@ -586,34 +586,6 @@ const Home = () => {
 
         </div>
 
-        {/* <div
-          ref={secondREf}
-          onMouseEnter={() => setCardTrigger(true)}
-          className="industriweserve mb-[30px] w-[100%] max-w-[1440px]  mx-auto "
-
-        >
-
-          <h2 className="heading mb-[20px] " id="industries">Industries We serve </h2>
-
-          <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  "
-            ref={secondREf}
-            onMouseEnter={() => setCardTrigger(true)}
-
-          />
-
-
-        </div> */}
-
-        {/* <div
-  
-      className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto"
-    >
-      <h2 className="heading mb-[20px]" id="industries">
-        Industries We Serve
-      </h2>
-
-      <AnimatedCardList />
-    </div> */}
 
 
         <div className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto">
@@ -629,33 +601,33 @@ const Home = () => {
           onMouseEnter={() => setThirdtrigger(true)}
           className=" max-w-[1440px]  mt-[130px] mb-[50px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[20px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
         >
-          
+
           {/* Phone Icon */}
-    <div className="flex items-center gap-[30px] max-md:gap-3 ">
+          <div className="flex items-center gap-[30px] max-md:gap-3 ">
             <div className="mb-4 md:mb-0">
-            <FaPhoneVolume className="ringing text-white text-[50px] md:text-[70px] flex items-center justify-center" />
-          </div>
+              <FaPhoneVolume className="ringing text-white text-[50px] md:text-[70px] flex items-center justify-center" />
+            </div>
 
-          {/* Text & Number */}
-          <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <p className="text-white text-[18px] md:text-[20px] font-bold">
-              Get a Free Consultation
-            </p>
+            {/* Text & Number */}
+            <div className="flex flex-col items-center md:items-start text-center md:text-left">
+              <p className="text-white text-[18px] md:text-[20px] font-bold">
+                Get a Free Consultation
+              </p>
 
-            <div
-              className={`text-white span-number text-[32px] max-md:text-[24px] md:text-[50px] font-bold ${thirdtrigger ? "numberanimation" : ""
-                }`}
-            >
-              <span>+91&nbsp;</span>
-              <span>-&nbsp;</span>
-              <span>96&nbsp;</span>
-              <span>96&nbsp;</span>
-              <span>96&nbsp;</span>
-              <span>46&nbsp;</span>
-              <span>06</span>
+              <div
+                className={`text-white span-number text-[32px] max-md:text-[24px] md:text-[50px] font-bold ${thirdtrigger ? "numberanimation" : ""
+                  }`}
+              >
+                <span>+91&nbsp;</span>
+                <span>-&nbsp;</span>
+                <span>96&nbsp;</span>
+                <span>96&nbsp;</span>
+                <span>96&nbsp;</span>
+                <span>46&nbsp;</span>
+                <span>06</span>
+              </div>
             </div>
           </div>
-    </div>
 
           {/* CTA Message */}
           <p className="text-white text-[20px] md:text-[30px] font-bold pr-0 md:pr-[30px] text-center md:text-left">
@@ -696,10 +668,10 @@ const Home = () => {
           <ImageSlider data={testimonialsData} />
         </div>
 
-     
-       
+
+
         <div className='mb-[24px]'>
-          <Newcontact/>
+          <Newcontact />
         </div>
 
         <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">

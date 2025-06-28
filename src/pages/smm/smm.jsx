@@ -38,6 +38,9 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.svg'
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 const Smm = () => {
   const [text, setText] = useState('');
   const words = ['Engagement', 'Conversion', 'Branding'];
@@ -324,7 +327,7 @@ const Smm = () => {
           {/* Box 1 */}
           <div className="w-full md:basis-1/3  flex justify-center">
             <div className="w-[300px] h-[450px] rounded-md bg-gray-300 overflow-hidden bocshadowgif "  >
-              <img src={socialgif} alt="SEO Visual" className="w-full h-full object-contain" />
+                <LazyLoadImage src={socialgif} alt="SEO Visual" className="w-full h-full object-contain" />
             </div>
           </div>
 
@@ -359,7 +362,7 @@ const Smm = () => {
 
           <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-xl:hidden">
             <div className="text-center text-black font-semibold text-xl">
-              <img src={cimage} alt="Smart socail media Managment " className=' ' />
+                <LazyLoadImage src={cimage} alt="Smart socail media Managment " className=' ' />
 
             </div>
           </div>
@@ -383,7 +386,7 @@ const Smm = () => {
             style={{ backgroundImage: `url(${accelerate})` }}
           >
 
-            <img src={accelerate} alt="Advance Analytics & Insights" className="hidden" aria-hidden="true" />
+              <LazyLoadImage src={accelerate} alt="Advance Analytics & Insights" className="hidden" aria-hidden="true" />
 
 
             <div className="max-lg:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
@@ -424,7 +427,7 @@ const Smm = () => {
 
               <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
                 <div className="">
-                  {/* <img src="/assets/smart-icon.svg" alt="Smart Social Media Management" className="w-6 h-6 object-contain" /> */}
+                  {/*   <LazyLoadImage src="/assets/smart-icon.svg" alt="Smart Social Media Management" className="w-6 h-6 object-contain" /> */}
 
                   <div className='flex items-center  gap-2 '>
                     <span className="w-[20px] h-[20px] object-contain"> <SiSmartthings />  </span>
@@ -462,7 +465,7 @@ const Smm = () => {
 
             {/* Mobile Image Below Heading */}
             <div className="block lg:hidden w-[80%] mx-auto mt-6s">
-              <img src={smartright} alt="Smarter visual" className="max-w-[300px] w-[100%] h-auto rounded-lg" />
+                <LazyLoadImage src={smartright} alt="Smarter visual" className="max-w-[300px] w-[100%] h-auto rounded-lg" />
             </div>
 
             {/* Paragraphs */}
@@ -496,7 +499,7 @@ const Smm = () => {
 
           {/* Desktop Image */}
           <div className="w-full lg:w-[35%] hidden lg:flex justify-center items-center">
-            <img src={smartright} alt="Smarter visual right" className="w-full max-w-sm" />
+              <LazyLoadImage src={smartright} alt="Smarter visual right" className="w-full max-w-sm" />
           </div>
 
         </div>
