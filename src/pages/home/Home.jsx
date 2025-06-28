@@ -392,7 +392,7 @@ const Home = () => {
       <div className=' homeclass  '>
 
 
-        <div className="flex items-center justify-center gap-[60px] h-[90vh]  max-md:h-[50vh] overflow-hidden  ">
+        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
           <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
             <div className="">
@@ -426,7 +426,7 @@ const Home = () => {
 
         </div>
 
-        <div className=" w-[100%] max-w-[1440px]  max-lg:mt-[10px] flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] max-w-[1440px]  max-lg:mt-[10px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
@@ -435,7 +435,7 @@ const Home = () => {
               Integrity and Innovation
               Across India
             </h2>
-            <p className="text-sm md:text-base text-black mt-4 mb-6">
+            <p className="text-sm md:text-base text-black mt-8 mb-10">
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
@@ -459,7 +459,7 @@ const Home = () => {
             src={marketingbanner}
             alt="Marketing Banner"
 
-            className="w-[400px] h-[400px] object-contain"
+            className="w-[400px] h-[400px] object-contain max-lg:hidden"
           />
         </div>
 

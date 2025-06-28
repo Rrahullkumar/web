@@ -50,10 +50,10 @@ const Newcontact = () => {
           
           {/* Section Title */}
           <div className="w-full">
-            <p className="uppercase text-[16px] max-md:text-[14px] font-normal leading-[160%] mb-4 text-white">
+            <p className="uppercase text-[16px] max-md:text-[16px] font-normal leading-[160%] mb-4 text-white">
               Contact Us
             </p>
-            <h6 className="text-[32px] max-lg:text-[24px] max-md:text-[20px] font-normal leading-[130%] text-white mt-5">
+            <h6 className="text-[32px] max-lg:text-[18px]  font-normal leading-[130%] text-white mt-5">
               Let’s make the web talk about
               <br className="max-md:hidden" />
               your project
@@ -61,7 +61,7 @@ const Newcontact = () => {
           </div>
 
           {/* Sub Heading */}
-          <h3 className="text-[24px] max-lg:text-[20px] max-md:text-[18px] font-normal leading-[130%] text-white mt-12 max-lg:mt-6 max-md:mt-4">
+          <h3 className="text-[24px] max-lg:text-[16px]  font-normal leading-[130%] text-white mt-12 max-lg:mt-6 max-md:mt-4">
             Get a Free Consultation
           </h3>
 
@@ -70,7 +70,7 @@ const Newcontact = () => {
             <LazyLoadImage src={seocontactphoneicon} alt="Phone" className="w-5 h-5" />
             <a
               href="tel:+919696964606"
-              className="text-[24px] max-lg:text-[20px] max-md:text-[18px] font-normal leading-[130%] text-white"
+              className="text-[24px] max-lg:text-[16px]  font-normal leading-[130%] text-white"
             >
               +91 9696964606
             </a>
@@ -81,7 +81,7 @@ const Newcontact = () => {
             <LazyLoadImage src={seocontactimage} alt="Email" className="w-5 h-5" />
             <a
               href="mailto:info@webnest.in"
-              className="text-[18px] max-md:text-[16px] font-normal leading-[130%] text-white"
+              className="text-[18px] max-md:text-[14px] font-normal leading-[130%] text-white"
             >
               info@webnestmedia.com
             </a>
@@ -90,7 +90,7 @@ const Newcontact = () => {
           {/* Location */}
           <div className="flex gap-3 mt-2">
             <LazyLoadImage src={seolocation} alt="Location" className="w-5 h-5 mt-1" />
-            <span className="text-[18px] max-md:text-[16px] font-normal leading-[130%] text-white">
+            <span className="text-[18px] max-md:text-[14px] font-normal leading-[130%] text-white">
               1st Floor Orchid Business Park,<br />
               Near Subhash Chowk, Sector 48,<br />
               Gurugram, Haryana 122001

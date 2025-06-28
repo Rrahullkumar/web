@@ -30,7 +30,7 @@
   text-align: center;
 
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid #9ac496;
 
   /* Entrance base style */
   opacity: 0;
@@ -150,19 +150,20 @@
 
 @media (max-width: 768px) {
   .card-list-container1 {
-    gap: 10px 10px !important;
+    gap: 15px 15px !important;
     padding: 0px !important;
   }
 
   .animated-card1 {
-    width: 140px !important;
-    height: 140px !important;
+          width: 150px !important;
+        height: 160px !important;
+
     gap: 0px !important;
   }
 
   .image_wrapcard1 {
-    width: 60px !important;
-    height: 50px !important;
+    width: 90px !important;
+    height: 70px !important;
 
   }
 }
