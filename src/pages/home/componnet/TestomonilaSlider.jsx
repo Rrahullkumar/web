@@ -99,7 +99,7 @@ export default function App() {
           </div>
 
           <div
-            className={`flex flex-col md:flex-row gap-10 items-center py-[5] transition-all duration-500  ${
+            className={`flex flex-col md:flex-row gap-10 items-center overflow-hidden py-[5] transition-all duration-500  ${
               animating ? "slide-out-right" : "slide-in-right"
             } w-full xl:w-1/2`}
           >

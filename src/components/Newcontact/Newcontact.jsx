@@ -46,11 +46,11 @@ const Newcontact = () => {
         />
 
         {/* Foreground Content */}
-        <div className="relative w-full max-w-7xl mx-auto flex flex-col px-[40px] max-lg:px-4 max-md:px-3 py-10 max-lg:py-6 max-md:py-4">
+        <div className="relative w-full max-w-7xl mx-auto flex flex-col pl-[40px] pr-[40px] max-lg:pl-[40px] max-lg:pr-[16px] py-10 max-lg:py-6 max-md:py-4">
           
           {/* Section Title */}
           <div className="w-full">
-            <p className="uppercase text-[16px] max-md:text-[16px] font-normal leading-[160%] mb-4 text-white">
+            <p className="uppercase text-[16px] max-md:text-[18px] font-normal leading-[160%] mb-4 text-white">
               Contact Us
             </p>
             <h6 className="text-[32px] max-lg:text-[18px]  font-normal leading-[130%] text-white mt-5">
@@ -88,11 +88,12 @@ const Newcontact = () => {
           </div>
 
           {/* Location */}
-          <div className="flex gap-3 mt-2">
+         <div className="flex gap-3 mt-2 w-full max-w-[40%] max-md:max-w-[80%] max-sm:max-w-full">
+
             <LazyLoadImage src={seolocation} alt="Location" className="w-5 h-5 mt-1" />
             <span className="text-[18px] max-md:text-[14px] font-normal leading-[130%] text-white">
-              1st Floor Orchid Business Park,<br />
-              Near Subhash Chowk, Sector 48,<br />
+              1st Floor Orchid Business Park,
+              Near Subhash Chowk, Sector 48,
               Gurugram, Haryana 122001
             </span>
           </div>

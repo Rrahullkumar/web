@@ -664,7 +664,7 @@ const Home = () => {
         </div>
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto tetonomial mt-[30px]">
+        <div className=" w-[100%] max-w-[1440px]  overflow-hidden mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
 
