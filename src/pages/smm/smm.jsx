@@ -39,6 +39,7 @@ import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.svg'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom';
 
 
 const Smm = () => {
@@ -419,10 +420,12 @@ const Smm = () => {
                 and stand out in the digital crowd.
               </p>
 
+           <Link to ="/contact-us">
               <button type="submit " class=" text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
 
               </button>
 
+           </Link>
 
 
               <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">

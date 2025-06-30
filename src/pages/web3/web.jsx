@@ -13,6 +13,7 @@ import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.svg";
+import { Link } from 'react-router-dom';
 
 
 
@@ -176,6 +177,13 @@ const web = () => {
   ];
 
 
+    const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
   return (
     <>
 
@@ -225,9 +233,16 @@ const web = () => {
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
 
             </p>
-            <button className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
+
+         <Link to="/contact-us">
+         
+            <button 
+            
+            className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
               Get Started
             </button>
+            
+         </Link>
           </div>
 
           {/* Right Image */}
@@ -294,7 +309,10 @@ const web = () => {
               </li>
             </ul>
 
-            <button className="mt-6 max-md:mt-14 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
+            <button 
+            
+              onClick={() => scrollToSection("wdservices")}
+            className="mt-6 max-md:mt-14 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
               Learn More
             </button>
           </div>
@@ -365,7 +383,7 @@ const web = () => {
           </div> */}
         </section>
 
-        <section className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
+        <section id="wdservices" className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
           <h2 class="text-[#409338] font-bold text-[40px] max-md:text-4xl leading-tight max-md:leading-snug kg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
           </h2>

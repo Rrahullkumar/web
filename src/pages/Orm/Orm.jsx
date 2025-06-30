@@ -88,9 +88,6 @@ const Orm = () => {
 <meta name="description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
 
 
-
-
-
 <meta property="og:title" content="Best Online Reputation Management Company in Gurgaon" />
   <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
   <meta property="og:type" content="website" />
@@ -106,7 +103,7 @@ const Orm = () => {
         <div className="">
           <HeroSection
             backgroundImage={c1image}
-            heading="Online Research Management Company"
+            heading="Online Reputation Management Company"
             highlight="In Gurgaon"
             paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
 "

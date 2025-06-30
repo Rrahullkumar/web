@@ -275,6 +275,15 @@ const Home = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/" />
 
+
+           <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/" />
+  <meta property="og:site_name" content="WebNest Media" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg" /> 
+
+   
+
         {/* Organization Schema */}
         <script type="application/ld+json">
           {`
@@ -392,7 +401,7 @@ const Home = () => {
       <div className=' homeclass  '>
 
 
-        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
+        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[65vh] overflow-hidden  ">
           <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
             <div className="">
@@ -657,9 +666,12 @@ const Home = () => {
               Webnest Media, based in Gurgaon, brings over 20 years of expertise in web design, development, and digital marketing. With a focus on delivering innovative and results-driven solutions, they help businesses enhance their online presence and achieve sustainable growth.
             </p>
 
-            <button className="getstarted-btnn px-6 py-2 rounded bg-green-600 text-white hover:bg-green-700 transition duration-300">
+         <Link to="/about-us">
+            <button className="getstarted-btnn   mt-[20px] px-6 py-2 rounded bg-green-600 text-white hover:bg-green-700 transition duration-300">
               Know More
             </button>
+         </Link>
+
           </div>
         </div>
 

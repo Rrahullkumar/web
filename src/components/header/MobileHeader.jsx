@@ -76,7 +76,7 @@ export default function MobileHeader() {
       <div className="flex justify-between items-center pl-[16px] pr-[16px] ">
         <div className="flex items-center gap-[10px]">
           <Link to="/">
-            <img src={logo} alt="WebNest Media Logo" className="w-[80px] h-[80px] rounded-full cursor-pointer" />
+            <img src={logo} alt="WebNest Media Logo" className="w-[120px] h-[80px] rounded-full cursor-pointer" />
           </Link>
          
         </div>

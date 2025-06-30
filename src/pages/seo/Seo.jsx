@@ -38,6 +38,7 @@ import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
 import Newcontact from '../../components/Newcontact/Newcontact.jsx';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom';
 
 
 const Seo = () => {
@@ -389,6 +390,14 @@ const Seo = () => {
     ]
   };
 
+
+  const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
   return (
     <>
       <Helmet>
@@ -466,8 +475,20 @@ const Seo = () => {
 
           {/* Buttons */}
           <div className="flex gap-3 mt-8">
-            <button className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+
+           
+            <button 
+              onClick={() => scrollToSection("seoservice")}
+            
+            className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+      
+      
+      
+        <Link to="/about-us">
             <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+         
+        </Link>
+         
           </div>
 
         </section>
@@ -510,7 +531,7 @@ const Seo = () => {
 
         </section>
 
-        <section className=''>
+        <section className='' id="seoservice">
 
           <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
 

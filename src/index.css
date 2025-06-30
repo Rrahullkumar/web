@@ -72,6 +72,8 @@ html {
   scroll-behavior: smooth;
   line-height: normal;
    cursor: none !important;
+   /* --cursor-color: #FFBA34; */  
+   --cursor-color:#4CAF50;
 }
 
 ::-webkit-scrollbar {
@@ -97,6 +99,15 @@ html {
   .slick-dots li button:before {
     font-size: 10px;
   }
+
+
+
+   #particles{
+    height: 65vh !important;
+
+}
+
+
 }
 
 @media (max-width: 640px) {

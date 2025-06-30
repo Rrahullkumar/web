@@ -42,6 +42,16 @@ const adsData = [
 
 import redlady from "./resources/redlady.svg"
 import Newcontact from '../../components/Newcontact/Newcontact';
+import { Link } from 'react-router-dom';
+
+
+  const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const Sem = () => {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -652,8 +662,16 @@ const Sem = () => {
             </div>
           </div>
           <div className=" flex gap-2 mt-8 max-lg:mt-12 ">
-            <button className='c2greenbutton'>Learn More</button>
+            
+            <button
+              onClick={() => scrollToSection("semservice")}
+            className='c2greenbutton'>Learn More</button>
+
+            <Link to="/contact-us">  
+
             <button className='c2whitebutton'>Contact Us</button>
+
+             </Link>
           </div>
 
         </div>
@@ -767,7 +785,8 @@ const Sem = () => {
         </section>
 
 
-        <section className='max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section  id="semservice"
+        className='max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
 
 
           <div className="max-w-[1440px]    w-full mx-auto mt-10 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide  ">
