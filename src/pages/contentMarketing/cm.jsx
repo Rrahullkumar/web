@@ -270,7 +270,7 @@ const ContentMarketing = () => {
         </div>
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:translate-y-10 max-lg:mb-[20px] font-semibold">
+          <h2 className="text-[52px] max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
             <span className="highlight">Content</span> is the key to <br /> building audiences
           </h2>
 
@@ -312,7 +312,7 @@ const ContentMarketing = () => {
                 The no. 1 Content Marketing Service
               </p>
 
-              <h2 className='text-[32px] font-semibold mb-8'>
+              <h2 className='text-3xl font-semibold mb-8'>
                 Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
               </h2>
 
@@ -340,7 +340,7 @@ const ContentMarketing = () => {
 
 
         <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
-          <h2 className=" font-semibold text-6xl max-lg:text-[36px] leading-tight ">
+          <h2 className=" font-semibold text-6xl max-lg:text-3xl leading-tight ">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
           </h2>
@@ -364,7 +364,7 @@ const ContentMarketing = () => {
                   <p className="text-[24px] text-[#4CAF50]">{item.title}</p>
                 </h3>
 
-                <p className="text-base leading-relaxed mt-9 mb-[50px]">
+                <p className="text-base leading-relaxed mt-9 max-lg:mt-5 mb-[50px]">
                   {item.text}
                 </p>
               </div>

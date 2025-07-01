@@ -8,7 +8,7 @@ const Accordion = () => {
 
       {/* <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2> */}
 
-      <h2 class="text-[#409338] mb-[48px] font-bold text-[34px] leading-[40px]  lg:text-center stroke-custom fill-custom">Let's address your  questions  today  </h2>
+      <h2 class="text-[#409338] mb-[48px] font-bold text-[32px] text-center leading-[40px]  lg:text-center stroke-custom fill-custom">Let's address your  questions  today  </h2>
 
       <div className="accordion-wrapper-columns">
         {/* Left Column */}

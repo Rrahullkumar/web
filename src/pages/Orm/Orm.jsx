@@ -21,7 +21,6 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import c1image from './resourse/c1image.svg'
 import HeroSection from '../../components/Herosection/Herosection';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
 const Orm = () => {
   const services = [
     {
@@ -191,12 +190,9 @@ const Orm = () => {
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
             <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-              <h6 className='text-[46px] max-md:text-[28px] text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
+              <h6 className='text-[46px] max-md:text-[0px] text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
               <p className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
             </div>
-
-
-
 
             <div className="w-[507px] max-lg:w-full cursor-pointer" data-aos="fade-up">
 

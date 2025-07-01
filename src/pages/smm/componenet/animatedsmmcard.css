@@ -1,12 +1,12 @@
 .card-list-container2 {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, max-content); /* Items take their natural width */
+  place-items: center; /* Centers content inside each grid cell */
+  width: fit-content;  
+  margin: 0 auto;  
+      /* Horizontally centers the grid container */
   gap: 20px;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
 }
-
 .animated-card2 {
   position: relative;
   overflow: hidden;
@@ -74,3 +74,13 @@ font-size: 11px;
 .animated-card2:hover .card-hover-text {
   bottom: 0;
 }
+@media (max-width: 768px) {
+  .card-list-container2{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .animated-card2 {
+    width: 180px;
+    height: 180px;
+  }
+}
+

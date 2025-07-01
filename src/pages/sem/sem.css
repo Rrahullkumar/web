@@ -184,13 +184,13 @@
 .c2_para {
   font-size: 16px;
   line-height: 1.5;
-  color: #666;
+
 }
 
 .c2_list {
   margin-top: 10px;
   list-style-type: disc;
-  padding-left: 20px;
+  
 }
 
 .container_2 {
@@ -407,6 +407,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .c2_list {
+    
+  }
   .c1_introduction {
     font-size: 28px;
   }

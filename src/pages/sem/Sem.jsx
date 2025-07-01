@@ -78,12 +78,12 @@ const Sem = () => {
 
               <div className=' '>
 
-                <h6 className='text-[32px] leading-snug  text-[#000000] mb-[8px] font-semibold  '> What is Pay Per Click Advertising? </h6>
+                <h6 className='text-[32px] max-md:text-[28px] leading-snug  text-[#000000] py-4 font-semibold  '> What is Pay Per Click Advertising? </h6>
                 <p className='text-base leading-7 text-[#000000] font-normal '>Pay-per-click is a form of online advertisement where advertisers pay a fee for each individual per click. It is the process of paying for website traffic rather than acquiring traffic organically through SEO. Pay-per-click ads appear on social media sites like Facebook and Instagram as well as search engines like Google and Bing, allowing companies an opportunity to target specific regions based on certain keywords and locations.</p>
               </div>
             </div>
 
-            <p className=' text-[32px]  mt-[74px] mb-18 max-md:mb-8 leading-snug  text-[#000000]  font-semibold'>Top Reasons to Invest in Pay Per Click Marketing</p>
+            <p className=' text-[32px] max-md:text-[28px]  mt-[74px] mb-18 max-md:mb-4 leading-snug  text-[#000000]  font-semibold'>Top Reasons to Invest in Pay Per Click Marketing</p>
 
 
             <p className='text-base leading-7 text-[#000000] font-normal mb-8 '>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
@@ -104,7 +104,7 @@ const Sem = () => {
                 </div>
               </div>
 
-              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl ">
                 <div className="mb-6">
                     <LazyLoadImage src={icon2} alt="Specific Audience" className="w-16 h-16 object-contain" />
                 </div>
@@ -132,7 +132,7 @@ const Sem = () => {
                 </div>
               </div>
 
-              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+              <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl mb-10">
                 <div className="mb-6">
                     <LazyLoadImage src={icon4} alt="Measurable" className="w-16 h-16 object-contain" />
                 </div>
@@ -160,7 +160,7 @@ const Sem = () => {
                         <LazyLoadImage
                         src={item.icon}
                         alt={item.label}
-                        className="w-[176px] h-[108px] object-contain"
+                        className="w-[176px] h-[108px] max-md:w-[80px] max-md:h-[100px] object-contain"
                       />
                       <span className="text-sm text-gray-800 font-medium">
                         {item.label}
@@ -173,7 +173,7 @@ const Sem = () => {
 
 
 
-            <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] pb-[10px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+            <div className=" max-w-[1440px] w-[100%] max-lg:pt-10 mx-auto pt-[96px] pb-[10px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
               <h2 id="c2headingleft" className="c2heading">
                 Why Opt WebNest Media for  <br className='max-lg:hidden' />  PPC Ads?
@@ -234,7 +234,7 @@ const Sem = () => {
               </div>
 
               <div>
-                <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] mb-[8px] font-semibold'>
                   What is Bid Management?
                 </h6>
                 <p className='text-base leading-7 text-[#000000] font-normal'>
@@ -243,15 +243,15 @@ const Sem = () => {
               </div>
             </div>
 
-            <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 max-md:mb-3 lg:leading-snug text-[#000000] font-semibold'>
               How Bid Management Boosts Your Campaign Performance
             </p>
 
-            <p className='text-base leading-7 text-[#000000] font-normal mb-8'>
+            <p className='text-base leading-7 text-[#000000] font-normal mb-8 max-md:mb-4'>
               Smart bid management improves ad visibility, click-through rates, and conversions while minimizing wasted spending.
             </p>
 
-            <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
               Types of Bidding Strategies We Use
             </p>
 
@@ -263,7 +263,7 @@ const Sem = () => {
               <li>✓ Maximize Clicks</li>
             </ul>
 
-            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>
               Why Partner with WebNest Media for Bid Management?
             </h4>
 
@@ -284,24 +284,26 @@ const Sem = () => {
             <div className='flex flex-row items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
                 <LazyLoadImage src={analytics} alt="analytics-image" className='w-full' />
               <div>
-                <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                <h6 className='text-[28px] leading-snug text-[#000000] mb-[8px] font-semibold'>
                   What is Performance Tracking and Analytics?
                 </h6>
-                <p className='text-base leading-7 text-[#000000] font-normal'>
+                <p className='text-base leading-7  text-[#000000] font-normal'>
                   Performance tracking shows which ads work, which keywords drive traffic, and what type of audience engages with your content. It’s about using real data — not guesswork — to grow your business with smarter marketing decisions.
                 </p>
               </div>
             </div>
 
-            <p className='text-[32px]  mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[28px]  leading-snug text-[#000000] font-semibold'>
+              <br className='lg:hidden'/>
               Why Performance Tracking is Crucial
+
             </p>
 
             <p className='text-base leading-7 text-[#000000] font-normal mb-8'>
               Without tracking and analytics, you can waste budget and miss opportunities. Tracking helps you optimize ad spending, fix weak areas, and maximize ROI.
             </p>
 
-            <p className='text-[32px]  mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[32px]  max-md:text-[28px] mb-6 leading-snug text-[#000000] font-semibold'>
               Tools We Use for Accurate Insights
             </p>
 
@@ -311,7 +313,7 @@ const Sem = () => {
               <li>✓ Facebook Pixel</li>
             </ul>
 
-            <h4 className='w-[100%] mt-10 mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-10 mb-[28px] text-center text-[52px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>
               Why Choose WebNest Media for Performance Tracking and Analytics?
             </h4>
 
@@ -335,7 +337,7 @@ const Sem = () => {
               </div>
 
               <div>
-                <h6 className='text-[32px] leading-snug text-[#000000] mb-[8px] font-semibold'>
+                <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] mb-[8px] font-semibold'>
                   What is Ad Creation and Optimization?
                 </h6>
                 <p className='text-base leading-7 text-[#000000] font-normal'>
@@ -344,11 +346,11 @@ const Sem = () => {
               </div>
             </div>
 
-            <p className='text-[32px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold'>
               Continuous Optimization for Maximum ROI
             </p>
 
-            <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
+            <ul className='list-disc pl-5 max-md:pl-3 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8'>
               <li>✓ Ad Creatives: Custom visuals that grab attention</li>
               <li>✓ Headlines and CTAs: Copy that drives action</li>
               <li>✓ Target Audiences: Laser-focused audience targeting</li>
@@ -356,7 +358,7 @@ const Sem = () => {
               <li>✓ Landing Pages: High-converting, fast-loading pages</li>
             </ul>
 
-            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-[74px] mb-[28px] max-md:text-[28px] text-center text-[52px]  leading-snug text-[#000000] font-semibold'>
               Why WebNest Media for Ad Creation and Optimization?
             </h4>
 
@@ -643,7 +645,7 @@ const Sem = () => {
 
         <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
-          <h2 className="text-[48px] max-lg:text-[34px] font-semibold">
+          <h2 className="text-[48px] max-lg:text-3xl font-semibold">
             What is Search Engine   <br className='max-lg:hidden' /> Marketing?
           </h2>
 
@@ -678,27 +680,27 @@ const Sem = () => {
 
 
         <div className=" max-w-[1440px] w-[100%] mx-auto container_2">
-          <h2 className='text-[40px] text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
+          <h2 className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
             <p style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
               WebNest Media is the search engine marketing company india and offers several benefits that set them apart from other agencies. Here are a few reasons why you might want to consider them:
             </p>
             <ul className='c2_list'>
               <li className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Specialist Search Engine Marketing </b> We have a team of professionals experienced in creating and optimizing paid search campaigns. Their
+                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Specialist Search Engine Marketing: </b> We have a team of professionals experienced in creating and optimizing paid search campaigns. Their
                 expertise could help improve ad performance and maximize ROI.
               </li>
               <li className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b> Customized Strategies:</b>We will provide top-notch search engine marketing strategies that are aligned with your business
+                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b> Customized Strategies: </b>We will provide top-notch search engine marketing strategies that are aligned with your business
                 goals, focusing on specific keywords, targeting methods, and ad copy that will resonate with your audience.
               </li>
               <li className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Comprehensive Services:</b> SEM is more than just pay-per-click (PPC) ads; it's about integrating your strategy with SEO,
+                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Comprehensive Services: </b> SEM is more than just pay-per-click (PPC) ads; it's about integrating your strategy with SEO,
                 landing page optimization, and continuous testing. WebNest Media may offer a holistic approach that addresses all
                 these areas.
               </li>
               <li className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Up-to-Date with Trends:</b> The world of SEM is constantly evolving. WebNest Media likely stays updated with the latest
+                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Up-to-Date with Trends: </b> The world of SEM is constantly evolving. WebNest Media likely stays updated with the latest
                 trends and strategies to keep your campaigns ahead of the competition. We use different types of search engine
                 marketing tools to stay updated.
               </li>
@@ -755,7 +757,7 @@ const Sem = () => {
               {/* Left Section */}
               <div className="lg:w-[60%] max-lg:w-[100%] order-1">
 
-                <h2 id="" className="text-[48px] max-lg:text-[34px] font-semibold">
+                <h2 id="" className="text-[48px] max-lg:text-3xl font-semibold">
                   Top Search Engine Marketing Company in Gurgaon
                 </h2>
 
@@ -775,7 +777,7 @@ const Sem = () => {
               </div>
 
               {/* Image - only for large screens */}
-              <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto  lg:flex order-2">
+              <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto max-lg:hidden order-2">
                   <LazyLoadImage src={redlady} alt='Search-Engine-Marketing-Company-in-Gurgaon' className='mx-auto w-[70%]' />
               </div>
 
@@ -827,7 +829,7 @@ const Sem = () => {
 
         <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
 
-          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</h2>
+          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Let's address your questions today</h2>
           <div className="accordion-wrapper-columns">
             {/* Left Column */}
             <div className="accordion-column">

@@ -224,12 +224,12 @@ const web = () => {
 
           {/* Left Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 className="text-4xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
+            <h2 className="text-3xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
               {/* Best Website Development Company in Gurgaon */}
 
               Best <span className="text-[#409338] "> Web Development  <br />Company</span> in Gurgaon
             </h2>
-            <p className="text-[black] mt-4 max-w-md text-base mx-auto md:mx-0">
+            <p className="text-[black] mt-4 max-w-md text-base max-md:w-[90%] mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
 
             </p>
@@ -274,7 +274,7 @@ const web = () => {
           <div className="w-full md:w-1/2 text-center md:text-left">
             <p className="text-sm text-[black] uppercase font-semibold mb-2">Why Us?</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-6">
-              What makes us different in <br />   Web Development?
+              What makes us different in <br className='max-lg:hidden'/>   Web Development?
             </h2>
 
             <ul className="space-y-4 text-left text-gray-700">
@@ -345,7 +345,7 @@ const web = () => {
 
           {/* Main content */}
           <div className="relative z-10 px-4 py-20 text-center max-w-4xl mx-auto">
-            <p className="text-[#EEC370] uppercase tracking-widest text-sm font-medium mb-2">Web Development</p>
+            <p className="text-[#EEC370] uppercase tracking-widest  text-sm font-medium mb-2">Web Development</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-4">
               Best Quality Service
             </h2>
@@ -385,7 +385,7 @@ const web = () => {
 
         <section id="wdservices" className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
-          <h2 class="text-[#409338] font-bold text-[40px] max-md:text-4xl leading-tight max-md:leading-snug kg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
+          <h2 class="text-[#409338] font-bold text-[40px]  max-md:text-[28px] leading-tight max-md:leading-snug lg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
           </h2>
 
 
@@ -393,7 +393,7 @@ const web = () => {
             <br /> <br />
 
             We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
-            <br /> <br /> <br />
+            <br /> <br /> <br className='max-md:hidden'/>
 
             Whether you need an eCommerce store, a blog, or a corporate website, WebNest Media has the expertise to turn your vision into a fully functional digital experience. As a trusted website development company, we help businesses of all sizes create a strong online presence that fuels growth and connects with their audience.
 
@@ -405,7 +405,7 @@ const web = () => {
 
         <section className='max-w-[1440px] mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 lg:gap-10">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
     {cardData.map((card) => (
       <div 
         key={card.id} 
