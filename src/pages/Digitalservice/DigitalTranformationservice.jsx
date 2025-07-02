@@ -64,16 +64,16 @@ const DigitalTranformationservice = () => {
 "
                     />
 
-        <div className="dtc1 max-w-[1440px] mt-[100px] w-[100%] mx-auto px-10 max-lg:px-4 mb-[96px]">
-          <h1 className='lg:text-center text-[52px] max-lg:text-[38px] mb-[12px] font-semibold'>
+        <div className="dtc1 max-w-[1440px] mt-24 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[96px] max-md:mb-10">
+          <h1 className='lg:text-center text-[52px] max-lg:text-3xl mb-[12px] font-semibold'>
             Digital Transformation
             <span className='text-[#4CAF50]'> Services </span>
           </h1>
-          <p className='lg:text-center text-[18px] mb-[20px] font-semibold'>
+          <p className='lg:text-center text-base mb-[20px] font-semibold'>
             We make digital transformation simple by helping you with the smart use of automation, AI, and data-driven <br />
             insights.
           </p>
-          <p className='lg:text-center text-[18px] font-semibold mb-[]'>
+          <p className='lg:text-center text-base font-semibold mb-[]'>
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
           <div className="flex justify-center mt-10">
@@ -82,10 +82,10 @@ const DigitalTranformationservice = () => {
         </div>
 
         {/* Section 2 */}
-        <div className="dtc2 max-w-[1440px] mt-[100px] w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row mb-[96px] gap-6">
+        <div className="dtc2 max-w-[1440px] w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row gap-6">
 
           <div className="dtc2left lg:w-[80%] flex flex-col">
-            <h2 className='text-[48px] max-lg:text-[34px] mb-8 font-semibold order-1'>
+            <h2 className='text-[48px] max-lg:text-3xl mb-8 font-semibold order-1'>
               Not sure what is digital transformation? <br />Let’s understand it in plain language.
             </h2>
 
@@ -94,7 +94,7 @@ const DigitalTranformationservice = () => {
                 <LazyLoadImage src={c2_image} alt="what is digital transformation" className='' />
             </div>
 
-            <p className="text-lg order-3">
+            <p className="text-lg max-md:text-base order-3">
               Digital transformation means using technology to improve how your business works—from automating routine tasks to creating better customer experiences. It’s not just about going digital; it’s about working smarter, faster, and more efficiently by integrating tools like AI, cloud solutions, data analytics, and automation into your operations.
             </p>
 
@@ -114,10 +114,10 @@ const DigitalTranformationservice = () => {
 
 
         {/* Section 3 */}
-        <div className="dtc3 max-w-[1440px] mt-[100px] w-full mx-auto px-10 max-lg:px-4 mb-24">
+        <div className="dtc3 max-w-[1440px] mt-24  max-md:mt-10 w-full mx-auto px-10 max-lg:px-4 mb-24">
           <div >
-            <h2 className='text-[48px] max-lg:text-[34px] mb-9 font-semibold'>Digital Transformation Services We Offer</h2>
-            <p className='text-lg lg:w-[60%] max-lg:mb-10'>
+            <h2 className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold'>Digital Transformation Services We Offer</h2>
+            <p className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10'>
               At WebNest Media, we don’t just help you "go digital"—we help you transform how your business works, connects, and grows. Our digital transformation services are designed to boost efficiency, elevate customer experiences, and future-proof your business with the right tech solutions.
             </p>
 
@@ -218,7 +218,7 @@ const DigitalTranformationservice = () => {
           {/* Left Content */}
           <div className="dtc4 left lg:w-[60%] flex flex-col">
 
-            <h2 className='text-[48px] max-lg:text-[34px] mb-[32px] font-semibold order-1'>
+            <h2 className='text-[48px] max-lg:text-3xl mb-[32px] font-semibold order-1'>
               We Are a Leading Digital Transformation Solutions Company
             </h2>
 
@@ -262,7 +262,7 @@ const DigitalTranformationservice = () => {
 
           {/* Text Content */}
           <div className="dtc4 left w-full lg:w-[70%] order-2">
-            <h2 className="text-[48px] max-lg:text-[34px] mb-[32px] font-semibold">
+            <h2 className="text-[48px] max-lg:text-3xl mb-[32px] font-semibold">
               Advantages of Digital Transformation
             </h2>
 

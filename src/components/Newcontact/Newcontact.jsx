@@ -53,10 +53,8 @@ const Newcontact = () => {
             <p className="uppercase text-[16px] max-md:text-[18px] font-normal leading-[160%] mb-4 text-white">
               Contact Us
             </p>
-            <h6 className="text-[32px] max-lg:text-[18px]  font-normal leading-[130%] text-white mt-5">
-              Let’s make the web talk about
-              <br className="max-md:hidden" />
-              your project
+            <h6 className="text-[32px]  lg:w-[80%] max-lg:text-[18px]  font-normal leading-[130%] text-white mt-5">
+              Let’s make the web talk about <br className="md:hidden" /> your project
             </h6>
           </div>
 

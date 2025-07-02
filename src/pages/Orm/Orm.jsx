@@ -190,7 +190,7 @@ const Orm = () => {
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
             <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-              <h6 className='text-[46px] max-md:text-[0px] text-[black] font-semibold'>Types of Online Reputation Management Services</h6>
+              <h6 className='text-[46px] max-md:text-[30px] text-[black] '>Types of Online Reputation Management Services</h6>
               <p className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
             </div>
 
@@ -271,7 +271,7 @@ const Orm = () => {
   </div>
 
   {/* Image - Desktop position */}
-  <div className="w-full lg:w-[40%] flex justify-center lg:justify-center lg:flex">
+  <div className="w-full lg:w-[40%] flex justify-center lg:justify-center max-lg:hidden lg:flex">
       <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"

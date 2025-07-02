@@ -315,10 +315,10 @@ const MobileMarketing = () => {
 "
                     />
                 </div>
-                <div className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
+                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
                       <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
-                        <h2 className='text-[48px] max-md:text-[32px] lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
+                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
                         <p className='text-base font-[350]'>
                             In today's fast-paced digital world, your customers are constantly on their mobile devices. From checking social media to searching for local businesses, smartphones and tablets have become the primary gateway to the internet.
@@ -332,7 +332,7 @@ const MobileMarketing = () => {
                 </div>
 
 
-                <div className="bg-black">
+                <div  data-aos="fade-up" className="bg-black">
                     <div className=' px-4 md:px-10 max-w-[1440px] w-full mx-auto mt-24'>
                         <div className="text-white py-12 ">
                             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
@@ -378,7 +378,7 @@ const MobileMarketing = () => {
                                             exit="exit"
                                             transition={{
                                                 y: { type: "spring", stiffness: 250, damping: 30 }, // lower stiffness for smoother movement
-                                                opacity: { duration: 0.1 }
+                                                opacity: { duration: 0.5 }
                                             }}
 
                                             className="flex flex-col lg:flex-row items-start justify-between  w-full absolute top-0 left-0 gap-5"
@@ -420,48 +420,51 @@ const MobileMarketing = () => {
 
 
 
-                <div className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
-                    <div className="lg:text-center px-4 ">
-                        <h2 className="text-[52px] max-lg:text-[34px] font-semibold mb-6">
+                <div data-aos="fade-up" className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
+                    <div  className="lg:text-center px-4 ">
+                        <h2 className="text-[52px] max-lg:text-3xl  font-semibold mb-6">
                             Why Choose <span className="">WebNest Media</span> for <br /> Mobile Marketing in Gurgaon?
                         </h2>
                         <p className="max-w-2xl text-base mx-auto text-gray-700 mb-12">
                             WebNest Media is leading agency for mobile marketing in Delhi-NCR and best mobile advertising services in India. When you partner with WebNest Media, you're choosing a team that understands the nuances of the Gurugram market and the power of mobile technology.
                         </p>
 
-                        <div className="grid grid-cols-4 max-md:grid-cols-1 gap-8 mb-16 px-4">
+                        <div className="grid grid-cols-4 max-md:grid-cols-2 gap-8 mb-16 px-4 border p-8 rounded-xl">
                             <div className='flex flex-col items-center text-center'>
+
                                   <LazyLoadImage src={icon1} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
-                                <p className="text-gray-600 w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
+                                <p className="text-gray-600 lg:w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
                             </div>
                             <div className='flex flex-col items-center  text-center'>
                                   <LazyLoadImage src={icon2} alt="" className='p-6' />
                                 <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
-                                <p className="text-gray-600 w-[78%]">Our strategies deliver measurable results and high ROI.</p>
+                                <p className="text-gray-600 lg:w-[78%]">Our strategies deliver measurable results and high ROI.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
                                   <LazyLoadImage src={icon3} alt="" className='p-6' /> 
                                 <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
-                                <p className="text-gray-600 w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
+                                <p className="text-gray-600 lg:w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
                             </div>
                             <div className='flex flex-col items-center text-center'>
                                   <LazyLoadImage src={icon4} alt="" className='p-6' />
-                                <h4 className="font-semibold text-lg mb-6">Dedicated Support</h4>
-                                <p className="text-gray-600 w-[78%]">A driven group of people who care about your success.</p>
+                                <h4 className="font-semibold text-lg mb-6 max-lg:mb-2">Dedicated Support</h4>
+                                <p className="text-gray-600 lg:w-[78%]">A driven group of people who care about your success.</p>
                             </div>
                         </div>
-
-                        <h3 className="text-[32px] font-semibold max-lg:text-center mb-4">Ready to Mobilize Your Marketing?</h3>
+                        <div data-aos="fade-up">
+                             <h3 className="text-[32px] font-semibold max-lg:text-center mb-4">Ready to Mobilize Your Marketing?</h3>
                         <p className="text-gray-700 max-lg:text-center text-base max-w-xl mx-auto">
                             Don't let your competitors capture the mobile market. Connect with WebNest Media today to discuss how our expert mobile marketing services can help your Gurgaon business thrive on the go.
                         </p>
+                        </div>
+                       
                     </div>
 
                 </div>
                 <Newcontact></Newcontact>
                 <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
-                    <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+                    <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>
                 </div>
             </div>

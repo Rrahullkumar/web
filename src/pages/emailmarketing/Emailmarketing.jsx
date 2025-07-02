@@ -65,16 +65,16 @@ const Emailmarketing = () => {
         />
         </div>
 
-        <div className="emailc2 mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
-          <div className="emailc21 flex flex-col lg:justify-center lg:items-center">
-            <h2 className='text-[52px] max-lg:text-[30px] font-semibold lg:text-center mb-9 max-lg:mb-3'>Email Marketing Services</h2>
+        <div  className="emailc2 mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+          <div data-aos="fade-up" className="emailc21 flex flex-col lg:justify-center lg:items-center">
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold lg:text-center mb-9 max-lg:mb-3'>Email Marketing Services</h2>
             <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
           </div>
-          <div className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
+          <div data-aos="fade-up" className=" w-[100%]  lg:mt-24 max-lg:mt-10 justify-between ">
             <h2 className="text-[52px] max-lg:text-[30px] font-semibold lg:translate-y-6 max-lg:mb-[20px]">What is Email Marketing?</h2>
             <div className='flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10'>
 
-              <div className="lg:w-[60%] flex flex-col">
+              <div data-aos="fade-up" className="lg:w-[60%] flex flex-col">
                 <p className="text-lg">
                   When it comes to direct, impactful digital communication that genuinely drives results, there's arguably no more potent channel than Email Marketing. <br /><br />
                   It's not just about sending out messages; it's a strategic powerhouse for building relationships, converting leads, and fostering customer loyalty. Consider this: for every $1 spent on email marketing, businesses typically see an average Return on Investment (ROI) of $36. That's a staggering figure, highlighting its unmatched efficiency. <br /><br />
@@ -99,8 +99,8 @@ const Emailmarketing = () => {
             The widespread global adoption of email, combined with its capacity for deep personalization and precise automation, makes email marketing more critical than ever before for any business serious about sustained growth and authentic customer engagement.
           </div>
           <div className="emailc24 flex flex-col items-center justify-center mt-24 max-lg:mt-10">
-            <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
-            <p className='text-lg'>In today's overflowing digital world, the inbox isn't just a folder; it's a direct line to your audience's attention, a privileged space that demands respect and strategic finesse. Don't let your brand's voice get lost in the noise, or worse, end up in the spam folder.
+            <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]'>Let Webnest Media Manage Your Email Marketing Optimization</h2>
+            <p data-aos="fade-up" className='text-lg'>In today's overflowing digital world, the inbox isn't just a folder; it's a direct line to your audience's attention, a privileged space that demands respect and strategic finesse. Don't let your brand's voice get lost in the noise, or worse, end up in the spam folder.
 
               <br /> <br /> As an email marketing agency in India, we don't just optimize emails; we orchestrate genuine connections. We understand that behind every email address is a real person, a potential loyal customer whose time and trust are invaluable. Our unique approach dives deep into understanding their journey, crafting messages that resonate, inspire, and drive action – not just clicks.
 
@@ -110,19 +110,19 @@ const Emailmarketing = () => {
 
 
         <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-24  max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] ">
-          <h2 className="text-[52px] max-lg:text-[34px] lg:text-center mb-12 max-lg:mb-6 font-semibold lg:w-[60%]">
+          <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:text-center mb-12 max-lg:mb-6 font-semibold lg:w-[60%]">
             WebNest’s Email Marketing Campaign Services
           </h2>
 
-          <p className="text-lg lg:text-center lg:w-[60%]">
+          <p data-aos="fade-up" className="text-lg lg:text-center lg:w-[60%]">
             Our email marketing services are engineered to transform your inbox presence from a hopeful broadcast into a powerful, personalized revenue engine. We know that behind every email address is a human waiting to be inspired, informed, or delighted.
           </p>
 
-          <div className="emc3cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12 w-full max-w-[1400px] mx-auto items-stretch">
+          <div  className="emc3cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12 w-full max-w-[1400px] mx-auto items-stretch">
 
-            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+            <div data-aos="fade-up"className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
               <div className="flex-1 flex items-center justify-center">
-                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                <h3 className="text-3xl max-md:text-2xl font-semibold lg:w-[90%]">
                   Strategy & Planning
                 </h3>
               </div>
@@ -131,9 +131,9 @@ const Emailmarketing = () => {
               </p>
             </div>
 
-            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+            <div data-aos="fade-up" className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
               <div className="flex-1 flex items-center justify-center">
-                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                <h3 className="text-3xl max-md:text-2xl font-semibold lg:w-[90%]">
                   Content Creation & Design
                 </h3>
               </div>
@@ -142,9 +142,9 @@ const Emailmarketing = () => {
               </p>
             </div>
 
-            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+            <div data-aos="fade-up" className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
               <div className="flex-1 flex items-center justify-center">
-                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                <h3 className="text-3xl max-md:text-2xl font-semibold lg:w-[90%]">
                   Email Automation
                 </h3>
               </div>
@@ -153,9 +153,9 @@ const Emailmarketing = () => {
               </p>
             </div>
 
-            <div className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
+            <div data-aos="fade-up"  className="emcard flex flex-col items-center text-center p-6 max-lg:border rounded-2xl">
               <div className="flex-1 flex items-center justify-center">
-                <h3 className="text-3xl font-semibold lg:w-[90%]">
+                <h3 className="text-3xl max-md:text-2xl font-semibold lg:w-[90%]">
                   Performance Tracking & Reporting
                 </h3>
               </div>
@@ -167,11 +167,11 @@ const Emailmarketing = () => {
           </div>
         </div>
         <div className="emailc4 flex flex-col items-center justify-center mt-24 max-lg:mt-14  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
-          <h2 className="text-[52px] max-lg:text-[34px] lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]">
+          <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]">
             Why Opt for an Email Marketing Agency for Business?
           </h2>
 
-          <p className="text-base lg:text-center lg:w-[70%] mb-16 ">
+          <p data-aos="fade-up" className="text-base lg:text-center lg:w-[70%] mb-16 ">
             The best email marketing company can help you drive your business drive smoothly and grow your business apace. But are you truly maximizing its potential, or is email marketing just another task on an already overflowing to-do list? Working with a professional agency is not merely a choice for companies who are committed to utilizing email to its maximum potential; rather, it is a strategic need.
             <br />
             <br />
@@ -181,7 +181,7 @@ const Emailmarketing = () => {
           
           <div className="emc4cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-[1400px] mx-auto lg:items-stretch mb-24 max-lg:mb-10">
 
-            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+            <div data-aos="fade-up"  className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
                   <LazyLoadImage src={icon1} alt=" Specialized Expertise" className="w-16 h-16 object-contain" />
               </div>
@@ -195,7 +195,7 @@ const Emailmarketing = () => {
               </div>
             </div>
 
-            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+            <div data-aos="fade-up" className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
                   <LazyLoadImage src={icon2} alt="    Reclaim Your Valuable Time & Resources" className="w-16 h-16 object-contain" />
               </div>
@@ -209,7 +209,7 @@ const Emailmarketing = () => {
               </div>
             </div>
 
-            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+            <div data-aos="fade-up"  className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
                   <LazyLoadImage src={icon3} alt="                  Access Cutting-Edge Tools & Technology
 " className="w-16 h-16 object-contain" />
@@ -224,7 +224,7 @@ const Emailmarketing = () => {
               </div>
             </div>
 
-            <div className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
+            <div data-aos="fade-up"   className="emcard4 flex flex-col items-center text-center p-6 justify-between max-lg:border rounded-2xl">
               <div className="mb-6">
                   <LazyLoadImage src={icon4} alt=" Drive Data-Backed Performance & ROI" className="w-16 h-16 object-contain" />
               </div>

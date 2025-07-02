@@ -57,7 +57,7 @@ const InfluencerMarketing = () => {
                     />
 
         {/* B2B Lead Generation Section */}
-        <div className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
+        <div  data-aos="fade-up" className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
 
             <LazyLoadImage src={image1} alt="Best Influencer Marketing Agency" className="max-lg:w-1/2 max-lg:float-right " />
           <div className="imc2left lg:w-[60%] ">
@@ -73,10 +73,10 @@ const InfluencerMarketing = () => {
 
         {/* Top Influencer Section */}
         <div className="imc3 max-w-[1440px] px-10 max-lg:px-4 flex flex-col items-center max-lg:mt-[40px] mb-24 max-lg:mb-10 mx-auto">
-          <h2 className="text-[52px] max-lg:text-[34px] lg:w-[50%] lg:text-center font-semibold mb-8 ">
+          <h2  data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:w-[50%] lg:text-center font-semibold mb-8 ">
             India's Top Influencer Marketing Platform
           </h2>
-          <p className="text-base lg:w-[80%] lg:text-center">
+          <p  data-aos="fade-up" className="text-base lg:w-[80%] lg:text-center">
             WebNest Media is the leading influencer marketing span agency in India as well as social media influencer marketing
             that provides a complete range of services to help brands connect with their audience and get results.
             We handle the entire campaign, from creating content to tracking its success, all to make sure brands meet their goals.
@@ -118,7 +118,7 @@ const InfluencerMarketing = () => {
                   'We co-create compelling content that weaves your message naturally into engaging stories that educate, entertain, and inspire.',
               },
             ].map((item, index) => (
-              <div
+              <div  data-aos="fade-up"
                 key={index}
                 className="bg-black text-white rounded-lg shadow-lg p-6 max-w-[325px] w-full sm:w-[300px] h-[400px] flex flex-col items-center text-center transition-transform hover:scale-105 duration-300 ease-in-out"
               >
@@ -139,16 +139,16 @@ const InfluencerMarketing = () => {
 
     {/* Heading, Mobile Image, and Paragraph - All in Same Div */}
     <div className="left lg:w-[60%]">
-      <h2 className='text-[52px] max-lg:text-[36px] pb-[34px] font-semibold'>
+      <h2  data-aos="fade-up" className='text-[52px] max-lg:text-3xl pb-[34px] font-semibold'>
         How Our Influencer Marketing Company Helps Brands?
       </h2>
 
       {/* Mobile Image - Visible Only on Mobile */}
-      <div className="block lg:hidden mb-8">
+      <div  data-aos="fade-up" className="block lg:hidden mb-8">
           <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
       </div>
 
-      <p className='text-base'>
+      <p  data-aos="fade-up" className='text-base'>
         As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.
       </p>
     </div>

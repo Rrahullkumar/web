@@ -70,16 +70,16 @@ const SmsMarketing = () => {
                         paragraph="Fast, effective SMS marketing that connects with your customers, drives action, and supports your overall marketing strategy."
                     />
             </div>
-        <div className="smsc2 max-w-[1440px] mt-24 max-lg:mt-10 px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
+        <div  data-aos="fade-up" className="smsc2 max-w-[1440px] mt-24 max-lg:mt-10 px-10 max-lg:px-4 lg:flex flex-row-reverse lg:items-center lg:justify-between mb-[96px] max-lg:mb-[60px] mx-auto ">
               <LazyLoadImage src={c2image} alt="" className='max-lg:w-1/2 max-lg:float-right'/>
             
-            <div className="smsc2left lg:w-[50%] ">
+            <div  className="smsc2left lg:w-[50%] ">
                 <h2 className='text-[52px] max-lg:text-[34px] pb-[36px] font-semibold'>Best SMS Marketing Service Agency in Gurgaon</h2>
                 <p className='text-base'>Discover the possibility of business growth with The SMS Marketing Agency, a partner committed to quality. Set up a free 45-minute consultation today to see your conversions increase by two times.</p>
             </div>
              
         </div>
-        <div className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-28">
+        <div  data-aos="fade-up" className="smsc3 lg:flex flex-row max-w-[1440px] px-10 mx-auto max-lg:px-[16px] lg:justify-center gap-2 lg:items-center mb-24 max-lg:mb-10">
             
                   <LazyLoadImage src={c3image} alt="" className='max-lg:w-[50%] max-lg:float-right' />
             
@@ -93,7 +93,7 @@ const SmsMarketing = () => {
         <div className="smsc4 max-w-[1440px] px-10 max-lg:px-[16px] mx-auto mb-24 max-lg:mb-10">
             <div className="max-w-[1200px] mx-auto">
                 {/* Heading */}
-                <h2 className="text-[52px] max-lg:text-[34px] lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
+                <h2 className="text-[52px] max-lg:text-3xl lg:w-[90%] mx-auto font-semibold lg:text-center mb-8">
                     SMS Marketing Company Services | Your Pathway to Direct Engagement
                 </h2>
                 <p className="lg:text-center text-gray-600 max-w-[800px] mx-auto mb-[109px] max-lg:mb-[60px]">
@@ -101,7 +101,7 @@ const SmsMarketing = () => {
                 </p>
 
                 {/* Grid Section */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center ">
+                <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center ">
                     {/* Card 1 */}
                     <div className="bg-[#4CAF50] text-white p-6  flex flex-col shadow-md text-center items-center">
                     <div className="text-3xl mb-3">  <LazyLoadImage src={icon1} alt="" /></div>
@@ -146,9 +146,9 @@ const SmsMarketing = () => {
                 </div>
                 </div>
         </div>
-        <Newcontact></Newcontact>
+        <Newcontact/>
          <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
-          <p className=" mb-[50px] lg:text-center font-medium text-[32px] leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          <p className=" mb-[50px] lg:text-center font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
       </div>
     </div>

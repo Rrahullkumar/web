@@ -118,7 +118,7 @@ const Leadgeneration = () => {
           <h2 className='text-[52px] max-lg:text-[38px] lg:text-center mt-[60px] font-semibold'>
             B2B Lead Generation <span className='text-[#4CAF50] font-normal'><br />Services</span>
           </h2>
-          <p className='text-lg lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
+          <p className='text-lg max-md:text-base lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
             In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
           </p>
             <LazyLoadImage src={image2} alt=" B2B Lead Generation" />
@@ -127,7 +127,7 @@ const Leadgeneration = () => {
         <div className="lgc3 max-w-[1440px] mt-[93px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto">
           {/* Left Section */}
           <div className="lgc3left w-[50%] max-lg:w-full">
-            <h2 className='text-[48px] max-lg:text-[34px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
+            <h2 className='text-[48px] max-lg:text-[30px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
             <br />
 
             {/* Mobile Image: Float right only on mobile */}
@@ -156,7 +156,7 @@ const Leadgeneration = () => {
 
 
         <div className="lgc4 max-w-[1440px] px-10 max-lg:px-4 flex flex-col justify-center items-center  mx-auto mt-[60px] mb-[60px]">
-          <h2 className='text-[48px] max-lg:text-[34px] lg:w-[70%] lg:text-center mb-4 font-semibold'>
+          <h2 className='text-[48px] max-lg:text-3xl lg:w-[70%] lg:text-center mb-4 font-semibold'>
             Powering Your Pipeline with Proven Lead Generation Services
           </h2>
           <div className="  lg:py-12 w-full max-w-4xl mx-auto rounded-lg ">
@@ -189,7 +189,7 @@ const Leadgeneration = () => {
           </div>
         </div>
         <div className="flex flex-col max-w-[1440px] px-10 max-lg:px-4 justify-center items-center mx-auto mt-[60px] mb-[96px]">
-          <h2 className="text-[48px] max-lg:text-[32px] lg:w-[80%] lg:text-center font-semibold leading-tight">
+          <h2 className="text-[48px] max-lg:text-3xl lg:w-[80%] lg:text-center font-semibold leading-tight">
             Our Process for Lead Generation Campaigns <br className='lg:hidden'/>:From <span className=''>Discovery </span>to  <span className=''> Conversion </span>
           </h2>
 
@@ -236,7 +236,7 @@ const Leadgeneration = () => {
         </div>
 
         <div className="lgc5 mt-[40px] max-w-[1440px] flex flex-col px-10 max-lg:px-4 justify-center items-center mx-auto mb-24 max-lg:mb-10">
-          <h2 className='text-[48px] max-lg:text-[36px]  lg:w-[50%] lg:text-center font-semibold'>Why Choose WebNest Media's <br className='lg:hidden'/> Lead Generation?</h2>
+          <h2 className='text-[48px] max-lg:text-3xl  lg:w-[50%] text-center font-semibold'>Why Choose <span className='text-[#4CAF50]'>WebNest Media's</span> <br className='lg:hidden'/> Lead Generation?</h2>
           <div className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 max-lg:mt-14 ">
             {data.map((item, index) => (
               <div className="lgc5card flex flex-col items-center text-center max-lg:border max-lg:py-8 max-lg:shadow-md max-lg:rounded-md ">
@@ -250,7 +250,7 @@ const Leadgeneration = () => {
           </div>
         </div>
         <Newcontact></Newcontact>
-        <div className="lgc7 mt-[96px] max-lg:mt-10 max-w-[1440px] mx-auto px-10 max-lg:4">
+        <div className="lgc7 mt-[96px] max-lg:mt-10 max-w-[1440px] mx-auto px-10 max-lg:px-4">
           <p className=" mb-[50px] font-medium text-[32px]  max-md:text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>
