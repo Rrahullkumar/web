@@ -15,6 +15,7 @@ export default {
         'max-2xl': { max: '1535px' },
       },
     },
+
   },
   plugins: [],
   
