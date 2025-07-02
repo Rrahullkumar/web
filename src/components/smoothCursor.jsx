@@ -227,7 +227,7 @@ export default function App() {
           pointerEvents: 'none',     // 👈 Important: So it doesn't block clicks
           zIndex: 999999999,
           color: '#409338',          // 👈 Icon color
-          fontSize: '24px',          // 👈 Icon size
+          fontSize: '18px',          // 👈 Icon size
         }}
       >
        <FiMousePointer />           {/* 👈 Your custom icon */}
