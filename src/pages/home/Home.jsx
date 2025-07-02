@@ -435,7 +435,7 @@ const Home = () => {
 
         </div>
 
-        <div className=" w-[100%] max-w-[1440px]  max-lg:mt-[10px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] max-w-[1440px] mx-auto  max-lg:mt-[10px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
@@ -456,20 +456,20 @@ const Home = () => {
           </div>
 
 
-          {/* <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
+          <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
               <LazyLoadImage
               src={marketingbanner}
               alt="Marketing Banner"
               className="w-[400px] h-[400px] object-contain"
             />
-          </div> */}
+          </div> 
 
-          <LazyLoadImage
+          {/* <LazyLoadImage
             src={marketingbanner}
             alt="Marketing Banner"
 
             className="w-[400px] h-[400px] object-contain max-lg:hidden"
-          />
+          /> */}
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
