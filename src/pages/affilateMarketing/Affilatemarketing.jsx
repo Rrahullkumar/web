@@ -230,7 +230,7 @@ const Affilatemarketing = () => {
     <div className="lg:w-[60%] flex flex-col justify-start">
 
       {/* Heading */}
-      <h2 className="text-[52px] max-lg:text-3xl max-lg:mb-[20px] lg:mb-8 font-semibold">
+      <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl max-lg:mb-[20px] lg:mb-8 font-semibold">
         Affiliate Marketing?
       </h2>
 
@@ -240,20 +240,20 @@ const Affilatemarketing = () => {
       </div>
 
       {/* Paragraph */}
-      <p className="text-base leading-relaxed">
+      <p data-aos="fade-up" className="text-base leading-relaxed">
         Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
         You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
       </p>
       <br />
 
       {/* Subheading */}
-      <h3 className="text-xl font-semibold mb-4">It's a Win-Win:</h3>
+      <h3 data-aos="fade-up" className="text-xl font-semibold mb-4">It's a Win-Win:</h3>
 
       {/* Bullet Points */}
-      <ul className="text-base mb-12 leading-[160%]">
-        <li>• The company gets more sales.</li>
-        <li>• The customer gets what they're looking for.</li>
-        <li>• And you get paid for making the connection.</li>
+      <ul c lassName="text-base mb-12 leading-[160%]">
+        <li data-aos="fade-up">• The company gets more sales.</li>
+        <li data-aos="fade-up">• The customer gets what they're looking for.</li>
+        <li data-aos="fade-up">• And you get paid for making the connection.</li>
       </ul>
 
       {/* Buttons */}
@@ -268,7 +268,7 @@ const Affilatemarketing = () => {
     <div className="flex gap-3 mt-8">
 
            
-            <button 
+            <button data-aos="fade-up"
               onClick={() => scrollToSection("affilatemarketing")}
             
             className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
@@ -276,7 +276,7 @@ const Affilatemarketing = () => {
       
       
         <Link to="/contact-us">
-            <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+            <button data-aos="fade-up" className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
          
         </Link>
          
@@ -284,8 +284,8 @@ const Affilatemarketing = () => {
     </div>
 
     {/* Right Section: Image Vertically Centered on Desktop */}
-    <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
-        <LazyLoadImage src={amc2img} alt="Woman with laptop" />
+    <div  className="lg:w-[40%] lg:flex hidden justify-center items-center">
+        <LazyLoadImage data-aos="fade-up" src={amc2img} alt="Woman with laptop" />
     </div>
 
   </div>
@@ -302,17 +302,17 @@ const Affilatemarketing = () => {
           <div className="">
             {/* Heading and Description */}
             <div className="flex flex-col lg:items-end lg:mb-[52px] lg:translate-y-24">
-              <h2 className="text-[52px] max-lg:text-3xl font-semibold mb-12 max-lg:mb-4 lg:text-right">Affiliate Marketing Types</h2>
-              <p className="text-base leading-relaxed lg:text-right lg:w-[60%]">
+              <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl font-semibold mb-12 max-lg:mb-4 lg:text-right">Affiliate Marketing Types</h2>
+              <p data-aos="fade-up"className="text-base leading-relaxed lg:text-right lg:w-[60%]">
                 Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
                 You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
               </p>
             </div>
 
             {/* Content Section */}
-            <div className="flex max-lg:flex-col justify-between lg:Lgap-5 items-center">
+            <div data-aos="fade-up" className="flex max-lg:flex-col justify-between lg:Lgap-5 items-center">
               {/* Image */}
-              <div className="max-lg:mb-[40px] flex justify-center max-lg:lg:w-[40%]">
+              <div data-aos="fade-up" className="max-lg:mb-[40px] flex justify-center max-lg:lg:w-[40%]">
                   <LazyLoadImage src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
               </div>
 
@@ -320,7 +320,7 @@ const Affilatemarketing = () => {
               <div className="flex flex-col gap-[20px] w-full lg:w-[60%]">
 
                 {/* Card 1 */}
-                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                <div data-aos="fade-up" className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
                     <span className="text-[18px] max-md:mt-1 font-semibold text-[#888]">01</span>
                     <div className="text-left text-[28px] max-md:text-[26px] font-semibold">
@@ -333,7 +333,7 @@ const Affilatemarketing = () => {
                 </div>
 
                 {/* Card 2 */}
-                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                <div data-aos="fade-up" className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
                     <span className="text-[18px]  max-md:mt-1 font-semibold text-[#888]">02</span>
                     <div className="text-left text-[28px] max-md:text-[26px]  font-semibold">
@@ -346,7 +346,7 @@ const Affilatemarketing = () => {
                 </div>
 
                 {/* Card 3 */}
-                <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
+                <div data-aos="fade-up" className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
                     <span className="text-[18px] max-md:mt-1  font-semibold text-[#888]">03</span>
                     <div className="text-left text-[28px] max-md:text-[26px]  font-semibold">
@@ -365,14 +365,14 @@ const Affilatemarketing = () => {
         <div  className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
-              <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
-              <p className='text-[32px] max-md:text-3xl font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
-              <p className='text-base mb-14'>
+              <p data-aos="fade-up" style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
+              <p data-aos="fade-up" className='text-[32px] max-md:text-3xl font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
+              <p data-aos="fade-up" className='text-base mb-14'>
                 Drive results through performance-based partnerships – only pay when you earn.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-2  ">
                 {statsData.map((item, index) => (
-                  <div className="stat-card " key={index}>
+                  <div data-aos="fade-up" className="stat-card " key={index}>
                     <p className="stat-number">{item.number}</p>
                     <p className="stat-label ">{item.label}</p>
                   </div>
@@ -384,11 +384,11 @@ const Affilatemarketing = () => {
         </div>
 
         <div id="affilatemarketing"  className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:w-[60%] lg:text-center lg:mb-12">
+          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:w-[60%] lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
 
-          <p className="trust-subheading text-lg mb-[40px] lg:w-[90%] lg:text-center">
+          <p data-aos="fade-up" className="trust-subheading text-lg mb-[40px] lg:w-[90%] lg:text-center">
             In today’s competitive digital landscape, content is more than just information—it’s your voice,
             your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
             in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
@@ -400,7 +400,7 @@ const Affilatemarketing = () => {
         <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
             {/* Card 1 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
 
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
@@ -414,7 +414,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
               </div>
@@ -427,7 +427,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
               </div>
@@ -440,7 +440,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 4 */}
-            <div className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
               </div>
@@ -453,7 +453,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 5 */}
-            <div className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
               </div>
@@ -482,17 +482,17 @@ const Affilatemarketing = () => {
             {/* Left Section: Heading + Paragraph (Stacked) */}
             <div className="lg:w-[60%] flex flex-col justify-start">
               {/* Heading */}
-              <h2 className="text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold">
+              <h2 data-aos="fade-up" className="text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold">
                 Can you make money with <span className="highlight">Affiliate Marketing?</span>
               </h2>
 
               {/* Mobile View Image */}
-              <div className="lg:hidden w-full flex justify-center my-6">
+              <div data-aos="fade-up" className="lg:hidden w-full flex justify-center my-6">
                   <LazyLoadImage src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
               </div>
 
               {/* Paragraph */}
-              <p className="text-base leading-relaxed">
+              <p data-aos="fade-up" className="text-base leading-relaxed">
                 Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
                 <br /><br />
                 The concept is straightforward: you promote products or services using unique affiliate links and earn a commission for each sale made through your referral. Since there's no need to create your own products or handle inventory, affiliate marketing is a low-risk, scalable way to build income online.

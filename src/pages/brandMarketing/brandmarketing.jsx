@@ -181,15 +181,15 @@ const Brandmarketing = () => {
                         paragraph="Building strong, memorable brands with clear strategies that connect with audiences and help your business stand out in the market."
                     />
       <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-24 max-lg:mt-10"  >
-        <h6 className='text-[52px]  text-center'>
+        <h6 data-aos="fade-up" className='text-[52px]  text-center'>
           <span className="font-normal">Brand</span>{' '}
           <span className="italic font-light">Strategy?</span>
         </h6>
 
-          <p className='font-semibold text-[18px] mt-[12px] text-center '>BRAND STRATEGY. MESSAGING. BRANDING. WEB DESIGN. PACKAGING.</p>
+          <p  data-aos="fade-up" className='font-semibold text-[18px] mt-[12px] text-center '>BRAND STRATEGY. MESSAGING. BRANDING. WEB DESIGN. PACKAGING.</p>
 
 
-          <p className='text-[16px] font-[350] text-center mt-[52px] text-[black] '> A brand strategy is the blueprint for how your business is seen and remembered. It defines your purpose, voice, values, and the <br className='max-lg:hidden' /> way you connect with your audience. More than just visuals, it builds trust, sets you apart from competitors, and ensures every <br className='max-lg:hidden' /> interaction reflects your brand’s identity. A clear brand strategy turns your business into a brand people recognize and trust.</p>
+          <p  data-aos="fade-up" className='text-[16px] font-[350] text-center mt-[52px] text-[black] '> A brand strategy is the blueprint for how your business is seen and remembered. It defines your purpose, voice, values, and the <br className='max-lg:hidden' /> way you connect with your audience. More than just visuals, it builds trust, sets you apart from competitors, and ensures every <br className='max-lg:hidden' /> interaction reflects your brand’s identity. A clear brand strategy turns your business into a brand people recognize and trust.</p>
 
         </section>
 
@@ -214,7 +214,7 @@ const Brandmarketing = () => {
           <div className="flex w-max animate-scroll-x">
             {/* Duplicate the images to make it seamless */}
             {[...images, ...images].map((src, index) => (
-              <div key={index} className="flex-shrink-0 w-[16.666%] h-[250px]">
+              <div key={index}  data-aos="fade-up" className="flex-shrink-0 w-[16.666%] h-[250px]">
                   <LazyLoadImage
                   src={src}
                   alt={`Image ${index + 1}`}
@@ -237,7 +237,7 @@ const Brandmarketing = () => {
           <div className="flex max-lg:flex-col pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-[200px] max-md:mt-10 gap-6 justify-center">
 
             {/* Fixed Left Image on Large Screens */}
-            <div className="w-full md:w-[540px] lg:sticky lg:top-[200px] self-start">
+            <div  data-aos="fade-up" className="w-full md:w-[540px] lg:sticky lg:top-[200px] self-start">
                 <LazyLoadImage
                 src={leftiamge}
                 alt="Real Talk Image"
@@ -247,16 +247,16 @@ const Brandmarketing = () => {
 
             {/* Scrolling Right Content */}
             <div className="w-full max-lg:w-full" data-aos="fade-up">
-              <h6 className="font-[350] text-black text-[24px] leading-[150%]">REAL TALK:</h6>
+              <h6  data-aos="fade-up" className="font-[350] text-black text-[24px] leading-[150%]">REAL TALK:</h6>
 
-              <p className="text-[40px] leading-[150%] font-light mt-[16px]">
+              <p  data-aos="fade-up" className="text-[40px] leading-[150%] font-light mt-[16px]">
                 <span className="font-semibold">Why </span>
                 <span className="font-thin italic">Brand Marketing</span>
                 <br />
                 <span className="font-semibold">Strategy?</span>
               </p>
 
-            <p className="text-[16px] text-[#000000] leading-relaxed mt-14 max-md:mt-8 font-normal">
+            <p  data-aos="fade-up" className="text-[16px] text-[#000000] leading-relaxed mt-14 max-md:mt-8 font-normal">
               A powerful brand strategy does more than just make your business look good—it builds trust,
               loyalty, and long-term success. In today’s competitive digital world, customers don’t just
               buy products—they buy stories, values, and experiences.
@@ -266,7 +266,7 @@ const Brandmarketing = () => {
 
             <div className="mt-[32px] mb-[52px] flex flex-wrap items-center justify-center gap-x-[24px] gap-y-[48px] p-4">
               {cards.map((card, index) => (
-                <div
+                <div data-aos="fade-up" 
                   key={index}
                   className="w-[210px] h-[300px] flex flex-col justify-between items-center  "
                 >
@@ -293,8 +293,8 @@ const Brandmarketing = () => {
         </section>
 
         <section className='max-w-[1440px] w-[100%] mx-auto'>
-          <h4 className='text-[52px] max-lg:text-[44px] leading-[150%] md:text-center max-md:px-4 mt-[96px] mb-[32px] '> <span className="font-normal">Brand Strategy Services by</span> <br className='max:max-md:hidden' /><span className="italic font-[350]"> WebNest Media</span></h4>
-           <p className='text-[16px] text-[#00000] font-normal md:text-center p-[20px] '>At WebNest Media, we combine creativity, research, and strategy to craft brand identities that leave a lasting impact. Our  <br />services cover every stage of your brand-building journey: </p>
+          <h4  data-aos="fade-up" className='text-[52px] max-lg:text-[44px] leading-[150%] md:text-center max-md:px-4 mt-[96px] mb-[32px] '> <span className="font-normal">Brand Strategy Services by</span> <br className='max:max-md:hidden' /><span className="italic font-[350]"> WebNest Media</span></h4>
+           <p  data-aos="fade-up" className='text-[16px] text-[#00000] font-normal md:text-center p-[20px] '>At WebNest Media, we combine creativity, research, and strategy to craft brand identities that leave a lasting impact. Our  <br />services cover every stage of your brand-building journey: </p>
 
 
         </section>
@@ -323,7 +323,7 @@ const Brandmarketing = () => {
 
         <section className="px-[20px] xl:px-[155px]   py-10  max-w-[1440px] w-[100%] mx-auto">
           {brandSteps.map((step, index) => (
-            <div
+            <div data-aos="fade-up" 
               key={index}
               className="flex flex-col md:flex-row justify-between gap-[10px] md:gap-[100px] lg:gap-[240px] border-b border-gray-200 py-6 last:border-none"
             >
@@ -345,7 +345,7 @@ const Brandmarketing = () => {
 
 
         <section className='max-w-[1440px] w-[100%] mx-auto'>
-          <p className="mt-[96px] max-md:mt-10 mb-[66px] text-center text-[52px] leading-[150%] ">
+          <p  data-aos="fade-up" className="mt-[96px] max-md:mt-10 mb-[66px] text-center text-[52px] leading-[150%] ">
             <span className="font-normal">Why </span>
             <span className="italic font-[350]">WebNest  <br className='max-md:hidden' />Media?</span>
           </p>
@@ -357,7 +357,7 @@ const Brandmarketing = () => {
           <div className='mt-[32px] mb-[52px] flex flex-wrap items-center justify-center gap-4 max-md:gap-14 p-4'>
 
           {whycard.map((card, index) => (
-            <div
+            <div data-aos="fade-up" 
               key={index}
               className="w-[325px] flex flex-col justify-center items-center   p-2"
             >
@@ -379,7 +379,7 @@ const Brandmarketing = () => {
       <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[32px]           
-          text-center
+  
         '>Let's address your <span className='text-[#4CAF50] '>questions </span>today</h2>
 
           <Accordian />

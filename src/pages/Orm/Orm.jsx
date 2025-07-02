@@ -131,16 +131,16 @@ const Orm = () => {
             {/* Text Block */}
             <div className="flex-1">
 
-              <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-semibold'>
+              <h2 data-aos="fade-up" className='text-[44px] max-lg:text-[34px] mb-3 font-semibold'>
                 Online Reputation <span className='text-[#4CAF50]'>Management Services?</span>
               </h2>
 
-              <h3 className='text-lg font-semibold mb-12 max-lg:mb-8'>
-                Rebuild Your Reputation with India’s best Online Reputation Management Expert
+              <h3 data-aos="fade-up" className='text-lg font-semibold mb-12 max-lg:mb-8'>
+                 Rebuild Your Reputation with India’s best Online Reputation Management Expert
               </h3>
 
               {/* Paragraph with Floating Image on Mobile */}
-              <p className='text-base '>
+              <p  data-aos="fade-up" className='text-base '>
                 {/* Float only on Mobile */}
                   <LazyLoadImage
                   src={timer}
@@ -166,7 +166,7 @@ const Orm = () => {
             </div>
 
             {/* Image for Desktop (Hidden on Mobile) */}
-            <div className="w-[35%] max-lg:hidden">
+            <div  data-aos="fade-up" className="w-[35%] max-lg:hidden">
                 <LazyLoadImage
                 src={timer}
                 alt=" ORM services"
@@ -190,8 +190,8 @@ const Orm = () => {
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
             <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-              <h6 className='text-[46px] max-md:text-[30px] text-[black] '>Types of Online Reputation Management Services</h6>
-              <p className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
+              <h6  data-aos="fade-up" className='text-[46px] max-md:text-[30px] text-[black] '>Types of Online Reputation Management Services</h6>
+              <p  data-aos="fade-up" className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
             </div>
 
             <div className="w-[507px] max-lg:w-full cursor-pointer" data-aos="fade-up">
@@ -200,7 +200,7 @@ const Orm = () => {
 
               {services.map((service, index) => {
                 return (
-                  <div key={index} className="flex items-start max-md:flex-col gap-4 mb-7 ">
+                  <div  data-aos="fade-up" key={index} className="flex items-start max-md:flex-col gap-4 mb-7 ">
 
                       <LazyLoadImage
                       src={service.image}
@@ -232,12 +232,12 @@ const Orm = () => {
   <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">
 
     {/* Heading */}
-    <h5 className="leading-tight text-5xl max-lg:text-[34px] max-lg:font-semibold mb-6">
+    <h5 data-aos="fade-up" className="leading-tight text-5xl max-lg:text-[34px] max-lg:font-semibold mb-6">
       Why Your Business Needs Reputation Management
     </h5>
 
     {/* Image - Mobile position */}
-    <div className="w-full flex justify-center mt-6 mb-6 lg:hidden">
+    <div data-aos="fade-up" className="w-full flex justify-center mt-6 mb-6 lg:hidden">
         <LazyLoadImage
         src={iot}
         alt="Business Needs Reputation Management"
@@ -246,7 +246,7 @@ const Orm = () => {
     </div>
 
     {/* Paragraph */}
-    <p className="text-base font-normal mt-[24px] leading-relaxed">
+    <p  data-aos="fade-up" className="text-base font-normal mt-[24px] leading-relaxed">
       Your online reputation has the power to make or break your business in the modern digital age. Whether it’s a small comment on social media or a review on Google, customers are forming opinions about your brand before ever speaking to you. That’s why reputation management is no longer optional—it’s essential.
       <br className="hidden lg:inline" />
       A single negative article or poor review can push potential customers toward competitors, even if your product or service is top-notch. Reputation management helps control the narrative, ensures positive visibility, and builds trust with your audience.
@@ -256,22 +256,22 @@ const Orm = () => {
 
     {/* List */}
     <ul className="flex flex-wrap text-base text-[#333] pl-[30px] mt-[12px]">
-      <li className='list-disc'>Monitor what people are saying about your brand</li>
-      <li className='list-disc'>Respond to negative feedback before it escalates</li>
-      <li className='list-disc'>Promote positive content and customer experiences</li>
-      <li className='list-disc'>Enhance your brand’s credibility and trustworthiness</li>
-      <li className='list-disc'>Protect your business from online attacks and misinformation</li>
+      <li  data-aos="fade-up" className='list-disc'>Monitor what people are saying about your brand</li>
+      <li  data-aos="fade-up" className='list-disc'>Respond to negative feedback before it escalates</li>
+      <li  data-aos="fade-up" className='list-disc'>Promote positive content and customer experiences</li>
+      <li  data-aos="fade-up" className='list-disc'>Enhance your brand’s credibility and trustworthiness</li>
+      <li  data-aos="fade-up" className='list-disc'>Protect your business from online attacks and misinformation</li>
     </ul>
 
     {/* Closing Paragraph */}
-    <p className="mt-[20px] text-[16px] font-normal leading-relaxed">
+    <p  data-aos="fade-up" className="mt-[20px] text-[16px] font-normal leading-relaxed">
       In short, reputation management safeguards your most valuable asset—your brand image—and turns perception into profit.
     </p>
 
   </div>
 
   {/* Image - Desktop position */}
-  <div className="w-full lg:w-[40%] flex justify-center lg:justify-center max-lg:hidden lg:flex">
+  <div  data-aos="fade-up" className="w-full lg:w-[40%] flex justify-center lg:justify-center max-lg:hidden lg:flex">
       <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"

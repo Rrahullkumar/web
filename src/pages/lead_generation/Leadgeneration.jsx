@@ -115,53 +115,53 @@ const Leadgeneration = () => {
         </div>
 
         <div className=" max-w-[1440px] lgc2 px-10 max-lg:px-4 flex flex-col justify-center items-center mx-auto">
-          <h2 className='text-[52px] max-lg:text-[38px] lg:text-center mt-[60px] font-semibold'>
+          <h2 data-aos="fade-up" className='text-[52px] max-lg:text-[38px] lg:text-center mt-[60px] font-semibold'>
             B2B Lead Generation <span className='text-[#4CAF50] font-normal'><br />Services</span>
           </h2>
-          <p className='text-lg max-md:text-base lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
+          <p data-aos="fade-up" className='text-lg max-md:text-base lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
             In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
           </p>
-            <LazyLoadImage src={image2} alt=" B2B Lead Generation" />
+            <LazyLoadImage data-aos="fade-up"  src={image2} alt=" B2B Lead Generation" />
         </div>
 
         <div className="lgc3 max-w-[1440px] mt-[93px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto">
           {/* Left Section */}
           <div className="lgc3left w-[50%] max-lg:w-full">
-            <h2 className='text-[48px] max-lg:text-[30px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
+            <h2 data-aos="fade-up" className='text-[48px] max-lg:text-[30px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
             <br />
 
             {/* Mobile Image: Float right only on mobile */}
-            <div className="block lg:hidden float-right w-[50%] ml-4 mb-4">
+            <div data-aos="fade-up" className="block lg:hidden float-right w-[50%] ml-4 mb-4">
                 <LazyLoadImage src={image3} alt="lead generation agency" className='w-full h-auto object-contain' />
             </div>
 
-            <p className='text-base font-[350]'>
+            <p data-aos="fade-up" className='text-base font-[350]'>
               Explore our lead generation agency and discover how we turn interest into real business opportunities. At WebNest Media, we don't just deliver leads—we deliver the right leads. Our strategies are built to connect your business with decision-makers who are ready to engage. Whether you're targeting startups or enterprise clients, we tailor campaigns that bring in high-quality prospects, reduce wasted time, and boost your ROI
             </p>
             <br />
-            <p className='text-base font-[350]'>
+            <p data-aos="fade-up" className='text-base font-[350]'>
               From email outreach to LinkedIn marketing and performance-driven funnels, we use smart, data-backed methods that actually work. With us, lead generation isn't just a numbers game it's a strategy for real growth. Let's build a pipeline full of potential, not just empty contacts.
             </p>
             <br />
-            <p className='text-base font-[350]'>
+            <p data-aos="fade-up" className='text-base font-[350]'>
               In short, WebNest Media is the best B2B Lead Generation Services provider in Gurgaon and India, which can boost your business and more with our lead generation expert.
             </p>
           </div>
 
           {/* Desktop Image: Visible only on large screens */}
-          <div className="lgc3right w-[50%] max-lg:hidden h-full flex items-center">
+          <div data-aos="fade-up" className="lgc3right w-[50%] max-lg:hidden h-full flex items-center">
               <LazyLoadImage src={image3} alt="Proven Lead Generation Services" className='w-full h-full object-contain pb-[20px]' />
           </div>
         </div>
 
 
         <div className="lgc4 max-w-[1440px] px-10 max-lg:px-4 flex flex-col justify-center items-center  mx-auto mt-[60px] mb-[60px]">
-          <h2 className='text-[48px] max-lg:text-3xl lg:w-[70%] lg:text-center mb-4 font-semibold'>
+          <h2 data-aos="fade-up" className='text-[48px] max-lg:text-3xl lg:w-[70%] lg:text-center mb-4 font-semibold'>
             Powering Your Pipeline with Proven Lead Generation Services
           </h2>
-          <div className="  lg:py-12 w-full max-w-4xl mx-auto rounded-lg ">
+          <div data-aos="fade-up" className="  lg:py-12 w-full max-w-4xl mx-auto rounded-lg ">
             {accordionData.map((item, index) => (
-              <div key={index} className="border-b  py-6">
+              <div data-aos="fade-up" key={index} className="border-b  py-6">
                 <button
                   onClick={() => toggle(index)}
                   className="w-full flex justify-between items-center text-left text-black text-lg focus:outline-none hover:text-[#4CAF50] transition-colors duration-300"
@@ -174,7 +174,7 @@ const Leadgeneration = () => {
 />
 
                 </button>
-                <div
+                <div data-aos="fade-up" 
                   className={`grid transition-all duration-300 ease-in-out ${openIndex === index ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
                     }`}
                 >
@@ -189,7 +189,7 @@ const Leadgeneration = () => {
           </div>
         </div>
         <div className="flex flex-col max-w-[1440px] px-10 max-lg:px-4 justify-center items-center mx-auto mt-[60px] mb-[96px]">
-          <h2 className="text-[48px] max-lg:text-3xl lg:w-[80%] lg:text-center font-semibold leading-tight">
+          <h2 data-aos="fade-up" className="text-[48px] max-lg:text-3xl lg:w-[80%] lg:text-center font-semibold leading-tight">
             Our Process for Lead Generation Campaigns <br className='lg:hidden'/>:From <span className=''>Discovery </span>to  <span className=''> Conversion </span>
           </h2>
 
@@ -220,7 +220,7 @@ const Leadgeneration = () => {
                   'Through continuous interaction and assessment, we ensure only the most promising leads are forwarded to your sales team.',
               },
             ].map((item, index) => (
-              <div
+              <div data-aos="fade-up" 
                 className="flex justify-between items-start border-b gap-2 border-[#eee] py-[10px]"
                 key={index}
               >
@@ -236,10 +236,10 @@ const Leadgeneration = () => {
         </div>
 
         <div className="lgc5 mt-[40px] max-w-[1440px] flex flex-col px-10 max-lg:px-4 justify-center items-center mx-auto mb-24 max-lg:mb-10">
-          <h2 className='text-[48px] max-lg:text-3xl  lg:w-[50%] text-center font-semibold'>Why Choose <span className='text-[#4CAF50]'>WebNest Media's</span> <br className='lg:hidden'/> Lead Generation?</h2>
-          <div className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 max-lg:mt-14 ">
+          <h2 data-aos="fade-up" className='text-[48px] max-lg:text-3xl  lg:w-[50%] text-center font-semibold'>Why Choose <span className='text-[#4CAF50]'>WebNest Media's</span> <br className='lg:hidden'/> Lead Generation?</h2>
+          <div data-aos="fade-up" className="lgc5cards grid grid-cols-4 max-sm:grid-cols-1 gap-10  mt-20 max-lg:mt-14 ">
             {data.map((item, index) => (
-              <div className="lgc5card flex flex-col items-center text-center max-lg:border max-lg:py-8 max-lg:shadow-md max-lg:rounded-md ">
+              <div data-aos="fade-up" className="lgc5card flex flex-col items-center text-center max-lg:border max-lg:py-8 max-lg:shadow-md max-lg:rounded-md ">
                   <LazyLoadImage src={item.icon} alt={item.title} className='w-[50px] h-[50px] mb-9' />
                 <h3 className='text-[24px] font-semibold mb-6'>{item.title}</h3>
                 <p className='text-[16px] w-[80%]'>{item.content}</p>

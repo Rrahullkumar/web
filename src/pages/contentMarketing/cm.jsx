@@ -239,31 +239,31 @@ const ContentMarketing = () => {
         </div>
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-          <h2 className="text-[52px] max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
+          <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
             <span className="highlight">Content</span> is the key to <br /> building audiences
           </h2>
 
           <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
             {/* Left Text Section */}
             <div className="lg:w-[60%] flex flex-col">
-              <p className="text-base">
+              <p data-aos="fade-up" className="text-base">
                 Great content captures attention, builds trust, and keeps your audience coming back.
                 At WebNest Media, we craft meaningful content that speaks directly to your ideal customers.
               </p>
 
               <br />
-              <h3 className="text-2xl font-semibold mb-4">What We Offer:</h3>
+              <h3 data-aos="fade-up" className="text-2xl font-semibold mb-4">What We Offer:</h3>
 
               <ul className="text-base mb-12 lg:leading-[160%]">
-                <li>• Blog posts, SEO content, and landing pages</li>
-                <li>• Visual storytelling with high-quality graphics</li>
-                <li>• Strategic content planning and calendar</li>
+                <li data-aos="fade-up">• Blog posts, SEO content, and landing pages</li>
+                <li data-aos="fade-up">• Visual storytelling with high-quality graphics</li>
+                <li data-aos="fade-up">• Strategic content planning and calendar</li>
               </ul>
 
 
 
 
-              <div className="flex gap-3 mt-8">
+              <div data-aos="fade-up" className="flex gap-3 mt-8">
 
 
                 <button
@@ -284,7 +284,7 @@ const ContentMarketing = () => {
             </div>
 
             {/* Right Image */}
-            <div className="max-lg:w-[80%]">
+            <div data-aos="fade-up" className="max-lg:w-[80%]">
               <LazyLoadImage src={image} alt="Content Strategy Visual" />
             </div>
           </div>
@@ -294,21 +294,21 @@ const ContentMarketing = () => {
         <div className=' bg-[#EFF4EE]'>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
             <div className="pb-[72px] text-center">
-              <p className="text-[18px] max-lg:mb-4" style={{ color: '#EEC370' }}>
+              <p data-aos="fade-up" className="text-[18px] max-lg:mb-4" style={{ color: '#EEC370' }}>
                 The no. 1 Content Marketing Service
               </p>
 
-              <h2 className='text-3xl font-semibold mb-8'>
+              <h2 data-aos="fade-up" className='text-3xl font-semibold mb-8'>
                 Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
               </h2>
 
-              <p className="text-base mb-14">
+              <p data-aos="fade-up" className="text-base mb-14">
                 Drive results through performance-based partnerships – only pay when you earn.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
                 {statsData.map((item, index) => (
-                  <div className="stat-card" key={index}>
+                  <div data-aos="fade-up" className="stat-card" key={index}>
                     <p className="stat-number">{item.number}</p>
                     <p className="stat-label">{item.label}</p>
                   </div>
@@ -326,12 +326,12 @@ const ContentMarketing = () => {
 
 
         <div id="bringout" className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
-          <h2 className=" font-semibold text-6xl max-lg:text-3xl leading-tight ">
+          <h2 data-aos="fade-up" className=" font-semibold text-6xl max-lg:text-3xl leading-tight ">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
           </h2>
           <br />
-          <p className="trust-subheading mb-[40px] lg:w-[80%] text-base leading-[160%]">
+          <p data-aos="fade-up" className="trust-subheading mb-[40px] lg:w-[80%] text-base leading-[160%]">
             In today’s competitive digital landscape, content is more than just information—it’s your voice,
             your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
             in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
@@ -341,7 +341,7 @@ const ContentMarketing = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustData.map((item, index) => (
-              <div
+              <div data-aos="fade-up"
                 key={index}
                 className="bg-[#EFF4EE] rounded-[12px] p-[30px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1 "
               >

@@ -645,7 +645,7 @@ const Sem = () => {
 
         <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
-          <h2 className="text-[48px] max-lg:text-3xl font-semibold">
+          <h2 data-aos="fade-up" className="text-[48px] max-lg:text-3xl font-semibold">
             What is Search Engine   <br className='max-lg:hidden' /> Marketing?
           </h2>
 
@@ -655,15 +655,15 @@ const Sem = () => {
             <div className="w-[60%] max-lg:w-[100%] ">
 
 
-              <p id="" className='text-base mt-[20px] font-manrope '>
+              <p data-aos="fade-up" id="" className='text-base mt-[20px] font-manrope '>
                 SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.    In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
               </p>
             </div>
-            <div className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
+            <div data-aos="fade-up" className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
                 <LazyLoadImage src={semlogo} alt='WebNest Logo' />
             </div>
           </div>
-          <div className=" flex gap-2 mt-8 max-lg:mt-12 ">
+          <div data-aos="fade-up" className=" flex gap-2 mt-8 max-lg:mt-12 ">
             
             <button
               onClick={() => scrollToSection("semservice")}
@@ -679,36 +679,36 @@ const Sem = () => {
         </div>
 
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto container_2">
-          <h2 className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
+        <div  className=" max-w-[1440px] w-[100%] mx-auto container_2">
+          <h2 data-aos="fade-up" className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
-            <p style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
+            <p data-aos="fade-up" style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
               WebNest Media is the search engine marketing company india and offers several benefits that set them apart from other agencies. Here are a few reasons why you might want to consider them:
             </p>
             <ul className='c2_list'>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Specialist Search Engine Marketing: </b> We have a team of professionals experienced in creating and optimizing paid search campaigns. Their
                 expertise could help improve ad performance and maximize ROI.
               </li>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b> Customized Strategies: </b>We will provide top-notch search engine marketing strategies that are aligned with your business
                 goals, focusing on specific keywords, targeting methods, and ad copy that will resonate with your audience.
               </li>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Comprehensive Services: </b> SEM is more than just pay-per-click (PPC) ads; it's about integrating your strategy with SEO,
                 landing page optimization, and continuous testing. WebNest Media may offer a holistic approach that addresses all
                 these areas.
               </li>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Up-to-Date with Trends: </b> The world of SEM is constantly evolving. WebNest Media likely stays updated with the latest
                 trends and strategies to keep your campaigns ahead of the competition. We use different types of search engine
                 marketing tools to stay updated.
               </li>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Conversion-Focused:</b> WebNest Media could emphasize not only driving traffic but also increasing conversions. Whether it's
                 purchases, leads, or other goals, our team focuses on improving conversion rates for better overall campaign success.
               </li>
-              <li className='c2_list_item'>
+              <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Experience with Various Platforms:</b> Our team is full of experience with major SEM platforms like Google Ads, Bing Ads,
                 and other search networks, offering flexibility depending on your audience and objectives.
               </li>
@@ -721,11 +721,11 @@ const Sem = () => {
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
-            <h2 style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
+            <h2 data-aos="fade-up" style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
-                <div
+                <div data-aos="fade-up"
                   key={index}
                   className="bg-white border border-[#ddd] rounded-xl p-10 text-center 
                  shadow-[0_2px_8px_rgba(0,0,0,0.05)] 
@@ -757,27 +757,27 @@ const Sem = () => {
               {/* Left Section */}
               <div className="lg:w-[60%] max-lg:w-[100%] order-1">
 
-                <h2 id="" className="text-[48px] max-lg:text-3xl font-semibold">
+                <h2 data-aos="fade-up" id="" className="text-[48px] max-lg:text-3xl font-semibold">
                   Top Search Engine Marketing Company in Gurgaon
                 </h2>
 
                 {/* Image should come here on mobile */}
-                <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto lg:hidden mt-6">
+                <div data-aos="fade-up" className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto lg:hidden mt-6">
                     <LazyLoadImage src={redlady} alt="Top Sem" className='mx-auto w-[70%]' />
                 </div>
 
-                <p id="" className='text-base mt-[36px] font-manrope'>
+                <p data-aos="fade-up" id="" className='text-base mt-[36px] font-manrope'>
                   You have come to the correct place if you are in search of the best search engine marketing agency based out of Gurgaon. At WebNest Media, we believe every business needs a solid and results-driven digital strategy to stand out in a venture that is cutthroat in terms of competition for space online. We provide the best SEM agency according to your digital marketing objectives associated with your business’ needs—whether you are looking for brand awareness, qualified traffic, speed of conversions, or whatever your goals may be, WebNest Media provides the best SEM services you're looking for!
                 </p>
 
-                <p id="" className='text-base mt-[20px] font-manrope'>
+                <p data-aos="fade-up" id="" className='text-base mt-[20px] font-manrope'>
                   Our certified professionals with years of industry knowledge put forth modern-day techniques to get your business quantifiable, identifiable and worthwhile results for potential consumers. We run a cost-effective, highly targeted paid and/or social campaign on your behalf and manage every aspect of your search engine marketing spend. When you partner with WebNest Media, you're partnering with the best SEM agency that genuinely cares about helping your business grow online and be successful in achieving its objectives!
                 </p>
 
               </div>
 
               {/* Image - only for large screens */}
-              <div className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto max-lg:hidden order-2">
+              <div data-aos="fade-up" className="max-w-[440px] w-[100%] flex flex-col gap-[26px] justify-center max-lg:items-center max-lg:mx-auto max-lg:hidden order-2">
                   <LazyLoadImage src={redlady} alt='Search-Engine-Marketing-Company-in-Gurgaon' className='mx-auto w-[70%]' />
               </div>
 
@@ -795,7 +795,7 @@ const Sem = () => {
             {tabsData.map((tab, index) => (
 
 
-              <button
+              <button 
                 key={tab.id}
                 onClick={() => handleTabClick(index)}
                 className={` cursor-pointer transition-colors duration-300 text-center min-w-fit

@@ -292,14 +292,14 @@ const Smm = () => {
 
         <div className='max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto'>
 
-          <h2 className="  w-[100% ] mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[32px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom ">
+          <h2 data-aos="fade-up" className="  w-[100% ] mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[32px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom ">
             Boost Your Digital Impact with <br className='max-lg:hidden' />
             Smart Social Media Planning
           </h2>
 
 
 
-          <p className=' max-sm:mt-[40px] text-[15px] mt-24 text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
+          <p data-aos="fade-up" className=' max-sm:mt-[40px] text-[15px] mt-24 text-center text-[black]  mb-[10px] w-[50%]  max-lg:w-[100%] mx-auto
 '>
 
             Enhance your brand’s digital footprint with our social media marketing company Gurgaon, crafted to simplify content creation, scheduling, and analytics unlock your brand’s true potential today.
@@ -308,7 +308,7 @@ const Smm = () => {
 
 
 
-        <div className=" max-w-[1440px] px-10 max-lg:px-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
+        <div data-aos="fade-up" className=" max-w-[1440px] px-10 max-lg:px-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
           {icons.map((Icon, index) => (
             <div
               key={index}
@@ -323,7 +323,7 @@ const Smm = () => {
           ))}
         </div>
 
-        <div className="
+        <div data-aos="fade-up" className="
         flex flex-col lg:flex-row max-w-[1440px] mx-auto">
           {/* Box 1 */}
           <div className="w-full md:basis-1/3  flex justify-center">
@@ -372,7 +372,7 @@ const Smm = () => {
 
         <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px] max-lg:mt-[100px]'>
 
-          <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  mt-[100px] lg:text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
+          <h2 data-aos="fade-up" className="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  mt-[100px] lg:text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
           <Cards className="" />
         </div>
@@ -412,27 +412,27 @@ const Smm = () => {
 
           <div className="lg:w-[50%] max-md:w-[100%]   text-center lg:text-left">
             <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between lg:gap-10 max-md:gap-4">
-              <h2 class="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
+              <h2 data-aos="fade-up" class="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
               </h2>
-              <p className="text-[black] text-[15px] max-md:text-left  max-w-xl max-md:mb-5">
+              <p data-aos="fade-up" className="text-[black] text-[15px] max-md:text-left  max-w-xl max-md:mb-5">
                 Unlock the full potential of your brand online with Social Hub. From social media
                 management to content optimization, Social Hub helps you grow faster, engage smarter,
                 and stand out in the digital crowd.
               </p>
 
            <Link to ="/contact-us">
-              <button type="submit " class=" text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
+              <button data-aos="fade-up" type="submit " class=" text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
 
               </button>
 
            </Link>
 
 
-              <div className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
+              <div data-aos="fade-up" className=" max-md:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
                 <div className="">
                   {/*   <LazyLoadImage src="/assets/smart-icon.svg" alt="Smart Social Media Management" className="w-6 h-6 object-contain" /> */}
 
-                  <div className='flex items-center  gap-2 '>
+                  <div data-aos="fade-up" className='flex items-center  gap-2 '>
                     <span className="w-[20px] h-[20px] object-contain"> <SiSmartthings />  </span>
                     <h3 className="text-lg font-semibold max-md:text-left text-[#1a1a1a]">Smart Social Media Management</h3>
                   </div>
@@ -452,7 +452,7 @@ const Smm = () => {
         </div>
 
 
-        <div
+        <div data-aos="fade-up"
           className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-24 max-lg:mt-10  gap-10 
     bg-no-repeat bg-contain bg-right 
     md:bg-[url('${largesmart}')]`}
@@ -472,18 +472,18 @@ const Smm = () => {
             </div>
 
             {/* Paragraphs */}
-            <p className="text-basse md:text-base mb-5 text-black mt-0 leading-relaxed">
+            <p data-aos="fade-up" className="text-basse md:text-base mb-5 text-black mt-0 leading-relaxed">
               Social media is where your audience is—and it’s growing every day. It gives your business a way to connect, and build lasting relationships with your target customers. But managing social platforms effectively takes more than just posting. It requires strategy, consistency, and a deep understanding of what works.
             </p>
 
-            <p className='text-base '>
+            <p data-aos="fade-up" className='text-base '>
               As a leading provider of social media marketing services in Gurgaon, we help businesses grow their brand presence, connect with the right audience, and drive real results. Whether it’s building awareness, increasing followers, or generating leads, our expert team crafts tailored strategies that get your message in front of the people who matter.
             </p>
 
             {/* Cards Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               {cardData.map((card) => (
-                <div key={card.id} className="bg-white rounded-2xl shadow p-6">
+                <div data-aos="fade-up" key={card.id} className="bg-white rounded-2xl shadow p-6">
                   <div className="">
 
                     <div className='flex items-center gap-2'>
@@ -508,16 +508,16 @@ const Smm = () => {
         </div>
 
         <div className="max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-10 mx-auto newcontainer">
-          <h2 className="text-[40px] max-md:text-[28px] font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
+          <h2 data-aos="fade-up" className="text-[40px] max-md:text-[28px] font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h2>
-          <p className='mb-8'>
+          <p data-aos="fade-up" className='mb-8'>
             The advantages of social media marketing are many. Here are some ways that social media marketing might benefit your company:
           </p>
 
 
           <ul className="lg:ml-[25px] mt-[10px]">
-            <li className="mb-[30px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[30px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Get your brand seen by more people.
               </h3>
@@ -526,7 +526,7 @@ const Smm = () => {
               </p>
             </li>
 
-            <li className="mb-[20px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[20px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Bring the right visitors to your website.
               </h3>
@@ -535,7 +535,7 @@ const Smm = () => {
               </p>
             </li>
 
-            <li className="mb-[20px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[20px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Start real conversations with your audience.
               </h3>
@@ -544,7 +544,7 @@ const Smm = () => {
               </p>
             </li>
 
-            <li className="mb-[20px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[20px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Give your search rankings a little boost.
               </h3>
@@ -553,7 +553,7 @@ const Smm = () => {
               </p>
             </li>
 
-            <li className="mb-[20px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[20px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Turn likes and clicks into real leads.
               </h3>
@@ -562,7 +562,7 @@ const Smm = () => {
               </p>
             </li>
 
-            <li className="mb-[20px] lg:mb-[28px]">
+            <li data-aos="fade-up" className="mb-[20px] lg:mb-[28px]">
               <h3 className="text-lg font-semibold text-[#1a1a1a] relative pl-4 before:content-['•'] before:absolute before:left-0 before:text-black">
                 Grow your business without breaking the bank.
               </h3>
@@ -577,8 +577,8 @@ const Smm = () => {
         <div className='mt-24 max-md:mt-10'>
           <Newcontact />
         </div>
-        <div className='mt-[100px] max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
-          <h2 className="text-[#409338] mb-[50px] font-bold text-[40px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
+        <div className='mt-[100px] max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
+          <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
 
           <Accordian />
 

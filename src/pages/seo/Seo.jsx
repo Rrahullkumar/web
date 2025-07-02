@@ -436,7 +436,7 @@ const Seo = () => {
           />
         </div>
 
-        <section className="max-w-[1440px] mt-[96px] max-md:mt-[40px] w-full mx-auto pb-24 pl-10 pr-10 max-lg:pl-4 max-lg:pr-4">
+        <section data-aos="fade-up" className="max-w-[1440px] mt-[96px] max-md:mt-[40px] w-full mx-auto pb-24 pl-10 pr-10 max-lg:pl-4 max-lg:pr-4">
 
           {/* Heading */}
           <h2 id="" className="text-[48px] max-lg:text-4xl font-semibold leading-tight">
@@ -495,14 +495,14 @@ const Seo = () => {
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
 
-          <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
+          <div data-aos="fade-up" className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
             <h2 style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
 
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+            <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
                 <div
                   key={index}
@@ -532,20 +532,20 @@ const Seo = () => {
           <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
 
 
-            <p className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
-            <h2 className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold text-center leading-snug">
+            <p data-aos="fade-up" className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
+            <h2 data-aos="fade-up" className="text-[52px] max-md:text-[32px] mb-[26px] font-semibold text-center leading-snug">
               <span className="highlight">SEO</span>  <span> Services </span>
             </h2>
 
 
-            <p className="text-base font-normal leading-7   mb-[83px]  text-center ">
+            <p data-aos="fade-up" className="text-base font-normal leading-7   mb-[83px]  text-center ">
               We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+            <div  className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
               {trustData.map((item, index) => (
                 // <div className="trust-card " >
-                <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+                <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                   <h3 className="flex items-end mb-[36px] max-sm:mb-[26px] gap-2  ">
                     <span className=" text-[30px] max-md:text-[26px] text-[#EEC370] font-medium  ">{index + 1}.</span>
@@ -576,7 +576,7 @@ const Seo = () => {
           </div>
         </section>
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section  className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
@@ -587,9 +587,10 @@ const Seo = () => {
 
 
 
-          <div className="max-w-6xl max-md:w-[90%]  mx-auto px-4 py-10 max-md:py-0 max-md:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+          <div  className="max-w-6xl max-md:w-[90%]  mx-auto px-4 py-10 max-md:py-0 max-md:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
             {features.map((item, index) => (
               <div
+                data-aos="fade-up"
                 key={index}
                 className=" relative    pb-[24px] pt-[25px] pl-[11px] pr-[11px] rounded-lg text-center"
               >
@@ -610,17 +611,17 @@ const Seo = () => {
 
 
 
-          <h2 className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug'>
+          <h2 data-aos="fade-up" className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug'>
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
           </h2>
-          <p className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+          <p data-aos="fade-up" className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
-          <h2 className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
+          <h2 data-aos="fade-up" className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
 
 
-          <div
+          <div 
             ref={secondREf}
             onMouseEnter={() => setCardTrigger(true)}
             className="industriweserve mb-[96px] mt-[64px] max-md:mt-[40px] w-[100%] max-w-[1440px]  mx-auto overflow-hidden "
@@ -638,16 +639,16 @@ const Seo = () => {
 
           </div>
 
-          <h2 className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
-          <p className='text-base  lg:text-center text-[#000000]leading-7  font-[350]'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
+          <h2 data-aos="fade-up" className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
+          <p data-aos="fade-up" className='text-base  lg:text-center text-[#000000]leading-7  font-[350]'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
 
         </section>
 
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+          <div  className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
-              <div key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+              <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                 <h3 className="flex items-end mb-9 max-md:mb-6 gap-2 max:md:h-4 max-md:items-start ">
                   <span className=" text-[30px] max-md:text-[24px] text-[#EEC370] font-medium  ">{index + 1}.</span>

@@ -224,12 +224,12 @@ const web = () => {
 
           {/* Left Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 className="text-3xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
+            <h2 data-aos="fade-up"  className="text-3xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
               {/* Best Website Development Company in Gurgaon */}
 
               Best <span className="text-[#409338] "> Web Development  <br />Company</span> in Gurgaon
             </h2>
-            <p className="text-[black] mt-4 max-w-md text-base max-md:w-[90%] mx-auto md:mx-0">
+            <p data-aos="fade-up"  className="text-[black] mt-4 max-w-md text-base max-md:w-[90%] mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
 
             </p>
@@ -248,7 +248,7 @@ const web = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full md:w-1/2 flex justify-center items-center relative mt-10 md:mt-0">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex justify-center items-center relative mt-10 md:mt-0">
             {/* Main circle image placeholder */}
             <div className="w-64 h-64  bg-gray-300 rounded-full flex items-center justify-center relative z-10">
               {/*   <LazyLoadImage src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
@@ -274,13 +274,13 @@ const web = () => {
           </div>
           {/* Right Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <p className="text-sm text-[black] uppercase font-semibold mb-2">Why Us?</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-6">
+            <p data-aos="fade-up" className="text-sm text-[black] uppercase font-semibold mb-2">Why Us?</p>
+            <h2 data-aos="fade-up"  className="text-3xl md:text-4xl font-bold text-[#409338] mb-6">
               What makes us different in <br className='max-lg:hidden' />   Web Development?
             </h2>
 
             <ul className="space-y-4 text-left text-gray-700">
-              <li className="flex items-start max-md:mb-8">
+              <li data-aos="fade-up" className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Experienced Web Developers</p>
@@ -290,7 +290,7 @@ const web = () => {
                 </div>
               </li>
 
-              <li className="flex items-start max-md:mb-8">
+              <li data-aos="fade-up"  className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Performance-First Approach</p>
@@ -300,7 +300,7 @@ const web = () => {
                 </div>
               </li>
 
-              <li className="flex items-start max-md:mb-8">
+              <li data-aos="fade-up"  className="flex items-start max-md:mb-8">
                 <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
                 <div>
                   <p className="font-semibold text-[#EEC370]">Client-Centric Solutions</p>
@@ -332,17 +332,17 @@ const web = () => {
 
       
           <div className="relative z-10 px-4 py-20 text-center max-w-4xl mx-auto">
-            <p className="text-[#EEC370] uppercase tracking-widest  text-sm font-medium mb-2">Web Development</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-4">
+            <p data-aos="fade-up" className="text-[#EEC370] uppercase tracking-widest  text-sm font-medium mb-2">Web Development</p>
+            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-[#409338] mb-4">
               Best Quality Service
             </h2>
-            <p className="text-[black] font-[15px] mb-12">
+            <p data-aos="fade-up" className="text-[black] font-[15px] mb-12">
               At WebNest Media, we specialize in crafting high-performance, visually engaging websites that are built to convert. Whether you're a startup or an established brand, our web development team brings years of industry experience to deliver fast, secure, and scalable websites tailored to your business goals. <br />
               <br />
               From responsive design to seamless functionality and CMS integration, we ensure every website is optimized for user experience and results. Let us help you turn your digital vision into a powerful online presence.
             </p>
 
-            <div className="grid grid-cols-3 gap-6 items-start">
+            <div data-aos="fade-up" className="grid grid-cols-3 gap-6 items-start">
               <div>
                 <p className="text-3xl font-bold text-[#3f3d56]">100+</p>
                 <p className="text-sm text-gray-600 mt-2">Clients Served</p>
@@ -364,11 +364,11 @@ const web = () => {
 
         <section id="wdservices" className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
-          <h2 class="text-[#409338] font-bold text-[40px]  max-md:text-[28px] leading-tight max-md:leading-snug lg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
+          <h2 data-aos="fade-up" class="text-[#409338] font-bold text-[40px]  max-md:text-[28px] leading-tight max-md:leading-snug lg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
           </h2>
 
 
-          <p className='text-[black] text-base mt-12 max-md:mt-6 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
+          <p data-aos="fade-up" className='text-[black] text-base mt-12 max-md:mt-6 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
             <br /> <br />
 
             We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
@@ -386,7 +386,7 @@ const web = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
             {cardData.map((card) => (
-              <div
+              <div data-aos="fade-up" 
                 key={card.id}
                 className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer flex flex-col h-full"
               >
@@ -414,7 +414,7 @@ const web = () => {
         <section className=" relative mt-24 max-lg:mt-10  bg-[#C6E4C1] text-[#2d2d2d] px-4 py-20 max-lg:py-12 overflow-hidden">
           {/* Top SVG Wave */}
 
-          <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
+          <div data-aos="fade-up" className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg
               viewBox="0 0 1440 320"
               className="w-full h-[100px] bg-no-repeat"
@@ -429,18 +429,18 @@ const web = () => {
 
           {/* Content */}
           <div className="max-w-[1440px] w-[100%] mx-auto text-center relative z-10">
-            <p className="text-sm uppercase tracking-widest text-[black] font-semibold max-md:mt-6 mb-6">Process</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-12">How It Works</h2>
+            <p data-aos="fade-up" className="text-sm uppercase tracking-widest text-[black] font-semibold max-md:mt-6 mb-6">Process</p>
+            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-[#409338] mb-12">How It Works</h2>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-14">
+            <div data-aos="fade-up" className="grid grid-cols-2 md:grid-cols-4 gap-14">
               {/* Step 1 */}
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
                   {/*   <LazyLoadImage src="/icons/chat.svg" alt="Consultation" className="w-8 h-8" /> */}
                   <SiConsul className='w-[30px] h-[30px] ' />
                 </div>
-                <h3 className="font-semibold text-[#2d2d2d] mb-2">Consultation</h3>
-                <p className="text-sm text-[#6b6b6b] text-center">
+                <h3 data-aos="fade-up" className="font-semibold text-[#2d2d2d] mb-2">Consultation</h3>
+                <p data-aos="fade-up" className="text-sm text-[#6b6b6b] text-center">
                   We begin with a detailed consultation to understand your business objectives, target audience, and digital challenges. This helps us align our approach with your unique needs.
                 </p>
               </div>
