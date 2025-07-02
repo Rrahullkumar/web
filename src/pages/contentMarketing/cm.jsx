@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 import Newcontact from '../../components/Newcontact/Newcontact.jsx';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom';
 
 const ContentMarketing = () => {
   const [text, setText] = useState('');
@@ -80,48 +81,7 @@ const ContentMarketing = () => {
     },
   ];
 
-  const faqData = [
-    {
-      question: "What is content marketing?",
-      answer: "Content marketing is a strategy that involves creating and sharing valuable, relevant content to attract, engage, and convert your target audience. It builds trust and positions your brand as an authority in your industry.",
-    },
-    {
-      question: "How does content marketing help my business?",
-      answer: "Content marketing drives organic traffic, improves SEO, builds brand awareness, and increases customer loyalty. It also helps educate your audience and guide them toward making a purchase.",
-    },
-    {
-      question: "What types of content do you create?",
-      answer: "We create a variety of content including blog posts, website copy, social media content, email campaigns, video scripts, case studies, whitepapers, and more—all tailored to your business goals.",
-    },
-    {
-      question: "Is content marketing the same as advertising?",
-      answer: "Not exactly. Advertising is short-term and sales-focused, while content marketing is long-term and relationship-focused. It’s about providing value, not just pushing products.",
-    },
-    {
-      question: "How long does it take to see results from content marketing?",
-      answer: "Content marketing is a long-term strategy. While you might see initial engagement within weeks, significant traffic growth and conversions typically take 3–6 months or more.",
-    },
-    {
-      question: "How is content marketing different from SEO?",
-      answer: "SEO is the technical process of improving your website’s visibility, while content marketing is about creating valuable content that fuels SEO efforts. They work best together.",
-    },
-    {
-      question: "Do you offer content strategy as part of your service?",
-      answer: "Yes! We provide a complete content marketing strategy, including content planning, keyword research, tone of voice guidelines, and performance tracking.",
-    },
-    {
-      question: "Can content marketing help with lead generation?",
-      answer: "Absolutely. By offering informative, solution-based content, you build trust and encourage visitors to take action—whether it’s signing up, contacting you, or making a purchase.",
-    },
-    {
-      question: "How do you measure content marketing success?",
-      answer: "We track success using key metrics like website traffic, engagement rates, keyword rankings, conversion rates, and ROI through tools like Google Analytics and Search Console.",
-    },
-    {
-      question: "Why should I choose WebNest Media for content marketing?",
-      answer: "At WebNest Media, we offer custom content strategies backed by research and creativity. Our team focuses on delivering consistent, high-quality content that aligns with your brand and drives results.",
-    },
-  ];
+
 
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -131,101 +91,110 @@ const ContentMarketing = () => {
 
 
   const contentMarketingSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "@id": "https://webnestmedia.com/content-marketing#service",
-      "name": "Content Marketing",
-      "description": "WebNest Media is a leading content marketing agency in Gurgaon offering strategy-driven content creation, blog writing, SEO content, social content, and storytelling that drives traffic, engagement, and conversions for your brand.",
-      "serviceType": "Content Marketing",
-      "provider": {
-        "@type": "Organization",
-        "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
-        "sameAs": [
-          "https://www.instagram.com/webnestmediagroup/",
-          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
-          "https://www.linkedin.com/company/webnest-media-group/"
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://webnestmedia.com/content-marketing#service",
+        "name": "Content Marketing",
+        "description": "WebNest Media is a leading content marketing agency in Gurgaon offering strategy-driven content creation, blog writing, SEO content, social content, and storytelling that drives traffic, engagement, and conversions for your brand.",
+        "serviceType": "Content Marketing",
+        "provider": {
+          "@type": "Organization",
+          "name": "WebNest Media",
+          "url": "https://webnestmedia.com",
+          "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "sameAs": [
+            "https://www.instagram.com/webnestmediagroup/",
+            "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+            "https://www.linkedin.com/company/webnest-media-group/"
+          ]
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "postalCode": "122001",
+            "addressCountry": "IN"
+          }
+        },
+        "url": "https://webnestmedia.com/content-marketing"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://webnestmedia.com/content-marketing#webpage",
+        "url": "https://webnestmedia.com/content-marketing",
+        "name": "Content Marketing Services in Gurgaon – WebNest Media",
+        "description": "Looking to grow your brand with high-impact content? WebNest Media offers expert content marketing services in Gurgaon — including blog writing, SEO content, and strategy to attract and engage your ideal audience."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://webnestmedia.com/content-marketing#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Content Marketing",
+            "item": "https://webnestmedia.com/content-marketing"
+          }
         ]
       },
-      "areaServed": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
-          "addressLocality": "Gurgaon",
-          "addressRegion": "Haryana",
-          "postalCode": "122001",
-          "addressCountry": "IN"
-        }
-      },
-      "url": "https://webnestmedia.com/content-marketing"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://webnestmedia.com/content-marketing#webpage",
-      "url": "https://webnestmedia.com/content-marketing",
-      "name": "Content Marketing Services in Gurgaon – WebNest Media",
-      "description": "Looking to grow your brand with high-impact content? WebNest Media offers expert content marketing services in Gurgaon — including blog writing, SEO content, and strategy to attract and engage your ideal audience."
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/content-marketing#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://webnestmedia.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://webnestmedia.com/#services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Content Marketing",
-          "item": "https://webnestmedia.com/content-marketing"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/content-marketing#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does content marketing include?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our content marketing includes blog writing, SEO-optimized content, landing pages, social media content, email campaigns, and content strategy development to boost your brand visibility."
+      {
+        "@type": "FAQPage",
+        "@id": "https://webnestmedia.com/content-marketing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does content marketing include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our content marketing includes blog writing, SEO-optimized content, landing pages, social media content, email campaigns, and content strategy development to boost your brand visibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can content marketing grow my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It helps build trust, improve search engine rankings, and attract the right audience to your website—leading to more traffic, engagement, and conversions over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why choose WebNest Media for content marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We combine storytelling, SEO, and strategy to create content that resonates with your audience and drives business growth. Our team creates content that ranks and converts."
+            }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "How can content marketing grow my business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It helps build trust, improve search engine rankings, and attract the right audience to your website—leading to more traffic, engagement, and conversions over time."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why choose WebNest Media for content marketing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We combine storytelling, SEO, and strategy to create content that resonates with your audience and drives business growth. Our team creates content that ranks and converts."
-          }
-        }
-      ]
+        ]
+      }
+    ]
+  };
+
+
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  ]
-};
+  };
 
 
   return (
@@ -238,16 +207,16 @@ const ContentMarketing = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
 
- <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media" />
-  <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
- <script type="application/ld+json">
+        <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media" />
+        <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
+        <script type="application/ld+json">
 
-        {JSON.stringify(contentMarketingSchema)}
-      </script>
+          {JSON.stringify(contentMarketingSchema)}
+        </script>
 
       </Helmet>
 
@@ -270,7 +239,7 @@ const ContentMarketing = () => {
         </div>
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-          <h2 className="text-[52px] max-lg:text-[38px] lg:translate-y-10 max-lg:mb-[20px] font-semibold">
+          <h2 className="text-[52px] max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
             <span className="highlight">Content</span> is the key to <br /> building audiences
           </h2>
 
@@ -291,20 +260,37 @@ const ContentMarketing = () => {
                 <li>• Strategic content planning and calendar</li>
               </ul>
 
-              <div className="flex flex-row gap-4">
-                <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
-                <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
+
+
+
+              <div className="flex gap-3 mt-8">
+
+
+                <button
+                  onClick={() => scrollToSection("bringout")}
+
+                  className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+
+
+
+                <Link to="/contact-us">
+                  <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+
+                </Link>
+
               </div>
+
+
             </div>
 
             {/* Right Image */}
             <div className="max-lg:w-[80%]">
-                <LazyLoadImage src={image} alt="Content Strategy Visual" />
+              <LazyLoadImage src={image} alt="Content Strategy Visual" />
             </div>
           </div>
         </div>
 
-      
+
         <div className=' bg-[#EFF4EE]'>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
             <div className="pb-[72px] text-center">
@@ -312,7 +298,7 @@ const ContentMarketing = () => {
                 The no. 1 Content Marketing Service
               </p>
 
-              <h2 className='text-[32px] font-semibold mb-8'>
+              <h2 className='text-3xl font-semibold mb-8'>
                 Build a Customer-Centric <span className="highlight">Marketing Strategy</span>
               </h2>
 
@@ -339,8 +325,8 @@ const ContentMarketing = () => {
 
 
 
-        <div className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
-          <h2 className=" font-semibold text-6xl max-lg:text-[36px] leading-tight ">
+        <div id="bringout" className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
+          <h2 className=" font-semibold text-6xl max-lg:text-3xl leading-tight ">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
           </h2>
@@ -364,7 +350,7 @@ const ContentMarketing = () => {
                   <p className="text-[24px] text-[#4CAF50]">{item.title}</p>
                 </h3>
 
-                <p className="text-base leading-relaxed mt-9 mb-[50px]">
+                <p className="text-base leading-relaxed mt-9 max-lg:mt-5 mb-[50px]">
                   {item.text}
                 </p>
               </div>
@@ -376,8 +362,10 @@ const ContentMarketing = () => {
 
 
         <div className='mt-24 max-md:mt-10 '>
-          <Newcontact/>
+          <Newcontact />
         </div>
+
+
         <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
           <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
           <div className="accordion-wrapper-columns">

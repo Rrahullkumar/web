@@ -29,7 +29,7 @@ const Newcontact = () => {
       <section className="relative w-full overflow-hidden">
         {/* Background Image Layer */}
         <div
-          className="absolute inset-0 w-full h-full bg-no-repeat bg-cover contact-bg"
+          className="absolute inset-0 w-full h-full bg-no-repeat bg-cover contact-bg overflow-hidden"
           style={{
             backgroundImage: `url(${SeoConatct})`,
           }}
@@ -42,7 +42,7 @@ const Newcontact = () => {
           alt="Contact Us image"
           className="hidden"
           aria-hidden="true"
-          loading="lazy"
+          // loading="lazy"
         />
 
         {/* Foreground Content */}
@@ -98,6 +98,8 @@ const Newcontact = () => {
             </span>
           </div>
         </div>
+
+
       </section>
     </>
   );

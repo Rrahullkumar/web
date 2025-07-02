@@ -372,13 +372,13 @@ const Smm = () => {
 
         <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px] max-lg:mt-[100px]'>
 
-          <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[30px] leading-[40px]  mt-[100px] text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
+          <h2 className="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  mt-[100px] lg:text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
           <Cards className="" />
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:px4 mx-auto flex justify-center max-lg:flex-col gap-[40px] mt-[100px]'>
+        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto flex justify-center max-lg:flex-col-reverse gap-[40px] mt-[100px] max-lg:mt-10'>
 
 
 
@@ -411,10 +411,10 @@ const Smm = () => {
 
 
           <div className="lg:w-[50%] max-md:w-[100%]   text-center lg:text-left">
-            <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between gap-10">
-              <h2 class="text-[#409338] font-bold text-[40px] max-md:text-[20px] max-md:leading-[20px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
+            <div className="max-w-6xl mx-auto flex flex-col  items-start justify-between lg:gap-10 max-md:gap-4">
+              <h2 class="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  text-left stroke-custom fill-custom">  Accelerate Your Digital Presence with Social Hub
               </h2>
-              <p className="text-[black] text-[15px] max-md:text-left  max-w-xl">
+              <p className="text-[black] text-[15px] max-md:text-left  max-w-xl max-md:mb-5">
                 Unlock the full potential of your brand online with Social Hub. From social media
                 management to content optimization, Social Hub helps you grow faster, engage smarter,
                 and stand out in the digital crowd.
@@ -453,7 +453,7 @@ const Smm = () => {
 
 
         <div
-          className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-[96px] max-md:mt-10 gap-10 
+          className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-24 max-lg:mt-10  gap-10 
     bg-no-repeat bg-contain bg-right 
     md:bg-[url('${largesmart}')]`}
         >
@@ -461,7 +461,7 @@ const Smm = () => {
           <div className="w-full lg:w-[65%]">
 
             {/* Heading */}
-            <h2 className="text-[40px] max-md:text-3xl mb-4
+            <h2 className="text-[40px] max-md:text-[28px] mb-4
             font-bold text-[#5c945c]">
               Smarter, Not Harder <br /> Win Big on Social Media
             </h2>
@@ -507,8 +507,8 @@ const Smm = () => {
 
         </div>
 
-        <div className="max-w-[1440px] px-10 max-lg:px-4 mx-auto newcontainer">
-          <h2 className="text-[40px] max-md:text-3xl font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
+        <div className="max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-10 mx-auto newcontainer">
+          <h2 className="text-[40px] max-md:text-[28px] font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h2>
           <p className='mb-8'>

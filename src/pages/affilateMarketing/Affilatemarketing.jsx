@@ -16,6 +16,7 @@ import heroimage from './resources/heroimage.svg'
 import Newcontact from '../../components/Newcontact/Newcontact.jsx'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom'
 
 const Affilatemarketing = () => {
 
@@ -172,6 +173,14 @@ const Affilatemarketing = () => {
 };
 
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
 
     <>
@@ -221,7 +230,7 @@ const Affilatemarketing = () => {
     <div className="lg:w-[60%] flex flex-col justify-start">
 
       {/* Heading */}
-      <h2 className="text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold">
+      <h2 className="text-[52px] max-lg:text-3xl max-lg:mb-[20px] lg:mb-8 font-semibold">
         Affiliate Marketing?
       </h2>
 
@@ -238,7 +247,7 @@ const Affilatemarketing = () => {
       <br />
 
       {/* Subheading */}
-      <h3 className="text-2xl font-semibold mb-4">It's a Win-Win:</h3>
+      <h3 className="text-xl font-semibold mb-4">It's a Win-Win:</h3>
 
       {/* Bullet Points */}
       <ul className="text-base mb-12 leading-[160%]">
@@ -248,10 +257,30 @@ const Affilatemarketing = () => {
       </ul>
 
       {/* Buttons */}
-      <div className="flex flex-row gap-4">
+      {/* <div className="flex flex-row gap-4">
         <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
         <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
-      </div>
+      </div> */}
+
+
+      
+
+    <div className="flex gap-3 mt-8">
+
+           
+            <button 
+              onClick={() => scrollToSection("affilatemarketing")}
+            
+            className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+      
+      
+      
+        <Link to="/contact-us">
+            <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+         
+        </Link>
+         
+          </div>
     </div>
 
     {/* Right Section: Image Vertically Centered on Desktop */}
@@ -272,8 +301,8 @@ const Affilatemarketing = () => {
 
           <div className="">
             {/* Heading and Description */}
-            <div className="flex flex-col lg:items-end mb-[52px] lg:translate-y-24">
-              <h2 className="text-[52px] max-lg:text-[38px] font-semibold mb-12 lg:text-right">Affiliate Marketing Types</h2>
+            <div className="flex flex-col lg:items-end lg:mb-[52px] lg:translate-y-24">
+              <h2 className="text-[52px] max-lg:text-3xl font-semibold mb-12 max-lg:mb-4 lg:text-right">Affiliate Marketing Types</h2>
               <p className="text-base leading-relaxed lg:text-right lg:w-[60%]">
                 Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
                 You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
@@ -283,7 +312,7 @@ const Affilatemarketing = () => {
             {/* Content Section */}
             <div className="flex max-lg:flex-col justify-between lg:Lgap-5 items-center">
               {/* Image */}
-              <div className="max-lg:mb-[40px] flex justify-center lg:w-[40%]">
+              <div className="max-lg:mb-[40px] flex justify-center max-lg:lg:w-[40%]">
                   <LazyLoadImage src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
               </div>
 
@@ -293,8 +322,8 @@ const Affilatemarketing = () => {
                 {/* Card 1 */}
                 <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
-                    <span className="text-[18px] font-semibold text-[#888]">01</span>
-                    <div className="text-left text-[28px] font-semibold">
+                    <span className="text-[18px] max-md:mt-1 font-semibold text-[#888]">01</span>
+                    <div className="text-left text-[28px] max-md:text-[26px] font-semibold">
                       Unattached Affiliate Marketing
                     </div>
                   </div>
@@ -306,8 +335,8 @@ const Affilatemarketing = () => {
                 {/* Card 2 */}
                 <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
-                    <span className="text-[18px] font-semibold text-[#888]">02</span>
-                    <div className="text-left text-[28px] font-semibold">
+                    <span className="text-[18px]  max-md:mt-1 font-semibold text-[#888]">02</span>
+                    <div className="text-left text-[28px] max-md:text-[26px]  font-semibold">
                       Related Affiliate Marketing
                     </div>
                   </div>
@@ -319,8 +348,8 @@ const Affilatemarketing = () => {
                 {/* Card 3 */}
                 <div className="flex max-lg:flex-col justify-between items-start border-b border-[#eee] py-[10px] gap-4">
                   <div className="flex gap-4 items-start">
-                    <span className="text-[18px] font-semibold text-[#888]">03</span>
-                    <div className="text-left text-[28px] font-semibold">
+                    <span className="text-[18px] max-md:mt-1  font-semibold text-[#888]">03</span>
+                    <div className="text-left text-[28px] max-md:text-[26px]  font-semibold">
                       Involved Affiliate Marketing
                     </div>
                   </div>
@@ -333,11 +362,11 @@ const Affilatemarketing = () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#EFF4EE] '>
+        <div  className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
               <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
-              <p className='text-[32px] font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
+              <p className='text-[32px] max-md:text-3xl font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
               <p className='text-base mb-14'>
                 Drive results through performance-based partnerships – only pay when you earn.
               </p>
@@ -354,8 +383,8 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <div className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-4xl lg:w-[60%] lg:text-center lg:mb-12">
+        <div id="affilatemarketing"  className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
+          <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:w-[60%] lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
 
