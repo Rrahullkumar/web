@@ -629,7 +629,7 @@ cursor: pointer;
 @media (max-width: 768px) {
 
    #particles{
-    height: 65vh !important;
+    height: 50vh !important;
   }
   .rightrocket {
     display: none !important;
