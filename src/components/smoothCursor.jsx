@@ -171,29 +171,40 @@
 // }
 
 
-'use client';  // Only needed for Next.js projects. Ignore for plain React.
 
-import React from "react";
-import AnimatedCursor from "react-animated-cursor";
 
+
+'use client';  // Only if you're in Next.js
+
+import React, { useEffect, useState } from 'react';
+import AnimatedCursor from 'react-animated-cursor';
+import { FiMousePointer } from "react-icons/fi";
 export default function App() {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      setPosition({ x: e.clientX, y: e.clientY });
+    };
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
     <div className="App">
+      {/* Animated Cursor (only outer ring) */}
       <AnimatedCursor
-        innerSize={8}
+        innerSize={0}                // 👈 Hide inner dot
         outerSize={35}
-        color="#FFBA34"  // Green (RGB)
+        color="#FFBA34"
         outerAlpha={0}
         innerScale={1}
         outerScale={2}
         hasBlendMode={true}
+        showSystemCursor={false}     // 👈 Hide system cursor, since we’ll use icon
         outerStyle={{
           border: "3px solid var(--cursor-color)",
-           zIndex: 99999999,
-        }}
-        innerStyle={{
-          backgroundColor: "var(--cursor-color)",
-         zIndex: 99999999,
+          zIndex: 99999999,
         }}
         clickables={[
           "a",
@@ -205,6 +216,22 @@ export default function App() {
           "label[for]",
         ]}
       />
+
+      {/* Custom React Icon that follows mouse */}
+      <div
+        style={{
+          position: 'fixed',
+          left: position.x,
+          top: position.y,
+          transform: 'translate(-50%, -50%)',
+          pointerEvents: 'none',     // 👈 Important: So it doesn't block clicks
+          zIndex: 999999999,
+          color: '#409338',          // 👈 Icon color
+          fontSize: '18px',          // 👈 Icon size
+        }}
+      >
+       <FiMousePointer />           {/* 👈 Your custom icon */}
+      </div>
     </div>
   );
 }

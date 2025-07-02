@@ -493,10 +493,6 @@ const Seo = () => {
 
         </section>
 
-
-
-
-
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
 
           <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
@@ -647,8 +643,6 @@ const Seo = () => {
 
         </section>
 
-
-
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
@@ -668,8 +662,6 @@ const Seo = () => {
           </div>
         </section>
 
-
-
         <section className='max-w-[1440px] mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
                <TestimonialSlider
@@ -679,10 +671,7 @@ const Seo = () => {
             />
           
         </section>
-
-
-       
-
+        
         <Newcontact />
 
         <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
