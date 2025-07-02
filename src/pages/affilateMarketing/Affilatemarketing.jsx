@@ -16,6 +16,7 @@ import heroimage from './resources/heroimage.svg'
 import Newcontact from '../../components/Newcontact/Newcontact.jsx'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom'
 
 const Affilatemarketing = () => {
 
@@ -172,6 +173,14 @@ const Affilatemarketing = () => {
 };
 
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
 
     <>
@@ -248,10 +257,30 @@ const Affilatemarketing = () => {
       </ul>
 
       {/* Buttons */}
-      <div className="flex flex-row gap-4">
+      {/* <div className="flex flex-row gap-4">
         <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
         <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
-      </div>
+      </div> */}
+
+
+      
+
+    <div className="flex gap-3 mt-8">
+
+           
+            <button 
+              onClick={() => scrollToSection("affilatemarketing")}
+            
+            className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+      
+      
+      
+        <Link to="/contact-us">
+            <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+         
+        </Link>
+         
+          </div>
     </div>
 
     {/* Right Section: Image Vertically Centered on Desktop */}
@@ -333,7 +362,7 @@ const Affilatemarketing = () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#EFF4EE] '>
+        <div  className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
               <p style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
@@ -354,7 +383,7 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <div className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
+        <div id="affilatemarketing"  className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
           <h2 className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:w-[60%] lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>

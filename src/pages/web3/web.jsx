@@ -177,12 +177,12 @@ const web = () => {
   ];
 
 
-    const scrollToSection = (id) => {
-  const element = document.getElementById(id);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
@@ -195,30 +195,30 @@ const web = () => {
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
 
         <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
-  <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/web-development" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/web-development" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
 
 
-         <script type="application/ld+json">
-        {JSON.stringify(webDevelopmentSchema)}
-      </script>
+        <script type="application/ld+json">
+          {JSON.stringify(webDevelopmentSchema)}
+        </script>
 
       </Helmet>
 
       <div className='mx-auto '>
 
-         <div>
+        <div>
           <HeroSection
-          backgroundImage={topimage}
-          heading="Web Development Company"
-          highlight="In Gurgaon"
-          paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
-        />
-         </div>
+            backgroundImage={topimage}
+            heading="Web Development Company"
+            highlight="In Gurgaon"
+            paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
+          />
+        </div>
 
         <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">
 
@@ -234,15 +234,17 @@ const web = () => {
 
             </p>
 
-         <Link to="/contact-us">
-         
-            <button 
-            
-            className="mt-6 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
-              Get Started
-            </button>
-            
-         </Link>
+
+
+            <Link to="/contact-us">
+              <button
+
+
+                className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>  Get Started </button>
+
+            </Link>
+
+
           </div>
 
           {/* Right Image */}
@@ -274,7 +276,7 @@ const web = () => {
           <div className="w-full md:w-1/2 text-center md:text-left">
             <p className="text-sm text-[black] uppercase font-semibold mb-2">Why Us?</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-6">
-              What makes us different in <br className='max-lg:hidden'/>   Web Development?
+              What makes us different in <br className='max-lg:hidden' />   Web Development?
             </h2>
 
             <ul className="space-y-4 text-left text-gray-700">
@@ -309,12 +311,17 @@ const web = () => {
               </li>
             </ul>
 
-            <button 
-            
+          
+
+            <button
               onClick={() => scrollToSection("wdservices")}
-            className="mt-6 max-md:mt-14 bg-[#9bc394]  text-white px-6 py-2 rounded-md font-semibold max-md:hover:bg-[#409338]">
-              Learn More
-            </button>
+
+              className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+
+
+
+
+
           </div>
 
 
@@ -322,28 +329,8 @@ const web = () => {
 
 
         <section className=" overflow-hidden bg-[#eaf7fe]">
-          {/* Top wave */}
-          {/* <div className=" max-w-[1440px] mx-auto  w-[100%] absolute top-0 left-0 ">
-            <svg viewBox="0 0 1440 320" className="w-full h-[100px]" preserveAspectRatio="none">
-              <path fill="#ffffff" fillOpacity="1">
-                <animate
-                  attributeName="d"
-                  dur="10s"
-                  repeatCount="indefinite"
-                  values="
-        M0,64L60,85.3C120,107,240,149,360,154.7C480,160,600,128,720,122.7C840,117,960,139,1080,133.3C1200,128,1320,96,1380,80L1440,64L1440,0L0,0Z;
 
-        M0,80L60,96C120,112,240,144,360,149.3C480,155,600,133,720,122.7C840,112,960,128,1080,138.7C1200,149,1320,139,1380,128L1440,117L1440,0L0,0Z;
-
-        M0,64L60,85.3C120,107,240,149,360,154.7C480,160,600,128,720,122.7C840,117,960,139,1080,133.3C1200,128,1320,96,1380,80L1440,64L1440,0L0,0Z
-      "
-                />
-              </path>
-            </svg>
-
-          </div> */}
-
-          {/* Main content */}
+      
           <div className="relative z-10 px-4 py-20 text-center max-w-4xl mx-auto">
             <p className="text-[#EEC370] uppercase tracking-widest  text-sm font-medium mb-2">Web Development</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#409338] mb-4">
@@ -371,16 +358,8 @@ const web = () => {
             </div>
           </div>
 
-          {/* Bottom wave */}
-          {/* <div className="absolute bottom-0 left-0 w-full">
-            <svg viewBox="0 0 1440 320" className="w-full h-[100px] bg-no-repeat" preserveAspectRatio="none">
-              <path
-                fill="#ffffff"
-                fillOpacity="1"
-                d="M0,96L60,117.3C120,139,240,181,360,186.7C480,192,600,160,720,154.7C840,149,960,171,1080,165.3C1200,160,1320,128,1380,112L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-              ></path>
-            </svg>
-          </div> */}
+
+
         </section>
 
         <section id="wdservices" className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
@@ -393,7 +372,7 @@ const web = () => {
             <br /> <br />
 
             We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
-            <br /> <br /> <br className='max-md:hidden'/>
+            <br /> <br /> <br className='max-md:hidden' />
 
             Whether you need an eCommerce store, a blog, or a corporate website, WebNest Media has the expertise to turn your vision into a fully functional digital experience. As a trusted website development company, we help businesses of all sizes create a strong online presence that fuels growth and connects with their audience.
 
@@ -405,31 +384,31 @@ const web = () => {
 
         <section className='max-w-[1440px] mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
-    {cardData.map((card) => (
-      <div 
-        key={card.id} 
-        className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer flex flex-col h-full"
-      >
-        <div className="flex flex-col h-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
+            {cardData.map((card) => (
+              <div
+                key={card.id}
+                className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer flex flex-col h-full"
+              >
+                <div className="flex flex-col h-full">
 
-          {/* Icon and Title Row */}
-          <div className='flex items-center gap-3 mb-3 max-h-12'>
-            <h6 className="w-[24px] h-[24px] flex items-center justify-center">
-              {card.icon}
-            </h6>
-            <h4 className="text-base sm:text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
+                  {/* Icon and Title Row */}
+                  <div className='flex items-center gap-3 mb-3 max-h-12'>
+                    <h6 className="w-[24px] h-[24px] flex items-center justify-center">
+                      {card.icon}
+                    </h6>
+                    <h4 className="text-base sm:text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
+                  </div>
+
+                  {/* Description */}
+                  <p className="text-gray-600 text-sm flex-1">{card.description}</p>
+
+                </div>
+              </div>
+            ))}
           </div>
 
-          {/* Description */}
-          <p className="text-gray-600 text-sm flex-1">{card.description}</p>
-
-        </div>
-      </div>
-    ))}
-  </div>
-
-</section>
+        </section>
 
 
         <section className=" relative mt-24 max-lg:mt-10  bg-[#C6E4C1] text-[#2d2d2d] px-4 py-20 max-lg:py-12 overflow-hidden">
@@ -484,7 +463,7 @@ const web = () => {
               <div className="flex flex-col items-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
                   {/*   <LazyLoadImage src="/icons/settings.svg" alt="Implementation" className="w-8 h-8" /> */}
-                  <FaHandshakeSimple  className='w-[30px] h-[30px] '/>
+                  <FaHandshakeSimple className='w-[30px] h-[30px] ' />
                 </div>
                 <h3 className="font-semibold text-[#2d2d2d] mb-2">Implementation</h3>
                 <p className="text-sm text-[#6b6b6b] text-center">
@@ -509,7 +488,7 @@ const web = () => {
 
 
         </section>
-          <Newcontact/>
+        <Newcontact />
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 -w-[100%]'>
           <Accordion />
         </section>

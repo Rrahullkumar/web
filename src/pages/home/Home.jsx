@@ -401,7 +401,7 @@ const Home = () => {
       <div className=' homeclass  '>
 
 
-        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[65vh] overflow-hidden  ">
+        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
           <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
             <div className="">
