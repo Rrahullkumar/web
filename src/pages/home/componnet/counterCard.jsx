@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import "./CounterCard.css";
-
+import { memo } from "react";
 const CounterCard = ({
   target,
   label,
@@ -62,7 +62,7 @@ const CounterCard = ({
   );
 };
 
-const CardListCounter = ({ trigger }) => {
+const CardListCounter = React.memo(({ trigger }) => {
   const counters = [
     { target: 21, label: "Years of Experience", suffix: "+", delay: 5 },
     { target: 500, label: "Projects Completed", suffix: "+", delay: 400 },
@@ -77,7 +77,7 @@ const CardListCounter = ({ trigger }) => {
       ))}
     </div>
   );
-};
+});
 
 export default CardListCounter;
 

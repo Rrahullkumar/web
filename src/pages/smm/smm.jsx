@@ -12,10 +12,7 @@ import { SiTelegram } from "react-icons/si";
 import Seo from "./resources/fb.svg"
 import socialgif from "./resources/social.gif";
 
-import cimage from "./resources/cimage.svg";
-
-import SmartIcon from "./resources/cimage.svg";
-import AnalyticsIcon from "./resources/cimage.svg";
+import cimage from "./resources/cimage.png";
 
 import Cards from "./componenet/AnimatedCardList";
 import Accordian from "./componenet/Accordian";
@@ -36,7 +33,7 @@ import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
-import topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.png'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';

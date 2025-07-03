@@ -13,9 +13,9 @@ import Star4 from "../../pages/home/resources/Frame4.png"
 
 import slidethree from "../../pages/home/resources/Slack.png";
 import trello from "../../pages/home/resources/trello.png";
-import pana from "../../pages/home/resources/pana.svg";
+import pana from "../../pages/home/resources/pana.png";
 import rocket from "../../pages/home/resources/rocket.png";
-import marketingbanner from "../../pages/home/resources/marketingbanner.svg";
+import marketingbanner from "../../pages/home/resources/marketingbanner.png";
 import PPC from "../../pages/home/resources/PPC.svg";
 import MobileAppDevelopment from "../../pages/home/resources/mobileappdevelopment.svg";
 import ConversionRateOptimization from "../../pages/home/resources/ConversionRateOptimization.svg";
@@ -28,10 +28,10 @@ import ContentMarketing from "../../pages/home/resources/ContentMarketing.svg";
 import SEO from "../../pages/home/resources/SEO.svg";
 
 import BradStrategy from "../../pages/home/resources/BradStrategy.svg";
-import googleadds from "../../pages/home/resources/GoogleAdword.svg";
-import facebookads from "../../pages/home/resources/Facebookads.svg";
-import instagramads from "../../pages/home/resources/instagramads.svg";
-import Youtubeads from "../../pages/home/resources/Youtubeads.svg";
+import googleadds from "../../pages/home/resources/GoogleAdword.png";
+import facebookads from "../../pages/home/resources/Facebookads.png";
+import instagramads from "../../pages/home/resources/instagramads.png";
+import Youtubeads from "../../pages/home/resources/Youtubeads.png";
 
 
 
@@ -70,7 +70,6 @@ import readit360 from "../../pages/home/resources/readit360.svg";
 import Houseforever from "../../pages/home/resources/Houseforever.svg";
 import ParticlesBackground from "../../components/ParticlesBackground";
 import Newcontact from "../../components/Newcontact/Newcontact";
-
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -438,7 +437,7 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px] mx-auto  max-lg:mt-[10px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
-            <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug lg:leading-[48px]">
+            <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
 
               Building Brands with
               Integrity and Innovation

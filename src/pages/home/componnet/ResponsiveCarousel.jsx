@@ -4,12 +4,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import "./slider.css";
-
+import { memo } from 'react';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 
-const ImageSlider = ({ slides, autoSlideInterval = 4000 }) => {
+const ImageSlider = React.memo(({ slides, autoSlideInterval = 4000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef(null);
 
@@ -128,6 +128,6 @@ const ImageSlider = ({ slides, autoSlideInterval = 4000 }) => {
       </div>
     </div>
   );
-};
+});
 
 export default ImageSlider;

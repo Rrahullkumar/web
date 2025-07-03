@@ -10,7 +10,7 @@ import step2 from './resources/step2.svg';
 import step3 from './resources/step3.svg';
 import step4 from './resources/step4.svg';
 import step5 from './resources/step5.svg';
-import heroimage from "./resources/heroimage.svg";
+import heroimage from "./resources/heroimage.png";
 
 import seoicon1 from "./resources/seoicon1.svg";
 import seoicon2 from "./resources/seoicon2.svg";
@@ -20,7 +20,7 @@ import seoicon5 from "./resources/seoicon5.svg";
 import seoicon6 from "./resources/seoicon6.svg";
 
 import cneterstroke from "./resources/centerpaint.svg"
-import leftpaint from "./resources/leftpaint.svg"
+
 import rightpaint from "./resources/rightpaint.svg"
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
@@ -613,7 +613,7 @@ const Seo = () => {
 
             How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
           </h2>
-          <p data-aos="fade-up" className='text-base text-[#000000] leading-7  font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+          <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they daon't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
 
           <h2 data-aos="fade-up" className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>

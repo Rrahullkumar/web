@@ -14,7 +14,7 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.svg";
 import { Link } from 'react-router-dom';
-
+import c2image from './resources/c2image.png'
 
 
 const webDevelopmentSchema = {
@@ -218,45 +218,25 @@ const web = () => {
           />
         </div>
 
-        <section className=" max-w-[1440px] mx-auto  w-[100%] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16  relative overflow-hidden">
+        <section className=" max-w-[1440px] px-10 max-lg:px-4 mx-auto flex flex-row max-lg:flex-col items-center justify-between">
 
-          {/* Left Content */}
-          <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 data-aos="fade-up"  className="text-3xl md:text-5xl font-bold text-[black] leading-tight max-md:mt-10">
-              {/* Best Website Development Company in Gurgaon */}
-
+          <div className="w-[80%]">
+            <h2 data-aos="fade-up"  className="text-3xl md:text-[52px] leading-snug font-bold text-[black] max-md:mt-10 mb-10">
               Best <span className="text-[#409338] "> Web Development  <br />Company</span> in Gurgaon
             </h2>
             <p data-aos="fade-up"  className="text-[black] mt-4 max-w-md text-base max-md:w-[90%] mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
-
             </p>
-
-
-
             <Link to="/contact-us">
               <button
-
-
                 className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>  Get Started </button>
-
             </Link>
-
-
           </div>
 
-          {/* Right Image */}
-          <div data-aos="fade-up" className="w-full md:w-1/2 flex justify-center items-center relative mt-10 md:mt-0">
-            {/* Main circle image placeholder */}
-            <div className="w-64 h-64  bg-gray-300 rounded-full flex items-center justify-center relative z-10">
-              {/*   <LazyLoadImage src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
-            </div>
 
-            {/* Background blob shapes */}
-            <div className="absolute top-12 right-8 w-56 h-56 bg-pink-100 rounded-full z-0"></div>
-            <div className="absolute bottom-0 left-10 w-12 h-12 bg-blue-100 rounded-full z-0 opacity-60"></div>
+          <div data-aos="fade-up" className="w-[]">
+              <img src={c2image} alt="" />
           </div>
-
 
 
         </section>

@@ -2,7 +2,7 @@ import React from 'react';
 import seocontactimage from './Resources/mailbox.svg';
 import seocontactphoneicon from './Resources/seocontactphoneicon.svg';
 import seolocation from './Resources/seolocation.svg';
-import SeoConatct from './Resources/seoconatct.svg';
+import SeoConatct from './Resources/seoconatct.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Newcontact = () => {

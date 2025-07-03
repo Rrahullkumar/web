@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "./sem.css";
 import SEM1 from './Resources/SEM1.svg';
-import KeywordTargeting from './resources/KeywordTargeting.svg';
-import PPC from './resources/tabone.svg';
-import bid from './resources/bid.svg';
-import analytics from "./resources/analytics.svg";
-import ads from './resources/ads.svg';
+import KeywordTargeting from './resources/KeywordTargeting.png';
+import PPC from './resources/PPC.png';
+import bid from './resources/bid.png';
+import analytics from "./resources/analytics.png";
+import ads from './resources/ads.png';
 import { Helmet } from 'react-helmet';
 // import accordian from '../home/componnet/accordian.css'
 
@@ -40,7 +40,7 @@ const adsData = [
 ];
 
 
-import redlady from "./resources/redlady.svg"
+import redlady from "./resources/redlady.png"
 import Newcontact from '../../components/Newcontact/Newcontact';
 import { Link } from 'react-router-dom';
 
@@ -72,8 +72,8 @@ const Sem = () => {
 
             <div className='flex flex-row lg:h-[300px] items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
 
-              <div className='w-full '>
-                  <LazyLoadImage src={PPC} alt="Pap Per click" />
+              <div className='w-[1200px] '>
+                  <LazyLoadImage src={PPC} alt="Pap Per click" className='w-full'/>
               </div>
 
               <div className=' '>

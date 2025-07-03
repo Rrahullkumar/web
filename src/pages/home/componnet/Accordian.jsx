@@ -1,7 +1,7 @@
 import React from "react";
 import "./accordian.css";
-
-const Accordion = () => {
+import { memo } from "react";
+const Accordion = React.memo(() => {
   return (
     <div className="accordion-wrapper-columns">
       {/* Left Column */}
@@ -142,6 +142,6 @@ const Accordion = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Accordion;

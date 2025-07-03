@@ -9,13 +9,13 @@ import { useEffect, useState } from "react";
 import SocialMediaMarketing from "../../home/resources/Socialmediamarketing.svg";
 import WebDevelopment from "../../home/resources/WebDevelopment.svg";
 import EmailMarketing from "../../home/resources/EmailMarketing.svg";
-import maninwhite from "../../home/resources/maninwhite.svg";
+import maninwhite from "../../home/resources/maninwhite.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import { memo } from "react";
 
 const testimonials = [
   {
-    name: "John D",
+    name: "Rohit Khatri",
     sunheading: "GreenTech Solutions",
     rating: "★★★★★",
     message:
@@ -23,7 +23,7 @@ const testimonials = [
     // icon: <FaUserSecret />
   },
   {
-    name: "Sarah L",
+    name: "Sarah",
     sunheading: "Luxe Apparel",
     rating: "★★★★★",
     message:
@@ -31,7 +31,7 @@ const testimonials = [
     // icon: <FaUsers />
   },
   {
-    name: "Michael R",
+    name: "Love Panwar",
     sunheading: "Foods Inc.",
     rating: "★★★★★",
     message:
@@ -39,7 +39,7 @@ const testimonials = [
     // icon: <PiUserSwitchFill/>
   },
   {
-    name: "Emily T",
+    name: "Vivek ",
     sunheading: "CityFitness",
     rating: "★★★★★",
     message:
@@ -47,7 +47,7 @@ const testimonials = [
     // icon: <FaUsersGear />
   },
   {
-    name: "Alex P",
+    name: "Aryan Singha",
     sunheading: "Creative Solutions",
     rating: "★★★★★",
     message:
@@ -55,7 +55,7 @@ const testimonials = [
     // icon: <FaUserSecret />
   },
   {
-    name: "Alex P",
+    name: "Rohan Sharma",
     sunheading: "Creative Solutions",
     rating: "★★★★★",
     message:
@@ -64,7 +64,7 @@ const testimonials = [
   },
 ];
 
-export default function App() {
+export default React.memo(function App() {
   const [index, setIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -151,7 +151,7 @@ export default function App() {
       `}</style>
     </div>
   );
-}
+});
 
 // function TestimonialCard({ name, rating, message, sunheading }) {
 //   return (
@@ -171,8 +171,7 @@ export default function App() {
 //     </div>
 //   );
 // }
-
-function TestimonialCard({ name, rating, message, sunheading }) {
+const TestimonialCard = React.memo(function TestimonialCard({ name, rating, message, sunheading }) {
   return (
     <div className="speech-bubble w-full max-w-sm shadow-md relative">
       <div className="flex items-center gap-4 mb-4">
@@ -183,10 +182,8 @@ function TestimonialCard({ name, rating, message, sunheading }) {
         </div>
       </div>
       <p className="text-sm leading-relaxed">{message}</p>
-
-
-
     </div>
   );
-}
+});
+
 
