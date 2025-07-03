@@ -77,22 +77,26 @@ const Orm = () => {
 
 
       <Helmet>
-        <title>Online Reputation Management (ORM) Services</title>
-        <meta name="description" content="WebNest Media is one of the best Online Reputation Management Company that protects your brand's image from negative search results. We Protect, Monitor, and Enhance." />
+
+        <title>Best Online Reputation Management Company in Gurgaon</title>
+        <meta name="description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
+
+
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
 
-        <title>Best Online Reputation Management Company in Gurgaon</title>
-<meta name="description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
 
 
-<meta property="og:title" content="Best Online Reputation Management Company in Gurgaon" />
-  <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/online-reputation-management" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
- <meta property="og:site_name" content="WebNest Media" />
+
+
+        <meta property="og:title" content="Best Online Reputation Management Company in Gurgaon " />
+        <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/online-reputation-management" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
 
       </Helmet>
@@ -142,7 +146,7 @@ const Orm = () => {
               {/* Paragraph with Floating Image on Mobile */}
               <p  data-aos="fade-up" className='text-base '>
                 {/* Float only on Mobile */}
-                  <LazyLoadImage
+                <LazyLoadImage
                   src={timer}
                   alt="Online Reputation"
                   className='w-[35%] lg:hidden max-lg:mt-3 float-right ml-4 mb-4 rounded-[20px] max-lg:block max-lg:float-right max-lg:w-[55%] max-lg:h-72'
@@ -202,7 +206,7 @@ const Orm = () => {
                 return (
                   <div  data-aos="fade-up" key={index} className="flex items-start max-md:flex-col gap-4 mb-7 ">
 
-                      <LazyLoadImage
+                    <LazyLoadImage
                       src={service.image}
                       alt={service.title}
                       className="w-[61px] h-[52px] object-cover rounded-lg"
@@ -228,8 +232,8 @@ const Orm = () => {
 
         <section className="max-w-[1440px] mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
 
-  {/* Text Section */}
-  <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">
+          {/* Text Section */}
+          <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">
 
     {/* Heading */}
     <h5 data-aos="fade-up" className="leading-tight text-5xl max-lg:text-[34px] max-lg:font-semibold mb-6">
@@ -246,7 +250,7 @@ const Orm = () => {
     </div>
 
     {/* Paragraph */}
-    <p  data-aos="fade-up" className="text-base font-normal mt-[24px] leading-relaxed">
+    <p data-aos="fade-up" className="text-base font-normal mt-[24px] leading-relaxed">
       Your online reputation has the power to make or break your business in the modern digital age. Whether it’s a small comment on social media or a review on Google, customers are forming opinions about your brand before ever speaking to you. That’s why reputation management is no longer optional—it’s essential.
       <br className="hidden lg:inline" />
       A single negative article or poor review can push potential customers toward competitors, even if your product or service is top-notch. Reputation management helps control the narrative, ensures positive visibility, and builds trust with your audience.
@@ -256,22 +260,22 @@ const Orm = () => {
 
     {/* List */}
     <ul className="flex flex-wrap text-base text-[#333] pl-[30px] mt-[12px]">
-      <li  data-aos="fade-up" className='list-disc'>Monitor what people are saying about your brand</li>
-      <li  data-aos="fade-up" className='list-disc'>Respond to negative feedback before it escalates</li>
-      <li  data-aos="fade-up" className='list-disc'>Promote positive content and customer experiences</li>
-      <li  data-aos="fade-up" className='list-disc'>Enhance your brand’s credibility and trustworthiness</li>
-      <li  data-aos="fade-up" className='list-disc'>Protect your business from online attacks and misinformation</li>
+      <li data-aos="fade-up" className='list-disc'>Monitor what people are saying about your brand</li>
+      <li data-aos="fade-up" className='list-disc'>Respond to negative feedback before it escalates</li>
+      <li data-aos="fade-up" className='list-disc'>Promote positive content and customer experiences</li>
+      <li data-aos="fade-up" className='list-disc'>Enhance your brand’s credibility and trustworthiness</li>
+      <li data-aos="fade-up" className='list-disc'>Protect your business from online attacks and misinformation</li>
     </ul>
 
     {/* Closing Paragraph */}
-    <p  data-aos="fade-up" className="mt-[20px] text-[16px] font-normal leading-relaxed">
+    <p data-aos="fade-up" className="mt-[20px] text-[16px] font-normal leading-relaxed">
       In short, reputation management safeguards your most valuable asset—your brand image—and turns perception into profit.
     </p>
 
-  </div>
+          </div>
 
   {/* Image - Desktop position */}
-  <div  data-aos="fade-up" className="w-full lg:w-[40%] flex justify-center lg:justify-center max-lg:hidden lg:flex">
+  <div data-aos="fade-up" className="w-full lg:w-[40%] flex justify-center lg:justify-center lg:flex">
       <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"
@@ -279,7 +283,7 @@ const Orm = () => {
     />
   </div>
 
-</section>
+        </section>
 
 
 

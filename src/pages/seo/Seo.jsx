@@ -409,14 +409,12 @@ const Seo = () => {
         <meta data-react-helmet="true" name="author" content="WebNest Media" />
         <link data-react-helmet="true" rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
-<meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
+<meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions"/>
   <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
-  
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/search-engine-optimization" />
   <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-CzLAVzJe.svg" />
   <meta property="og:site_name" content="WebNest Media" />
-
 
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

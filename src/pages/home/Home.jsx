@@ -276,13 +276,13 @@ const Home = () => {
         <link rel="canonical" href="https://webnestmedia.com/" />
 
 
-           <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+  <meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/" />
   <meta property="og:site_name" content="WebNest Media" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg" /> 
+  <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg" />
 
-   
 
         {/* Organization Schema */}
         <script type="application/ld+json">

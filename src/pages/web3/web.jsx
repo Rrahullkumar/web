@@ -193,14 +193,12 @@ const web = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
-
-        <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
-        <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/web-development" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
-
+<meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/web-development" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
 
 
         <script type="application/ld+json">
@@ -267,7 +265,7 @@ const web = () => {
         <section className="flex max-w-[1440px] mx-auto  w-[100%] flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 ">
 
           {/* Left Circle Image Placeholder */}
-          <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
+          <div data-aos="fade-up" className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
             <div className="w-64 h-64 max-lg:hidden bg-gray-300 rounded-full flex items-center justify-center relative z-10">
               {/*   <LazyLoadImage src="/your-image.svg" alt="Placeholder" className="w-12 h-12 opacity-50" /> */}
             </div>

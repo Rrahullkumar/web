@@ -256,13 +256,14 @@ const Smm = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
-        <meta property="og:title" content="Best Social Media Marketing Agency in Gurgaon | WebNest Media" />
+ 
+
+ <meta property="og:title" content="Best Social Media Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/social-media-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CDPM3k0Q.svg" />
   <meta property="og:site_name" content="WebNest Media" />
-
 
         <script type="application/ld+json">
           {JSON.stringify(socialMediaSchema)}
@@ -382,7 +383,7 @@ const Smm = () => {
 
 
 
-          <div
+          <div data-aos="fade-up"
             className="w-[48%] max-lg:w-[100%] flex flex-col items-end justify-end  bg-no-repeat bg-contain bg-left-top"
             style={{ backgroundImage: `url(${accelerate})` }}
           >
@@ -390,9 +391,9 @@ const Smm = () => {
               <LazyLoadImage src={accelerate} alt="Advance Analytics & Insights" className="hidden" aria-hidden="true" />
 
 
-            <div className="max-lg:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
+            <div data-aos="fade-up" className="max-lg:w-[100%] w-[75%] bg-white p-6 rounded-xl shadow-lg">
               <div className="">
-                <div className='flex items-center  gap-2 '>
+                <div  className='flex items-center  gap-2 '>
                   <span><GiLevelFourAdvanced /></span>
                   <h3 className="text-lg font-semibold text-[#1a1a1a]">
                     Advanced Analytics & Insights

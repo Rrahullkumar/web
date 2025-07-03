@@ -27,14 +27,14 @@ const SmsMarketing = () => {
   
     <Helmet>
 
-<title>SMS Marketing Services in Gurgaon | WebNest Media</title>
-<meta name="description" content="Reach customers instantly with WebNest Media's powerful SMS marketing services. Drive sales, send alerts, and boost engagement directly to mobile phones." />
+<title>Bulk SMS Marketing Services in Gurgaon | Fast & Affordable</title>
+<meta name="description" content="Reach your audience instantly with SMS marketing services in Gurgaon. Whether it's promotional, or OTP messages, we help you connect with your customers." />
+
+
+
 <meta name="robots" content="index, follow" />
 <meta name="author" content="WebNest Media" />
 <link rel="canonical" href="https://webnestmedia.com/sms-marketing"></link>
-
-<title>Bulk SMS Marketing Services in Gurgaon | Fast & Affordable</title>
-<meta name="description" content="Reach your audience instantly with SMS marketing services in Gurgaon. Whether it's promotional, or OTP messages, we help you connect with your customers." />
 
 
 
@@ -42,10 +42,18 @@ const SmsMarketing = () => {
 
 <meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
   <meta property="og:description" content="Reach your audience instantly with WebNest Media's SMS marketing services in Gurgaon. Whether it's promotional, transactional, or OTP messages, we help you connect with your customers." />
+ 
+ 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/sms-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CcByDmTi.svg" />
  <meta property="og:site_name" content="WebNest Media" />
+
+
+
+
+
+
 
     </Helmet>
 
