@@ -193,14 +193,12 @@ const web = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
-
-        <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
-        <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/web-development" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
-
+<meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/web-development" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
 
 
         <script type="application/ld+json">

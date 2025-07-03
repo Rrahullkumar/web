@@ -29,29 +29,31 @@ const Lead = () => {
 
 
 
+     <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
+<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
+" />
 
-        <title>Top Customer Retention Agency in Gurgaon | WebNest Media</title>
-        <meta name="description" content="Keep your best customers coming back with simple and effective retention strategies. WebNest Media helps you boost loyalty, reduce churn, and grow your business." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
 
-        <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
-<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
-" />
+ 
 
 
 
 
 
-<meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media" />
+<meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media " />
   <meta property="og:description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/customer-retention" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-E-ZJr6R3.svg" />
  <meta property="og:site_name" content="WebNest Media" />
 
+
       </Helmet>
+
+
       <div className=''>
         <HeroSection
           backgroundImage={topimage}
@@ -62,7 +64,7 @@ const Lead = () => {
         <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
-            <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1200px] lg:h-[493px] ' />
+          <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1200px] lg:h-[493px] ' />
         </div>
         <div className="lmc3 max-w-[1440px] w-[100%] mx-auto px-[40px] mt-24 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px]">
           <div className="lmc3_left flex flex-col w-full lg:w-[80%]">
@@ -72,7 +74,7 @@ const Lead = () => {
 
             <p className="text-base relative">
               <span className="lg:hidden float-right lg:w-[60%] ml-4 mb-2">
-                  <LazyLoadImage src={c3image} alt=" customer retention strategies" className="w-full" />
+                <LazyLoadImage src={c3image} alt=" customer retention strategies" className="w-full" />
               </span>
               The goal of customer retention is to keep your current clients satisfied, involved, and returning for more. It entails developing genuine relationships with those who already trust your business rather than concentrating just on acquiring new leads. Think of it like this: ever noticed how your favorite online store remembers your preferences, gives you exclusive offers, and checks in with personalized emails? That’s customer retention in action!
               <br /> <br />
@@ -82,7 +84,7 @@ const Lead = () => {
 
           {/* Image shown only in desktop */}
           <div className="lmc3_right hidden lg:flex w-[673.72px] h-[389px] items-center justify-center">
-              <LazyLoadImage src={c3image} alt=" customer retention strategies in India" className="" />
+            <LazyLoadImage src={c3image} alt=" customer retention strategies in India" className="" />
           </div>
         </div>
 
@@ -102,7 +104,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image1} alt="Create Custom Retention Strategies" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image1} alt="Create Custom Retention Strategies" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Create Custom Retention Strategies</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">We tailor every plan to match your business goals, audience, and industry for maximum results.</p>
               </div>
@@ -116,7 +118,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image2} alt="Run Targeted Email & SMS Campaigns" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image2} alt="Run Targeted Email & SMS Campaigns" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Run Targeted Email & SMS Campaigns</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">Stay connected with your customers through personalized, automated follow-ups that drive repeat sales.</p>
               </div>
@@ -130,7 +132,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image3} alt="Implement Loyalty & Reward Programs" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image3} alt="Implement Loyalty & Reward Programs" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Implement Loyalty & Reward Programs</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">We help you build trust and reward loyal customers so they keep coming back.</p>
               </div>
@@ -144,7 +146,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image4} alt="Analyze Customer Behavior & Insights" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image4} alt="Analyze Customer Behavior & Insights" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Analyze Customer Behavior & Insights</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">Understand what your customers want and when—so you can serve them better.</p>
               </div>
@@ -158,7 +160,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image5} alt="Boost Customer Engagement & Satisfaction" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image5} alt="Boost Customer Engagement & Satisfaction" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Boost Customer Engagement & Satisfaction</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">From first purchase to post-sale care, we help you create a consistent and meaningful customer experience.</p>
               </div>
@@ -172,7 +174,7 @@ const Lead = () => {
               <div className="absolute bottom-0 right-0 w-[20px] h-[20px] border-b-2 border-r-2 border-black"></div>
 
               <div className="w-full h-full relative flex flex-col justify-start max-lg:justify-center items-center">
-                  <LazyLoadImage src={image6} alt="Local Focus, National Impact" className='w-[48px] h-[48px] mb-[16px]' />
+                <LazyLoadImage src={image6} alt="Local Focus, National Impact" className='w-[48px] h-[48px] mb-[16px]' />
                 <h3 className="text-lg font-semibold mb-[12px]">Local Focus, National Impact</h3>
                 <p className="text-sm text-[#555] leading-[1.5]">Whether you’re in Gurgaon or anywhere in India, our customer retention services are built to grow with you.</p>
               </div>
@@ -197,7 +199,7 @@ const Lead = () => {
 
             {/* Mobile Image: Visible only on mobile */}
             <div className="block lg:hidden mb-6">
-                <LazyLoadImage src={c5image} alt="Customer Retention" className="w-full h-auto object-contain" />
+              <LazyLoadImage src={c5image} alt="Customer Retention" className="w-full h-auto object-contain" />
             </div>
 
             <p className="text-lg max-lg:text-base">
@@ -254,7 +256,7 @@ const Lead = () => {
 
           {/* Right Section: Visible only on Desktop */}
           <div className="lmc5_right sticky top-[200px] max-lg:hidden h-fit self-start">
-              <LazyLoadImage src={c5image} alt="retention rate" className="w-full h-auto object-contain" />
+            <LazyLoadImage src={c5image} alt="retention rate" className="w-full h-auto object-contain" />
           </div>
         </div>
 
