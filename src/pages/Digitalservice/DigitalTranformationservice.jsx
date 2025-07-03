@@ -65,18 +65,18 @@ const DigitalTranformationservice = () => {
                     />
 
         <div className="dtc1 max-w-[1440px] mt-24 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[96px] max-md:mb-10">
-          <h1 className='lg:text-center text-[52px] max-lg:text-3xl mb-[12px] font-semibold'>
+          <h1 data-aos="fade-up"  className='lg:text-center text-[52px] max-lg:text-3xl mb-[12px] font-semibold'>
             Digital Transformation
             <span className='text-[#4CAF50]'> Services </span>
           </h1>
-          <p className='lg:text-center text-base mb-[20px] font-semibold'>
+          <p data-aos="fade-up"  className='lg:text-center text-base mb-[20px] font-semibold'>
             We make digital transformation simple by helping you with the smart use of automation, AI, and data-driven <br />
             insights.
           </p>
-          <p className='lg:text-center text-base font-semibold mb-[]'>
+          <p data-aos="fade-up" className='lg:text-center text-base font-semibold mb-[]'>
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
-          <div className="flex justify-center mt-10">
+          <div data-aos="fade-up" className="flex justify-center mt-10">
               <LazyLoadImage src={c1_image} alt="Digital Transformation" className="mx-auto" />
           </div>
         </div>
@@ -85,22 +85,22 @@ const DigitalTranformationservice = () => {
         <div className="dtc2 max-w-[1440px] w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row gap-6">
 
           <div className="dtc2left lg:w-[80%] flex flex-col">
-            <h2 className='text-[48px] max-lg:text-3xl mb-8 font-semibold order-1'>
+            <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-8 font-semibold order-1'>
               Not sure what is digital transformation? <br />Let’s understand it in plain language.
             </h2>
 
             {/* Image moves below heading on mobile, stays on right in desktop */}
-            <div className="lg:hidden order-2 mb-6">
+            <div data-aos="fade-up"  className="lg:hidden order-2 mb-6">
                 <LazyLoadImage src={c2_image} alt="what is digital transformation" className='' />
             </div>
 
-            <p className="text-lg max-md:text-base order-3">
+            <p data-aos="fade-up" className="text-lg max-md:text-base order-3">
               Digital transformation means using technology to improve how your business works—from automating routine tasks to creating better customer experiences. It’s not just about going digital; it’s about working smarter, faster, and more efficiently by integrating tools like AI, cloud solutions, data analytics, and automation into your operations.
             </p>
 
             <br className="order-4" /><br className="order-4" />
 
-            <p className="order-5 text-lg">
+            <p data-aos="fade-up"  className="order-5 text-lg">
               One of the major benefits of digital transformation is that it helps businesses boost productivity, reduce costs, and stay competitive in a fast-changing market.
             </p>
           </div>
@@ -116,8 +116,8 @@ const DigitalTranformationservice = () => {
         {/* Section 3 */}
         <div className="dtc3 max-w-[1440px] mt-24  max-md:mt-10 w-full mx-auto px-10 max-lg:px-4 mb-24">
           <div >
-            <h2 className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold'>Digital Transformation Services We Offer</h2>
-            <p className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10'>
+            <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold'>Digital Transformation Services We Offer</h2>
+            <p data-aos="fade-up"  className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10'>
               At WebNest Media, we don’t just help you "go digital"—we help you transform how your business works, connects, and grows. Our digital transformation services are designed to boost efficiency, elevate customer experiences, and future-proof your business with the right tech solutions.
             </p>
 
@@ -135,7 +135,7 @@ const DigitalTranformationservice = () => {
           </div>
           {/* Scrollable container */}
           <div className="relative overflow-hidden">
-            <div
+            <div 
               ref={sliderRef}
               className="overflow-x-auto flex gap-4 px-4 py-4 scrollbar-hide snap-x snap-mandatory"
             >
@@ -193,7 +193,7 @@ const DigitalTranformationservice = () => {
                 }
 
               ].map((card, index) => (
-                <div
+                <div data-aos="fade-up" 
                   key={index}
                   className="flex-shrink-0 flex flex-col justify-between items-start p-4 text-left  max-lg:min-w-[80%] max-w-[300px] max-lg:max-w-[80%] h-full"
                 >
@@ -218,16 +218,16 @@ const DigitalTranformationservice = () => {
           {/* Left Content */}
           <div className="dtc4 left lg:w-[60%] flex flex-col">
 
-            <h2 className='text-[48px] max-lg:text-3xl mb-[32px] font-semibold order-1'>
+            <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-[32px] font-semibold order-1'>
               We Are a Leading Digital Transformation Solutions Company
             </h2>
 
             {/* Image between heading and content for mobile */}
-            <div className="lg:hidden order-2 mb-6">
+            <div data-aos="fade-up"  className="lg:hidden order-2 mb-6">
                 <LazyLoadImage src={image_6} alt="Leading Digital Transformation" />
             </div>
 
-            <div className='text-base leading-[150%] order-3'>
+            <div data-aos="fade-up"  className='text-base leading-[150%] order-3'>
               <p>
                 At WebNest Media, our deep technical expertise combined with a forward-thinking approach makes us a trusted leader in digital transformation solutions. With a strong history of delivering tailored digital strategies, we help businesses harness next-gen technologies to streamline operations, enhance performance, and scale faster.
               </p>
@@ -256,22 +256,22 @@ const DigitalTranformationservice = () => {
         <div className="dtc4 max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row gap-10 mb-24 max-lg:mb-10">
 
           {/* Image block - shown first on desktop */}
-          <div className="dtc4 right hidden lg:block mt-[20px] px-2 w-[30%] order-1">
+          <div data-aos="fade-up"  className="dtc4 right hidden lg:block mt-[20px] px-2 w-[30%] order-1">
               <LazyLoadImage src={image_7} alt=" Advantages of Digital Transformation" />
           </div>
 
           {/* Text Content */}
           <div className="dtc4 left w-full lg:w-[70%] order-2">
-            <h2 className="text-[48px] max-lg:text-3xl mb-[32px] font-semibold">
+            <h2 data-aos="fade-up" className="text-[48px] max-lg:text-3xl mb-[32px] font-semibold">
               Advantages of Digital Transformation
             </h2>
 
             {/* Float image inside paragraph on mobile */}
-            <div className="lg:hidden float-right w-[50%] ml-4">
+            <div data-aos="fade-up"  className="lg:hidden float-right w-[50%] ml-4">
                 <LazyLoadImage src={image_7} alt="digital transformation company" />
             </div>
 
-            <div className="text-base">
+            <div data-aos="fade-up" className="text-base">
               <p>
                 Every business from all industries quickly adopts digitalization. With our digital transformation company, we help you by following benefits:
               </p>

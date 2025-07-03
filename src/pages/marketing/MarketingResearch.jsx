@@ -65,17 +65,17 @@ const MarketingResearch = () => {
           <div className="mr1left w-[60%] max-md:w-[100%]">
 
             {/* Heading */}
-            <h2 className='text-[52px] font-semibold max-md:text-4xl mb-[36px]'>
+            <h2 data-aos="fade-up" className='text-[52px] font-semibold max-md:text-3xl mb-[36px]'>
               Let’s Decode Your Market Research Together
             </h2>
 
             {/* Mobile Image Below Heading */}
-            <div className="block lg:hidden w-[80%] mx-auto mt-6 mb-6">
+            <div data-aos="fade-up" className="block lg:hidden w-[80%] mx-auto mt-6 mb-6">
               <LazyLoadImage src={c1image} alt="Market Research" className="w-full h-auto rounded-lg" />
             </div>
 
             {/* Paragraph */}
-            <p className='text-base'>
+            <p data-aos="fade-up" className='text-base'>
               Market research is evolving rapidly in today’s tech-driven world. With endless tools, platforms, and data streams available, brands and agencies often find themselves overwhelmed—not by a lack of information, but by too much of it. That’s where WebNest Media steps in.
               <br /> <br />
               We offer end-to-end insight market research solutions. From customer journey mapping, advanced data collection, and survey automation to deep-dive analytics, dashboard creation, and trend forecasting—we cover the full spectrum. Our experienced market research analysts use a smart blend of human insight and advanced technologies like AI/ML, predictive analytics, automation tools, and cloud-based data platforms to deliver research that doesn’t just inform, it drives results.
@@ -95,25 +95,25 @@ const MarketingResearch = () => {
         <div className="mr2 max-w-[1440px] px-[40px] max-md:px-[16px] w-[100%] mx-auto flex flex-col justify-center items-center mt-[96px] max-md:mt-10">
           <h2 className='text-[52px] max-md:text-3xl font-semibold text-center lg:w-[50%] mb-14'><span className='text-[#4caf50]'>Importance of</span> Market Research & Insights</h2>
           <div className="flex flex-col lg:flex-row gap-10 max-md:gap-6 justify-between lg:items-start">
-            <div className="mrcard flex flex-col gap-12 max-md:gap-8 items-center max-lg:border-b max-lg:p-8 ">
+            <div data-aos="fade-up"  className="mrcard flex flex-col gap-12 max-md:gap-8 items-center max-lg:border-b max-lg:p-8 ">
 
               <LazyLoadImage src={icon1} className='w-24' alt="Understand Customer Needs" />
               <p className='text-2xl max-lg:text-xl font-semibold text-center lg:w-[70%]'>Understand Customer Needs</p>
             </div>
-            <div className="mrcard flex flex-col gap-12   max-md:gap-8  items-center max-lg:border-b max-lg:p-8 ">
+            <div data-aos="fade-up" className="mrcard flex flex-col gap-12   max-md:gap-8  items-center max-lg:border-b max-lg:p-8 ">
               <LazyLoadImage src={icon2} className='w-24' alt="Track Market Trends" />
               <p className='text-2xl font-semibold max-lg:text-xl text-center lg:w-[70%]'> Track Market Trends</p>
             </div>
-            <div className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
+            <div data-aos="fade-up" className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
               <LazyLoadImage src={icon3} className='w-24' alt="Know Your Competitors" />
               <p className='text-2xl font-semibold max-lg:text-xl text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Know Your Competitors</p>
 
             </div>
-            <div className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
+            <div data-aos="fade-up" className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
               <LazyLoadImage src={icon4} className='w-24' alt="Reduce Business Risks" />
               <p className='text-2xl font-semibold max-lg:text-xl text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Reduce Business Risks</p>
             </div>
-            <div className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
+            <div data-aos="fade-up" className="mrcard flex flex-col gap-12  max-md:gap-8 items-center">
               <LazyLoadImage src={icon5} className='w-24' alt="Fuel Business Growth" />
               <p className='text-2xl font-semibold max-lg:text-xl text-center lg:w-[70%] max-lg:border-b max-lg:p-8 '>Fuel Business Growth</p>
 
@@ -121,11 +121,11 @@ const MarketingResearch = () => {
           </div>
         </div>
         <div className='max-w-[1440px] mx-auto mt-24 max-lg:mt-10 mb-24 max-lg:mb-10'>
-          <h2 className='text-[52px] px-[40px] max-md:px-[16px] max-md:text-3xl  font-semibold  lg:translate-y-36 '>How We Collect the Right Data</h2>
+          <h2 data-aos="fade-up" className='text-[52px] px-[40px] max-md:px-[16px] max-md:text-3xl  font-semibold  lg:translate-y-36 '>How We Collect the Right Data</h2>
           <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto max-lg:mt-[40px]'>
             <div className=''>
 
-              <div className="mr3 flex lg:flex-row max-lg:flex-col-reverse gap-4 items-end justify-between">
+              <div data-aos="fade-up"  className="mr3 flex lg:flex-row max-lg:flex-col-reverse gap-4 items-end justify-between">
                 <div className="mr3left lg:w-[50%]">
 
                   <h3 className='text-[32px] max-md:text-3xl mb-6 '>Telephone Surveys</h3>
@@ -150,7 +150,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 1 */}
-          <section className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
             <div className="mr4 flex lg:flex-row-reverse max-lg:flex-col justify-between gap-4 items-start">
 
               {/* Mobile Heading */}
@@ -179,7 +179,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 2 */}
-          <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr5 flex lg:flex-row max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}
@@ -208,7 +208,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 3 */}
-          <section className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up" className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
             <div className="mr4 flex lg:flex-row-reverse max-lg:flex-col justify-between gap-4 items-start">
 
               {/* Mobile Heading */}
@@ -237,7 +237,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 4 */}
-          <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr7 flex lg:flex-row max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}
@@ -266,7 +266,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 5 */}
-          <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up" className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr7 flex lg:flex-row-reverse max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}

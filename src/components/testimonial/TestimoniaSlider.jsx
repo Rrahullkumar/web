@@ -46,7 +46,7 @@ const TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
                                         <span className="text-base font-semibold text-indigo-600">{item.rating}</span>
                                     </div>
                                     <p className="text-base text-gray-600 leading-6 transition-all duration-500 group-hover:text-gray-800">
-                                        {item.feedback}
+                      ``                   {item.feedback}
                                     </p>
                                 </div>
 
