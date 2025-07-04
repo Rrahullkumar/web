@@ -404,6 +404,7 @@ const Home = () => {
         <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
           <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
+            
             <div className="">
               <h1 className="h1tag ">
                 <span>Best </span>

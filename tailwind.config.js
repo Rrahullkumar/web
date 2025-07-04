@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 export default {
   content: [
     "./index.html",
@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       screens: {
-        // ✅ Only add custom max-width breakpoints here
         'max-sm': { max: '639px' },
         'max-md': { max: '767px' },
         'max-lg': { max: '1023px' },
@@ -15,8 +14,7 @@ export default {
         'max-2xl': { max: '1535px' },
       },
     },
-
+  
   },
   plugins: [],
-  
 };
