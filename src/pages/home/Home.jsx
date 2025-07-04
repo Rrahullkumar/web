@@ -280,7 +280,7 @@ const Home = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/" />
         <meta property="og:site_name" content="WebNest Media" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/marketingbanner-BRhkFoIl.png" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svggi" />
 
 
         {/* Organization Schema */}
