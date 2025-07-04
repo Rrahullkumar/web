@@ -275,12 +275,12 @@ const Home = () => {
         <link rel="canonical" href="https://webnestmedia.com/" />
 
 
-  <meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
-  <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/" />
-  <meta property="og:site_name" content="WebNest Media" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg" />
+        <meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
+        <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/" />
+        <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/marketingbanner-BRhkFoIl.png" />
 
 
         {/* Organization Schema */}
@@ -403,7 +403,7 @@ const Home = () => {
         <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
           <ParticlesBackground />
           <div className='text-part max-md:p-[16px] '>
-            
+
             <div className="">
               <h1 className="h1tag ">
                 <span>Best </span>
@@ -457,12 +457,12 @@ const Home = () => {
 
 
           <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
-              <LazyLoadImage
+            <LazyLoadImage
               src={marketingbanner}
               alt="Marketing Banner"
               className="w-[400px] h-[400px] object-contain"
             />
-          </div> 
+          </div>
 
           {/* <LazyLoadImage
             src={marketingbanner}
@@ -666,11 +666,11 @@ const Home = () => {
               Webnest Media, based in Gurgaon, brings over 20 years of expertise in web design, development, and digital marketing. With a focus on delivering innovative and results-driven solutions, they help businesses enhance their online presence and achieve sustainable growth.
             </p>
 
-         <Link to="/about-us">
-            <button className="getstarted-btnn   mt-[20px] px-6 py-2 rounded bg-green-600 text-white hover:bg-green-700 transition duration-300">
-              Know More
-            </button>
-         </Link>
+            <Link to="/about-us">
+              <button className="getstarted-btnn   mt-[20px] px-6 py-2 rounded bg-green-600 text-white hover:bg-green-700 transition duration-300">
+                Know More
+              </button>
+            </Link>
 
           </div>
         </div>
