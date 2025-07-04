@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "./sem.css";
 import SEM1 from './Resources/SEM1.svg';
-import KeywordTargeting from './resources/KeywordTargeting.svg';
-import PPC from './resources/tabone.svg';
-import bid from './resources/bid.svg';
-import analytics from "./resources/analytics.svg";
-import ads from './resources/ads.svg';
+import KeywordTargeting from './resources/KeywordTargeting.png';
+import PPC from './resources/PPC.png';
+import bid from './resources/bid.png';
+import analytics from "./resources/analytics.png";
+import ads from './resources/ads.png';
 import { Helmet } from 'react-helmet';
 // import accordian from '../home/componnet/accordian.css'
 
@@ -40,7 +40,7 @@ const adsData = [
 ];
 
 
-import redlady from "./resources/redlady.svg"
+import redlady from "./resources/redlady.png"
 import Newcontact from '../../components/Newcontact/Newcontact';
 import { Link } from 'react-router-dom';
 
@@ -72,8 +72,8 @@ const Sem = () => {
 
             <div className='flex flex-row lg:h-[300px] items-center justify-between gap-[131px] max-lg:flex-col max-lg:gap-5'>
 
-              <div className='w-full '>
-                  <LazyLoadImage src={PPC} alt="Pap Per click" />
+              <div className='w-[1200px] '>
+                  <LazyLoadImage src={PPC} alt="Pap Per click" className='w-full'/>
               </div>
 
               <div className=' '>
@@ -679,7 +679,7 @@ const Sem = () => {
         </div>
 
 
-        <div  className=" max-w-[1440px] w-[100%] mx-auto container_2">
+        <div  className=" max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4">
           <h2 data-aos="fade-up" className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
             <p data-aos="fade-up" style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>

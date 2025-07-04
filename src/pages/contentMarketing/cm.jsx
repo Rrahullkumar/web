@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './cm.css'; // Make sure this file has your styles
-import c1_image from './Resources/Rectangle.svg';
-import image from './Resources/image.svg';
+import c1_image from './Resources/Rectangle.png';
+import image from './Resources/image.png';
 import Conatctfrom from '../../components/contact/contactform'; // Corrected import
 import Accordian from '../home/componnet/Accordian.jsx';
 import { FiPhone } from "react-icons/fi";
@@ -239,14 +239,17 @@ const ContentMarketing = () => {
           />
         </div>
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
-          <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
+        <div className="max-w-[1440px] mb-16 maxx-lg:mb-10 flex flex-row w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
+          <div className="lg:w-[60%]">
+            <h2 data-aos="fade-up" className="text-[52px] mb-5 max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
             <span className="highlight">Content</span> is the key to <br /> building audiences
           </h2>
-
+           <div className="lg:hidden">
+              <img src={image} alt="" />
+              </div> 
           <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
             {/* Left Text Section */}
-            <div className="lg:w-[60%] flex flex-col">
+            <div className=" flex flex-col">
               <p data-aos="fade-up" className="text-base">
                 Great content captures attention, builds trust, and keeps your audience coming back.
                 At WebNest Media, we craft meaningful content that speaks directly to your ideal customers.
@@ -264,7 +267,7 @@ const ContentMarketing = () => {
 
 
 
-              <div data-aos="fade-up" className="flex gap-3 mt-8">
+              <div data-aos="fade-up" className="flex gap-3">
 
 
                 <button
@@ -284,12 +287,17 @@ const ContentMarketing = () => {
 
             </div>
 
-            {/* Right Image */}
-            <div data-aos="fade-up" className="max-lg:w-[80%]">
-              <LazyLoadImage src={image} alt="Content Strategy Visual" />
-            </div>
+          
           </div>
-        </div>
+
+            
+            </div>   
+            <div className="max-lg:hidden">
+              <img src={image} alt="" />
+              </div>      
+                 
+                 
+         </div>
 
 
         <div className=' bg-[#EFF4EE]'>
@@ -326,8 +334,8 @@ const ContentMarketing = () => {
 
 
 
-        <div id="bringout" className="max-w-[1440px] w-[100%] mx-auto  mt-[96px] max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
-          <h2 data-aos="fade-up" className=" font-semibold text-6xl max-lg:text-3xl leading-tight ">
+        <div id="bringout" className="max-w-[1440px] w-[100%] mx-auto  mt-12  max-lg:mt-[40px]  px-[40px] max-lg:px-[16px] ">
+          <h2 data-aos="fade-up" className=" font-semibold text-[52px] lg:w-[80%] max-lg:text-3xl leading-tight ">
             Bringing Out the Best Content Writing Company
             <span className="highlight"> in Gurgaon</span>
           </h2>
@@ -351,7 +359,7 @@ const ContentMarketing = () => {
                   <p className="text-[24px] text-[#4CAF50]">{item.title}</p>
                 </h3>
 
-                <p className="text-base leading-relaxed mt-9 max-lg:mt-5 mb-[50px]">
+                <p className="text-base leading-relaxed mt-9 max-lg:mt-5 mb-[30px]">
                   {item.text}
                 </p>
               </div>

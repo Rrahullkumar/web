@@ -3,7 +3,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import './animationcard.css';
-
+import { memo } from 'react';
 import Ecomm from "./industries/Ecomm.svg";
 import Education from "./industries/Education.svg";
 import FinanceBanking from "./industries/Finance-Banking.svg";
@@ -16,7 +16,7 @@ import Technology from "./industries/Technology.svg";
 import Travel from "./industries/Travel.svg";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-const AnimatedCardList = () => {
+const AnimatedCardList = React.memo(() => {
   const wrapperRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -74,6 +74,6 @@ const AnimatedCardList = () => {
       </div>
     </div>
   );
-};
+});
 
 export default AnimatedCardList;
