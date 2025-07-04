@@ -7,12 +7,12 @@ import Icons1 from './resources/Icons1.svg'
 import Icons2 from './resources/Icons2.svg'
 import Icons3 from './resources/Icons3.svg'
 import Icons4 from './resources/Icon4.svg'
-import image from './resources/Image.svg'
+import image from './resources/Image.png'
 import { Helmet } from 'react-helmet'
 import Conatctfrom from '../../components/contact/contactform';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 import { FiPhone } from "react-icons/fi";
-import heroimage from './resources/heroimage.svg'
+import heroimage from './resources/heroimage.png'
 import Newcontact from '../../components/Newcontact/Newcontact.jsx'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -221,7 +221,7 @@ const Affilatemarketing = () => {
 
 
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
 
   {/* Main Container */}
   <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
@@ -296,7 +296,7 @@ const Affilatemarketing = () => {
 
 
 
-        <div className="mt-[96px] max-lg:mt-10 max-lg:[30px] max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+        <div className="max-lg:mt-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
 
 
           <div className="">
@@ -383,8 +383,8 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <div id="affilatemarketing"  className="mt-[96px] max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:w-[60%] lg:text-center lg:mb-12">
+        <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
+          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
 

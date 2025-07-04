@@ -1,5 +1,5 @@
 import React from 'react'
-import topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.png'
 import c2image from './resources/c2image.svg'
 import c3image from './resources/c3image.svg'
 import icon1 from './resources/icon1.svg'
