@@ -419,7 +419,7 @@ const Home = () => {
 
             <hr className='line'></hr>
 
-            <strong className='text-[grey] trust '>Trusted by 2,000+ local brands and businesses</strong>
+            <strong className='text-[grey] trust max-lg:mt-4 '>Trusted by 2,000+ local brands and businesses</strong>
 
 
 
@@ -434,7 +434,7 @@ const Home = () => {
 
         </div>
 
-        <div className=" w-[100%] max-w-[1440px] mx-auto  max-lg:mt-[10px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%]  max-w-[1440px] mx-auto  max-lg:mt-[40px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
             <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
@@ -472,7 +472,7 @@ const Home = () => {
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
-          <p className=" text-[black] text-[20px] font-semibold max-lg:mt-[52px]">Our Client</p>
+          <p className=" text-[black] text-[20px] font-semibold max-lg:mt-[52px]">Our Client's</p>
           <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>
 

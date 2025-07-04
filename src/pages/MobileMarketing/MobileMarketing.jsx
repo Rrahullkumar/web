@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
-import topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.png'
 import image1 from './resources/image1.svg'
 import phoneImg from './resources/tabimage.svg'
 import icon1 from './resources/icon1.svg'

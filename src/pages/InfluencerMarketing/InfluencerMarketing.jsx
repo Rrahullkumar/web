@@ -1,12 +1,12 @@
 import React from 'react';
-import topimage from './resources/topimage.svg';
-import image1 from './resources/c2image.svg';
+import topimage from './resources/topimage.png';
+import image1 from './resources/c2image.png';
 import icon1 from './resources/icon1.svg';
 import icon2 from './resources/icon2.svg';
 import icon3 from './resources/icon3.svg';
 import icon4 from './resources/icon4.svg';
 import icon5 from './resources/icon5.svg';
-import c5img from './resources/c5contaisner.svg'
+import c5img from './resources/c5contaisner.png'
 import Accordion from './components/Accordian';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';

@@ -12,7 +12,7 @@ const HeroSection = ({ backgroundImage, heading, highlight, paragraph }) => {
           <LazyLoadImage src={backgroundImage} alt={heading + highlight} className="hidden" aria-hidden="true" />
   
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-0" />
+      <div className="absolute inset-0 bg-black/60 z-0" />
 
       {/* Content */}
       <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full max-w-[1440px] mx-auto relative z-10">
