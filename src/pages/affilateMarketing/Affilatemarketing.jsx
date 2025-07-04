@@ -211,7 +211,7 @@ const Affilatemarketing = () => {
 
         <HeroSection
           backgroundImage={heroimage}
-          heading="Affiiate Marketing Company"
+          heading="Affiliate Marketing Company"
           highlight="In Gurgaon"
           paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
         />

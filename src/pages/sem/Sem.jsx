@@ -679,7 +679,7 @@ const Sem = () => {
         </div>
 
 
-        <div  className=" max-w-[1440px] w-[100%] mx-auto container_2">
+        <div  className=" max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4">
           <h2 data-aos="fade-up" className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
             <p data-aos="fade-up" style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
