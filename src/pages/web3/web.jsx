@@ -243,10 +243,14 @@ const web = () => {
 </section> */}
 
 
-        <div className='flex flex-row max-lg:flex-col px-10 max-lg:px-4 lg:justify-between items-center'>
-            <div className="w-full ">
-              <h2 className='text-[52px]'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
-                <p data-aos="fade-up" className="text-[black] mt-4 text-base mx-auto md:mx-0">
+        <div className=' max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4 lg:justify-between items-center'>
+            <section className='flex flex-row max-lg:flex-col'>
+              <div className="w-full ">
+              <h2 className='text-[52px] max-md:text-3xl'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
+                <div data-aos="fade-up" className="md:hidden">
+                  <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
+                </div>
+                <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
                 WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
               </p>
               <Link to="/contact-us">
@@ -257,10 +261,11 @@ const web = () => {
               </Link>
             </div>
             <div className="">
-                <div data-aos="fade-up" className="max-lg:w-[80%] max-lg:mt-10">
+                <div data-aos="fade-up" className="max-lg:w-[80%] max-md:hidden">
                   <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
                 </div>
             </div>
+            </section>
         </div>
         <section className="flex max-w-[1440px] mx-auto  w-[100%] flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 ">
 
