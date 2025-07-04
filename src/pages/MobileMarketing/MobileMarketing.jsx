@@ -310,7 +310,7 @@ const MobileMarketing = () => {
                     <HeroSection
                         backgroundImage={topimage}
                         heading="Mobile Marketing Company"
-                        highlight="In Gurgaon"
+                        highlight="in Gurgaon"
                         paragraph="From SMS to mobile ads and in-app experiences, we help you connect with your audience through impactful mobile marketing campaigns that convert.
 "
                     />

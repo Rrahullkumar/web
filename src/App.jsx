@@ -43,9 +43,9 @@ const App = () => {
   return (
     <>
       
-        <div className='max-md:hidden'>
+        {/* <div className='max-md:hidden'>
           <SmoothCursor />
-        </div>
+        </div> */}
 
         <Router>
           <ScrollToTop />

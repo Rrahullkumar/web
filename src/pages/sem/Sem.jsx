@@ -638,7 +638,7 @@ const Sem = () => {
         <HeroSection
           backgroundImage={herom}
           heading="Search Engine Marketing Agency"
-          highlight="In Gurgaon"
+          highlight="in Gurgaon"
           paragraph="Grow your business with targeted Google Ads and smart SEM strategies from Gurgaon’s trusted Search Engine Marketing Agency."
         />
 

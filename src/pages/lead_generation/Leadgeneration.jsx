@@ -110,7 +110,7 @@ const Leadgeneration = () => {
           <HeroSection
             backgroundImage={topimage}
             heading="Lead Generation Company"
-            highlight="In Gurgaon"
+            highlight="in Gurgaon"
             paragraph="Unlock new growth with lead generation that brings in prospects who are ready to buy and eager to connect with your brand.
 "
           />

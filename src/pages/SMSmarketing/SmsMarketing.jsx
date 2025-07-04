@@ -74,7 +74,7 @@ const SmsMarketing = () => {
                 <HeroSection
                         backgroundImage={topimage}
                         heading="SMS Marketing Company"
-                        highlight="In Gurgaon"
+                        highlight="in Gurgaon"
                         paragraph="Fast, effective SMS marketing that connects with your customers, drives action, and supports your overall marketing strategy."
                     />
             </div>

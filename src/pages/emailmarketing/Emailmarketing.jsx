@@ -57,7 +57,7 @@ const Emailmarketing = () => {
           <HeroSection
           backgroundImage={topimage}
           heading="Email Marketing Company"
-          highlight="In Gurgaon"
+          highlight="in Gurgaon"
           paragraph="From compelling copy to smart automation, our email marketing helps you connect with your audience and grow your business.
 "
         />

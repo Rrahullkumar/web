@@ -107,7 +107,7 @@ const Orm = () => {
           <HeroSection
             backgroundImage={c1image}
             heading="Online Reputation Management Company"
-            highlight="In Gurgaon"
+            highlight="in Gurgaon"
             paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
 "
           />

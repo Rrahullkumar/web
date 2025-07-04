@@ -56,7 +56,7 @@ const MarketingResearch = () => {
         <HeroSection
           backgroundImage={c1image}
           heading="Marketing Research Insight Company"
-          highlight="In Gurgaon"
+          highlight="in Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
         />
         <div className="mr1 max-w-[1440px] w-[100%] mx-auto flex flex-row max-md:flex-col px-[40px] max-md:px-[16px] items-center gap-4 mt-24 max-md:mt-10">
