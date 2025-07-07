@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './digitalservice.css';
-import c1_image from './resources/c1_image.svg';
+import c1_image from './resources/c1_image.png';
 import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 import c2_image from './resources/c2_image.svg';
@@ -9,7 +9,7 @@ import Left_Arrow from './resources/Left_Arrow.svg';
 import Right_Arrow from './resources/Right_Arrow.svg';
 import image_6 from './resources/image_6.svg'
 import image_7 from './resources/image_7.svg'
-import topimage from './resources/topimage.svg';
+
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
@@ -68,7 +68,7 @@ const DigitalTranformationservice = () => {
 "
                     />
 
-        <div className="dtc1 max-w-[1440px] mt-24 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[96px] max-md:mb-10">
+        <div className="dtc1 max-w-[1440px] mt-16 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[50px] max-md:mb-10">
           <h1 data-aos="fade-up"  className='lg:text-center text-[52px] max-lg:text-3xl mb-[12px] font-semibold'>
             Digital Transformation
             <span className='text-[#4CAF50]'> Services </span>
@@ -80,9 +80,9 @@ const DigitalTranformationservice = () => {
           <p data-aos="fade-up" className='lg:text-center text-base font-semibold mb-[]'>
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
-          <div data-aos="fade-up" className="flex justify-center mt-10">
+          {/* <div data-aos="fade-up" className="flex justify-center mt-10">
               <LazyLoadImage src={c1_image} alt="Digital Transformation" className="mx-auto" />
-          </div>
+          </div> */}
         </div>
 
         {/* Section 2 */}

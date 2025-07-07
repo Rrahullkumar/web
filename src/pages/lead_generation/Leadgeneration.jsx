@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import './Leadgeneration.css'
 import image2 from './resources/image2.svg'
-import topimage from './resources/topimage.svg'
-import image3 from './resources/image3.svg'
+import topimage from './resources/topimage.png'
+import image3 from './resources/image3.png'
 import icon1 from './resources/ifl.svg'
 import icon2 from './resources/diversity_1.svg'
 import icon3 from './resources/arrows_input.svg'
@@ -123,10 +123,10 @@ const Leadgeneration = () => {
           <p data-aos="fade-up" className='text-lg max-md:text-base lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
             In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
           </p>
-            <LazyLoadImage data-aos="fade-up"  src={image2} alt=" B2B Lead Generation" />
+            {/* <LazyLoadImage data-aos="fade-up"  src={image2} alt=" B2B Lead Generation" /> */}
         </div>
 
-        <div className="lgc3 max-w-[1440px] mt-[93px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto">
+        <div className="lgc3 max-w-[1440px] mt-[50px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto justify-between">
           {/* Left Section */}
           <div className="lgc3left w-[50%] max-lg:w-full">
             <h2 data-aos="fade-up" className='text-[48px] max-lg:text-[30px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>

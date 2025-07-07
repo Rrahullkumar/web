@@ -2,7 +2,7 @@ import React from 'react'
 import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 import Accordian from "./component/Accordian";
-import c1image from './resources/c1image.svg'
+import c1image from './resources/c1image.png'
 import icon1 from './resources/icon1.svg'
 import icon2 from './resources/icon2.svg'
 import icon3 from './resources/icon3.svg'
@@ -18,7 +18,7 @@ import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
 import { Helmet } from 'react-helmet';
 // import HeroSection from '../../components/Herosection/Herosection';
-
+import topimage from './resources/topimage.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
@@ -54,7 +54,7 @@ const MarketingResearch = () => {
 
       <div className=' ' >
         <HeroSection
-          backgroundImage={c1image}
+          backgroundImage={topimage}
           heading="Marketing Research Insight Company"
           highlight="in Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
@@ -121,16 +121,16 @@ const MarketingResearch = () => {
           </div>
         </div>
         <div className='max-w-[1440px] mx-auto mt-24 max-lg:mt-10 mb-24 max-lg:mb-10'>
-          <h2 data-aos="fade-up" className='text-[52px] px-[40px] max-md:px-[16px] max-md:text-3xl  font-semibold  lg:translate-y-36 '>How We Collect the Right Data</h2>
+          <h2 data-aos="fade-up" className='text-[52px] px-[40px] lg:mb-5 max-md:px-[16px] max-md:text-3xl  font-semibold  lg:translate-y-36 '>How We Collect the Right Data</h2>
           <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto max-lg:mt-[40px]'>
             <div className=''>
 
-              <div data-aos="fade-up"  className="mr3 flex lg:flex-row max-lg:flex-col-reverse gap-4 items-end justify-between">
+              <div data-aos="fade-up"  className="mr3 flex lg:flex-row-reverse max-lg:flex-col-reverse gap-4 items-end justify-between">
                 <div className="mr3left lg:w-[50%]">
 
                   <h3 className='text-[32px] max-md:text-3xl mb-6 '>Telephone Surveys</h3>
                   <div className="mright max-md:w-full flex justify-center lg:hidden ">
-                  <LazyLoadImage src={m3image} className='w-[80%] max-md:w-[70%]' alt="Telephone Surveys" />
+                  <LazyLoadImage src={m3image} className='w-[60%] max-md:w-[70%]' alt="Telephone Surveys" />
                 </div>
                   <p className='text-base'>
                     Reach your audience directly over the phone. These surveys are great for collecting in-depth feedback, especially from targeted demographics that may prefer voice interactions. <br /><br />
@@ -158,7 +158,7 @@ const MarketingResearch = () => {
 
               {/* Image */}
               <div className="mr4ight">
-                <LazyLoadImage src={m5img} alt="face to face Surveys" />
+                <LazyLoadImage src={c1image} alt="face to face Surveys" />
               </div>
 
               {/* Text Block */}

@@ -1,20 +1,20 @@
 import React, { useState, useRef, useEffect } from 'react'
-import c2image from './resources/c2image.svg'
+import c2image from './resources/c2image.png'
 import './customer.css'
-import c3image from './resources/c3image.svg'
+import c3image from './resources/c3image.png' 
 import image1 from './resources/image1.svg'
 import image2 from './resources/image2.svg'
 import image3 from './resources/image3.svg'
 import image4 from './resources/image4.svg'
 import image5 from './resources/image5.svg'
 import image6 from './resources/image6.svg'
-import c5image from './resources/c5image.svg'
+import c5image from './resources/c5image.png'
 import Accordion from './Components/Accordian'
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
-import topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.png'
 import Newcontact from '../../components/Newcontact/Newcontact'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -64,9 +64,9 @@ const Lead = () => {
         <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
-          <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1200px] lg:h-[493px] ' />
+          <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1500px] lg:h-[493px] ' />
         </div>
-        <div className="lmc3 max-w-[1440px] w-[100%] mx-auto px-[40px] mt-24 max-md:mt-10 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px] max-md:mb-10">
+        <div className="lmc3 max-w-[1440px] w-[100%] mx-auto px-[40px] mt-10 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px] max-md:mb-10">
           <div className="lmc3_left flex flex-col w-full lg:w-[80%]">
             <h2  data-aos="fade-up"  className="text-[48px] max-lg:text-3xl mb-[30px] font-semibold">
               What is customer retention? Sounds heavy? No stress, we’ve got you covered!

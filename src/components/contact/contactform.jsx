@@ -82,7 +82,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="max-w-[590px] backdrop-blur-md  w-full mx-auto pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[16px] rounded-[20px] border border-[#FFFFFF73] ">
+    <div className="max-w-[500px] backdrop-blur-md  w-full mx-auto pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[16px] rounded-[20px] border border-[#FFFFFF73] ">
       <h2 className="text-gray-300 shadow-sm font-semibold text-[26px] mb-4 text-center">Book a Free Consultation! </h2>
       <form onSubmit={handleSubmit}>
         {/* Name */}
@@ -208,7 +208,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             placeholder="I need your help"
-            className="w-full bg-[#FFFFFF66] rounded-[16px] px-4 py-3 outline-none resize-none text-white placeholder-white  border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full bg-[#FFFFFF66] h-20 rounded-[16px] px-4 py-3 outline-none resize-none text-white placeholder-white  border border-transparent  focus:border-white transition-all duration-200"
 
           />
         </div>
