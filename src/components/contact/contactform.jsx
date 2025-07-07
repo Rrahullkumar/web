@@ -83,7 +83,7 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-[500px] backdrop-blur-md  w-full mx-auto pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[16px] rounded-[20px] border border-[#FFFFFF73] ">
-      <h2 className="text-gray-300 shadow-sm font-semibold text-[26px] mb-4 text-center">Book a Free Consultation! </h2>
+      <h2 className="text-gray-300 shadow-sm font-semibold text-[26px] max-md:text-[24px] mb-4 text-center">Book a Free Consultation! </h2>
       <form onSubmit={handleSubmit}>
         {/* Name */}
         <div className="form-group mb-[17px]">
@@ -92,7 +92,7 @@ const ContactForm = () => {
             name="name"
             placeholder="Enter your full name"
             required
-            className="w-full h-[42px] px-4 max-lg:px-2 text-white placeholder-white bg-[#FFFFFF66] rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
+            className="w-full h-[42px] px-4 text-white bg-[#FFFFFF66] placeholder-white rounded-[16px] outline-none border border-transparent  focus:border-white transition-all duration-200"
 
           />
         </div>
