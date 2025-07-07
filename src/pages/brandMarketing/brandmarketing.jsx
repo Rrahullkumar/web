@@ -32,7 +32,7 @@ import { Helmet } from 'react-helmet'
 import Newcontact from '../../components/Newcontact/Newcontact'
 
 import HeroSection from '../../components/Herosection/Herosection';
-import topimage from './resources/topimage.svg'
+import topimage from './resources/topimage.png'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

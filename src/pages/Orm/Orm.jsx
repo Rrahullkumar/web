@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef, useState } from 'react';
 import './Orm.css';
-import timer from "../../pages/Orm/resourse/timer.svg"
+import timer from "../../pages/Orm/resourse/timer.png"
 import Conatctfrom from "../../components/contact/contactform";
 import brand1 from "./resourse/brand1.svg";
 import brand2 from "./resourse/brand2.svg";
@@ -12,19 +12,19 @@ import brand6 from "./resourse/brand6.svg";
 import brand7 from "./resourse/brand7.svg";
 import brand8 from "./resourse/brand8.svg";
 import { FiPhone } from "react-icons/fi";
-import iot from "./resourse/iot.svg"
+import iot from "./resourse/iot.png"
 import Accordian from "./component/Accordian"
-import bannerimage from "./resourse/bannerimage.svg"
-import topimage from "./resourse/topimage.svg";
+
+
 import { Helmet } from 'react-helmet';
 import Newcontact from '../../components/Newcontact/Newcontact';
-import c1image from './resourse/c1image.svg'
+import c1image from './resourse/c1image.png'
 import HeroSection from '../../components/Herosection/Herosection';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Orm = () => {
   const services = [
     {
-      "title": "Brand Monitoring",
+      "title": "Brand Monitoring", 
       "description": "Constantly track mentions of your brand across search engines, review sites, blogs, and social media to ensure a quick response to any negative or misleading content.",
       "image": brand1
     },
@@ -127,7 +127,7 @@ const Orm = () => {
       </section> */}
 
 
-        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:py-10 lg:pb-24 mt-24 max-lg:mt-10'>
+        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
 
           {/* Desktop Layout */}
           <div className="flex flex-row justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
@@ -189,7 +189,7 @@ const Orm = () => {
 
 
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-16'>
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
@@ -275,7 +275,7 @@ const Orm = () => {
           </div>
 
   {/* Image - Desktop position */}
-  <div data-aos="fade-up" className="w-full lg:w-[40%] flex justify-center lg:justify-center lg:flex">
+  <div data-aos="fade-up" className="w-full lg:w-[50%] flex justify-center lg:justify-center lg:flex">
       <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"

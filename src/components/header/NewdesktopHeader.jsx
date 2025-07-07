@@ -3,9 +3,7 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import newlogo from "../../assets/newlogo.svg";
 import mobilehedaer from "../../assets/headerbuld.svg";
-
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
 
 const menuItems = [
   { title: "About Us", path: "/about-us" },

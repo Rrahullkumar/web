@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
 import topimage from './resources/topimage.png'
-import image1 from './resources/image1.svg'
+import image1 from './resources/image1.png'
 import phoneImg from './resources/tabimage.svg'
 import icon1 from './resources/icon1.svg'
 import icon2 from './resources/icon2.svg'
@@ -315,8 +315,8 @@ const MobileMarketing = () => {
 "
                     />
                 </div>
-                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] max-lg:px-[16px] lg:flex lg:flex-row-reverse lg:items-center justify-between lg:gap-20 mx-auto">
-                      <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 max-lg:pb-1 ' />
+                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between lg:gap-20 mx-auto">
+                      <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 w-1/5 max-lg:pb-1 ' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
