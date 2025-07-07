@@ -261,27 +261,19 @@ const Home = () => {
 
 
       <Helmet>
-        <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta
-          name="description"
-          content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more."
-        />
-        <meta
-          name="keywords"
-          content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/" />
+       <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
+<meta name="description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+<meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/" />
 
-
-        <meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
-        <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/" />
-        <meta property="og:site_name" content="WebNest Media" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svggi" />
-
+<meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
+<meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://webnestmedia.com/" />
+<meta property="og:site_name" content="WebNest Media" />
+<meta property="og:image" content="https://webnestmedia.com/assets/blacklogo1-CbeQgVfH.png" />
 
         {/* Organization Schema */}
         <script type="application/ld+json">
