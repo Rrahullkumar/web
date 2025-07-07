@@ -3,7 +3,7 @@
 import React from 'react';
 import FooterSection from './FooterSection';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
-import blacklogo from '../../assets/blacklogo.svg';
+import blacklogo from '../../assets/blacklogo.png';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
 
