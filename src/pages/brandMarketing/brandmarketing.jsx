@@ -178,7 +178,7 @@ const Brandmarketing = () => {
       <HeroSection
                         backgroundImage={topimage}
                         heading="Branding Agency "
-                        highlight="In Gurgaon"
+                        highlight="in Gurgaon"
                         paragraph="Building strong, memorable brands with clear strategies that connect with audiences and help your business stand out in the market."
                     />
       <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-24 max-lg:mt-10"  >

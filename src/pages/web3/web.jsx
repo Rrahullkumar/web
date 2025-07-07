@@ -213,7 +213,7 @@ const web = () => {
           <HeroSection
             backgroundImage={topimage}
             heading="Web Development Company"
-            highlight="In Gurgaon"
+            highlight="in Gurgaon"
             paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
           />
         </div>

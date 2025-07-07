@@ -36,7 +36,7 @@ const MarketingResearch = () => {
         <meta name="description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/market-research" />
+        <link rel="canonical" href="https://webnestmedia.com/market-research-insights" />
 
 
 
@@ -44,7 +44,7 @@ const MarketingResearch = () => {
         <meta property="og:title" content="Market Research and Insights Company in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/market-research" />
+        <meta property="og:url" content="https://webnestmedia.com/market-research-insights" />
         <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
         <meta property="og:site_name" content="WebNest Media" />
 
@@ -56,7 +56,7 @@ const MarketingResearch = () => {
         <HeroSection
           backgroundImage={c1image}
           heading="Marketing Research Insight Company"
-          highlight="In Gurgaon"
+          highlight="in Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
         />
         <div className="mr1 max-w-[1440px] w-[100%] mx-auto flex flex-row max-md:flex-col px-[40px] max-md:px-[16px] items-center gap-4 mt-24 max-md:mt-10">

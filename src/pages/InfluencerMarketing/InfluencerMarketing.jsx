@@ -51,7 +51,7 @@ const InfluencerMarketing = () => {
         <HeroSection
                         backgroundImage={topimage}
                         heading="Influencer Marketing Company"
-                        highlight="In Gurgaon"
+                        highlight="in Gurgaon"
                         paragraph="Partner with influencers who matter—our marketing campaigns help you reach new audiences, build credibility, and drive measurable growth.
 "
                     />

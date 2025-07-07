@@ -63,7 +63,7 @@ const DigitalTranformationservice = () => {
         <HeroSection
                         backgroundImage={c1_image}
                         heading="Digital Transformation Services"
-                        highlight="In Gurgaon"
+                        highlight="in Gurgaon"
                         paragraph="Unlock new opportunities with end-to-end digital transformation solutions designed to streamline workflows and accelerate growth.
 "
                     />

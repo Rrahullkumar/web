@@ -58,7 +58,7 @@ const Lead = () => {
         <HeroSection
           backgroundImage={topimage}
           heading="Customer Retention Company"
-          highlight="In Gurgaon"
+          highlight="in Gurgaon"
           paragraph="We design customer retention campaigns that strengthen relationships, build trust, and turn happy customers into brand advocates"
         />
         <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">

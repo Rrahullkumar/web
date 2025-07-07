@@ -429,7 +429,7 @@ const Seo = () => {
           <HeroSection
             backgroundImage={heroimage}
             heading="SEO Company"
-            highlight="In Gurgaon"
+            highlight="in Gurgaon"
             paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
           />
         </div>
