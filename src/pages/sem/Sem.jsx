@@ -28,7 +28,7 @@ import remarketingIcon from "./resources/rads.svg";
 import youtubeIcon from "./resources/yads.svg";
 import displayIcon from "./resources/dads.svg";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import { motion, AnimatePresence } from "framer-motion";
 
 const adsData = [
   { icon: googleIcon, label: "Google ads" },
@@ -68,7 +68,7 @@ const Sem = () => {
         <section className='pb-[96px]'>
           <div className='flex flex-row lg:h-[300px] items-center justify-between max-lg:flex-col max-lg:gap-5'>
             <div className='w-full'>
-              <LazyLoadImage src={PPC} alt="Pay Per Click" className='w-full object-contain rounded-lg shadow-md' />
+              <LazyLoadImage src={PPC} alt="Pay Per Click" className='w-full object-contain rounded-lg' />
             </div>
             <div>
               <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] py-4 font-semibold'>What is Pay Per Click Advertising?</h6>
@@ -76,7 +76,7 @@ const Sem = () => {
             </div>
           </div>
 
-          <p className='text-[38px] lg:mb-4 max-md:text-[28px] mt-[74px] mb-18 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>Top Reasons to Invest in Pay Per Click Marketing</p>
+          <p className='text-[32px] lg:mb-4 max-md:text-[28px] mt-[74px] mb-18 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>Top Reasons to Invest in Pay Per Click Marketing</p>
 
           <p className='text-base leading-7 text-[#000000] font-normal mb-8 text-center'>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
 
@@ -108,7 +108,7 @@ const Sem = () => {
           </div>
 
           <div className='max-w-[1440px] w-full mx-auto pt-[40px] pb-[10px] px-4'>
-            <h2 className='text-[40px] text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
+            <h2 className='text-[38px] text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
 
             <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
               <div className=' max-lg:w-[100%] space-y-6'>
@@ -153,7 +153,7 @@ const Sem = () => {
 
           <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold text-center'>Types of Bidding Strategies We Use</p>
 
-          <ul className='list-disc pl-5 text-base leading-7 text-[#000000] font-normal space-y-4 mb-8 max-w-[800px] mx-auto'>
+          <ul className='list-disc text-center text-xl leading-7 text-[#000000] font-normal space-y-4 mb-8 max-w-[800px] mx-auto'>
             <li>✓ Manual CPC Bidding</li>
             <li>✓ Enhanced CPC</li>
             <li>✓ Target CPA</li>
@@ -197,7 +197,7 @@ const Sem = () => {
               Without tracking and analytics, you can waste budget and miss opportunities. Tracking helps you optimize ad spending, fix weak areas, and maximize ROI.
             </p>
 
-            <p className='text-[32px]  max-md:text-[28px] mb-6 leading-snug text-[#000000] font-semibold'>
+            <p className='text-[28px]  max-md:text-[28px] mb-6 leading-snug text-[#000000] font-semibold'>
               Tools We Use for Accurate Insights
             </p>
 
@@ -207,7 +207,7 @@ const Sem = () => {
               <li>✓ Facebook Pixel</li>
             </ul>
 
-            <h4 className='w-[100%] mt-10 mb-[28px] text-center text-[52px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-10 mb-[28px] text-center text-[40px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>
               Why Choose WebNest Media for Performance Tracking and Analytics?
             </h4>
 
@@ -252,7 +252,7 @@ const Sem = () => {
               <li>✓ Landing Pages: High-converting, fast-loading pages</li>
             </ul>
 
-            <h4 className='w-[100%] mt-[74px] mb-[28px] max-md:text-[28px] text-center text-[52px]  leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-[74px] mb-[28px] max-md:text-[28px] text-center text-[40px]  leading-snug text-[#000000] font-semibold'>
               Why WebNest Media for Ad Creation and Optimization?
             </h4>
 
@@ -319,7 +319,7 @@ const Sem = () => {
               <li>✓ Competitive Advantage: Target keywords your competitors may miss.</li>
             </ul>
 
-            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[52px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
+            <h4 className='w-[100%] mt-[74px] mb-[28px] text-center text-[40px] max-lg:text-[38px] leading-snug text-[#000000] font-semibold'>
               Why WebNest Media for Keyword Targeting?
             </h4>
 
@@ -573,13 +573,13 @@ const Sem = () => {
         </div>
 
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4">
+        <div className=" max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4 mb-24 max-lg:mb-10">
           <h2 data-aos="fade-up" className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
           <div className='c2_para'>
             <p data-aos="fade-up" style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
               WebNest Media is the search engine marketing company india and offers several benefits that set them apart from other agencies. Here are a few reasons why you might want to consider them:
             </p>
-            <ul className='c2_list'>
+            <ul className='c2_list '>
               <li data-aos="fade-up" className='c2_list_item'>
                 <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Specialist Search Engine Marketing: </b> We have a team of professionals experienced in creating and optimizing paid search campaigns. Their
                 expertise could help improve ad performance and maximize ROI.
@@ -681,43 +681,47 @@ const Sem = () => {
         </section>
 
 
-        <section
-          id="semservice"
-          className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] relative"
+
+<section
+  id="semservice"
+  className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] relative"
+>
+  {/* Parent container to limit the sticky range */}
+  <div className="relative">
+    {/* Sticky Tab Buttons */}
+    <div className="sticky top-[70px] bg-white z-50 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide py-3 px-2 shadow-sm">
+      {tabsData.map((tab, index) => (
+        <button
+          key={tab.id}
+          onClick={() => handleTabClick(index)}
+          className={`cursor-pointer transition-all duration-300 text-center min-w-fit rounded-full text-sm md:text-base font-medium px-6 py-3 
+            ${activeTab === index
+              ? 'bg-[#3e8e41] text-white shadow-md scale-105'
+              : 'border border-[#3e8e41] text-[#3e8e41] bg-white hover:bg-[#f0f9f0] hover:shadow-md'
+            }`}
         >
+          {tab.label}
+        </button>
+      ))}
+    </div>
 
-          {/* Parent container to limit the sticky range */}
-          <div className="relative">
+    {/* Tab Content with Animation */}
+    <div className="justify-center mx-auto text-gray-700 flex flex-col pt-[25px] min-h-[300px]">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeTab} // Key changes to re-trigger animation
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.4, ease: "easeInOut" }}
+        >
+          {tabsData[activeTab].description}
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  </div>
+</section>
 
-            {/* Sticky Tab Buttons */}
-            <div className="sticky top-[70px] bg-white z-50 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide py-3 px-2 shadow-sm">
-              {tabsData.map((tab, index) => (
-                <button
-                  key={tab.id}
-                  onClick={() => handleTabClick(index)}
-                  className={`cursor-pointer transition-all duration-300 text-center min-w-fit rounded-full text-sm md:text-base font-medium px-6 py-3 
-        ${activeTab === index
-                      ? 'bg-[#3e8e41] text-white shadow-md scale-105'
-                      : 'border border-[#3e8e41] text-[#3e8e41] bg-white hover:bg-[#f0f9f0] hover:shadow-md'
-                    }`}
-                >
-                  {tab.label}
-                </button>
-              ))}
-            </div>
-
-
-            {/* Tab Content */}
-            <div className="justify-center mx-auto text-gray-700 flex flex-col pt-[25px]">
-              {tabsData[activeTab].description}
-
-              {/* Dummy content to enable scroll for testing */}
-
-
-            </div>
-          </div>
-
-        </section>
 
 
 
@@ -729,7 +733,7 @@ const Sem = () => {
 
         <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
 
-          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Let's address your questions today</h2>
+          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px] text-center max-md:text-[28px] max-md:leading-[28px]  stroke-custom fill-custom">Let's address your questions today</h2>
           <div className="accordion-wrapper-columns">
             {/* Left Column */}
             <div className="accordion-column">
