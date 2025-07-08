@@ -419,7 +419,7 @@ const Smm = () => {
               </p>
 
            <Link to ="/contact-us">
-              <button data-aos="fade-up" type="submit " class=" text-[white] mb-[20px] px-[20px] py-[10px]   bg-[#5c945c] rounded-md ">Contact Now
+              <button data-aos="fade-up" type="submit" className="uiverse-button" style={{ background: "#409338" }}>Contact Now
 
               </button>
 

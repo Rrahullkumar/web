@@ -130,7 +130,7 @@ const Orm = () => {
         <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
 
           {/* Desktop Layout */}
-          <div className="flex flex-row justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
+          <div className="flex flex-row max-md:flex-col-reverse justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
 
             {/* Text Block */}
             <div className="flex-1">
@@ -138,6 +138,13 @@ const Orm = () => {
               <h2 data-aos="fade-up" className='text-[44px] max-lg:text-[34px] mb-3 font-semibold'>
                 Online Reputation <span className='text-[#4CAF50]'>Management Services?</span>
               </h2>
+              <div  className="w-full md:hidden mb-4">
+                <LazyLoadImage
+                src={timer}
+                alt=" ORM services"
+                className='w-full h-auto rounded-[20px] object-contain'
+              />
+            </div>
 
               <h3 data-aos="fade-up" className='text-lg font-semibold mb-12 max-lg:mb-8'>
                  Rebuild Your Reputation with India’s best Online Reputation Management Expert
@@ -145,12 +152,7 @@ const Orm = () => {
 
               {/* Paragraph with Floating Image on Mobile */}
               <p  data-aos="fade-up" className='text-base '>
-                {/* Float only on Mobile */}
-                <LazyLoadImage
-                  src={timer}
-                  alt="Online Reputation"
-                  className='w-[35%] lg:hidden max-lg:mt-3 float-right ml-4 mb-4 rounded-[20px] max-lg:block max-lg:float-right max-lg:w-[55%] max-lg:h-72'
-                />
+               
 
                 Whether your business is being unfairly targeted by competitors or naturally receiving mixed reviews due to a large customer base, our online reputation management services are designed to help you regain control.
 
@@ -170,7 +172,7 @@ const Orm = () => {
             </div>
 
             {/* Image for Desktop (Hidden on Mobile) */}
-            <div  data-aos="fade-up" className="w-[35%] max-lg:hidden">
+            <div  data-aos="fade-up" className="w-[35%] max-md:hidden">
                 <LazyLoadImage
                 src={timer}
                 alt=" ORM services"
@@ -275,7 +277,7 @@ const Orm = () => {
           </div>
 
   {/* Image - Desktop position */}
-  <div data-aos="fade-up" className="w-full lg:w-[50%] flex justify-center lg:justify-center lg:flex">
+  <div data-aos="fade-up" className="w-full lg:w-[50%] flex justify-center max-lg:hidden lg:justify-center lg:flex">
       <LazyLoadImage
       src={iot}
       alt="Reputation Management Illustration"
@@ -288,7 +290,7 @@ const Orm = () => {
 
 
         <Newcontact></Newcontact>
-        <section className='max-w-[1440x] px-10 max-lg:px-4'>
+        <section className='max-w-[1440x] px-10 max-md:px-0'>
 
           <h2 className='mt-[40px] text-center text-[black] font-normal leading-[160%]
           text-[32px]           

@@ -53,43 +53,52 @@ import Conatctfrom from "../../components/contact/contactform";
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from "react-helmet";
 
-import Monday from "../../pages/home/resources/monday.png";
-import Notion from "../../pages/home/resources/Notion.png";
-import forcorner from "./resources/forcorner.svg";
-import ntechnologies from "./resources/ntechnologies.webp";
-import residency from "./resources/residency.svg";
-import shreehari from "./resources/shreehari.svg";
-import ank from "./resources/ank.svg";
-import carworld from "./resources/carworld.svg";
-import dosa from "./resources/dosa.jpg";
-import lotus from "../../pages/home/resources/lotus.svg";
-import sportsline from "../../pages/home/resources/sportsline.svg";
-import heritagebadminton from "../../pages/home/resources/heritagebadminton.svg";
-import sandstone from "../../pages/home/resources/sandstone.svg";
-import readit360 from "../../pages/home/resources/readit360.svg";
-import Houseforever from "../../pages/home/resources/Houseforever.svg";
+
+import ank from './resources/logo/ank.svg';
+import badminton from './resources/logo/badminton.svg';
+import carworld from './resources/logo/carworld.svg';
+import Digiwizards from './resources/logo/Digiwizards.svg';
+import Divyanshed from './resources/logo/Divyanshed.svg';
+import divyanshglobal from './resources/logo/divyanshglobal.svg';
+import dosaada from './resources/logo/dosaada.svg';
+import ForeCorner from './resources/logo/ForeCorner.svg';
+
+import Harishresidennce from './resources/logo/Harishresidence.svg';
+import HouseForever from './resources/logo/HouseForever.svg';
+import Lotus from './resources/logo/Lotus.svg';
+import ntech from './resources/logo/ntech.svg';
+import Readit360 from './resources/logo/Readit360.svg';
+import sandstone from './resources/logo/sandstone.svg';
+import shreehari from './resources/logo/shreehari.svg';
+import sportsline from './resources/logo/sportsline.svg';
+
+
+
 import ParticlesBackground from "../../components/ParticlesBackground";
 import Newcontact from "../../components/Newcontact/Newcontact";
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { color } from "framer-motion";
 
 const images = [
-  { src: Monday, name: "Monday" },
-  { src: Notion, name: "Notion" },
-  { src: forcorner, name: "Forcorner" },
-  { src: ntechnologies, name: "NTechnologies" },
-  { src: residency, name: "Residency" },
-  { src: shreehari, name: "Shree Hari" },
   { src: ank, name: "ANK" },
+  { src: badminton, name: "Badminton" },
   { src: carworld, name: "Car World" },
-  { src: dosa, name: "Dosa" },
-  { src: lotus, name: "Lotus" },
-  { src: sportsline, name: "Sportsline" },
-  { src: heritagebadminton, name: "Heritage Badminton" },
+  { src: Digiwizards, name: "Digiwizards" },
+  { src: Divyanshed, name: "Divyanshed" },
+  { src: divyanshglobal, name: "Divyansh Global" },
+  { src: dosaada, name: "Dosaada" },
+  { src: ForeCorner, name: "ForeCorner" },
+  { src: Harishresidennce, name: "Harish Residence" },
+  { src: HouseForever, name: "House Forever" },
+  { src: Lotus, name: "Lotus" },
+  { src: ntech, name: "NTech" },
+  { src: Readit360, name: "Readit360" },
   { src: sandstone, name: "Sandstone" },
-  { src: readit360, name: "Readit 360" },
-  { src: Houseforever, name: "House Forever" },
+  { src: shreehari, name: "Shree Hari" },
+  { src: sportsline, name: "Sportsline" },
 ];
+
 
 
 const firstTrackImages = [...images, ...images, ...images, ...images];
@@ -449,7 +458,7 @@ const Home = () => {
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
             <Link to={"/contact-us"}>
-              <button className="bg-[#5c945c] text-white rounded-md px-6 py-3 max-md:py-1 max-md:px-2 hover:bg-[#4f834f] transition">
+              <button className="uiverse-button" style={{backgroundColor:"#9BC394"}}>
                 Get Started
               </button>
             </Link>
@@ -478,55 +487,31 @@ const Home = () => {
         </div>
 
 
+        <div className="mt-16">
 
-        <div className="  slider-container"
-
-        >
-
-
-          <div className="slider-track p-2">
-            {/* {firstTrackImages.map((img, index) => (
-              <div className="box" key={index}>
-                  <LazyLoadImage src={img} className="w-[100%] h-[100%] object-contain" />
-              </div>
-            ))} */}
-
-            {firstTrackImages.map((img, index) => (
-              <div className="box" key={index}>
-                <LazyLoadImage
-                  src={img.src}
-                  alt={img.name}
-                  className="w-[100%] h-[100%] object-contain"
-                />
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-        <div className="slider-container2">
-
-          <div className="slider-track2 p-2">
-            {/* {shuffledImages.map((img, index) => (
-              <div className="box" key={index}>
-                  <LazyLoadImage src={img} className="w-[100%] h-[100%] object-contain" />
-              </div>
-            ))} */}
-
-
-            {shuffledImages.map((img, index) => (
-              <div className="box" key={index}>
-                <LazyLoadImage
-                  src={img.src}
-                  alt={img.name}
-                  className="w-[100%] h-[100%] object-contain"
-                />
-              </div>
-            ))}
-
+          <div className="wrapper flex items-center bg-[#9BC394]" data-aos="fade-up" data-aos-delay="100">
+            <div className="item item1 "><img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" style={{ transform: "scale(1.2)" }} /></div>
+            <div className="item item2"><img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" /></div>
+            <div className="item item3"><img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" style={{ transform: "scale(1.5)" }}/></div>
+            <div className="item item4"><img className="logo-img" src={Digiwizards} alt="Digiwizards Logo" aria-label="Digiwizards Logo" /></div>
+            <div className="item item5"><img className="logo-img" src={Divyanshed} alt="Divyanshed Logo" aria-label="Divyanshed Logo" style={{ transform: "scale(1.3)" }} /></div>
+            <div className="item item6"><img className="logo-img" src={divyanshglobal} alt="Divyansh Global Logo" aria-label="Divyansh Global Logo" style={{ transform: "scale(1.3)" }}/></div>
+            <div className="item item7 "><img className="logo-img mt-6 pr-5" src={dosaada} alt="Dosaada Logo" aria-label="Dosaada Logo" style={{ transform: "scale(2)" }} /></div>
+            <div className="item item8"><img className="logo-img " src={ForeCorner} alt="ForeCorner Logo" aria-label="ForeCorner Logo" style={{ transform: "scale(2.5)" }} /></div>
+            <div className="item item9"><img className="logo-img " src={Harishresidennce} alt="Harish Residence Logo" aria-label="Harish Residence Logo" style={{ transform: "scale(2.3)" }} /></div>
+            <div className="item item10"><img className="logo-img mb-8 " src={HouseForever} alt="House Forever Logo " aria-label="House Forever Logo" style={{ transform: "scale(2)" }} /></div>
+            <div className="item item11"><img className="logo-img mb-4" src={Lotus} alt="Lotus Logo" aria-label="Lotus Logo" style={{ transform: "scale(1.5)" }} /></div>
+            <div className="item item12"><img className="logo-img" src={ntech} alt="NTech Logo" aria-label="NTech Logo" style={{ transform: "scale(2.2)" }} /></div>
+            <div className="item item13"><img className="logo-img" src={Readit360} alt="Readit360 Logo" aria-label="Readit360 Logo" style={{ transform: "scale(1.3)" }} /></div>
+            <div className="item item14"><img className="logo-img" src={sandstone} alt="Sandstone Logo" aria-label="Sandstone Logo" style={{ transform: "scale(1.2)" }}/></div>
+            <div className="item item15"><img className="logo-img" src={shreehari} alt="Shree Hari Logo" aria-label="Shree Hari Logo" style={{ transform: "scale(1.2)" }}/></div>
+            <div className="item item16"><img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" style={{ transform: "scale(1.6)" }} /></div>
           </div>
 
         </div>
+
+
+
 
 
 
