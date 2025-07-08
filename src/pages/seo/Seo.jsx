@@ -474,7 +474,8 @@ const Seo = () => {
           {/* Buttons */}
           <div className="flex gap-3 mt-8">      
       
-        <Link to="/about-us">
+            <Link to="/about-us" aria-label="About webnest media">
+        
             <button 
   onClick={() => scrollToSection("seoservice")}
   className="uiverse-button"

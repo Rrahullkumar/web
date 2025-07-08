@@ -563,11 +563,13 @@ const Sem = () => {
               onClick={() => scrollToSection("semservice")}
               className='c2greenbutton'>Learn More</button>
 
-            <Link to="/contact-us">
+            
+            <Link to="/contact-us" aria-label="Contact our team for inquiries or support">
 
               <button className='c2whitebutton'>Contact Us</button>
 
             </Link>
+            
           </div>
 
         </div>

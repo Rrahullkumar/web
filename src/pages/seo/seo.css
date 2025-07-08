@@ -68,25 +68,7 @@
     width: 649px;
     height: 469px;
 }
-/* .container3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  
-    background-color: #EFF4EE;
-    
-} */
 
-/* .c2_cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  justify-content: center;
-  align-items: start;
-  gap: 20px;
-  margin-top: 20px;
-  padding: 0 10px;
-} */
 
 .stat-card {
   background-color: white;
