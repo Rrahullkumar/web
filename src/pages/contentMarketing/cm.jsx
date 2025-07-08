@@ -273,12 +273,12 @@ const ContentMarketing = () => {
                 <button
                   onClick={() => scrollToSection("bringout")}
 
-                  className='bg-[#4CAF50] text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+                  className='uiverse-button'>Learn More</button>
 
 
 
                 <Link to="/contact-us">
-                  <button className='border border-[#4CAF50] text-[#4CAF50] px-6 py-3 rounded-md hover:bg-[#4CAF50] hover:text-white transition'>Contact Us</button>
+                  <button className='white-button'>Contact Us</button>
 
                 </Link>
 

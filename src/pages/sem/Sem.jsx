@@ -557,16 +557,16 @@ const Sem = () => {
               <LazyLoadImage src={semlogo} alt='WebNest Logo' />
             </div>
           </div>
-          <div data-aos="fade-up" className=" flex gap-2 mt-8 max-lg:mt-12 ">
+          <div data-aos="fade-up" className=" flex gap-4 mt-8 max-lg:mt-12 ">
 
             <button
               onClick={() => scrollToSection("semservice")}
-              className='c2greenbutton'>Learn More</button>
+              className='uiverse-button'>Learn More</button>
 
             
             <Link to="/contact-us" aria-label="Contact our team for inquiries or support">
 
-              <button className='c2whitebutton'>Contact Us</button>
+              <button className='white-button'>Contact Us</button>
 
             </Link>
             

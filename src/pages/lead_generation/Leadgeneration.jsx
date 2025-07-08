@@ -176,8 +176,8 @@ const Leadgeneration = () => {
 />
 
                 </button>
-                <div data-aos="fade-up" 
-                  className={`grid transition-all duration-300 ease-in-out ${openIndex === index ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
+                <div data-aos="" 
+                  className={`grid transition-all duration-100 ease-in-out ${openIndex === index ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'
                     }`}
                 >
                   <div className="overflow-hidden">

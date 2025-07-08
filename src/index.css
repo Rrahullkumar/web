@@ -115,3 +115,78 @@ html {
     margin-bottom: 15px;
   }
 }
+.uiverse-button {
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Invisible border initially */
+  border-radius: 6px;
+  color: white;
+  z-index: 1;
+  background: #4CAF50;
+  position: relative;
+  font-weight: 600;
+  font-size: 17px;
+  transition: color 250ms, border-color 250ms;
+  overflow: hidden;
+}
+
+.uiverse-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  background-color: white;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 350ms;
+}
+
+.uiverse-button:hover {
+  color: #4CAF50;
+  border-color: #4CAF50; /* Green border on hover */
+}
+
+.uiverse-button:hover::before {
+  transform: scaleX(1);
+}
+.white-button {
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Invisible border initially */
+  border-radius: 6px;
+  background: white;
+  z-index: 1;
+  color: #4CAF50;
+  border-color: #4CAF50;
+  position: relative;
+  font-weight: 600;
+  font-size: 17px;
+  transition: color 250ms, border-color 250ms;
+  overflow: hidden;
+}
+
+.white-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  background-color: #4CAF50;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 350ms;
+}
+
+.white-button:hover {
+  color: white;
+  border-color: #4CAF50; /* Green border on hover */
+}
+
+.white-button:hover::before {
+  transform: scaleX(1);
+}

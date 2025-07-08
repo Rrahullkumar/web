@@ -254,7 +254,7 @@ const web = () => {
               </p>
               <Link to="/contact-us">
                 <button
-                  className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>
+                  className='uiverse-button mt-8'>
                   Get Started
                 </button>
               </Link>
@@ -316,7 +316,7 @@ const web = () => {
             <button
               onClick={() => scrollToSection("wdservices")}
 
-              className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>Learn More</button>
+              className='uiverse-button mt-6 max-md:mt-14' aria-label='Learn More'>Learn More</button>
 
 
 

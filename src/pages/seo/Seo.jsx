@@ -110,44 +110,44 @@ const Seo = () => {
     { number: '98/100', label: 'Speed & UX Score' },
     { number: '231,580+', label: 'Leads Generated' },
   ];
- // testimonialData.js
+  // testimonialData.js
   const testimonialData = [
     {
-        rating: "4.9",
-        feedback: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was the best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online.",
-        avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Anamika ",
-        designation: "CEO"
+      rating: "4.9",
+      feedback: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was the best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online.",
+      avatar: "https://pagedone.io/asset/uploads/1696229969.png",
+      name: "Anamika ",
+      designation: "CEO"
     },
     {
-        rating: "4.9",
-        feedback: "As a startup, we needed SEO services in Gurgaon that could understand our specific needs and deliver measurable growth. The team at WebNest Media provided us with strategies and expertise. Our traffic has doubled in just a few months!",
-        avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Aman Bajwa",
-        designation: "Marketing Head"
+      rating: "4.9",
+      feedback: "As a startup, we needed SEO services in Gurgaon that could understand our specific needs and deliver measurable growth. The team at WebNest Media provided us with strategies and expertise. Our traffic has doubled in just a few months!",
+      avatar: "https://pagedone.io/asset/uploads/1696229994.png",
+      name: "Aman Bajwa",
+      designation: "Marketing Head"
     },
     {
-        rating: "4.9",
-        feedback: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization is unmatched. Our online visibility and conversions have improved significantly.",
-        avatar: "https://pagedone.io/asset/uploads/1696230027.png",
-        name: "Tushar Negi",
-        designation: "Operations Manager"
+      rating: "4.9",
+      feedback: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization is unmatched. Our online visibility and conversions have improved significantly.",
+      avatar: "https://pagedone.io/asset/uploads/1696230027.png",
+      name: "Tushar Negi",
+      designation: "Operations Manager"
     },
     {
-        rating: "4.9",
-        feedback: "We have amazing experience with WebNest Media. They have a team that is knowledgeable and creative. I prefer them, if you need the best SEO services.",
-        avatar: "https://pagedone.io/asset/uploads/1696229969.png",
-        name: "Naina Sharma",
-        designation: "Business Owner"
+      rating: "4.9",
+      feedback: "We have amazing experience with WebNest Media. They have a team that is knowledgeable and creative. I prefer them, if you need the best SEO services.",
+      avatar: "https://pagedone.io/asset/uploads/1696229969.png",
+      name: "Naina Sharma",
+      designation: "Business Owner"
     },
     {
-        rating: "4.9",
-        feedback: "I am very happy with the team of WebNest Media, they improve my business ranking through SEO services. It is the best SEO agency.",
-        avatar: "https://pagedone.io/asset/uploads/1696229994.png",
-        name: "Rahul Kaushik",
-        designation: "Entrepreneur"
+      rating: "4.9",
+      feedback: "I am very happy with the team of WebNest Media, they improve my business ranking through SEO services. It is the best SEO agency.",
+      avatar: "https://pagedone.io/asset/uploads/1696229994.png",
+      name: "Rahul Kaushik",
+      designation: "Entrepreneur"
     }
-];
+  ];
 
 
   const trustData = [
@@ -236,7 +236,7 @@ const Seo = () => {
       icon: seoicon1,
       title: "Increases Online Visibility",
       description: "Effective SEO places your site near the top of search results; that spot receives lions share of clicks.",
-    
+
     },
     {
       icon: seoicon2,
@@ -265,7 +265,7 @@ const Seo = () => {
     },
   ];
 
- const secondREf = useRef();
+  const secondREf = useRef();
 
   const [cardtrigger, setCardTrigger] = useState(false);
 
@@ -392,11 +392,11 @@ const Seo = () => {
 
 
   const scrollToSection = (id) => {
-  const element = document.getElementById(id);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
@@ -409,12 +409,12 @@ const Seo = () => {
         <meta data-react-helmet="true" name="author" content="WebNest Media" />
         <link data-react-helmet="true" rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
-<meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions"/>
-  <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/search-engine-optimization" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-CzLAVzJe.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
+        <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/search-engine-optimization" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-CzLAVzJe.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -443,9 +443,9 @@ const Seo = () => {
 
           {/* Mobile Image Below Heading */}
           <div className="block lg:hidden w-[80%] mx-auto mt-8 mb-6">
-              <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
-          
-          
+            <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
+
+
           </div>
 
           {/* Main Content */}
@@ -466,25 +466,24 @@ const Seo = () => {
 
             {/* Desktop Image */}
             <div className="max-w-[440px] w-full flex flex-col gap-6 max-lg:hidden justify-center ">
-                <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
+              <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
             </div>
 
           </div>
 
           {/* Buttons */}
-          <div className="flex gap-3 mt-8">      
-      
-            <Link to="/about-us" aria-label="About webnest media">
-        
-            <button 
-  onClick={() => scrollToSection("seoservice")}
-  className="uiverse-button"
->
-  Learn More
-</button>
-         
-        </Link>
-         
+          <div className="flex gap-3 mt-8">
+
+            <Link to="/about-us">
+              <button
+                onClick={() => scrollToSection("seoservice")}
+                className="uiverse-button"
+              >
+                Learn More
+              </button>
+
+            </Link>
+
           </div>
 
         </section>
@@ -538,7 +537,7 @@ const Seo = () => {
               We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
             </p>
 
-            <div  className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
               {trustData.map((item, index) => (
                 // <div className="trust-card " >
                 <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
@@ -572,7 +571,7 @@ const Seo = () => {
           </div>
         </section>
 
-        <section  className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
@@ -583,7 +582,7 @@ const Seo = () => {
 
 
 
-          <div  className="max-w-6xl max-md:w-[90%]  mx-auto px-4 py-10 max-md:py-0 max-md:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
+          <div className="max-w-6xl max-md:w-[90%]  mx-auto px-4 py-10 max-md:py-0 max-md:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[18px]">
             {features.map((item, index) => (
               <div
                 data-aos="fade-up"
@@ -597,8 +596,8 @@ const Seo = () => {
                 <div className="absolute bottom-0 right-0 w-12 h-12  border-b-2 border-r-2 border-[#0000008]" />
 
                 <div className="flex justify-center  ">   <LazyLoadImage src={item.icon} alt={item.title} className='w-[64px] h-[64px]' /></div>
-              
-              
+
+
                 <h3 className="font-bold leading-[120%] text-[#000000] text-[24px] max-md:text-[20px] mb-[12px] mt-[23px] w-[70%]  max-lg:w-[100%] mx-auto ">{item.title}</h3>
                 <p className="text-[#000000] text-base leading-7 max-md:text-base font-normal">{item.description}</p>
               </div>
@@ -617,7 +616,7 @@ const Seo = () => {
           <h2 data-aos="fade-up" className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
 
 
-          <div 
+          <div
             ref={secondREf}
             onMouseEnter={() => setCardTrigger(true)}
             className="industriweserve mb-[96px] mt-[64px] max-md:mt-[40px] w-[100%] max-w-[1440px]  mx-auto overflow-hidden "
@@ -641,7 +640,7 @@ const Seo = () => {
         </section>
 
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <div  className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
               <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
@@ -661,20 +660,20 @@ const Seo = () => {
 
         <section className='max-w-[1440px] mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
-               <TestimonialSlider
-                sectionTitle="What Our Clients Say"
-                sectionSubtitle="Testimonials"
-                testimonials={testimonialData}
-            />
-          
+          <TestimonialSlider
+            sectionTitle="What Our Clients Say"
+            sectionSubtitle="Testimonials"
+            testimonials={testimonialData}
+          />
+
         </section>
-        
+
         <Newcontact />
 
         <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
 
           <div>
-            <h2 className='text-center' style={{fontSize:32}}>Let's address your <span className='text-black '>questions </span>today</h2>
+            <h2 className='text-center' style={{ fontSize: 32 }}>Let's address your <span className='text-black '>questions </span>today</h2>
 
             <div className="accordion-wrapper-columns">
 
