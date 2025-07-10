@@ -305,7 +305,7 @@ const Seo = () => {
       {
         "@type": "WebPage",
         "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
-        "url": "https://webnestmedia.com/search-engine-optimization/",
+        "url": "https://webnestmedia.com/search-engine-optimization",
         "name": "Search Engine Optimization Services | WebNest Media",
         "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
         "inLanguage": "en-IN",
@@ -347,7 +347,7 @@ const Seo = () => {
           "@type": "Place",
           "name": "India"
         },
-        "url": "https://webnestmedia.com/search-engine-optimization/",
+        "url": "https://webnestmedia.com/search-engine-optimization",
         "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
         "offers": {
           "@type": "Offer",
