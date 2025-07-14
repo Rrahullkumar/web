@@ -507,9 +507,9 @@ const Seo = () => {
                  hover:-translate-y-1 
                  max-w-full h-[200px] w-full"
                 >
-                  <h2 className="text-[#4CAF50] text-[42px] font-light">
+                  <p className="text-[#4CAF50] text-[42px] font-light">
                     {item.number}
-                  </h2>
+                  </p>
                   <p className="text-2xl font-normal text-[#333] leading-[160%] mt-2.5 text-center">
                     {item.label}
                   </p>
@@ -571,7 +571,7 @@ const Seo = () => {
           </div>
         </section>
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className=' max-w-[1440px] w-[100%] mx-auto mt-24 max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
@@ -623,7 +623,7 @@ const Seo = () => {
 
           >
 
-            {/* <h2 className="heading mb-[20px] " id="industries">Industries We serve </h2> */}
+   
 
             <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  jjj "
               ref={secondREf}
@@ -640,10 +640,10 @@ const Seo = () => {
         </section>
 
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] ">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
-              <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+              <div data-aos="fade-up" key={index} className="bg-[#EFF4EE] lg:min-h-[200px]  rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                 <h3 className="flex items-end mb-9 max-md:mb-6 gap-2 max:md:h-4 max-md:items-start ">
                   <span className=" text-[30px] max-md:text-[24px] text-[#EEC370] font-medium  ">{index + 1}.</span>
