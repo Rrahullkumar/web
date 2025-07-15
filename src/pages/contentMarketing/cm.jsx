@@ -286,12 +286,13 @@ const ContentMarketing = () => {
 
         <div className="max-w-[1440px] mb-16 maxx-lg:mb-10 flex flex-row w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
           <div className="lg:w-[60%]">
+            <div className="lg:hidden w-[80%] flex items-center mx-auto mb-10">
+              <img src={image} alt="" />
+            </div>
             <h2 data-aos="fade-up" className="text-[52px] mb-5 max-lg:text-3xl lg:translate-y-10 max-lg:mb-[20px] font-semibold">
               <span className="highlight">Content</span> is the key to <br /> building audiences
             </h2>
-            <div className="lg:hidden">
-              <img src={image} alt="" />
-            </div>
+            
             <div className="flex flex-row max-lg:flex-col-reverse justify-between items-center gap-24 max-lg:gap-10">
               {/* Left Text Section */}
               <div className=" flex flex-col">
@@ -345,24 +346,29 @@ const ContentMarketing = () => {
         </div>
 
 
-        <div className=' bg-[#EFF4EE]'>
-          <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
-            <div className="pb-[72px] text-center">
-              <h2 data-aos="fade-up" className="text-[32px] max-md:text-2xl max-lg:mb-4 mb-[72px]">
-                The <span className='text-[#4caf50]'>No. 1 </span>Content <span className='text-[#4caf50]'>Marketing</span> Service
-              </h2>
-
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
-                {statsData.map((item, index) => (
-                  <div data-aos="fade-up" className="stat-card" key={index}>
-                    <p className="stat-number">{item.number}</p>
-                    <p className="stat-label">{item.label}</p>
-                  </div>
-                ))}
+           <div className='bg-[#EFF4EE]'>
+          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+            <h2 className='text-[32px] max-md:text-2xl mb-16 font-semibold'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
+              <div className="cardss px-20 py-5 pt-10 rounded-xl flex flex-col gap-3 items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>213,456</h3>
+                <p className='text-2xl text-nowrap'>Projects Delivered</p>
               </div>
+              <div className="cardss  px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light  max-md:text-4xl text-[#4caf50]'>10M+</h3>
+                <p className='text-2xl text-nowrap'>Words Written</p>
+              </div>
+              <div className="cardss px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>500+</h3>
+                <p className='text-2xl text-nowrap'>Brands Served</p>
+              </div>
+              <div className="cardss px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center  bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>98%</h3>
+                <p className='text-2xl text-nowrap'>Client Retention</p>
+              </div>
+
             </div>
-          </div>
+          </section>
         </div>
 
 

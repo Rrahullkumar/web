@@ -317,7 +317,7 @@ const MobileMarketing = () => {
                     />
                 </div>
                 <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
-                    <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2  max-lg:pb-1 ' />
+                    <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' mb-10' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
@@ -417,19 +417,19 @@ const MobileMarketing = () => {
                 <section className="max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10 ">
                     <div className="flex flex-row  items-start justify-between sticky ">
                         <div className="lg:w-[60%]">
-                            <h2 className="text-[52px] max-lg:text-3xl mb-9 ">How Mobile Marketing Strategy Helps Your Brand Stay Everywhere and Sell More</h2>
-                            <p className="text-base">Advantages and Disadvantages of Mobile Marketing <br />
+                            <h2 className="text-[52px] max-lg:text-3xl font-semibold mb-9 ">How Mobile Marketing Strategy Helps Your Brand Stay Everywhere and Sell More</h2>
+                            <p className="text-base "><span className="font-semibold"> Advantages and Disadvantages of Mobile Marketing</span> <br /> <br className="lg:hidden" />
                                 Today mobile marketing is one of the most widely used forms of marketing as it provides an opportunity for brands to reach customers at their private gadgets, smartphones. It also provides various means to reach customers through SMS, mobile applications, and through ads based on users location. This marketing branch helps businesses to engage with customers, increase conversions, and retain loyal customers. But as with anyother marketing strategy, mobile marketing have its pros and cons.
                                 <br />
                                 <br /></p>
                             <p className="font-semibold">Here’s a breakdown of the key advantages and disadvantages of mobile marketing: </p>
-                            <div className="lg:grid grid-cols-2 gap-10 mt-12">
+                            <div className="lg:grid grid-cols-2 gap-10  mt-12">
                                 <div className="flex flex-col gap-6">
                                     <div className="flex flex-row items-center  font-semibold">
                                         <CircleCheckBig className="text-[#4caf50] mr-2" /> 
-                                        <p className="text-lg">Advantages of Mobile Marketing</p>
+                                        <p className="text-lg max-lg:text-xl">Advantages of Mobile Marketing</p>
                                     </div>
-                                    <div className="grid grid-rows-6 gap-3">
+                                    <div className="grid grid-rows-6 gap-3 max-lg:gap-10">
                                         <div className="flex flex-col">
                                             <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">1.</span> Wide Reach</p>
                                             <p className="text-base">Billions of smartphone users globally, mobile marketing allows you to reach a massive audience—anytime, anywhere.</p>
@@ -456,12 +456,12 @@ const MobileMarketing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col gap-6">
+                                <div className="flex flex-col max-lg:mt-10  gap-6">
                                     <div className="flex flex-row items-center font-semibold">
                                         <CircleX  className="text-red-600 mr-2" /> 
-                                        <p className="text-lg">Disadvantages of Mobile Marketing</p>
+                                        <p className="text-lg max-lg:text-xl">Disadvantages of  Mobile Marketing</p>
                                     </div>
-                                    <div className="grid grid-rows-6 gap-3">
+                                    <div className="grid grid-rows-5 gap-3 max-lg:gap-10">
                                         <div className="">
                                             <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">1.</span>Privacy Concerns</p>
                                             <p className="text-base">Targeting users through location and data tracking can raise privacy issues if not handled transparently.</p>
@@ -487,24 +487,25 @@ const MobileMarketing = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="sticky top-20">
+                        <div className="sticky top-20 max-lg:hidden">
                             <img src={mobile} alt="" className="h-[87vh]" />
                         </div>
                     </div>
                 </section>
-                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
-                    <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2  max-lg:pb-1 ' />
+                <div data-aos="fade-up" className="mmc3 max-w-[1440px] px-[40px] items-center lg:mt-24 max-lg:mt-10 max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
+                    <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className='max-lg:hidden' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
-                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Why Choose WebNest Media for Mobile Marketing in Gurgaon?</h2>
+                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold '>Why Choose WebNest Media for Mobile Marketing in Gurgaon?</h2>
+                        <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className='lg:hidden' />
                         <br />
                         <p className='text-base font-[350]'>
                             When it comes to making your brand mobile-first and customer-focused, WebNest Media stands out as the best mobile marketing company in Gurgaon. We blend creativity, data, and cutting-edge technology to craft mobile strategies that not only reach users but engage and convert them. From SMS campaigns and push notifications to app installs and in-app engagement, our team knows what works.
 
 As a top mobile marketing company in Gurgaon, we don’t believe in one-size-fits-all solutions. Instead, we tailor every campaign to your brand’s goals, using advanced tools and real-time analytics to maximize ROI. Whether you're launching a new app or looking to boost engagement for an existing one, our expertise as a mobile app marketing agency ensures you get visibility where it matters most—on your customers' phones.
-
-At WebNest Media, we also understand how important mobile marketing in digital marketing has become. That’s why we integrate mobile strategies seamlessly into your overall digital plan—so you’re not just present on mobile, you’re dominant.
-
-Choose WebNest Media for expert-led, ROI-driven mobile app marketing and create powerful, always-on experiences that move your business forward.</p>
+<br className=""/> <br className=""/>
+<span className="max-lg:font-semibold">At WebNest Media,</span> we also understand how important mobile marketing in digital marketing has become. That’s why we integrate mobile strategies seamlessly into your overall digital plan—so you’re not just present on mobile, you’re dominant.
+<br className="" /> <br className=""/>
+Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-led, ROI-driven mobile app marketing and create powerful, always-on experiences that move your business forward.</p>
                         <br />
                     </div>
                 </div>
@@ -516,7 +517,7 @@ Choose WebNest Media for expert-led, ROI-driven mobile app marketing and create 
 
                 </div>
                 <Newcontact></Newcontact>
-                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
+                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0">
                     <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>
                 </div>

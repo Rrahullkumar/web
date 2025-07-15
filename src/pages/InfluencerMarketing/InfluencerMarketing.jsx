@@ -12,29 +12,33 @@ import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
 import Newcontact from '../../components/Newcontact/Newcontact';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import image18 from './resources/image18.png';
+import image19 from './resources/image19.png';
+import image20 from './resources/image20.png';
+import image24 from './resources/image24.png';
+import image25 from './resources/image25.png';
 const InfluencerMarketing = () => {
   return (
 
     <>
 
       <Helmet>
- <title>Influencer Marketing Company in Gurgaon | Instagram, YouTube & More</title>
-<meta name="description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+        <title>Influencer Marketing Company in Gurgaon | Instagram, YouTube & More</title>
+        <meta name="description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
 
-       
+
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/influencer-marketing"></link>
- 
 
 
-<meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More " />
-  <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
- <meta property="og:site_name" content="WebNest Media" />
+
+        <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More " />
+        <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
 
 
@@ -49,122 +53,171 @@ const InfluencerMarketing = () => {
         </h1>
       </div> */}
         <HeroSection
-                        backgroundImage={topimage}
-                        heading="Influencer Marketing Company"
-                        highlight="in Gurgaon"
-                        paragraph="Partner with influencers who matter—our marketing campaigns help you reach new audiences, build credibility, and drive measurable growth.
+          backgroundImage={topimage}
+          heading="Influencer Marketing Company"
+          highlight="in Gurgaon"
+          paragraph="Partner with influencers who matter—our marketing campaigns help you reach new audiences, build credibility, and drive measurable growth.
 "
-                    />
+        />
 
         {/* B2B Lead Generation Section */}
-        <div  data-aos="fade-up" className="imc2 max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] lg:flex flex-row-reverse lg:items-center lg:justify-between mx-auto ">
-
-            <LazyLoadImage src={image1} alt="Best Influencer Marketing Agency" className="max-lg:w-1/2 max-lg:float-right " />
-          <div className="imc2left lg:w-[60%] ">
-            <h2 className="text-[52px] max-lg:text-[36px] font-semibold">Best Influencer Marketing Agency in Gurgaon</h2>
+        <div data-aos="fade-up" className="max-lg:mt-10 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse  lg:items-center lg:justify-between mx-auto ">
+          <LazyLoadImage src={image1} alt="Best Influencer Marketing Agency" className=" max-lg:w-2/3 mx-auto max-lg:my-5" />
+          <div className=" lg:w-[60%] ">
+            <h2 className="text-[52px] max-lg:text-[36px] font-semibold">India’s Top Influencer Marketing Agency in Gurgaon</h2>
             <br />
-            <p className="text-[16px] font-[350] ">
-              WebNest Media is the best influencer company in Gurgaon, Delhi & India.
-              We help brands to connect with popular people to get real attention and clear business growth all over country.
+            <p className="text-base">
+              WebNest Media is proud to be known as top  influencer marketing company in Gurgaon and one of the best influencer marketing agencies in Gurgaon. We are a trusted place for brands to find and work with the right influencers, from niche creators to celebrity voices. We don’t simply connect brands with influencers like others do, we create strategic collaboration that creates real engagement, brand loyalty, and quantifiable business outcomes. Whether your local community or building your brand nationally, we help brands engage with the most important audience.
             </p>
           </div>
 
         </div>
 
-        {/* Top Influencer Section */}
-        <div className="imc3 max-w-[1440px] px-10 max-lg:px-4 flex flex-col items-center max-lg:mt-[40px] mb-24 max-lg:mb-10 mx-auto">
-          <h2  data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:w-[50%] lg:text-center font-semibold mb-8 ">
-            India's Top Influencer Marketing Platform
-          </h2>
-          <p  data-aos="fade-up" className="text-base lg:w-[80%] lg:text-center">
-            WebNest Media is the leading influencer marketing span agency in India as well as social media influencer marketing
-            that provides a complete range of services to help brands connect with their audience and get results.
-            We handle the entire campaign, from creating content to tracking its success, all to make sure brands meet their goals.
-          </p>
-        </div>
 
-        {/* Cards Section */}
-        <div className="flex items-center justify-center pb-[96]">
-          <div className="flex flex-wrap justify-center max-w-[1000px] gap-x-4 gap-y-10 items-center">
-            {[
-              {
-                image: icon1,
-                title: 'Instagram Influencer Marketing',
-                content:
-                  'We connect your brand with top-tier Instagram creators for stunning feed posts, engaging Reels, and captivating Stories that drive authentic interaction with your target audience.',
-              },
-              {
-                image: icon2,
-                title: 'YouTube Influencer Marketing',
-                content:
-                  'Our YouTube influencer strategies deliver compelling video reviews, dedicated tutorials, and immersive vlogs that build trust and loyalty.',
-              },
-              {
-                image: icon3,
-                title: 'Regional Influencer Marketing',
-                content:
-                  'We specialize in regional influencer campaigns, crafting content in local languages to maximize reach within geographic markets across India.',
-              },
-              {
-                image: icon4,
-                title: 'Celebrity Marketing',
-                content:
-                  'Leverage our network of celebrities for high-impact campaigns that boost credibility, generate buzz, and drive brand awareness.',
-              },
-              {
-                image: icon5,
-                title: 'Content-First Collaborations',
-                content:
-                  'We co-create compelling content that weaves your message naturally into engaging stories that educate, entertain, and inspire.',
-              },
-            ].map((item, index) => (
-              <div  data-aos="fade-up"
-                key={index}
-                className="bg-black text-white rounded-lg shadow-lg p-6 max-w-[325px] w-full sm:w-[300px] h-[400px] flex flex-col items-center text-center transition-transform hover:scale-105 duration-300 ease-in-out"
-              >
-                  <LazyLoadImage src={item.image} alt={item.title} className="w-[64px] mb-6 mt-2" />
-                <h3 className="text-lg font-semibold mb-4">{item.title}</h3>
-                <p className="text-base text-gray-300">{item.content}</p>
+        <div className='bg-[#EFF4EE]'>
+          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+            <h2 className='text-[32px] max-md:text-2xl mb-16 font-semibold'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
+              <div className="cardss px-20 py-5 pt-10 rounded-xl flex flex-col gap-3 items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>1,200+</h3>
+                <p className='text-2xl text-nowrap'>Campaigns Delivered</p>
               </div>
-            ))}
-          </div>
+              <div className="cardss  px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light  max-md:text-4xl text-[#4caf50]'>250M+</h3>
+                <p className='text-2xl text-nowrap'>Audience Reached</p>
+              </div>
+              <div className="cardss px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>800+</h3>
+                <p className='text-2xl text-nowrap'>Influencer Collaborations</p>
+              </div>
+              <div className="cardss px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center  bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>98%</h3>
+                <p className='text-2xl text-nowrap'>Repeat Partnerships</p>
+              </div>
 
+            </div>
+          </section>
         </div>
-       <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto mb-24 max-lg:mb-10">
-  <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
-    {/* Desktop Image */}
-    <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
-        <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
-    </div>
 
-    {/* Heading, Mobile Image, and Paragraph - All in Same Div */}
-    <div className="left lg:w-[60%]">
-      <h2  data-aos="fade-up" className='text-[52px] max-lg:text-3xl pb-[34px] font-semibold'>
-        How Our Influencer Marketing Company Helps Brands?
-      </h2>
 
-      {/* Mobile Image - Visible Only on Mobile */}
-      <div  data-aos="fade-up" className="block lg:hidden mb-8">
-          <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
+
+
+        <section className='max-w-[1440px] mx-auto mt-24 max-lg:mt-10 px-4'>
+  <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl text-center font-semibold lg:w-[60%] mx-auto mb-24 max-lg:mb-10'>
+    Types of Influencer Marketing Solutions
+  </h2>
+
+  <div className='grid lg:grid-cols-3 max-lg:gap-10'>
+    {/* Left Column */}
+    <div className='lg:grid grid-rows-9 place-items-center'>
+      {/* Top Content */}
+      <div data-aos="fade-up" className='row-span-4 w-full lg:pr-10 lg:py-5 max-lg:border-b-[1px] max-lg:border-gray-300 max-lg:py-5'>
+        <img src={image20} alt="" className='float-right max-lg:w-1/2 ml-5 mb-2' />
+        <h2 className='text-3xl font-medium mb-4 lg:w-[50%]'>Celebrity Marketing</h2>
+        <p className='text-base'>
+          Activate your brand with celebrities. Access our network of celebrities and leading
+          personalities for a high-impact, well-conceived campaign that has been proven to move the
+          needle in generating vast reach, credibility, and buzz around all forms of culture to change
+          how people view your brand and increase awareness.
+        </p>
       </div>
 
-      <p  data-aos="fade-up" className='text-base'>
-        As your dedicated influencer marketing expert, we leverage deep industry knowledge to craft powerful campaigns. Our expertise ensures precise influencer matching, captivating content development, and strategic execution. We drive authentic engagement, expand brand reach, and deliver measurable ROI, transforming your marketing investment into tangible success.
+      {/* Divider */}
+      <div className='row-span-1 w-full h-[1px] lg:bg-gray-300'></div>
+
+      {/* Bottom Content */}
+      <div data-aos="fade-up" className='row-span-4 w-full lg:pr-10 lg:py-5 max-lg:py-5 max-lg:border-b-[1px] max-lg:border-gray-300'>
+        <img src={image19} alt="" className='float-right max-lg:w-1/2 ml-5 mb-2' />
+        <h2 className='text-3xl font-medium mb-4 lg:w-[50%]'>Regional Influencer Marketing</h2>
+        <p className='text-base'>
+          We execute local influencer marketing campaigns with vernacular content creators,
+          writing their authentic messages to disseminate in multiple languages with amazing results.
+          Your brand deeply connects with people within specific geographic markets in India.
+        </p>
+      </div>
+    </div>
+
+    {/* Center Column */}
+    <div data-aos="fade-up" className='lg:flex flex-col items-center justify-center lg:text-center lg:border-l-[1px] lg:border-gray-300 lg:border-r-[1px] lg:px-6'>
+      <img src={image24} alt="" className='max-lg:float-right max-lg:hidden mb-6' />
+      <h2 className='text-[32px] max-lg:text-3xl font-medium lg:w-[80%] lg:mb-10'>Content-First Collaborations</h2>
+      <img src={image24} alt="" className='lg:hidden my-4' />
+      <p className='text-base lg:w-[80%]'>
+        We're interested in more than traditional advertisements and collaborations. Rather we like to
+        create content that deeply engages people. We love to co-create powerful stories and experiences
+        with influencers, so that the brand message is part of the stories they create in an entertaining,
+        educational, and actionable way.
       </p>
     </div>
+
+    {/* Right Column */}
+    <div className='lg:grid grid-rows-9 place-items-center max-lg:pb-5 max-lg:border-t-[1px]'>
+      {/* Top Content */}
+      <div data-aos="fade-up" className='row-span-4 w-full lg:pl-10 max-lg:py-5 max-lg:border-b-[1px] max-lg:border-gray-300'>
+        <img src={image18} alt="" className='float-right max-lg:w-1/2 ml-5 mb-2' />
+        <h2 className='text-3xl font-medium mb-4 lg:w-[50%]'>YouTube Influencer Marketing</h2>
+        <p className='text-base'>
+          YouTube influencers are all about video. Our YouTube influencer marketing strategy brings you
+          alluring video reviews, all-day-and-all-night tutorials, and objection movement vlogs that
+          position your brand's appeal and generate loyal fans.
+        </p>
+      </div>
+
+      {/* Divider */}
+      <div className='row-span-1 w-full h-[1px] lg:bg-gray-300'></div>
+
+      {/* Bottom Content */}
+      <div data-aos="fade-up" className='row-span-4 w-full lg:pl-10 max-lg:py-5'>
+        <img src={image25} alt="" className='float-right max-lg:w-1/2 ml-5 mb-2' />
+        <h2 className='text-3xl font-medium mb-4 lg:w-[50%]'>Instagram Influencer Marketing</h2>
+        <p className='text-base'>
+          We pair your brand with top-performing Instagram creators for incredible feed posts, Reels,
+          and Instagram Stories that whet their appetites for more and drive genuine engagement with your
+          audience.
+        </p>
+      </div>
+    </div>
   </div>
-</div>
+</section>
+
+        <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto mb-24 max-lg:mb-10">
+          <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
+            {/* Desktop Image */}
+            <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
+              <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
+            </div>
+
+            {/* Heading, Mobile Image, and Paragraph - All in Same Div */}
+            <div className="left lg:w-[60%]">
+              <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl pb-[34px] font-semibold'>
+                How Our Influencer Marketing Company Helps Brands?
+              </h2>
+
+              {/* Mobile Image - Visible Only on Mobile */}
+              <div data-aos="fade-up" className="block lg:hidden mb-8">
+                <LazyLoadImage src={c5img} alt="Influencer Marketing" className="w-full" />
+              </div>
+
+              <p data-aos="fade-up" className='text-base'>
+                As a leading influencer marketing agency in Gurgaon, Delhi, India, we help brands move beyond traditional advertising and build the meaningful relationships that matter with their audience. We provide end-to-end influencer marketing services - from selecting the right creators, managing the campaigns and measuring performance. Regardless of whether you are a growing startup or established brand, we create tailored plans ensuring your message is seen by the right audience, at the right time.
+                <br /> <br />
+                As one of best influencer marketing services, we place a importance on creating genuine collaborations that not only creates conversations and engagement, but also leads to actionable business results. We can help your brand create engagement instead of just impressions with our extensive talent network across Instagram, YouTube, LinkedIn, and others.
+
+              </p>
+            </div>
+          </div>
+        </div>
 
 
 
 
 
         <Newcontact></Newcontact>
-        <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
-          <p className=" lg:mb-[50px] lg:text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+        <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-0 mt-[96px] max-lg:mt-[40px] mx-auto">
+          <p className=" lg:mb-[50px] text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>
-        
+
       </div>
     </>
   );

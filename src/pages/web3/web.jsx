@@ -14,7 +14,7 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.png";
 import { Link } from 'react-router-dom';
-import c2image from './resources/c2image.png'
+import c2image from './resources/c2image.svg'
 import c3image from './resources/c3image.png'
 import image13 from './resources/image13.png';
 import image15 from './resources/image15.png';
@@ -291,10 +291,8 @@ const web = () => {
 
         <section className='flex flex-row max-lg:flex-col gap-10 items-center max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
           <div className=" ">
-            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
-            <div data-aos="fade-up" className="md:hidden">
-              <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
-            </div>
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold max-lg:mb-4'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
+           
             <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
             </p>
@@ -305,10 +303,10 @@ const web = () => {
               </button>
             </Link>
           </div>
-          <div className="">
-            <div data-aos="fade-up" className=" max-md:hidden">
-              <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
-            </div>
+    
+            <div data-aos="fade-up" className="">
+              <img src={c2image} alt="Web Development Company" className="w-full h-auto max-lg:w-[80%] max-lg:mx-auto" />
+      
           </div>
         </section>
 

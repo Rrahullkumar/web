@@ -571,13 +571,11 @@ const Sem = () => {
           </div>
 
         </div> */}
-        <div className="lg:flex flex-row gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
+        <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
           <div className="lg:w-[50%]">
             
             <h2 className='text-[52px] max-lg:text-4xl  mb-9 max-lg:mb-5 '>What is Search Engine Marketing?</h2>
-            <div className="lg:hidden w-[80%] mx-auto mb-5">
-            <LazyLoadImage src={semlogo} alt='WebNest Logo' />
-          </div>
+  
             <p>SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.</p>
             <div data-aos="fade-up" className=" flex gap-4 mt-6 max-lg:mt-12 ">
 
@@ -592,7 +590,7 @@ const Sem = () => {
               </Link>
             </div>
           </div>
-          <div className="max-lg:hidden">
+          <div className="max-lg:w-[80%] max-lg:my-10">
             <LazyLoadImage src={semlogo} alt='WebNest Logo' />
           </div>
         </div>
