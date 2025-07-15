@@ -14,9 +14,19 @@ import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.png";
 import { Link } from 'react-router-dom';
-import c2image from './resources/c2image.png'
+import c2image from './resources/c2image.svg'
 import c3image from './resources/c3image.png'
-
+import image13 from './resources/image13.png';
+import image15 from './resources/image15.png';
+import {
+  Rocket,
+  Settings,
+  TrendingUp,
+  Headphones,
+} from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
+import image16 from './resources/image16.png';
+import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
 const webDevelopmentSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -115,7 +125,43 @@ const webDevelopmentSchema = {
 };
 
 const web = () => {
-
+  const testimonialData = [
+    {
+      rating: "4.9",
+      feedback: "We needed an honest search engine marketing company in Gurgaon to help us improve our business with our online presence. WebNest Media was the best choice. Their professionals really know what they're doing in terms of getting results. The most honest and best SEO agency in Gurgaon that you can trust to grow your business online.",
+      avatar: "https://pagedone.io/asset/uploads/1696229969.png",
+      name: "Anamika ",
+      designation: "CEO"
+    },
+    {
+      rating: "4.9",
+      feedback: "As a startup, we needed SEO services in Gurgaon that could understand our specific needs and deliver measurable growth. The team at WebNest Media provided us with strategies and expertise. Our traffic has doubled in just a few months!",
+      avatar: "https://pagedone.io/asset/uploads/1696229994.png",
+      name: "Aman Bajwa",
+      designation: "Marketing Head"
+    },
+    {
+      rating: "4.9",
+      feedback: "We’ve worked with a few agencies before, but WebNest Media truly stands out as the top SEO agency in Gurgaon. Their knowledge of search engine optimization is unmatched. Our online visibility and conversions have improved significantly.",
+      avatar: "https://pagedone.io/asset/uploads/1696230027.png",
+      name: "Tushar Negi",
+      designation: "Operations Manager"
+    },
+    {
+      rating: "4.9",
+      feedback: "We have amazing experience with WebNest Media. They have a team that is knowledgeable and creative. I prefer them, if you need the best SEO services.",
+      avatar: "https://pagedone.io/asset/uploads/1696229969.png",
+      name: "Naina Sharma",
+      designation: "Business Owner"
+    },
+    {
+      rating: "4.9",
+      feedback: "I am very happy with the team of WebNest Media, they improve my business ranking through SEO services. It is the best SEO agency.",
+      avatar: "https://pagedone.io/asset/uploads/1696229994.png",
+      name: "Rahul Kaushik",
+      designation: "Entrepreneur"
+    }
+  ];
 
   const cardData = [
     {
@@ -193,12 +239,12 @@ const web = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
-<meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
-  <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/web-development" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
+        <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/web-development" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
 
         <script type="application/ld+json">
@@ -243,150 +289,164 @@ const web = () => {
 </section> */}
 
 
-            <section className='flex flex-row max-lg:flex-col items-center max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
-              <div className=" ">
-              <h2 className='text-[52px] max-lg:text-3xl'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
-                <div data-aos="fade-up" className="md:hidden">
-                  <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
-                </div>
-                <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
-                WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
-              </p>
-              <Link to="/contact-us">
-                <button
-                  className='uiverse-button mt-8'>
-                  Get Started
-                </button>
-              </Link>
-            </div>
-            <div className="">
-                <div data-aos="fade-up" className=" max-md:hidden">
-                  <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
-                </div>
-            </div>
-            </section>
-
-        <section className="flex max-w-[1440px] mx-auto  w-[100%] flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 ">
-
-          {/* Left Circle Image Placeholder */}
-          <div data-aos="fade-up" className="w-[50%] md:w-1/2 flex justify-center items-center mb-10 md:mb-0 relative">
-            <img src={c3image} alt="" className='w-[70%]'/>
+        <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+          <div className="lg:w-[60%] ">
+            <h2 className='text-[52px] leading-[150%]  max-lg:text-3xl font-semibold max-lg:mb-4'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
+           
+            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
+              WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
+            </p>
+            <Link to="/contact-us">
+              <button
+                className='uiverse-button mt-8'>
+                Get Started
+              </button>
+            </Link>
           </div>
-          {/* Right Content */}
-          <div className="w-full md:w-1/2 text-center md:text-left">
-            <p data-aos="fade-up" className="text-sm text-[black] uppercase font-semibold mb-2">Why Us?</p>
-            <h2 data-aos="fade-up"  className="text-3xl md:text-4xl font-bold text-[#409338] mb-6">
-              What makes us different in <br className='max-lg:hidden' />   Web Development?
-            </h2>
-
-            <ul className="space-y-4 text-left text-gray-700">
-              <li data-aos="fade-up" className="flex items-start max-md:mb-8">
-                <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
-                <div>
-                  <p className="font-semibold text-[#EEC370]">Experienced Web Developers</p>
-                  <p className="text-sm text-[black]">
-                    Our skilled team of developers builds responsive, high-performance websites tailored to your business goals. From custom coding to modern CMS platforms, we deliver excellence.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up"  className="flex items-start max-md:mb-8">
-                <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
-                <div>
-                  <p className="font-semibold text-[#EEC370]">Performance-First Approach</p>
-                  <p className="text-sm text-[black]">
-                    We focus on speed, scalability, and user experience. Every website we build is optimized for performance, ensuring faster load times and better SEO rankings.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up"  className="flex items-start max-md:mb-8">
-                <span className="text-green-500 text-lg mt-1 mr-2">✔</span>
-                <div>
-                  <p className="font-semibold text-[#EEC370]">Client-Centric Solutions</p>
-                  <p className="text-sm text-[black]">
-                    We collaborate closely with you to understand your brand, audience, and objectives—delivering websites that not only look great but also drive conversions and growth.
-                  </p>
-                </div>
-              </li>
-            </ul>
-
-          
-
-            <button
-              onClick={() => scrollToSection("wdservices")}
-
-              className='uiverse-button mt-6 max-md:mt-14' aria-label='Learn More'>Learn More</button>
-
-
-
-
-
+    
+            <div data-aos="fade-up" className="">
+              <img src={c2image} alt="Web Development Company" className="w-full h-auto max-lg:w-[80%] max-lg:mx-auto" />
+      
           </div>
-
-
         </section>
 
+        <div className='bg-[#EFF4EE]'>
+          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+            <h2 className='text-[32px] max-md:text-2xl mb-16'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
+              <div className="cardss border px-20 pt-9 pb-7 rounded-xl flex flex-col gap-3 items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>213,456</h3>
+                <p className='text-2xl text-nowrap'>Project Delivered</p>
+              </div>
+              <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light  max-md:text-4xl text-[#4caf50]'>13,200+</h3>
+                <p className='text-2xl'>Clients Served</p>
+              </div>
+              <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>99/100</h3>
+                <p className='text-2xl text-nowrap'>Speed & UX Score</p>
+              </div>
+              <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center  bg-white">
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>231,580+</h3>
+                <p className='text-2xl text-nowrap'>Custom Development</p>
+              </div>
 
-        <section className=" overflow-hidden bg-[#eaf7fe]">
+            </div>
+          </section>
+        </div>
 
-      
-          <div className="relative z-10 px-4 py-20 text-center max-w-4xl mx-auto">
-            <p data-aos="fade-up" className="text-[#EEC370] uppercase tracking-widest  text-sm font-medium mb-2">Web Development</p>
-            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-[#409338] mb-4">
-              Best Quality Service
-            </h2>
-            <p data-aos="fade-up" className="text-[black] font-[15px] mb-12">
-              At WebNest Media, we specialize in crafting high-performance, visually engaging websites that are built to convert. Whether you're a startup or an established brand, our web development team brings years of industry experience to deliver fast, secure, and scalable websites tailored to your business goals. <br />
-              <br />
-              From responsive design to seamless functionality and CMS integration, we ensure every website is optimized for user experience and results. Let us help you turn your digital vision into a powerful online presence.
+
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
+          <div className='lg:w-[80%] mx-auto'>
+            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Web Development Company in Gurgaon | Your Vision, Our Expertise</h2>
+            <p className='text-base'>As one of the top web development companies in Gurgaon, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
+
+              <br /> <br />With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
+
+              <br /> <br />From an eCommerce store or blog to a corporate website, WebNest Media can turn any vision into a fully functional experience as trusted partners to all their client’s site development needs. We facilitate businesses, large or small build robust online presences that accelerates growth while engaging deeply with core audiences.
+            </p>
+          </div>
+          <div className='lg:w-[80%] mx-auto'>
+            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold mt-24 max-md:mt-10  mx-auto'>Benefits of Top Web Designing & Development Company</h2>
+            <p className='text-base'>A good website helps people find you, trust you, and choose you over the competition. It works for you 24/7, bringing in new leads and growing your business — that’s why it matters so much today. Here are more reasons:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 mt-24 max-lg:mt-10 max-w-7xl mx-auto text-center">
+
+            {/* Card 1 */}
+            <div className="bg-white p-6 flex flex-col items-center text-center h-full">
+              <Rocket className="text-green-600 w-10 h-10 mb-4" />
+              <div className="h-20 flex items-center justify-center mb-4">
+                <h3 className="font-semibold text-2xl">Boosts Search Rankings</h3>
+              </div>
+              <p className="text-gray-600 text-base min-h-[140px]">
+                Website development helps boost rankings because search engines like Google love sites that load fast, work well on mobile, and offer a great user experience.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white p-6 flex flex-col items-center text-center h-full">
+              <Settings className="text-green-600 w-10 h-10 mb-4" />
+              <div className="h-20 flex items-center justify-center mb-4">
+                <h3 className="font-semibold text-2xl">Reduce Maintenance Cost</h3>
+              </div>
+              <p className="text-gray-600 text-base min-h-[140px]">
+                A well-developed website uses clean code and efficient design, reducing bugs and technical issues. This means lower maintenance costs and fewer headaches down the line.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-white p-6 flex flex-col items-center text-center h-full">
+              <TrendingUp className="text-green-600 w-10 h-10 mb-4" />
+              <div className="h-20 flex items-center justify-center mb-4">
+                <h3 className="font-semibold text-2xl">Improve Brand Reputation</h3>
+              </div>
+              <p className="text-gray-600 text-base min-h-[140px]">
+                A well-designed website creates a strong first impression and builds trust. It reflects your brand’s professionalism, boosting credibility.
+              </p>
+            </div>
+
+            {/* Card 4 */}
+            <div className="bg-white p-6 flex flex-col items-center text-center h-full">
+              <Headphones className="text-green-600 w-10 h-10 mb-4" />
+              <div className="h-20 flex items-center justify-center mb-4">
+                <h3 className="font-semibold text-2xl">Acquire More Leads And Traffic</h3>
+              </div>
+              <p className="text-gray-600 text-base min-h-[140px]">
+                A well-developed website draws in more visitors through better search rankings and user experience. It helps you gain more leads and steady traffic.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+          <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+          <div className="lg:w-[60%] ">
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development <br className='max-md:hidden' />Best Quality Service</h2>
+            <div data-aos="fade-up" className="md:hidden">
+              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
+              WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our web development team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
+
+              <br /> <br />We cover every detail which includes responsive designs as well as effortless operation and CMS connections for unparalleled user engagement IT across the board. These features allow us to accomplish what you want faster while achieving the desired results.
+
             </p>
 
-            <div data-aos="fade-up" className="grid grid-cols-3 gap-6 items-start">
-              <div>
-                <p className="text-3xl font-bold text-[#3f3d56]">100+</p>
-                <p className="text-sm text-gray-600 mt-2">Clients Served</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-[#3f3d56]">500+</p>
-                <p className="text-sm text-gray-600 mt-2">Projects Completed</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-[#3f3d56]">95%</p>
-                <p className="text-sm text-gray-600 mt-2">Client Satisfaction</p>
-              </div>
+          </div>
+          <div className="">
+            <div data-aos="fade-up" className=" max-md:hidden">
+              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
             </div>
           </div>
+        </section>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+          <div className="lg:w-[60%] ">
+            <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl font-semibold max-lg:mb-2'>Technologies We use to Make the Best Website Designing & Development</h2>
+            <div data-aos="fade-up" className="md:hidden">
+              <img src={image15} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
+              We use the best and latest technologies to make websites faster, more attractive, and user-friendly. Our expert website development and design teams craft seamless, responsive sites that not only look great but also engage visitors and drive results.
 
+            </p>
 
-
+          </div>
+          <div className="">
+            <div data-aos="fade-up" className=" max-md:hidden">
+              <img src={image15} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+          </div>
         </section>
 
-        <section id="wdservices" className=' max-w-[1440px] mx-auto  w-[100%] mt-[50px] pl-[40px] pr-[40px] max-md:px-4'>
 
-          <h2 data-aos="fade-up" class="text-[#409338] font-bold text-[40px]  max-md:text-[28px] leading-tight max-md:leading-snug lg:text-center stroke-custom fill-custom "><span className='text-black'>Web Development Company</span> in Gurgaon | Your <span className=''>Vision</span>, Our <span className=''>Expertise</span>
-          </h2>
-
-
-          <p data-aos="fade-up" className='text-[black] text-base mt-12 max-md:mt-6 mb-[50px]'> With over 21 years of experience, WebNest Media stands out as one of the top web development company in Gurgaon, transforming ideas into impactful digital solutions. We've successfully delivered hundreds of custom projects across various industries, serving clients in the UK, USA, Australia, Canada, and India. Our strong track record and a 92% client retention rate speak to our dedication to quality, innovation, and long-term partnerships.
-            <br /> <br />
-
-            We create websites that are quick, scalable, and safe by utilizing latest technologies such as React, Angular, Vue.js, Node.js, Progressive Web Apps (PWAs), and headless CMS. With features like AI tools, automation, and simple integrations to increase user engagement and conversions, our responsive designs function smoothly on all devices.
-            <br /> <br /> <br className='max-md:hidden' />
-
-            Whether you need an eCommerce store, a blog, or a corporate website, WebNest Media has the expertise to turn your vision into a fully functional digital experience. As a trusted website development company, we help businesses of all sizes create a strong online presence that fuels growth and connects with their audience.
-
-            <br />
-
-          </p>
-
-        </section>
 
         <section className='max-w-[1440px] mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
             {cardData.map((card) => (
-              <div data-aos="fade-up" 
+              <div data-aos="fade-up"
                 key={card.id}
                 className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer flex flex-col h-full"
               >
@@ -410,86 +470,121 @@ const web = () => {
 
         </section>
 
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center '>
+          <div className="lg:w-[60%] mx-auto ">
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>What makes us different in Web Development?</h2>
 
-        <section className=" relative mt-24 max-lg:mt-10  bg-[#C6E4C1] text-[#2d2d2d] px-4 py-20 max-lg:py-12 overflow-hidden">
-          {/* Top SVG Wave */}
+            <p data-aos="fade-up" className="text-[black] mt-9 mb-12 text-base mx-auto md:mx-0">
+              As a top web designing & development company in Gurgaon, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
 
-          <div data-aos="fade-up" className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
-            <svg
-              viewBox="0 0 1440 320"
-              className="w-full h-[100px] bg-no-repeat"
-              preserveAspectRatio="none"
-            >
-              <path
-                fill="#ffffff"
-                d="M0,160 Q180,80 360,160 T720,160 T1080,160 T1440,160 L1440,0 L0,0 Z"
-              />
-            </svg>
+            </p>
+
           </div>
+          <table className="table-auto lg:w-[90%] text-base max-w-7xl  text-left mt-14 ax-lg:mt-10 ]">
+            <tbody>
 
-          {/* Content */}
-          <div className="max-w-[1440px] w-[100%] mx-auto text-center relative z-10">
-            <p data-aos="fade-up" className="text-sm uppercase tracking-widest text-[black] font-semibold max-md:mt-6 mb-6">Process</p>
-            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-[#409338] mb-12">How It Works</h2>
+              {/* Row 1 */}
+              <tr className="align-top">
+                <td className="pr-4 pt-2">
+                  <svg className="w-5 h-5 text-green-600 mt-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </td>
+                <td className="pr-6 pt-2 text-green-600 font-semibold lg:text-nowrap">
+                  Experienced Web Developers
+                </td>
+                <td className="pt-2 text-gray-700">
+                  Meeting every business’s objective can only be possible with our dedicated developers who build responsive and high-performing websites. In addition, custom coding and CMS are utilized for enhanced performance.
+                </td>
+              </tr>
 
-            <div data-aos="fade-up" className="grid grid-cols-2 md:grid-cols-4 gap-14">
-              {/* Step 1 */}
-              <div className="flex flex-col items-center">
-                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/*   <LazyLoadImage src="/icons/chat.svg" alt="Consultation" className="w-8 h-8" /> */}
-                  <SiConsul className='w-[30px] h-[30px] ' />
-                </div>
-                <h3 data-aos="fade-up" className="font-semibold text-[#2d2d2d] mb-2">Consultation</h3>
-                <p data-aos="fade-up" className="text-sm text-[#6b6b6b] text-center">
-                  We begin with a detailed consultation to understand your business objectives, target audience, and digital challenges. This helps us align our approach with your unique needs.
-                </p>
-              </div>
+              {/* Row 2 */}
+              <tr className="align-top">
+                <td className="pr-4 pt-6">
+                  <svg className="w-5 h-5 text-green-600 mt-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </td>
+                <td className="pr-6 pt-6 text-green-600 font-semibold lg:text-nowrap" >
+                  Performance-First Approach
+                </td>
+                <td className="pt-6 text-gray-700 ">
+                  Users always need a seamless interface within a website or an application, thus, we focus on speed, user interface, and customer experience. We employ best practices in internet marketing to improve SEO positioning by using optimized websites that ensure faster load times and improved SEO ranking.
+                </td>
+              </tr>
 
-              {/* Step 2 */}
-              <div className="flex flex-col items-center">
-                <div className="w-20 h-20 bg-[white] rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/*   <LazyLoadImage src="/icons/tools.svg" alt="Creation" className="w-8 h-8" /> */}
-                  <MdMovieCreation className='w-[30px] h-[30px] ' />
+              {/* Row 3 */}
+              <tr className="align-top">
+                <td className="pr-4 pt-6">
+                  <svg className="w-5 h-5 text-green-600 mt-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </td>
+                <td className="pr-6 pt-6 text-green-600 font-semibold lg:text-nowrap">
+                  Client-Centric Solutions
+                </td>
+                <td className="pt-6 text-gray-700 ">
+                  Understanding the brand identity alongside other elements such as core target demographics helps drive growth and conversion. Thus, working closely with you ensures proper fulfillment that delivers high-quality work at budget-friendly rates – all while enabling you to capture targeted audience engagement.
+                </td>
+              </tr>
 
-                </div>
-                <h3 className="font-semibold text-[#2d2d2d] mb-2">Creation</h3>
-                <p className="text-sm text-[#6b6b6b] text-center">
-
-                  Our experts craft a tailored digital marketing strategy, combining creative ideas and data-driven insights to deliver maximum impact.
-                </p>
-              </div>
-
-              {/* Step 3 */}
-              <div className="flex flex-col items-center">
-                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/*   <LazyLoadImage src="/icons/settings.svg" alt="Implementation" className="w-8 h-8" /> */}
-                  <FaHandshakeSimple className='w-[30px] h-[30px] ' />
-                </div>
-                <h3 className="font-semibold text-[#2d2d2d] mb-2">Implementation</h3>
-                <p className="text-sm text-[#6b6b6b] text-center">
-                  We bring the strategy to life—executing campaigns, building assets, and launching initiatives across the right digital channels.
-                </p>
-              </div>
-
-              {/* Step 4 */}
-              <div className="flex flex-col items-center">
-                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                  {/*   <LazyLoadImage src="/icons/bulb.svg" alt="Optimization" className="w-8 h-8" /> */}
-                  <GrOptimize className='w-[30px] h-[30px] ' />
-                </div>
-                <h3 className="font-semibold text-[#2d2d2d] mb-2">Optimization</h3>
-                <p className="text-sm text-[#6b6b6b] text-center">
-
-                  We continuously monitor, analyze, and refine your campaigns and content to ensure peak performance and long-term growth.
-                </p>
-              </div>
-            </div>
-          </div>
-
+            </tbody>
+          </table>
 
         </section>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+          <div className="lg:w-[60%] ">
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development Best Quality Service</h2>
+            <div data-aos="fade-up" className="md:hidden">
+              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
+              
+            WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our web development team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
+
+<br /> <br />We cover every detail which includes responsive designs as well as effortless operation and CMS connections for unparalleled user engagement IT across the board. These features allow us to accomplish what you want faster while achieving the desired results.
+
+
+            </p>
+
+          </div>
+          <div className="">
+            <div data-aos="fade-up" className=" max-md:hidden">
+              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+          </div>
+        </section>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4 max-lg:mb-10'>
+          <div className="lg:w-[60%] ">
+            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Why Choose WebNest Media?</h2>
+            <div data-aos="fade-up" className="md:hidden">
+              <img src={image16} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
+              Choosing the right partner for your website is a big decision — and that’s exactly why businesses trust WebNest Media. As one of the top web development companies in Gurgaon, we don’t just build websites — we craft digital experiences that help brands grow.
+              Our team blends creativity with cutting-edge technology to deliver websites that are fast, stunning, and user-friendly. Whether you need an online store, a sleek corporate site, or a custom solution, we’re known as a top website development company in Gurgaon for a reason — we make it happen.
+              <br />Looking for an ecommerce website development company in Gurgaon? We’ve helped countless businesses launch powerful online stores that drive sales and create loyal customers. And when it comes to design, we’re recognized as a website designing company in Gurgaon that truly understands what works online — blending beauty with functionality. That’s why many call us the best website designing company in Gurgaon.
+              At WebNest Media, we believe every brand has a story. Let’s build a website that tells yours — beautifully, effectively, and with results you can measure.
+
+            </p>
+
+          </div>
+          <div className="">
+            <div data-aos="fade-up" className=" max-md:hidden">
+              <img src={image16} alt="Web Development Company" className="w-full h-auto" />
+            </div>
+          </div>
+        </section>
+        <section className='max-lg:mb-10'>
+          <TestimonialSlider
+            sectionTitle="What Our Clients Say"
+            sectionSubtitle="Testimonials"
+            testimonials={testimonialData}
+          />
+        </section>
+
         <Newcontact />
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 -w-[100%]'>
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 w-[100%]'>
           <Accordion />
         </section>
 

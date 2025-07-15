@@ -475,7 +475,7 @@ const Home = () => {
 
         <div className="mt-16">
 
-          <div className="wrapper flex items-center bg-[#9BC394]" data-aos="fade-up" data-aos-delay="100">
+          <div className="wrapper flex items-center" data-aos="fade-up" data-aos-delay="100">
             <div className="item item1 "><img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" style={{ transform: "scale(1.2)" }} /></div>
             <div className="item item2"><img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" /></div>
             <div className="item item3"><img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" style={{ transform: "scale(1.5)" }}/></div>

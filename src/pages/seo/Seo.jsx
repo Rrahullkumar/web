@@ -434,61 +434,43 @@ const Seo = () => {
           />
         </div>
 
-        <section data-aos="fade-up" className="max-w-[1440px] mt-[96px] max-md:mt-[40px] w-full mx-auto pb-24 pl-10 pr-10 max-lg:pl-4 max-lg:pr-4">
+        <section data-aos="fade-up" className="max-lg:mt-10 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse lg:items-center lg:justify-between mx-auto">
+  
+  {/* Image Section */}
+  <div className="max-w-[440px] w-full max-lg:w-[80%] mx-auto max-lg:my-10">
+    <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
+  </div>
 
-          {/* Heading */}
-          <h2 id="" className="text-[48px] max-lg:text-4xl font-semibold leading-tight">
-            Best SEO Company <br className='max-lg:hidden' /> in Gurgaon
-          </h2>
+  {/* Text Section */}
+  <div className="lg:w-[60%]">
+    <h2 className="text-[52px] max-lg:text-[36px] font-semibold">
+      Best SEO Company <br className='max-lg:hidden' /> in Gurgaon
+    </h2>
+    <br />
+    <p className="text-base mt-2 font-manrope">
+      In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
+    </p>
 
-          {/* Mobile Image Below Heading */}
-          <div className="block lg:hidden w-[80%] mx-auto mt-8 mb-6">
-            <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-full h-auto rounded-lg" />
+    <p className="text-base mt-5 font-manrope">
+      The best SEO plan makes the right visitors, organic traffic, and lifts conversion rates. At WebNest Media, we combine analytics, creativity, and latest techniques to produce clear, measurable outcomes. Our team listens to your objectives and filters out suited strategies for fast growth, supporting your business in securing lasting online success.
+    </p>
+
+    {/* CTA Button */}
+    <div className="flex gap-3 mt-8">
+      <Link to="/about-us">
+        <button
+          onClick={() => scrollToSection("seoservice")}
+          className="uiverse-button"
+        >
+          Learn More
+        </button>
+      </Link>
+    </div>
+  </div>
+</section>
 
 
-          </div>
-
-          {/* Main Content */}
-          <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px] lg:mt-8 '>
-
-            {/* Text Section */}
-            <div className="w-[60%] max-lg:w-[100%]">
-
-              <p className='text-base mt-5 font-manrope'>
-                In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
-              </p>
-
-              <p className='text-base mt-5 font-manrope'>
-                The best SEO plan makes the right visitors, organic traffic, and lifts conversion rates. At WebNest Media, we combine analytics, creativity, and latest techniques to produce clear, measurable outcomes. Our team listens to your objectives and filters out suited strategies for fast growth, supporting your business in securing lasting online success.
-              </p>
-
-            </div>
-
-            {/* Desktop Image */}
-            <div className="max-w-[440px] w-full flex flex-col gap-6 max-lg:hidden justify-center ">
-              <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
-            </div>
-
-          </div>
-
-          {/* Buttons */}
-          <div className="flex gap-3 mt-8">
-
-            <Link to="/about-us">
-              <button
-                onClick={() => scrollToSection("seoservice")}
-                className="uiverse-button"
-              >
-                Learn More
-              </button>
-
-            </Link>
-
-          </div>
-
-        </section>
-
-        <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
+        <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col mt-24 max-lg:mt-10 items-center justify-center max-md: ">
 
           <div data-aos="fade-up" className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
@@ -507,9 +489,9 @@ const Seo = () => {
                  hover:-translate-y-1 
                  max-w-full h-[200px] w-full"
                 >
-                  <h2 className="text-[#4CAF50] text-[42px] font-light">
+                  <p className="text-[#4CAF50] text-[42px] font-light">
                     {item.number}
-                  </h2>
+                  </p>
                   <p className="text-2xl font-normal text-[#333] leading-[160%] mt-2.5 text-center">
                     {item.label}
                   </p>
@@ -571,7 +553,7 @@ const Seo = () => {
           </div>
         </section>
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[96px] max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className=' max-w-[1440px] w-[100%] mx-auto mt-24 max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
 
@@ -623,7 +605,7 @@ const Seo = () => {
 
           >
 
-            {/* <h2 className="heading mb-[20px] " id="industries">Industries We serve </h2> */}
+   
 
             <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  jjj "
               ref={secondREf}
@@ -640,10 +622,10 @@ const Seo = () => {
         </section>
 
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] ">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
-              <div data-aos="fade-up" key={index} className="bg-[#EFF4EE]   rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
+              <div data-aos="fade-up" key={index} className="bg-[#EFF4EE] lg:min-h-[200px]  rounded-[12px] pb-[22px]  pl-[38px] pr-[38px] pt-[24px] max-lg:py-[16px] max-lg:px-[16px] shadow-md transition-transform duration-300 ease-in-out hover:-translate-y-1">
 
                 <h3 className="flex items-end mb-9 max-md:mb-6 gap-2 max:md:h-4 max-md:items-start ">
                   <span className=" text-[30px] max-md:text-[24px] text-[#EEC370] font-medium  ">{index + 1}.</span>

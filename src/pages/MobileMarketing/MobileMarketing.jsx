@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
 import topimage from './resources/topimage.png'
-import image1 from './resources/image1.png'
+import image1 from './resources/image1.svg'
 import phoneImg from './resources/tabimage.svg'
 import icon1 from './resources/icon1.svg'
 import icon2 from './resources/icon2.svg'
@@ -10,7 +10,8 @@ import icon4 from './resources/icon4.svg'
 import Accordion from './components/Accordian';
 import Conatctfrom from '../../components/contact/contactform';
 import { FiPhone } from 'react-icons/fi';
-
+import { CircleCheckBig } from "lucide-react";
+import { CircleX } from "lucide-react";
 import { Helmet } from 'react-helmet'
 import tabimage from './resources/tabimage.svg'
 import HeroSection from '../../components/Herosection/Herosection.jsx';
@@ -19,9 +20,9 @@ import tabimage2 from './resources/Rectangle2.svg'
 import tabimage3 from './resources/Rectangle3.svg'
 import tabimage4 from './resources/Rectangle4.svg'
 import tabimage5 from './resources/Rectangle5.svg'
-
+import mobile from './resources/mobile.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import image26 from './resources/image26.png'
 const MobileMarketing = () => {
     const [activeTab, setActiveTab] = useState(0);
     const [prevTab, setPrevTab] = useState(0);
@@ -183,126 +184,126 @@ const MobileMarketing = () => {
 
 
     const schemaData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "@id": "https://webnestmedia.com/mobile-marketing#service",
-      "name": "Mobile Marketing",
-      "description": "WebNest Media offers expert mobile marketing services designed to engage your audience via SMS campaigns, app-based ads, push notifications, and mobile-first strategies that drive brand awareness and conversions.",
-      "serviceType": "Mobile Marketing",
-      "provider": {
-        "@type": "Organization",
-        "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
-        "sameAs": [
-          "https://www.instagram.com/webnestmediagroup/",
-          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
-          "https://www.linkedin.com/company/webnest-media-group/"
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Service",
+                "@id": "https://webnestmedia.com/mobile-marketing#service",
+                "name": "Mobile Marketing",
+                "description": "WebNest Media offers expert mobile marketing services designed to engage your audience via SMS campaigns, app-based ads, push notifications, and mobile-first strategies that drive brand awareness and conversions.",
+                "serviceType": "Mobile Marketing",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "WebNest Media",
+                    "url": "https://webnestmedia.com",
+                    "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+                    "sameAs": [
+                        "https://www.instagram.com/webnestmediagroup/",
+                        "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+                        "https://www.linkedin.com/company/webnest-media-group/"
+                    ]
+                },
+                "areaServed": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+                        "addressLocality": "Gurgaon",
+                        "addressRegion": "Haryana",
+                        "postalCode": "122001",
+                        "addressCountry": "IN"
+                    }
+                },
+                "url": "https://webnestmedia.com/mobile-marketing"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://webnestmedia.com/mobile-marketing#webpage",
+                "url": "https://webnestmedia.com/mobile-marketing",
+                "name": "Mobile Marketing Services – WebNest Media",
+                "description": "Boost your business with tailored mobile marketing strategies from WebNest Media, including SMS campaigns, app ads, push notifications, and mobile-first initiatives to attract, engage, and convert your audience."
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://webnestmedia.com/mobile-marketing#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://webnestmedia.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Services",
+                        "item": "https://webnestmedia.com/#services"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Mobile Marketing",
+                        "item": "https://webnestmedia.com/mobile-marketing"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://webnestmedia.com/mobile-marketing#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is mobile marketing and how can it benefit my business?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Mobile marketing uses SMS, app-based ads, push notifications, and mobile-first design to reach users on their devices—boosting engagement, brand visibility, and conversions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Does mobile marketing include app advertising and push notifications?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes! Our mobile marketing services include app-based advertising, push notifications, SMS campaigns, and mobile-first strategies tailored to your business needs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose WebNest Media for mobile marketing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "WebNest Media combines data-driven insights with creative execution—delivering mobile marketing campaigns that drive real results through personalized targeting and mobile-first design."
+                        }
+                    }
+                ]
+            }
         ]
-      },
-      "areaServed": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
-          "addressLocality": "Gurgaon",
-          "addressRegion": "Haryana",
-          "postalCode": "122001",
-          "addressCountry": "IN"
-        }
-      },
-      "url": "https://webnestmedia.com/mobile-marketing"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://webnestmedia.com/mobile-marketing#webpage",
-      "url": "https://webnestmedia.com/mobile-marketing",
-      "name": "Mobile Marketing Services – WebNest Media",
-      "description": "Boost your business with tailored mobile marketing strategies from WebNest Media, including SMS campaigns, app ads, push notifications, and mobile-first initiatives to attract, engage, and convert your audience."
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/mobile-marketing#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://webnestmedia.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://webnestmedia.com/#services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Mobile Marketing",
-          "item": "https://webnestmedia.com/mobile-marketing"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/mobile-marketing#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is mobile marketing and how can it benefit my business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mobile marketing uses SMS, app-based ads, push notifications, and mobile-first design to reach users on their devices—boosting engagement, brand visibility, and conversions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does mobile marketing include app advertising and push notifications?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! Our mobile marketing services include app-based advertising, push notifications, SMS campaigns, and mobile-first strategies tailored to your business needs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why choose WebNest Media for mobile marketing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "WebNest Media combines data-driven insights with creative execution—delivering mobile marketing campaigns that drive real results through personalized targeting and mobile-first design."
-          }
-        }
-      ]
-    }
-  ]
-};
+    };
     return (
         <>
 
 
             <Helmet>
 
-             <title>Best Mobile Marketing Company in Gurgaon | WebNest Media</title>
-<meta name="description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
+                <title>Best Mobile Marketing Company in Gurgaon | WebNest Media</title>
+                <meta name="description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
 
-               
+
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="WebNest Media" />
                 <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
 
-<meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
-  <meta property="og:description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/mobile-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+                <meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
+                <meta property="og:description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://webnestmedia.com/mobile-marketing" />
+                <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+                <meta property="og:site_name" content="WebNest Media" />
 
 
-                 <script type="application/ld+json">
-        {JSON.stringify(schemaData)}
-      </script>
+                <script type="application/ld+json">
+                    {JSON.stringify(schemaData)}
+                </script>
             </Helmet>
             <div className=' w-[100%]'>
 
@@ -315,24 +316,22 @@ const MobileMarketing = () => {
 "
                     />
                 </div>
-                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between lg:gap-20 mx-auto">
-                      <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' max-lg:float-right max-lg:w-1/2 w-1/5 max-lg:pb-1 ' />
+                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
+                    <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' mb-10' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
                         <br />
                         <p className='text-base font-[350]'>
-                            In today's fast-paced digital world, your customers are constantly on their mobile devices. From checking social media to searching for local businesses, smartphones and tablets have become the primary gateway to the internet.
-
-                            <br className='' /> <br className='' />We understand this shift and specialize in mobile marketing in Gurgaon that puts your brand directly into the hands of your target audience, whenever and wherever they are.
-
-                            <br className='' /> <br />Our expert strategies are designed to capture attention, drive engagement, and convert mobile users into loyal customers, giving your business a significant competitive edge in the bustling Gurugram market.
+                            Mobile marketing is a type of digital marketing that focuses on reaching users via smartphones, tablets, and other handheld devices. It a variety of techniques such as text and multimedia messaging, mobile and website advertising, advertising in applications, push alerts, mobile applications, QR code advertising, and marketing based on the user’s geographical location. <br />
+                            Mobile marketing aims to get to them where their attention is, on mobile devices, by sending personalized messages which are engaging, timely, and relevant. It is perfect for reaching out to customers in real-time, brand recognition, increasing the number of downloads for an application, and boosting sales. <br />
+                            With more and more people using mobile devices, businesses that spend time and resources in smart mobile marketing strategies have an upper hand since they can be found at all stages of the customer's journey. Be it working with a mobile app marketing agency or mobile marketing in digital marketing, this method guarantees your brand’s visibility, access, and relevance any time during the day 24/7.
                         </p>
                         <br />
                     </div>
                 </div>
 
 
-                <div  data-aos="fade-up" className="bg-black">
+                <div data-aos="fade-up" className="bg-black">
                     <div className=' px-4 md:px-10 max-w-[1440px] w-full mx-auto mt-24'>
                         <div className="text-white py-12 ">
                             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
@@ -398,7 +397,7 @@ const MobileMarketing = () => {
 
                                             {/* Image Section */}
                                             <div className="lg:w-[40%] w-full flex justify-center px-4 lg:px-8">
-                                                  <LazyLoadImage
+                                                <LazyLoadImage
                                                     src={tabsContent[activeTab].image}
                                                     alt="Mobile Marketing"
                                                     className="w-full h-auto rounded-lg object-contain"
@@ -415,55 +414,110 @@ const MobileMarketing = () => {
                     </div>
                 </div>
 
+                <section className="max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10 ">
+                    <div className="flex flex-row  items-start justify-between sticky ">
+                        <div className="lg:w-[60%]">
+                            <h2 className="text-[52px] max-lg:text-3xl font-semibold mb-9 ">How Mobile Marketing Strategy Helps Your Brand Stay Everywhere and Sell More</h2>
+                            <p className="text-base "><span className="font-semibold"> Advantages and Disadvantages of Mobile Marketing</span> <br /> <br className="lg:hidden" />
+                                Today mobile marketing is one of the most widely used forms of marketing as it provides an opportunity for brands to reach customers at their private gadgets, smartphones. It also provides various means to reach customers through SMS, mobile applications, and through ads based on users location. This marketing branch helps businesses to engage with customers, increase conversions, and retain loyal customers. But as with anyother marketing strategy, mobile marketing have its pros and cons.
+                                <br />
+                                <br /></p>
+                            <p className="font-semibold">Here’s a breakdown of the key advantages and disadvantages of mobile marketing: </p>
+                            <div className="lg:grid grid-cols-2 gap-10  mt-12">
+                                <div className="flex flex-col gap-6">
+                                    <div className="flex flex-row items-center  font-semibold">
+                                        <CircleCheckBig className="text-[#4caf50] mr-2" /> 
+                                        <p className="text-lg max-lg:text-xl">Advantages of Mobile Marketing</p>
+                                    </div>
+                                    <div className="grid grid-rows-6 gap-3 max-lg:gap-10">
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">1.</span> Wide Reach</p>
+                                            <p className="text-base">Billions of smartphone users globally, mobile marketing allows you to reach a massive audience—anytime, anywhere.</p>
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">2.</span> Instant Communication</p>
+                                            <p className="text-base"> SMS, notifications, and in-app messages deliver your message in real time, ensuring quick customer engagement.</p>
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">3.</span>Highly Targeted Campaigns </p>
+                                            <p className="text-base">Mobile marketing uses location data, user behavior, and preferences to deliver personalized content, improving relevance and conversion rates.</p>
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">4.</span>Cost-Effective</p>
+                                            <p className="text-base">Compared to traditional marketing, mobile marketing (like SMS campaigns or app promotions) is often cheaper and delivers a better ROI.</p>
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">5.</span>Easy to Track and Measure</p>
+                                            <p className="text-base">Billions of smartphone users globally, mobile marketing allows you to reach a massive audience—anytime, anywhere.</p>
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">6.</span>Enhances Customer Engagement</p>
+                                            <p className="text-base">Mobile apps, loyalty programs, and personalized messages increase customer retention and lifetime value.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col max-lg:mt-10  gap-6">
+                                    <div className="flex flex-row items-center font-semibold">
+                                        <CircleX  className="text-red-600 mr-2" /> 
+                                        <p className="text-lg max-lg:text-xl">Disadvantages of  Mobile Marketing</p>
+                                    </div>
+                                    <div className="grid grid-rows-5 gap-3 max-lg:gap-10">
+                                        <div className="">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">1.</span>Privacy Concerns</p>
+                                            <p className="text-base">Targeting users through location and data tracking can raise privacy issues if not handled transparently.</p>
+                                        </div>
+                                        <div className="">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">2.</span>Limited Screen Space</p>
+                                            <p className="text-base"> Smaller screens on mobile devices restrict content design and may lead to user frustration if not optimized.</p>
+                                        </div>
+                                        <div className="">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">3.</span>Ad Fatigue </p>
+                                            <p className="text-base">Too many notifications, texts, or ads can annoy users and lead to uninstalls or opt-outs.</p>
+                                        </div>
+                                        <div className="">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">4.</span>Device Compatibility Issues</p>
+                                            <p className="text-base">Compared to traditional marketing, mobile marketing (like SMS campaigns or app promotions) is often cheaper and delivers a better ROI.</p>
+                                        </div>
+                                        <div className="">
+                                            <p className="text-lg text-[#4caf50]"><span className="text-[#FFBA34]">5.</span>Requires Constant Optimization</p>
+                                            <p className="text-base">Mobile trends and technologies evolve fast, so strategies must be regularly updated to stay effective.</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sticky top-20 max-lg:hidden">
+                            <img src={mobile} alt="" className="h-[87vh]" />
+                        </div>
+                    </div>
+                </section>
+                <div data-aos="fade-up" className="mmc3 max-w-[1440px] px-[40px] items-center lg:mt-24 max-lg:mt-10 max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
+                    <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className='max-lg:hidden' />
+                    <div className="lgc3left lg:w-[60%] justify-start ">
+                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold '>Why Choose WebNest Media for Mobile Marketing in Gurgaon?</h2>
+                        <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className='lg:hidden' />
+                        <br />
+                        <p className='text-base font-[350]'>
+                            When it comes to making your brand mobile-first and customer-focused, WebNest Media stands out as the best mobile marketing company in Gurgaon. We blend creativity, data, and cutting-edge technology to craft mobile strategies that not only reach users but engage and convert them. From SMS campaigns and push notifications to app installs and in-app engagement, our team knows what works.
 
+As a top mobile marketing company in Gurgaon, we don’t believe in one-size-fits-all solutions. Instead, we tailor every campaign to your brand’s goals, using advanced tools and real-time analytics to maximize ROI. Whether you're launching a new app or looking to boost engagement for an existing one, our expertise as a mobile app marketing agency ensures you get visibility where it matters most—on your customers' phones.
+<br className=""/> <br className=""/>
+<span className="max-lg:font-semibold">At WebNest Media,</span> we also understand how important mobile marketing in digital marketing has become. That’s why we integrate mobile strategies seamlessly into your overall digital plan—so you’re not just present on mobile, you’re dominant.
+<br className="" /> <br className=""/>
+Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-led, ROI-driven mobile app marketing and create powerful, always-on experiences that move your business forward.</p>
+                        <br />
+                    </div>
+                </div>
 
 
 
 
                 <div data-aos="fade-up" className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
-                    <div  className="lg:text-center px-4 ">
-                        <h2 className="text-[52px] max-lg:text-3xl  font-semibold mb-6">
-                            Why Choose <span className="">WebNest Media</span> for <br /> Mobile Marketing in Gurgaon?
-                        </h2>
-                        <p className="max-w-2xl text-base mx-auto text-gray-700 mb-12">
-                            WebNest Media is leading agency for mobile marketing in Delhi-NCR and best mobile advertising services in India. When you partner with WebNest Media, you're choosing a team that understands the nuances of the Gurugram market and the power of mobile technology.
-                        </p>
-
-                        <div className="grid grid-cols-4 max-md:grid-cols-2 gap-8 mb-16 px-4 border p-8 rounded-xl">
-                            <div className='flex flex-col items-center text-center'>
-
-                                  <LazyLoadImage src={icon1} alt="" className='p-6' />
-                                <h4 className="font-semibold text-lg mb-6 ">Local Expertise</h4>
-                                <p className="text-gray-600 lg:w-[78%]">We know the Gurugram audience and its mobile consumption patterns.</p>
-                            </div>
-                            <div className='flex flex-col items-center  text-center'>
-                                  <LazyLoadImage src={icon2} alt="" className='p-6' />
-                                <h4 className="font-semibold text-lg mb-6">Proven Track Record</h4>
-                                <p className="text-gray-600 lg:w-[78%]">Our strategies deliver measurable results and high ROI.</p>
-                            </div>
-                            <div className='flex flex-col items-center text-center'>
-                                  <LazyLoadImage src={icon3} alt="" className='p-6' /> 
-                                <h4 className="font-semibold text-lg mb-6">Holistic Solutions</h4>
-                                <p className="text-gray-600 lg:w-[78%]">We integrate mobile seamlessly into your broader digital marketing strategy.</p>
-                            </div>
-                            <div className='flex flex-col items-center text-center'>
-                                  <LazyLoadImage src={icon4} alt="" className='p-6' />
-                                <h4 className="font-semibold text-lg mb-6 max-lg:mb-2">Dedicated Support</h4>
-                                <p className="text-gray-600 lg:w-[78%]">A driven group of people who care about your success.</p>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up">
-                             <h3 className="text-[32px] font-semibold max-lg:text-center mb-4">Ready to Mobilize Your Marketing?</h3>
-                        <p className="text-gray-700 max-lg:text-center text-base max-w-xl mx-auto">
-                            Don't let your competitors capture the mobile market. Connect with WebNest Media today to discuss how our expert mobile marketing services can help your Gurgaon business thrive on the go.
-                        </p>
-                        </div>
-                       
-                    </div>
 
                 </div>
                 <Newcontact></Newcontact>
-                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-[16px]">
+                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0">
                     <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
                     <Accordion></Accordion>
                 </div>

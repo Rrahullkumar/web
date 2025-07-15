@@ -60,114 +60,114 @@ const Sem = () => {
 
 
     {
-    id: 1,
-    label: 'Pay-Per-Click (PPC)',
-    image: PPC,
-    description: (
-      <>
-        <section className='pb-[96px]'>
-          <div className='flex flex-row lg:h-[300px] items-center justify-between max-lg:flex-col max-lg:gap-5'>
-            <div className='w-full'>
-              <LazyLoadImage src={PPC} alt="Pay Per Click" className='w-full object-contain rounded-lg' />
-            </div>
-            <div>
-              <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] py-4 font-semibold'>What is Pay Per Click Advertising?</h6>
-              <p className='text-base leading-7 text-[#000000] font-normal'>Pay-per-click is a form of online advertisement where advertisers pay a fee for each individual per click. It is the process of paying for website traffic rather than acquiring traffic organically through SEO. Pay-per-click ads appear on social media sites like Facebook and Instagram as well as search engines like Google and Bing, allowing companies an opportunity to target specific regions based on certain keywords and locations.</p>
-            </div>
-          </div>
-
-          <p className='text-[32px] lg:mb-4 max-md:text-[28px] mt-[74px] mb-18 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>Top Reasons to Invest in Pay Per Click Marketing</p>
-
-          <p className='text-base leading-7 text-[#000000] font-normal mb-8 text-center'>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-[1400px] lg-mb-6 mx-auto lg:items-stretch">
-            {[{ icon: icon1, title: 'Instant Exposure', description: 'Your PPC advertisements will be live immediately as your campaign goes live. Meaning, you are getting immediate traffic and awareness versus SEO which gets noticed and found months later.' }, { icon: icon2, title: 'Specific Audience', description: 'The only time PPC will show your advertisements is when customers are searching for keywords and phrases that match your advertising. Essentially, PPC is able to target the correct audience by their search intent, location, and demographics.' }, { icon: icon3, title: 'Budgeting', description: 'You can control your own budget, and you only pay for clicks, which makes managing your advertising budget that much easier.' }, { icon: icon4, title: 'Measurable', description: 'With PPC, you will track and analyze every click, allowing you to optimize your campaigns for every dollar spent.' }].map((item, index) => (
-              <div key={index} className='flex flex-col items-center text-center p-6 justify-between border rounded-2xl shadow-lg hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 bg-gradient-to-r from-green-50 to-blue-50'>
-                <div className='mb-6'>
-                  <LazyLoadImage src={item.icon} alt={item.title} className='w-16 h-16 object-contain' />
-                </div>
-                <div className='flex flex-col items-center gap-4 flex-1'>
-                  <h3 className='text-2xl font-semibold text-center'>{item.title}</h3>
-                  <p className='text-sm leading-relaxed text-center'>{item.description}</p>
-                </div>
+      id: 1,
+      label: 'Pay-Per-Click (PPC)',
+      image: PPC,
+      description: (
+        <>
+          <section className='pb-[96px]'>
+            <div className='flex flex-row lg:h-[300px] items-center justify-between max-lg:flex-col max-lg:gap-5'>
+              <div className='w-full'>
+                <LazyLoadImage src={PPC} alt="Pay Per Click" className='w-full object-contain rounded-lg' />
               </div>
-            ))}
-          </div>
+              <div>
+                <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] py-4 font-semibold'>What is Pay Per Click Advertising?</h6>
+                <p className='text-base leading-7 text-[#000000] font-normal'>Pay-per-click is a form of online advertisement where advertisers pay a fee for each individual per click. It is the process of paying for website traffic rather than acquiring traffic organically through SEO. Pay-per-click ads appear on social media sites like Facebook and Instagram as well as search engines like Google and Bing, allowing companies an opportunity to target specific regions based on certain keywords and locations.</p>
+              </div>
+            </div>
 
-          <p className='text-sm leading-relaxed text-center mt-10 max-w-[800px] mx-auto'>WebNest Media is a trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get the best return on your ad spend. Here are the PPC services we provide:</p>
+            <p className='text-[32px] lg:mb-4 max-md:text-[28px] mt-[74px] mb-18 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>Top Reasons to Invest in Pay Per Click Marketing</p>
 
-          <div className='w-full px-4 py-10'>
-            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center'>
-              {adsData.map((item, index) => (
-                <div key={index} className='flex flex-col items-center justify-center space-y-2 transition-transform duration-300 transform hover:scale-105'>
-                  <LazyLoadImage src={item.icon} alt={item.label} className='w-[176px] h-[108px] max-md:w-[80px] max-md:h-[100px] object-contain' />
-                  <span className='text-sm text-gray-800 font-medium'>{item.label}</span>
+            <p className='text-base leading-7 text-[#000000] font-normal mb-8 text-center'>Pay Per Click is one of the fastest and smartest ways to get in front of potential customers that are already looking for what you already provide. The following are just a few of the obvious benefits:</p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-[1400px] lg-mb-6 mx-auto lg:items-stretch">
+              {[{ icon: icon1, title: 'Instant Exposure', description: 'Your PPC advertisements will be live immediately as your campaign goes live. Meaning, you are getting immediate traffic and awareness versus SEO which gets noticed and found months later.' }, { icon: icon2, title: 'Specific Audience', description: 'The only time PPC will show your advertisements is when customers are searching for keywords and phrases that match your advertising. Essentially, PPC is able to target the correct audience by their search intent, location, and demographics.' }, { icon: icon3, title: 'Budgeting', description: 'You can control your own budget, and you only pay for clicks, which makes managing your advertising budget that much easier.' }, { icon: icon4, title: 'Measurable', description: 'With PPC, you will track and analyze every click, allowing you to optimize your campaigns for every dollar spent.' }].map((item, index) => (
+                <div key={index} className='flex flex-col items-center text-center p-6 justify-between border rounded-2xl shadow-lg hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 bg-gradient-to-r from-green-50 to-blue-50'>
+                  <div className='mb-6'>
+                    <LazyLoadImage src={item.icon} alt={item.title} className='w-16 h-16 object-contain' />
+                  </div>
+                  <div className='flex flex-col items-center gap-4 flex-1'>
+                    <h3 className='text-2xl font-semibold text-center'>{item.title}</h3>
+                    <p className='text-sm leading-relaxed text-center'>{item.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
-          </div>
 
-          <div className='max-w-[1440px] w-full mx-auto pt-[40px] pb-[10px] px-4'>
-            <h2 className='text-[38px] text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
+            <p className='text-sm leading-relaxed text-center mt-10 max-w-[800px] mx-auto'>WebNest Media is a trusted PPC company in Gurgaon that helps businesses get more leads and sales through smart PPC campaigns. As a results-driven PPC agency in Gurgaon, we manage everything from Google Ads to remarketing, so you get the best return on your ad spend. Here are the PPC services we provide:</p>
 
-            <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
-              <div className=' max-lg:w-[100%] space-y-6'>
-                <p className='text-base font-manrope'>When it comes to running successful PPC campaigns, experience and strategy make all the difference. That’s why so many businesses choose WebNest Media as a leading PPC company in Gurgaon, India — to manage their paid ads. Our team of certified specialists brings years of experience and deep industry know-how. Whether you need YouTube Ads, Google Ads, display ads, or remarketing, we know how to create campaigns that drive real results.</p>
-
-                <p className='text-base font-manrope'>As a trusted PPC agency in Gurgaon, we don’t believe in “one-size-fits-all” strategies. We take time to understand your business, target audience, and goals so we can design campaigns that actually convert. That’s why many clients call us the best PPC company in Gurgaon, we deliver what we promise.</p>
-
-                <p className='text-base font-manrope'>With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.</p>
+            <div className='w-full px-4 py-10'>
+              <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center'>
+                {adsData.map((item, index) => (
+                  <div key={index} className='flex flex-col items-center justify-center space-y-2 transition-transform duration-300 transform hover:scale-105'>
+                    <LazyLoadImage src={item.icon} alt={item.label} className='w-[176px] h-[108px] max-md:w-[80px] max-md:h-[100px] object-contain' />
+                    <span className='text-sm text-gray-800 font-medium'>{item.label}</span>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
-        </section>
-      </>
-    )
-  },
+
+            <div className='max-w-[1440px] w-full mx-auto pt-[40px] pb-[10px] px-4'>
+              <h2 className='text-[38px] text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
+
+              <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
+                <div className=' max-lg:w-[100%] space-y-6'>
+                  <p className='text-base font-manrope'>When it comes to running successful PPC campaigns, experience and strategy make all the difference. That’s why so many businesses choose WebNest Media as a leading PPC company in Gurgaon, India — to manage their paid ads. Our team of certified specialists brings years of experience and deep industry know-how. Whether you need YouTube Ads, Google Ads, display ads, or remarketing, we know how to create campaigns that drive real results.</p>
+
+                  <p className='text-base font-manrope'>As a trusted PPC agency in Gurgaon, we don’t believe in “one-size-fits-all” strategies. We take time to understand your business, target audience, and goals so we can design campaigns that actually convert. That’s why many clients call us the best PPC company in Gurgaon, we deliver what we promise.</p>
+
+                  <p className='text-base font-manrope'>With our expert PPC services in Gurgaon, you get full transparency, regular performance reports, and ongoing optimization — all focused on giving you the best ROI. Whether you’re looking for a PPC expert in Gurgaon for lead generation or want to scale your business with the best PPC services Gurgaon has to offer, WebNest Media is here to help you grow.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      )
+    },
 
 
 
 
 
     {
-    id: 2,
-    label: 'Bid Management',
-    image: bid,
-    description: (
-      <>
-        <section className='pb-[96px]'>
-          <div className='flex flex-row lg:h-[300px] items-center justify-between max-lg:flex-col max-lg:gap-5'>
-            <div className='w-full'>
-              <LazyLoadImage src={bid} alt="Bid Management" className='w-full object-contain rounded-lg' />
+      id: 2,
+      label: 'Bid Management',
+      image: bid,
+      description: (
+        <>
+          <section className='pb-[96px]'>
+            <div className='flex flex-row lg:h-[300px] items-center justify-between max-lg:flex-col max-lg:gap-5'>
+              <div className='w-full'>
+                <LazyLoadImage src={bid} alt="Bid Management" className='w-full object-contain rounded-lg' />
+              </div>
+
+              <div>
+                <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] py-4 font-semibold'>What is Bid Management?</h6>
+                <p className='text-base leading-7 text-[#000000] font-normal'>Bid management controls the amount you’re willing to pay for your ads on platforms like Google Ads and Facebook. It’s about spending smarter, optimizing in real-time, and ensuring your ads show to the right people at the right time without wasting budget.</p>
+              </div>
             </div>
 
-            <div>
-              <h6 className='text-[32px] max-md:text-[28px] leading-snug text-[#000000] py-4 font-semibold'>What is Bid Management?</h6>
-              <p className='text-base leading-7 text-[#000000] font-normal'>Bid management controls the amount you’re willing to pay for your ads on platforms like Google Ads and Facebook. It’s about spending smarter, optimizing in real-time, and ensuring your ads show to the right people at the right time without wasting budget.</p>
-            </div>
-          </div>
+            <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>How Bid Management Boosts Your Campaign Performance</p>
 
-          <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 max-md:mb-4 leading-snug text-[#000000] font-semibold text-center'>How Bid Management Boosts Your Campaign Performance</p>
+            <p className='text-base leading-7 text-[#000000] font-normal mb-8 text-center'>Smart bid management improves ad visibility, click-through rates, and conversions while minimizing wasted spending.</p>
 
-          <p className='text-base leading-7 text-[#000000] font-normal mb-8 text-center'>Smart bid management improves ad visibility, click-through rates, and conversions while minimizing wasted spending.</p>
+            <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold text-center'>Types of Bidding Strategies We Use</p>
 
-          <p className='text-[32px] max-md:text-[28px] mt-[74px] mb-6 leading-snug text-[#000000] font-semibold text-center'>Types of Bidding Strategies We Use</p>
+            <ul className='list-disc text-center text-xl leading-7 text-[#000000] font-normal space-y-4 mb-8 max-w-[800px] mx-auto'>
+              <li>✓ Manual CPC Bidding</li>
+              <li>✓ Enhanced CPC</li>
+              <li>✓ Target CPA</li>
+              <li>✓ Target ROAS</li>
+              <li>✓ Maximize Clicks</li>
+            </ul>
 
-          <ul className='list-disc text-center text-xl leading-7 text-[#000000] font-normal space-y-4 mb-8 max-w-[800px] mx-auto'>
-            <li>✓ Manual CPC Bidding</li>
-            <li>✓ Enhanced CPC</li>
-            <li>✓ Target CPA</li>
-            <li>✓ Target ROAS</li>
-            <li>✓ Maximize Clicks</li>
-          </ul>
+            <h4 className='w-full mt-[74px] mb-[28px] text-center text-[40px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>Why Partner with WebNest Media for Bid Management?</h4>
 
-          <h4 className='w-full mt-[74px] mb-[28px] text-center text-[40px] max-lg:text-[28px] leading-snug text-[#000000] font-semibold'>Why Partner with WebNest Media for Bid Management?</h4>
-
-          <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>WebNest Media’s bid management team actively monitors and adjusts your bids daily to maximize performance. We help you achieve more clicks, better conversions, and a higher return on your ad spend — across Google, Facebook, YouTube, and more.</p>
-        </section>
-      </>
-    )
-  },
+            <p className='text-sm leading-relaxed text-center max-w-[800px] mx-auto'>WebNest Media’s bid management team actively monitors and adjusts your bids daily to maximize performance. We help you achieve more clicks, better conversions, and a higher return on your ad spend — across Google, Facebook, YouTube, and more.</p>
+          </section>
+        </>
+      )
+    },
     {
       id: 3,
       label: 'Performance Tracking and Analytics',
@@ -537,7 +537,7 @@ const Sem = () => {
         />
 
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
+        {/* <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
 
           <h2 data-aos="fade-up" className="text-[48px] max-lg:text-3xl font-semibold">
             What is Search Engine   <br className='max-lg:hidden' /> Marketing?
@@ -550,14 +550,14 @@ const Sem = () => {
 
 
               <p data-aos="fade-up" id="" className='text-base mt-[20px] font-manrope '>
-                SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.    In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
+              SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.
               </p>
             </div>
             <div data-aos="fade-up" className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
               <LazyLoadImage src={semlogo} alt='WebNest Logo' />
             </div>
           </div>
-          <div data-aos="fade-up" className=" flex gap-4 mt-8 max-lg:mt-12 ">
+          <div data-aos="fade-up" className=" flex gap-4 mt-6 max-lg:mt-12 ">
 
             <button
               onClick={() => scrollToSection("semservice")}
@@ -572,45 +572,32 @@ const Sem = () => {
             
           </div>
 
-        </div>
+        </div> */}
+        <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
+          <div className="lg:w-[50%]">
+            
+            <h2 className='text-[52px] max-lg:text-4xl  mb-9 max-lg:mb-5 '>What is Search Engine Marketing?</h2>
+  
+            <p>SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.</p>
+            <div data-aos="fade-up" className=" flex gap-4 mt-6 max-lg:mt-12 ">
 
+              <button
+                onClick={() => scrollToSection("semservice")}
+                className='uiverse-button'>Learn More</button>
 
-        <div className=" max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4 mb-24 max-lg:mb-10">
-          <h2 data-aos="fade-up" className='text-[40px] max-lg:text-3xl text-black  text-left mb-3 font-semibold'>Why choose WebNest Media for Search Engine Marketing Campaign?</h2>
-          <div className='c2_para'>
-            <p data-aos="fade-up" style={{ paddingTop: '10px', paddingBottom: '10px', fontSize: '16px' }}>
-              WebNest Media is the search engine marketing company india and offers several benefits that set them apart from other agencies. Here are a few reasons why you might want to consider them:
-            </p>
-            <ul className='c2_list '>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Specialist Search Engine Marketing: </b> We have a team of professionals experienced in creating and optimizing paid search campaigns. Their
-                expertise could help improve ad performance and maximize ROI.
-              </li>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b> Customized Strategies: </b>We will provide top-notch search engine marketing strategies that are aligned with your business
-                goals, focusing on specific keywords, targeting methods, and ad copy that will resonate with your audience.
-              </li>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Comprehensive Services: </b> SEM is more than just pay-per-click (PPC) ads; it's about integrating your strategy with SEO,
-                landing page optimization, and continuous testing. WebNest Media may offer a holistic approach that addresses all
-                these areas.
-              </li>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Up-to-Date with Trends: </b> The world of SEM is constantly evolving. WebNest Media likely stays updated with the latest
-                trends and strategies to keep your campaigns ahead of the competition. We use different types of search engine
-                marketing tools to stay updated.
-              </li>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Conversion-Focused:</b> WebNest Media could emphasize not only driving traffic but also increasing conversions. Whether it's
-                purchases, leads, or other goals, our team focuses on improving conversion rates for better overall campaign success.
-              </li>
-              <li data-aos="fade-up" className='c2_list_item'>
-                <div className='tick_mark'> <span className='tick text-[white]'> &#10003;</span></div><b>Experience with Various Platforms:</b> Our team is full of experience with major SEM platforms like Google Ads, Bing Ads,
-                and other search networks, offering flexibility depending on your audience and objectives.
-              </li>
-            </ul>
+              <Link to="/contact-us">
+
+                <button className='white-button'>Contact Us</button>
+
+              </Link>
+            </div>
+          </div>
+          <div className="max-lg:w-[80%] max-lg:my-10">
+            <LazyLoadImage src={semlogo} alt='WebNest Logo' />
           </div>
         </div>
+
+         
 
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
@@ -680,49 +667,57 @@ const Sem = () => {
             </div>
 
           </div>
+              
+     
         </section>
 
 
+        <section >
+          <div className="text-center flex flex-col justify-center items-center mx-auto mb-24 max-lg:mb-10 ">
+            <h2 className='text-5xl max-lg:3xl mb-5 font-semibold'>Types of Search Engine Marketing</h2>
+            <p className='lg:w-[50%]'>As a top search engine marketing agency in Gurgaon, we provide different types of search engine marketing services by our expert SEM team that deliver the best outcome for you. Here are the different types of SEM:</p>
+          </div>
+        </section>
+        <section
+          id="semservice"
+          className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] relative"
+        >
 
-<section
-  id="semservice"
-  className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] relative"
->
-  {/* Parent container to limit the sticky range */}
-  <div className="relative">
-    {/* Sticky Tab Buttons */}
-    <div className="sticky top-[70px] bg-white z-50 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide py-3 px-2 shadow-sm">
-      {tabsData.map((tab, index) => (
-        <button
-          key={tab.id}
-          onClick={() => handleTabClick(index)}
-          className={`cursor-pointer transition-all duration-300 text-center min-w-fit rounded-full text-sm md:text-base font-medium px-6 py-3 
+           
+          <div className="relative">
+            {/* Sticky Tab Buttons */}
+            <div className="sticky top-[70px] bg-white z-50 flex justify-between gap-4 overflow-x-auto whitespace-nowrap text-gray-700 scrollbar-hide py-3 px-2 shadow-sm">
+              {tabsData.map((tab, index) => (
+                <button
+                  key={tab.id}
+                  onClick={() => handleTabClick(index)}
+                  className={`cursor-pointer transition-all duration-300 text-center min-w-fit rounded-full text-sm md:text-base font-medium px-6 py-3 
             ${activeTab === index
-              ? 'bg-[#3e8e41] text-white shadow-md scale-105'
-              : 'border border-[#3e8e41] text-[#3e8e41] bg-white hover:bg-[#f0f9f0] hover:shadow-md'
-            }`}
-        >
-          {tab.label}
-        </button>
-      ))}
-    </div>
+                      ? 'bg-[#3e8e41] text-white shadow-md scale-105'
+                      : 'border border-[#3e8e41] text-[#3e8e41] bg-white hover:bg-[#f0f9f0] hover:shadow-md'
+                    }`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </div>
 
-    {/* Tab Content with Animation */}
-    <div className="justify-center mx-auto text-gray-700 flex flex-col pt-[25px] min-h-[300px]">
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={activeTab} // Key changes to re-trigger animation
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-          {tabsData[activeTab].description}
-        </motion.div>
-      </AnimatePresence>
-    </div>
-  </div>
-</section>
+            {/* Tab Content with Animation */}
+            <div className="justify-center mx-auto text-gray-700 flex flex-col pt-[25px] min-h-[300px]">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeTab} // Key changes to re-trigger animation
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                >
+                  {tabsData[activeTab].description}
+                </motion.div>
+              </AnimatePresence>
+            </div>
+          </div>
+        </section>
 
 
 
