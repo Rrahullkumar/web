@@ -68,7 +68,7 @@ img {
 
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   line-height: normal;
    /* cursor: none !important; */
    /* --cursor-color: #FFBA34; */  
