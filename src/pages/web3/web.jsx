@@ -289,9 +289,9 @@ const web = () => {
 </section> */}
 
 
-        <section className='flex flex-row max-lg:flex-col gap-10 items-center max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
-          <div className=" ">
-            <h2 className='text-[52px] max-lg:text-3xl font-semibold max-lg:mb-4'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
+        <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+          <div className="lg:w-[60%] ">
+            <h2 className='text-[52px] leading-[150%]  max-lg:text-3xl font-semibold max-lg:mb-4'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
            
             <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
               WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
