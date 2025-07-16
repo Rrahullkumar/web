@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 're
 import blacklogo from '../../assets/blacklogo1.png';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
-
+import msme from '../../../public/msme.png';
 import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -90,7 +90,7 @@ const Footer = () => {
 
         </div> */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
   {/* Logo Section */}
   <div className="flex   ">
     <Link to="/">
@@ -100,6 +100,7 @@ const Footer = () => {
         className="w-[186px]"
       />
     </Link>
+    
   </div>
 
   {/* Social Media Section */}
@@ -145,11 +146,18 @@ const Footer = () => {
     <p className="text-sm">
       1st Floor Orchid Business Park,<br />
       Near Subhash Chowk, Sector 48,<br />
-      Gurugram, Haryana 122004
+      Gurugram, Haryana 122004 <br />
+      
     </p>
   </div>
 
   {/* Email & Privacy Section */}
+  <div className="flex flex-col items-start gap-6">
+    <img src={msme} alt="" className='w-[70%] ' />
+    <p className="text-sm font-semibold">
+      GST No:- 06DKNPK2512K2Z1
+    </p>
+  </div>
   <div className="flex flex-col ">
     <h4 className="text-lg font-semibold mb-2">Email Us</h4>
     <p>

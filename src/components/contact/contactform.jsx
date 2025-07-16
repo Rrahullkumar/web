@@ -227,6 +227,7 @@ const ContactForm = () => {
         {/* Response Message */}
         {responseMsg && <p className="text-green-500 mt-2">{responseMsg}</p>}
       </form>
+    
     </div>
   );
 };
