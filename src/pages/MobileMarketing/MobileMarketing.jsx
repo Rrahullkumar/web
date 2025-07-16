@@ -78,109 +78,149 @@ const MobileMarketing = () => {
 
 
     const tabsContent = [
-        {
-            title: 'Mobile-Optimized Website Design & Development',
-            paragraphs: [
-                'Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:',
-                'Responsive Design: Websites that fluidly adapt to any screen size.',
-                'Fast Loading Speeds: Critical for mobile users to prevent bounce rates.',
-                'Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens.',
-            ],
-            image: tabimage
-        },
-        {
-            title: 'SMS & MMS Marketing Campaigns',
-            paragraphs: [
-                'Reach your audience instantly through targeted SMS and MMS campaigns.',
-                'Highly personalized messages for increased engagement.',
-                'Schedule messages to hit optimal engagement windows.',
-                'Track delivery and open rates in real time.',
-            ],
-            image: tabimage2
-        },
-        {
-            title: 'Location-Based & Proximity Marketing',
-            paragraphs: [
-                'Deliver promotions and messages based on user location.',
-                'Target users when they are near your business or competitors.',
-                'Boost in-store visits with location-triggered alerts.',
-            ],
-            image: tabimage3
-        },
-        {
-            title: 'Mobile App Marketing & Engagement',
-            paragraphs: [
-                'Promote your mobile app to increase downloads and active users.',
-                'Use push notifications to retain and re-engage customers.',
-                'Track user behavior to optimize in-app experiences.',
-            ],
-            image: tabimage4
-        },
-        {
-            title: 'QR Code Campaigns',
-            paragraphs: [
-                'Integrate QR codes into your offline marketing efforts.',
-                'Easily direct users to websites, app downloads, or special offers.',
-                'Track QR code scans for campaign effectiveness.',
-            ],
-            image: tabimage5
-        }
-    ];
+  {
+    title: 'Mobile-Optimized Website Design & Development',
+    paragraphs: [
+      'Mobile-optimized website design and development focuses on creating websites that deliver a seamless user experience across smartphones and tablets. It ensures fast loading speeds, responsive layouts, easy navigation, and touch-friendly elements. A mobile-optimized site improves user engagement, boosts search rankings, and drives better conversions by catering to the growing number of mobile users.',
+      'Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:',
+      'Responsive Design: Websites that fluidly adapt to any screen size.',
+      'Fast Loading Speeds: Critical for mobile users to prevent bounce rates.',
+      'Intuitive Navigation: Easy-to-use menus and clear calls-to-action for small screens.',
+    ],
+    image: tabimage,
+  },
+  {
+    title: 'SMS & MMS Marketing Campaigns',
+    paragraphs: [
+      'SMS & MMS marketing campaigns are powerful tools for reaching customers directly on their mobile devices. SMS delivers concise, text-based messages, while MMS allows rich media like images, videos, and audio. These campaigns help businesses promote offers, send reminders, and engage audiences with high open rates and instant delivery—making them ideal for time-sensitive promotions and personalized communication.',
+      'Directly communicate with your customers through their most personal device:',
+      'Promotional SMS: Sending timely offers, discounts, and announcements.',
+      'Transactional SMS: Delivering order confirmations, delivery updates, and reminders.',
+      'MMS Campaigns: Engaging users with multimedia content like images and videos.',
+    ],
+    image: tabimage2,
+  },
+  {
+    title: 'Location-Based & Proximity Marketing',
+    paragraphs: [
+      'Location-based and proximity marketing use GPS, Wi-Fi, Bluetooth, or beacon technology to deliver targeted messages to users based on their real-time location. This strategy allows businesses to engage customers with hyper-local offers, promotions, or alerts when they are near a store or within a specific area. It\'s a smart way to drive foot traffic, enhance user experience, and boost conversion rates by reaching the right audience at the right place and time.',
+      'Connect with customers in their physical vicinity, perfect for local businesses in Gurgaon:',
+      'Geofencing: Targeting users with ads when they enter a specific geographic area.',
+      'Local Search Optimization: Ensuring your business appears prominently in "near me" mobile searches.',
+    ],
+    image: tabimage3,
+  },
+  {
+    title: 'Mobile App Marketing & Engagement (if applicable)',
+    paragraphs: [
+      'Mobile app marketing and engagement focuses on promoting apps to attract users and keeping them active through personalized experiences. It involves strategies like app store optimization (ASO), push notifications, in-app messaging, and user behavior tracking to boost installs, retention, and user loyalty. The goal is to create lasting connections, drive usage, and maximize the app’s value throughout the customer journey.',
+      'If you have a mobile app, we help you get more downloads and keep users engaged:',
+      'App Store Optimization (ASO): Optimizing your app listing for higher visibility in app stores.',
+      'Push Notifications: Crafting compelling notifications to re-engage app users.',
+      'In-App Messaging: Delivering personalized messages within your app.',
+    ],
+    image: tabimage4,
+  },
+  {
+    title: 'QR Code Campaigns',
+    paragraphs: [
+      'QR code campaigns use scannable codes to bridge the gap between offline and digital experiences. By scanning a QR code, users can instantly access websites, promotional offers, videos, app downloads, or contact details. These campaigns are cost-effective, easy to implement, and highly trackable, making them a smart tool for engaging customers, boosting interaction, and driving conversions in physical spaces like stores, events, or print media.',
+      'Bridge the gap between your physical and digital presence:',
+      'Creating dynamic QR codes that link to special offers, landing pages, videos, or contact info.',
+      'Integrating QR codes into print ads, packaging, or in-store displays for mobile interaction.',
+    ],
+    image: tabimage5,
+  },
+];
 
-    const tabData = [
-        {
-            label: 'Mobile-Optimized Website Design & Development',
-            image: phoneImg,
-            content: (
-                <div className='text-[16px]'>
-                    <p className=" mb-4">
-                        Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                        <li><strong>Responsive Design:</strong> Websites that fluidly adapt to any screen size.</li>
-                        <li><strong>Fast Loading Speeds:</strong> Critical for mobile users to prevent bounce rates.</li>
-                        <li><strong>Intuitive Navigation:</strong> Easy-to-use menus and clear calls-to-action for small screens.</li>
-                    </ul>
-                </div>
-            ),
-        },
-        {
-            label: 'SMS & MMS Marketing Campaigns',
-            image: phoneImg,
-            content: (
-                <p>
-                    Engage customers through personalized <strong>SMS & MMS</strong> promotions, updates, and alerts. Drive better conversions by meeting users where they are — on their phones.
-                </p>
-            ),
-        },
-        {
-            label: 'Location-Based & Proximity Marketing',
-            image: phoneImg,
-            content: (
-                <p>
-                    Deliver targeted promotions based on customer locations using <strong>GPS</strong> or <strong>beacon technology</strong>. Perfect for hyperlocal engagement.
-                </p>
-            ),
-        },
-        {
-            label: 'Mobile App Marketing & Engagement',
-            image: phoneImg,
-            content: (
-                <p>
-                    Boost app installs and retain users with <strong>push notifications</strong>, <strong>in-app messages</strong>, and behavior-driven campaigns.
-                </p>
-            ),
-        },
-        {
-            label: 'QR Code Campaigns',
-            image: phoneImg,
-            content: (
-                <p>
-                    Drive offline-to-online engagement using scannable <strong>QR codes</strong> that link directly to mobile-optimized landing pages.
-                </p>
-            ),
-        },
-    ];
+
+   const tabData = [
+  {
+    label: 'Mobile-Optimized Website Design & Development',
+    image: phoneImg,
+    content: (
+      <div className='text-[16px]'>
+        <p className="mb-4">
+          Mobile-optimized website design and development focuses on creating websites that deliver a seamless user experience across smartphones and tablets. It ensures fast loading speeds, responsive layouts, easy navigation, and touch-friendly elements. A mobile-optimized site improves user engagement, boosts search rankings, and drives better conversions by catering to the growing number of mobile users.
+        </p>
+        <p className="mb-4">Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Responsive Design:</strong> Websites that fluidly adapt to any screen size.</li>
+          <li><strong>Fast Loading Speeds:</strong> Critical for mobile users to prevent bounce rates.</li>
+          <li><strong>Intuitive Navigation:</strong> Easy-to-use menus and clear calls-to-action for small screens.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    label: 'SMS & MMS Marketing Campaigns',
+    image: phoneImg,
+    content: (
+      <div className='text-[16px]'>
+        <p className="mb-4">
+          SMS & MMS marketing campaigns are powerful tools for reaching customers directly on their mobile devices. SMS delivers concise, text-based messages, while MMS allows rich media like images, videos, and audio. These campaigns help businesses promote offers, send reminders, and engage audiences with high open rates and instant delivery—making them ideal for time-sensitive promotions and personalized communication.
+        </p>
+        <p className="mb-4">Directly communicate with your customers through their most personal device:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Promotional SMS:</strong> Sending timely offers, discounts, and announcements.</li>
+          <li><strong>Transactional SMS:</strong> Delivering order confirmations, delivery updates, and reminders.</li>
+          <li><strong>MMS Campaigns:</strong> Engaging users with multimedia content like images and videos.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    label: 'Location-Based & Proximity Marketing',
+    image: phoneImg,
+    content: (
+      <div className='text-[16px]'>
+        <p className="mb-4">
+          Location-based and proximity marketing use GPS, Wi-Fi, Bluetooth, or beacon technology to deliver targeted messages to users based on their real-time location. This strategy allows businesses to engage customers with hyper-local offers, promotions, or alerts when they are near a store or within a specific area. It's a smart way to drive foot traffic, enhance user experience, and boost conversion rates by reaching the right audience at the right place and time.
+        </p>
+        <p className="mb-4">Connect with customers in their physical vicinity, perfect for local businesses in Gurgaon:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Geofencing:</strong> Targeting users with ads when they enter a specific geographic area.</li>
+          <li><strong>Local Search Optimization:</strong> Ensuring your business appears prominently in "near me" mobile searches.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    label: 'Mobile App Marketing & Engagement',
+    image: phoneImg,
+    content: (
+      <div className='text-[16px]'>
+        <p className="mb-4">
+          Mobile app marketing and engagement focuses on promoting apps to attract users and keeping them active through personalized experiences. It involves strategies like app store optimization (ASO), push notifications, in-app messaging, and user behavior tracking to boost installs, retention, and user loyalty. The goal is to create lasting connections, drive usage, and maximize the app’s value throughout the customer journey.
+        </p>
+        <p className="mb-4">If you have a mobile app, we help you get more downloads and keep users engaged:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>App Store Optimization (ASO):</strong> Optimizing your app listing for higher visibility in app stores.</li>
+          <li><strong>Push Notifications:</strong> Crafting compelling notifications to re-engage app users.</li>
+          <li><strong>In-App Messaging:</strong> Delivering personalized messages within your app.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    label: 'QR Code Campaigns',
+    image: phoneImg,
+    content: (
+      <div className='text-[16px]'>
+        <p className="mb-4">
+          QR code campaigns use scannable codes to bridge the gap between offline and digital experiences. By scanning a QR code, users can instantly access websites, promotional offers, videos, app downloads, or contact details. These campaigns are cost-effective, easy to implement, and highly trackable, making them a smart tool for engaging customers, boosting interaction, and driving conversions in physical spaces like stores, events, or print media.
+        </p>
+        <p className="mb-4">Bridge the gap between your physical and digital presence:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Creating dynamic QR codes that link to special offers, landing pages, videos, or contact info.</li>
+          <li>Integrating QR codes into print ads, packaging, or in-store displays for mobile interaction.</li>
+        </ul>
+      </div>
+    ),
+  },
+];
+
+
 
 
     const schemaData = {
@@ -319,7 +359,7 @@ const MobileMarketing = () => {
                 <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
                     <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' mb-10' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
-                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>Mobile Marketing Agency in Gurgaon</h2>
+                        <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>What is Mobile marketing?</h2>
                         <br />
                         <p className='text-base font-[350]'>
                             Mobile marketing is a type of digital marketing that focuses on reaching users via smartphones, tablets, and other handheld devices. It a variety of techniques such as text and multimedia messaging, mobile and website advertising, advertising in applications, push alerts, mobile applications, QR code advertising, and marketing based on the user’s geographical location. <br />
@@ -340,7 +380,7 @@ const MobileMarketing = () => {
 
                             {/* Tab Bar */}
                             <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide mb-8">
-                                <div className="relative inline-flex border-b px-2 pb-6">
+                                <div className="relative inline-flex border-b px-2 pb-6 mx-auto">
 
                                     {/* Sliding Indicator */}
                                     <span
@@ -356,7 +396,7 @@ const MobileMarketing = () => {
                                             key={index}
                                             ref={(el) => tabRefs.current[index] = el}
                                             onClick={() => handleTabClick(index)}
-                                            className="text-white text-base md:text-base whitespace-normal  min-w-[250px] break-words text-center px-2 md:px-2 py-1 transition-all duration-300"
+                                            className="text-white text-left text-base md:text-base whitespace-normal  min-w-[250px] break-words px-2 md:px-2 py-1 transition-all duration-300"
                                         >
                                             {tab.title}
                                         </button>
@@ -365,7 +405,7 @@ const MobileMarketing = () => {
                             </div>
 
                             {/* Tab Content */}
-                            <div className="relative flex items-start justify-center lg:px-32 pt-20 max-lg:pt-10 overflow-hidden lg:min-h-[450px]">
+                            <div className="relative flex items-start justify-center lg:px-32 py-10 lg:min-h-[450px]">
                                 <div className="relative w-full max-lg:min-h-[600px]">
                                     <AnimatePresence custom={direction}>
                                         <motion.div
@@ -400,7 +440,7 @@ const MobileMarketing = () => {
                                                 <LazyLoadImage
                                                     src={tabsContent[activeTab].image}
                                                     alt="Mobile Marketing"
-                                                    className="w-full h-auto rounded-lg object-contain"
+                                                    className="w-full h-auto object-contain"
                                                 />
                                             </div>
                                         </motion.div>
