@@ -313,19 +313,19 @@ cursor: pointer;
 
 .flipcard h2,
 .industriweserve h2 {
-  color: #409338;
+  color: #388E3C;
   ;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  -webkit-text-stroke: 1px #409338;
+  -webkit-text-stroke: 1px #388E3C;
   ;
-  -webkit-text-fill-color: #409338;
+  -webkit-text-fill-color: #388E3C;
   margin-top: 30px;
   margin-bottom: 60px;
-  -webkit-text-stroke: 2px #5c945c;
-  -webkit-text-fill-color: #5c945c;
+  -webkit-text-stroke: 2px #388E3C;
+  -webkit-text-fill-color: #388E3C;
 }
 
 .image_wrap {
@@ -396,7 +396,7 @@ cursor: pointer;
 
 /* Back side style */
 .flip-card-back {
-  background-color: #409338;
+  background-color: #388E3C;
   color: white;
   transform: rotateY(180deg);
   text-align: center;
@@ -414,46 +414,46 @@ cursor: pointer;
 }
 
 .Slidercrausol .heading {
-  color: #409338;
+  color: #388E3C;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  -webkit-text-stroke: 1px #409338;
-  -webkit-text-fill-color: #409338;
+  -webkit-text-stroke: 1px #388E3C;
+  -webkit-text-fill-color: #388E3C;
   margin: 30px 0;
 
-  -webkit-text-stroke: 2px #5c945c;
-  -webkit-text-fill-color: #5c945c;
+  -webkit-text-stroke: 2px #388E3C;
+  -webkit-text-fill-color: #388E3C;
 
 }
 
 .faq {
-  color: #409338;
+  color: #388E3C;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  -webkit-text-stroke: 1px #409338;
-  -webkit-text-fill-color: #409338;
+  -webkit-text-stroke: 1px #388E3C;
+  -webkit-text-fill-color: #388E3C;
   margin: 90px 0;
 
-  -webkit-text-stroke: 2px #5c945c;
-  -webkit-text-fill-color: #5c945c;
+  -webkit-text-stroke: 2px #388E3C;
+  -webkit-text-fill-color: #388E3C;
 }
 
 .countertextheading {
-  color: #409338;
+  color: #388E3C;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   text-align: start;
-  -webkit-text-stroke: 1px #409338;
-  -webkit-text-fill-color: #409338;
+  -webkit-text-stroke: 1px #388E3C;
+  -webkit-text-fill-color: #388E3C;
 
 
-  -webkit-text-stroke: 2px #5c945c;
-  -webkit-text-fill-color: #5c945c;
+  -webkit-text-stroke: 2px #388E3C;
+  -webkit-text-fill-color: #388E3C;
 
 }
 
@@ -501,13 +501,13 @@ cursor: pointer;
 
 .floating-text {
   display: inline-block;
-  color: #409338;
+  color: #388E3C;
   animation: floatUpDown 2s ease-in-out infinite;
 }
 
 .floating-text-two {
   display: inline-block;
-  color: #409338;
+  color: #388E3C;
   animation: floatup 4s ease-in-out infinite;
 }
 

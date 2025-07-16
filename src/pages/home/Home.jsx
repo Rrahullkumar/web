@@ -71,9 +71,7 @@ import Readit360 from './resources/logo/Readit360.svg';
 import sandstone from './resources/logo/sandstone.svg';
 import shreehari from './resources/logo/shreehari.svg';
 import sportsline from './resources/logo/sportsline.svg';
-
-
-
+import bgVideo from "./resources/logo/bgvideo.mp4";
 import ParticlesBackground from "../../components/ParticlesBackground";
 import Newcontact from "../../components/Newcontact/Newcontact";
 
@@ -395,45 +393,54 @@ const Home = () => {
       <div className=' homeclass  '>
 
 
-        <div className="flex items-center justify-center gap-[60px] h-[100vh]  max-md:h-[50vh] overflow-hidden  ">
-          <ParticlesBackground />
-          <div className='text-part max-md:p-[16px] '>
+      <div className="relative h-[100vh] max-md:h-[80vh] overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 max-lg:"
+      >
+        <source src={bgVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-            <div className="">
-              <h1 className="h1tag ">
-                <span>Best </span>
-                <span className="text-[#409338] floating-text">Digital Marketing</span> <br />
+      {/* Optional Overlay for readability */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
 
-                <span>
-                  Agency with
-                  <span className="text-[#409338] floating-text-two pl-3 inline-block"> Smart Strategies </span>
-                </span>
-              </h1>
-            </div>
+      {/* Foreground Content */}
+      <div className="relative z-20 flex items-center justify-center gap-[60px] h-full">
 
-            <h2 className='h2tag text-[black]'>Where strategy meets trust to fuel digital growth</h2>
-
-            <hr className='line'></hr>
-
-            <strong className='text-[grey] trust max-lg:mt-4 '>Trusted by 2,000+ local brands and businesses</strong>
-
-
-
-
-            <div className='text-center flex items-center justify-center'>
-              <LazyLoadImage src={client} alt="Client Logo" />
-            </div>
-
-
+        <div className="text-part max-md:p-[16px] text-white">
+          <div>
+            <h1 className="h1tag">
+              <span>Best </span>
+              <span className="text-[#FFBA34] floating-text">Digital Marketing</span> <br />
+              <span>
+                Agency with
+                <span className="text-[#FFBA34] floating-text-two pl-3 inline-block">Smart Strategies</span>
+              </span>
+            </h1>
           </div>
 
+          <h2 className="h2tag text-white">Where strategy meets trust to fuel digital growth</h2>
 
+          <hr className="line border-white" />
+
+          <strong className="text-[white] trust max-lg:mt-4">Trusted by 2,000+ local brands and businesses</strong>
+
+          <div className="text-center flex items-center justify-center mt-4">
+            <LazyLoadImage src={client} alt="Client Logo" />
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div className=" w-[100%]  max-w-[1440px] mx-auto  max-lg:mt-[40px] flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] mt-24 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2">
-            <h2 className="text-[#5c945c] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
+            <h2 className="text-[#388E3C] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
 
               Building Brands with
               Integrity and Innovation
@@ -444,7 +451,7 @@ const Home = () => {
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
             <Link to={"/contact-us"}>
-              <button className="uiverse-button" style={{backgroundColor:"#9BC394"}}>
+              <button className="uiverse-button" style={{backgroundColor:"#4caf50"}}>
                 Get Started
               </button>
             </Link>
@@ -468,8 +475,8 @@ const Home = () => {
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
-          <p className=" text-[black] text-[20px] font-semibold max-lg:mt-[52px]">Our Client's</p>
-          <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#5c945c] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
+          <p className=" text-[#FFBA34] text-[20px] font-semibold max-lg:mt-[52px]">Our Client's</p>
+          <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#388E3C] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>
 
 
@@ -525,7 +532,7 @@ const Home = () => {
         <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
-          <h2 className=" "> Service's we Offered</h2>
+          <h2 className="" style={{color:'#4caf50'}}> Service's we Offered</h2>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             {cardsData.map(({ id, icon, content, paracontent }) => {
@@ -629,7 +636,7 @@ const Home = () => {
             <Countarcard trigger={trigger} />
           </div>
           <div className="w-full md:w-1/2 lg:w-[50%] text-center md:text-left space-y-6">
-            <h4 className="text-2xl md:text-3xl font-bold text-[#5c945c]">
+            <h4 className="text-2xl md:text-3xl font-bold text-[#388E3C]">
               Why Choose WebNest Media?
             </h4>
 
@@ -638,7 +645,7 @@ const Home = () => {
             </p>
 
             <Link to="/about-us">
-              <button className="getstarted-btnn   mt-[20px] px-6 py-2 rounded bg-green-600 text-white hover:bg-green-700 transition duration-300">
+              <button className="uiverse-button mt-10">
                 Know More
               </button>
             </Link>
