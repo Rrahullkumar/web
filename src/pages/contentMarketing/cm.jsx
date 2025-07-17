@@ -351,7 +351,7 @@ const ContentMarketing = () => {
             <h2 className='text-[32px] max-md:text-2xl mb-16 font-semibold'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
             <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
               <div className="cardss px-20 py-5 pt-10 rounded-xl flex flex-col gap-3 items-center bg-white">
-                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>213,456</h3>
+                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>13,456</h3>
                 <p className='text-2xl text-nowrap'>Projects Delivered</p>
               </div>
               <div className="cardss  px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
@@ -383,36 +383,36 @@ const ContentMarketing = () => {
 
           <div className='grid lg:grid-cols-2 max-md:grid-cols gap-32 max-lg:gap-10 px-24 max-lg:px-4'>
             <div className="cmcard flex flex-col">
-              <div className='flex flex-row gap-2 mb-10 max-md:mb-6 items-center'>
+              <div className='flex flex-row gap-4 mb-10 max-md:mb-6 items-center'>
                 <h3 className='text-8xl max-md:text-7xl lg:font-medium text-[#FFBA34]'>01</h3>
-                <h3 className='text-[52px] max-lg:text-3xl font-semibold '>Blog Writing Services</h3>
+                <h3 className='text-[36px] max-lg:text-3xl font-semibold '>Blog  Writing <br className='max-lg:hidden'/> Services</h3>
               </div>
               <p className='text-base'>
                 Our skilled professionals develop exceptional blogs that are in accordance with your brand’s content marketing objectives. Every blog is carefully crafted to fulfill the needs of your target audience's search intent. Utilizing our high-quality content for blogs, your website will offer engaging experiences to users and differentiate itself from competitors . We strive for improved visibility of your content on various search engines. Blogs authored by us ensure a lasting relationship between you and your readers as the interactive, friendly style used captures interest, ensuring readers return frequently.
               </p>
             </div>
             <div className="cmcard flex flex-col">
-              <div className='flex flex-row gap-2 mb-10 max-md:mb-6 items-center'>
+              <div className='flex flex-row gap-4 mb-10 max-md:mb-6 items-center'>
                 <h3 className='text-8xl max-md:text-7xl font-medium text-[#FFBA34]'>02</h3>
-                <h3 className='text-[52px] font-semibold max-lg:text-3xl'>Guest Post Writing Services</h3>
+                <h3 className='text-[36px] font-semibold max-lg:text-3xl'>Guest Post <br className='max-lg:hidden'/> Writing Services</h3>
               </div>
               <p className='text-base'>
                 The website content we create is fresh, engaging, and optimized for SEO. To begin with, we conduct thorough competitor analysis, keyword mapping including primary and secondary keywords as well as LSI keywords, and outline how your content will be structured. After that groundwork has been finished, our professional writers produce content that fits the brand persona while addressing the intended audience. From homepage copy to service pages or even landing pages – everything is covered. You tell us the content strategy and we make sure every word is aligned to your marketing objectives perfectly.
               </p>
             </div>
             <div className="cmcard flex flex-col">
-              <div className='flex flex-row gap-2 mb-10 max-md:mb-6 items-center'>
+              <div className='flex flex-row gap-4 mb-10 max-md:mb-6 items-center'>
                 <h3 className='text-8xl max-md:text-7xl font-medium text-[#FFBA34]'>03</h3>
-                <h3 className='text-[52px] font-semibold max-lg:text-3xl'>Website Content Writing</h3>
+                <h3 className='text-[36px] font-semibold max-lg:text-3xl'>Website Content <br className='max-lg:hidden'/> Writing</h3>
               </div>
               <p className='text-base'>
                 Our skilled professionals develop exceptional blogs that are in accordance with your brand’s content marketing objectives. Every blog is carefully crafted to fulfill the needs of your target audience's search intent. Utilizing our high-quality content for blogs, your website will offer engaging experiences to users and differentiate itself from competitors . We strive for improved visibility of your content on various search engines. Blogs authored by us ensure a lasting relationship between you and your readers as the interactive, friendly style used captures interest, ensuring readers return frequently.
               </p>
             </div>
             <div className="cmcard flex flex-col">
-              <div className='flex flex-row gap-2 mb-10 max-md:mb-6 items-center'>
+              <div className='flex flex-row gap-4 mb-10 max-md:mb-6 items-center'>
                 <h3 className='text-8xl max-md:text-7xl font-medium text-[#FFBA34]'>04</h3>
-                <h3 className='text-[52px] font-semibold max-lg:text-3xl'>Press Release Writing Services</h3>
+                <h3 className='text-[36px] font-semibold max-lg:text-3xl'>Press Release <br className='max-lg:hidden'/>Writing Services</h3>
               </div>
               <p className='text-base'>
                 Our skilled professionals develop exceptional blogs that are in accordance with your brand’s content marketing objectives. Every blog is carefully crafted to fulfill the needs of your target audience's search intent. Utilizing our high-quality content for blogs, your website will offer engaging experiences to users and differentiate itself from competitors . We strive for improved visibility of your content on various search engines. Blogs authored by us ensure a lasting relationship between you and your readers as the interactive, friendly style used captures interest, ensuring readers return frequently.
@@ -503,136 +503,153 @@ const ContentMarketing = () => {
 
 
         <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
-          <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
-          <div className="accordion-wrapper-columns">
-            {/* Left Column */}
-            <div className="accordion-column">
-              <div className="accordion">
-                <input type="checkbox" id="left-1" />
-                <label className="accordion-label" htmlFor="left-1">
-                  What is content marketing?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Content marketing is a strategy that involves creating and sharing valuable, relevant content to attract, engage, and convert your target audience. It builds trust and positions your brand as an authority in your industry.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="left-2" />
-                <label className="accordion-label" htmlFor="left-2">
-                  How does content marketing help my business?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Content marketing drives organic traffic, improves SEO, builds brand awareness, and increases customer loyalty. It also helps educate your audience and guide them toward making a purchase.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="left-3" />
-                <label className="accordion-label" htmlFor="left-3">
-                  What types of content do you create?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    We create a variety of content including blog posts, website copy, social media content, email campaigns, video scripts, case studies, whitepapers, and more—all tailored to your business goals.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="left-4" />
-                <label className="accordion-label" htmlFor="left-4">
-                  Is content marketing the same as advertising?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Not exactly. Advertising is short-term and sales-focused, while content marketing is long-term and relationship-focused. It’s about providing value, not just pushing products.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="left-5" />
-                <label className="accordion-label" htmlFor="left-5">
-                  How long does it take to see results from content marketing?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Content marketing is a long-term strategy. While you might see initial engagement within weeks, significant traffic growth and conversions typically take 3–6 months or more.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column */}
-            <div className="accordion-column">
-              <div className="accordion">
-                <input type="checkbox" id="right-6" />
-                <label className="accordion-label" htmlFor="right-6">
-                  How is content marketing different from SEO?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    SEO is the technical process of improving your website’s visibility, while content marketing is about creating valuable content that fuels SEO efforts. They work best together.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-7" />
-                <label className="accordion-label" htmlFor="right-7">
-                  Do you offer content strategy as part of your service?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Yes! We provide a complete content marketing strategy, including content planning, keyword research, tone of voice guidelines, and performance tracking.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-8" />
-                <label className="accordion-label" htmlFor="right-8">
-                  Can content marketing help with lead generation?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    Absolutely. By offering informative, solution-based content, you build trust and encourage visitors to take action—whether it’s signing up, contacting you, or making a purchase.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-9" />
-                <label className="accordion-label" htmlFor="right-9">
-                  How do you measure content marketing success?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    We track success using key metrics like website traffic, engagement rates, keyword rankings, conversion rates, and ROI through tools like Google Analytics and Search Console.
-                  </p>
-                </div>
-              </div>
-
-              <div className="accordion">
-                <input type="checkbox" id="right-10" />
-                <label className="accordion-label" htmlFor="right-10">
-                  Why should I choose WebNest Media for content marketing?
-                </label>
-                <div className="accordion-content">
-                  <p>
-                    At WebNest Media, we offer custom content strategies backed by research and creativity. Our team focuses on delivering consistent, high-quality content that aligns with your brand and drives results.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+  <h2 className="text-center">
+    Let's address your <span className="text-black">questions</span> today
+  </h2>
+  <div className="accordion-wrapper-columns">
+    {/* Left Column */}
+    <div className="accordion-column">
+      <div className="accordion">
+        <input type="checkbox" id="left-1" />
+        <label className="accordion-label" htmlFor="left-1">
+          What is affiliate marketing?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Affiliate marketing is a way to earn money by promoting someone
+            else’s product. When someone buys through your link, you get a
+            small commission.
+          </p>
         </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="left-2" />
+        <label className="accordion-label" htmlFor="left-2">
+          Can anyone start affiliate marketing?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Yes! Whether you’re a student, blogger, business owner, or just
+            exploring online income, anyone can start affiliate marketing with
+            the right guidance.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="left-3" />
+        <label className="accordion-label" htmlFor="left-3">
+          Do I need a website to become an affiliate marketer?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Not necessarily. You can promote links on social media, YouTube, X,
+            or even WhatsApp. But having a website helps you build trust and
+            grow faster.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="left-4" />
+        <label className="accordion-label" htmlFor="left-4">
+          How much can I earn with affiliate marketing?
+        </label>
+        <div className="accordion-content">
+          <p>
+            It depends on your efforts and the products you promote. Some people
+            earn a few thousand a month, while others make it a full-time
+            income.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="left-5" />
+        <label className="accordion-label" htmlFor="left-5">
+          Is affiliate marketing free to start?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Yes, most affiliate programs are free to join. You just need time,
+            content, and strategy to start earning.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Right Column */}
+    <div className="accordion-column">
+      <div className="accordion">
+        <input type="checkbox" id="right-6" />
+        <label className="accordion-label" htmlFor="right-6">
+          How long does it take to see results on SERP?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Some see results in a few weeks, others in a few months.
+            Consistency and choosing the right products make a big difference.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="right-7" />
+        <label className="accordion-label" htmlFor="right-7">
+          Can I do affiliate marketing part-time?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Absolutely. It’s flexible. You can work on it after hours or
+            weekends and still earn passive income over time.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="right-8" />
+        <label className="accordion-label" htmlFor="right-8">
+          Is affiliate marketing safe and legal in India?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Yes, it’s 100% legal and widely practiced in India. Just make sure
+            to join trusted programs and follow ethical practices.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="right-9" />
+        <label className="accordion-label" htmlFor="right-9">
+          What are the most popular affiliate programs in India?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Some of the top ones are Amazon Associates, Flipkart, and affiliate
+            programs from hosting companies, banks, and online tools.
+          </p>
+        </div>
+      </div>
+
+      <div className="accordion">
+        <input type="checkbox" id="right-10" />
+        <label className="accordion-label" htmlFor="right-10">
+          Can businesses use affiliate marketing too?
+        </label>
+        <div className="accordion-content">
+          <p>
+            Definitely. Businesses can set up affiliate programs to get more
+            customers through influencers, bloggers, and marketers promoting
+            their brand.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </section>
     </>
   );
