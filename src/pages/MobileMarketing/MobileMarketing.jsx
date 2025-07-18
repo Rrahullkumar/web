@@ -557,8 +557,7 @@ Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-le
 
                 </div>
                 <Newcontact></Newcontact>
-                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0">
-                    <p className=" mb-[50px] max-lg:mb-[30px] font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0"> 
                     <Accordion></Accordion>
                 </div>
             </div>

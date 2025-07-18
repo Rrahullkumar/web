@@ -153,7 +153,7 @@
   font-size: 18px;
   font-weight: 500;
   margin: 20px 0;
-  color: black;
+  color: white;
   line-height: 1.6em;
 
 
@@ -501,13 +501,13 @@ cursor: pointer;
 
 .floating-text {
   display: inline-block;
-  color: #388E3C;
+  color: #FFBA34;
   animation: floatUpDown 2s ease-in-out infinite;
 }
 
 .floating-text-two {
   display: inline-block;
-  color: #388E3C;
+  color: #FFBA34;
   animation: floatup 4s ease-in-out infinite;
 }
 
