@@ -13,7 +13,7 @@ import Star4 from "../../pages/home/resources/Frame4.png"
 
 import slidethree from "../../pages/home/resources/Slack.png";
 import trello from "../../pages/home/resources/trello.png";
-import pana from "../../pages/home/resources/pana.png";
+import pana from "../../pages/home/resources/pana1.png";
 import rocket from "../../pages/home/resources/rocket.png";
 import marketingbanner from "../../pages/home/resources/marketingbanner.png";
 import PPC from "../../pages/home/resources/PPC.svg";
@@ -437,9 +437,9 @@ const Home = () => {
       </div>
     </div>
 
-        <div className=" w-[100%] mt-24 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] mt-16 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
-          <div className=" lg:w-1/2">
+          <div className=" lg:w-1/2 flex flex-col justify-between">
             <h2 className="text-[#388E3C] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
 
               Building Brands with
@@ -458,11 +458,13 @@ const Home = () => {
           </div>
 
 
-          <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
+          <div className="w-1/2 lg:w-1/2 flex items-start justify-start max-lg:hidden 
+    
+        ">
             <LazyLoadImage
               src={marketingbanner}
               alt="Marketing Banner"
-              className="w-[400px] h-[400px] object-contain"
+              className="w-[664px] h-[400px] rounded-2xl "
             />
           </div>
 
@@ -474,7 +476,7 @@ const Home = () => {
           /> */}
         </div>
 
-        <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
+        <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-16" >
           <p className=" text-[#FFBA34] text-[20px] font-semibold max-lg:mt-[52px]">Our Client's</p>
           <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#388E3C] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>
@@ -482,7 +484,7 @@ const Home = () => {
 
         <div className="mt-16">
 
-          <div className="wrapper flex items-center" data-aos="fade-up" data-aos-delay="100">
+          <div className="wrapper flex items-center" >
             <div className="item item1 "><img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" style={{ transform: "scale(1.2)" }} /></div>
             <div className="item item2"><img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" /></div>
             <div className="item item3"><img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" style={{ transform: "scale(1.5)" }}/></div>
@@ -513,11 +515,11 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
 
 
-          <div className="flex justify-center md:w-[35%] ">
-            <LazyLoadImage src={pana} className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
+          <div className="flex justify-center md:w-[48%] ">
+            <LazyLoadImage src={pana} className=" " alt="    Comprehensive Digital Marketing Services  in India" />
           </div>
 
-          <div className="md:w-[60%]  comprensive w-[100%]">
+          <div className="md:w-[58%]  comprensive w-[100%]">
 
             <h2 className="mt-[20px] mb-[20px] font-bold text-[28px] max-md:text-[20px] text-[#4D4D4D] ">
               Comprehensive Digital Marketing Services  in India
@@ -664,8 +666,8 @@ const Home = () => {
           <Newcontact />
         </div>
 
-        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
-          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
+        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
+          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom mt-6 max-lg:mt-0">Frequently Asked Questions (FAQs)</p>
           <Accordion />
         </div>
       </div>
