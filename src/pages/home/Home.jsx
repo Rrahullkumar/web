@@ -534,7 +534,7 @@ const Home = () => {
         <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
-          <h2 className="" style={{color:'#4caf50'}}> Service's we Offered</h2>
+          <h2 className="" style={{color:'#4caf50'}}> Services We Offered</h2>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             {cardsData.map(({ id, icon, content, paracontent }) => {

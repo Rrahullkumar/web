@@ -20,7 +20,7 @@ import image6 from "./resources/image6.svg";
 import { useRef } from 'react';
 import Newcontact from '../../components/Newcontact/Newcontact';
 
-
+import AboutTesimonial  from "./component/aboutTestimonial"
 const cards = [
   { icon: image1, title: "Client-Centric Approach" },
   { icon: image2, title: "Data-Driven Decisions" },
@@ -160,17 +160,17 @@ const AboutUS = () => {
       </section>
 
 
-      <section className='mt-[96px] max-w-[1440px] w-[100%] mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+      {/* <section className='mt-[96px] max-w-[1440px] w-[100%] mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
         <h6 data-aos="fade-up" className='text-[32px] font-semibold text-black leading-[120%] text-center'>Ready to Transform Your Digital Presence?</h6>
         <p data-aos="fade-up" className='text-base text-black font-light text-center mt-[32px] lg:mb-[96p`x] mb-10 '> Whether you're looking to boost your search rankings, engage your social audience, or develop a comprehensive <br className='max-lg:hidden' /> digital strategy, WebNest Media is here to help.</p>
 
 
-      </section>
+      </section> */}
 
 
-
+{/* 
 <section data-aos="fade-up" className="max-w-[1440px] w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-5 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  overflow-hidden">
-      {/* Left Side - Team Image and Description */}
+   
       <div className="w-full md:w-1/2 text-center md:text-center">
          <LazyLoadImage
           src={team}
@@ -186,11 +186,17 @@ const AboutUS = () => {
         </p>
       </div>
 
-      {/* Right Side - Slider */}
+ 
       <div className="w-full md:w-1/2 flex justify-center items-center overflow-hidden">
     <Photoslider/>
       </div>
-    </section>
+    </section> */}
+
+    <section  className="max-w-[1440px] w-[100%] mx-auto flex flex-col md:flex-row justify-center  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  overflow-hidden">
+   
+   <AboutTesimonial />
+   </section>
+
     
 
       <section className="  max-w-[1440px] mt-[50px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]">
