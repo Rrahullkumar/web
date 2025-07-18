@@ -389,11 +389,7 @@ const Affilatemarketing = () => {
           </h2>
 
           <p data-aos="fade-up" className="trust-subheading text-lg mb-[40px] lg:w-[90%] lg:text-center">
-            In today’s competitive digital landscape, content is more than just information—it’s your voice,
-            your story, and your most powerful marketing tool. At WebNest Media, we provide the content marketing services
-            in Gurgaon designed to build your brand’s authority, drive traffic, and convert prospects into loyal customers.
-            Whether you're a startup looking to create your first content campaign or an established business aiming to scale,
-            our content marketing strategies are crafted with precision, creativity, and purpose.
+            At WebNest Media, we believe affiliate marketing is more than just links—it's about building smart partnerships that drive real results. As a trusted affiliate marketing company in Gurgaon, we help brands connect with the right publishers and influencers to expand reach, generate leads, and boost sales.
           </p>
 
         </div>
