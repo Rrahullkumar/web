@@ -153,7 +153,7 @@ const Footer = () => {
 
   {/* Email & Privacy Section */}
   <div className="flex flex-col items-start gap-6">
-    <img src={msme} alt="" className='w-[70%] ' />
+    <img src={msme} alt="MSME image" className='w-[70%] '  />
     <p className="text-sm font-semibold">
       GST No:- 06DKNPK2512K2Z1
     </p>
