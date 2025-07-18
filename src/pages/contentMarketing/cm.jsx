@@ -501,154 +501,140 @@ const ContentMarketing = () => {
           <Newcontact />
         </div>
 
+            <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
 
-        <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
-  <h2 className="text-center">
-    Let's address your <span className="text-black">questions</span> today
-  </h2>
-  <div className="accordion-wrapper-columns">
-    {/* Left Column */}
-    <div className="accordion-column">
-      <div className="accordion">
-        <input type="checkbox" id="left-1" />
-        <label className="accordion-label" htmlFor="left-1">
-          What is affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Affiliate marketing is a way to earn money by promoting someone
-            else’s product. When someone buys through your link, you get a
-            small commission.
-          </p>
-        </div>
-      </div>
+          <div className="accordian">
+            <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
+            <div className="accordion-wrapper-columns">
+              {/* Left Column */}
+              <div className="accordion-column">
+                <div className="accordion">
+                  <input type="checkbox" id="left-1" />
+                  <label className="accordion-label" htmlFor="left-1">
+                    What is content marketing?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Content marketing is a strategy that involves creating and sharing valuable, relevant content to attract, engage, and convert your target audience. It builds trust and positions your brand as an authority in your industry.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-2" />
-        <label className="accordion-label" htmlFor="left-2">
-          Can anyone start affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes! Whether you’re a student, blogger, business owner, or just
-            exploring online income, anyone can start affiliate marketing with
-            the right guidance.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="left-2" />
+                  <label className="accordion-label" htmlFor="left-2">
+                    How does content marketing help my business?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Content marketing drives organic traffic, improves SEO, builds brand awareness, and increases customer loyalty. It also helps educate your audience and guide them toward making a purchase.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-3" />
-        <label className="accordion-label" htmlFor="left-3">
-          Do I need a website to become an affiliate marketer?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Not necessarily. You can promote links on social media, YouTube, X,
-            or even WhatsApp. But having a website helps you build trust and
-            grow faster.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="left-3" />
+                  <label className="accordion-label" htmlFor="left-3">
+                    What types of content do you create?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      We create a variety of content including blog posts, website copy, social media content, email campaigns, video scripts, case studies, whitepapers, and more—all tailored to your business goals.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-4" />
-        <label className="accordion-label" htmlFor="left-4">
-          How much can I earn with affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            It depends on your efforts and the products you promote. Some people
-            earn a few thousand a month, while others make it a full-time
-            income.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="left-4" />
+                  <label className="accordion-label" htmlFor="left-4">
+                    Is content marketing the same as advertising?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Not exactly. Advertising is short-term and sales-focused, while content marketing is long-term and relationship-focused. It’s about providing value, not just pushing products.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-5" />
-        <label className="accordion-label" htmlFor="left-5">
-          Is affiliate marketing free to start?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes, most affiliate programs are free to join. You just need time,
-            content, and strategy to start earning.
-          </p>
-        </div>
-      </div>
-    </div>
+                <div className="accordion">
+                  <input type="checkbox" id="left-5" />
+                  <label className="accordion-label" htmlFor="left-5">
+                    How long does it take to see results from content marketing?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Content marketing is a long-term strategy. While you might see initial engagement within weeks, significant traffic growth and conversions typically take 3–6 months or more.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-    {/* Right Column */}
-    <div className="accordion-column">
-      <div className="accordion">
-        <input type="checkbox" id="right-6" />
-        <label className="accordion-label" htmlFor="right-6">
-          How long does it take to see results on SERP?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Some see results in a few weeks, others in a few months.
-            Consistency and choosing the right products make a big difference.
-          </p>
-        </div>
-      </div>
+              {/* Right Column */}
+              <div className="accordion-column">
+                <div className="accordion">
+                  <input type="checkbox" id="right-6" />
+                  <label className="accordion-label" htmlFor="right-6">
+                    How is content marketing different from SEO?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      SEO is the technical process of improving your website’s visibility, while content marketing is about creating valuable content that fuels SEO efforts. They work best together.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-7" />
-        <label className="accordion-label" htmlFor="right-7">
-          Can I do affiliate marketing part-time?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Absolutely. It’s flexible. You can work on it after hours or
-            weekends and still earn passive income over time.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="right-7" />
+                  <label className="accordion-label" htmlFor="right-7">
+                    Do you offer content strategy as part of your service?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Yes! We provide a complete content marketing strategy, including content planning, keyword research, tone of voice guidelines, and performance tracking.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-8" />
-        <label className="accordion-label" htmlFor="right-8">
-          Is affiliate marketing safe and legal in India?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes, it’s 100% legal and widely practiced in India. Just make sure
-            to join trusted programs and follow ethical practices.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="right-8" />
+                  <label className="accordion-label" htmlFor="right-8">
+                    Can content marketing help with lead generation?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      Absolutely. By offering informative, solution-based content, you build trust and encourage visitors to take action—whether it’s signing up, contacting you, or making a purchase.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-9" />
-        <label className="accordion-label" htmlFor="right-9">
-          What are the most popular affiliate programs in India?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Some of the top ones are Amazon Associates, Flipkart, and affiliate
-            programs from hosting companies, banks, and online tools.
-          </p>
-        </div>
-      </div>
+                <div className="accordion">
+                  <input type="checkbox" id="right-9" />
+                  <label className="accordion-label" htmlFor="right-9">
+                    How do you measure content marketing success?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      We track success using key metrics like website traffic, engagement rates, keyword rankings, conversion rates, and ROI through tools like Google Analytics and Search Console.
+                    </p>
+                  </div>
+                </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-10" />
-        <label className="accordion-label" htmlFor="right-10">
-          Can businesses use affiliate marketing too?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Definitely. Businesses can set up affiliate programs to get more
-            customers through influencers, bloggers, and marketers promoting
-            their brand.
-          </p>
+                <div className="accordion">
+                  <input type="checkbox" id="right-10" />
+                  <label className="accordion-label" htmlFor="right-10">
+                    Why should I choose WebNest Media for content marketing?
+                  </label>
+                  <div className="accordion-content">
+                    <p>
+                      At WebNest Media, we offer custom content strategies backed by research and creativity. Our team focuses on delivering consistent, high-quality content that aligns with your brand and drives results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+        
 
       </section>
     </>
