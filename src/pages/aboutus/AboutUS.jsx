@@ -199,14 +199,7 @@ const AboutUS = () => {
 
     
 
-      <section className="  max-w-[1440px] mt-[50px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]">
-
-        
-
-
-      </section>
-      <Newcontact/>
-      <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[60px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
+      <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[5px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
       
       <h2 className='mt-[40px] text-[black] font-normal  text-center leading-[120%]
           text-[32px]           
