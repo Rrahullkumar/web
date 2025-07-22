@@ -151,27 +151,28 @@ const Seo = () => {
 
 
   const trustData = [
-    {
-      title: "On-Page SEO",
-      text: "Optimize the structure and content of your website to increase visitors and rank well. Our on-page SEO services concentrate on improving important components including internal linking, URL structure, meta tags, keywords, and content quality. We guarantee that every page on your website is optimized for search engines..",
-    },
-    {
-      title: "Off-Page SEO",
-      text: "Boost your website through high-quality backlinks and a stronger online presence. We develop effective off-page SEO strategies, including acquiring high-quality backlinks, improving your social media visibility, and fostering brand mentions across the web.",
-    },
-    {
-      title: "Technical SEO",
-      text: "Boost your website’s technical performance for faster load times, easier crawlability, and stronger search rankings. Our team optimizes the technical aspects of your site, from site speed and mobile-friendliness to error fixes, structured data, and secure HTTPS implementation ensuring your website is easy for search engines to index and users to navigate.",
-    },
-    {
-      title: "Local SEO",
-      text: "Boost your local visibility with optimized listings, targeted local keywords, and a strong presence in local search results. We help businesses dominate local search results through Google My Business optimization, local keyword targeting, citation management, and review strategies giving you a strong presence where your customers are searching.",
-    },
-    {
-      title: "E-Commerse SEO",
-      text: "Drive more sales and visibility by optimizing your online store to stand out and rank above the competition. We implement tailored SEO strategies for e-commerce businesses, including product and category page optimization, rich snippets, and SEO-friendly architecture ensuring your store stands out in competitive markets.",
-    },
-  ];
+  {
+    title: "On-Page SEO",
+    text: "Our on-page SEO services include meta title, description, keyword research, URLs, and content quality. We have a specialized team that guarantees your pages are visible on SERPs. It also includes improving site speed, mobile responsiveness, and internal linking.",
+  },
+  {
+    title: "Off-Page SEO",
+    text: "High-quality backlinks improve your website performance. Off-page activities include various high domain backlinks that help increase organic traffic. Guest posting, article submission, classified submissions, PPT sharing, and more backlinks are created by our team.",
+  },
+  {
+    title: "Technical SEO",
+    text: "Technical SEO is all about fixing broken links, ensuring search engines can crawl your site easily, and making sure your pages load quickly on all devices. We add structured data to help Google understand your content, switch to HTTPS for security, and handle redirects properly.",
+  },
+  {
+    title: "Local SEO",
+    text: "We help businesses dominate local search results through Google My Business optimization, local keyword targeting, citation management, and review strategies—giving you a strong presence where your customers are searching.",
+  },
+  {
+    title: "E-Commerce SEO",
+    text: "E-Commerce SEO helps your products appear when customers search for what you’re selling. From optimizing product titles and descriptions to improving site speed, mobile experience, and clean URLs, we ensure your store ranks higher and loads faster.",
+  },
+];
+ 
 
 
   const trustDatasecond = [
