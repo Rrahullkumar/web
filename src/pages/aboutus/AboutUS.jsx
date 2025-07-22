@@ -192,7 +192,7 @@ const AboutUS = () => {
       </div>
     </section> */}
 
-    <section  className="max-w-[1440px] w-[100%] mx-auto flex flex-col md:flex-row justify-center  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  overflow-hidden">
+    <section  className=" flex flex-col md:flex-row justify-center    overflow-hidden">
    
    <AboutTesimonial />
    </section>

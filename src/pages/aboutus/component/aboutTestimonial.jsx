@@ -211,11 +211,11 @@ const TeamSlider = () => {
      
      
       </p>
-      {/* <Swiper
+      <Swiper
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={4}
+        slidesPerView={4} 
         loop={true}
         autoplay={{ delay: 3500, disableOnInteraction: false }}
         coverflowEffect={{
@@ -228,7 +228,7 @@ const TeamSlider = () => {
 
          breakpoints={{
     375: { slidesPerView: 1 },
-    768: { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
     1024: { slidesPerView: 3 },
     1280: { slidesPerView: 4 },
   }}
@@ -238,7 +238,7 @@ const TeamSlider = () => {
         {team.map((member, index) => (
           <SwiperSlide
             key={index}
-            className="flex flex-col items-center w-72 transition-transform duration-300"
+            className="flex flex-col items-center  transition-transform duration-300"
           >
             <div className=" flex justify-center items-center rounded-full h-52 w-52 overflow-hidden
              group-[.swiper-slide-active]:bg-blue-100
@@ -250,52 +250,7 @@ const TeamSlider = () => {
             <p className="text-sm text-gray-500 text-center">{member.role}</p>
           </SwiperSlide>
         ))}
-      </Swiper> */}
-
-        <Swiper
-      effect="coverflow"
-      grabCursor={true}
-      centeredSlides={true}
-      loop={true}
-      autoplay={{ delay: 3500, disableOnInteraction: false }}
-      coverflowEffect={{
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 2.5,
-        slideShadows: false,
-      }}
-      breakpoints={{
-        375: { slidesPerView: 1 },
-        768: { slidesPerView: 1 },
-        1024: { slidesPerView: 3 },
-        1280: { slidesPerView: 4 },
-      }}
-      observer={true}
-      observeParents={true}
-      modules={[EffectCoverflow, Autoplay]}
-      className="max-w-[1440px] w-full mx-auto"
-    >
-      {team.map((member, index) => (
-        <SwiperSlide
-          key={index}
-          className="flex flex-col items-center w-72 transition-transform duration-300"
-        >
-          <div
-            className="flex justify-center items-center rounded-full h-52 w-52 overflow-hidden
-            group-[.swiper-slide-active]:bg-blue-100"
-          >
-            <img
-              src={member.img}
-              alt={member.name}
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <h3 className="text-lg font-bold text-center mt-4">{member.name}</h3>
-          <p className="text-sm text-gray-500 text-center">{member.role}</p>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+      </Swiper>
 
    
     </div>
