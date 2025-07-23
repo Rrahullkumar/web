@@ -15,7 +15,7 @@ import { FiPhone } from 'react-icons/fi';
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
 import topimage from './resources/topimage.png'
-import Newcontact from '../../components/Newcontact/Newcontact'
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Lead = () => {
@@ -262,7 +262,7 @@ const Lead = () => {
 
 
 
-        <Newcontact></Newcontact>
+    
         <div className="lmc6 mt-[96px] max-lg:mt-10">
 
           <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>

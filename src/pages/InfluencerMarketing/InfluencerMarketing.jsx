@@ -10,7 +10,7 @@ import c5img from './resources/c5contaisner.png'
 import Accordion from './components/Accordian';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import image18 from './resources/image18.png';
 import image19 from './resources/image19.png';
@@ -212,7 +212,6 @@ const InfluencerMarketing = () => {
 
 
 
-        <Newcontact></Newcontact>
         <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-0 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" lg:mb-[50px] text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

@@ -36,7 +36,7 @@ import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
 import seolocation from "./resources/seolocation.svg";
 import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
-import Newcontact from '../../components/Newcontact/Newcontact.jsx';
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 
@@ -651,8 +651,7 @@ const Seo = () => {
 
         </section>
 
-        <Newcontact />
-
+   
         <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
 
           <div>

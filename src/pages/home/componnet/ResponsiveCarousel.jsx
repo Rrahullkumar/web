@@ -4,7 +4,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import "./slider.css";
-import { memo } from 'react';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';

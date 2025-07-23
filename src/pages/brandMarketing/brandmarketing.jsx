@@ -29,7 +29,7 @@ import { FiPhone } from "react-icons/fi";
 
 import Accordian from "./component/Accordian";
 import { Helmet } from 'react-helmet'
-import Newcontact from '../../components/Newcontact/Newcontact'
+
 
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.png'
@@ -376,7 +376,7 @@ const Brandmarketing = () => {
 
 
       
-      <Newcontact></Newcontact>
+    
       <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[32px]           

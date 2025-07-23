@@ -7,7 +7,7 @@ import Accordian from '../home/componnet/Accordian.jsx';
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-import Newcontact from '../../components/Newcontact/Newcontact.jsx';
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 import image17 from './Resources/image17.png';
@@ -497,9 +497,7 @@ const ContentMarketing = () => {
           />
 
         </section>
-        <div className='mt-24 max-md:mt-10 '>
-          <Newcontact />
-        </div>
+       
 
             <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
 

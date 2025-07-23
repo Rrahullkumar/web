@@ -11,7 +11,7 @@ import icon6 from './resources/icon6.svg'
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection' 
-import Newcontact from '../../components/Newcontact/Newcontact'
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -154,7 +154,7 @@ const SmsMarketing = () => {
                 </div>
                 </div>
         </div>
-        <Newcontact/>
+    
          <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" mb-[50px] lg:text-center font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

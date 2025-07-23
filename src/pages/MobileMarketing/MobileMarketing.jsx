@@ -15,7 +15,7 @@ import { CircleX } from "lucide-react";
 import { Helmet } from 'react-helmet'
 import tabimage from './resources/tabimage.svg'
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+
 import tabimage2 from './resources/Rectangle2.svg'
 import tabimage3 from './resources/Rectangle3.svg'
 import tabimage4 from './resources/Rectangle4.svg'
@@ -553,10 +553,7 @@ Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-le
 
 
 
-                <div data-aos="fade-up" className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
-
-                </div>
-                <Newcontact></Newcontact>
+            
                 <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0"> 
                     <Accordion></Accordion>
                 </div>

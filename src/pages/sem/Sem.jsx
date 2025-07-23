@@ -41,7 +41,7 @@ const adsData = [
 
 
 import redlady from "./resources/redlady.png"
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import { Link } from 'react-router-dom';
 
 
@@ -721,10 +721,6 @@ const Sem = () => {
 
 
 
-
-        <div className='mb-[24px]'>
-          <Newcontact />
-        </div>
 
 
 

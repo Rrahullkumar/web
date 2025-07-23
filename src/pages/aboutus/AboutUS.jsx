@@ -18,7 +18,6 @@ import image4 from "./resources/image4.svg";
 import image5 from "./resources/image5.svg";
 import image6 from "./resources/image6.svg";
 import { useRef } from 'react';
-import Newcontact from '../../components/Newcontact/Newcontact';
 
 import AboutTesimonial  from "./component/aboutTestimonial"
 const cards = [

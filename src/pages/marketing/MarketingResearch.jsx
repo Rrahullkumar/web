@@ -15,7 +15,7 @@ import m66img from './resources/m66img.svg'
 import m7img from './resources/m7img.svg'
 import m8img from './resources/m8img.svg'
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import { Helmet } from 'react-helmet';
 // import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.png'
@@ -296,13 +296,6 @@ const MarketingResearch = () => {
         </div>
 
 
-
-
-
-
-
-
-        <Newcontact></Newcontact>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[60px] mb-[50px]'>
           <h2 className='text-3xl px-10 max-lg:px-4 text-center font-semibold'>Let's address your <span className='text-[#4caf50]'>questions</span> today</h2>

@@ -12,7 +12,7 @@ import image_7 from './resources/image_7.svg'
 
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -300,8 +300,7 @@ const DigitalTranformationservice = () => {
         </div>
 
 
-        {/* Contact Section */}
-        <Newcontact></Newcontact>
+   
 
         {/* Accordion Section */}
         <section className='mt-[60px] mb-[50px] mx-auto max-w-[1440px]'>

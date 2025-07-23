@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import "./CounterCard.css";
-import { memo } from "react";
+
 const CounterCard = ({
   target,
   label,

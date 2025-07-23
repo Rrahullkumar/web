@@ -72,35 +72,11 @@ import sandstone from './resources/logo/sandstone.svg';
 import shreehari from './resources/logo/shreehari.svg';
 import sportsline from './resources/logo/sportsline.svg';
 import bgVideo from "./resources/logo/bgvideo.mp4";
-import ParticlesBackground from "../../components/ParticlesBackground";
-import Newcontact from "../../components/Newcontact/Newcontact";
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { color } from "framer-motion";
-
-const images = [
-  { src: ank, name: "ANK" },
-  { src: badminton, name: "Badminton" },
-  { src: carworld, name: "Car World" },
-  { src: Digiwizards, name: "Digiwizards" },
-  { src: Divyanshed, name: "Divyanshed" },
-  { src: divyanshglobal, name: "Divyansh Global" },
-  { src: dosaada, name: "Dosaada" },
-  { src: ForeCorner, name: "ForeCorner" },
-  { src: Harishresidennce, name: "Harish Residence" },
-  { src: HouseForever, name: "House Forever" },
-  { src: Lotus, name: "Lotus" },
-  { src: ntech, name: "NTech" },
-  { src: Readit360, name: "Readit360" },
-  { src: sandstone, name: "Sandstone" },
-  { src: shreehari, name: "Shree Hari" },
-  { src: sportsline, name: "Sportsline" },
-];
 
 
-
-const firstTrackImages = [...images, ...images, ...images, ...images];
-const shuffledImages = [...images, ...images, ...images, ...images].sort(() => Math.random() - 0.5);
 
 const autoSlide = [
   {
@@ -468,12 +444,7 @@ const Home = () => {
             />
           </div>
 
-          {/* <LazyLoadImage
-            src={marketingbanner}
-            alt="Marketing Banner"
-
-            className="w-[400px] h-[400px] object-contain max-lg:hidden"
-          /> */}
+        
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-16" >
@@ -659,13 +630,7 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px]  overflow-hidden mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
-
-
-
-        <div className='mb-[24px]'>
-          <Newcontact />
-        </div>
-
+ 
         <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom mt-6 max-lg:mt-0">Frequently Asked Questions (FAQs)</p>
           <Accordion />

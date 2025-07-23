@@ -3,7 +3,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import './animationcard.css';
-import { memo } from 'react';
 import Ecomm from "./industries/Ecomm.svg";
 import Education from "./industries/Education.svg";
 import FinanceBanking from "./industries/Finance-Banking.svg";

@@ -5,13 +5,8 @@ import React from "react";
 import "./slider.css";
 
 import { useEffect, useState } from "react";
-
-import SocialMediaMarketing from "../../home/resources/Socialmediamarketing.svg";
-import WebDevelopment from "../../home/resources/WebDevelopment.svg";
-import EmailMarketing from "../../home/resources/EmailMarketing.svg";
 import maninwhite from "../../home/resources/maninwhite.png";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { memo } from "react";
+
 
 const testimonials = [
   {
@@ -153,24 +148,7 @@ export default React.memo(function App() {
   );
 });
 
-// function TestimonialCard({ name, rating, message, sunheading }) {
-//   return (
-//     <div
-//       className="w-full max-w-sm bg-[#409338] p-6 rounded-xl shadow-md"
-//       style={{ boxShadow: "0 4px 8px rgba(128, 128, 128, 0.5)" }}
-//     >
-//       <div className="flex items-center gap-4 mb-4">
-       
-//         <div>
-//           <p className="font-semibold text-[16px]">{name}</p>
-//           <p className="text-sm">{sunheading}</p>
-//           <p className="text-xs">{rating}</p>
-//         </div>
-//       </div>
-//       <p className="text-sm leading-relaxed">{message}</p>
-//     </div>
-//   );
-// }
+
 const TestimonialCard = React.memo(function TestimonialCard({ name, rating, message, sunheading }) {
   return (
     <div className="speech-bubble w-full max-w-sm shadow-md relative">

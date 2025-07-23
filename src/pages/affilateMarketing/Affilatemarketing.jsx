@@ -13,7 +13,7 @@ import Conatctfrom from '../../components/contact/contactform';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 import { FiPhone } from "react-icons/fi";
 import heroimage from './resources/heroimage.png'
-import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom'
@@ -507,7 +507,6 @@ const Affilatemarketing = () => {
 
 
 
-        <Newcontact />
         
 
       </div>

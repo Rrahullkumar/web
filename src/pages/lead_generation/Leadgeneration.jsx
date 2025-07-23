@@ -14,7 +14,7 @@ import { FiPhone } from 'react-icons/fi';
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import arrow from './resources/arrow.svg'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -251,7 +251,7 @@ const Leadgeneration = () => {
 
           </div>
         </div>
-        <Newcontact></Newcontact>
+      
         <div className="lgc7 mt-[96px] max-lg:mt-10 max-w-[1440px] mx-auto px-10 max-lg:px-4">
           <p className=" mb-[50px] font-medium text-[32px]  max-md:text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

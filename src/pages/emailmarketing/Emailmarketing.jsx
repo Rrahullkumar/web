@@ -9,7 +9,6 @@ import { FiPhone } from "react-icons/fi";
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
-import Newcontact from '../../components/Newcontact/Newcontact'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -242,7 +241,7 @@ const Emailmarketing = () => {
 
 
         </div>
-        <Newcontact></Newcontact>
+    
         <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto ">
           <p className=" mb-12 font-medium text-[32px] leading-[40px] stroke-custom fill-custom text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

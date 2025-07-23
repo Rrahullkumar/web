@@ -17,7 +17,7 @@ import Accordian from "./component/Accordian"
 
 
 import { Helmet } from 'react-helmet';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import c1image from './resourse/c1image.png'
 import HeroSection from '../../components/Herosection/Herosection';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -289,7 +289,6 @@ const Orm = () => {
 
 
 
-        <Newcontact></Newcontact>
         <section className='max-w-[1440x] px-10 max-md:px-0'>
 
           <h2 className='mt-[40px] text-center text-[black] font-normal leading-[160%]

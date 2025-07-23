@@ -10,7 +10,6 @@ import { FiPhone } from "react-icons/fi";
 import { FaWordpress, FaShoppingCart, FaBusinessTime, FaBlogger, FaGraduationCap, FaUsers, FaCalendarAlt, FaWpforms } from "react-icons/fa";
 
 import { Helmet } from 'react-helmet'
-import Newcontact from '../../components/Newcontact/Newcontact';
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.png";
 import { Link } from 'react-router-dom';
@@ -583,7 +582,7 @@ const web = () => {
           />
         </section>
 
-        <Newcontact />
+  
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 w-[100%]'>
           <Accordion />
         </section>

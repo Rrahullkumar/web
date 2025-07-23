@@ -31,7 +31,7 @@ import { SiSmartthings } from "react-icons/si";
 import { GiLevelFourAdvanced } from "react-icons/gi";
 import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.png'
 
@@ -572,9 +572,7 @@ const Smm = () => {
 
         </div>
 
-        <div className='mt-24 max-md:mt-10'>
-          <Newcontact />
-        </div>
+   
         <div className='mt-[100px] max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
           <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
 
