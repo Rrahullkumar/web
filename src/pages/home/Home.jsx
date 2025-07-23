@@ -404,7 +404,9 @@ const Home = () => {
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
-            <Link to={"/contact-us"}>
+            <Link to={"/contact-us"}
+                     aria-label="WebNest Media Get Started "
+            >
               <button className="uiverse-button" style={{backgroundColor:"#4caf50"}}>
                 Get Started
               </button>
@@ -595,7 +597,10 @@ const Home = () => {
               Webnest Media, based in Gurgaon, brings over 20 years of expertise in web design, development, and digital marketing. With a focus on delivering innovative and results-driven solutions, they help businesses enhance their online presence and achieve sustainable growth.
             </p>
 
-            <Link to="/about-us">
+            <Link to="/about-us"
+                     aria-label="WebNest Media  Know More"
+
+            >
               <button className="uiverse-button mt-10">
                 Know More
               </button>

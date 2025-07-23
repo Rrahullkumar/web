@@ -27,6 +27,7 @@ const Footer = () => {
         src={blacklogo}
         alt="WebNest Media Logo"
         className="w-[186px]"
+        aria-label="Webnest media Logo"
       />
     </Link>
     
@@ -42,6 +43,7 @@ const Footer = () => {
         href="https://www.facebook.com/profile.php?id=61576616442478"
         target="_blank"
         rel="noopener noreferrer"
+         aria-label="WebNest Media  Facebook"
       >
         <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -49,6 +51,7 @@ const Footer = () => {
         href="https://x.com/webnestmediag?s=21"
         target="_blank"
         rel="noopener noreferrer"
+         aria-label="WebNest Media  Twitter Page"
       >
         <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -56,6 +59,8 @@ const Footer = () => {
         href="https://www.linkedin.com/company/webnest-media-group/"
         target="_blank"
         rel="noopener noreferrer"
+                 aria-label="WebNest Media Linkedin Page"
+
       >
         <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -63,6 +68,8 @@ const Footer = () => {
         href="https://www.instagram.com/webnestmediagroup/"
         target="_blank"
         rel="noopener noreferrer"
+                 aria-label="WebNest Media  Instagram Page"
+
       >
         <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -97,7 +104,9 @@ const Footer = () => {
         info@webnestmedia.com
       </a>
     </p>
-    <Link to="/privacy-policy"  className="text-sm text-white hover:underline inline">
+    <Link to="/privacy-policy" 
+    aria-label="webnest Privacy Policy"
+    className="text-sm text-white hover:underline inline">
       <p className="text-sm text-white hover:underline inline-block">Privacy Policy</p>
     </Link>
   </div>

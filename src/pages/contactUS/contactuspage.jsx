@@ -121,7 +121,10 @@ const ContactUsPage = () => {
                 transition={{ duration: 0.4 }}
                 className="text-base p-3 font-semibold rounded-lg border border-opacity-50 overflow-hidden relative"
               >
-                <a href="mailto:connect@webnestmedia.com" target="_blank" rel="noopener noreferrer">connect@webnestmedia.com</a>
+                <a href="mailto:connect@webnestmedia.com" target="_blank" rel="noopener noreferrer"
+                
+                  aria-label="WebNest Media  Conatct us page"
+                >connect@webnestmedia.com</a>
               </motion.button>
             </div>
           </motion.div>
@@ -141,7 +144,9 @@ const ContactUsPage = () => {
                 transition={{ duration: 0.4 }}
                 className="text-base p-3 font-semibold rounded-lg border border-opacity-50 overflow-hidden relative"
               >
-                <a href="mailto:info@webnestmedia.com" target="_blank" rel="noopener noreferrer">info@webnestmedia.com</a>
+                <a href="mailto:info@webnestmedia.com" target="_blank" rel="noopener noreferrer"
+                  aria-label="WebNest Media  info website "
+                >info@webnestmedia.com</a>
               </motion.button>
             </div>
           </motion.div>
@@ -182,7 +187,10 @@ const ContactUsPage = () => {
                 transition={{ duration: 0.4 }}
                 className="text-base p-3 font-semibold rounded-lg border border-opacity-50 overflow-hidden relative"
               >
-                <a href="tel:+919696964606" target="_blank" rel="noopener noreferrer">+91 9696964606</a>
+                <a href="tel:+919696964606" target="_blank" rel="noopener noreferrer"
+                
+                  aria-label="WebNest Media  Conatct us page"
+                >+91 9696964606</a>
               </motion.button>
             </div>
           </motion.div>

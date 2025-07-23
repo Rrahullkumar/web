@@ -486,7 +486,11 @@ const Sem = () => {
                 onClick={() => scrollToSection("semservice")}
                 className='uiverse-button'>Learn More</button>
 
-              <Link to="/contact-us">
+              <Link to="/contact-us"
+              
+                       aria-label="WebNest Media  Conatact Us"
+
+              >
 
                 <button className='white-button'>Contact Us</button>
 

@@ -344,7 +344,7 @@ const Seo = () => {
 
     {/* CTA Button */}
     <div className="flex gap-3 mt-8">
-      <Link to="/about-us">
+      <Link to="/about-us" aria-label="Learn more about our SEO Services">
         <button
           onClick={() => scrollToSection("seoservice")}
           className="uiverse-button"

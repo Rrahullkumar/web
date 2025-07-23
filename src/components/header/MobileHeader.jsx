@@ -76,7 +76,9 @@ export default function MobileHeader() {
       <div className="flex justify-between items-center pl-[16px] pr-[16px] ">
         <div className="flex items-center gap-[10px]">
           
-          <Link to="/">
+          <Link to="/"
+          aria-label="Webnest Media Logo "
+          >
             <img src={logo} alt="WebNest Media Logo" className="w-[120px] h-[80px]  cursor-pointer" />
           </Link>
          
@@ -103,7 +105,10 @@ export default function MobileHeader() {
                     />
                   </button>
                 ) : (
-                  <Link to={item.path} onClick={handleLinkClick} className="block w-full">
+                  <Link to={item.path} onClick={handleLinkClick} className="block w-full"
+                  aria-label="Webnest Header Titles"
+                  
+                  >
                     {item.title}
                   </Link>
                 )}
@@ -116,7 +121,9 @@ export default function MobileHeader() {
                       key={sub.title}
                       className="pb-[10px] pl-[10px] pt-[5px] cursor-pointer text-[#374151] text-[14px] font-normal hover:text-[#43b649] border-b border-gray-100 last:border-0"
                     >
-                      <Link to={sub.path} onClick={handleLinkClick} className="block w-full">
+                      <Link to={sub.path} onClick={handleLinkClick} className="block w-full"
+                      aria-label="Mobile Header Subtitle "
+                      >
                         {sub.title}
                       </Link>
                     </li>

@@ -12,16 +12,12 @@ const FooterSection = ({ title, items,path }) => {
   key={index}
   className="footer-items cursor-pointer relative group mb-[10px]  mt-[10px]  "
 >
-  {/* <Link
-    to={item.path}
-    className="text-inherit no-underline pb-[5px] group-hover:border-[#25D366] hover:border-[#25D366] transition-all duration-300 border-b-2 border-transparent"
-  >
-    {item.label}
-  </Link> */}
+ 
 
 <Link
   to={item.path}
   className="relative inline-block text-inherit no-underline font-medium group"
+  aria-label="WebNest Footer Link"
 >
   <span
     className="pb-[5px] inline-block transition-all duration-300 group-hover:text-[#25D366]
