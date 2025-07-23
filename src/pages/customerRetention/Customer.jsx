@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+// import React, { useState, useRef, useEffect } from 'react'
 import c2image from './resources/c2image.png'
 import './customer.css'
 import c3image from './resources/c3image.png' 
@@ -10,8 +10,8 @@ import image5 from './resources/image5.svg'
 import image6 from './resources/image6.svg'
 import c5image from './resources/c5image.png'
 import Accordion from './Components/Accordian'
-import Conatctfrom from '../../components/contact/contactform';
-import { FiPhone } from 'react-icons/fi';
+// import Conatctfrom from '../../components/contact/contactform';
+// import { FiPhone } from 'react-icons/fi';
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
 import topimage from './resources/topimage.png'
@@ -26,10 +26,6 @@ const Lead = () => {
 
 
       <Helmet>
-
-
-
-
 
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />

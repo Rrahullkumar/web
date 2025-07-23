@@ -1,15 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Seo.css';
-import c1_image from './resources/c1_image.svg';
-import c2_image from './resources/hero_img.svg';
-import Conatctfrom from '../../components/contact/contactform';
-import Accordian from '../home/componnet/Accordian.jsx';
-import { FiPhone } from "react-icons/fi";
-import step1 from './resources/step1.svg';
-import step2 from './resources/step2.svg';
-import step3 from './resources/step3.svg';
-import step4 from './resources/step4.svg';
-import step5 from './resources/step5.svg';
+
 import heroimage from "./resources/heroimage.png";
 
 import seoicon1 from "./resources/seoicon1.svg";
@@ -19,21 +10,13 @@ import seoicon4 from "./resources/seoicon4.svg";
 import seoicon5 from "./resources/seoicon5.svg";
 import seoicon6 from "./resources/seoicon6.svg";
 
-import cneterstroke from "./resources/centerpaint.svg"
 
-import rightpaint from "./resources/rightpaint.svg"
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 
-import SeoConatct from "./resources/seoconatct.svg"
 import newlogo from "./resources/newsseologo.svg"
 
-import Left_Arrow from '../Digitalservice/resources/Left_Arrow.svg';
-import Right_Arrow from '../Digitalservice/resources/Right_Arrow.svg';
 
-import seocontactimage from "./resources/mailbox.svg";
-import seocontactphoneicon from "./resources/seocontactphoneicon.svg";
-import seolocation from "./resources/seolocation.svg";
 import AnimatedCardList from '../../components/industryCard/AnimatedCardList.jsx';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
 
@@ -43,74 +26,13 @@ import { Link } from 'react-router-dom';
 
 const Seo = () => {
 
-
-  const sliderRef = useRef(null);
-
-  const scrollLeft = () => {
-    sliderRef.current.scrollBy({ left: -400, behavior: 'smooth' });
-  };
-
-  const scrollRight = () => {
-    sliderRef.current.scrollBy({ left: 400, behavior: 'smooth' });
-  };
-
-
-  const [text, setText] = useState('');
-  const words = ['Visibility', 'Rank', 'Traffic'];
-  const delay = 150;
-  const pause = 1000;
-
-  const wordIndex = useRef(0);
-  const charIndex = useRef(0);
-  const isDeleting = useRef(false);
-
-  useEffect(() => {
-    let timeout;
-
-    const type = () => {
-      const currentWord = words[wordIndex.current];
-
-      if (!isDeleting.current) {
-        // Typing
-        setText(currentWord.substring(0, charIndex.current));
-        if (charIndex.current < currentWord.length) {
-          charIndex.current++;
-          timeout = setTimeout(type, delay);
-        } else {
-          // Pause after typing full word
-          timeout = setTimeout(() => {
-            isDeleting.current = true;
-            timeout = setTimeout(type, delay);
-          }, pause);
-        }
-      } else {
-        // Deleting
-        if (charIndex.current > 0) {
-          charIndex.current--;
-          setText(currentWord.substring(0, charIndex.current));
-          timeout = setTimeout(type, delay / 2); // Faster delete
-        } else {
-          // Pause before starting next word
-          isDeleting.current = false;
-          wordIndex.current = (wordIndex.current + 1) % words.length;
-          timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-        }
-      }
-    };
-
-    type();
-
-    return () => clearTimeout(timeout);
-  }, []);
-
-
   const statsData = [
     { number: '21,3456', label: 'Organic Traffic Growth' },
     { number: '13,200+', label: 'Keyword Rankings' },
     { number: '98/100', label: 'Speed & UX Score' },
     { number: '231,580+', label: 'Leads Generated' },
   ];
-  // testimonialData.js
+  
   const testimonialData = [
     {
       rating: "4.9",
@@ -172,8 +94,6 @@ const Seo = () => {
     text: "E-Commerce SEO helps your products appear when customers search for what you’re selling. From optimizing product titles and descriptions to improving site speed, mobile experience, and clean URLs, we ensure your store ranks higher and loads faster.",
   },
 ];
- 
-
 
   const trustDatasecond = [
     {
@@ -201,36 +121,6 @@ const Seo = () => {
 
 
   ];
-
-  const faqData = [
-    {
-      question: "What is Search Engine Marketing (SEM)?",
-      answer: "SEM refers to strategies that promote websites by increasing visibility in search engine results pages through paid advertising.",
-    },
-    {
-      question: "What are the benefits of Search Engine Marketing?",
-      answer: "It provides instant visibility, targeted traffic, measurable results, and better ROI for your marketing budget.",
-    },
-    {
-      question: "How does SEM differ from SEO?",
-      answer: "SEM is paid and provides instant results, while SEO is organic and builds visibility over time.",
-    },
-    {
-      question: "What is PPC (Pay-Per-Click) marketing in Search Engine Marketing?",
-      answer: "PPC is an SEM model where advertisers pay a fee each time their ad is clicked.",
-    },
-    {
-      question: "Why is keyword research important in SEM?",
-      answer: "It ensures ads target the right search terms, improving ad relevance and cost-efficiency.",
-    },
-  ];
-
-  const [openIndex, setOpenIndex] = useState(null);
-
-  const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
 
   const features = [
     {
@@ -267,7 +157,6 @@ const Seo = () => {
   ];
 
   const secondREf = useRef();
-
   const [cardtrigger, setCardTrigger] = useState(false);
 
   useEffect(() => {
@@ -296,9 +185,6 @@ const Seo = () => {
 
     };
   }, []);
-
-
-
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -410,12 +296,12 @@ const Seo = () => {
         <meta  name="author" content="WebNest Media" />
         <link  rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
-        <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
+        {/* <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
         <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/search-engine-optimization" />
         <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-CzLAVzJe.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -537,19 +423,7 @@ const Seo = () => {
               ))}
             </div>
 
-            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:lg:grid-cols-4 gap-6 m px-4 ">
-  {trustData.map((item, index) => (
-    <div className="bg-white shadow-md rounded-lg p-6" key={index}>
-      <h3 className="text-xl font-semibold mb-2">
-        <span className="font-bold text-yellow-500 mr-1">{index + 1}.</span>
-        {item.title}
-      </h3>
-      <p className="text-gray-600">{item.text}</p>
-    </div>
-  ))}
-
-</div> */}
-
+        
 
           </div>
         </section>

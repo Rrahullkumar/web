@@ -24,8 +24,8 @@ import why5 from "./resources/why5.svg";
 import why6 from "./resources/why6.svg";
 import why7 from "./resources/why7.svg";
 import why8 from "./resources/why8.svg";
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
+// import Conatctfrom from "../../components/contact/contactform";
+// import { FiPhone } from "react-icons/fi";
 
 import Accordian from "./component/Accordian";
 import { Helmet } from 'react-helmet'
@@ -162,16 +162,12 @@ const Brandmarketing = () => {
 <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
 
 
-
-
-
-
-<meta property="og:title" content="Best Branding Agency in Gurgaon | Build a Powerful Brand " />
+{/* <meta property="og:title" content="Best Branding Agency in Gurgaon | Build a Powerful Brand " />
   <meta property="og:description" content="Develop a winning brand identity with strategy services in Gurgaon. We help define your voice, values, and market positioning and beyond." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/brand-strategy" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
- <meta property="og:site_name" content="WebNest Media" />
+ <meta property="og:site_name" content="WebNest Media" /> */}
 
     </Helmet>
     <div className=' '>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import topimage from './resources/topimage.png'
 import c2image from './resources/c2image.svg'
 import c3image from './resources/c3image.svg'
@@ -40,7 +40,7 @@ const SmsMarketing = () => {
 
 
 
-<meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
+{/* <meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
   <meta property="og:description" content="Reach your audience instantly with WebNest Media's SMS marketing services in Gurgaon. Whether it's promotional, transactional, or OTP messages, we help you connect with your customers." />
  
  
@@ -48,7 +48,7 @@ const SmsMarketing = () => {
   <meta property="og:url" content="https://webnestmedia.com/sms-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CcByDmTi.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
 

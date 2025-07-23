@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
-import './Leadgeneration.css'
-import image2 from './resources/image2.svg'
+import  { useState } from 'react';
+// import { ChevronDown } from 'lucide-react';
+// import './Leadgeneration.css'
+// import image2 from './resources/image2.svg'
 import topimage from './resources/topimage.png'
 import image3 from './resources/image3.png'
 import icon1 from './resources/ifl.svg'
@@ -9,9 +9,9 @@ import icon2 from './resources/diversity_1.svg'
 import icon3 from './resources/arrows_input.svg'
 import icon4 from './resources/lightbulb.svg'
 import Accordion from './components/Accordian';
-import Conatctfrom from '../../components/contact/contactform';
-import { FiPhone } from 'react-icons/fi';
-import { useEffect } from 'react';
+// import Conatctfrom from '../../components/contact/contactform';
+// import { FiPhone } from 'react-icons/fi';
+// import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
 
@@ -92,13 +92,13 @@ const Leadgeneration = () => {
 
 
 
-<meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads " />
+{/* <meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads " />
   <meta property="og:description" content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/lead-generation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-Dc6cZZ9c.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
       </Helmet>

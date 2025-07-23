@@ -1,12 +1,12 @@
-import React from 'react'
-import ContactForm from '../../components/contact/contactform'
+// import React from 'react'
+// import ContactForm from '../../components/contact/contactform'
 import Accordion from './component/Accordian'
-import { SiConsul } from "react-icons/si";
+// import { SiConsul } from "react-icons/si";
 
-import { MdMovieCreation } from "react-icons/md";
-import { FaHandshakeSimple } from "react-icons/fa6";
-import { GrOptimize } from "react-icons/gr";
-import { FiPhone } from "react-icons/fi";
+// import { MdMovieCreation } from "react-icons/md";
+// import { FaHandshakeSimple } from "react-icons/fa6";
+// import { GrOptimize } from "react-icons/gr";
+// import { FiPhone } from "react-icons/fi";
 import { FaWordpress, FaShoppingCart, FaBusinessTime, FaBlogger, FaGraduationCap, FaUsers, FaCalendarAlt, FaWpforms } from "react-icons/fa";
 
 import { Helmet } from 'react-helmet'
@@ -14,7 +14,7 @@ import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.png";
 import { Link } from 'react-router-dom';
 import c2image from './resources/c2image.svg'
-import c3image from './resources/c3image.png'
+// import c3image from './resources/c3image.png'
 import image13 from './resources/image13.png';
 import image15 from './resources/image15.png';
 import {
@@ -23,7 +23,7 @@ import {
   TrendingUp,
   Headphones,
 } from 'lucide-react';
-import { CheckCircle } from 'lucide-react';
+// import { CheckCircle } from 'lucide-react';
 import image16 from './resources/image16.png';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
 const webDevelopmentSchema = {
@@ -222,12 +222,12 @@ const web = () => {
   ];
 
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const scrollToSection = (id) => {
+  //   const element = document.getElementById(id);
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <>
@@ -238,12 +238,14 @@ const web = () => {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
-        <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
+
+
+        {/* <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
         <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/web-development" />
         <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:site_name" content="WebNest Media" /> */}
 
 
         <script type="application/ld+json">

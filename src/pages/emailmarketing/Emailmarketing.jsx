@@ -1,11 +1,11 @@
-import React from 'react'
+
 import topimage from './resources/topimage.png'
 import c2image from './resources/c2image.svg'
 import icon1 from './resources//icon1.svg'
 import icon2 from './resources//icon2.svg'
 import icon3 from './resources//icon3.svg'
 import icon4 from './resources//icon4.svg'
-import { FiPhone } from "react-icons/fi";
+
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
@@ -16,7 +16,6 @@ const Emailmarketing = () => {
   return (
 
     <>
-
 
       <Helmet>
 
@@ -31,27 +30,17 @@ const Emailmarketing = () => {
         <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
 
   
-<meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media " />
+{/* <meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media " />
   <meta property="og:description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/email-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-n24Nf5ba.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
       </Helmet>
 
       <div className=' '>
-        {/* <div className="emailc1 relative">
- 
-                    <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
-      
-
-                  <div className="absolute inset-0 bg-black opacity-60"></div>
-      
-                  <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
-                      <span className="text-[#4CAF50]">Email</span> Marketing
-                  </h1>
-        </div> */}
+   
         <div className="tops">
           <HeroSection
           backgroundImage={topimage}

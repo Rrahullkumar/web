@@ -1,14 +1,16 @@
-import React, { useEffect, useState, useRef } from 'react';
+import  { useEffect, useState, useRef } from 'react';
 import './cm.css'; // Make sure this file has your styles
 import c1_image from './Resources/Rectangle.png';
 import image from './Resources/image.svg';
-import Conatctfrom from '../../components/contact/contactform'; // Corrected import
-import Accordian from '../home/componnet/Accordian.jsx';
-import { FiPhone } from "react-icons/fi";
+// import Conatctfrom from '../../components/contact/contactform'; // Corrected import
+// import Accordian from '../home/componnet/Accordian.jsx';
+// import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 import { Link } from 'react-router-dom';
 import image17 from './Resources/image17.png';
 import image18 from './Resources/image18.png';
@@ -18,8 +20,13 @@ import image21 from './Resources/image21.png';
 import image22 from './Resources/image22.png';
 import image23 from './Resources/image23.png';
 import image24 from './Resources/image24.png';
+
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
+
+
 const ContentMarketing = () => {
+
+
   const testimonialData = [
     {
       rating: "4.9",
@@ -57,82 +64,84 @@ const ContentMarketing = () => {
       designation: "Entrepreneur"
     }
   ];
-  const [text, setText] = useState('');
-  const words = ['Engage', 'Impact', 'Content'];
-  const delay = 150;
-  const pause = 1000;
-
-  const wordIndex = useRef(0);
-  const charIndex = useRef(0);
-  const isDeleting = useRef(false);
-
-  useEffect(() => {
-    let timeout;
-
-    const type = () => {
-      const currentWord = words[wordIndex.current];
-
-      if (!isDeleting.current) {
-        // Typing
-        setText(currentWord.substring(0, charIndex.current));
-        if (charIndex.current < currentWord.length) {
-          charIndex.current++;
-          timeout = setTimeout(type, delay);
-        } else {
-          // Pause after typing full word
-          timeout = setTimeout(() => {
-            isDeleting.current = true;
-            timeout = setTimeout(type, delay);
-          }, pause);
-        }
-      } else {
-        // Deleting
-        if (charIndex.current > 0) {
-          charIndex.current--;
-          setText(currentWord.substring(0, charIndex.current));
-          timeout = setTimeout(type, delay / 2); // Faster delete
-        } else {
-          // Pause before starting next word
-          isDeleting.current = false;
-          wordIndex.current = (wordIndex.current + 1) % words.length;
-          timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-        }
-      }
-    };
-
-    type();
-
-    return () => clearTimeout(timeout);
-  }, []);
-
-  const statsData = [
-    { number: '1050+', label: 'Projects Delivered' },
-    { number: '85%', label: 'Words Written' },
-    { number: '40%', label: 'Brand Served' },
-    { number: '2500+', label: 'CLient  Retention' },
-  ];
-  const trustData = [
-    {
-      title: "Uncovering Your Potential",
-      text: "Our creative team delves deep into your brand's strengths to identify opportunities and connect with the most suitable audience for your business.",
-    },
-    {
-      title: "Strategic Keyword Research",
-      text: "As the best content writing company in Gurgaon, WebNest Media meticulously selects relevant keywords to enhance your website's appeal and search engine visibility.",
-    },
-    {
-      title: "Collaborative Creativity",
-      text: "We value your insights and actively involve you in the content creation process. By blending your ideas with our expertise, we craft content that truly represents your brand's voice.",
-    },
-  ];
 
 
+  // const [text, setText] = useState('');
+  // const words = ['Engage', 'Impact', 'Content'];
+  // const delay = 150;
+  // const pause = 1000;
 
-  const [openIndex, setOpenIndex] = useState(null);
+  // const wordIndex = useRef(0);
+  // const charIndex = useRef(0);
+  // const isDeleting = useRef(false);
 
-  const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+  // useEffect(() => {
+  //   let timeout;
+
+  //   const type = () => {
+  //     const currentWord = words[wordIndex.current];
+
+  //     if (!isDeleting.current) {
+  //       // Typing
+  //       setText(currentWord.substring(0, charIndex.current));
+  //       if (charIndex.current < currentWord.length) {
+  //         charIndex.current++;
+  //         timeout = setTimeout(type, delay);
+  //       } else {
+  //         // Pause after typing full word
+  //         timeout = setTimeout(() => {
+  //           isDeleting.current = true;
+  //           timeout = setTimeout(type, delay);
+  //         }, pause);
+  //       }
+  //     } else {
+  //       // Deleting
+  //       if (charIndex.current > 0) {
+  //         charIndex.current--;
+  //         setText(currentWord.substring(0, charIndex.current));
+  //         timeout = setTimeout(type, delay / 2); // Faster delete
+  //       } else {
+  //         // Pause before starting next word
+  //         isDeleting.current = false;
+  //         wordIndex.current = (wordIndex.current + 1) % words.length;
+  //         timeout = setTimeout(type, pause / 2); // Shorter pause after delete
+  //       }
+  //     }
+  //   };
+
+  //   type();
+
+  //   return () => clearTimeout(timeout);
+  // }, []);
+
+  // const statsData = [
+  //   { number: '1050+', label: 'Projects Delivered' },
+  //   { number: '85%', label: 'Words Written' },
+  //   { number: '40%', label: 'Brand Served' },
+  //   { number: '2500+', label: 'CLient  Retention' },
+  // ];
+  // const trustData = [
+  //   {
+  //     title: "Uncovering Your Potential",
+  //     text: "Our creative team delves deep into your brand's strengths to identify opportunities and connect with the most suitable audience for your business.",
+  //   },
+  //   {
+  //     title: "Strategic Keyword Research",
+  //     text: "As the best content writing company in Gurgaon, WebNest Media meticulously selects relevant keywords to enhance your website's appeal and search engine visibility.",
+  //   },
+  //   {
+  //     title: "Collaborative Creativity",
+  //     text: "We value your insights and actively involve you in the content creation process. By blending your ideas with our expertise, we craft content that truly represents your brand's voice.",
+  //   },
+  // ];
+
+
+
+  // const [openIndex, setOpenIndex] = useState(null);
+
+  // const toggleAnswer = (index) => {
+  //   setOpenIndex(openIndex === index ? null : index);
+  // };
 
 
   const contentMarketingSchema = {
@@ -252,12 +261,12 @@ const ContentMarketing = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
 
-        <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media " />
+        {/* <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
         <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">
 
@@ -310,9 +319,6 @@ const ContentMarketing = () => {
                   <li data-aos="fade-up">• Strategic content planning and calendar</li>
                 </ul>
 
-
-
-
                 <div data-aos="fade-up" className="flex gap-3">
 
 
@@ -320,31 +326,20 @@ const ContentMarketing = () => {
                     onClick={() => scrollToSection("bringout")}
 
                     className='uiverse-button'>Learn More</button>
-
-
-
                   <Link to="/contact-us">
                     <button className='white-button'>Contact Us</button>
 
                   </Link>
 
                 </div>
-
-
               </div>
-
-
             </div>
-
-
           </div>
           <div className="max-lg:hidden my-auto">
             <img src={image} alt="" />
           </div>
 
-
         </div>
-
 
            <div className='bg-[#EFF4EE]'>
           <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
@@ -370,12 +365,6 @@ const ContentMarketing = () => {
             </div>
           </section>
         </div>
-
-
-
-
-
-
 
 
         <section className="max-w-[1440px] mx-auto  mt-24 max-lg:mt-10">

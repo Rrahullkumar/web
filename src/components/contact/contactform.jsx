@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useRef } from "react";
+import  { useState, useEffect, useRef } from "react";
 import "./contactform.css";
 
 
@@ -26,6 +26,7 @@ const ContactForm = () => {
         ? [...prevSelected, value]
         : prevSelected.filter((service) => service !== value)
     );
+       setIsDropdownOpen(false);
   };
 
   const handleSubmit = async (e) => {

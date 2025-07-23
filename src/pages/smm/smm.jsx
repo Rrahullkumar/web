@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import "./smm.css"
 
-import iamgecircle from "../home/resources/industries/Education.svg";
+// import iamgecircle from "../home/resources/industries/Education.svg";
 import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
@@ -9,14 +9,14 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import { RiWhatsappFill } from "react-icons/ri";
 import { SiTelegram } from "react-icons/si";
-import Seo from "./resources/fb.svg"
+// import Seo from "./resources/fb.svg"
 import socialgif from "./resources/social.gif";
 
 import cimage from "./resources/cimage.png";
 
 import Cards from "./componenet/AnimatedCardList";
 import Accordian from "./componenet/Accordian";
-import Contactform from "../../components/contact/contactform";
+// import Contactform from "../../components/contact/contactform";
 
 import smartright from "./resources/smartright.svg";
 import accelerate from "./resources/accelerate.svg"
@@ -29,7 +29,7 @@ import { MdCrisisAlert } from "react-icons/md";
 import { TbReportAnalytics } from "react-icons/tb";
 import { SiSmartthings } from "react-icons/si";
 import { GiLevelFourAdvanced } from "react-icons/gi";
-import { FiPhone } from "react-icons/fi";
+// import { FiPhone } from "react-icons/fi";
 import { Helmet } from 'react-helmet'
 
 import HeroSection from '../../components/Herosection/Herosection';
@@ -40,53 +40,54 @@ import { Link } from 'react-router-dom';
 
 
 const Smm = () => {
-  const [text, setText] = useState('');
-  const words = ['Engagement', 'Conversion', 'Branding'];
-  const delay = 150;
-  const pause = 1000;
+  
+  // const [text, setText] = useState('');
+  // const words = ['Engagement', 'Conversion', 'Branding'];
+  // const delay = 150;
+  // const pause = 1000;
 
-  const wordIndex = useRef(0);
-  const charIndex = useRef(0);
-  const isDeleting = useRef(false);
+  // const wordIndex = useRef(0);
+  // const charIndex = useRef(0);
+  // const isDeleting = useRef(false);
 
-  useEffect(() => {
-    let timeout;
+  // useEffect(() => {
+  //   let timeout;
 
-    const type = () => {
-      const currentWord = words[wordIndex.current];
+  //   const type = () => {
+  //     const currentWord = words[wordIndex.current];
 
-      if (!isDeleting.current) {
-        // Typing
-        setText(currentWord.substring(0, charIndex.current));
-        if (charIndex.current < currentWord.length) {
-          charIndex.current++;
-          timeout = setTimeout(type, delay);
-        } else {
-          // Pause after typing full word
-          timeout = setTimeout(() => {
-            isDeleting.current = true;
-            timeout = setTimeout(type, delay);
-          }, pause);
-        }
-      } else {
-        // Deleting
-        if (charIndex.current > 0) {
-          charIndex.current--;
-          setText(currentWord.substring(0, charIndex.current));
-          timeout = setTimeout(type, delay / 2); // Faster delete
-        } else {
-          // Pause before starting next word
-          isDeleting.current = false;
-          wordIndex.current = (wordIndex.current + 1) % words.length;
-          timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-        }
-      }
-    };
+  //     if (!isDeleting.current) {
+  //       // Typing
+  //       setText(currentWord.substring(0, charIndex.current));
+  //       if (charIndex.current < currentWord.length) {
+  //         charIndex.current++;
+  //         timeout = setTimeout(type, delay);
+  //       } else {
+  //         // Pause after typing full word
+  //         timeout = setTimeout(() => {
+  //           isDeleting.current = true;
+  //           timeout = setTimeout(type, delay);
+  //         }, pause);
+  //       }
+  //     } else {
+  //       // Deleting
+  //       if (charIndex.current > 0) {
+  //         charIndex.current--;
+  //         setText(currentWord.substring(0, charIndex.current));
+  //         timeout = setTimeout(type, delay / 2); // Faster delete
+  //       } else {
+  //         // Pause before starting next word
+  //         isDeleting.current = false;
+  //         wordIndex.current = (wordIndex.current + 1) % words.length;
+  //         timeout = setTimeout(type, pause / 2); // Shorter pause after delete
+  //       }
+  //     }
+  //   };
 
-    type();
+  //   type();
 
-    return () => clearTimeout(timeout);
-  }, []);
+  //   return () => clearTimeout(timeout);
+  // }, []);
 
 
 

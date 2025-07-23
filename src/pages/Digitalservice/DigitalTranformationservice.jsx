@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import './digitalservice.css';
 import c1_image from './resources/c1_image.png';
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
+// import Conatctfrom from "../../components/contact/contactform";
+// import { FiPhone } from "react-icons/fi";
 import c2_image from './resources/c2_image.svg';
 import Accordian from "./component/Accordian";
 import Left_Arrow from './resources/Left_Arrow.svg';
@@ -37,7 +37,7 @@ const DigitalTranformationservice = () => {
       <Helmet>
 
       <title>Digital Transformation Services in Gurgaon | WebNest Media</title>
-<meta name="description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
+     <meta name="description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
 
        
         <meta name="robots" content="index, follow" />
@@ -47,7 +47,7 @@ const DigitalTranformationservice = () => {
 
 
 
-
+{/* 
 
 <meta property="og:title" content="Digital Transformation Services in Gurgaon | WebNest Media" />
   <meta property="og:description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
@@ -55,7 +55,7 @@ const DigitalTranformationservice = () => {
   <meta property="og:url" content="https://webnestmedia.com/digital-transformation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/c1_image-CzR_E7CY.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
       </Helmet>

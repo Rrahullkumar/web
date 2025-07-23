@@ -1,11 +1,7 @@
-import React from 'react';
+
 import topimage from './resources/topimage.png';
 import image1 from './resources/c2image.png';
-import icon1 from './resources/icon1.svg';
-import icon2 from './resources/icon2.svg';
-import icon3 from './resources/icon3.svg';
-import icon4 from './resources/icon4.svg';
-import icon5 from './resources/icon5.svg';
+
 import c5img from './resources/c5contaisner.png'
 import Accordion from './components/Accordian';
 import { Helmet } from 'react-helmet';
@@ -33,25 +29,19 @@ const InfluencerMarketing = () => {
 
 
 
-        <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More " />
+        {/* <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More " />
         <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
         <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
         <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
 
       </Helmet>
       <div className=" w-100% mx-auto">
-        {/* Top Image Banner */}
-        {/* <div className="imc1 relative">
-          <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
-        <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px]">
-          <span className="text-[#4CAF50]">Influencer</span> Marketing
-        </h1>
-      </div> */}
+      
         <HeroSection
           backgroundImage={topimage}
           heading="Influencer Marketing Company"

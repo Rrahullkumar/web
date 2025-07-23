@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "./sem.css";
-import SEM1 from './Resources/SEM1.svg';
+
 import KeywordTargeting from './resources/KeywordTargeting.png';
 import PPC from './resources/PPC.png';
 import bid from './resources/bid.png';
@@ -17,8 +17,6 @@ import icon1 from "./resources/icon1.svg";
 import icon2 from "./resources/icon2.svg";
 import icon3 from "./resources/icon3.svg";
 import icon4 from "./resources/icon4.svg";
-
-import tabone from "./resources/tabone.svg"
 
 
 import googleIcon from "./resources/gads.svg";
@@ -124,11 +122,6 @@ const Sem = () => {
         </>
       )
     },
-
-
-
-
-
     {
       id: 2,
       label: 'Bid Management',
@@ -334,52 +327,52 @@ const Sem = () => {
   ];
 
 
-  const [submitting, setSubmitting] = useState(false);
-  const [responseMsg, setResponseMsg] = useState("");
+  // const [submitting, setSubmitting] = useState(false);
+  // const [responseMsg, setResponseMsg] = useState("");
 
 
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
 
-  const handleSubmitsem = async (e) => {
-    e.preventDefault();
-    setSubmitting(true);
-    setResponseMsg("");
+  // const handleSubmitsem = async (e) => {
+  //   e.preventDefault();
+  //   setSubmitting(true);
+  //   setResponseMsg("");
 
-    const formData = new FormData(e.target);
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      phone: formData.get("phone"),
-      message: formData.get("message"),
-      service: formData.get("service"),
-    };
-    console.log("Form data:", data); // Log the form data for debugging
-    try {
-      const response = await fetch("https://webnestmedia.com/webnestmediacontac.php/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+  //   const formData = new FormData(e.target);
+  //   const data = {
+  //     name: formData.get("name"),
+  //     email: formData.get("email"),
+  //     phone: formData.get("phone"),
+  //     message: formData.get("message"),
+  //     service: formData.get("service"),
+  //   };
+  //   console.log("Form data:", data); // Log the form data for debugging
+  //   try {
+  //     const response = await fetch("https://webnestmedia.com/webnestmediacontac.php/contact", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(data),
+  //     });
 
-      if (response.ok) {
-        const result = await response.json();
-        setResponseMsg(result.message || "Form submitted successfully.");
-        e.target.reset(); // ✅ Clear form fields
-      } else {
-        const errorText = await response.text();
-        setResponseMsg("Submission failed: " + errorText);
-      }
-    } catch (error) {
-      console.error("Submission error:", error);
-      setResponseMsg("Submission failed. Please try again.");
-    } finally {
-      setSubmitting(false);
-    }
-  };
+  //     if (response.ok) {
+  //       const result = await response.json();
+  //       setResponseMsg(result.message || "Form submitted successfully.");
+  //       e.target.reset(); // ✅ Clear form fields
+  //     } else {
+  //       const errorText = await response.text();
+  //       setResponseMsg("Submission failed: " + errorText);
+  //     }
+  //   } catch (error) {
+  //     console.error("Submission error:", error);
+  //     setResponseMsg("Submission failed. Please try again.");
+  //   } finally {
+  //     setSubmitting(false);
+  //   }
+  // };
 
   const statsData = [
     { number: '21,3456', label: 'Organic Traffic Growth' },
@@ -389,21 +382,21 @@ const Sem = () => {
   ];
 
 
-  const [activeTab1, setActiveTab1] = useState("dashboard");
+  // const [activeTab1, setActiveTab1] = useState("dashboard");
 
-  const tabs = [
-    { id: "dashboard", label: "Dashboard" },
-    { id: "profile", label: "Profile" },
-    { id: "settings", label: "Settings" },
-  ];
+  // const tabs = [
+  //   { id: "dashboard", label: "Dashboard" },
+  //   { id: "profile", label: "Profile" },
+  //   { id: "settings", label: "Settings" },
+  // ];
 
-  const tabContent = {
-    dashboard:
-      "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
-    profile:
-      "The reading of all good books is like a conversation with the finest minds of past centuries.",
-    settings: "Comparing yourself to others is the thief of joy.",
-  };
+  // const tabContent = {
+  //   dashboard:
+  //     "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
+  //   profile:
+  //     "The reading of all good books is like a conversation with the finest minds of past centuries.",
+  //   settings: "Comparing yourself to others is the thief of joy.",
+  // };
 
 
   return (
@@ -420,12 +413,12 @@ const Sem = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />
 
-        <meta property="og:title" content="Best Search Engine Marketing Agency in Gurgaon | WebNest Media " />
+        {/* <meta property="og:title" content="Best Search Engine Marketing Agency in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webnestmedia.com/search-engine-marketing" />
         <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-h3UpqiFv.png" />
-        <meta property="og:site_name" content="WebNest Media" />
+        <meta property="og:site_name" content="WebNest Media" /> */}
 
 
         <script type="application/ld+json">

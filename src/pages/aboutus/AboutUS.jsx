@@ -1,36 +1,34 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import Accordion from './component/Accordian'
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
+
 
 import Webnest_Logo from "../../assets/newlogo.svg";
-import difference from "./resources/difference.svg";
+
 import bulb from "./resources/bulb.svg"
-import team from "./resources/team.svg";
-import founder from "./resources/founder.svg";
 
 import Aboutcounter from "./component/aboutcounter"
 
-import image1 from "./resources/image1.svg";
-import image2 from "./resources/image2.svg";
-import image3 from "./resources/image3.svg";
-import image4 from "./resources/image4.svg";
-import image5 from "./resources/image5.svg";
-import image6 from "./resources/image6.svg";
+// import image1 from "./resources/image1.svg";
+// import image2 from "./resources/image2.svg";
+// import image3 from "./resources/image3.svg";
+// import image4 from "./resources/image4.svg";
+// import image5 from "./resources/image5.svg";
+// import image6 from "./resources/image6.svg";
 import { useRef } from 'react';
 
 import AboutTesimonial  from "./component/aboutTestimonial"
-const cards = [
-  { icon: image1, title: "Client-Centric Approach" },
-  { icon: image2, title: "Data-Driven Decisions" },
-  { icon: image3, title: "Holistic Expertise" },
-  { icon: image4, title: "Holistic Expertise" },
-  { icon: image5, title: "Local & Global Insights" },
-  { icon: image6, title: "Passionate Team" },
 
-];
+// const cards = [
+//   { icon: image1, title: "Client-Centric Approach" },
+//   { icon: image2, title: "Data-Driven Decisions" },
+//   { icon: image3, title: "Holistic Expertise" },
+//   { icon: image4, title: "Holistic Expertise" },
+//   { icon: image5, title: "Local & Global Insights" },
+//   { icon: image6, title: "Passionate Team" },
 
-import  Photoslider  from "./component/Photoslider"
+// ];
+
+// import  Photoslider  from "./component/Photoslider"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
