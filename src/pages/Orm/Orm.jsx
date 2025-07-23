@@ -1,8 +1,7 @@
-// import React from 'react'
-// import { useEffect, useRef, useState } from 'react';
+
 import './Orm.css';
 import timer from "../../pages/Orm/resourse/timer.png"
-// import Conatctfrom from "../../components/contact/contactform";
+
 import brand1 from "./resourse/brand1.svg";
 import brand2 from "./resourse/brand2.svg";
 import brand3 from "./resourse/brand3.svg";
@@ -11,7 +10,7 @@ import brand5 from "./resourse/brand5.svg";
 import brand6 from "./resourse/brand6.svg";
 import brand7 from "./resourse/brand7.svg";
 import brand8 from "./resourse/brand8.svg";
-// import { FiPhone } from "react-icons/fi";
+
 import iot from "./resourse/iot.png"
 import Accordian from "./component/Accordian"
 
@@ -116,17 +115,6 @@ const Orm = () => {
         </div>
 
 
-        {/* 
-      <section>
-          <LazyLoadImage src={bannerimage} />
-      </section> */}
-
-        {/* <section className='text-center h-[80px] '>
-
-        <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1  ">
-          {text}
-        </h2>
-      </section> */}
 
 
         <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
@@ -185,13 +173,6 @@ const Orm = () => {
           </div>
 
         </div>
-
-
-
-
-
-
-
 
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
 

@@ -7,7 +7,6 @@ import bid from './resources/bid.png';
 import analytics from "./resources/analytics.png";
 import ads from './resources/ads.png';
 import { Helmet } from 'react-helmet';
-// import accordian from '../home/componnet/accordian.css'
 
 import herom from "./resources/heroimage.png";
 import semlogo from "./resources/semlogo.svg";
@@ -327,52 +326,12 @@ const Sem = () => {
   ];
 
 
-  // const [submitting, setSubmitting] = useState(false);
-  // const [responseMsg, setResponseMsg] = useState("");
 
 
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
 
-  // const handleSubmitsem = async (e) => {
-  //   e.preventDefault();
-  //   setSubmitting(true);
-  //   setResponseMsg("");
-
-  //   const formData = new FormData(e.target);
-  //   const data = {
-  //     name: formData.get("name"),
-  //     email: formData.get("email"),
-  //     phone: formData.get("phone"),
-  //     message: formData.get("message"),
-  //     service: formData.get("service"),
-  //   };
-  //   console.log("Form data:", data); // Log the form data for debugging
-  //   try {
-  //     const response = await fetch("https://webnestmedia.com/webnestmediacontac.php/contact", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(data),
-  //     });
-
-  //     if (response.ok) {
-  //       const result = await response.json();
-  //       setResponseMsg(result.message || "Form submitted successfully.");
-  //       e.target.reset(); // ✅ Clear form fields
-  //     } else {
-  //       const errorText = await response.text();
-  //       setResponseMsg("Submission failed: " + errorText);
-  //     }
-  //   } catch (error) {
-  //     console.error("Submission error:", error);
-  //     setResponseMsg("Submission failed. Please try again.");
-  //   } finally {
-  //     setSubmitting(false);
-  //   }
-  // };
 
   const statsData = [
     { number: '21,3456', label: 'Organic Traffic Growth' },
@@ -382,21 +341,6 @@ const Sem = () => {
   ];
 
 
-  // const [activeTab1, setActiveTab1] = useState("dashboard");
-
-  // const tabs = [
-  //   { id: "dashboard", label: "Dashboard" },
-  //   { id: "profile", label: "Profile" },
-  //   { id: "settings", label: "Settings" },
-  // ];
-
-  // const tabContent = {
-  //   dashboard:
-  //     "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
-  //   profile:
-  //     "The reading of all good books is like a conversation with the finest minds of past centuries.",
-  //   settings: "Comparing yourself to others is the thief of joy.",
-  // };
 
 
   return (
@@ -530,42 +474,6 @@ const Sem = () => {
         />
 
 
-        {/* <div className=" max-w-[1440px] w-[100%] mx-auto pt-[96px] max-lg:pt-10 pb-16 max-lg:pb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
-
-          <h2 data-aos="fade-up" className="text-[48px] max-lg:text-3xl font-semibold">
-            What is Search Engine   <br className='max-lg:hidden' /> Marketing?
-          </h2>
-
-
-          <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
-
-            <div className="w-[60%] max-lg:w-[100%] ">
-
-
-              <p data-aos="fade-up" id="" className='text-base mt-[20px] font-manrope '>
-              SEM is a digital marketing tactic focused on increasing a website’s presence on search engines through paid advertising. Different types of websites or online businesses can use search engine marketing services in different ways to improve brand awareness.
-              </p>
-            </div>
-            <div data-aos="fade-up" className="max-w-[440px] w-[100%] max-md:w-[90%] max-md:mb-8 flex flex-col gap-[26px] justify-center ">
-              <LazyLoadImage src={semlogo} alt='WebNest Logo' />
-            </div>
-          </div>
-          <div data-aos="fade-up" className=" flex gap-4 mt-6 max-lg:mt-12 ">
-
-            <button
-              onClick={() => scrollToSection("semservice")}
-              className='uiverse-button'>Learn More</button>
-
-            
-            <Link to="/contact-us" aria-label="Contact our team for inquiries or support">
-
-              <button className='white-button'>Contact Us</button>
-
-            </Link>
-            
-          </div>
-
-        </div> */}
         <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
           <div className="lg:w-[50%]">
             

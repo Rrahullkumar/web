@@ -1,4 +1,4 @@
-// import  { useState, useRef, useEffect } from 'react'
+
 import './Affilatemarketing.css'
 import amc2img from './resources/amc2img.svg'
 
@@ -9,9 +9,9 @@ import Icons3 from './resources/Icons3.svg'
 import Icons4 from './resources/Icon4.svg'
 import image from './resources/Image.png'
 import { Helmet } from 'react-helmet'
-// import Conatctfrom from '../../components/contact/contactform';
+
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-// import { FiPhone } from "react-icons/fi";
+
 import heroimage from './resources/heroimage.png'
 
 
@@ -20,55 +20,6 @@ import { Link } from 'react-router-dom'
 
 const Affilatemarketing = () => {
 
-
-
-  // const [text, setText] = useState('');
-  // const words = ['Conversion', 'Commission', 'Traffic'];
-  // const delay = 150;
-  // const pause = 1000;
-
-  // const wordIndex = useRef(0);
-  // const charIndex = useRef(0);
-  // const isDeleting = useRef(false);
-
-  // useEffect(() => {
-  //   let timeout;
-
-  //   const type = () => {
-  //     const currentWord = words[wordIndex.current];
-
-  //     if (!isDeleting.current) {
-  //       // Typing
-  //       setText(currentWord.substring(0, charIndex.current));
-  //       if (charIndex.current < currentWord.length) {
-  //         charIndex.current++;
-  //         timeout = setTimeout(type, delay);
-  //       } else {
-  //         // Pause after typing full word
-  //         timeout = setTimeout(() => {
-  //           isDeleting.current = true;
-  //           timeout = setTimeout(type, delay);
-  //         }, pause);
-  //       }
-  //     } else {
-  //       // Deleting
-  //       if (charIndex.current > 0) {
-  //         charIndex.current--;
-  //         setText(currentWord.substring(0, charIndex.current));
-  //         timeout = setTimeout(type, delay / 2); // Faster delete
-  //       } else {
-  //         // Pause before starting next word
-  //         isDeleting.current = false;
-  //         wordIndex.current = (wordIndex.current + 1) % words.length;
-  //         timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-  //       }
-  //     }
-  //   };
-
-  //   type();
-
-  //   return () => clearTimeout(timeout);
-  // }, []);
 
 
 
@@ -256,25 +207,10 @@ const Affilatemarketing = () => {
                 <li data-aos="fade-up">• And you get paid for making the connection.</li>
               </ul>
 
-              {/* Buttons */}
-              {/* <div className="flex flex-row gap-4">
-        <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
-        <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
-      </div> */}
-
-
-
-
               <div className="flex gap-3 mt-8">
-
-
                 <button data-aos="fade-up"
                   onClick={() => scrollToSection("affilatemarketing")}
-
                   className='uiverse-button'>Learn More</button>
-
-
-
                 <Link to="/contact-us">
                   <button data-aos="fade-up" className='white-button'>Contact Us</button>
 

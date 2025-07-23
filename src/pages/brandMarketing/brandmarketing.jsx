@@ -24,8 +24,6 @@ import why5 from "./resources/why5.svg";
 import why6 from "./resources/why6.svg";
 import why7 from "./resources/why7.svg";
 import why8 from "./resources/why8.svg";
-// import Conatctfrom from "../../components/contact/contactform";
-// import { FiPhone } from "react-icons/fi";
 
 import Accordian from "./component/Accordian";
 import { Helmet } from 'react-helmet'
@@ -190,22 +188,7 @@ const Brandmarketing = () => {
 
         </section>
 
-        {/* <section className='mt-[112px]'>
-
-        <div className="flex w-full">
-          {images.map((src, index) => (
-            <div key={index} className="flex-shrink-0 w-1/6 h-[250px]">
-                <LazyLoadImage
-                src={src}
-                alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
-
-
-      </section> */}
+     
 
         <section className="mt-[112px] max-lg:mt-14 overflow-hidden ">
           <div className="flex w-max animate-scroll-x">
@@ -298,25 +281,7 @@ const Brandmarketing = () => {
 
        
 
-        {/* <section className="px-[20px] md:px-[155px]  max-lg:px-[20px] py-10">
-        {brandSteps.map((step, index) => (
-          <div
-            key={index}
-            className="flex flex-col md:flex-row justify-between gap-[240px] max-lg:gap-[100px] border-b border-gray-200 py-6 last:border-none"
-          >
-         
-            <div className="md:w-[35%] mb-4 md:mb-0 flex gap-[16px]">
-              <p className="text-gray-400 font-medium text-[24px] mb-[1px] ">{step.number}</p>
-              <h3 className="text-[32px] font-semibold text-[#00000] ">{step.title}</h3>
-            </div>
-
       
-            <div className="md:w-[55%]">
-              <p className="text-[16px] text-gray-600 leading-relaxed ">{step.description}</p>
-            </div>
-          </div>
-        ))}
-      </section> */}
 
         <section className="px-[20px] xl:px-[155px]   py-10  max-w-[1440px] w-[100%] mx-auto">
           {brandSteps.map((step, index) => (
@@ -370,9 +335,6 @@ const Brandmarketing = () => {
         </div>
       </section>
 
-
-      
-    
       <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[32px]           

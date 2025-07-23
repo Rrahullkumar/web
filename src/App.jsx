@@ -1,6 +1,4 @@
 
-
-
 import  { useEffect } from 'react';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
@@ -28,7 +26,6 @@ import MobileMarketing from './pages/MobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
-// import SmoothCursor from "./components/smoothCursor";
 
 
 
@@ -39,6 +36,9 @@ const App = () => {
       once: true,
     });
   }, []);
+
+
+  
 
   return (
     <>

@@ -103,15 +103,7 @@
   animation-duration: 11s;
 }
 
-/* .context {
-  width: 100%;
-  position: absolute;
-  top: 190px;
-  left: 0;
-  display: flex;
-  z-index: 9;
 
-} */
 
 .text-part {
 
@@ -217,13 +209,7 @@
    width: 100%;
   overflow: hidden;
   position: relative;
-    /* -ms-transform: skew(0deg, -10deg);
-  -webkit-transform: skew(0deg, -10deg);
-  transform: skew(0deg, -6deg);
-  margin-top: 80px;
-   width: 100%;
-  overflow: hidden;
-  position: relative; */
+  
 
 }
 
@@ -233,9 +219,7 @@
    width: 100%;
   overflow: hidden;
   position: relative;
-    /* -ms-transform: skew(0deg, -10deg);
-  -webkit-transform: skew(0deg, -10deg);
-  transform: skew(0deg, -6deg); */
+   
  
 
 }
@@ -285,17 +269,7 @@ cursor: pointer;
 
 
 
-/* Grid styling */
-/* .flip-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-} */
 
-/* Flip card container */
 
 .flip-card {
   width: 220px;
@@ -332,14 +306,14 @@ cursor: pointer;
   width: 190px;
   height: 200px;
   overflow: hidden;
-  /* Prevents image from spilling out */
+  
 }
 
 .image_wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Ensures the image covers the container without distortion */
+
   display: block;
 }
 
@@ -401,7 +375,7 @@ cursor: pointer;
   transform: rotateY(180deg);
   text-align: center;
   font-weight: 600;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
@@ -464,22 +438,7 @@ cursor: pointer;
 
 }
 
-/* Keyframes to move entire track */
-/* @keyframes scrollLeft {
-  0% {
-    transform: translateX(0);
-  }
 
-  100% {
-    transform: translateX(-50%);
-  }
-} */
-
-
-
-
-
-/* slider end */
 
 @keyframes animate {
   0% {

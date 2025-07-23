@@ -58,18 +58,10 @@ const SmsMarketing = () => {
     </Helmet>
 
     <div className=' w-[100%] mx-auto'>
-       {/* <div className="smsc1 relative">
-        
-              <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
 
-  
-            <div className="absolute inset-0 bg-black opacity-40"></div>
 
-       
-            <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
-                <span className="text-[#4CAF50]">SMS</span> Marketing
-            </h1>
-            </div> */}
+
+
             <div className="">
                 <HeroSection
                         backgroundImage={topimage}

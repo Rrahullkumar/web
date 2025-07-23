@@ -1,6 +1,5 @@
-// import React from 'react'
-// import Conatctfrom from "../../components/contact/contactform";
-// import { FiPhone } from "react-icons/fi";
+
+
 import Accordian from "./component/Accordian";
 import c1image from './resources/c1image.png'
 import icon1 from './resources/icon1.svg'
@@ -9,7 +8,7 @@ import icon3 from './resources/icon3.svg'
 import icon4 from './resources/icon4.svg'
 import icon5 from './resources/icon5.svg'
 import m3image from './resources/m3image.svg'
-// import m5img from './resources/m5img.svg'
+
 import m6img from './resources/m6img.svg'
 import m66img from './resources/m66img.svg'
 import m7img from './resources/m7img.svg'
@@ -17,7 +16,7 @@ import m8img from './resources/m8img.svg'
 import HeroSection from '../../components/Herosection/Herosection';
 
 import { Helmet } from 'react-helmet';
-// import HeroSection from '../../components/Herosection/Herosection';
+
 import topimage from './resources/topimage.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

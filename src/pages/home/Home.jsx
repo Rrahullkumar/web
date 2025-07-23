@@ -1,20 +1,11 @@
 import  { useEffect, useRef, useState } from "react";
 
 import { Link } from "react-router-dom";
-// import '../../../src/index.css'; // or './styles.css'
-
 import "./homeStyle.css"
-// import Bannerlady from "../../assets/bannerlady.png";
 import client from "../../assets/client.png"
-// import Star1 from "../../pages/home/resources/Frame4.png"
-// import Star2 from "../../pages/home/resources/Frame5.png"
-// import Star3 from "../../pages/home/resources/Frame6.png"
-// import Star4 from "../../pages/home/resources/Frame4.png"
 
-// import slidethree from "../../pages/home/resources/Slack.png";
-// import trello from "../../pages/home/resources/trello.png";
 import pana from "../../pages/home/resources/pana1.png";
-// import rocket from "../../pages/home/resources/rocket.png";
+
 import marketingbanner from "../../pages/home/resources/marketingbanner.png";
 import PPC from "../../pages/home/resources/PPC.svg";
 import MobileAppDevelopment from "../../pages/home/resources/mobileappdevelopment.svg";
@@ -23,7 +14,7 @@ import AffiliateMarketing from "../../pages/home/resources/AffiliateMarketing.sv
 import SocialMediaMarketing from "../../pages/home/resources/Socialmediamarketing.svg";
 import WebDevelopment from "../../pages/home/resources/WebDevelopment.svg";
 import EmailMarketing from "../../pages/home/resources/EmailMarketing.svg";
-// import SEM from "../../pages/home/resources/SEM.svg";
+
 import ContentMarketing from "../../pages/home/resources/ContentMarketing.svg";
 import SEO from "../../pages/home/resources/SEO.svg";
 
@@ -33,13 +24,6 @@ import facebookads from "../../pages/home/resources/Facebookads.png";
 import instagramads from "../../pages/home/resources/instagramads.png";
 import Youtubeads from "../../pages/home/resources/Youtubeads.png";
 
-
-
-
-
-// import "./FlipCard.css";
-// import * as FaIcons from "react-icons/fa";
-
 import Slider from "./componnet/ResponsiveCarousel";
 import AnimatedCardList from "../../components/industryCard/AnimatedCardList";
 
@@ -47,10 +31,9 @@ import Countarcard from "./componnet/counterCard"
 
 import ImageSlider from "./componnet/TestomonilaSlider";
 import Accordion from "./componnet/Accordian";
-// import curve from "./resources/curvepath.svg";
+
 import { FaPhoneVolume } from "react-icons/fa6";
-// import Conatctfrom from "../../components/contact/contactform";
-// import { FiPhone } from "react-icons/fi";
+
 import { Helmet } from "react-helmet";
 
 
@@ -158,8 +141,6 @@ const Home = () => {
     }
   };
 
-
-
   const testimonialsData = [
     {
       text: "Webnest Media transformed our online presence. After working with them on our SEO strategy, we saw a 40% increase in organic traffic within just three months. Their team truly understands digital marketing, and their custom approach has helped us reach the right audience. Highly recommended!",
@@ -188,9 +169,6 @@ const Home = () => {
     },
 
   ];
-
-
-
 
   const wrapperRef = useRef();
   // const secondREf = useRef();

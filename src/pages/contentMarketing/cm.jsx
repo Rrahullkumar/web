@@ -65,85 +65,6 @@ const ContentMarketing = () => {
     }
   ];
 
-
-  // const [text, setText] = useState('');
-  // const words = ['Engage', 'Impact', 'Content'];
-  // const delay = 150;
-  // const pause = 1000;
-
-  // const wordIndex = useRef(0);
-  // const charIndex = useRef(0);
-  // const isDeleting = useRef(false);
-
-  // useEffect(() => {
-  //   let timeout;
-
-  //   const type = () => {
-  //     const currentWord = words[wordIndex.current];
-
-  //     if (!isDeleting.current) {
-  //       // Typing
-  //       setText(currentWord.substring(0, charIndex.current));
-  //       if (charIndex.current < currentWord.length) {
-  //         charIndex.current++;
-  //         timeout = setTimeout(type, delay);
-  //       } else {
-  //         // Pause after typing full word
-  //         timeout = setTimeout(() => {
-  //           isDeleting.current = true;
-  //           timeout = setTimeout(type, delay);
-  //         }, pause);
-  //       }
-  //     } else {
-  //       // Deleting
-  //       if (charIndex.current > 0) {
-  //         charIndex.current--;
-  //         setText(currentWord.substring(0, charIndex.current));
-  //         timeout = setTimeout(type, delay / 2); // Faster delete
-  //       } else {
-  //         // Pause before starting next word
-  //         isDeleting.current = false;
-  //         wordIndex.current = (wordIndex.current + 1) % words.length;
-  //         timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-  //       }
-  //     }
-  //   };
-
-  //   type();
-
-  //   return () => clearTimeout(timeout);
-  // }, []);
-
-  // const statsData = [
-  //   { number: '1050+', label: 'Projects Delivered' },
-  //   { number: '85%', label: 'Words Written' },
-  //   { number: '40%', label: 'Brand Served' },
-  //   { number: '2500+', label: 'CLient  Retention' },
-  // ];
-  // const trustData = [
-  //   {
-  //     title: "Uncovering Your Potential",
-  //     text: "Our creative team delves deep into your brand's strengths to identify opportunities and connect with the most suitable audience for your business.",
-  //   },
-  //   {
-  //     title: "Strategic Keyword Research",
-  //     text: "As the best content writing company in Gurgaon, WebNest Media meticulously selects relevant keywords to enhance your website's appeal and search engine visibility.",
-  //   },
-  //   {
-  //     title: "Collaborative Creativity",
-  //     text: "We value your insights and actively involve you in the content creation process. By blending your ideas with our expertise, we craft content that truly represents your brand's voice.",
-  //   },
-  // ];
-
-
-
-  // const [openIndex, setOpenIndex] = useState(null);
-
-  // const toggleAnswer = (index) => {
-  //   setOpenIndex(openIndex === index ? null : index);
-  // };
-
-
   const contentMarketingSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -280,10 +201,7 @@ const ContentMarketing = () => {
 
 
         <div className="mt-[px]   max-lg:mt-[0] w-[100%]">
-          {/* <h1 className='text-[52px] max-lg:text-[38px] text-center'>Content Marketing <span className='text-black'>Agency in Gurgaon </span></h1> */}
-          {/* <h2 className="heading-styled relative h-[60px] text-[40px]  bg-yellow font-bold text-black px-4 py-1 mt-[320px] ">
-            {text}
-          </h2> */}
+      
           <HeroSection
             backgroundImage={c1_image}
             heading="Content Marketing Company"

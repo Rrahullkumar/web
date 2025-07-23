@@ -1,8 +1,6 @@
 import  { useRef } from 'react';
 import './digitalservice.css';
 import c1_image from './resources/c1_image.png';
-// import Conatctfrom from "../../components/contact/contactform";
-// import { FiPhone } from "react-icons/fi";
 import c2_image from './resources/c2_image.svg';
 import Accordian from "./component/Accordian";
 import Left_Arrow from './resources/Left_Arrow.svg';
@@ -80,9 +78,7 @@ const DigitalTranformationservice = () => {
           <p data-aos="fade-up" className='lg:text-center text-base font-semibold mb-[]'>
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
-          {/* <div data-aos="fade-up" className="flex justify-center mt-10">
-              <LazyLoadImage src={c1_image} alt="Digital Transformation" className="mx-auto" />
-          </div> */}
+        
         </div>
 
         {/* Section 2 */}
@@ -93,7 +89,7 @@ const DigitalTranformationservice = () => {
               Not sure what is digital transformation? <br />Let’s understand it in plain language.
             </h2>
 
-            {/* Image moves below heading on mobile, stays on right in desktop */}
+           
             <div data-aos="fade-up"  className="lg:hidden order-2 mb-6">
                 <LazyLoadImage src={c2_image} alt="what is digital transformation" className='' />
             </div>

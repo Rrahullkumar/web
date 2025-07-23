@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import './Seo.css';
 
 import heroimage from "./resources/heroimage.png";

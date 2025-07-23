@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-/* @tailwind utilities; */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,11 +12,11 @@
   line-height: unset;
    font-family: "Manrope", sans-serif !important;
   font-optical-sizing: auto;
-  /* cursor: none !important; */
+  
 }
 
- 
-/* Optional global styles */
+
+
 body {
   margin: 0;
   padding: 0; 
@@ -28,11 +26,11 @@ body {
   font-smooth: antialiased;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
- /* user-select: none;
+ user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;  */
-   /* cursor: none !important; */
+  -ms-user-select: none;  
+   cursor: none !important;
 }
 
 
@@ -68,16 +66,11 @@ img {
   color: #409338; 
 }
 
-/* .transparenbody {
-  background: transparent !important;
-} */
-
 
 html {
-  /* scroll-behavior: smooth; */
+ 
   line-height: normal;
-   /* cursor: none !important; */
-   /* --cursor-color: #FFBA34; */  
+  
    --cursor-color:#4CAF50;
 }
 
@@ -123,7 +116,7 @@ html {
 }
 .uiverse-button {
   padding: 10px 20px;
-  border: 2px solid transparent; /* Invisible border initially */
+  border: 2px solid transparent; 
   border-radius: 6px;
   color: white;
   z-index: 1;
@@ -152,7 +145,7 @@ html {
 
 .uiverse-button:hover {
   color: #4CAF50;
-  border-color: #4CAF50; /* Green border on hover */
+  border-color: #4CAF50; 
 }
 
 .uiverse-button:hover::before {
@@ -160,7 +153,7 @@ html {
 }
 .white-button {
   padding: 10px 20px;
-  border: 2px solid transparent; /* Invisible border initially */
+  border: 2px solid transparent; 
   border-radius: 6px;
   background: white;
   z-index: 1;
@@ -190,7 +183,7 @@ html {
 
 .white-button:hover {
   color: white;
-  border-color: #4CAF50; /* Green border on hover */
+  border-color: #4CAF50; 
 }
 
 .white-button:hover::before {

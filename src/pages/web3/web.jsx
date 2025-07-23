@@ -1,12 +1,6 @@
-// import React from 'react'
-// import ContactForm from '../../components/contact/contactform'
-import Accordion from './component/Accordian'
-// import { SiConsul } from "react-icons/si";
 
-// import { MdMovieCreation } from "react-icons/md";
-// import { FaHandshakeSimple } from "react-icons/fa6";
-// import { GrOptimize } from "react-icons/gr";
-// import { FiPhone } from "react-icons/fi";
+import Accordion from './component/Accordian'
+
 import { FaWordpress, FaShoppingCart, FaBusinessTime, FaBlogger, FaGraduationCap, FaUsers, FaCalendarAlt, FaWpforms } from "react-icons/fa";
 
 import { Helmet } from 'react-helmet'
@@ -14,7 +8,7 @@ import HeroSection from '../../components/Herosection/Herosection';
 import topimage from "./resources/topimage.png";
 import { Link } from 'react-router-dom';
 import c2image from './resources/c2image.svg'
-// import c3image from './resources/c3image.png'
+
 import image13 from './resources/image13.png';
 import image15 from './resources/image15.png';
 import {
@@ -23,9 +17,10 @@ import {
   TrendingUp,
   Headphones,
 } from 'lucide-react';
-// import { CheckCircle } from 'lucide-react';
+
 import image16 from './resources/image16.png';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
+
 const webDevelopmentSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -222,12 +217,7 @@ const web = () => {
   ];
 
 
-  // const scrollToSection = (id) => {
-  //   const element = document.getElementById(id);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
+
 
   return (
     <>
@@ -265,29 +255,6 @@ const web = () => {
           />
         </div>
 
-        {/* <section className="max-w-[1440px] px-10 max-lg:px-4 mx-auto flex flex-row max-lg:flex-col items-center justify-between">
-
-
-  <div className="w-[70%] max-lg:w-full">
-    <h2 data-aos="fade-up" className="text-3xl md:text-[52px] leading-snug font-bold text-[black] max-md:mt-10 mb-10">
-      Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon
-    </h2>
-    <p data-aos="fade-up" className="text-[black] mt-4 max-w-md text-base max-md:w-[90%] mx-auto md:mx-0">
-      WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
-    </p>
-    <Link to="/contact-us">
-      <button
-        className='bg-[#4CAF50] mt-6 max-md:mt-14 text-white px-6 py-3 rounded-md hover:bg-white hover:text-[#4CAF50] border border-[#4CAF50] transition'>
-        Get Started
-      </button>
-    </Link>
-  </div>
-
-  <div data-aos="fade-up" className="w-[30%] max-lg:w-[80%] max-lg:mt-10">
-    <img src={c2image} alt="Web Development Company" className="w-full h-auto" />
-  </div>
-
-</section> */}
 
 
         <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
