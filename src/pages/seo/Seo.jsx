@@ -344,14 +344,16 @@ const Seo = () => {
 
     {/* CTA Button */}
     <div className="flex gap-3 mt-8">
-      <Link to="/about-us" aria-label="Learn more about our SEO Services">
-        <button
-          onClick={() => scrollToSection("seoservice")}
-          className="uiverse-button"
-        >
-          Learn More
-        </button>
-      </Link>
+      {/* <Link to="/about-us" aria-label="Learn more about our SEO Services"> */}
+       <button
+  onClick={() => scrollToSection("seoservice")}
+  className="uiverse-button"
+  aria-label="Scroll to SEO Service section"
+>
+  Learn More
+</button>
+
+      {/* </Link> */}
     </div>
   </div>
 </section>
