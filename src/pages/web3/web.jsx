@@ -338,7 +338,7 @@ const web = () => {
 
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
           <div className='lg:w-[80%] mx-auto'>
-            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Web Development Company in Gurgaon | Your Vision, Our Expertise</h2>
+            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Web Design Company in Gurgaon | Your Vision, Our Expertise</h2>
             <p className='text-base'>As one of the top web development companies in Gurgaon, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
 
               <br /> <br />With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
@@ -531,28 +531,6 @@ const web = () => {
             </tbody>
           </table>
 
-        </section>
-        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
-          <div className="lg:w-[60%] ">
-            <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development Best Quality Service</h2>
-            <div data-aos="fade-up" className="md:hidden">
-              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
-            </div>
-            <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
-              
-            WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our web development team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
-
-<br /> <br />We cover every detail which includes responsive designs as well as effortless operation and CMS connections for unparalleled user engagement IT across the board. These features allow us to accomplish what you want faster while achieving the desired results.
-
-
-            </p>
-
-          </div>
-          <div className="">
-            <div data-aos="fade-up" className=" max-md:hidden">
-              <img src={image13} alt="Web Development Company" className="w-full h-auto" />
-            </div>
-          </div>
         </section>
         <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4 max-lg:mb-10'>
           <div className="lg:w-[60%] ">

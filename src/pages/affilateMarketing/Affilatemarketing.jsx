@@ -384,7 +384,7 @@ const Affilatemarketing = () => {
         </div>
 
         <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
+          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl  max-lg:text-3xl lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
 
@@ -393,79 +393,77 @@ const Affilatemarketing = () => {
           </p>
 
         </div>
-        <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
-            {/* Card 1 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+        <div className="max-lg:mb-10 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center lg:px-4 lg:py-10">
+    
+    {/* Card 1 */}
+    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+      <div className="w-[64px] h-[64px]">
+        <LazyLoadImage src={Icons1} alt="Strategic Partner Selection" className="w-full h-full mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
+        Strategic Partner <br className="max-lg:hidden" /> Selection
+      </h3>
+      <p className="text-base text-[#444] leading-[1.6]">
+        We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
+      </p>
+    </div>
 
-              <div className="w-[64px] h-[64px]">
-                  <LazyLoadImage src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
-              </div>
-              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
-                Strategic Partner <br /> Selection
-              </h3>
-              <p className="text-base text-[#444] leading-[1.6] ">
-                We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
-              </p>
-            </div>
+    {/* Card 2 */}
+    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+      <div className="w-[64px] h-[64px]">
+        <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
+        Customized Campaign Setup
+      </h3>
+      <p className="text-base text-[#444] leading-[1.6]">
+        Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
+      </p>
+    </div>
 
-            {/* Card 2 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
-              <div className="w-[64px] h-[64px]">
-                  <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
-              </div>
-              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
-                Customized Campaign Setup
-              </h3>
-              <p className="text-base text-[#444] leading-[1.6]">
-                Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
-              </p>
-            </div>
+    {/* Card 3 */}
+    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+      <div className="w-[64px] h-[64px]">
+        <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
+        Performance Tracking & Optimization
+      </h3>
+      <p className="text-base text-[#444] leading-[1.6]">
+        We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
+      </p>
+    </div>
 
-            {/* Card 3 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
-              <div className="w-[64px] h-[64px]">
-                  <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
-              </div>
-              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
-                Performance Tracking & Optimization
-              </h3>
-              <p className="text-base text-[#444] leading-[1.6]">
-                We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
-              </p>
-            </div>
+    {/* Card 4 */}
+    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+      <div className="w-[64px] h-[64px]">
+        <LazyLoadImage src={Icons4} alt="Transparent Reporting" className="w-full h-full mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
+        Transparent <br className="max-lg:hidden" /> Reporting
+      </h3>
+      <p className="text-base text-[#444] leading-[1.6]">
+        You get clear, detailed performance reports so you always know where your affiliate budget is going.
+      </p>
+    </div>
 
-            {/* Card 4 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
-              <div className="w-[64px] h-[64px]">
-                  <LazyLoadImage src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
-              </div>
-              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
-                Transparent <br /> Reporting
-              </h3>
-              <p className="text-base text-[#444] leading-[1.6]">
-                You get clear, detailed performance reports so you always know where your affiliate budget is going.
-              </p>
-            </div>
+    {/* Card 5 */}
+    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 max-lg:border max-lg:rounded-xl">
+      <div className="w-[64px] h-[64px]">
+        <LazyLoadImage src={Icons1} alt="Ethical, Scalable Growth" className="w-full h-full mb-4" />
+      </div>
+      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
+        Ethical, Scalable <br className="max-lg:hidden" /> Growth
+      </h3>
+      <p className="text-base text-[#444] leading-[1.6]">
+        We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
+      </p>
+    </div>
 
-            {/* Card 5 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
-              <div className="w-[64px] h-[64px]">
-                  <LazyLoadImage src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
-              </div>
-              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
-                Ethical, Scalable <br /> Growth
-              </h3>
-              <p className="text-base text-[#444] leading-relaxed">
-                We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
-              </p>
-            </div>
-          </div>
+  </div>
+</div>
 
-
-
-
-        </div>
 
 
 

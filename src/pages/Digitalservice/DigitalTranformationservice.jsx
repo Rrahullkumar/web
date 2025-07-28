@@ -118,16 +118,16 @@ const DigitalTranformationservice = () => {
 
 
         {/* Section 3 */}
-        <div className="dtc3 max-w-[1440px] mt-24  max-md:mt-10 w-full mx-auto px-10 max-lg:px-4 mb-24">
+        <div className="dtc3 max-w-[1440px] mt-24  max-md:mt-10 w-full mx-auto  mb-24">
           <div >
-            <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold'>Digital Transformation Services We Offer</h2>
-            <p data-aos="fade-up"  className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10'>
+            <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold px-10 max-lg:px-4'>Digital Transformation Services We Offer</h2>
+            <p data-aos="fade-up"  className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10 px-10 max-lg:px-4'>
               At WebNest Media, we don’t just help you "go digital"—we help you transform how your business works, connects, and grows. Our digital transformation services are designed to boost efficiency, elevate customer experiences, and future-proof your business with the right tech solutions.
             </p>
 
 
             {/* Navigation buttons */}
-            <div className="flex justify-end mt-[-50px] mb-[40px] ml-10] max-lg:hidden">
+            <div className="flex justify-end mt-[-50px] mb-[40px] ml-10 max-lg:hidden">
               <button onClick={scrollLeft} className="">
                   <LazyLoadImage src={Left_Arrow} alt=" Left Arrow" />
               </button>
