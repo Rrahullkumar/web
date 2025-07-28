@@ -4,7 +4,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import "./slider.css";
-import { memo } from 'react';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
@@ -62,7 +61,11 @@ const ImageSlider = React.memo(({ slides, autoSlideInterval = 4000 }) => {
               <p className="text-sm sm:text-[15px] text-[black] pr-0 sm:pr-[40px]  max-md:text-center">{slide.para}</p>
               {slide.buttonText && (
                 <div className='max-md:flex max-md:items-center  max-md:justify-center'>
-               <Link to="/search-engine-marketing">
+               <Link to="/search-engine-marketing"
+               
+                        aria-label="WebNest Media Crausol"
+
+               >
                
                 <button className="px-4 sm:px-5 py-2 sm:py-3 bg-[#409338] mt-5 mb-3 text-white rounded text-[12px] sm:text-[13px] transition flex gap-[5px] items-center max-md:justify-center">
                   <span className="animate-bounce-x">

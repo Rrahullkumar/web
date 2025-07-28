@@ -1,4 +1,4 @@
-import React from 'react'
+
 import topimage from './resources/topimage.png'
 import c2image from './resources/c2image.svg'
 import c3image from './resources/c3image.svg'
@@ -11,7 +11,7 @@ import icon6 from './resources/icon6.svg'
 import Accordion from './components/Accordian'
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection' 
-import Newcontact from '../../components/Newcontact/Newcontact'
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -40,7 +40,7 @@ const SmsMarketing = () => {
 
 
 
-<meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
+{/* <meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
   <meta property="og:description" content="Reach your audience instantly with WebNest Media's SMS marketing services in Gurgaon. Whether it's promotional, transactional, or OTP messages, we help you connect with your customers." />
  
  
@@ -48,7 +48,7 @@ const SmsMarketing = () => {
   <meta property="og:url" content="https://webnestmedia.com/sms-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CcByDmTi.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
 
@@ -58,18 +58,10 @@ const SmsMarketing = () => {
     </Helmet>
 
     <div className=' w-[100%] mx-auto'>
-       {/* <div className="smsc1 relative">
-        
-              <LazyLoadImage src={topimage} alt="" className="w-full h-auto" />
 
-  
-            <div className="absolute inset-0 bg-black opacity-40"></div>
 
-       
-            <h1 className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[48px] text-center z-10">
-                <span className="text-[#4CAF50]">SMS</span> Marketing
-            </h1>
-            </div> */}
+
+
             <div className="">
                 <HeroSection
                         backgroundImage={topimage}
@@ -154,7 +146,7 @@ const SmsMarketing = () => {
                 </div>
                 </div>
         </div>
-        <Newcontact/>
+    
          <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" mb-[50px] lg:text-center font-medium text-[32px] text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

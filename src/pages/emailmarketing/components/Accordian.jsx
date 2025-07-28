@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./accordian.css";
 
 const Accordion = () => {

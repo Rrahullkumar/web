@@ -1,8 +1,6 @@
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import './digitalservice.css';
 import c1_image from './resources/c1_image.png';
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
 import c2_image from './resources/c2_image.svg';
 import Accordian from "./component/Accordian";
 import Left_Arrow from './resources/Left_Arrow.svg';
@@ -12,7 +10,7 @@ import image_7 from './resources/image_7.svg'
 
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -37,7 +35,7 @@ const DigitalTranformationservice = () => {
       <Helmet>
 
       <title>Digital Transformation Services in Gurgaon | WebNest Media</title>
-<meta name="description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
+     <meta name="description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
 
        
         <meta name="robots" content="index, follow" />
@@ -47,7 +45,7 @@ const DigitalTranformationservice = () => {
 
 
 
-
+{/* 
 
 <meta property="og:title" content="Digital Transformation Services in Gurgaon | WebNest Media" />
   <meta property="og:description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
@@ -55,7 +53,7 @@ const DigitalTranformationservice = () => {
   <meta property="og:url" content="https://webnestmedia.com/digital-transformation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/c1_image-CzR_E7CY.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
       </Helmet>
@@ -80,9 +78,7 @@ const DigitalTranformationservice = () => {
           <p data-aos="fade-up" className='lg:text-center text-base font-semibold mb-[]'>
             Our end-to-end services align technology with your business vision to unlock lasting success.
           </p>
-          {/* <div data-aos="fade-up" className="flex justify-center mt-10">
-              <LazyLoadImage src={c1_image} alt="Digital Transformation" className="mx-auto" />
-          </div> */}
+        
         </div>
 
         {/* Section 2 */}
@@ -93,7 +89,7 @@ const DigitalTranformationservice = () => {
               Not sure what is digital transformation? <br />Let’s understand it in plain language.
             </h2>
 
-            {/* Image moves below heading on mobile, stays on right in desktop */}
+           
             <div data-aos="fade-up"  className="lg:hidden order-2 mb-6">
                 <LazyLoadImage src={c2_image} alt="what is digital transformation" className='' />
             </div>
@@ -300,8 +296,7 @@ const DigitalTranformationservice = () => {
         </div>
 
 
-        {/* Contact Section */}
-        <Newcontact></Newcontact>
+   
 
         {/* Accordion Section */}
         <section className='mt-[60px] mb-[50px] mx-auto max-w-[1440px]'>

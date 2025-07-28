@@ -45,9 +45,7 @@ input[type="checkbox"] {
   font-size: 15px;
 }
 
-.accordion-label:hover {
-  /* background: #dcf5da; */
-}
+
 
 .accordion-label::after {
   content: "\276F"; /* Arrow icon */
@@ -73,10 +71,7 @@ input[type="checkbox"] {
   line-height: 1.5;
 }
 
-/* Active/open styles */
-input:checked + .accordion-label {
-  /* background: #dcf5da; */
-}
+
 
 input:checked + .accordion-label::after {
   transform: rotate(90deg);
@@ -87,7 +82,7 @@ input:checked ~ .accordion-content {
   padding: 16px;
 }
 
-/* Responsive: stack into one column on small screens */
+
 @media (max-width: 768px) {
   .accordion-wrapper-columns {
     flex-direction: column;

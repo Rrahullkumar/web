@@ -1,6 +1,6 @@
 import React from "react";
 import "./accordian.css";
-import { memo } from "react";
+
 const Accordion = React.memo(() => {
   return (
     <div className="accordion-wrapper-columns">
@@ -74,7 +74,7 @@ const Accordion = React.memo(() => {
         </div>
       </div>
 
-      {/* Right Column */}
+    
       <div className="accordion-column">
         <div className="accordion">
           <input type="checkbox" id="right-6" />

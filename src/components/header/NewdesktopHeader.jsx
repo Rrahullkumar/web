@@ -82,7 +82,9 @@ export default function NewdesktopHeader() {
     <header className="sticky top-0 left-0 w-full z-[99999] border-b border-[#9ac496]  backdrop-blur-md  ">
       <div className="max-w-[1440px] w-full mx-auto ">
         <div className="flex items-center justify-between px-4 py-4 max-xl:px-4">
-            <Link to="/">
+            <Link to="/"
+            aria-label="WebNest Media Logo"
+            >
                 <LazyLoadImage src={newlogo} alt="WebNest Media Logo" className="w-[152px] cursor-pointer" />
             </Link>
           
@@ -109,6 +111,7 @@ export default function NewdesktopHeader() {
                   <Link
                     to={item.path}
                     className="flex items-center text-lg gap-1 px-4 py-2 hover:text-[#43b649]"
+                    aria-label="Webnest Media Header Title"
                   >
                     {item.title}
                   </Link>
@@ -138,6 +141,7 @@ export default function NewdesktopHeader() {
         to={sub.path}
         onClick={handleDropdownItemClick}
         className="relative inline-block text-lg font-normal text-black transition-all duration-300 group"
+        aria-label="Webnest Media SubLink"
       >
         <span className="pb-[3px] inline-block after:block after:content-[''] 
           after:border-b-[2px] after:border-[#43b649] after:scale-x-0 
@@ -168,7 +172,7 @@ export default function NewdesktopHeader() {
           </nav>
 
           <div className="flex gap-2">
-            <Link to="/contact-us">
+            <Link to="/contact-us"  aria-label="Webnest Media Conatct us link" >
               <button className="bookdemo px-5 py-2 text-[#277A2D] hover:bg-[#277A2D] hover:text-white border border-[#4CAF50] rounded-md transition-colors duration-300 cursor-pointer">
                 Contact Us
               </button>

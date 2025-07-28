@@ -7,7 +7,9 @@ import 'swiper/css/pagination';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
-const TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
+const 
+
+TestimonialSlider = ({ sectionTitle, sectionSubtitle, testimonials }) => {
     return (
         <section className="py-24 max-lg:py-2">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

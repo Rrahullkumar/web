@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
 import "./smm.css"
 
-import iamgecircle from "../home/resources/industries/Education.svg";
+// import iamgecircle from "../home/resources/industries/Education.svg";
 import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
@@ -9,14 +8,13 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import { RiWhatsappFill } from "react-icons/ri";
 import { SiTelegram } from "react-icons/si";
-import Seo from "./resources/fb.svg"
+
 import socialgif from "./resources/social.gif";
 
 import cimage from "./resources/cimage.png";
 
 import Cards from "./componenet/AnimatedCardList";
 import Accordian from "./componenet/Accordian";
-import Contactform from "../../components/contact/contactform";
 
 import smartright from "./resources/smartright.svg";
 import accelerate from "./resources/accelerate.svg"
@@ -29,9 +27,9 @@ import { MdCrisisAlert } from "react-icons/md";
 import { TbReportAnalytics } from "react-icons/tb";
 import { SiSmartthings } from "react-icons/si";
 import { GiLevelFourAdvanced } from "react-icons/gi";
-import { FiPhone } from "react-icons/fi";
+
 import { Helmet } from 'react-helmet'
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import HeroSection from '../../components/Herosection/Herosection';
 import topimage from './resources/topimage.png'
 
@@ -40,54 +38,6 @@ import { Link } from 'react-router-dom';
 
 
 const Smm = () => {
-  const [text, setText] = useState('');
-  const words = ['Engagement', 'Conversion', 'Branding'];
-  const delay = 150;
-  const pause = 1000;
-
-  const wordIndex = useRef(0);
-  const charIndex = useRef(0);
-  const isDeleting = useRef(false);
-
-  useEffect(() => {
-    let timeout;
-
-    const type = () => {
-      const currentWord = words[wordIndex.current];
-
-      if (!isDeleting.current) {
-        // Typing
-        setText(currentWord.substring(0, charIndex.current));
-        if (charIndex.current < currentWord.length) {
-          charIndex.current++;
-          timeout = setTimeout(type, delay);
-        } else {
-          // Pause after typing full word
-          timeout = setTimeout(() => {
-            isDeleting.current = true;
-            timeout = setTimeout(type, delay);
-          }, pause);
-        }
-      } else {
-        // Deleting
-        if (charIndex.current > 0) {
-          charIndex.current--;
-          setText(currentWord.substring(0, charIndex.current));
-          timeout = setTimeout(type, delay / 2); // Faster delete
-        } else {
-          // Pause before starting next word
-          isDeleting.current = false;
-          wordIndex.current = (wordIndex.current + 1) % words.length;
-          timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-        }
-      }
-    };
-
-    type();
-
-    return () => clearTimeout(timeout);
-  }, []);
-
 
 
 
@@ -255,12 +205,12 @@ const Smm = () => {
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
  
 
- <meta property="og:title" content="Best Social Media Marketing Agency in Gurgaon | WebNest Media" />
+ {/* <meta property="og:title" content="Best Social Media Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/social-media-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CDPM3k0Q.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+  <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">
           {JSON.stringify(socialMediaSchema)}
@@ -269,8 +219,7 @@ const Smm = () => {
 
       <div className=' w-[100%] mb-[120px]  mx-auto'>
         <div className=" ">
-          {/* <h1 className='className="text-3xl md:text-5xl sm:text-2xl font-bold text-[#5c945c] mt-[150px] max-lg:mt-[30px] text-center ml-[30px]" ' id='head1' style={{ lineHeight: 1.5 }}>Social Media Marketing Agency <br />  <span className='text-black'>in Gurgaon</span></h1>
-          */}
+          
 
           <HeroSection
             backgroundImage={topimage}
@@ -279,9 +228,7 @@ const Smm = () => {
             paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
           />
 
-          {/* <h2 className="heading-styled relative h-[70px] text-[35px]  bg-yellow font-bold text-black px-4 py-1 mt-[13px] ml-[43%]">
-            {text}
-          </h2> */}
+        
 
 
 
@@ -418,7 +365,10 @@ const Smm = () => {
                 and stand out in the digital crowd.
               </p>
 
-           <Link to ="/contact-us">
+           <Link to ="/contact-us"
+                    aria-label="WebNest Media  Conatact Now"
+
+           >
               <button data-aos="fade-up" type="submit" className="uiverse-button" style={{ background: "#409338" }}>Contact Now
 
               </button>
@@ -572,9 +522,7 @@ const Smm = () => {
 
         </div>
 
-        <div className='mt-24 max-md:mt-10'>
-          <Newcontact />
-        </div>
+   
         <div className='mt-[100px] max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
           <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
 

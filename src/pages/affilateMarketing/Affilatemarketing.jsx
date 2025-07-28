@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+
 import './Affilatemarketing.css'
 import amc2img from './resources/amc2img.svg'
 
@@ -9,64 +9,20 @@ import Icons3 from './resources/Icons3.svg'
 import Icons4 from './resources/Icon4.svg'
 import image from './resources/Image.png'
 import { Helmet } from 'react-helmet'
-import Conatctfrom from '../../components/contact/contactform';
+
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-import { FiPhone } from "react-icons/fi";
+
 import heroimage from './resources/heroimage.png'
-import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom'
 
 const Affilatemarketing = () => {
 
-  const [text, setText] = useState('');
-  const words = ['Conversion', 'Commission', 'Traffic'];
-  const delay = 150;
-  const pause = 1000;
 
-  const wordIndex = useRef(0);
-  const charIndex = useRef(0);
-  const isDeleting = useRef(false);
 
-  useEffect(() => {
-    let timeout;
 
-    const type = () => {
-      const currentWord = words[wordIndex.current];
-
-      if (!isDeleting.current) {
-        // Typing
-        setText(currentWord.substring(0, charIndex.current));
-        if (charIndex.current < currentWord.length) {
-          charIndex.current++;
-          timeout = setTimeout(type, delay);
-        } else {
-          // Pause after typing full word
-          timeout = setTimeout(() => {
-            isDeleting.current = true;
-            timeout = setTimeout(type, delay);
-          }, pause);
-        }
-      } else {
-        // Deleting
-        if (charIndex.current > 0) {
-          charIndex.current--;
-          setText(currentWord.substring(0, charIndex.current));
-          timeout = setTimeout(type, delay / 2); // Faster delete
-        } else {
-          // Pause before starting next word
-          isDeleting.current = false;
-          wordIndex.current = (wordIndex.current + 1) % words.length;
-          timeout = setTimeout(type, pause / 2); // Shorter pause after delete
-        }
-      }
-    };
-
-    type();
-
-    return () => clearTimeout(timeout);
-  }, []);
 
   const statsData = [
     { number: '100%', label: 'Performance Based' },
@@ -76,101 +32,101 @@ const Affilatemarketing = () => {
   ];
 
   const affiliateMarketingSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "@id": "https://webnestmedia.com/affiliate-marketing#service",
-      "name": "Affiliate Marketing",
-      "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
-      "serviceType": "Affiliate Marketing",
-      "provider": {
-        "@type": "Organization",
-        "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
-        "sameAs": [
-          "https://www.instagram.com/webnestmediagroup/",
-          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
-          "https://www.linkedin.com/company/webnest-media-group/"
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://webnestmedia.com/affiliate-marketing#service",
+        "name": "Affiliate Marketing",
+        "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
+        "serviceType": "Affiliate Marketing",
+        "provider": {
+          "@type": "Organization",
+          "name": "WebNest Media",
+          "url": "https://webnestmedia.com",
+          "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "sameAs": [
+            "https://www.instagram.com/webnestmediagroup/",
+            "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+            "https://www.linkedin.com/company/webnest-media-group/"
+          ]
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "postalCode": "122001",
+            "addressCountry": "IN"
+          }
+        },
+        "url": "https://webnestmedia.com/affiliate-marketing"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
+        "url": "https://webnestmedia.com/affiliate-marketing",
+        "name": "Affiliate Marketing Services – WebNest Media",
+        "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Affiliate Marketing",
+            "item": "https://webnestmedia.com/affiliate-marketing"
+          }
         ]
       },
-      "areaServed": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
-          "addressLocality": "Gurgaon",
-          "addressRegion": "Haryana",
-          "postalCode": "122001",
-          "addressCountry": "IN"
-        }
-      },
-      "url": "https://webnestmedia.com/affiliate-marketing"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
-      "url": "https://webnestmedia.com/affiliate-marketing",
-      "name": "Affiliate Marketing Services – WebNest Media",
-      "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://webnestmedia.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://webnestmedia.com/#services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Affiliate Marketing",
-          "item": "https://webnestmedia.com/affiliate-marketing"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/affiliate-marketing#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is affiliate marketing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Affiliate marketing is a performance-based strategy where affiliates promote your product or service, and you pay them only when they deliver a lead or sale. It's a cost-effective way to scale online revenue."
+      {
+        "@type": "FAQPage",
+        "@id": "https://webnestmedia.com/affiliate-marketing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is affiliate marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Affiliate marketing is a performance-based strategy where affiliates promote your product or service, and you pay them only when they deliver a lead or sale. It's a cost-effective way to scale online revenue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does WebNest Media manage affiliate campaigns?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We handle everything from affiliate recruitment, setup, and tracking to performance optimization and reporting—ensuring your campaign runs smoothly and profitably."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is affiliate marketing suitable for my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if you're looking to grow your brand without upfront ad spend. It works best for e-commerce, SaaS, and service-based businesses that can offer commissions to trusted partners or influencers."
+            }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "How does WebNest Media manage affiliate campaigns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We handle everything from affiliate recruitment, setup, and tracking to performance optimization and reporting—ensuring your campaign runs smoothly and profitably."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is affiliate marketing suitable for my business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, if you're looking to grow your brand without upfront ad spend. It works best for e-commerce, SaaS, and service-based businesses that can offer commissions to trusted partners or influencers."
-          }
-        }
-      ]
-    }
-  ]
-};
+        ]
+      }
+    ]
+  };
 
 
   const scrollToSection = (id) => {
@@ -194,16 +150,16 @@ const Affilatemarketing = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/affiliate-marketing" />
 
-<meta property="og:title" content="Top Affiliate Marketing Agency in Gurgaon | WebNest Media" />
+        {/* <meta property="og:title" content="Top Affiliate Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media: Top affiliate marketing agency in Gurgaon. We build and manage programs to ensure maximum ROI for your brand." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/affiliate-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/heroimage--fNAPUCz.svg" />
-  <meta property="og:site_name" content="WebNest Media" />
+  <meta property="og:site_name" content="WebNest Media" /> */}
 
-         <script type="application/ld+json">
-        {JSON.stringify(affiliateMarketingSchema)}
-      </script>
+        <script type="application/ld+json">
+          {JSON.stringify(affiliateMarketingSchema)}
+        </script>
 
       </Helmet>
 
@@ -216,84 +172,65 @@ const Affilatemarketing = () => {
           paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
         />
 
-
-
-
-
-
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
 
-  {/* Main Container */}
-  <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
+          {/* Main Container */}
+          <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
 
-    {/* Left Section: Heading + Paragraph + List + Buttons */}
-    <div className="lg:w-[60%] flex flex-col justify-start">
+            {/* Left Section: Heading + Paragraph + List + Buttons */}
+            <div className="lg:w-[60%] flex flex-col justify-start">
 
-      {/* Heading */}
-      <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl max-lg:mb-[20px] lg:mb-8 font-semibold">
-        Affiliate Marketing?
-      </h2>
+              {/* Heading */}
+              <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl max-lg:mb-[20px] lg:mb-8 font-semibold">
+                Affiliate Marketing?
+              </h2>
 
-      {/* Mobile View Image */}
-      <div className="lg:hidden w-full flex justify-center my-6">
-          <LazyLoadImage src={amc2img} alt="Woman with laptop" className="max-lg:w-[80%]" />
-      </div>
+              {/* Mobile View Image */}
+              <div className="lg:hidden w-full flex justify-center my-6">
+                <LazyLoadImage src={amc2img} alt="Woman with laptop" className="max-lg:w-[80%]" />
+              </div>
 
-      {/* Paragraph */}
-      <p data-aos="fade-up" className="text-base leading-relaxed">
-        Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
-        You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
-      </p>
-      <br />
+              {/* Paragraph */}
+              <p data-aos="fade-up" className="text-base leading-relaxed">
+                Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
+                You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
+              </p>
+              <br />
 
-      {/* Subheading */}
-      <h3 data-aos="fade-up" className="text-xl font-semibold mb-4">It's a Win-Win:</h3>
+              {/* Subheading */}
+              <h3 data-aos="fade-up" className="text-xl font-semibold mb-4">It's a Win-Win:</h3>
 
-      {/* Bullet Points */}
-      <ul c lassName="text-base mb-12 leading-[160%]">
-        <li data-aos="fade-up">• The company gets more sales.</li>
-        <li data-aos="fade-up">• The customer gets what they're looking for.</li>
-        <li data-aos="fade-up">• And you get paid for making the connection.</li>
-      </ul>
+              {/* Bullet Points */}
+              <ul c lassName="text-base mb-12 leading-[160%]">
+                <li data-aos="fade-up">• The company gets more sales.</li>
+                <li data-aos="fade-up">• The customer gets what they're looking for.</li>
+                <li data-aos="fade-up">• And you get paid for making the connection.</li>
+              </ul>
 
-      {/* Buttons */}
-      {/* <div className="flex flex-row gap-4">
-        <button className="p-3 bg-[#4CAF50] rounded-lg text-white">Learn More</button>
-        <button className="p-3 border border-[#4CAF50] text-[#4CAF50] rounded-lg">Contact Us</button>
-      </div> */}
+              <div className="flex gap-3 mt-8">
+                <button data-aos="fade-up"
+                  onClick={() => scrollToSection("affilatemarketing")}
+                  className='uiverse-button'>Learn More</button>
+                <Link to="/contact-us"
+                
+                         aria-label="WebNest Media  Conatct Us"
 
+                >
+                  <button data-aos="fade-up" className='white-button'>Contact Us</button>
 
-      
+                </Link>
 
-    <div className="flex gap-3 mt-8">
+              </div>
+            </div>
 
-           
-            <button data-aos="fade-up"
-              onClick={() => scrollToSection("affilatemarketing")}
-            
-            className='uiverse-button'>Learn More</button>
-      
-      
-      
-        <Link to="/contact-us">
-            <button data-aos="fade-up" className='white-button'>Contact Us</button>
-         
-        </Link>
-         
+            {/* Right Section: Image Vertically Centered on Desktop */}
+            <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
+              <LazyLoadImage data-aos="fade-up" src={amc2img} alt="Woman with laptop" />
+            </div>
+
           </div>
-    </div>
 
-    {/* Right Section: Image Vertically Centered on Desktop */}
-    <div  className="lg:w-[40%] lg:flex hidden justify-center items-center">
-        <LazyLoadImage data-aos="fade-up" src={amc2img} alt="Woman with laptop" />
-    </div>
-
-  </div>
-
-</div>
- 
-
-
+        </div>
 
 
         <div className="max-lg:mt-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
@@ -303,7 +240,7 @@ const Affilatemarketing = () => {
             {/* Heading and Description */}
             <div className="flex flex-col lg:items-end lg:mb-[52px] lg:translate-y-24">
               <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl font-semibold mb-12 max-lg:mb-4 lg:text-right">Affiliate Marketing Types</h2>
-              <p data-aos="fade-up"className="text-base leading-relaxed lg:text-right lg:w-[60%]">
+              <p data-aos="fade-up" className="text-base leading-relaxed lg:text-right lg:w-[60%]">
                 Affiliate marketing is a way for people or businesses to earn money by promoting someone else's products or services.
                 You recommend something you trust—like a product, a tool, or even a course—and when someone buys it through your special link, you earn a commission.
               </p>
@@ -313,7 +250,7 @@ const Affilatemarketing = () => {
             <div data-aos="fade-up" className="flex max-lg:flex-col justify-between lg:Lgap-5 items-center">
               {/* Image */}
               <div data-aos="fade-up" className="max-lg:mb-[40px] flex justify-center max-lg:lg:w-[40%]">
-                  <LazyLoadImage src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
+                <LazyLoadImage src={amc3img} alt="Affiliate Marketing Illustration" className="lg:mb-[100px]" />
               </div>
 
               {/* Cards */}
@@ -362,7 +299,7 @@ const Affilatemarketing = () => {
             </div>
           </div>
         </div>
-        <div  className='bg-[#EFF4EE] '>
+        <div className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
               <p data-aos="fade-up" style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
@@ -384,7 +321,7 @@ const Affilatemarketing = () => {
         </div>
 
         <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl  max-lg:text-3xl lg:text-center lg:mb-12">
+          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
 
@@ -393,77 +330,79 @@ const Affilatemarketing = () => {
           </p>
 
         </div>
-        <div className="max-lg:mb-10 max-w-[1440px] w-full px-[40px] max-lg:px-[16px] mx-auto">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center lg:px-4 lg:py-10">
-    
-    {/* Card 1 */}
-    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
-      <div className="w-[64px] h-[64px]">
-        <LazyLoadImage src={Icons1} alt="Strategic Partner Selection" className="w-full h-full mb-4" />
-      </div>
-      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
-        Strategic Partner <br className="max-lg:hidden" /> Selection
-      </h3>
-      <p className="text-base text-[#444] leading-[1.6]">
-        We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
-      </p>
-    </div>
+        <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
+            {/* Card 1 */}
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
 
-    {/* Card 2 */}
-    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
-      <div className="w-[64px] h-[64px]">
-        <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
-      </div>
-      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
-        Customized Campaign Setup
-      </h3>
-      <p className="text-base text-[#444] leading-[1.6]">
-        Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
-      </p>
-    </div>
+              <div className="w-[64px] h-[64px]">
+                  <LazyLoadImage src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
+              </div>
+              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
+                Strategic Partner <br /> Selection
+              </h3>
+              <p className="text-base text-[#444] leading-[1.6] ">
+                We carefully choose and collaborate with top affiliate marketers who align with your brand and target audience.
+              </p>
+            </div>
 
-    {/* Card 3 */}
-    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
-      <div className="w-[64px] h-[64px]">
-        <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
-      </div>
-      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
-        Performance Tracking & Optimization
-      </h3>
-      <p className="text-base text-[#444] leading-[1.6]">
-        We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
-      </p>
-    </div>
+            {/* Card 2 */}
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+              <div className="w-[64px] h-[64px]">
+                  <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
+              </div>
+              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
+                Customized Campaign Setup
+              </h3>
+              <p className="text-base text-[#444] leading-[1.6]">
+                Every business is different. We tailor affiliate strategies that match your goals—whether it’s sales, sign-ups, or brand awareness.
+              </p>
+            </div>
 
-    {/* Card 4 */}
-    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
-      <div className="w-[64px] h-[64px]">
-        <LazyLoadImage src={Icons4} alt="Transparent Reporting" className="w-full h-full mb-4" />
-      </div>
-      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
-        Transparent <br className="max-lg:hidden" /> Reporting
-      </h3>
-      <p className="text-base text-[#444] leading-[1.6]">
-        You get clear, detailed performance reports so you always know where your affiliate budget is going.
-      </p>
-    </div>
+            {/* Card 3 */}
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+              <div className="w-[64px] h-[64px]">
+                  <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
+              </div>
+              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
+                Performance Tracking & Optimization
+              </h3>
+              <p className="text-base text-[#444] leading-[1.6]">
+                We don’t just set it and forget it. Our team continuously tracks clicks, conversions, and ROI to optimize campaigns for better results.
+              </p>
+            </div>
 
-    {/* Card 5 */}
-    <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center lg:max-w-60 max-lg:border max-lg:rounded-xl">
-      <div className="w-[64px] h-[64px]">
-        <LazyLoadImage src={Icons1} alt="Ethical, Scalable Growth" className="w-full h-full mb-4" />
-      </div>
-      <h3 className="text-lg font-semibold mb-3 mt-9 max-lg:mt-6 text-[#222] text-[18px]">
-        Ethical, Scalable <br className="max-lg:hidden" /> Growth
-      </h3>
-      <p className="text-base text-[#444] leading-[1.6]">
-        We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
-      </p>
-    </div>
+            {/* Card 4 */}
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+              <div className="w-[64px] h-[64px]">
+                  <LazyLoadImage src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
+              </div>
+              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
+                Transparent <br /> Reporting
+              </h3>
+              <p className="text-base text-[#444] leading-[1.6]">
+                You get clear, detailed performance reports so you always know where your affiliate budget is going.
+              </p>
+            </div>
 
-  </div>
-</div>
+            {/* Card 5 */}
+            <div data-aos="fade-up" className="flex flex-col items-center p-6  text-center max-w-60 max-lg:border max-lg:rounded-xl ">
+              <div className="w-[64px] h-[64px]">
+                  <LazyLoadImage src={Icons1} alt=" Ethical, Scalable Growth" className="w-full h-full mb-4" />
+              </div>
+              <h3 className="text-lg font-semibold mb-3 mt-9 text-[#222] text-[18px]">
+                Ethical, Scalable <br /> Growth
+              </h3>
+              <p className="text-base text-[#444] leading-relaxed">
+                We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
+              </p>
+            </div>
+          </div>
 
+
+
+
+        </div>
 
 
 
@@ -482,7 +421,7 @@ const Affilatemarketing = () => {
 
               {/* Mobile View Image */}
               <div data-aos="fade-up" className="lg:hidden w-full flex justify-center my-6">
-                  <LazyLoadImage src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
+                <LazyLoadImage src={image} alt="Woman with laptop" className="max-lg:w-[80%]" />
               </div>
 
               {/* Paragraph */}
@@ -495,172 +434,162 @@ const Affilatemarketing = () => {
 
             {/* Right Section: Image Vertically Centered */}
             <div className="lg:w-[40%] lg:flex hidden justify-center items-center">
-                <LazyLoadImage src={image} alt="Woman with laptop" />
+              <LazyLoadImage src={image} alt="Woman with laptop" />
             </div>
 
           </div>
         </div>
 
-
-
-
-
-        <Newcontact />
-        
-
       </div>
       <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
-  <h2 className="text-center">
-    Let's address your <span className="text-black">questions</span> today
-  </h2>
-  <div className="accordion-wrapper-columns">
-    {/* Left Column */}
-    <div className="accordion-column">
-      <div className="accordion">
-        <input type="checkbox" id="left-1" />
-        <label className="accordion-label" htmlFor="left-1">
-          What is affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Affiliate marketing is a way to earn money by promoting someone
-            else’s product. When someone buys through your link, you get a
-            small commission.
-          </p>
-        </div>
-      </div>
+        <h2 className="text-center">
+          Let's address your <span className="text-black">questions</span> today
+        </h2>
+        <div className="accordion-wrapper-columns">
+          {/* Left Column */}
+          <div className="accordion-column">
+            <div className="accordion">
+              <input type="checkbox" id="left-1" />
+              <label className="accordion-label" htmlFor="left-1">
+                What is affiliate marketing?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Affiliate marketing is a way to earn money by promoting someone
+                  else’s product. When someone buys through your link, you get a
+                  small commission.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-2" />
-        <label className="accordion-label" htmlFor="left-2">
-          Can anyone start affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes! Whether you’re a student, blogger, business owner, or just
-            exploring online income, anyone can start affiliate marketing with
-            the right guidance.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="left-2" />
+              <label className="accordion-label" htmlFor="left-2">
+                Can anyone start affiliate marketing?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Yes! Whether you’re a student, blogger, business owner, or just
+                  exploring online income, anyone can start affiliate marketing with
+                  the right guidance.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-3" />
-        <label className="accordion-label" htmlFor="left-3">
-          Do I need a website to become an affiliate marketer?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Not necessarily. You can promote links on social media, YouTube, X,
-            or even WhatsApp. But having a website helps you build trust and
-            grow faster.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="left-3" />
+              <label className="accordion-label" htmlFor="left-3">
+                Do I need a website to become an affiliate marketer?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Not necessarily. You can promote links on social media, YouTube, X,
+                  or even WhatsApp. But having a website helps you build trust and
+                  grow faster.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-4" />
-        <label className="accordion-label" htmlFor="left-4">
-          How much can I earn with affiliate marketing?
-        </label>
-        <div className="accordion-content">
-          <p>
-            It depends on your efforts and the products you promote. Some people
-            earn a few thousand a month, while others make it a full-time
-            income.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="left-4" />
+              <label className="accordion-label" htmlFor="left-4">
+                How much can I earn with affiliate marketing?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  It depends on your efforts and the products you promote. Some people
+                  earn a few thousand a month, while others make it a full-time
+                  income.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="left-5" />
-        <label className="accordion-label" htmlFor="left-5">
-          Is affiliate marketing free to start?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes, most affiliate programs are free to join. You just need time,
-            content, and strategy to start earning.
-          </p>
-        </div>
-      </div>
-    </div>
+            <div className="accordion">
+              <input type="checkbox" id="left-5" />
+              <label className="accordion-label" htmlFor="left-5">
+                Is affiliate marketing free to start?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Yes, most affiliate programs are free to join. You just need time,
+                  content, and strategy to start earning.
+                </p>
+              </div>
+            </div>
+          </div>
 
-    {/* Right Column */}
-    <div className="accordion-column">
-      <div className="accordion">
-        <input type="checkbox" id="right-6" />
-        <label className="accordion-label" htmlFor="right-6">
-          How long does it take to see results on SERP?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Some see results in a few weeks, others in a few months.
-            Consistency and choosing the right products make a big difference.
-          </p>
-        </div>
-      </div>
+          {/* Right Column */}
+          <div className="accordion-column">
+            <div className="accordion">
+              <input type="checkbox" id="right-6" />
+              <label className="accordion-label" htmlFor="right-6">
+                How long does it take to see results on SERP?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Some see results in a few weeks, others in a few months.
+                  Consistency and choosing the right products make a big difference.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-7" />
-        <label className="accordion-label" htmlFor="right-7">
-          Can I do affiliate marketing part-time?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Absolutely. It’s flexible. You can work on it after hours or
-            weekends and still earn passive income over time.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="right-7" />
+              <label className="accordion-label" htmlFor="right-7">
+                Can I do affiliate marketing part-time?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Absolutely. It’s flexible. You can work on it after hours or
+                  weekends and still earn passive income over time.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-8" />
-        <label className="accordion-label" htmlFor="right-8">
-          Is affiliate marketing safe and legal in India?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Yes, it’s 100% legal and widely practiced in India. Just make sure
-            to join trusted programs and follow ethical practices.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="right-8" />
+              <label className="accordion-label" htmlFor="right-8">
+                Is affiliate marketing safe and legal in India?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Yes, it’s 100% legal and widely practiced in India. Just make sure
+                  to join trusted programs and follow ethical practices.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-9" />
-        <label className="accordion-label" htmlFor="right-9">
-          What are the most popular affiliate programs in India?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Some of the top ones are Amazon Associates, Flipkart, and affiliate
-            programs from hosting companies, banks, and online tools.
-          </p>
-        </div>
-      </div>
+            <div className="accordion">
+              <input type="checkbox" id="right-9" />
+              <label className="accordion-label" htmlFor="right-9">
+                What are the most popular affiliate programs in India?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Some of the top ones are Amazon Associates, Flipkart, and affiliate
+                  programs from hosting companies, banks, and online tools.
+                </p>
+              </div>
+            </div>
 
-      <div className="accordion">
-        <input type="checkbox" id="right-10" />
-        <label className="accordion-label" htmlFor="right-10">
-          Can businesses use affiliate marketing too?
-        </label>
-        <div className="accordion-content">
-          <p>
-            Definitely. Businesses can set up affiliate programs to get more
-            customers through influencers, bloggers, and marketers promoting
-            their brand.
-          </p>
+            <div className="accordion">
+              <input type="checkbox" id="right-10" />
+              <label className="accordion-label" htmlFor="right-10">
+                Can businesses use affiliate marketing too?
+              </label>
+              <div className="accordion-content">
+                <p>
+                  Definitely. Businesses can set up affiliate programs to get more
+                  customers through influencers, bloggers, and marketers promoting
+                  their brand.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
     </>
   )
-
-
-
 
 
 }

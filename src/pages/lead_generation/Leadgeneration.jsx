@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
-import './Leadgeneration.css'
-import image2 from './resources/image2.svg'
+import  { useState } from 'react';
+
 import topimage from './resources/topimage.png'
 import image3 from './resources/image3.png'
 import icon1 from './resources/ifl.svg'
@@ -9,12 +7,10 @@ import icon2 from './resources/diversity_1.svg'
 import icon3 from './resources/arrows_input.svg'
 import icon4 from './resources/lightbulb.svg'
 import Accordion from './components/Accordian';
-import Conatctfrom from '../../components/contact/contactform';
-import { FiPhone } from 'react-icons/fi';
-import { useEffect } from 'react';
+
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import arrow from './resources/arrow.svg'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -92,13 +88,13 @@ const Leadgeneration = () => {
 
 
 
-<meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads " />
+{/* <meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads " />
   <meta property="og:description" content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/lead-generation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-Dc6cZZ9c.svg" />
  <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
       </Helmet>
@@ -123,16 +119,16 @@ const Leadgeneration = () => {
           <p data-aos="fade-up" className='text-lg max-md:text-base lg:text-center mt-[31px] lg:w-[70%] font-semibold mb-10'>
             In B2B lead generation, quality matters as much as quantity. We help you attract high-intent leads so you spend less time chasing and more time closing. It's smarter, faster, and more effective.
           </p>
-            {/* <LazyLoadImage data-aos="fade-up"  src={image2} alt=" B2B Lead Generation" /> */}
+           
         </div>
 
         <div className="lgc3 max-w-[1440px] mt-[50px] mx-auto flex max-lg:block flex-row px-10 max-lg:px-4 h-[555px] max-lg:h-auto justify-between">
-          {/* Left Section */}
+        
           <div className="lgc3left w-[50%] max-lg:w-full">
             <h2 data-aos="fade-up" className='text-[48px] max-lg:text-[30px] font-semibold'>Explore Our B2B Lead Generation Agency</h2>
             <br />
 
-            {/* Mobile Image: Float right only on mobile */}
+           
             <div data-aos="fade-up" className="block lg:hidden float-right w-[50%] ml-4 mb-4">
                 <LazyLoadImage src={image3} alt="lead generation agency" className='w-full h-auto object-contain' />
             </div>
@@ -150,7 +146,7 @@ const Leadgeneration = () => {
             </p>
           </div>
 
-          {/* Desktop Image: Visible only on large screens */}
+          
           <div data-aos="fade-up" className="lgc3right w-[50%] max-lg:hidden h-full flex items-center">
               <LazyLoadImage src={image3} alt="Proven Lead Generation Services" className='w-full h-full object-contain pb-[20px]' />
           </div>
@@ -251,7 +247,7 @@ const Leadgeneration = () => {
 
           </div>
         </div>
-        <Newcontact></Newcontact>
+      
         <div className="lgc7 mt-[96px] max-lg:mt-10 max-w-[1440px] mx-auto px-10 max-lg:px-4">
           <p className=" mb-[50px] font-medium text-[32px]  max-md:text-center leading-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>

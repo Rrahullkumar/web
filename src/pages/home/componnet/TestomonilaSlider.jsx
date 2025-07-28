@@ -5,13 +5,8 @@ import React from "react";
 import "./slider.css";
 
 import { useEffect, useState } from "react";
-
-import SocialMediaMarketing from "../../home/resources/Socialmediamarketing.svg";
-import WebDevelopment from "../../home/resources/WebDevelopment.svg";
-import EmailMarketing from "../../home/resources/EmailMarketing.svg";
 import maninwhite from "../../home/resources/maninwhite.png";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { memo } from "react";
+
 
 const testimonials = [
   {
@@ -91,11 +86,11 @@ export default React.memo(function App() {
           <h2 className="headingstrokesecond">Every Voice Fuels Us.</h2>
         </div>
 
-        <div className="flex flex-col xl:flex-row justify-end gap-10 max-lg:mb-[60px]">
+        <div className="flex flex-col xl:flex-row justify-start gap-10 max-lg:mb-[60px]">
           <div className="hidden xl:flex flex-col justify-start w-full xl:w-1/2">
-            <h2 className="headingstroke">Every Insight Matters.</h2>
-            <h2 className="headingstrokesecond">Every Voice Fuels Us.</h2>
-            <img src={maninwhite} alt='White man Image' className="w-full h-auto object-contain mt-6"  />
+            <h5 className="headingstroke">Every Insight Matters.</h5>
+            <h5 className="headingstrokesecond">Every Voice Fuels Us.</h5>
+            <img src={maninwhite} alt='White man Image' className="w-full h-auto object-contain mt-6 relative right-20"  />
           </div>
 
           <div
@@ -153,24 +148,7 @@ export default React.memo(function App() {
   );
 });
 
-// function TestimonialCard({ name, rating, message, sunheading }) {
-//   return (
-//     <div
-//       className="w-full max-w-sm bg-[#409338] p-6 rounded-xl shadow-md"
-//       style={{ boxShadow: "0 4px 8px rgba(128, 128, 128, 0.5)" }}
-//     >
-//       <div className="flex items-center gap-4 mb-4">
-       
-//         <div>
-//           <p className="font-semibold text-[16px]">{name}</p>
-//           <p className="text-sm">{sunheading}</p>
-//           <p className="text-xs">{rating}</p>
-//         </div>
-//       </div>
-//       <p className="text-sm leading-relaxed">{message}</p>
-//     </div>
-//   );
-// }
+
 const TestimonialCard = React.memo(function TestimonialCard({ name, rating, message, sunheading }) {
   return (
     <div className="speech-bubble w-full max-w-sm shadow-md relative">

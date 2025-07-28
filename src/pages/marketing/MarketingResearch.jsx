@@ -1,6 +1,5 @@
-import React from 'react'
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
+
+
 import Accordian from "./component/Accordian";
 import c1image from './resources/c1image.png'
 import icon1 from './resources/icon1.svg'
@@ -9,15 +8,15 @@ import icon3 from './resources/icon3.svg'
 import icon4 from './resources/icon4.svg'
 import icon5 from './resources/icon5.svg'
 import m3image from './resources/m3image.svg'
-import m5img from './resources/m5img.svg'
+
 import m6img from './resources/m6img.svg'
 import m66img from './resources/m66img.svg'
 import m7img from './resources/m7img.svg'
 import m8img from './resources/m8img.svg'
 import HeroSection from '../../components/Herosection/Herosection';
-import Newcontact from '../../components/Newcontact/Newcontact';
+
 import { Helmet } from 'react-helmet';
-// import HeroSection from '../../components/Herosection/Herosection';
+
 import topimage from './resources/topimage.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -39,7 +38,7 @@ const MarketingResearch = () => {
         <link rel="canonical" href="https://webnestmedia.com/market-research-insights" />
 
 
-
+{/* 
 
         <meta property="og:title" content="Market Research and Insights Company in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
@@ -47,7 +46,7 @@ const MarketingResearch = () => {
         <meta property="og:url" content="https://webnestmedia.com/market-research-insights" />
         <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
         <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
 
       </Helmet>
@@ -296,13 +295,6 @@ const MarketingResearch = () => {
         </div>
 
 
-
-
-
-
-
-
-        <Newcontact></Newcontact>
 
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-[60px] mb-[50px]'>
           <h2 className='text-3xl px-10 max-lg:px-4 text-center font-semibold'>Let's address your <span className='text-[#4caf50]'>questions</span> today</h2>

@@ -2,20 +2,15 @@ import { useRef, useState, useEffect } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
 import topimage from './resources/topimage.png'
 import image1 from './resources/image1.svg'
-import phoneImg from './resources/tabimage.svg'
-import icon1 from './resources/icon1.svg'
-import icon2 from './resources/icon2.svg'
-import icon3 from './resources/icon3.svg'
-import icon4 from './resources/icon4.svg'
+
 import Accordion from './components/Accordian';
-import Conatctfrom from '../../components/contact/contactform';
-import { FiPhone } from 'react-icons/fi';
+
 import { CircleCheckBig } from "lucide-react";
 import { CircleX } from "lucide-react";
 import { Helmet } from 'react-helmet'
 import tabimage from './resources/tabimage.svg'
 import HeroSection from '../../components/Herosection/Herosection.jsx';
-import Newcontact from '../../components/Newcontact/Newcontact.jsx'
+
 import tabimage2 from './resources/Rectangle2.svg'
 import tabimage3 from './resources/Rectangle3.svg'
 import tabimage4 from './resources/Rectangle4.svg'
@@ -133,96 +128,6 @@ const MobileMarketing = () => {
   },
 ];
 
-
-   const tabData = [
-  {
-    label: 'Mobile-Optimized Website Design & Development',
-    image: phoneImg,
-    content: (
-      <div className='text-[16px]'>
-        <p className="mb-4">
-          Mobile-optimized website design and development focuses on creating websites that deliver a seamless user experience across smartphones and tablets. It ensures fast loading speeds, responsive layouts, easy navigation, and touch-friendly elements. A mobile-optimized site improves user engagement, boosts search rankings, and drives better conversions by catering to the growing number of mobile users.
-        </p>
-        <p className="mb-4">Your website is your digital storefront. We ensure it looks and performs flawlessly on all mobile devices with:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Responsive Design:</strong> Websites that fluidly adapt to any screen size.</li>
-          <li><strong>Fast Loading Speeds:</strong> Critical for mobile users to prevent bounce rates.</li>
-          <li><strong>Intuitive Navigation:</strong> Easy-to-use menus and clear calls-to-action for small screens.</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    label: 'SMS & MMS Marketing Campaigns',
-    image: phoneImg,
-    content: (
-      <div className='text-[16px]'>
-        <p className="mb-4">
-          SMS & MMS marketing campaigns are powerful tools for reaching customers directly on their mobile devices. SMS delivers concise, text-based messages, while MMS allows rich media like images, videos, and audio. These campaigns help businesses promote offers, send reminders, and engage audiences with high open rates and instant delivery—making them ideal for time-sensitive promotions and personalized communication.
-        </p>
-        <p className="mb-4">Directly communicate with your customers through their most personal device:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Promotional SMS:</strong> Sending timely offers, discounts, and announcements.</li>
-          <li><strong>Transactional SMS:</strong> Delivering order confirmations, delivery updates, and reminders.</li>
-          <li><strong>MMS Campaigns:</strong> Engaging users with multimedia content like images and videos.</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    label: 'Location-Based & Proximity Marketing',
-    image: phoneImg,
-    content: (
-      <div className='text-[16px]'>
-        <p className="mb-4">
-          Location-based and proximity marketing use GPS, Wi-Fi, Bluetooth, or beacon technology to deliver targeted messages to users based on their real-time location. This strategy allows businesses to engage customers with hyper-local offers, promotions, or alerts when they are near a store or within a specific area. It's a smart way to drive foot traffic, enhance user experience, and boost conversion rates by reaching the right audience at the right place and time.
-        </p>
-        <p className="mb-4">Connect with customers in their physical vicinity, perfect for local businesses in Gurgaon:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Geofencing:</strong> Targeting users with ads when they enter a specific geographic area.</li>
-          <li><strong>Local Search Optimization:</strong> Ensuring your business appears prominently in "near me" mobile searches.</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    label: 'Mobile App Marketing & Engagement',
-    image: phoneImg,
-    content: (
-      <div className='text-[16px]'>
-        <p className="mb-4">
-          Mobile app marketing and engagement focuses on promoting apps to attract users and keeping them active through personalized experiences. It involves strategies like app store optimization (ASO), push notifications, in-app messaging, and user behavior tracking to boost installs, retention, and user loyalty. The goal is to create lasting connections, drive usage, and maximize the app’s value throughout the customer journey.
-        </p>
-        <p className="mb-4">If you have a mobile app, we help you get more downloads and keep users engaged:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>App Store Optimization (ASO):</strong> Optimizing your app listing for higher visibility in app stores.</li>
-          <li><strong>Push Notifications:</strong> Crafting compelling notifications to re-engage app users.</li>
-          <li><strong>In-App Messaging:</strong> Delivering personalized messages within your app.</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    label: 'QR Code Campaigns',
-    image: phoneImg,
-    content: (
-      <div className='text-[16px]'>
-        <p className="mb-4">
-          QR code campaigns use scannable codes to bridge the gap between offline and digital experiences. By scanning a QR code, users can instantly access websites, promotional offers, videos, app downloads, or contact details. These campaigns are cost-effective, easy to implement, and highly trackable, making them a smart tool for engaging customers, boosting interaction, and driving conversions in physical spaces like stores, events, or print media.
-        </p>
-        <p className="mb-4">Bridge the gap between your physical and digital presence:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Creating dynamic QR codes that link to special offers, landing pages, videos, or contact info.</li>
-          <li>Integrating QR codes into print ads, packaging, or in-store displays for mobile interaction.</li>
-        </ul>
-      </div>
-    ),
-  },
-];
-
-
-
-
     const schemaData = {
         "@context": "https://schema.org",
         "@graph": [
@@ -319,6 +224,8 @@ const MobileMarketing = () => {
             }
         ]
     };
+
+
     return (
         <>
 
@@ -333,13 +240,13 @@ const MobileMarketing = () => {
                 <meta name="author" content="WebNest Media" />
                 <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
 
-                <meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
+                {/* <meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
                 <meta property="og:description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://webnestmedia.com/mobile-marketing" />
                 <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
                 <meta property="og:site_name" content="WebNest Media" />
-
+ */}
 
                 <script type="application/ld+json">
                     {JSON.stringify(schemaData)}
@@ -553,10 +460,7 @@ Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-le
 
 
 
-                <div data-aos="fade-up" className="mmc5 mx-auto max-w-[1440px] mt-24 max-lg:mt-10 mb-24 max-lg:mb-10">
-
-                </div>
-                <Newcontact></Newcontact>
+            
                 <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0"> 
                     <Accordion></Accordion>
                 </div>

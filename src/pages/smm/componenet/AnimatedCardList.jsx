@@ -1,6 +1,4 @@
 
-
-import React, { useEffect, useRef, useState } from 'react';
 import './animatedsmmcard.css';
 
 import Ecomm from "../../home/resources/industries/Ecomm.svg";
@@ -8,7 +6,6 @@ import Education from "../../home/resources/industries/Education.svg";
 
 import Health from "../../home/resources/industries/health.svg";
 import Realstate from "../../home/resources/industries/Real-Estate.svg";
-import Restaurants from "../../home/resources/industries/Restaurants.svg";
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

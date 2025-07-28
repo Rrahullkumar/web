@@ -3,7 +3,7 @@
 import React from 'react';
 import FooterSection from './FooterSection';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
-import blacklogo from '../../assets/blacklogo.svg';
+import blacklogo from '../../assets/blacklogo1.png';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
 import msme from '../../../public/msme.png';
@@ -17,78 +17,7 @@ const Footer = () => {
 
       <div className="max-w-[1440px] w-[100%] mx-auto space-y-10">
 
-        {/* <div className="flex flex-col items-center max-sm:items-start lg:flex-row justify-between gap-10">
-     */}
-{/* 
-<div className="grid gap-10  lg:grid-cols-2  xl:grid-cols-4 ">
 
-          <div className="">
-            < Link to={"/"} >
-                <LazyLoadImage src={blacklogo} alt="WebNest Media Logo" className="w-[186px] " />
-            </Link>
-
-          </div>
-
-     
-          <div className=" flex flex-col items-center  max-sm:items-start   lg:text-left gap-[10px]">
-            <h4 className="text-lg font-semibold mb-2 hover:text-[#25D366] transition-colors duration-300">
-              Connect on Social Media
-            </h4>
-            <div className="flex justify-center lg:justify-start space-x-4 text-xl">
-              <a
-                href="https://www.facebook.com/profile.php?id=61576616442478"
-                target="_blank"
-                rel="noopener noreferrer"
-              >   <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
-              </a>
-              <a
-                href="https://x.com/webnestmediag?s=21"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />   </a>
-              <a
-                href="https://www.linkedin.com/company/webnest-media-group/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >    <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />   </a>
-             
-             
-              <a
-                href="https://www.instagram.com/webnestmediagroup/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >   <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />   </a>
-            </div>
-          </div>
-
-          <div className="flex  flex-col text-start  max-sm:text-start ">
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Our Address</h4>
-              <p className="text-sm mb-4">
-                1st Floor Orchid Business Park,<br />
-                Near Subhash Chowk, Sector 48,<br />
-                Gurugram, Haryana 122004
-              </p>
-            </div>
-
-          </div>
-
-          <div className='flex items-center  flex-col text-start  max-sm:text-start'>
-            <h4 className="text-lg font-semibold mb-2">Email Us</h4>
-            <p> <a
-              className="text-sm text-blue-300 hover:underline"
-              href="mailto:info@webnestmedia.com"
-            >
-              info@webnestmedia.com
-            </a></p>
-
-            < Link to={"/privacy-policy"}  >
-              <p className='text-sm text-[white] hover:underline'>Privacy Policy</p>
-            </Link>
-          </div>
-
-        </div> */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
   {/* Logo Section */}
@@ -98,6 +27,7 @@ const Footer = () => {
         src={blacklogo}
         alt="WebNest Media Logo"
         className="w-[186px]"
+        aria-label="Webnest media Logo"
       />
     </Link>
     
@@ -105,14 +35,15 @@ const Footer = () => {
 
   {/* Social Media Section */}
   <div className="flex flex-col  gap-2">
-    <h4 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
+    <h6 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
       Connect on Social Media
-    </h4>
+    </h6>
     <div className="flex justify-center max-md:justify-start lg:justify-start space-x-4 text-xl">
       <a
         href="https://www.facebook.com/profile.php?id=61576616442478"
         target="_blank"
         rel="noopener noreferrer"
+         aria-label="WebNest Media  Facebook"
       >
         <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -120,6 +51,7 @@ const Footer = () => {
         href="https://x.com/webnestmediag?s=21"
         target="_blank"
         rel="noopener noreferrer"
+         aria-label="WebNest Media  Twitter Page"
       >
         <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -127,6 +59,8 @@ const Footer = () => {
         href="https://www.linkedin.com/company/webnest-media-group/"
         target="_blank"
         rel="noopener noreferrer"
+                 aria-label="WebNest Media Linkedin Page"
+
       >
         <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -134,6 +68,8 @@ const Footer = () => {
         href="https://www.instagram.com/webnestmediagroup/"
         target="_blank"
         rel="noopener noreferrer"
+                 aria-label="WebNest Media  Instagram Page"
+
       >
         <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
       </a>
@@ -153,7 +89,7 @@ const Footer = () => {
 
   {/* Email & Privacy Section */}
   <div className="flex flex-col items-start gap-6">
-    <img src={msme} alt="" className='w-[70%] ' />
+    <img src={msme} alt="MSME image" className='w-[70%] max-lg:w-[51%] '  />
     <p className="text-sm font-semibold">
       GST No:- 06DKNPK2512K2Z1
     </p>
@@ -168,8 +104,10 @@ const Footer = () => {
         info@webnestmedia.com
       </a>
     </p>
-    <Link to="/privacy-policy">
-      <p className="text-sm text-white hover:underline">Privacy Policy</p>
+    <Link to="/privacy-policy" 
+    aria-label="webnest Privacy Policy"
+    className="text-sm text-white hover:underline inline">
+      <p className="text-sm text-white hover:underline inline-block">Privacy Policy</p>
     </Link>
   </div>
 </div>
@@ -246,10 +184,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* WhatsApp Sticky Icon */}
-      {/* <div className="fixed bottom-4 right-4 z-50">
-        <WhatsAppIcon fixed={false} size="70px" />
-      </div> */}
+  
            <div className="fixed bottom-[20px] right-6 flex flex-col items-center gap-4 z-[99999999999999]">
         {/* WhatsApp */}
         <a

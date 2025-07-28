@@ -1,37 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import Accordion from './component/Accordian'
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
-
 import Webnest_Logo from "../../assets/newlogo.svg";
-import difference from "./resources/difference.svg";
 import bulb from "./resources/bulb.svg"
-import team from "./resources/team.svg";
-import founder from "./resources/founder.svg";
-
 import Aboutcounter from "./component/aboutcounter"
-
-import image1 from "./resources/image1.svg";
-import image2 from "./resources/image2.svg";
-import image3 from "./resources/image3.svg";
-import image4 from "./resources/image4.svg";
-import image5 from "./resources/image5.svg";
-import image6 from "./resources/image6.svg";
 import { useRef } from 'react';
-import Newcontact from '../../components/Newcontact/Newcontact';
-
-
-const cards = [
-  { icon: image1, title: "Client-Centric Approach" },
-  { icon: image2, title: "Data-Driven Decisions" },
-  { icon: image3, title: "Holistic Expertise" },
-  { icon: image4, title: "Holistic Expertise" },
-  { icon: image5, title: "Local & Global Insights" },
-  { icon: image6, title: "Passionate Team" },
-
-];
-
-import  Photoslider  from "./component/Photoslider"
+import AboutTesimonial  from "./component/aboutTestimonial"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
@@ -160,47 +133,15 @@ const AboutUS = () => {
       </section>
 
 
-      <section className='mt-[96px] max-w-[1440px] w-[100%] mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
-        <h6 data-aos="fade-up" className='text-[32px] font-semibold text-black leading-[120%] text-center'>Ready to Transform Your Digital Presence?</h6>
-        <p data-aos="fade-up" className='text-base text-black font-light text-center mt-[32px] lg:mb-[96p`x] mb-10 '> Whether you're looking to boost your search rankings, engage your social audience, or develop a comprehensive <br className='max-lg:hidden' /> digital strategy, WebNest Media is here to help.</p>
 
+    <section  className=" flex flex-col md:flex-row justify-center    overflow-hidden">
+   
+   <AboutTesimonial />
+   </section>
 
-      </section>
-
-
-
-<section data-aos="fade-up" className="max-w-[1440px] w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-5 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  overflow-hidden">
-      {/* Left Side - Team Image and Description */}
-      <div className="w-full md:w-1/2 text-center md:text-center">
-         <LazyLoadImage
-          src={team}
-          alt="Team"
-          className="mb-6 w-full "
-        />
-        <p className="text-gray-700 text-base leading-relaxed">
-          Our diverse team includes strategists, designers, developers, content creators,
-          media buyers, analysts, and client success managers—all working seamlessly to deliver
-          not just campaigns, but impactful digital experiences. We’re constantly optimizing our
-          strategies to provide our clients with a smooth, transparent, and personalized journey
-          from initial brief to measurable results.
-        </p>
-      </div>
-
-      {/* Right Side - Slider */}
-      <div className="w-full md:w-1/2 flex justify-center items-center overflow-hidden">
-    <Photoslider/>
-      </div>
-    </section>
     
 
-      <section className="  max-w-[1440px] mt-[50px] w-[100%] mx-auto conatctform flex flex-row items-center justify-center flex-wrap gap-10 max-lg:flex-col mb-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]">
-
-        
-
-
-      </section>
-      <Newcontact/>
-      <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[60px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
+      <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[5px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
       
       <h2 className='mt-[40px] text-[black] font-normal  text-center leading-[120%]
           text-[32px]           

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+
 import c2image from './resources/c2image.png'
 import './customer.css'
 import c3image from './resources/c3image.png' 
@@ -10,12 +10,11 @@ import image5 from './resources/image5.svg'
 import image6 from './resources/image6.svg'
 import c5image from './resources/c5image.png'
 import Accordion from './Components/Accordian'
-import Conatctfrom from '../../components/contact/contactform';
-import { FiPhone } from 'react-icons/fi';
+
 import { Helmet } from 'react-helmet'
 import HeroSection from '../../components/Herosection/Herosection'
 import topimage from './resources/topimage.png'
-import Newcontact from '../../components/Newcontact/Newcontact'
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Lead = () => {
@@ -27,12 +26,6 @@ const Lead = () => {
 
       <Helmet>
 
-
-
-     <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
-<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
-" />
-
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
@@ -40,7 +33,9 @@ const Lead = () => {
  
 
 
-
+     <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
+<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
+" />
 
 
 <meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media " />
@@ -262,7 +257,7 @@ const Lead = () => {
 
 
 
-        <Newcontact></Newcontact>
+    
         <div className="lmc6 mt-[96px] max-lg:mt-10">
 
           <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>

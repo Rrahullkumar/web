@@ -1,7 +1,5 @@
 
-
-
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -28,9 +26,14 @@ import MobileMarketing from './pages/MobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
+<<<<<<< HEAD
 import SmoothCursor from "./components/smoothCursor";
 import Insight from './pages/Insight/Insight'
 import BlogDetails from './pages/Insight/BlogDetails';
+=======
+
+
+>>>>>>> 1a0dd3c5735b71da38baa29aa655d3abc355b0fe
 
 const App = () => {
   useEffect(() => {
@@ -39,6 +42,9 @@ const App = () => {
       once: true,
     });
   }, []);
+
+
+  
 
   return (
     <>

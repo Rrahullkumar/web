@@ -1,20 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 
 import { Link } from "react-router-dom";
-// import '../../../src/index.css'; // or './styles.css'
-
 import "./homeStyle.css"
-import Bannerlady from "../../assets/bannerlady.png";
 import client from "../../assets/client.png"
-import Star1 from "../../pages/home/resources/Frame4.png"
-import Star2 from "../../pages/home/resources/Frame5.png"
-import Star3 from "../../pages/home/resources/Frame6.png"
-import Star4 from "../../pages/home/resources/Frame4.png"
 
-import slidethree from "../../pages/home/resources/Slack.png";
-import trello from "../../pages/home/resources/trello.png";
-import pana from "../../pages/home/resources/pana.png";
-import rocket from "../../pages/home/resources/rocket.png";
+import pana from "../../pages/home/resources/pana1.png";
+
 import marketingbanner from "../../pages/home/resources/marketingbanner.png";
 import PPC from "../../pages/home/resources/PPC.svg";
 import MobileAppDevelopment from "../../pages/home/resources/mobileappdevelopment.svg";
@@ -23,7 +14,7 @@ import AffiliateMarketing from "../../pages/home/resources/AffiliateMarketing.sv
 import SocialMediaMarketing from "../../pages/home/resources/Socialmediamarketing.svg";
 import WebDevelopment from "../../pages/home/resources/WebDevelopment.svg";
 import EmailMarketing from "../../pages/home/resources/EmailMarketing.svg";
-import SEM from "../../pages/home/resources/SEM.svg";
+
 import ContentMarketing from "../../pages/home/resources/ContentMarketing.svg";
 import SEO from "../../pages/home/resources/SEO.svg";
 
@@ -33,13 +24,6 @@ import facebookads from "../../pages/home/resources/Facebookads.png";
 import instagramads from "../../pages/home/resources/instagramads.png";
 import Youtubeads from "../../pages/home/resources/Youtubeads.png";
 
-
-
-
-
-// import "./FlipCard.css";
-import * as FaIcons from "react-icons/fa";
-
 import Slider from "./componnet/ResponsiveCarousel";
 import AnimatedCardList from "../../components/industryCard/AnimatedCardList";
 
@@ -47,10 +31,9 @@ import Countarcard from "./componnet/counterCard"
 
 import ImageSlider from "./componnet/TestomonilaSlider";
 import Accordion from "./componnet/Accordian";
-import curve from "./resources/curvepath.svg";
+
 import { FaPhoneVolume } from "react-icons/fa6";
-import Conatctfrom from "../../components/contact/contactform";
-import { FiPhone } from "react-icons/fi";
+
 import { Helmet } from "react-helmet";
 
 
@@ -72,35 +55,11 @@ import sandstone from './resources/logo/sandstone.svg';
 import shreehari from './resources/logo/shreehari.svg';
 import sportsline from './resources/logo/sportsline.svg';
 import bgVideo from "./resources/logo/bgvideo.mp4";
-import ParticlesBackground from "../../components/ParticlesBackground";
-import Newcontact from "../../components/Newcontact/Newcontact";
+
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { color } from "framer-motion";
-
-const images = [
-  { src: ank, name: "ANK" },
-  { src: badminton, name: "Badminton" },
-  { src: carworld, name: "Car World" },
-  { src: Digiwizards, name: "Digiwizards" },
-  { src: Divyanshed, name: "Divyanshed" },
-  { src: divyanshglobal, name: "Divyansh Global" },
-  { src: dosaada, name: "Dosaada" },
-  { src: ForeCorner, name: "ForeCorner" },
-  { src: Harishresidennce, name: "Harish Residence" },
-  { src: HouseForever, name: "House Forever" },
-  { src: Lotus, name: "Lotus" },
-  { src: ntech, name: "NTech" },
-  { src: Readit360, name: "Readit360" },
-  { src: sandstone, name: "Sandstone" },
-  { src: shreehari, name: "Shree Hari" },
-  { src: sportsline, name: "Sportsline" },
-];
 
 
-
-const firstTrackImages = [...images, ...images, ...images, ...images];
-const shuffledImages = [...images, ...images, ...images, ...images].sort(() => Math.random() - 0.5);
 
 const autoSlide = [
   {
@@ -182,8 +141,6 @@ const Home = () => {
     }
   };
 
-
-
   const testimonialsData = [
     {
       text: "Webnest Media transformed our online presence. After working with them on our SEO strategy, we saw a 40% increase in organic traffic within just three months. Their team truly understands digital marketing, and their custom approach has helped us reach the right audience. Highly recommended!",
@@ -213,11 +170,8 @@ const Home = () => {
 
   ];
 
-
-
-
   const wrapperRef = useRef();
-  const secondREf = useRef();
+  // const secondREf = useRef();
   const thirdREf = useRef();
   const [trigger, setTrigger] = useState(false);
 
@@ -266,28 +220,14 @@ const Home = () => {
   return (
     <>
 
-
+   
       <Helmet>
-        <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta
-          name="description"
-          content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more."
-        />
-        <meta
-          name="keywords"
-          content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/" />
-
-
-        <meta property="og:title" content="Best Digital Marketing Agency in Gurgaon | WebNest Media" />
-        <meta property="og:description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/" />
-        <meta property="og:site_name" content="WebNest Media" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/newlogo-CQU_gx5-.svggi" />
+       <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
+<meta name="description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+<meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="WebNest Media" />
+<link rel="canonical" href="https://webnestmedia.com/" />
 
 
         {/* Organization Schema */}
@@ -451,9 +391,9 @@ const Home = () => {
       </div>
     </div>
 
-        <div className=" w-[100%] mt-24 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-start lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] mt-16 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
-          <div className=" lg:w-1/2">
+          <div className=" lg:w-1/2 flex flex-col justify-between">
             <h2 className="text-[#388E3C] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
 
               Building Brands with
@@ -464,7 +404,9 @@ const Home = () => {
               WebNest Media isn’t just another digital marketing company in India — we’re your growth partner.
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
-            <Link to={"/contact-us"}>
+            <Link to={"/contact-us"}
+                     aria-label="WebNest Media Get Started "
+            >
               <button className="uiverse-button" style={{backgroundColor:"#4caf50"}}>
                 Get Started
               </button>
@@ -472,23 +414,20 @@ const Home = () => {
           </div>
 
 
-          <div className="w-1/2 lg:w-1/2 flex items-center justify-end max-lg:hidden">
+          <div className="w-1/2 lg:w-1/2 flex items-start justify-start max-lg:hidden 
+    
+        ">
             <LazyLoadImage
               src={marketingbanner}
               alt="Marketing Banner"
-              className="w-[400px] h-[400px] object-contain"
+              className="w-[664px] h-[400px] rounded-2xl "
             />
           </div>
 
-          {/* <LazyLoadImage
-            src={marketingbanner}
-            alt="Marketing Banner"
-
-            className="w-[400px] h-[400px] object-contain max-lg:hidden"
-          /> */}
+        
         </div>
 
-        <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]" >
+        <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-16" >
           <p className=" text-[#FFBA34] text-[20px] font-semibold max-lg:mt-[52px]">Our Client's</p>
           <h5 className="text-2xl leading-[150%] md:text-3xl font-bold text-[#388E3C] mt-[20px]  w-[75%]  max-lg:w-[100%] ">Webnest Building credibility with major global brands <br className="max-lg:hidden" /> As more join the ranks</h5>
         </div>
@@ -496,7 +435,7 @@ const Home = () => {
 
         <div className="mt-16">
 
-          <div className="wrapper flex items-center" data-aos="fade-up" data-aos-delay="100">
+          <div className="wrapper flex items-center" >
             <div className="item item1 "><img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" style={{ transform: "scale(1.2)" }} /></div>
             <div className="item item2"><img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" /></div>
             <div className="item item3"><img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" style={{ transform: "scale(1.5)" }}/></div>
@@ -527,11 +466,11 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
 
 
-          <div className="flex justify-center md:w-[35%] ">
-            <LazyLoadImage src={pana} className="w-[200px] md:w-full max-w-xs" alt="    Comprehensive Digital Marketing Services  in India" />
+          <div className="flex justify-center md:w-[48%] ">
+            <LazyLoadImage src={pana} className=" " alt="    Comprehensive Digital Marketing Services  in India" />
           </div>
 
-          <div className="md:w-[60%]  comprensive w-[100%]">
+          <div className="md:w-[58%]  comprensive w-[100%]">
 
             <h2 className="mt-[20px] mb-[20px] font-bold text-[28px] max-md:text-[20px] text-[#4D4D4D] ">
               Comprehensive Digital Marketing Services  in India
@@ -546,7 +485,7 @@ const Home = () => {
         <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
-          <h2 className="" style={{color:'#4caf50'}}> Service's we Offered</h2>
+          <h2 className="" style={{color:'#4caf50'}}> Our Core Solutions </h2>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             {cardsData.map(({ id, icon, content, paracontent }) => {
@@ -658,7 +597,10 @@ const Home = () => {
               Webnest Media, based in Gurgaon, brings over 20 years of expertise in web design, development, and digital marketing. With a focus on delivering innovative and results-driven solutions, they help businesses enhance their online presence and achieve sustainable growth.
             </p>
 
-            <Link to="/about-us">
+            <Link to="/about-us"
+                     aria-label="WebNest Media  Know More"
+
+            >
               <button className="uiverse-button mt-10">
                 Know More
               </button>
@@ -671,15 +613,9 @@ const Home = () => {
         <div className=" w-[100%] max-w-[1440px]  overflow-hidden mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
-
-
-
-        <div className='mb-[24px]'>
-          <Newcontact />
-        </div>
-
-        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] ">
-          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom">Frequently Asked Questions (FAQs)</p>
+ 
+        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
+          <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom mt-6 max-lg:mt-0">Frequently Asked Questions (FAQs)</p>
           <Accordion />
         </div>
       </div>

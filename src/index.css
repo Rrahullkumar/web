@@ -28,13 +28,19 @@ body {
   font-smooth: antialiased;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
- /* user-select: none;
+ user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;  */
-   /* cursor: none !important; */
+  -ms-user-select: none; 
+  
 }
 
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 
 ul, li {
   padding: 0;
@@ -62,16 +68,11 @@ img {
   color: #409338; 
 }
 
-/* .transparenbody {
-  background: transparent !important;
-} */
-
 
 html {
-  scroll-behavior: smooth;
+ 
   line-height: normal;
-   /* cursor: none !important; */
-   /* --cursor-color: #FFBA34; */  
+  
    --cursor-color:#4CAF50;
 }
 
