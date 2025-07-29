@@ -7,13 +7,6 @@ import bid from './resources/bid.png';
 import analytics from "./resources/analytics.png";
 import ads from './resources/ads.png';
 import { Helmet } from 'react-helmet';
-<<<<<<< HEAD
-// import accordian from '../home/componnet/accordian.css'
-import { ArrowUp, Banknote, ArrowBigRight, Trello, Flame } from "lucide-react";
-import { CheckCircle } from 'lucide-react';
-=======
-
->>>>>>> 1a0dd3c5735b71da38baa29aa655d3abc355b0fe
 import herom from "./resources/heroimage.png";
 import semlogo from "./resources/semlogo.svg";
 import HeroSection from '../../components/Herosection/Herosection';
@@ -23,13 +16,6 @@ import icon2 from "./resources/icon2.svg";
 import icon3 from "./resources/icon3.svg";
 import icon4 from "./resources/icon4.svg";
 
-<<<<<<< HEAD
-import tabone from "./resources/tabone.svg"
-import image12 from './resources/image12.png'
-import { Layout, Mouse, Target } from 'lucide-react';
-=======
-
->>>>>>> 1a0dd3c5735b71da38baa29aa655d3abc355b0fe
 import googleIcon from "./resources/gads.svg";
 import metaIcon from "./resources/mads.svg";
 import shopifyIcon from "./resources/sads.svg";
@@ -546,6 +532,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
           content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management."
         />
         <meta name="keywords" content="Top SEM Agency, Top Search Engine Marketing Agency" />
+      
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />

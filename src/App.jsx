@@ -26,14 +26,9 @@ import MobileMarketing from './pages/MobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
-<<<<<<< HEAD
-import SmoothCursor from "./components/smoothCursor";
-import Insight from './pages/Insight/Insight'
-import BlogDetails from './pages/Insight/BlogDetails';
-=======
 
-
->>>>>>> 1a0dd3c5735b71da38baa29aa655d3abc355b0fe
+import Insight from "./pages/Insight/Insight";
+import BlogDetails from "./pages/Insight/BlogDetails";
 
 const App = () => {
   useEffect(() => {
@@ -76,9 +71,10 @@ const App = () => {
             <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
             <Route path='/sms-marketing' element={<SmsMarketing />} />
             <Route path='/email-marketing' element={<Emailmarketing />} />
-            <Route path='/Insight' element={<Insight/>}></Route>
+              <Route path="/blog/:slug" element={<BlogDetails />} />
+            <Route path='/Insight' element={<Insight />}></Route>
             <Route path="*" element={<Navigate to="/" replace />} />
-            <Route path="/blog/:slug" element={<BlogDetails />} />
+          
           </Routes>
 
           <Footer />

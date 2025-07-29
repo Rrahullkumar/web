@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { blogs } from "./Insight"; // ✅ Ensure blogs is exported from Insight.jsx
+// import { blogs } from "./Insight"; // ✅ Ensure blogs is exported from Insight.jsx
 
 const BlogDetails = () => {
   const { slug } = useParams();

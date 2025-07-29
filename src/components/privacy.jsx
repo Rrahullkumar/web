@@ -224,7 +224,10 @@ const privacy = () => {
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
       <ul>
         <li>By email: info@webnestmedia.com</li>
-        <li>By visiting this page on our website: <a href="https://webnestmedia.com/contact" target="_blank">https://webnestmedia.com/contact</a></li>
+        <li>By visiting this page on our website: <a href="https://webnestmedia.com/contact" target="_blank"
+                 aria-label="WebNest Media  Conatct us page"
+
+        >https://webnestmedia.com/contact</a></li>
         <li>By mail: 1st Floor Orchid Business Park, Near Subhash Chowk, Sector 48, Gurugram, Haryana 122004, India</li>
       </ul>
       
