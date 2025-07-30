@@ -32,31 +32,156 @@ const DigitalTranformationservice = () => {
     <>
 
 
-      <Helmet>
+<Helmet>
+  <title>Digital Transformation Services in Gurgaon | WebNest Media</title>
+  <meta
+    name="description"
+    content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/digital-transformation" />
 
-      <title>Digital Transformation Services in Gurgaon | WebNest Media</title>
-     <meta name="description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
-
-       
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/digital-transformation" />
-
-
-
-
-{/* 
-
-<meta property="og:title" content="Digital Transformation Services in Gurgaon | WebNest Media" />
+  {/* Open Graph */}
+  {/* <meta property="og:title" content="Digital Transformation Services in Gurgaon | WebNest Media" />
   <meta property="og:description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/digital-transformation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/c1_image-CzR_E7CY.svg" />
- <meta property="og:site_name" content="WebNest Media" />
+  <meta property="og:site_name" content="WebNest Media" />
  */}
+  {/* WebPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/digital-transformation",
+      "name": "Digital Transformation Services | WebNest Media",
+      "description":
+        "Accelerate growth with digital transformation services in Gurgaon. We help businesses innovate through strategy, automation, and tech integration.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Digital Transformation",
+            "item": "https://webnestmedia.com/digital-transformation",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Digital Transformation",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
 
-
-      </Helmet>
+  {/* FAQ Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is digital transformation and why is it needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Digital transformation involves integrating digital technologies into business operations to improve efficiency, customer experience, and innovation. It helps businesses stay competitive.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What services does WebNest Media provide for digital transformation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We offer digital strategy consulting, automation, CRM integration, cloud migration, customer experience design, and technology enablement tailored to your business goals.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer solutions for small and medium businesses in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, WebNest Media provides scalable digital transformation solutions for SMEs in Gurgaon, helping them adopt technology efficiently and cost-effectively.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a digital transformation process take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Timelines vary by business size and goals. We typically start with a roadmap and deliver key transformations in phases, ensuring smooth adoption and measurable results.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>      
       <div className=' w-[100%] mx-auto'>
         <HeroSection
                         backgroundImage={c1_image}

@@ -78,7 +78,7 @@ const Insight = () => {
       (blog.author?.toLowerCase().includes(search) || "");
 
     const matchesCategory =
-      selectedCategory === "" || blog.category === selectedCategory;
+      selectedCategory === "" || blog.category === selectedCategory  || blog.content === selectedCategory  || blog.author === selectedCategory;
 
     return matchesSearch && matchesCategory;
   });
@@ -102,7 +102,7 @@ const Insight = () => {
             <div className="w-full md:w-1/2">
               <LazyLoadImage
                 // src={latestBlog.image}
-                src={`https://crm-1-x26w.onrender.com/uploads/${latestBlog.image}`}
+                src={latestBlog.imageUrl}
                 alt={latestBlog.title}
                 className="w-full h-64 sm:h-80 object-cover rounded-lg"
               />
@@ -118,7 +118,7 @@ const Insight = () => {
 
 
 
-              <p className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
+              <div className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: (latestBlog.content || "").substring(0, 280)
@@ -126,12 +126,12 @@ const Insight = () => {
                 />
                 ...
                 <button
-                  onClick={() => window.location.href = `/blog/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}
+                  onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}
                   className="text-blue-700 underline ml-1"
                 >
                   Read More
                 </button>
-              </p>
+              </div>
 
 
 
@@ -241,12 +241,12 @@ const Insight = () => {
               const slug = blog.title ? blog.title.replace(/\s+/g, "-").toLowerCase() : "untitled-blog";
 
               return (
-                <Link key={index} to={`/blog/${slug}`}>
+                <Link key={index} to={`/Insight/${slug}`}>
                   <div className="border rounded-lg p-4 cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-[#FFBA34] hover:shadow-sm">
                    
 
                     <img
-                      src={`https://crm-1-x26w.onrender.com/uploads/${blog.image}`}
+                      src={blog.imageUrl}
                       alt={blog.title}
                       className="w-full h-40 object-cover rounded"
                     />
@@ -257,11 +257,12 @@ const Insight = () => {
                     <h3 className="text-lg font-bold mt-2">{blog.title}</h3>
    
 
-
-                    <p
-                      className="text-gray-600 text-sm"
-                      dangerouslySetInnerHTML={{ __html: (blog.content || "").substring(0, 100) + "..." }}
-                    />
+<div
+  className="text-gray-600 text-sm"
+  dangerouslySetInnerHTML={{
+    __html: (blog.content || "").substring(0, 100) + "..."
+  }}
+/>
 
                   </div>
                 </Link>

@@ -147,27 +147,162 @@ const Brandmarketing = () => {
 
     <>
 
+import { Helmet } from "react-helmet";
 
-      <Helmet>
+<Helmet>
+  <title>Best Branding Agency in Gurgaon | Build a Powerful Brand</title>
+  <meta
+    name="description"
+    content="Develop a winning brand identity with strategy services in Gurgaon. We help define your voice, values, and market positioning and beyond."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
 
-
-<title>Best Branding Agency in Gurgaon | Build a Powerful Brand</title>
-<meta name="description" content="Develop a winning brand identity with strategy services in Gurgaon. We help define your voice, values, and market positioning and beyond." />
-
-
-<meta name="robots" content="index, follow" />
-<meta name="author" content="WebNest Media" />
-<link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
-
-
-{/* <meta property="og:title" content="Best Branding Agency in Gurgaon | Build a Powerful Brand " />
+  {/* Optional Open Graph Tags */}
+  {/* 
+  <meta property="og:title" content="Best Branding Agency in Gurgaon | Build a Powerful Brand" />
   <meta property="og:description" content="Develop a winning brand identity with strategy services in Gurgaon. We help define your voice, values, and market positioning and beyond." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/brand-strategy" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
- <meta property="og:site_name" content="WebNest Media" /> */}
+  <meta property="og:site_name" content="WebNest Media" />
+  */}
 
-    </Helmet>
+  {/* WebPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/brand-strategy",
+      "name": "Brand Strategy Services | WebNest Media",
+      "description":
+        "Develop a winning brand identity with branding agency in Gurgaon. We help define your voice, values, and market positioning and beyond.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Brand Strategy",
+            "item": "https://webnestmedia.com/brand-strategy",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Brand Strategy",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
+
+  {/* FAQPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a brand strategy and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "A brand strategy defines your brand’s identity, messaging, and market positioning. It helps build customer trust, loyalty, and competitive advantage.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What services are included in WebNest Media’s brand strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Our services include brand identity creation, messaging development, logo and design alignment, audience targeting, and brand positioning.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help rebrand an existing business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, we specialize in rebranding strategies including brand audits, competitor analysis, and repositioning to help you connect better with your audience.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer strategy consultation for startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Absolutely. We provide startup branding consultations covering naming, identity, messaging, and go-to-market strategies tailored for new businesses.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
+
+
     <div className=' '>
       <HeroSection
                         backgroundImage={topimage}

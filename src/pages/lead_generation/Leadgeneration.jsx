@@ -69,35 +69,160 @@ const Leadgeneration = () => {
   return (
 
     <>
+import { Helmet } from "react-helmet";
 
-      <Helmet>
+<Helmet>
+  <title>Lead Generation Company in Gurgaon | Drive Quality Leads</title>
+  <meta
+    name="description"
+    content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/lead-generation" />
 
-
-      
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/lead-generation" />
-
-        
-
-<title>Lead Generation Company in Gurgaon | Drive Quality Leads</title>
-<meta name="description" content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results.
-" />
-
-
-
-
-
-{/* <meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads " />
+  {/* Optional Open Graph Tags */}
+  {/*
+  <meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads" />
   <meta property="og:description" content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/lead-generation" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-Dc6cZZ9c.svg" />
- <meta property="og:site_name" content="WebNest Media" />
- */}
+  <meta property="og:site_name" content="WebNest Media" />
+  */}
 
+  {/* WebPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/lead-generation",
+      "name": "Lead Generation Services | WebNest Media",
+      "description":
+        "Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lead Generation",
+            "item": "https://webnestmedia.com/lead-generation",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Lead Generation",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
 
-      </Helmet>
+  {/* FAQPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is lead generation and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Lead generation is the process of attracting and converting prospects into potential customers. It drives sales and business growth by filling your sales pipeline with qualified leads.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What lead generation services does WebNest Media offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We offer B2B and B2C lead generation through SEO, paid ads, email marketing, landing pages, and CRM integration for effective lead tracking and conversion.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can you target leads locally in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes—our strategies are localized to Gurgaon, allowing you to reach high-intent leads in your area through hyper-targeted campaigns.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer lead qualification and nurturing services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Absolutely. We qualify leads using scoring models and nurture them via email drip campaigns, retargeting, and personalized content for better conversions.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
 
       <div className='max-lg:mt-0 '>

@@ -17,27 +17,158 @@ const Emailmarketing = () => {
 
     <>
 
-      <Helmet>
+ <Helmet>
+  <title>Email Marketing Company in Gurgaon | WebNest Media</title>
+  <meta
+    name="description"
+    content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
 
-      <title>Email Marketing Company in Gurgaon | WebNest Media</title>
-<meta name="description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
-
-
-
-        
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
-
-  
-{/* <meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media " />
+  {/* Open Graph tags (optional) */}
+  {/* 
+  <meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/email-marketing" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-n24Nf5ba.svg" />
- <meta property="og:site_name" content="WebNest Media" />
- */}
-      </Helmet>
+  <meta property="og:site_name" content="WebNest Media" />
+  */}
+
+  {/* WebPage Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/email-marketing",
+      "name": "Email Marketing | WebNest Media",
+      "description":
+        "WebNest Media is an expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Email Marketing",
+            "item": "https://webnestmedia.com/email-marketing",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Email Marketing",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
+
+  {/* FAQPage Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What services do your email marketing packages cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "WebNest Media creates customized email strategies including campaign design, list segmentation, automation workflows, personalization, A/B testing, and analytics reporting.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer automated drip or triggered email campaigns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes—we set up drip campaigns, trigger-based workflows, transactional emails, and promotional series to help you nurture leads and convert them automatically.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can you integrate email marketing with other channels like SMS or CRM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Absolutely—WebNest Media integrates email marketing with SMS, CRM platforms, content marketing, and social strategies for unified multi-channel campaigns.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure email marketing success?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Performance is tracked through open rates, click-through rates, conversion rates, bounce/spam metrics, and campaign ROI. Detailed reports guide future optimization.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
       <div className=' '>
    

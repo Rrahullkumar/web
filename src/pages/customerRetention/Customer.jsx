@@ -23,30 +23,158 @@ const Lead = () => {
 
     <>
 
+import { Helmet } from "react-helmet";
 
-      <Helmet>
+<Helmet>
+  <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
+  <meta
+    name="description"
+    content="WebNest Media offers customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
 
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
-
- 
-
-
-     <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
-<meta name="description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.
-" />
-
-
-<meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media " />
-  <meta property="og:description" content="WebNest Media offer customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value." />
+  {/* Open Graph Tags */}
+  {/* <meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media offers customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webnestmedia.com/customer-retention" />
   <meta property="og:image" content="https://webnestmedia.com/assets/topimage-E-ZJr6R3.svg" />
- <meta property="og:site_name" content="WebNest Media" />
+  <meta property="og:site_name" content="WebNest Media" /> */}
 
+  {/* WebPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/customer-retention",
+      "name": "Customer Retention Services | WebNest Media",
+      "description":
+        "WebNest Media offers customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Customer Retention",
+            "item": "https://webnestmedia.com/customer-retention",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Customer Retention",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
 
-      </Helmet>
+  {/* FAQPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is customer retention and why does it matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Customer retention refers to strategies that keep existing customers engaged and loyal. It helps reduce churn and increases revenue over time.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What customer retention services do you offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "WebNest Media offers loyalty programs, email campaigns, feedback surveys, churn prediction, and personalized re-engagement strategies tailored to your business.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help improve retention for local businesses in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, we specialize in retention strategies for Gurgaon-based businesses, using localized engagement tactics and data analytics to retain customers effectively.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure customer retention success?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We track customer lifetime value (CLTV), repeat purchase rate, churn rate, and engagement metrics to assess and optimize your retention performance.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
 
       <div className=''>
