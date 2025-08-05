@@ -23,7 +23,7 @@ const Lead = () => {
 
     <>
 
-import { Helmet } from "react-helmet";
+
 
 <Helmet>
   <title>Top Customer Retention Company in Gurgaon | WebNest Media</title>
@@ -176,15 +176,21 @@ import { Helmet } from "react-helmet";
   </script>
 </Helmet>
 
+<div className=' max-lg:mt-[0px] w-[100%] mx-auto  overflow-hidden'>
 
-      <div className=''>
+
+ 
+
+      <div className=' overflow-hidden' >
         <HeroSection
           backgroundImage={topimage}
           heading="Customer Retention Company"
           highlight="in Gurgaon"
           paragraph="We design customer retention campaigns that strengthen relationships, build trust, and turn happy customers into brand advocates"
         />
-        <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
+
+
+        <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]  overflow-hidden">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
           <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1500px] lg:h-[493px] ' />
@@ -393,6 +399,7 @@ import { Helmet } from "react-helmet";
           <Accordion />
         </div>
 
+      </div>
       </div>
     </>
   )

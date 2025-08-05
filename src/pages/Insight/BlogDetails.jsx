@@ -68,7 +68,7 @@
 
 
 
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -124,9 +124,9 @@ const BlogDetails = () => {
             className="w-full h-80 object-cover rounded"
           />
         </div>
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between lg:w-1/2">
           <p className="text-gray-500 mb-2">{blog.date.slice(0, 10)}</p>
-          <h1 className="text-6xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">
+          <h1 className="text-4xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">
             {blog.title}
           </h1>
           <p>Author: <i>{blog.author}</i></p>
@@ -134,7 +134,7 @@ const BlogDetails = () => {
       </div>
 
       <div className="text-lg leading-relaxed mt-10 lg:w-[80%]"    dangerouslySetInnerHTML={{
-      __html: (blog.content || "").substring(0, 280)
+      __html: (blog.content || "")
     }}>
       
       </div>

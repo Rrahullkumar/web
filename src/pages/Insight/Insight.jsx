@@ -113,7 +113,7 @@ const Insight = () => {
 
                 <p>Author: <span className="text-blue-600 font-semibold">{latestBlog.author}</span></p>
               </div>
-              <h3 className="text-2xl sm:text-[48px] leading-snug font-semibold text-[#221F49]">{latestBlog.title}</h3>
+              <h3 className="text-2xl sm:text-[32px] leading-snug font-semibold text-[#221F49]">{latestBlog.title}</h3>
 
 
 
@@ -121,16 +121,19 @@ const Insight = () => {
               <div className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: (latestBlog.content || "").substring(0, 280)
-                  }}
-                />
-                ...
+                    __html: (latestBlog.content || "").substring(0, 280)   + "..."
+                  }}   
+                   
+                />  
                 <button
                   onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}
                   className="text-blue-700 underline ml-1"
                 >
                   Read More
                 </button>
+               
+
+
               </div>
 
 

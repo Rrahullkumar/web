@@ -204,6 +204,8 @@ const Footer = () => {
           <FaPhoneAlt size={20} />
         </a>
       </div>
+
+      
     </footer>
   );
 };
