@@ -29,7 +29,7 @@ import Emailmarketing from './pages/emailmarketing/Emailmarketing';
 import SmoothCursor from "./components/smoothCursor";
 import Insight from './pages/Insight/Insight'
 import BlogDetails from './pages/Insight/BlogDetails';
-
+import Contactfooter from './components/contactfooter/contactfooter';
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -75,7 +75,7 @@ const App = () => {
             <Route path="*" element={<Navigate to="/" replace />} />
             <Route path="/blog/:slug" element={<BlogDetails />} />
           </Routes>
-
+          <Contactfooter></Contactfooter>
           <Footer />
         </Router>
       
