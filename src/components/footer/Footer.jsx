@@ -18,10 +18,11 @@ const Footer = () => {
   style={{
     backgroundImage: `linear-gradient(to right, #f0fdf4, #eff6ff), url(${footer})`,
     backgroundBlendMode: 'overlay'
+
   }}
 >
 
-      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-56">
+      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-56 ">
 
 
 
