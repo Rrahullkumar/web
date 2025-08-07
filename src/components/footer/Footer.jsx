@@ -14,15 +14,15 @@ import footer from '../../../public/footer.png'
 const Footer = () => {
   return (
 <footer
-  className="text-white p-[40px] max-md:px-4  bg-no-repeat bg-cover bg-start  "
+  className="text-white p-[40px] max-md:px-4  bg-no-repeat bg-cover bg-start 
+      "
   style={{
-    backgroundImage: `linear-gradient(to right, #f0fdf4, #eff6ff), url(${footer})`,
-    backgroundBlendMode: 'overlay'
+    backgroundImage: `url(${footer})`,
 
   }}
 >
 
-      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-56 ">
+      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-56  ">
 
 
 
