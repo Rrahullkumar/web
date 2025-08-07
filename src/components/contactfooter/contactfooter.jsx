@@ -91,7 +91,7 @@ const contactfooter = () => {
     const headingText = "Connect Now";
 
     return (
-        <div id="contact" className="bg-gradient-to-r from-green-50 to-blue-50">
+        <div id="contact" className="">
             <div className="flex flex-col items-center justify-center max-md:mx-4 md:mx-48 max-md:px-4 md:px-10 py-14 max-md:py-4">
                 
                 {/* ✅ Animated Heading */}

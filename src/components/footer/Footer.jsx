@@ -14,7 +14,7 @@ import footer from '../../../public/footer.png'
 const Footer = () => {
   return (
 <footer
-  className="text-white p-[40px] max-md:px-4  bg-no-repeat bg-cover bg-start 
+  className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain 
       "
   style={{
     backgroundImage: `url(${footer})`,
@@ -22,7 +22,7 @@ const Footer = () => {
   }}
 >
 
-      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-56  ">
+      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-16 max-md:bg-black px-4 pb-4 ">
 
 
 
@@ -211,6 +211,8 @@ const Footer = () => {
           <FaPhoneAlt size={20} />
         </a>
       </div>
+
+      
     </footer>
   );
 };

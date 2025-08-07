@@ -29,27 +29,158 @@ const MarketingResearch = () => {
     <>
 
 
-      <Helmet>
 
-        <title>Market Research and Insights Company in Gurgaon | WebNest Media</title>
-        <meta name="description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/market-research-insights" />
+<Helmet>
+  <title>Market Research and Insights Company in Gurgaon | WebNest Media</title>
+  <meta
+    name="description"
+    content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/market-research-insights" />
 
+  {/* Open Graph */}
+  <meta property="og:title" content="Market Research and Insights Company in Gurgaon | WebNest Media" />
+  <meta property="og:description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/market-research-insights" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
 
-{/* 
+  {/* WebPage Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/market-research-insights",
+      "name": "Market Research & Insights | WebNest Media",
+      "description":
+        "WebNest Media offers expert market research and insights in Gurgaon. Gain a clear understanding of your audience, industry, and competitors.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Market Research & Insights",
+            "item": "https://webnestmedia.com/market-research-insights",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Market Research & Insights",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
 
-        <meta property="og:title" content="Market Research and Insights Company in Gurgaon | WebNest Media " />
-        <meta property="og:description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/market-research-insights" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
- */}
+  {/* FAQ Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is market research and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Market research gathers data about your target audience, competitors, and industry to inform decisions. It helps businesses understand customer needs and market opportunities.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What types of research services does WebNest Media offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We offer customer surveys, competitor analysis, focus groups, trend forecasting, and data analysis to provide clear insights for strategic planning.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide research tailored for businesses in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, we specialize in local market research in Gurgaon to help businesses gain insights specific to their regional audience and market dynamics.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How are insights delivered to clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We provide detailed reports, data visualizations, dashboards, and actionable recommendations tailored to your business goals and decision-making needs.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
-
-      </Helmet>
 
       <div className=' ' >
         <HeroSection

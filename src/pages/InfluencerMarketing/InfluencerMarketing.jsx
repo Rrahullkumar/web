@@ -13,33 +13,161 @@ import image19 from './resources/image19.png';
 import image20 from './resources/image20.png';
 import image24 from './resources/image24.png';
 import image25 from './resources/image25.png';
+
 const InfluencerMarketing = () => {
+
+
+
   return (
 
     <>
 
-      <Helmet>
-        <title>Influencer Marketing Company in Gurgaon | Instagram, YouTube & More</title>
-        <meta name="description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+ 
+
+<Helmet>
+  <title>Influencer Marketing Company in Gurgaon | Instagram, YouTube & More</title>
+  <meta
+    name="description"
+    content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/influencer-marketing" />
+
+  {/* Open Graph tags can be uncommented if needed */}
+  {/* 
+  <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More" />
+  <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
+  */}
+
+  {/* WebPage + Breadcrumb structured data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/influencer-marketing",
+      "name": "Influencer Marketing | WebNest Media",
+      "description":
+        "Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Influencer Marketing",
+            "item": "https://webnestmedia.com/influencer-marketing",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector XX",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Influencer Marketing",
+        "provider": {
+          "@type": "Organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
+
+  {/* FAQPage structured data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which platforms does WebNest Media use for influencer marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "WebNest Media runs influencer campaigns across Instagram, YouTube, Facebook, and more to help brands increase their reach and engagement.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can WebNest Media help with local influencer marketing in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, WebNest Media specializes in local influencer campaigns in Gurgaon, using regional creators for authentic brand promotions in multiple languages.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How do you ensure influencer relevance to our brand?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We select influencers based on your brand’s target audience, industry, and campaign goals to ensure optimal alignment and authentic engagement.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
 
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/influencer-marketing"></link>
 
-
-
-        {/* <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More " />
-        <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
-        <meta property="og:site_name" content="WebNest Media" />
- */}
-
-
-
-      </Helmet>
       <div className=" w-100% mx-auto">
       
         <HeroSection

@@ -1,27 +1,19 @@
 import { useState } from 'react';
 import "./sem.css";
-
 import KeywordTargeting from './resources/KeywordTargeting.png';
 import PPC from './resources/PPC.png';
 import bid from './resources/bid.png';
 import analytics from "./resources/analytics.png";
 import ads from './resources/ads.png';
 import { Helmet } from 'react-helmet';
-// import accordian from '../home/componnet/accordian.css'
-import { ArrowUp, Banknote, ArrowBigRight, Trello, Flame } from "lucide-react";
-import { CheckCircle } from 'lucide-react';
 import herom from "./resources/heroimage.png";
 import semlogo from "./resources/semlogo.svg";
 import HeroSection from '../../components/Herosection/Herosection';
-
 import icon1 from "./resources/icon1.svg";
 import icon2 from "./resources/icon2.svg";
 import icon3 from "./resources/icon3.svg";
 import icon4 from "./resources/icon4.svg";
-
-import tabone from "./resources/tabone.svg"
 import image12 from './resources/image12.png'
-import { Layout, Mouse, Target } from 'lucide-react';
 import googleIcon from "./resources/gads.svg";
 import metaIcon from "./resources/mads.svg";
 import shopifyIcon from "./resources/sads.svg";
@@ -30,7 +22,7 @@ import youtubeIcon from "./resources/yads.svg";
 import displayIcon from "./resources/dads.svg";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { motion, AnimatePresence } from "framer-motion";
-import { Flower, Newspaper, Square, BadgeIndianRupee, LayoutTemplate } from "lucide-react";
+import { Flower, Newspaper, Square, BadgeIndianRupee, LayoutTemplate, Target, ArrowUp, Banknote, Trello, Flame, CheckCircle } from "lucide-react";
 const adsData = [
   { icon: googleIcon, label: "Google ads" },
   { icon: metaIcon, label: "Meta Ads" },
@@ -537,6 +529,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
           content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management."
         />
         <meta name="keywords" content="Top SEM Agency, Top Search Engine Marketing Agency" />
+      
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/search-engine-marketing" />
@@ -835,7 +828,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
         WebNest Media is a search engine marketing company in Gurgaon, India, and offers a number of benefits that make it different than other agencies. Here are some reasons you may want to choose them:
       </p>
 
-      <div className="w-full overflow-x-auto">
+      <div className=" overflow-x-auto  max-w-[1440px] w-[100%] mx-auto">
   <table className="min-w-[600px] w-full table-auto border-separate border-spacing-y-6">
     <tbody className="text-left text-gray-700">
       <tr className="align-top">

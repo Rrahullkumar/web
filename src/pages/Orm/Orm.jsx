@@ -77,30 +77,159 @@ const Orm = () => {
     <>
 
 
-      <Helmet>
+<Helmet>
+  <title>Best Online Reputation Management Company in Gurgaon</title>
+  <meta
+    name="description"
+    content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="WebNest Media" />
+  <link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
 
-        <title>Best Online Reputation Management Company in Gurgaon</title>
-        <meta name="description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
+  {/* Optional: Open Graph tags for social sharing */}
+  {/* 
+  <meta property="og:title" content="Best Online Reputation Management Company in Gurgaon" />
+  <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webnestmedia.com/online-reputation-management" />
+  <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
+  <meta property="og:site_name" content="WebNest Media" />
+  */}
 
+  {/* WebPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://webnestmedia.com/online-reputation-management",
+      "name": "Online Reputation Management | WebNest Media",
+      "description":
+        "WebNest Media provides trusted ORM company in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Online Reputation Management",
+            "item": "https://webnestmedia.com/online-reputation-management",
+          },
+        ],
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN",
+        },
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "serviceType": "Online Reputation Management",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media",
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN",
+          },
+        },
+        "description":
+          "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more.",
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  </script>
 
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
+  {/* FAQPage Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does online reputation management involve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "It involves monitoring and managing online reviews, search results, and social mentions to protect and enhance your brand’s reputation.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How can WebNest Media improve my brand image?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "We use a mix of review management, content promotion, SEO, and crisis response to build a positive online presence and suppress negative content.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Do you manage reviews on platforms like Google and Facebook?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes, we help manage and respond to reviews on Google, Facebook, and other major platforms to maintain a professional and positive brand voice.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Is online reputation management legal and ethical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Absolutely. Our strategies are transparent, ethical, and follow platform guidelines. We focus on promoting accurate content and engaging positively.",
+          },
+        },
+      ],
+    })}
+  </script>
+</Helmet>
 
-
-
-
-{/* 
-        <meta property="og:title" content="Best Online Reputation Management Company in Gurgaon " />
-        <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/online-reputation-management" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
-        <meta property="og:site_name" content="WebNest Media" /> */}
-
-
-      </Helmet>
 
       <div className=' max-lg:mt-[0px] w-[100%] mx-auto 
   '>

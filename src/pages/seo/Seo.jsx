@@ -183,96 +183,112 @@ const Seo = () => {
     };
   }, []);
 
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
-        "url": "https://webnestmedia.com/search-engine-optimization",
-        "name": "Search Engine Optimization Services | WebNest Media",
-        "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
-        "inLanguage": "en-IN",
-        "isPartOf": {
-          "@id": "https://webnestmedia.com/#website"
-        },
-        "breadcrumb": {
-          "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
-        },
-        "mainEntity": {
-          "@id": "https://webnestmedia.com/search-engine-optimization/#service"
-        }
+ const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
+      "url": "https://webnestmedia.com/search-engine-optimization",
+      "name": "Search Engine Optimization Services | WebNest Media",
+      "description": "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://webnestmedia.com/#website"
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://webnestmedia.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Search Engine Optimization"
-          }
-        ]
+      "breadcrumb": {
+        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb"
       },
-      {
-        "@type": "Service",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#service",
-        "serviceType": "Search Engine Optimization (SEO)",
-        "provider": {
-          "@id": "https://webnestmedia.com/#organization"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "India"
-        },
-        "url": "https://webnestmedia.com/search-engine-optimization",
-        "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://webnestmedia.com/contact",
-          "price": "Varies",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is SEO and how does it work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long does SEO take to show results?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you offer local SEO services?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
-            }
-          }
-        ]
+      "mainEntity": {
+        "@id": "https://webnestmedia.com/search-engine-optimization/#service"
       }
-    ]
-  };
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Search Engine Optimization"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+      "serviceType": "Search Engine Optimization (SEO)",
+      "provider": {
+        "@id": "https://webnestmedia.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "India"
+      },
+      "url": "https://webnestmedia.com/search-engine-optimization",
+      "description": "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://webnestmedia.com/contact",
+        "price": "Varies",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is SEO and how does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO stands for Search Engine Optimization. It is the process of optimizing your website so it ranks higher on search engines like Google, driving organic traffic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does SEO take to show results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO is a long-term strategy. Most businesses see noticeable improvements in 3-6 months, depending on competition and current website status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer local SEO services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We specialize in Local SEO, helping businesses in Gurgaon and across India rank in Google Maps and local search results."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Best SEO Company in Gurgaon | Affordable SEO Solutions",
+      "image": "https://webnestmedia.com/assets/heroimage-32ufLjb8.png",
+      "description": "WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth.",
+      "brand": {
+        "@type": "Brand",
+        "name": "WebNest Media"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2064"
+      }
+    }
+  ]
+};
+
 
 
   const scrollToSection = (id) => {
@@ -286,12 +302,12 @@ const Seo = () => {
     <>
       <Helmet>
 
-        <title>Best SEO Agency in Gurgaon | Affordable SEO Solutions</title>
-        <meta name="description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
-        <meta name="keywords" content="SEO services, SEO agency, search engine optimization, on-page SEO, off-page SEO, technical SEO, SEO company, local SEO, SEO Gurgaon" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
+        <title>Best SEO Company in Gurgaon | Affordable SEO Solutions</title>
+        <meta  name="description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
+      
+        <meta  name="robots" content="index, follow" />
+        <meta  name="author" content="WebNest Media" />
+        <link  rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
         {/* <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
         <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
@@ -497,10 +513,7 @@ const Seo = () => {
 
             How the Best SEO Agency is Transforming Digital Marketing Strategies
           </h2>
-          <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350]'>
-
-            Many people search online for products and services, businesses must ensure that their websites rank on first page on search engines to attract quality leads. This is where working with a top SEO expert services can really help. We use tried averages SEO strategies to help brands increase their online visibility and can drive organic traffic and conversions. To stay ahead in today’s competitive digital environment, engaging a top SEO company would get you there.
-          </p>
+          <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350]'>Many people search online for products and services, businesses must ensure that their websites rank on first page on search engines to attract quality leads. This is where working with a top SEO expert services in Gurgaon can really help. We use tried averages SEO strategies to help brands increase their online visibility and can drive organic traffic and conversions. To stay ahead in today’s competitive digital environment, engaging a top SEO agency in Gurgaon would get you there. </p>
 
 
           <h2 data-aos="fade-up" className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
