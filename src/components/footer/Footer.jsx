@@ -14,7 +14,7 @@ import footer from '../../../public/footer.png'
 const Footer = () => {
   return (
 <footer
-  className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain 
+  className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain bg-[#C6CFFF20]
       "
   style={{
     backgroundImage: `url(${footer})`,
