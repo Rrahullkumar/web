@@ -25,6 +25,8 @@ import displayIcon from "./resources/dads.svg";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { motion, AnimatePresence } from "framer-motion";
 import { Flower, Newspaper, Square, BadgeIndianRupee, LayoutTemplate, Target, ArrowUp, Banknote, Trello, Flame, CheckCircle } from "lucide-react";
+
+
 const adsData = [
   { icon: googleIcon, label: "Google ads" },
   { icon: metaIcon, label: "Meta Ads" },
