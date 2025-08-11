@@ -94,7 +94,7 @@ const Insight = () => {
   return (
     <div className="mx-auto max-w-[1440px] p-4 sm:p-8">
       {/* ✅ Latest Blog */}
-      <div className="container mx-auto">
+      <div className="container mx-auto"  onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}>
         <h2 className="text-3xl sm:text-5xl font-semibold mb-8">Latest Blog</h2>
 
         {latestBlog ? (
@@ -127,7 +127,7 @@ const Insight = () => {
                 />  
                 <button
                   onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}
-                  className="text-blue-700 underline ml-1"
+                  className="uiverse-button mt-5" style={{paddingTop: "4px", paddingBottom:"4px"}}
                 >
                   Read More
                 </button>
@@ -261,9 +261,9 @@ const Insight = () => {
    
 
 <div
-  className="text-gray-600 text-sm"
+  className="text-gray-600 text-sm mt-2"
   dangerouslySetInnerHTML={{
-    __html: (blog.content || "").substring(0, 100) + "..."
+    __html: (blog.content || "").substring(0, 200) + "..."
   }}
 />
 

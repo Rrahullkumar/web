@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import "./sem.css";
-
 import KeywordTargeting from './resources/KeywordTargeting.png';
 import PPC from './resources/PPC.png';
 import bid from './resources/bid.png';
@@ -10,7 +9,6 @@ import { Helmet } from 'react-helmet';
 import herom from "./resources/heroimage.png";
 import semlogo from "./resources/semlogo.svg";
 import HeroSection from '../../components/Herosection/Herosection';
-
 import icon1 from "./resources/icon1.svg";
 import icon2 from "./resources/icon2.svg";
 import icon3 from "./resources/icon3.svg";
@@ -39,7 +37,6 @@ import { HandCoins } from 'lucide-react';
 import charts from './resources/charts.svg'
 import mouse from './resources/mousepointer.svg'
 import redlady from "./resources/redlady.png"
-
 import { Link } from 'react-router-dom';
 import { RectangleGoggles } from "lucide-react";
 import bidmanage from './resources/bidmanage.png'

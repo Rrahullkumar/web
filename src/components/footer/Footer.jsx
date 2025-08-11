@@ -3,19 +3,26 @@
 import React from 'react';
 import FooterSection from './FooterSection';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
-import blacklogo from '../../assets/blacklogo1.png';
+import blacklogo from '../../assets/blacklogo.svg';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
 import msme from '../../../public/msme.png';
 import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import footer from '../../../public/footer.png'
 
 const Footer = () => {
   return (
-   <footer className="bg-[#1A1D1C] text-white p-[40px] max-md:px-4 relative " >
+<footer
+  className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain bg-[#C6CFFF20]
+      "
+  style={{
+    backgroundImage: `url(${footer})`,
 
-      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10">
+  }}
+>
+
+      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-16 max-md:bg-black px-4 pb-4 ">
 
 
 

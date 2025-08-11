@@ -223,7 +223,7 @@ const Smm = () => {
 
           <HeroSection
             backgroundImage={topimage}
-            heading="Social Media Marketing Company"
+            heading="Social Media Agency in Gurgaon"
             highlight="in Gurgaon"
             paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
           />

@@ -1,4 +1,4 @@
-import  { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './Seo.css';
 
 import heroimage from "./resources/heroimage.png";
@@ -10,7 +10,7 @@ import seoicon4 from "./resources/seoicon4.svg";
 import seoicon5 from "./resources/seoicon5.svg";
 import seoicon6 from "./resources/seoicon6.svg";
 
-
+import newimage from './resources/newimage.png'
 import { Helmet } from 'react-helmet';
 import HeroSection from '../../components/Herosection/Herosection.jsx';
 
@@ -32,7 +32,7 @@ const Seo = () => {
     { number: '98/100', label: 'Speed & UX Score' },
     { number: '231,580+', label: 'Leads Generated' },
   ];
-  
+
   const testimonialData = [
     {
       rating: "4.9",
@@ -73,54 +73,51 @@ const Seo = () => {
 
 
   const trustData = [
+    {
+      title: "On-Page SEO",
+      text: "Optimize the structure and content of your website to increase visitors and rank well. Our on-page SEO services concentrate on improving important components including internal linking, URL structure, meta tags, keywords, and content quality. We guarantee that every page on your website is optimized for search engines.",
+    },
+    {
+      title: "Off-Page SEO",
+      text: "Boost your website through high-quality backlinks and a stronger online presence. We develop effective off-page SEO strategies, including acquiring high-quality backlinks, improving your social media visibility, and fostering brand mentions across the web.",
+    },
+    {
+      title: "Technical SEO",
+      text: "Boost your website’s technical performance for faster load times, easier crawlability, and stronger search rankings. Our team optimizes the technical aspects of your site, from site speed and mobile-friendliness to error fixes, structured data, and secure HTTPS implementation ensuring your website is easy for search engines to index and users to navigate.",
+    },
+    {
+      title: "Local SEO",
+      text: "Boost your local visibility with optimized listings, targeted local keywords, and a strong presence in local search results. We help businesses dominate local search results through Google My Business optimization, local keyword targeting, citation management, and review strategies giving you a strong presence where your customers are searching.",
+    },
+    {
+      title: "E-Commerce SEO",
+      text: "Drive more sales and visibility by optimizing your online store to stand out and rank above the competition. We implement tailored SEO strategies for e-commerce businesses, including product and category page optimization, rich snippets, and SEO-friendly architecture ensuring your store stands out in competitive markets.",
+    },
+  ];
+
+  const trustDatasecond = [
   {
-    title: "On-Page SEO",
-    text: "Our on-page SEO services include meta title, description, keyword research, URLs, and content quality. We have a specialized team that guarantees your pages are visible on SERPs. It also includes improving site speed, mobile responsiveness, and internal linking.",
+    title: "SEO That Works, Without the Gimmicks",
+    text: "Being a top SEO agency, we help your brand inflict with the right audience at right time. Our respected SEO specialist focuses on integrity and utilizes ethically, data-driven strategies to increase visibility, traffic, and customer trust.",
   },
   {
-    title: "Off-Page SEO",
-    text: "High-quality backlinks improve your website performance. Off-page activities include various high domain backlinks that help increase organic traffic. Guest posting, article submission, classified submissions, PPT sharing, and more backlinks are created by our team.",
+    title: "Proven Track Record of Results",
+    text: "At Webnest Media, we deliver real results. As top SEO services, our SEO expert boosts organic traffic, rankings, and conversions with data-driven strategies.",
   },
   {
-    title: "Technical SEO",
-    text: "Technical SEO is all about fixing broken links, ensuring search engines can crawl your site easily, and making sure your pages load quickly on all devices. We add structured data to help Google understand your content, switch to HTTPS for security, and handle redirects properly.",
+    title: "Experienced SEO Specialists",
+    text: "The SEO professionals on our team each have years of experience in various fields - we're passionate about SEO! We keep current on algorithm changes and industry trends, so we can keep your site competitive.",
   },
   {
-    title: "Local SEO",
-    text: "We help businesses dominate local search results through Google My Business optimization, local keyword targeting, citation management, and review strategies—giving you a strong presence where your customers are searching.",
+    title: "Client-Centered Approach",
+    text: "Your success is our priority. We work as an extension of your team, keeping your business goals at the center of everything we do.",
   },
   {
-    title: "E-Commerce SEO",
-    text: "E-Commerce SEO helps your products appear when customers search for what you’re selling. From optimizing product titles and descriptions to improving site speed, mobile experience, and clean URLs, we ensure your store ranks higher and loads faster.",
+    title: "Ready to Rank Higher and Grow Smarter?",
+    text: "Whether you're just getting started or looking to scale, Webnest Media is here to help. Let’s turn your website into your most powerful marketing tool.",
   },
 ];
 
-  const trustDatasecond = [
-    {
-      title: "SEO That Works, Without the Gimmicks",
-      text: "Being a top SEO company in Gurgaon, we help your brand inflict with the right audience at right time. Our respected SEO specialist in Gurgaon focuses on integrity and utilizes ethically, data-driven strategies to increase visibility, traffic, and customer trust.",
-    },
-    {
-      title: "Proven Track Record of Results",
-      text: "At Webnest Media, we deliver real results. As top SEO services company in Gurgaon, our SEO expert boosts organic traffic, rankings, and conversions with data-driven strategies..",
-    },
-    {
-      title: "Experienced SEO Specialists",
-      text: "The SEO professionals on our team each have years of experience in various fields - we're passionate about SEO! We keep current on algorithm changes and industry trends, so we can keep your site competitive",
-    },
-
-    {
-      title: "Client-Centered Approach",
-      text: "Your success is our priority. We work as an extension of your team, keeping your business goals at the center of everything we do.",
-    },
-
-    {
-      title: "Ready to Rank Higher and Grow Smarter?",
-      text: "Whether you're just getting started or looking to scale, Webnest Media is here to help. Let’s turn your website into your most powerful marketing tool..",
-    },
-
-
-  ];
 
   const features = [
     {
@@ -331,48 +328,49 @@ const Seo = () => {
         <div className="">
           <HeroSection
             backgroundImage={heroimage}
-            heading="SEO Company"
-            highlight="in Gurgaon"
+            heading="Results-Driven SEO Agency for "
+            highlight="Businesses"
             paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
           />
         </div>
 
         <section data-aos="fade-up" className="max-lg:mt-10 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse lg:items-center lg:justify-between mx-auto">
-  
-  {/* Image Section */}
-  <div className="max-w-[440px] w-full max-lg:w-[80%] mx-auto max-lg:my-10">
-    <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
-  </div>
 
-  {/* Text Section */}
-  <div className="lg:w-[60%]">
-    <h2 className="text-[52px] max-lg:text-[36px] font-semibold">
-      Best SEO Company <br className='max-lg:hidden' /> in Gurgaon
-    </h2>
-    <br />
-    <p className="text-base mt-2 font-manrope">
-      In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO company in Gurgaon is a crucial step for your growth.
-    </p>
+          {/* Image Section */}
+          <div className="max-w-[440px] w-full max-lg:w-[80%] mx-auto max-lg:my-10">
+            <LazyLoadImage src={newlogo} alt='WebNest Media Logo' className="w-full h-auto" />
+          </div>
 
-    <p className="text-base mt-5 font-manrope">
-      The best SEO plan makes the right visitors, organic traffic, and lifts conversion rates. At WebNest Media, we combine analytics, creativity, and latest techniques to produce clear, measurable outcomes. Our team listens to your objectives and filters out suited strategies for fast growth, supporting your business in securing lasting online success.
-    </p>
+          {/* Text Section */}
+          <div className="lg:w-[60%]">
+            <h2 className="text-[52px] max-lg:text-[36px] font-semibold">
+              Top SEO Agency Helping You Rank Higher & Convert Better
+            </h2>
+            <br />
+            <p className="text-base mt-2 font-manrope">
+              In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO agency is a crucial step for your growth.
+            </p>
 
-    {/* CTA Button */}
-    <div className="flex gap-3 mt-8">
-      {/* <Link to="/about-us" aria-label="Learn more about our SEO Services"> */}
-       <button
-  onClick={() => scrollToSection("seoservice")}
-  className="uiverse-button"
-  aria-label="Scroll to SEO Service section"
->
-  Learn More
-</button>
+            <p className="text-base mt-5 font-manrope">
+              The best SEO services plan makes the right visitors, organic traffic, and lifts conversion rates. At WebNest Media, we combine analytics, creativity, and latest techniques to produce clear, measurable outcomes. Our team listens to your objectives and filters out suited strategies for fast growth, supporting your business in securing lasting online success.
 
-      {/* </Link> */}
-    </div>
-  </div>
-</section>
+            </p>
+
+            {/* CTA Button */}
+            <div className="flex gap-3 mt-8">
+              {/* <Link to="/about-us" aria-label="Learn more about our SEO Services"> */}
+              <button
+                onClick={() => scrollToSection("seoservice")}
+                className="uiverse-button"
+                aria-label="Scroll to SEO Service section"
+              >
+                Learn More
+              </button>
+
+              {/* </Link> */}
+            </div>
+          </div>
+        </section>
 
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col mt-24 max-lg:mt-10 items-center justify-center max-md: ">
@@ -421,7 +419,7 @@ const Seo = () => {
 
 
             <p data-aos="fade-up" className="text-base font-normal leading-7   mb-[83px]  text-center ">
-              We are #1 of the best search engine optimization services provider in Gurgaon/Delhi NCR
+              We are #1 of the best search engine optimization agency provider.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
@@ -441,18 +439,48 @@ const Seo = () => {
               ))}
             </div>
 
-        
+
 
           </div>
         </section>
 
+        <div className="flex flex-row px-10 max-lg:px-3 mt-24  max-lg:mt-10 ">
+          <div className="lg:w-[60%]">
+            <h2 className='text-5xl max-md:text-3xl font-medium '>An SEO Company That  Gets It</h2>
+            <img src={newimage} alt="" className='w-2/3 lg:hidden mx-auto py-4' />
+            <p className='text-base mt-10 leading-7'>You know your business needs to show up on Google. You just don't know how to make it happen. That’s where WebNest Media comes in. We’re the SEO agency that helps brands stop guessing and start growing.</p>
+            <p className='text-base mt-4 leading-7'>Chances are, you’re here because one (or more) of these challenges sounds familiar:</p>
+            <ul className="flex flex-wrap text-base  pl-[30px] mt-[12px]">
+              <li data-aos="fade-up" className='list-disc'>Your website isn’t showing up in search results.
+
+
+</li>
+    
+            
+              <li data-aos="fade-up" className='list-disc'>You’ve seen a sudden drop in traffic, and you’re not sure what caused it.</li>
+              <li data-aos="fade-up" className='list-disc'>Leads and inquiries have slowed down, and it’s affecting your business.</li>
+              <li data-aos="fade-up" className='list-disc'>You want to make a big impression when you launch a new website.
+</li>
+            </ul>
+
+          </div>
+          <div className="lg:w-[40%] max-lg:hidden">
+              <img src={newimage} alt="" className='object-cover' />
+          </div>
+        </div>
+
+
+
+
         <section className=' max-w-[1440px] w-[100%] mx-auto mt-24 max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
-          <p className='text-base text-[#000000] leading-7 font-[350]'>Well, let me put it simply — if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking something, they don't want  how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day. </p>
+          <p className='text-base text-[#000000] leading-7 font-[350]'>
+            From a business aspect, if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking for something, they don't care how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day.             </p>
 
           <p className='text-base mb-[10px] text-[#000000] leading-7 font-[350] mt-[20px] max-lg:mt-[10px] max-lg:mb-10'>
 
-            That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive. </p>
+            That’s exactly why SEO is important. We have SEO experts, they work on your project and give results. It make sure that visitors see your website when they are actively looking for goods or services you provide. Increased visibility from a higher ranking results in more clicks, more visitors, and eventually more buyers. In current digitally world, SEO is not just a nice-to-have, it is essential if you want to grow your business and stay competitive.
+          </p>
 
 
 
@@ -481,11 +509,11 @@ const Seo = () => {
 
 
 
-          <h2 data-aos="fade-up" className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug'>
+          <h2 data-aos="fade-up" className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-6 leading-normal'>
 
-            How the Best SEO Agency in Gurgaon is <br className='max-lg:hidden' /> Transforming Digital Marketing Strategies
+            How the Best SEO Agency is Transforming Digital Marketing Strategies
           </h2>
-          <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350'>Many people search online for products and services, businesses must ensure that their websites rank on first page on search engines to attract quality leads. This is where working with a top SEO expert services in Gurgaon can really help. We use tried averages SEO strategies to help brands increase their online visibility and can drive organic traffic and conversions. To stay ahead in today’s competitive digital environment, engaging a top SEO agency in Gurgaon would get you there. </p>
+          <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350]'>Many people search online for products and services, businesses must ensure that their websites rank on first page on search engines to attract quality leads. This is where working with a top SEO expert services in Gurgaon can really help. We use tried averages SEO strategies to help brands increase their online visibility and can drive organic traffic and conversions. To stay ahead in today’s competitive digital environment, engaging a top SEO agency in Gurgaon would get you there. </p>
 
 
           <h2 data-aos="fade-up" className='text-[52px] text-center max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] leading-snug  mt-[96px] max-lg:mt-[40px] '> <span className='text-[#4CAF50]'>SEO Agency</span> for Every  <br className='max:lg:hidden' /> Business Requirement</h2>
@@ -498,7 +526,7 @@ const Seo = () => {
 
           >
 
-   
+
 
             <AnimatedCardList cardtrigger={cardtrigger} className="animatedcard  jjj "
               ref={secondREf}
@@ -510,9 +538,13 @@ const Seo = () => {
           </div>
 
           <h2 data-aos="fade-up" className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
-          <p data-aos="fade-up" className='text-base  lg:text-center text-[#000000]leading-7  font-[350]'>WebNest Media is the top SEO agency in Gurgaon. We provide the best SEO services for every organization. <br className='max-lg:hidden' /> Our SEO tech expert team is capable of understanding how different industries work. </p>
+          <p data-aos="fade-up" className='text-base  lg:text-center text-[#000000]leading-7  font-[350] lg:mx-24'>
+            WebNest Media is the top SEO agency. We provide the best SEO services for every organization. Our SEO tech expert team is capable of understanding how different industries work             </p>
 
         </section>
+
+
+
 
         <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] ">
@@ -543,7 +575,7 @@ const Seo = () => {
 
         </section>
 
-   
+
         <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
 
           <div>

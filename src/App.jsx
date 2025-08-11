@@ -26,10 +26,10 @@ import MobileMarketing from './pages/MobileMarketing/MobileMarketing';
 import InfluencerMarketing from './pages/InfluencerMarketing/InfluencerMarketing';
 import SmsMarketing from './pages/SMSmarketing/SmsMarketing';
 import Emailmarketing from './pages/emailmarketing/Emailmarketing';
-
-import Insight from "./pages/Insight/Insight";
-import BlogDetails from "./pages/Insight/BlogDetails";
-
+import SmoothCursor from "./components/smoothCursor";
+import Insight from './pages/Insight/Insight'
+import BlogDetails from './pages/Insight/BlogDetails';
+import Contactfooter from './components/contactfooter/contactfooter';
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -78,7 +78,7 @@ const App = () => {
             <Route path="*" element={<Navigate to="/" replace />} />
           
           </Routes>
-
+          <Contactfooter></Contactfooter>
           <Footer />
         </Router>
       

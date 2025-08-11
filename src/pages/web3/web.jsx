@@ -249,8 +249,8 @@ const web = () => {
         <div>
           <HeroSection
             backgroundImage={topimage}
-            heading="Web Development Company"
-            highlight="in Gurgaon"
+            heading="Web Development"
+            highlight="Services"
             paragraph="We design fast, responsive, and SEO-optimized websites that grow your business engage users, and elevate your brand online."
           />
         </div>
@@ -259,13 +259,12 @@ const web = () => {
 
         <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
-            <h2 className='text-[52px] leading-[150%]  max-lg:text-3xl font-semibold max-lg:mb-4'>Best <span className="text-[#409338]">Web Development <br />Company</span> in Gurgaon</h2>
-           
+            <h2 className='text-[52px] leading-[150%]  max-lg:text-3xl font-semibold max-lg:mb-4'>Best Custom Website Development Services</h2>
+
             <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
-              WebNest Media, a leading website development agency in Gurgaon, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.
-            </p>
+              WebNest Media, a leading custom web development services agency, uses the newest technologies to create scalable, secure, and quick websites. For companies in every sector, our expert developers design customized digital experiences that boost productivity and value.            </p>
             <Link to="/contact-us"
-                     aria-label="WebNest Media  Get Started"
+              aria-label="WebNest Media  Get Started"
 
             >
               <button
@@ -274,10 +273,10 @@ const web = () => {
               </button>
             </Link>
           </div>
-    
-            <div data-aos="fade-up" className="">
-              <img src={c2image} alt="Web Development Company" className="w-full h-auto max-lg:w-[80%] max-lg:mx-auto" />
-      
+
+          <div data-aos="fade-up" className="">
+            <img src={c2image} alt="Web Development Company" className="w-full h-auto max-lg:w-[80%] max-lg:mx-auto" />
+
           </div>
         </section>
 
@@ -286,19 +285,19 @@ const web = () => {
             <h2 className='text-[32px] max-md:text-2xl mb-16'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
             <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
               <div className="cardss border px-20 pt-9 pb-7 rounded-xl flex flex-col gap-3 items-center bg-white">
-                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>213,456</h3>
+                <h3 className='text-5xl font-light max-md:text-4xl text-[#4caf50]'>213,456</h3>
                 <p className='text-2xl text-nowrap'>Project Delivered</p>
               </div>
               <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
-                <h3 className='text-[52px] font-light  max-md:text-4xl text-[#4caf50]'>13,200+</h3>
-                <p className='text-2xl'>Clients Served</p>
+                <h3 className='text-5xl font-light  max-md:text-4xl text-[#4caf50]'>13,200+</h3>
+                <p className='text-2xl text-nowrap'>Clients Served</p>
               </div>
               <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center bg-white">
-                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>99/100</h3>
+                <h3 className='text-5xl font-light max-md:text-4xl text-[#4caf50]'>99/100</h3>
                 <p className='text-2xl text-nowrap'>Speed & UX Score</p>
               </div>
               <div className="cardss border px-20 pt-9 pb-7 rounded-xl gap-3 flex flex-col items-center  bg-white">
-                <h3 className='text-[52px] font-light max-md:text-4xl text-[#4caf50]'>231,580+</h3>
+                <h3 className='text-5xl font-light max-md:text-4xl text-[#4caf50]'>231,580+</h3>
                 <p className='text-2xl text-nowrap'>Custom Development</p>
               </div>
 
@@ -307,23 +306,45 @@ const web = () => {
         </div>
 
 
+
+
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
           <div className='lg:w-[80%] mx-auto'>
-            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Web Design Company in Gurgaon | Your Vision, Our Expertise</h2>
-            <p className='text-base'>As one of the top web development companies in Gurgaon, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
+            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Customized Web Development Services for Your Success
+            </h2>
+            <p className='text-base'>
+              WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our web development team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
 
-              <br /> <br />With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
 
-              <br /> <br />From an eCommerce store or blog to a corporate website, WebNest Media can turn any vision into a fully functional experience as trusted partners to all their client’s site development needs. We facilitate businesses, large or small build robust online presences that accelerates growth while engaging deeply with core audiences.
+              <br /> <br />
+              We cover every detail which includes responsive designs as well as effortless operation and CMS connections for unparalleled user engagement IT across the board. These features allow us to accomplish what you want faster while achieving the desired results.
+
             </p>
           </div>
+
+
+          
+        <div className="mx-auto lg:text-center max-lg:mt-10 mt-24">
+          <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold'>Web Development Company | Your Vision, Our Expertise</h2>
+          <p className='text-base'>
+As one of the top web development service company, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
+<br /> <br />
+With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
+<br /> <br />
+From an eCommerce store or blog to a corporate website, WebNest Media can turn any vision into a fully functional experience as trusted partners to all their client’s site development needs. We facilitate businesses, large or small build robust online presences that accelerates growth while engaging deeply with core audiences.
+</p>
+
+
+
+        </div>
+
           <div className='lg:w-[80%] mx-auto'>
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold mt-24 max-md:mt-10  mx-auto'>Benefits of Top Web Designing & Development Company</h2>
             <p className='text-base'>A good website helps people find you, trust you, and choose you over the competition. It works for you 24/7, bringing in new leads and growing your business — that’s why it matters so much today. Here are more reasons:
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 mt-24 max-lg:mt-10 max-w-7xl mx-auto text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 mt-10 max-lg:mt-10 max-w-7xl mx-auto text-center">
 
             {/* Card 1 */}
             <div className="bg-white p-6 flex flex-col items-center text-center h-full">
@@ -372,7 +393,7 @@ const web = () => {
           </div>
 
         </section>
-          <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development <br className='max-md:hidden' />Best Quality Service</h2>
             <div data-aos="fade-up" className="md:hidden">
@@ -392,6 +413,8 @@ const web = () => {
             </div>
           </div>
         </section>
+
+
         <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl font-semibold max-lg:mb-2'>Technologies We use to Make the Best Website Designing & Development</h2>
@@ -446,7 +469,9 @@ const web = () => {
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>What makes us different in Web Development?</h2>
 
             <p data-aos="fade-up" className="text-[black] mt-9 mb-12 text-base mx-auto md:mx-0">
-              As a top web designing & development company in Gurgaon, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
+As a top website design & development service, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
+
+
 
             </p>
 
@@ -510,10 +535,13 @@ const web = () => {
               <img src={image16} alt="Web Development Company" className="w-full h-auto" />
             </div>
             <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
-              Choosing the right partner for your website is a big decision — and that’s exactly why businesses trust WebNest Media. As one of the top web development companies in Gurgaon, we don’t just build websites — we craft digital experiences that help brands grow.
-              Our team blends creativity with cutting-edge technology to deliver websites that are fast, stunning, and user-friendly. Whether you need an online store, a sleek corporate site, or a custom solution, we’re known as a top website development company in Gurgaon for a reason — we make it happen.
-              <br />Looking for an ecommerce website development company in Gurgaon? We’ve helped countless businesses launch powerful online stores that drive sales and create loyal customers. And when it comes to design, we’re recognized as a website designing company in Gurgaon that truly understands what works online — blending beauty with functionality. That’s why many call us the best website designing company in Gurgaon.
-              At WebNest Media, we believe every brand has a story. Let’s build a website that tells yours — beautifully, effectively, and with results you can measure.
+              Choosing the right partner for your website is a big decision — and that’s exactly why businesses trust WebNest Media. As one of the top web development companies in Delhi/NCR, we don’t just build websites — we craft digital experiences that help brands grow.
+<br /> <br />
+Our team blends creativity with cutting-edge technology to deliver websites that are fast, stunning, and user-friendly. Whether you need an online store, a sleek corporate site, or a custom solution, we’re known as a top website development company in Delhi/NCR for a reason — we make it happen.
+<br /><br />
+Looking for an ecommerce website development company in Delhi/NCR? We’ve helped countless businesses launch powerful online stores that drive sales and create loyal customers. And when it comes to design, we’re recognized as a website designing services that truly understands what works online — blending beauty with functionality. That’s why many call us the best website designing company.
+<br /> <br />
+At WebNest Media, we believe every brand has a story. Let’s build a website that tells yours — beautifully, effectively, and with results you can measure.
 
             </p>
 
@@ -532,7 +560,7 @@ const web = () => {
           />
         </section>
 
-  
+
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 w-[100%]'>
           <Accordion />
         </section>
