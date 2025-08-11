@@ -4,6 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { ChevronDown, ChevronUp, Filter, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 const Insight = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -58,16 +59,9 @@ const Insight = () => {
       });
   }, []);
 
-
-
-
-
-
   const toggleMenu = (menu) => {
     setOpenMenu(openMenu === menu ? "" : menu);
   };
-
-
 
   const filteredBlogs = blogs.filter((blog) => {
     const search = searchTerm.toLowerCase();
@@ -82,17 +76,53 @@ const Insight = () => {
 
     return matchesSearch && matchesCategory;
   });
+  const latestBlog = blogs.length > 0 ? blogs[0] : null;
 
-  // const latestBlog = blogs.length > 0 ? blogs[0] : null;
-
-  const latestBlog = blogs.length > 0 ? blogs[blogs.length - 1] : null;
+  // const latestBlog = blogs.length > 0 ? blogs[blogs.length - 1] : null;
 
 
 
   console.log("latestBlog", latestBlog);
 
+
+
   return (
-    <div className="mx-auto max-w-[1440px] p-4 sm:p-8">
+
+    <>
+    
+{latestBlog && (
+  <Helmet>
+    {/* Page title */}
+    <title>{latestBlog.metaTitle?.trim() || latestBlog.title?.trim()}</title>
+
+    {/* Meta description */}
+    <meta
+      name="description"
+      content={latestBlog.metaDescription?.trim() || latestBlog.subtitle?.trim()}
+    />
+
+    {/* Keywords */}
+    {Array.isArray(latestBlog.keywords) && latestBlog.keywords.length > 0 && (
+      <meta name="keywords" content={latestBlog.keywords.join(", ")} />
+    )}
+
+    {/* Open Graph */}
+    <meta property="og:title" content={latestBlog.ogTitle?.trim() || latestBlog.title?.trim()} />
+    <meta
+      property="og:description"
+      content={latestBlog.ogDescription?.trim() || latestBlog.metaDescription?.trim()}
+    />
+    <meta property="og:image" content={latestBlog.imageUrl} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={window.location.href} />
+
+    {/* Author */}
+    <meta name="author" content={latestBlog.author?.trim()} />
+  </Helmet>
+)}
+
+    
+       <div className="mx-auto max-w-[1440px] p-4 sm:p-8">
       {/* ✅ Latest Blog */}
       <div className="container mx-auto"  onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}>
         <h2 className="text-3xl sm:text-5xl font-semibold mb-8">Latest Blog</h2>
@@ -277,6 +307,8 @@ const Insight = () => {
         </div>
       </div>
     </div>
+    </>
+ 
   );
 };
 
