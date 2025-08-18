@@ -90,23 +90,22 @@ const Insight = () => {
 
     <>
     
-{latestBlog && (
+{/* {latestBlog && (
   <Helmet>
-    {/* Page title */}
+   
     <title>{latestBlog.metaTitle?.trim() || latestBlog.title?.trim()}</title>
 
-    {/* Meta description */}
     <meta
       name="description"
       content={latestBlog.metaDescription?.trim() || latestBlog.subtitle?.trim()}
     />
 
-    {/* Keywords */}
+    
     {Array.isArray(latestBlog.keywords) && latestBlog.keywords.length > 0 && (
       <meta name="keywords" content={latestBlog.keywords.join(", ")} />
     )}
 
-    {/* Open Graph */}
+ 
     <meta property="og:title" content={latestBlog.ogTitle?.trim() || latestBlog.title?.trim()} />
     <meta
       property="og:description"
@@ -116,10 +115,10 @@ const Insight = () => {
     <meta property="og:type" content="article" />
     <meta property="og:url" content={window.location.href} />
 
-    {/* Author */}
+    
     <meta name="author" content={latestBlog.author?.trim()} />
   </Helmet>
-)}
+)} */}
 
     
        <div className="mx-auto max-w-[1440px] p-4 sm:p-8">

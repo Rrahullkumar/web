@@ -348,7 +348,7 @@ const Seo = () => {
             </h2>
             <br />
             <p className="text-base mt-2 font-manrope">
-              In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO agency is a crucial step for your growth.
+              In today's digital world, every business whether big or small, requires an online visibility on Google. Every day millions of people reach for search engines. The goal of having a website on Google's first page has grown into a necessity. Selecting the top SEO agency in India is a crucial step for your growth.
             </p>
 
             <p className="text-base mt-5 font-manrope">
@@ -511,7 +511,7 @@ const Seo = () => {
 
           <h2 data-aos="fade-up" className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-6 leading-normal'>
 
-            How the Best SEO Agency is Transforming Digital Marketing Strategies
+            How the Best SEO Agency In India is Transforming Digital Marketing Strategies
           </h2>
           <p data-aos="fade-up" className='text-base text-[#000000] leading-7 font-[350]'>Many people search online for products and services, businesses must ensure that their websites rank on first page on search engines to attract quality leads. This is where working with a top SEO expert services in Gurgaon can really help. We use tried averages SEO strategies to help brands increase their online visibility and can drive organic traffic and conversions. To stay ahead in today’s competitive digital environment, engaging a top SEO agency in Gurgaon would get you there. </p>
 
@@ -539,7 +539,7 @@ const Seo = () => {
 
           <h2 data-aos="fade-up" className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Why WebNest Media?</h2>
           <p data-aos="fade-up" className='text-base  lg:text-center text-[#000000]leading-7  font-[350] lg:mx-24'>
-            WebNest Media is the top SEO agency. We provide the best SEO services for every organization. Our SEO tech expert team is capable of understanding how different industries work             </p>
+            WebNest Media is the best SEO agency in India. We provide the best SEO services for every organization. Our SEO tech expert team is capable of understanding how different industries work             </p>
 
         </section>
 

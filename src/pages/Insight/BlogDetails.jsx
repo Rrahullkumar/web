@@ -3,6 +3,7 @@
 import  { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 const BlogDetails = () => {
   const { slug } = useParams();
@@ -41,7 +42,43 @@ const BlogDetails = () => {
 
   return (
     
-    <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
+
+    <>
+    
+    
+    {blog && (
+  <Helmet>
+    {/* Page title */}
+    <title>{blog.metaTitle?.trim() || blog.title?.trim()}</title>
+
+    {/* Meta description */}
+    <meta
+      name="description"
+      content={blog.metaDescription?.trim() || blog.subtitle?.trim()}
+    />
+
+    {/* Keywords */}
+    {Array.isArray(blog.keywords) && blog.keywords.length > 0 && (
+      <meta name="keywords" content={blog.keywords.join(", ")} />
+    )}
+
+    {/* Open Graph */}
+    <meta property="og:title" content={blog.ogTitle?.trim() || blog.title?.trim()} />
+    <meta
+      property="og:description"
+      content={blog.ogDescription?.trim() || blog.metaDescription?.trim()}
+    />
+    <meta property="og:image" content={blog.imageUrl} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={window.location.href} />
+
+    {/* Author */}
+    <meta name="author" content={blog.author?.trim()} />
+  </Helmet>
+)}
+    
+
+     <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
       {/* 🔹 Back Button */}
       <button onClick={() => navigate(-1)} className="text-blue-600 underline mb-4">
         ← Back
@@ -61,6 +98,7 @@ const BlogDetails = () => {
           <h1 className="text-4xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">
             {blog.title}
           </h1>
+          <p>{blog.subtitle}</p>
           <p>Author: <i>{blog.author}</i></p>
         </div>
       </div>
@@ -73,6 +111,8 @@ const BlogDetails = () => {
 
     
     </div>
+    </>
+   
   );
 };
 
