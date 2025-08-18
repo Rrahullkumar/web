@@ -102,7 +102,7 @@ const Footer = () => {
     </p>
   </div>
   <div className="flex flex-col ">
-    <h4 className="text-lg font-semibold mb-2">Email Us</h4>
+    <h4 className="text-lg font-semibold mb-2">Contact US</h4>
     <p>
       <a
         href="mailto:info@webnestmedia.com"
@@ -111,9 +111,18 @@ const Footer = () => {
         info@webnestmedia.com
       </a>
     </p>
+   <p>
+  <a
+    href="tel:+919696964606"
+    className="text-sm text-blue-300 hover:underline"
+  >
+    +91-9696964606
+  </a>
+</p>
+
     <Link to="/privacy-policy" 
     aria-label="webnest Privacy Policy"
-    className="text-sm text-white hover:underline inline">
+    className="text-sm text-white hover:underline inline mt-5">
       <p className="text-sm text-white hover:underline inline-block">Privacy Policy</p>
     </Link>
   </div>

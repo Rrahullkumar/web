@@ -25,6 +25,21 @@ const webDevelopmentSchema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Product",
+      "name": "Best Web Development Services",
+      "image": "https://webnestmedia.com/assets/topimage-DRW6kc3V.png",
+      "description": "WebNest Media is the best web development service provider. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!",
+      "brand": {
+        "@type": "Brand",
+        "name": "WebNest Media"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2546"
+      }
+    },
+    {
       "@type": "Service",
       "@id": "https://webnestmedia.com/web-development#service",
       "name": "Web Development",
@@ -117,6 +132,7 @@ const webDevelopmentSchema = {
     }
   ]
 };
+
 
 const web = () => {
   const testimonialData = [
