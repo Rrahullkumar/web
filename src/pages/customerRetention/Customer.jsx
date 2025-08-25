@@ -190,12 +190,12 @@ const Lead = () => {
         />
 
 
-        <div className="lmc2 mt-[96px] max-lg:mt-10 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]  overflow-hidden">
+        <div className="lmc2 mt-[96px] max-lg:mt-10 container w-[100%] mx-auto px-[40px] max-lg:px-[16px]  overflow-hidden">
           <h2 className='text-[52px] max-lg:text-[36px] lg:text-center mb-[12px] font-semibold'>Boost Customer Retention with Tried- <br /> and- <span className='text-[#388E3C]'>True Growth Techniques</span></h2>
           <p className='text-lg lg:text-center mb-[40px]'>We are a leading customer retention agency in India, helping businesses in Gurgaon, Delhi, and beyond keep their customers happy and engaged.</p>
           <LazyLoadImage src={c2image} alt="Customer Retention" className='block mx-auto lg:w-[1500px] lg:h-[493px] ' />
         </div>
-        <div className="lmc3 max-w-[1440px] w-[100%] mx-auto px-[40px] mt-10 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px] max-md:mb-10">
+        <div className="lmc3 container w-[100%] mx-auto px-[40px] mt-10 max-lg:px-[16px] flex flex-col lg:flex-row mb-[96px] max-md:mb-10">
           <div className="lmc3_left flex flex-col w-full lg:w-[80%]">
             <h2  data-aos="fade-up"  className="text-[48px] max-lg:text-3xl mb-[30px] font-semibold">
               What is customer retention? Sounds heavy? No stress, we’ve got you covered!
@@ -220,7 +220,7 @@ const Lead = () => {
 
 
 
-        <div className="lmc4 max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
+        <div className="lmc4 container w-[100%] mx-auto px-[40px] max-lg:px-[16px]">
           <h2  data-aos="fade-up"  className='text-[48px] max-lg:text-3xl max-md:text-center font-semibold mb-10'>How We Help You to <br />increase <span className='text-[#4caf50]'>customer retention</span></h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] max-lg:gap-8 px-[5px] py-[20px] justify-center max-w-[960px] mx-auto place-items-center">
 
@@ -318,7 +318,7 @@ const Lead = () => {
 
 
 
-        <div className="lmc5 flex flex-row max-lg:flex-col max-w-[1440px] w-[100%] mx-auto px-[40px] max-lg:px-[16px] mt-24 max-lg:mt-10">
+        <div className="lmc5 flex flex-row max-lg:flex-col container w-[100%] mx-auto px-[40px] max-lg:px-[16px] mt-24 max-lg:mt-10">
           {/* Left Section */}
           <div className="lmc5_left w-[70%] max-lg:w-full pr-0 mb-[20px] ">
             <h2  data-aos="fade-up"  className="text-[32px] max-lg:text-3xl lg:text-[48px] mb-[24px] lg:mb-[32px] leading-tight font-semibold">

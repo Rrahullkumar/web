@@ -45,7 +45,7 @@ const BlogDetails = () => {
 
     <>
     
-    
+
     {blog && (
   <Helmet>
     {/* Page title */}

@@ -302,9 +302,12 @@ const Seo = () => {
     <>
       <Helmet>
 
-        <title>Best SEO Company in Gurgaon | Affordable SEO Solutions</title>
-        <meta  name="description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
+        <title>Best SEO Agency in India | Boost Rankings and Traffic</title>
+        <meta  name="description" content="Boost your online presence with the best SEO agency in India. We help you in increasing your traffic, ranking higher, and converting clicks into loyal customers.
+" />
       
+      <meta name="keywords" content="Top SEO Agency, SEO Agency, Best SEO Agency in India, Best SEO Services, SEO Company" />
+
         <meta  name="robots" content="index, follow" />
         <meta  name="author" content="WebNest Media" />
         <link  rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
@@ -334,7 +337,7 @@ const Seo = () => {
           />
         </div>
 
-        <section data-aos="fade-up" className="max-lg:mt-10 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse lg:items-center lg:justify-between mx-auto">
+        <section data-aos="fade-up" className="max-lg:mt-10 mt-24 container px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse lg:items-center lg:justify-between mx-auto">
 
           {/* Image Section */}
           <div className="max-w-[440px] w-full max-lg:w-[80%] mx-auto max-lg:my-10">
@@ -375,7 +378,7 @@ const Seo = () => {
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col mt-24 max-lg:mt-10 items-center justify-center max-md: ">
 
-          <div data-aos="fade-up" className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
+          <div data-aos="fade-up" className='container w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
             <h2 style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
@@ -409,7 +412,7 @@ const Seo = () => {
 
         <section className='' id="seoservice">
 
-          <div className=" max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
+          <div className=" container w-[100%] mx-auto  pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]   mt-[96px]">
 
 
             <p data-aos="fade-up" className='text-[#EEC370]  text-lg font-normal leading-7  text-center mb-[6px]'> What We Offer</p>
@@ -472,7 +475,7 @@ const Seo = () => {
 
 
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-24 max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className=' container w-[100%] mx-auto mt-24 max-lg:mt-10 pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <h2 className='text-[52px] max-md:text-3xl max-md:font-semibold text-[#000000] mb-[36px] max-lg:mb-[20px] leading-snug'>Why SEO is Important?</h2>
           <p className='text-base text-[#000000] leading-7 font-[350]'>
             From a business aspect, if your website isn’t showing up on search engines, potential customers won’t find you. Today's users use Google and other search engines first when they are looking for something, they don't care how good your product or service is. Whether you're a small business, or an online retailer, or a major corporation, if you're not ranking well, you're losing out on important chances every single day.             </p>
@@ -522,7 +525,7 @@ const Seo = () => {
           <div
             ref={secondREf}
             onMouseEnter={() => setCardTrigger(true)}
-            className="industriweserve mb-[96px] mt-[64px] max-md:mt-[40px] w-[100%] max-w-[1440px]  mx-auto overflow-hidden "
+            className="industriweserve mb-[96px] mt-[64px] max-md:mt-[40px] w-[100%] container  mx-auto overflow-hidden "
 
           >
 
@@ -546,7 +549,7 @@ const Seo = () => {
 
 
 
-        <section className='mt-[62px] max-lg:mt-[40px] max-w-[1440px] w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
+        <section className='mt-[62px] max-lg:mt-[40px] container w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] ">
             {trustDatasecond.map((item, index) => (
               // <div className="trust-card " >
@@ -565,7 +568,7 @@ const Seo = () => {
           </div>
         </section>
 
-        <section className='max-w-[1440px] mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+        <section className='container mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
           <TestimonialSlider
             sectionTitle="What Our Clients Say"
@@ -576,7 +579,7 @@ const Seo = () => {
         </section>
 
 
-        <div className="accordian max-w-[1440px] w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
+        <div className="accordian container w-[100%] px-10 max-md:px-4 mx-auto mt-[96px]">
 
           <div>
             <h2 className='text-center' style={{ fontSize: 32 }}>Let's address your <span className='text-black '>questions </span>today</h2>

@@ -263,7 +263,7 @@ const MobileMarketing = () => {
 "
                     />
                 </div>
-                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 max-w-[1440px] px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
+                <div data-aos="fade-up" className="mmc3 lg:mt-24 max-lg:mt-10 container px-[40px] items-center max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
                     <LazyLoadImage src={image1} alt="Mobile Marketing Agency" className=' mb-10' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold'>What is Mobile marketing?</h2>
@@ -279,7 +279,7 @@ const MobileMarketing = () => {
 
 
                 <div data-aos="fade-up" className="bg-black">
-                    <div className=' px-4 md:px-10 max-w-[1440px] w-full mx-auto mt-24'>
+                    <div className=' px-4 md:px-10 container w-full mx-auto mt-24'>
                         <div className="text-white py-12 ">
                             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10">
                                 Our Comprehensive Mobile Marketing <br /> Services in Gurgaon
@@ -361,7 +361,7 @@ const MobileMarketing = () => {
                     </div>
                 </div>
 
-                <section className="max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10 ">
+                <section className="container mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10 ">
                     <div className="flex flex-row  items-start justify-between sticky ">
                         <div className="lg:w-[60%]">
                             <h2 className="text-[52px] max-lg:text-3xl font-semibold mb-9 ">How Mobile Marketing Strategy Helps Your Brand Stay Everywhere and Sell More</h2>
@@ -439,7 +439,7 @@ const MobileMarketing = () => {
                         </div>
                     </div>
                 </section>
-                <div data-aos="fade-up" className="mmc3 max-w-[1440px] px-[40px] items-center lg:mt-24 max-lg:mt-10 max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
+                <div data-aos="fade-up" className="mmc3 container px-[40px] items-center lg:mt-24 max-lg:mt-10 max-lg:px-[16px] lg:flex lg:flex-row-reverse justify-between mx-auto">
                     <LazyLoadImage src={image26} alt="Mobile Marketing Agency" className='max-lg:hidden' />
                     <div className="lgc3left lg:w-[60%] justify-start ">
                         <h2 className='text-[48px] max-md:text-3xl lg:mb-9 font-semibold '>Why Choose WebNest Media for Mobile Marketing in Gurgaon?</h2>
@@ -461,7 +461,7 @@ Choose <span className="max-lg:font-semibold">WebNest Media</span> for expert-le
 
 
             
-                <div className="mmc6 mt-[64px] max-md:mt-[40px] max-w-[1440px] mx-auto px-[40px] max-lg:px-0"> 
+                <div className="mmc6 mt-[64px] max-md:mt-[40px] container mx-auto px-[40px] max-lg:px-0"> 
                     <Accordion></Accordion>
                 </div>
             </div>

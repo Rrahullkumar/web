@@ -235,7 +235,7 @@ const Smm = () => {
 
         </div>
 
-        <div className='max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto'>
+        <div className='container w-[100%] px-[40px] max-lg:px-[16px] mx-auto'>
 
           <h2 data-aos="fade-up" className="  w-[100% ] mt-24 max-md:mt-10 text-3xl sm:text-3xl md:text-[32px] leading-snug sm:leading-[50px] md:leading-[60px] paraheading text-[#409338] font-bold text-center stroke-custom fill-custom ">
             Boost Your Digital Impact with <br className='max-lg:hidden' />
@@ -253,7 +253,7 @@ const Smm = () => {
 
 
 
-        <div data-aos="fade-up" className=" max-w-[1440px] px-10 max-lg:px-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
+        <div data-aos="fade-up" className=" container px-10 max-lg:px-4 mx-auto mt-[40px] mb-[100px] flex items-center justify-center max-md:w-[100%]">
           {icons.map((Icon, index) => (
             <div
               key={index}
@@ -269,7 +269,7 @@ const Smm = () => {
         </div>
 
         <div data-aos="fade-up" className="
-        flex flex-col lg:flex-row max-w-[1440px] mx-auto">
+        flex flex-col lg:flex-row container mx-auto">
           {/* Box 1 */}
           <div className="w-full md:basis-1/3  flex justify-center">
             <div className="w-[300px] h-[450px] rounded-md bg-gray-300 overflow-hidden bocshadowgif "  >
@@ -278,7 +278,7 @@ const Smm = () => {
           </div>
 
 
-          <div className=" max-w-[1440px]  max-lg:mx-0 mx-auto w-full md:basis-1/3   gap-4 max-lg:flex max-lg:justify-center max-lg:items-center ">
+          <div className=" container  max-lg:mx-0 mx-auto w-full md:basis-1/3   gap-4 max-lg:flex max-lg:justify-center max-lg:items-center ">
 
             <div className="w-full max-w-[300px] h-[400px]   flex flex-col justify-end max-lg:justify-center">
               <div className=' flex flex-col gap-[30px]' >
@@ -306,7 +306,7 @@ const Smm = () => {
           </div>
 
 
-          <div className="max-w-[1440px] px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-xl:hidden">
+          <div className="container px-10 max-lg:mx-4 mx-auto w-full md:basis-1/3  flex justify-center items-center max-xl:hidden">
             <div className="text-center text-black font-semibold text-xl">
                 <LazyLoadImage src={cimage} alt="Smart socail media Managment " className=' ' />
 
@@ -315,7 +315,7 @@ const Smm = () => {
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px] max-lg:mt-[100px]'>
+        <div className='container px-10 max-lg:px-4 mx-auto max-md:mt-12 mt-[200px] max-lg:mt-[100px]'>
 
           <h2 data-aos="fade-up" className="text-[#409338] font-bold text-[40px] max-md:text-[28px] leading-[40px]  mt-[100px] lg:text-center stroke-custom fill-custom">Streamline Your Social Media Account </h2>
 
@@ -323,7 +323,7 @@ const Smm = () => {
         </div>
 
 
-        <div className='max-w-[1440px] px-10 max-lg:px-4 mx-auto flex justify-center max-lg:flex-col-reverse gap-[40px] mt-[100px] max-lg:mt-10'>
+        <div className='container px-10 max-lg:px-4 mx-auto flex justify-center max-lg:flex-col-reverse gap-[40px] mt-[100px] max-lg:mt-10'>
 
 
 
@@ -401,7 +401,7 @@ const Smm = () => {
 
 
         <div data-aos="fade-up"
-          className={`max-w-[1440px] px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-24 max-lg:mt-10  gap-10 
+          className={`container px-10 max-lg:px-4 mx-auto smarter flex flex-col-reverse lg:flex-row mt-24 max-lg:mt-10  gap-10 
     bg-no-repeat bg-contain bg-right 
     md:bg-[url('${largesmart}')]`}
         >
@@ -455,7 +455,7 @@ const Smm = () => {
 
         </div>
 
-        <div className="max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-10 mx-auto newcontainer">
+        <div className="container px-10 max-lg:px-4 mt-24 max-lg:mt-10 mx-auto newcontainer">
           <h2 data-aos="fade-up" className="text-[40px] max-md:text-[28px] font-bold text-[#5c945c] mt-[96px] max-md:mt-[36px] mb-5">
             How Social Media Marketing Can Help Your Business Grow
           </h2>
@@ -523,7 +523,7 @@ const Smm = () => {
         </div>
 
    
-        <div className='mt-[100px] max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-4 mx-auto '>
+        <div className='mt-[100px] max-lg:mt-10 container px-10 max-lg:px-4 mx-auto '>
           <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
 
           <Accordian />

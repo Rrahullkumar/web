@@ -233,7 +233,7 @@ const TeamSlider = () => {
     1280: { slidesPerView: 4 },
   }}
         modules={[EffectCoverflow, Autoplay]}
-        className="max-w-[1440px] w-full mx-auto"
+        className="container w-full mx-auto"
       >
         {team.map((member, index) => (
           <SwiperSlide

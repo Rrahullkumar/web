@@ -191,7 +191,7 @@ const DigitalTranformationservice = () => {
 "
                     />
 
-        <div className="dtc1 max-w-[1440px] mt-16 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[50px] max-md:mb-10">
+        <div className="dtc1 container mt-16 max-md:mt-10 w-[100%] mx-auto px-10 max-lg:px-4 mb-[50px] max-md:mb-10">
           <h1 data-aos="fade-up"  className='lg:text-center text-[52px] max-lg:text-3xl mb-[12px] font-semibold'>
             Digital Transformation
             <span className='text-[#4CAF50]'> Services </span>
@@ -207,7 +207,7 @@ const DigitalTranformationservice = () => {
         </div>
 
         {/* Section 2 */}
-        <div className="dtc2 max-w-[1440px] w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row gap-6">
+        <div className="dtc2 container w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row gap-6">
 
           <div className="dtc2left lg:w-[80%] flex flex-col">
             <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-8 font-semibold order-1'>
@@ -239,7 +239,7 @@ const DigitalTranformationservice = () => {
 
 
         {/* Section 3 */}
-        <div className="dtc3 max-w-[1440px] mt-24  max-md:mt-10 w-full mx-auto  mb-24">
+        <div className="dtc3 container mt-24  max-md:mt-10 w-full mx-auto  mb-24">
           <div >
             <h2 data-aos="fade-up"  className='text-[48px] max-lg:text-3xl mb-9 max-md:mb-5 font-semibold px-10 max-lg:px-4'>Digital Transformation Services We Offer</h2>
             <p data-aos="fade-up"  className='text-lg max-md:text-base lg:w-[60%] max-lg:mb-10 px-10 max-lg:px-4'>
@@ -338,7 +338,7 @@ const DigitalTranformationservice = () => {
 
 
         </div>
-        <div className="dtc4 max-w-[1440px] mt-24 w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row mb-24 gap-6">
+        <div className="dtc4 container mt-24 w-full mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row mb-24 gap-6">
 
           {/* Left Content */}
           <div className="dtc4 left lg:w-[60%] flex flex-col">
@@ -378,7 +378,7 @@ const DigitalTranformationservice = () => {
 
         </div>
 
-        <div className="dtc4 max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row gap-10 mb-24 max-lg:mb-10">
+        <div className="dtc4 container mx-auto px-4 flex flex-col lg:flex-row gap-10 mb-24 max-lg:mb-10">
 
           {/* Image block - shown first on desktop */}
           <div data-aos="fade-up"  className="dtc4 right hidden lg:block mt-[20px] px-2 w-[30%] order-1">
@@ -424,7 +424,7 @@ const DigitalTranformationservice = () => {
    
 
         {/* Accordion Section */}
-        <section className='mt-[60px] mb-[50px] mx-auto max-w-[1440px]'>
+        <section className='mt-[60px] mb-[50px] mx-auto container'>
           <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordian />
         </section>

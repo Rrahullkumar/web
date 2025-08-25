@@ -211,7 +211,7 @@ const ContentMarketing = () => {
           />
         </div>
 
-        <div className="max-w-[1440px] mb-16 maxx-lg:mb-10 flex flex-row w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
+        <div className="container mb-16 maxx-lg:mb-10 flex flex-row w-full mx-auto px-[40px] max-lg:px-[16px] lg:mt-24 max-lg:mt-10 justify-between">
           <div className="lg:w-[60%]">
             <div className="lg:hidden w-[80%] flex items-center mx-auto mb-10">
               <img src={image} alt="" />
@@ -264,7 +264,7 @@ const ContentMarketing = () => {
         </div>
 
            <div className='bg-[#EFF4EE]'>
-          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+          <section className='container mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
             <h2 className='text-[32px] max-md:text-2xl mb-16 font-semibold'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
             <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
               <div className="cardss px-20 py-5 pt-10 rounded-xl flex flex-col gap-3 items-center bg-white">
@@ -289,7 +289,7 @@ const ContentMarketing = () => {
         </div>
 
 
-        <section className="max-w-[1440px] mx-auto  mt-24 max-lg:mt-10">
+        <section className="container mx-auto  mt-24 max-lg:mt-10">
           <h2 className='text-[52px] max-lg:text-3xl max-md:px-4 lg:text-center font-semibold lg:w-[70%] mx-auto mb-[55px] max-lg:mb-14'>TYPES OF CONTENT MARKETING SERVICES WE OFFER</h2>
 
           <div className='grid lg:grid-cols-2 max-md:grid-cols gap-32 max-lg:gap-10 px-24 max-lg:px-4'>
@@ -332,7 +332,7 @@ const ContentMarketing = () => {
           </div>
         </section>
 
-        <section className='max-w-[1440px] mx-auto mt-24 max-md:mt-10 lg:px-10 max-lg:px-4 overflow-hidden mb-24 max-lg:mb-10'>
+        <section className='container mx-auto mt-24 max-md:mt-10 lg:px-10 max-lg:px-4 overflow-hidden mb-24 max-lg:mb-10'>
   <h2 className='text-[52px] max-lg:text-3xl lg:w-[60%] font-semibold lg:text-center mx-auto mb-20 max-lg:mb-0'>
     Why we are the best content marketing agency
   </h2>
@@ -399,7 +399,7 @@ const ContentMarketing = () => {
 </section>
 
 
-        <section className='max-w-[1440px] mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
+        <section className='container mb-24 max-lg:mb-10 w-[100%] mt-[36px] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] '>
 
           <TestimonialSlider
             sectionTitle="What Our Clients Say"
@@ -410,7 +410,7 @@ const ContentMarketing = () => {
         </section>
        
 
-            <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
+            <div className="amc6 container mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
 
           <div className="accordian">
             <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>

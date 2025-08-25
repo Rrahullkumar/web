@@ -189,7 +189,7 @@ const MarketingResearch = () => {
           highlight="in Gurgaon"
           paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
         />
-        <div className="mr1 max-w-[1440px] w-[100%] mx-auto flex flex-row max-md:flex-col px-[40px] max-md:px-[16px] items-center gap-4 mt-24 max-md:mt-10">
+        <div className="mr1 container w-[100%] mx-auto flex flex-row max-md:flex-col px-[40px] max-md:px-[16px] items-center gap-4 mt-24 max-md:mt-10">
 
           {/* Left Section */}
           <div className="mr1left w-[60%] max-md:w-[100%]">
@@ -222,7 +222,7 @@ const MarketingResearch = () => {
           </div>
 
         </div>
-        <div className="mr2 max-w-[1440px] px-[40px] max-md:px-[16px] w-[100%] mx-auto flex flex-col justify-center items-center mt-[96px] max-md:mt-10">
+        <div className="mr2 container px-[40px] max-md:px-[16px] w-[100%] mx-auto flex flex-col justify-center items-center mt-[96px] max-md:mt-10">
           <h2 className='text-[52px] max-md:text-3xl font-semibold text-center lg:w-[50%] mb-14'><span className='text-[#4caf50]'>Importance of</span> Market Research & Insights</h2>
           <div className="flex flex-col lg:flex-row gap-10 max-md:gap-6 justify-between lg:items-start">
             <div data-aos="fade-up"  className="mrcard flex flex-col gap-12 max-md:gap-8 items-center max-lg:border-b max-lg:p-8 ">
@@ -250,9 +250,9 @@ const MarketingResearch = () => {
             </div>
           </div>
         </div>
-        <div className='max-w-[1440px] mx-auto mt-24 max-lg:mt-10 mb-24 max-lg:mb-10'>
+        <div className='container mx-auto mt-24 max-lg:mt-10 mb-24 max-lg:mb-10'>
           <h2 data-aos="fade-up" className='text-[52px] px-[40px] lg:mb-5 max-md:px-[16px] max-md:text-3xl  font-semibold  lg:translate-y-36 '>How We Collect the Right Data</h2>
-          <section className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto max-lg:mt-[40px]'>
+          <section className='container px-[40px] max-md:px-[16px] mx-auto max-lg:mt-[40px]'>
             <div className=''>
 
               <div data-aos="fade-up"  className="mr3 flex lg:flex-row-reverse max-lg:flex-col-reverse gap-4 items-end justify-between">
@@ -280,7 +280,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 1 */}
-          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='container px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
             <div className="mr4 flex lg:flex-row-reverse max-lg:flex-col justify-between gap-4 items-start">
 
               {/* Mobile Heading */}
@@ -309,7 +309,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 2 */}
-          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='container px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr5 flex lg:flex-row max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}
@@ -338,7 +338,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 3 */}
-          <section data-aos="fade-up" className='max-w-[1440px] px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up" className='container px-[40px] max-lg:px-[16px] mx-auto mt-[52px]'>
             <div className="mr4 flex lg:flex-row-reverse max-lg:flex-col justify-between gap-4 items-start">
 
               {/* Mobile Heading */}
@@ -367,7 +367,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 4 */}
-          <section data-aos="fade-up"  className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up"  className='container px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr7 flex lg:flex-row max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}
@@ -396,7 +396,7 @@ const MarketingResearch = () => {
           </section>
 
           {/* Section 5 */}
-          <section data-aos="fade-up" className='max-w-[1440px] px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
+          <section data-aos="fade-up" className='container px-[40px] max-md:px-[16px] mx-auto mt-[52px]'>
             <div className="mr7 flex lg:flex-row-reverse max-lg:flex-col gap-4 items-start justify-between">
 
               {/* Mobile Heading */}
@@ -427,7 +427,7 @@ const MarketingResearch = () => {
 
 
 
-        <section className=' max-w-[1440px] w-[100%] mx-auto mt-[60px] mb-[50px]'>
+        <section className=' container w-[100%] mx-auto mt-[60px] mb-[50px]'>
           <h2 className='text-3xl px-10 max-lg:px-4 text-center font-semibold'>Let's address your <span className='text-[#4caf50]'>questions</span> today</h2>
           <Accordian />
         </section>

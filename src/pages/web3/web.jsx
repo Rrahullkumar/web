@@ -239,8 +239,16 @@ const web = () => {
     <>
 
       <Helmet>
-        <title>Best Web Development Company in Gurgaon | WebNest Media</title>
-        <meta name="description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
+        <title>Best Web Development Services India
+</title>
+
+
+        <meta name="description" content="Get high-performing, responsive websites with the Best Web Development Services in India. We create custom, user-friendly solutions that boost your brand and drive results.
+" />
+<meta name="keywords" content="Web Development Services, Website Development Services, Custom Websites, Web Developemnt Company in India" />
+
+
+
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/web-development" />
@@ -273,7 +281,7 @@ const web = () => {
 
 
 
-        <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+        <section className='flex flex-row max-lg:flex-col gap-20 items-center max-lg:mt-10 mt-24 mx-auto container px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 className='text-[52px] leading-[150%]  max-lg:text-3xl font-semibold max-lg:mb-4'>Best Custom Website Development Services</h2>
 
@@ -297,7 +305,7 @@ const web = () => {
         </section>
 
         <div className='bg-[#EFF4EE]'>
-          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+          <section className='container mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
             <h2 className='text-[32px] max-md:text-2xl mb-16'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
             <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
               <div className="cardss border px-20 pt-9 pb-7 rounded-xl flex flex-col gap-3 items-center bg-white">
@@ -324,7 +332,7 @@ const web = () => {
 
 
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
+        <section className='container mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
           <div className='lg:w-[80%] mx-auto'>
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Customized Web Development Services for Your Success
             </h2>
@@ -409,7 +417,7 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
           </div>
 
         </section>
-        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto container px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development <br className='max-md:hidden' />Best Quality Service</h2>
             <div data-aos="fade-up" className="md:hidden">
@@ -431,7 +439,7 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
         </section>
 
 
-        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto container px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl font-semibold max-lg:mb-2'>Technologies We use to Make the Best Website Designing & Development</h2>
             <div data-aos="fade-up" className="md:hidden">
@@ -452,7 +460,7 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
 
 
 
-        <section className='max-w-[1440px] mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
+        <section className='container mx-auto w-[100%] px-4 py-10 max-md:pt-2 max-md:pb-4'>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-8 lg:gap-10">
             {cardData.map((card) => (
@@ -480,7 +488,7 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
 
         </section>
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center '>
+        <section className='container mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center '>
           <div className="lg:w-[60%] mx-auto ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>What makes us different in Web Development?</h2>
 
@@ -544,7 +552,7 @@ As a top website design & development service, we have years of experience. Our 
           </table>
 
         </section>
-        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4 max-lg:mb-10'>
+        <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto container px-10 max-lg:px-4 max-lg:mb-10'>
           <div className="lg:w-[60%] ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Why Choose WebNest Media?</h2>
             <div data-aos="fade-up" className="md:hidden">
@@ -577,7 +585,7 @@ At WebNest Media, we believe every brand has a story. Let’s build a website th
         </section>
 
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 w-[100%]'>
+        <section className='container mx-auto px-10 max-lg:px-4 w-[100%]'>
           <Accordion />
         </section>
 

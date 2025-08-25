@@ -104,7 +104,7 @@ const ContactUsPage = () => {
         />
       </div>
 
-      <div className="max-w-[1440px] mx-auto max-md:mt-[50px]">
+      <div className="container mx-auto max-md:mt-[50px]">
         <div className="contactcard grid grid-cols-1 max-md:place-items-center md:grid-cols-2 lg:grid-cols-4 gap-5 mb-24 px-4 md:px-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -197,7 +197,7 @@ const ContactUsPage = () => {
         </div>
       </div>
 
-      <div className="px-4 md:px-8 mx-auto max-w-[1440px]">
+      <div className="px-4 md:px-8 mx-auto container">
         <h2
          
           className="text-[28px] md:text-[36px] text-center text-[#4CAF50] font-semibold mb-8 "

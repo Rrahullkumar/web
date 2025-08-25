@@ -45,7 +45,7 @@ const AboutUS = () => {
 
 
 
-      <section className="max-w-[1440px] mt-[96px] max-md:mt-[50px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center  gap-[106px] max-lg:gap-5  overflow-hidden">
+      <section className="container mt-[96px] max-md:mt-[50px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  text-left  flex flex-col md:flex-row items-center  gap-[106px] max-lg:gap-5  overflow-hidden">
         <div className="max-w-2xl  max-md:w-[100%]"
           data-aos="fade-right"
           data-aos-offset="200"
@@ -72,7 +72,7 @@ const AboutUS = () => {
       </section>
 
 
-      <section data-aos="fade-up" className=" overflow-hidden max-w-[1440px] w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-center mt-[96px] mb-[96px] max-md:mt-[50px]" ref={wrapperRef}
+      <section data-aos="fade-up" className=" overflow-hidden container w-[100%]  mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-center mt-[96px] mb-[96px] max-md:mt-[50px]" ref={wrapperRef}
         onMouseEnter={() => setTrigger(true)}
       >
 
@@ -83,7 +83,7 @@ const AboutUS = () => {
 
 
 
-      <section className=" max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] pb-10  relative z-10">
+      <section className=" container w-[100%] mx-auto text-center pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] pb-10  relative z-10">
 
         <h4 data-aos="fade-up" className="text-sm uppercase tracking-widest text-[#9bc394] font-semibold">
           Vision & Mission
@@ -104,7 +104,7 @@ const AboutUS = () => {
 
       <section className="
     
-    max-w-[1440px] mb-[96px] max-md:mb-10 mt-[96px] max-lg:mt-[10px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-evenly gap-12 max-lg:gap-5
+    container mb-[96px] max-md:mb-10 mt-[96px] max-lg:mt-[10px] w-full mx-auto pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] text-left flex flex-col md:flex-row items-center justify-evenly gap-12 max-lg:gap-5
     
     ">
 
@@ -141,7 +141,7 @@ const AboutUS = () => {
 
     
 
-      <section className=' max-w-[1440px] w-[100%] mx-auto  mt-[5px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
+      <section className=' container w-[100%] mx-auto  mt-[5px] mb-[50px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16]'>
       
       <h2 className='mt-[40px] text-[black] font-normal  text-center leading-[120%]
           text-[32px]           

@@ -172,7 +172,7 @@ const Affilatemarketing = () => {
           paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
         />
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
+        <div className="container w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
 
           {/* Main Container */}
           <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
@@ -233,7 +233,7 @@ const Affilatemarketing = () => {
         </div>
 
 
-        <div className="max-lg:mt-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+        <div className="max-lg:mt-10 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
 
 
           <div className="">
@@ -300,7 +300,7 @@ const Affilatemarketing = () => {
           </div>
         </div>
         <div className='bg-[#EFF4EE] '>
-          <div className="amc4 max-lg:mt-10 pt-16 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
+          <div className="amc4 max-lg:mt-10 pt-16 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
               <p data-aos="fade-up" style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
               <p data-aos="fade-up" className='text-[32px] max-md:text-3xl font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
@@ -320,7 +320,7 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-        <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
+        <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col container w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
           <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
           </h2>
@@ -330,7 +330,7 @@ const Affilatemarketing = () => {
           </p>
 
         </div>
-        <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+        <div className=" max-lg:mb-10 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
             {/* Card 1 */}
             <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
@@ -407,7 +407,7 @@ const Affilatemarketing = () => {
 
 
 
-        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
+        <div className="container w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
 
           {/* Main Container */}
           <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
@@ -441,7 +441,7 @@ const Affilatemarketing = () => {
         </div>
 
       </div>
-      <div className="accordian max-w-[1440px] px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
+      <div className="accordian container px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
         <h2 className="text-center">
           Let's address your <span className="text-black">questions</span> today
         </h2>

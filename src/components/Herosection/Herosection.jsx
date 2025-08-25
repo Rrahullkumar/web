@@ -15,7 +15,7 @@
 //       <div className="absolute inset-0 bg-black/60 z-0" />
 
 //       {/* Content */}
-//       <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full max-w-[1440px] mx-auto relative z-10">
+//       <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full container mx-auto relative z-10">
 //         {/* Text Section */}
 //         <div className="text-center lg:text-left text-white max-w-xl px-4">
 //           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
@@ -58,7 +58,7 @@ const HeroSection = ({ backgroundImage, heading, highlight, paragraph }) => {
       <div className="absolute inset-0 bg-black/60 z-0" />
 
       {/* Content */}
-      <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full max-w-[1440px] mx-auto relative z-10">
+      <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full container mx-auto relative z-10">
         {/* Text Section */}
         <div className="text-center lg:text-left text-white max-w-xl px-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:leading-snug ">

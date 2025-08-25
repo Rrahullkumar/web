@@ -308,7 +308,7 @@ const Brandmarketing = () => {
                         highlight="in Gurgaon"
                         paragraph="Building strong, memorable brands with clear strategies that connect with audiences and help your business stand out in the market."
                     />
-      <section className="max-w-[1440px] w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-24 max-lg:mt-10"  >
+      <section className="container w-[100%] mx-auto text-center pl-[155px] pr-[155px] max-lg:pl-[20px] max-lg:pr-[20px] mt-24 max-lg:mt-10"  >
         <h6 data-aos="fade-up" className='text-[52px]  text-center'>
           <span className="font-normal">Brand</span>{' '}
           <span className="italic font-light">Strategy?</span>
@@ -342,7 +342,7 @@ const Brandmarketing = () => {
 
 
 
-        <section className='max-w-[1440px] w-[100%] mx-auto'>
+        <section className='container w-[100%] mx-auto'>
 
 
 
@@ -405,7 +405,7 @@ const Brandmarketing = () => {
 
         </section>
 
-        <section className='max-w-[1440px] w-[100%] mx-auto'>
+        <section className='container w-[100%] mx-auto'>
           <h4  data-aos="fade-up" className='text-[52px] max-lg:text-[44px] leading-[150%] md:text-center max-md:px-4 mt-[96px] mb-[32px] '> <span className="font-normal">Brand Strategy Services by</span> <br className='max:max-md:hidden' /><span className="italic font-[350]"> WebNest Media</span></h4>
            <p  data-aos="fade-up" className='text-[16px] text-[#00000] font-normal md:text-center p-[20px] '>At WebNest Media, we combine creativity, research, and strategy to craft brand identities that leave a lasting impact. Our  <br />services cover every stage of your brand-building journey: </p>
 
@@ -416,7 +416,7 @@ const Brandmarketing = () => {
 
       
 
-        <section className="px-[20px] xl:px-[155px]   py-10  max-w-[1440px] w-[100%] mx-auto">
+        <section className="px-[20px] xl:px-[155px]   py-10  container w-[100%] mx-auto">
           {brandSteps.map((step, index) => (
             <div data-aos="fade-up" 
               key={index}
@@ -439,7 +439,7 @@ const Brandmarketing = () => {
 
 
 
-        <section className='max-w-[1440px] w-[100%] mx-auto'>
+        <section className='container w-[100%] mx-auto'>
           <p  data-aos="fade-up" className="mt-[96px] max-md:mt-10 mb-[66px] text-center text-[52px] leading-[150%] ">
             <span className="font-normal">Why </span>
             <span className="italic font-[350]">WebNest  <br className='max-md:hidden' />Media?</span>
@@ -447,7 +447,7 @@ const Brandmarketing = () => {
         </section>
 
 
-        <section className='max-w-[1440px] w-[100%] mx-auto'>
+        <section className='container w-[100%] mx-auto'>
 
           <div className='mt-[32px] mb-[52px] flex flex-wrap items-center justify-center gap-4 max-md:gap-14 p-4'>
 
@@ -468,7 +468,7 @@ const Brandmarketing = () => {
         </div>
       </section>
 
-      <section className=' max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
+      <section className=' container w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
             <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
           text-[32px]           
   

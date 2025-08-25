@@ -3,7 +3,7 @@ import "./accordian.css";
 
 const Accordion = () => {
   return (
-    <div className="amc6 max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
+    <div className="amc6 container mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
       <div className="accordian">
         <h2 className="text-3xl font-semibold mb-8 text-center">
           Let's address your <span className="text-black">questions</span> today

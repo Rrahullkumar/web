@@ -179,7 +179,7 @@ const InfluencerMarketing = () => {
         />
 
         {/* B2B Lead Generation Section */}
-        <div data-aos="fade-up" className="max-lg:mt-10 mt-24 max-w-[1440px] px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse  lg:items-center lg:justify-between mx-auto ">
+        <div data-aos="fade-up" className="max-lg:mt-10 mt-24 container px-10 max-lg:px-[16px] flex flex-row-reverse max-lg:flex-col-reverse  lg:items-center lg:justify-between mx-auto ">
           <LazyLoadImage src={image1} alt="Best Influencer Marketing Agency" className=" max-lg:w-2/3 mx-auto max-lg:my-5" />
           <div className=" lg:w-[60%] ">
             <h2 className="text-[52px] max-lg:text-[36px] font-semibold">India’s Top Influencer Marketing Agency in Gurgaon</h2>
@@ -193,7 +193,7 @@ const InfluencerMarketing = () => {
 
 
         <div className='bg-[#EFF4EE]'>
-          <section className='max-w-[1440px] mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
+          <section className='container mx-auto flex flex-col text-center py-16  mt-24 max-md:mt-10'>
             <h2 className='text-[32px] max-md:text-2xl mb-16 font-semibold'> Your <span className='text-[#4caf50] '>success</span> is Our <span className='text-[#4caf50]'>Mission</span></h2>
             <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 px-10 max-md:px-4'>
               <div className="cardss px-20 py-5 pt-10 rounded-xl flex flex-col gap-3 items-center bg-white">
@@ -220,7 +220,7 @@ const InfluencerMarketing = () => {
 
 
 
-        <section className='max-w-[1440px] mx-auto mt-24 max-lg:mt-10 px-4'>
+        <section className='container mx-auto mt-24 max-lg:mt-10 px-4'>
   <h2 data-aos="fade-up" className='text-[52px] max-lg:text-3xl text-center font-semibold lg:w-[60%] mx-auto mb-24 max-lg:mb-10'>
     Types of Influencer Marketing Solutions
   </h2>
@@ -298,7 +298,7 @@ const InfluencerMarketing = () => {
   </div>
 </section>
 
-        <div className="imc5 max-w-[1440px] px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto mb-24 max-lg:mb-10">
+        <div className="imc5 container px-10 max-lg:px-4 mt-24 max-lg:mt-14 mx-auto mb-24 max-lg:mb-10">
           <div className="flex lg:flex-row-reverse lg:justify-between lg:items-center gap-5">
             {/* Desktop Image */}
             <div className="hidden lg:block lg:w-[40%] max-lg:hidden">
@@ -330,7 +330,7 @@ const InfluencerMarketing = () => {
 
 
 
-        <div className="lastcontainer max-w-[1440px] px-10 max-lg:px-0 mt-[96px] max-lg:mt-[40px] mx-auto">
+        <div className="lastcontainer container px-10 max-lg:px-0 mt-[96px] max-lg:mt-[40px] mx-auto">
           <p className=" lg:mb-[50px] text-center font-medium text-[32px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>

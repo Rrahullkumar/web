@@ -110,7 +110,7 @@ const Sem = () => {
             </div>
 
             <div className="flex flex-row max-lg:flex-col justify-between items-center">
-              <div className='max-w-[1440px] w-full mx-auto pt-[40px]'>
+              <div className='container w-full mx-auto pt-[40px]'>
                 <h2 className='text-[38px] lg:text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
 
                 <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
@@ -653,7 +653,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
         />
 
 
-        <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
+        <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between container w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
           <div className="lg:w-[50%]">
 
             <h2 className='text-[52px] max-lg:text-4xl leading-snug  mb-9 max-lg:mb-5 '>What is Search Engine Marketing?</h2>
@@ -686,7 +686,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
 
-          <div className='max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
+          <div className='container w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
 
             <h2 data-aos="fade-up" style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
 
@@ -717,7 +717,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
 
 
         <section>
-          <div className="max-w-[1440px] w-[100%] mx-auto pt-[96px] max-md:pt-10 pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]">
+          <div className="container w-[100%] mx-auto pt-[96px] max-md:pt-10 pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]">
 
             <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
 
@@ -765,7 +765,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
 
         <section
           id="semservice"
-          className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] relative"
+          className="container w-full mx-auto px-[40px] max-lg:px-[16px] relative"
         >
 
 
@@ -830,7 +830,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
         WebNest Media is a search engine marketing company in Gurgaon, India, and offers a number of benefits that make it different than other agencies. Here are some reasons you may want to choose them:
       </p>
 
-      <div className=" overflow-x-auto  max-w-[1440px] w-[100%] mx-auto">
+      <div className=" overflow-x-auto  container w-[100%] mx-auto">
   <table className="min-w-[600px] w-full table-auto border-separate border-spacing-y-6">
     <tbody className="text-left text-gray-700">
       <tr className="align-top">
@@ -896,7 +896,7 @@ We also specialize in keyword targeting display campaigns, helping your brand st
 
     </section>
 
-        <div className="FAQS max-w-[1440px] w-[100%] mx-auto">
+        <div className="FAQS container w-[100%] mx-auto">
 
           <h2 className="text-[#409338] font-bold text-[40px] leading-[40px] text-center max-md:text-[28px] max-md:leading-[28px]  stroke-custom fill-custom">Let's address your questions today</h2>
           <div className="accordion-wrapper-columns">

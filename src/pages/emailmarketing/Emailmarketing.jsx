@@ -182,7 +182,7 @@ const Emailmarketing = () => {
         />
         </div>
 
-        <div  className="emailc2 mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+        <div  className="emailc2 mt-24 max-lg:mt-10 flex flex-col container px-10 max-lg:px-[16px] mx-auto">
           <div data-aos="fade-up" className="emailc21 flex flex-col lg:justify-center lg:items-center">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold lg:text-center mb-9 max-lg:mb-3'>Email Marketing Services</h2>
             <p className='text-lg lg:text-center lg:w-[60%]'>Empowering your brand with data-driven email marketing solutions for maximum ROI and customer engagement</p>
@@ -226,7 +226,7 @@ const Emailmarketing = () => {
         </div>
 
 
-        <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-24  max-lg:mt-10 max-w-[1440px] px-10 max-lg:px-[16px] ">
+        <div className="emailc3 mx-auto flex flex-col items-center justify-center mt-24  max-lg:mt-10 container px-10 max-lg:px-[16px] ">
           <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:text-center mb-12 max-lg:mb-6 font-semibold lg:w-[60%]">
             WebNest’s Email Marketing Campaign Services
           </h2>
@@ -283,7 +283,7 @@ const Emailmarketing = () => {
 
           </div>
         </div>
-        <div className="emailc4 flex flex-col items-center justify-center mt-24 max-lg:mt-14  max-w-[1440px] px-10 max-lg:px-[16px] mx-auto">
+        <div className="emailc4 flex flex-col items-center justify-center mt-24 max-lg:mt-14  container px-10 max-lg:px-[16px] mx-auto">
           <h2 data-aos="fade-up" className="text-[52px] max-lg:text-3xl lg:text-center mb-12 max-lg:mb-8 font-semibold lg:w-[80%]">
             Why Opt for an Email Marketing Agency for Business?
           </h2>
@@ -362,7 +362,7 @@ const Emailmarketing = () => {
 
         </div>
     
-        <div className="lgc7 max-w-[1440px] px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto ">
+        <div className="lgc7 container px-10 max-lg:px-4 mt-[96px] max-lg:mt-[40px] mx-auto ">
           <p className=" mb-12 font-medium text-[32px] leading-[40px] stroke-custom fill-custom text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
           <Accordion></Accordion>
         </div>

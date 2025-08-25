@@ -246,7 +246,7 @@ const Orm = () => {
 
 
 
-        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
+        <div className='container mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
 
           {/* Desktop Layout */}
           <div className="flex flex-row max-md:flex-col-reverse justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
@@ -303,7 +303,7 @@ const Orm = () => {
 
         </div>
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
+        <section className='container mx-auto px-10 max-lg:px-4'>
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
@@ -344,7 +344,7 @@ const Orm = () => {
 
 
 
-        <section className="max-w-[1440px] mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
+        <section className="container mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
 
           {/* Text Section */}
           <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">

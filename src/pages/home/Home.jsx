@@ -391,7 +391,7 @@ const Home = () => {
       </div>
     </div>
 
-        <div className=" w-[100%] mt-16 max-lg:mt-10 max-w-[1440px] mx-auto flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
+        <div className=" w-[100%] mt-16 max-lg:mt-10 container mx-auto flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
           <div className=" lg:w-1/2 flex flex-col justify-between">
             <h2 className="text-[#388E3C] max-md:text-[20px] max-md:leading-[28px] text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
@@ -463,7 +463,7 @@ const Home = () => {
 
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto   pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
+        <div className=" w-[100%] container  mx-auto   pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  bg-white p-[40px] mt-[30px] transparenbody  text-start flex  max-lg:flex-col justify-center  items-center gap-6">
 
 
           <div className="flex justify-center md:w-[48%] ">
@@ -482,7 +482,7 @@ const Home = () => {
 
         </div>
 
-        <div className=' w-[100%] max-w-[1440px]  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
+        <div className=' w-[100%] container  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
           <h2 className="" style={{color:'#4caf50'}}> Our Core Solutions </h2>
@@ -519,7 +519,7 @@ const Home = () => {
 
 
 
-        <div className=" w-[100%] max-w-[1440px]  mx-auto Slidercrausol  ">
+        <div className=" w-[100%] container  mx-auto Slidercrausol  ">
           <h2 className="heading">One Partner. Every Platform. Endless Growth </h2>
 
           <Slider slides={autoSlide} autoSlideInterval={4000} />
@@ -528,7 +528,7 @@ const Home = () => {
 
 
 
-        <div className="industriweserve mb-[30px] w-full max-w-[1440px] mx-auto">
+        <div className="industriweserve mb-[30px] w-full container mx-auto">
           <h2 className="heading mb-[20px]" id="industries">
             Industries We Serve
           </h2>
@@ -539,7 +539,7 @@ const Home = () => {
         <div
           ref={thirdREf}
           onMouseEnter={() => setThirdtrigger(true)}
-          className=" max-w-[1440px]  mt-[130px] mb-[50px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[20px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
+          className=" container  mt-[130px] mb-[50px] max-sm:mb-[60px]  max-md:mt-[80px] cursor-pointer phone  max-md:p-[20px] md:p-[30px] bg-[#409338] flex flex-col md:flex-row items-center gap-6 md:gap-[40px] justify-around w-[90%]  max-md-w-[100%] mx-auto rounded-[20px]  shadow-md"
         >
 
           {/* Phone Icon */}
@@ -580,7 +580,7 @@ const Home = () => {
         <div
           ref={wrapperRef}
           onMouseEnter={() => setTrigger(true)}
-          className=" w-[100%] max-w-[1440px]  mx-auto  counter flex mt-[10px] flex-col md:flex-row items-center justify-center gap-10 px-6 ">
+          className=" w-[100%] container  mx-auto  counter flex mt-[10px] flex-col md:flex-row items-center justify-center gap-10 px-6 ">
           <div
 
             className="w-full md:w-1/2 lg:w-[40%]"
@@ -610,11 +610,11 @@ const Home = () => {
         </div>
 
 
-        <div className=" w-[100%] max-w-[1440px]  overflow-hidden mx-auto tetonomial mt-[30px]">
+        <div className=" w-[100%] container  overflow-hidden mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
  
-        <div className="w-[100%] max-w-[1440px]  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
+        <div className="w-[100%] container  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom mt-6 max-lg:mt-0">Frequently Asked Questions (FAQs)</p>
           <Accordion />
         </div>

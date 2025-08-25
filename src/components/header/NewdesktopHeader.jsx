@@ -80,7 +80,7 @@ export default function NewdesktopHeader() {
   return (
 
     <header className="sticky top-0 left-0 w-full z-[99999] border-b border-[#9ac496]  backdrop-blur-md  ">
-      <div className="max-w-[1440px] w-full mx-auto ">
+      <div className="container w-full mx-auto ">
         <div className="flex items-center justify-between px-4 py-4 max-xl:px-4">
             <Link to="/"
             aria-label="WebNest Media Logo"
@@ -128,7 +128,7 @@ export default function NewdesktopHeader() {
                     }`}
                   >
                     <div className="flex items-center justify-center w-full h-[60vh] pt-14 pb-14 px-10 cursor-pointer">
-                      <div className="max-w-[1440px] w-full mx-auto flex justify-between">
+                      <div className="container w-full mx-auto flex justify-between">
                         {item.columns.map((col, colIndex) => (
                           <div key={colIndex}>
                             <h3 className="text-3xl mb-6 font-normal text-black">{col.heading}</h3>

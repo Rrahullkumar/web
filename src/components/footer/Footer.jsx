@@ -22,7 +22,7 @@ const Footer = () => {
   }}
 >
 
-      <div className="max-w-[1440px] w-[100%] mx-auto space-y-10 mt-36 max-md:mt-16 max-md:bg-black px-4 pb-4 ">
+      <div className="container w-[100%] mx-auto space-y-10 mt-36 max-md:mt-16 max-md:bg-black px-4 pb-4 ">
 
 
 

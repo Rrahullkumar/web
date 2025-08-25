@@ -121,7 +121,7 @@ const Insight = () => {
 )} */}
 
     
-       <div className="mx-auto max-w-[1440px] p-4 sm:p-8">
+       <div className="mx-auto container p-4 sm:p-8">
       {/* ✅ Latest Blog */}
       <div className="container mx-auto"  onClick={() => window.location.href = `/Insight/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`}>
         <h2 className="text-3xl sm:text-5xl font-semibold mb-8">Latest Blog</h2>
