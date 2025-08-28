@@ -394,7 +394,7 @@ const Lead = () => {
     
         <div className="lmc6 mt-[96px] max-lg:mt-10">
 
-          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom text-center">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
 
           <Accordion />
         </div>

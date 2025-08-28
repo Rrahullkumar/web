@@ -31,102 +31,118 @@ const Affilatemarketing = () => {
     { number: '100%', label: 'Managed Setup' },
   ];
 
-  const affiliateMarketingSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Service",
-        "@id": "https://webnestmedia.com/affiliate-marketing#service",
-        "name": "Affiliate Marketing",
-        "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
-        "serviceType": "Affiliate Marketing",
-        "provider": {
-          "@type": "Organization",
-          "name": "WebNest Media",
-          "url": "https://webnestmedia.com",
-          "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
-          "sameAs": [
-            "https://www.instagram.com/webnestmediagroup/",
-            "https://www.facebook.com/people/WebNest-Media/61576616442478/",
-            "https://www.linkedin.com/company/webnest-media-group/"
-          ]
-        },
-        "areaServed": {
-          "@type": "Place",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
-            "addressLocality": "Gurgaon",
-            "addressRegion": "Haryana",
-            "postalCode": "122001",
-            "addressCountry": "IN"
-          }
-        },
-        "url": "https://webnestmedia.com/affiliate-marketing"
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
-        "url": "https://webnestmedia.com/affiliate-marketing",
-        "name": "Affiliate Marketing Services – WebNest Media",
-        "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://webnestmedia.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Services",
-            "item": "https://webnestmedia.com/#services"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Affiliate Marketing",
-            "item": "https://webnestmedia.com/affiliate-marketing"
-          }
+const affiliateMarketingSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/affiliate-marketing#service",
+      "name": "Affiliate Marketing",
+      "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
+      "serviceType": "Affiliate Marketing",
+      "provider": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "sameAs": [
+          "https://www.instagram.com/webnestmediagroup/",
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.linkedin.com/company/webnest-media-group/"
         ]
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://webnestmedia.com/affiliate-marketing#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is affiliate marketing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Affiliate marketing is a performance-based strategy where affiliates promote your product or service, and you pay them only when they deliver a lead or sale. It's a cost-effective way to scale online revenue."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does WebNest Media manage affiliate campaigns?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We handle everything from affiliate recruitment, setup, and tracking to performance optimization and reporting—ensuring your campaign runs smoothly and profitably."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is affiliate marketing suitable for my business?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, if you're looking to grow your brand without upfront ad spend. It works best for e-commerce, SaaS, and service-based businesses that can offer commissions to trusted partners or influencers."
-            }
+      "areaServed": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://webnestmedia.com/affiliate-marketing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
+      "url": "https://webnestmedia.com/affiliate-marketing",
+      "name": "Affiliate Marketing Services – WebNest Media",
+      "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://webnestmedia.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Affiliate Marketing",
+          "item": "https://webnestmedia.com/affiliate-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/affiliate-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is affiliate marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Affiliate marketing is a performance-based strategy where affiliates promote your product or service, and you pay them only when they deliver a lead or sale. It's a cost-effective way to scale online revenue."
           }
-        ]
+        },
+        {
+          "@type": "Question",
+          "name": "How does WebNest Media manage affiliate campaigns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We handle everything from affiliate recruitment, setup, and tracking to performance optimization and reporting—ensuring your campaign runs smoothly and profitably."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is affiliate marketing suitable for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you're looking to grow your brand without upfront ad spend. It works best for e-commerce, SaaS, and service-based businesses that can offer commissions to trusted partners or influencers."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://webnestmedia.com/affiliate-marketing#product",
+      "name": "Best Affiliate Marketing Agency",
+      "image": "https://webnestmedia.com/assets/heroimage-Cxuzhe7b.png",
+      "description": "WebNest Media is the best affiliate marketing agency in India, connecting brands with top affiliate marketers to drive sales, leads, and traffic. Our tailored affiliate marketing services deliver measurable results and maximize ROI. Get started today!",
+      "brand": {
+        "@type": "Brand",
+        "name": "WebNest Media"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "667"
       }
-    ]
-  };
+    }
+  ]
+};
 
 
   const scrollToSection = (id) => {
@@ -172,7 +188,7 @@ const Affilatemarketing = () => {
           paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
         />
 
-        <div className="container w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10max-lg:mb-10">
 
           {/* Main Container */}
           <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
@@ -233,7 +249,7 @@ const Affilatemarketing = () => {
         </div>
 
 
-        <div className="max-lg:mt-10 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+        <div className="max-lg:mt-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
 
 
           <div className="">
@@ -320,28 +336,17 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
-<<<<<<< HEAD
-        <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col container w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
-          <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
-            <span className="highlight">WebNest</span> Media's Affiliate Marketing
-=======
         <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center ">
           <h2 data-aos="fade-up" className="trust-heading  font-semibold text-[52px] max-lg:text-3xl  lg:mb-12">
             Affiliate Marketing Solutions from <span className='highlight'>WebNest Media</span>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
           </h2>
 
           <p data-aos="fade-up" className="trust-subheading text-lg mb-[40px] ">
 At WebNest Media, we believe affiliate marketing is more than just links—it's about building smart partnerships that drive real results. As a trusted affiliate marketing company, we help brands connect with the right publishers and influencers to expand reach, generate leads, and boost sales.          </p>
 
         </div>
-<<<<<<< HEAD
-        <div className=" max-lg:mb-10 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
-=======
         <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:pt-10">
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
             {/* Card 1 */}
             <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60  max-lg:border max-lg:rounded-xl ">
 
@@ -417,7 +422,7 @@ At WebNest Media, we believe affiliate marketing is more than just links—it's 
 
 
 
-        <div className="container w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
+        <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">
 
           {/* Main Container */}
           <div className="flex flex-row max-lg:flex-col justify-between gap-24 max-lg:gap-10">
@@ -454,8 +459,11 @@ Since you don’t have to create products or manage inventory, affiliate marketi
       
       
       </div>
-      <div className="max-lg:mt-10 mt-24 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
-       <div className="">
+
+
+
+      <div className="max-lg:mt-10 mt-24 max-w-[1440px] w-[100%] px-10  max-lg:px-4 mx-auto ">
+       {/* <div className=""> */}
          <h2 className='text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold '>Why Choose WebNest Media for Affiliate Marketing Services?</h2>
         <p className='text-base '>
           Affiliate marketing, in our view, encompasses more than having users click on links; it involves creating authentic partnerships that have quantifiable benefits independent of advertising spend. As the best affiliate marketing agency, we assist brands of varying sizes in engaging top affiliate marketers that will help amplify their reach.
@@ -466,7 +474,7 @@ As a leading affiliate marketing agency in India, WebNest Media is equipped with
 Sustainable campaign success relies on a digital marketing strategy or growth engine cultivated from WebNest Media's affiliate marketing. Campaign success is achieved with the power of branding that resonates.
 
         </p>
-       </div>
+       {/* </div> */}
       </div>
       <div className="accordian container px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
         <h2 className="text-center">

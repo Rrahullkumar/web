@@ -22,11 +22,6 @@ import youtubeIcon from "./resources/yads.svg";
 import displayIcon from "./resources/dads.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { motion, AnimatePresence } from "framer-motion";
-<<<<<<< HEAD
-import { Flower, Newspaper, Square, BadgeIndianRupee, LayoutTemplate, Target, ArrowUp, Banknote, Trello, Flame, CheckCircle } from "lucide-react";
-
-
-=======
 import {
   Flower,
   Newspaper,
@@ -40,7 +35,6 @@ import {
   Flame,
   CheckCircle,
 } from "lucide-react";
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 const adsData = [
   { icon: googleIcon, label: "Google ads" },
   { icon: metaIcon, label: "Meta Ads" },
@@ -194,15 +188,10 @@ const Sem = () => {
             </div>
 
             <div className="flex flex-row max-lg:flex-col justify-between items-center">
-<<<<<<< HEAD
-              <div className='container w-full mx-auto pt-[40px]'>
-                <h2 className='text-[38px] lg:text-center font-semibold mb-10'>Why Opt WebNest Media for PPC Ads?</h2>
-=======
               <div className="max-w-[1440px] w-full mx-auto pt-[40px]">
                 <h2 className="text-[38px]  font-semibold mb-10">
                   Why Opt WebNest Media for PPC Ads?
                 </h2>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 
                 <div className="flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]">
                   <div className=" max-lg:w-[100%] space-y-6">
@@ -846,12 +835,15 @@ const Sem = () => {
     <>
       <Helmet>
         <title>
-          Best Search Engine Marketing Agency in Gurgaon | WebNest Media
+        Best Search Engine Marketing Agency in India | WebNest Media
+
         </title>
         <meta
           name="description"
-          content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management."
+          content="Drive growth with best search engine marketing agency in India. Our SEM services cover PPC, Google Ads, display ads, remarketing & more to maximize ROI and increase website traffic.
+"
         />
+        <meta name="keywords" content="Search Engine Marketing Agency in India, Search Engine Marketing Services, Google Ads, PPC Campaign" />
         <meta
           name="keywords"
           content="Top SEM Agency, Top Search Engine Marketing Agency"
@@ -870,7 +862,7 @@ const Sem = () => {
         <meta property="og:url" content="https://webnestmedia.com/search-engine-marketing" />
         <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-h3UpqiFv.png" />
         <meta property="og:site_name" content="WebNest Media" /> */}
-
+{/* 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -974,7 +966,123 @@ const Sem = () => {
               },
             ],
           })}
-        </script>
+        </script> */}
+
+        <script type="application/ld+json">
+      {JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://webnestmedia.com/search-engine-marketing#service",
+      "name": "Search Engine Marketing",
+      "description": "WebNest Media offers expert Search Engine Marketing services to help businesses increase online visibility, drive quality traffic, and grow leads through PPC campaigns.",
+      "serviceType": "Search Engine Marketing",
+      "provider": {
+        "@type": "Organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "sameAs": [
+          "https://www.instagram.com/webnestmediagroup/",
+          "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+          "https://www.linkedin.com/company/webnest-media-group/"
+        ]
+      },
+      "areaServed": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://webnestmedia.com/search-engine-marketing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/search-engine-marketing#webpage",
+      "url": "https://webnestmedia.com/search-engine-marketing",
+      "name": "Search Engine Marketing Services - WebNest Media",
+      "description": "Boost your business with powerful SEM services from WebNest Media. Get expert Google Ads management and lead generation strategies tailored for you."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://webnestmedia.com/search-engine-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://webnestmedia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://webnestmedia.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Search Engine Marketing",
+          "item": "https://webnestmedia.com/search-engine-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://webnestmedia.com/search-engine-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Search Engine Marketing (SEM)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search Engine Marketing (SEM) is a digital marketing strategy used to increase a website’s visibility on search engines through paid advertising."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does SEM help my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEM helps your business appear at the top of search engine results, drives targeted traffic, and delivers faster ROI through Google Ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why choose WebNest Media for SEM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We’re a results-driven SEM agency in Gurgaon with experience in managing high-performing ad campaigns tailored to your business goals."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://webnestmedia.com/search-engine-marketing#product",
+      "name": "Best Search Engine Marketing Agency in India",
+      "image": "https://webnestmedia.com/assets/heroimage-DbIYDVwc.png",
+      "description": "Drive growth with best search engine marketing agency in India. Our SEM services cover PPC, Google Ads, display ads, remarketing & more to maximize ROI and increase website traffic.",
+      "brand": {
+        "@type": "Brand",
+        "name": "WebNest Media"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "1709"
+      }
+    }
+  ]
+})}
+</script>
+
       </Helmet>
       <div className="">
         <HeroSection
@@ -984,12 +1092,7 @@ const Sem = () => {
           paragraph="Grow your business with targeted google ads and smart sem strategies from india’s trusted search engine marketing company."
         />
 
-<<<<<<< HEAD
-
-        <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between container w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
-=======
         <div className="flex flex-row max-lg:flex-col gap-4 mx-auto items-center justify-between max-w-[1440px] w-[100%] mt-24  max-lg:mt-10 px-10 max-lg:px-4 mb-24 max-lg:mb-10">
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
           <div className="lg:w-[50%]">
             <h2 className="text-[52px] max-lg:text-4xl leading-snug  mb-9 max-lg:mb-5 ">
               What is Search Engine Marketing?
@@ -1021,12 +1124,6 @@ const Sem = () => {
         </div>
 
         <section className="bg-[#EFF4EE] pb-[72px]  flex flex-col items-center justify-center max-md: ">
-<<<<<<< HEAD
-
-          <div className='container w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]' >
-
-            <h2 data-aos="fade-up" style={{ color: 'black', fontSize: 32, fontWeight: 600, paddingBottom: 72, paddingTop: 72 }}>Your <span className='highlight'>Success</span> is our <span className='highlight'>Mission</span></h2>
-=======
           <div className="max-w-[1440px] w-[100%] mx-auto text-center pl-[40px] pr-[40px]  max-md:pl-[16px] max-md:pr-[16px]">
             <h2
               data-aos="fade-up"
@@ -1041,7 +1138,6 @@ const Sem = () => {
               Your <span className="highlight">Success</span> is our{" "}
               <span className="highlight">Mission</span>
             </h2>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
               {statsData.map((item, index) => (
@@ -1067,15 +1163,8 @@ const Sem = () => {
         </section>
 
         <section>
-<<<<<<< HEAD
-          <div className="container w-[100%] mx-auto pt-[96px] max-md:pt-10 pb-[70px] pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]">
-
-            <div className='flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]'>
-
-=======
           <div className="max-w-[1440px] w-[100%] mx-auto pt-[96px] max-md:pt-10  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]">
             <div className="flex max-lg:flex-col gap-[135px] max-lg:gap-[46px]">
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
               {/* Left Section */}
               <div className="lg:w-[60%] max-lg:w-[100%] order-1">
                 <h2
@@ -1244,21 +1333,6 @@ const Sem = () => {
             other agencies. Here are some reasons you may want to choose them:
           </p>
 
-<<<<<<< HEAD
-      <div className=" overflow-x-auto  container w-[100%] mx-auto">
-  <table className="min-w-[600px] w-full table-auto border-separate border-spacing-y-6">
-    <tbody className="text-left text-gray-700">
-      <tr className="align-top">
-        <td className="flex gap-2 items-start pr-4 text-green-600 font-medium whitespace-nowrap">
-          <CheckCircle className="mt-1 w-5 h-5" />
-          Expert Search Engine Marketing:
-        </td>
-        <td>
-          Our team of experts in search engine marketing are experts, too! SEM professionals develop and test
-          sponsored search campaigns and work with you to enhance performance and maximize your return on investment.
-        </td>
-      </tr>
-=======
           <div className=" overflow-x-auto  max-w-[1440px] w-[100%] mx-auto">
             <table className="min-w-[600px] w-full table-auto border-separate border-spacing-y-6">
               <tbody className="text-left text-gray-700">
@@ -1274,7 +1348,6 @@ const Sem = () => {
                     maximize your return on investment.
                   </td>
                 </tr>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 
                 <tr className="align-top">
                   <td className="flex gap-2 items-start pr-4 text-green-600 font-medium whitespace-nowrap">
@@ -1333,18 +1406,10 @@ const Sem = () => {
           </div>
         </section>
 
-<<<<<<< HEAD
-    </section>
-
-        <div className="FAQS container w-[100%] mx-auto">
-
-          <h2 className="text-[#409338] font-bold text-[40px] leading-[40px] text-center max-md:text-[28px] max-md:leading-[28px]  stroke-custom fill-custom">Let's address your questions today</h2>
-=======
         <div className="FAQS mx-auto container ">
           <h2 className="text-[#409338] font-bold text-[40px] leading-[40px] text-center max-md:text-[28px] max-md:leading-[28px]  stroke-custom fill-custom">
             Let's address your questions today
           </h2>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
           <div className="accordion-wrapper-columns">
             {/* Left Column */}
             <div className="accordion-column">

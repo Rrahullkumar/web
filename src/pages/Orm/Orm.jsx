@@ -78,11 +78,17 @@ const Orm = () => {
 
 
 <Helmet>
-  <title>Best Online Reputation Management Company in Gurgaon</title>
+  <title>Trusted ORM Services India, Online Reputation Management Company
+</title>
   <meta
     name="description"
-    content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation."
+    content="
+We provide trusted ORM Services in India to manage online reputation, remove negative results, and build a strong positive image for your brand, products, and services.
+"
   />
+
+  <meta name="keywords" content="online reputation management services, orm services india" />
+
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
   <link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
@@ -98,7 +104,7 @@ const Orm = () => {
   */}
 
   {/* WebPage Structured Data */}
-  <script type="application/ld+json">
+  {/* <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -181,7 +187,114 @@ const Orm = () => {
         "query-input": "required name=search_term_string",
       },
     })}
-  </script>
+  </script> */}
+
+
+  <script type="application/ld+json">
+   {JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://webnestmedia.com/online-reputation-management#webpage",
+      "url": "https://webnestmedia.com/online-reputation-management",
+      "name": "Online Reputation Management | WebNest Media",
+      "description": "WebNest Media provides trusted ORM company in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://webnestmedia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://webnestmedia.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Online Reputation Management",
+            "item": "https://webnestmedia.com/online-reputation-management"
+          }
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://webnestmedia.com/#organization",
+        "name": "WebNest Media",
+        "url": "https://webnestmedia.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9696964606",
+          "contactType": "Customer Support",
+          "email": "info@webnestmedia.com",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gurgaon Sector 48",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122004",
+          "addressCountry": "IN"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "@id": "https://webnestmedia.com/online-reputation-management#service",
+        "serviceType": "Online Reputation Management",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://webnestmedia.com/#organization",
+          "name": "WebNest Media"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "IN"
+          }
+        },
+        "description": "Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more."
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://webnestmedia.com/online-reputation-management#product",
+      "name": "Best Online Reputation Management",
+      "image": "https://webnestmedia.com/assets/c1image-CYckrPTa.png",
+      "description": "WebNest Media offers the best online reputation management services in India, helping businesses protect, repair, and enhance their brand image. Our expert ORM strategies remove harmful content, promote positive visibility, and build lasting trust with your audience.",
+      "brand": {
+        "@type": "Brand",
+        "name": "WebNest Media"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "543"
+      }
+    }
+  ]
+})}
+</script>
+
 
   {/* FAQPage Structured Data */}
   <script type="application/ld+json">
@@ -246,13 +359,13 @@ const Orm = () => {
 
 
 
-        <div className='container mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
+        <div className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24 mt-24 max-lg:pb-10 max-lg:mt-10'>
 
           {/* Desktop Layout */}
-          <div className="flex flex-row max-md:flex-col-reverse justify-between items-start max-lg:flex-col max-lg:gap-8 gap-5">
+          <div className="flex flex-row max-md:flex-col-reverse justify-between items-center max-lg:flex-col max-lg:gap-8 gap-5">
 
             {/* Text Block */}
-            <div className="flex-1">
+            <div className="flex-1 ">
 
               <h2 data-aos="fade-up" className='text-[44px] max-lg:text-[34px] mb-3 font-semibold'>
                 Online Reputation <span className='text-[#4CAF50]'>Management Services?</span>
@@ -303,9 +416,6 @@ const Orm = () => {
 
         </div>
 
-<<<<<<< HEAD
-        <section className='container mx-auto px-10 max-lg:px-4'>
-=======
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24  max-lg:pb-10 flex flex-row '>
           <div className="lg:w-[60%]">
         <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium'>Could a Bad Online Reputation Be Costing You Business?</h2> 
@@ -321,7 +431,6 @@ A single misleading review shouldn’t define your business. With strategic repu
         </section>
 
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
->>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
@@ -362,7 +471,7 @@ A single misleading review shouldn’t define your business. With strategic repu
 
 
 
-        <section className="container mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
+        <section className="max-w-[1440px] mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">
 
           {/* Text Section */}
           <div className="w-full lg:w-[60%] flex flex-col order-1 lg:order-none">

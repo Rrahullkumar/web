@@ -469,7 +469,7 @@ const Brandmarketing = () => {
       </section>
 
       <section className=' container w-[100%] px-10  max-lg:px-4 mx-auto mt-[60px] mb-[50px]'>
-            <h2 className='mt-[40px] text-[black] font-normal leading-[160%]
+            <h2 className='mt-[40px] text-[black] font-normal leading-[160%] text-center
           text-[32px]           
   
         '>Let's address your <span className='text-[#4CAF50] '>questions </span>today</h2>

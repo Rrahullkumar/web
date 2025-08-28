@@ -425,7 +425,8 @@ const DigitalTranformationservice = () => {
 
         {/* Accordion Section */}
         <section className='mt-[60px] mb-[50px] mx-auto container'>
-          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          <p className=" mb-[50px] font-medium text-[32px] leading-[40px] ml-[40px] stroke-custom fill-custom text-cen">Lets address your <span className='text-[#409338]'>questions</span> today!</p>
+          
           <Accordian />
         </section>
 
