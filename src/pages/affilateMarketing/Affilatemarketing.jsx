@@ -167,8 +167,8 @@ const Affilatemarketing = () => {
 
         <HeroSection
           backgroundImage={heroimage}
-          heading="Affiliate Marketing Company"
-          highlight="in Gurgaon"
+          heading="Affiliate Marketing  "
+          highlight="Agency"
           paragraph="Drive more sales and grow your brand with proven, performance-focused affiliate marketing strategies."
         />
 
@@ -264,7 +264,7 @@ const Affilatemarketing = () => {
                       Unattached Affiliate Marketing
                     </div>
                   </div>
-                  <div className="text-left text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
+                  <div className="text-right text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
                     No personal connection or niche authority. Affiliates run ads or share links without recommending the product. It’s simple but less trustworthy and often less effective.
                   </div>
                 </div>
@@ -277,7 +277,7 @@ const Affilatemarketing = () => {
                       Related Affiliate Marketing
                     </div>
                   </div>
-                  <div className="text-left text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
+                  <div className="text-right text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
                     Affiliates have a niche-related audience but haven’t used the product. They leverage their platform to drive traffic based on relevance, not personal experience.
                   </div>
                 </div>
@@ -290,7 +290,7 @@ const Affilatemarketing = () => {
                       Involved Affiliate Marketing
                     </div>
                   </div>
-                  <div className="text-left text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
+                  <div className="text-right text-[16px] text-[#555] lg:w-[60%] max-lg:ml-[25px]">
                     Affiliates use the product and share real experiences. This builds strong trust and often boosts conversions, but it also means their reputation is tied to the product’s quality.
                   </div>
                 </div>
@@ -320,20 +320,30 @@ const Affilatemarketing = () => {
           </div>
         </div>
 
+<<<<<<< HEAD
         <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col container w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center items-center">
           <h2 data-aos="fade-up" className="trust-heading lg:mt-10 font-semibold text-6xl max-lg:text-3xl lg:text-center lg:mb-12">
             <span className="highlight">WebNest</span> Media's Affiliate Marketing
+=======
+        <div id="affilatemarketing"  className="mt-24 max-lg:mt-10 flex flex-col max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto justify-center ">
+          <h2 data-aos="fade-up" className="trust-heading  font-semibold text-[52px] max-lg:text-3xl  lg:mb-12">
+            Affiliate Marketing Solutions from <span className='highlight'>WebNest Media</span>
+>>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
           </h2>
 
-          <p data-aos="fade-up" className="trust-subheading text-lg mb-[40px] lg:w-[90%] lg:text-center">
-            At WebNest Media, we believe affiliate marketing is more than just links—it's about building smart partnerships that drive real results. As a trusted affiliate marketing company in Gurgaon, we help brands connect with the right publishers and influencers to expand reach, generate leads, and boost sales.
-          </p>
+          <p data-aos="fade-up" className="trust-subheading text-lg mb-[40px] ">
+At WebNest Media, we believe affiliate marketing is more than just links—it's about building smart partnerships that drive real results. As a trusted affiliate marketing company, we help brands connect with the right publishers and influencers to expand reach, generate leads, and boost sales.          </p>
 
         </div>
+<<<<<<< HEAD
         <div className=" max-lg:mb-10 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:py-10">
+=======
+        <div className=" max-lg:mb-10 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-10 justify-items-center text-center px-4 lg:pt-10">
+>>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
             {/* Card 1 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60  max-lg:border max-lg:rounded-xl ">
 
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons1} alt="  Strategic Partner  Selection" className="w-full h-full mb-4" />
@@ -347,7 +357,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 2 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60  max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons2} alt="Customized Campaign Setup" className="w-full h-full mb-4" />
               </div>
@@ -360,7 +370,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 3 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60  max-lg:border max-lg:rounded-xl">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons3} alt="Performance Tracking & Optimization" className="w-full h-full mb-4" />
               </div>
@@ -373,7 +383,7 @@ const Affilatemarketing = () => {
             </div>
 
             {/* Card 4 */}
-            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60 lg:border-r max-lg:border max-lg:rounded-xl ">
+            <div data-aos="fade-up" className="flex flex-col items-center p-6 text-center max-w-60  max-lg:border max-lg:rounded-xl ">
               <div className="w-[64px] h-[64px]">
                   <LazyLoadImage src={Icons4} alt="    Transparent  Reporting" className="w-full h-full mb-4" />
               </div>
@@ -394,7 +404,7 @@ const Affilatemarketing = () => {
                 Ethical, Scalable <br /> Growth
               </h3>
               <p className="text-base text-[#444] leading-relaxed">
-                We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from the best affiliate marketing company in Gurgaon.
+ We focus on long-term, sustainable affiliate partnerships—no spammy tactics, just proven strategies from top affiliate marketing agency India.
               </p>
             </div>
           </div>
@@ -426,9 +436,11 @@ const Affilatemarketing = () => {
 
               {/* Paragraph */}
               <p data-aos="fade-up" className="text-base leading-relaxed">
-                Yes, you can absolutely make money with affiliate marketing—and the numbers back it up. According to Statista, the global affiliate marketing market is projected to exceed $12 billion by 2027, with consistent year-over-year growth. Reports also show that around 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, and the top 1% make over $100,000 annually.
-                <br /><br />
-                The concept is straightforward: you promote products or services using unique affiliate links and earn a commission for each sale made through your referral. Since there's no need to create your own products or handle inventory, affiliate marketing is a low-risk, scalable way to build income online.
+The answer is yes, you can make money with affiliate marketing, and the numbers prove it’s a lucrative industry. According to Statista, the global affiliate marketing market is expected to surpass $12 billion by 2027, showing steady growth year after year.
+<br /> <br />
+Reports reveal that about 15% to 30% of affiliate marketers earn between $1,000 and $5,000 per month, while the top 1% of affiliates make over $100,000 annually. The model is simple: you promote products or services through unique affiliate links and earn a commission on every sale made through your referral.
+<br /> <br />
+Since you don’t have to create products or manage inventory, affiliate marketing offers a low-risk, scalable way to generate income.
               </p>
             </div>
 
@@ -439,7 +451,22 @@ const Affilatemarketing = () => {
 
           </div>
         </div>
+      
+      
+      </div>
+      <div className="max-lg:mt-10 mt-24 max-w-[1440px] w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
+       <div className="">
+         <h2 className='text-[52px] max-lg:text-[34px] max-lg:mb-[20px] lg:mb-8 font-semibold '>Why Choose WebNest Media for Affiliate Marketing Services?</h2>
+        <p className='text-base '>
+          Affiliate marketing, in our view, encompasses more than having users click on links; it involves creating authentic partnerships that have quantifiable benefits independent of advertising spend. As the best affiliate marketing agency, we assist brands of varying sizes in engaging top affiliate marketers that will help amplify their reach.
+<br /> <br />
+Our philosophy for affiliate marketing services in India is the combination of a powerful yet straightforward idea: we create targeted, performance-driven campaigns that pivot on your brand and the right affiliates. As a result, every click, lead, or sale made captures value and ROI is effectively delivered. Every aspect, from partner identification and selection to strategy formulation, tracking, and campaign optimization, is done so that you can seamlessly scale your business.
+As a leading affiliate marketing agency in India, WebNest Media is equipped with years of experience to help you reach out to new customers, increase conversions, and enhance your position in the competitive market. This is made possible through the combination of affiliate marketing and the innovative techniques which the agency is known for. WebNest Media provides optimization for existing partnerships and even for those brands who are new to the affiliate marketing world.
+<br /> <br />
+Sustainable campaign success relies on a digital marketing strategy or growth engine cultivated from WebNest Media's affiliate marketing. Campaign success is achieved with the power of branding that resonates.
 
+        </p>
+       </div>
       </div>
       <div className="accordian container px-10 max-md:px-4 w-[100%] mt-24 max-md:mt-10 mx-auto ">
         <h2 className="text-center">

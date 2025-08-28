@@ -3,7 +3,7 @@ import "./accordian.css";
 
 const Accordion = () => {
   return (
-    <div className="accordion-wrapper-columns">
+    <div className="accordion-wrapper-columns mx-auto container">
       {/* Left Column */}
       <div className="accordion-column">
         <div className="accordion">

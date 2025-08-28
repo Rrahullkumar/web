@@ -16,7 +16,7 @@ import Accordian from "./component/Accordian"
 
 
 import { Helmet } from 'react-helmet';
-
+import  newimg from './resourse/new.png'
 import c1image from './resourse/c1image.png'
 import HeroSection from '../../components/Herosection/Herosection';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -26,47 +26,47 @@ const Orm = () => {
   const services = [
     {
       "title": "Brand Monitoring",
-      "description": "Constantly track mentions of your brand across search engines, review sites, blogs, and social media to ensure a quick response to any negative or misleading content.",
+      "description": "ORM helps you to be aware of discussions around your company on blogs, social media, site reviews, and search engines so you can correct any negative or incorrect information.",
       "image": brand1
     },
     {
       "title": "Review Management",
-      "description": "Helps manage and respond to online reviews on platforms like Google, Yelp, and Trustpilot. Encourages positive reviews and addresses negative ones professionally to maintain brand trust.",
+      "description": "Helps you handle and reply to reviews on sites like Google, Yelp, and Trustpilot. Encourages good reviews and handles bad ones effectively to keep customers' trust in the brand.",
       "image": brand2
     },
     {
       "title": "Search Engine Reputation Management (SERM)",
-      "description": "Improves the visibility of positive content and pushes down negative search results on Google and other search engines to influence what people see first.",
+      "description": "Increases the visibility of good material and lowers the visibility of bad search results on Google and other search engines to change what people see first.",
       "image": brand3
     },
     {
       "title": "Content Creation & Promotion",
-      "description": "Creates high-quality, positive content—like blogs, articles, press releases, and profiles—that enhances your brand’s online presence and credibility.",
+      "description": " Creates high-quality, positive content—like blogs, articles, press releases, and profiles—that enhances your brand’s online presence and credibility.",
       "image": brand4
     },
     {
       "title": "Crisis Management",
-      "description": "Handles reputation crises such as viral complaints, false accusations, or sudden negative publicity with rapid response strategies and damage control.",
+      "description": "Uses quick response plans and damage control to deal with reputation crises like viral complaints, false allegations, or sudden bad exposure.",
       "image": brand5
     },
     {
       "title": "Social Media Reputation Management",
-      "description": "Monitors and manages your presence on platforms like Facebook, Instagram, LinkedIn, and Twitter to ensure positive engagement and timely responses to criticism.",
+      "description": " Monitors and manages your presence on platforms like Facebook, Instagram, LinkedIn, and Twitter to ensure positive engagement and timely responses to criticism.",
       "image": brand6
     },
     {
       "title": "Negative Content Removal or Suppression",
-      "description": "Works to legally remove false or defamatory content where possible or suppress it through SEO strategies to minimize its visibility.",
+      "description": " Works to legally remove false or defamatory content where possible or suppress it through SEO strategies to minimize its visibility.",
       "image": brand7
     },
     {
       "title": "Personal Reputation Management",
-      "description": "Tailored ORM services for public figures, executives, influencers, or celebrities to maintain a clean, professional online image.",
+      "description": " Tailored ORM services for public figures, executives, influencers, or celebrities to maintain a clean, professional online image.",
       "image": brand8
     },
     {
       "title": "Online Review Generation Campaigns",
-      "description": "Implements strategies to collect and showcase genuine positive reviews from satisfied customers, helping to build social proof.",
+      "description": " Implements strategies to collect and showcase genuine positive reviews from satisfied customers, helping to build social proof.",
       "image": brand8
     }
   ]
@@ -236,8 +236,8 @@ const Orm = () => {
         <div className="">
           <HeroSection
             backgroundImage={c1image}
-            heading="Online Reputation Management Company"
-            highlight="in Gurgaon"
+            heading="Online Reputation Management "
+            highlight="Services"
             paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
 "
           />
@@ -303,7 +303,25 @@ const Orm = () => {
 
         </div>
 
+<<<<<<< HEAD
         <section className='container mx-auto px-10 max-lg:px-4'>
+=======
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24  max-lg:pb-10 flex flex-row '>
+          <div className="lg:w-[60%]">
+        <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium'>Could a Bad Online Reputation Be Costing You Business?</h2> 
+        <p className='text-base'>A strong online reputation is one of your most valuable business assets, often shaping more than half of your market worth. WebNest Media helps you take control, repair damage, and create a brand presence that inspires trust.
+        <br /><br />
+Research reveals that 90% of customers check online reviews before deciding to buy, and around 62% avoid companies that filter or hide customer feedback. Even more concerning, businesses with just one or two stars on platforms like Google or Yelp could lose as much as 86% of potential customers.
+<br /> <br />
+A single misleading review shouldn’t define your business. With strategic reputation management services, you can protect your online image and implement smart tactics to generate more genuine reviews across Google and beyond.</p>
+          </div>
+          <div className="lg:w-[40%]">
+            <img src={newimg} alt="" />
+          </div>
+        </section>
+
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
+>>>>>>> 7bb2fae5c24b7be1f42b437af59f9036e27b513b
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
@@ -400,8 +418,22 @@ const Orm = () => {
         </section>
 
 
+        <section className='container mx-auto mb-24 max-lg:mb-10'>
+          <div className="">
+        <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium '>
+          Why Choose WebNest Media for Online Reputation Management Services in India?</h2> 
+        <p className='text-base mt-10 '>
+WebNest Media is a well-known ORM company that can help you protect and improve your brand's reputation. We know that your reputation is one of your most important assets in the digital world today, and it may have a direct effect on consumer trust, revenue, and long-term success.
+<br /> <br />
+We are one of the best ORM companies in Gurgaon, Delhi/NCR, and we offer ORM services in India that do more than just correct bad reviews. Our goal is to help you develop a strong, positive internet presence that shows who you really are as a brand. Our online reputation management services in India are made to help you reach your unique goals. They include keeping an eye on what people are saying about you on search engines and social media and responding to consumer feedback in a smart way.
+<br /><br />
+WebNest Media will help you keep ahead of the competition by removing of unwanted content, pushing down negative search results, or getting more real favourable reviews. We construct a brand image that your audience can trust by using smart technologies, data-driven techniques, and creative storytelling.
+With WebNest Media by your side, you’re not just hiring another ORM company—you’re partnering with a team committed to protecting and elevating your reputation in every corner of the internet.
 
-        <section className='max-w-[1440x] px-10 max-md:px-0'>
+</p>
+          </div>
+        </section>
+        <section className='max-w-[1440x] mx-auto px-10 max-md:px-0'>
 
           <h2 className='mt-[40px] text-center text-[black] font-normal leading-[160%]
           text-[32px]           

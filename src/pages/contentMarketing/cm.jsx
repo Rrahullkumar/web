@@ -413,7 +413,7 @@ const ContentMarketing = () => {
             <div className="amc6 container mx-auto px-10 max-lg:px-4 mt-24 max-lg:mt-10">
 
           <div className="accordian">
-            <h2 className=''>Let's address your <span className='text-black '>questions </span>today</h2>
+            <h2 className='text-center'>Let's address your <span className='text-black '>questions </span>today</h2>
             <div className="accordion-wrapper-columns">
               {/* Left Column */}
               <div className="accordion-column">

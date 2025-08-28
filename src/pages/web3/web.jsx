@@ -332,8 +332,8 @@ const web = () => {
 
 
 
-        <section className='container mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center  '>
-          <div className='lg:w-[80%] mx-auto'>
+        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10   '>
+          <div className=' mx-auto'>
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Customized Web Development Services for Your Success
             </h2>
             <p className='text-base'>
@@ -348,7 +348,7 @@ const web = () => {
 
 
           
-        <div className="mx-auto lg:text-center max-lg:mt-10 mt-24">
+        <div className="mx-auto max-lg:mt-10 mt-24">
           <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold'>Web Development Company | Your Vision, Our Expertise</h2>
           <p className='text-base'>
 As one of the top web development service company, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
@@ -362,7 +362,7 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
 
         </div>
 
-          <div className='lg:w-[80%] mx-auto'>
+          <div className=' mx-auto'>
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold mt-24 max-md:mt-10  mx-auto'>Benefits of Top Web Designing & Development Company</h2>
             <p className='text-base'>A good website helps people find you, trust you, and choose you over the competition. It works for you 24/7, bringing in new leads and growing your business — that’s why it matters so much today. Here are more reasons:
             </p>
