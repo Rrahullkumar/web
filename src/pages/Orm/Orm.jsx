@@ -350,7 +350,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
           <HeroSection
             backgroundImage={c1image}
             heading="Online Reputation Management "
-            highlight="Services"
+            highlight="Company"
             paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
 "
           />
@@ -416,7 +416,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
 
         </div>
 
-        <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 lg:pb-24  max-lg:pb-10 flex flex-row '>
+        <section className='max-w-[1440px] w-[100%] mx-auto px-10 max-lg:px-4 lg:pb-24  max-lg:pb-10 flex flex-row '>
           <div className="lg:w-[60%]">
         <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium'>Could a Bad Online Reputation Be Costing You Business?</h2> 
         <p className='text-base'>A strong online reputation is one of your most valuable business assets, often shaping more than half of your market worth. WebNest Media helps you take control, repair damage, and create a brand presence that inspires trust.
@@ -527,7 +527,7 @@ A single misleading review shouldn’t define your business. With strategic repu
         </section>
 
 
-        <section className='container mx-auto mb-24 max-lg:mb-10'>
+        <section className='max-w-[1440px] w-[100%] mx-auto mb-24 max-lg:mb-10'>
           <div className="">
         <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium '>
           Why Choose WebNest Media for Online Reputation Management Services in India?</h2> 
