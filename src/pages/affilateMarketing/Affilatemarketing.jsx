@@ -160,8 +160,9 @@ const affiliateMarketingSchema = {
 
       <Helmet>
 
-        <title>Top Affiliate Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta name="description" content="WebNest Media: Top affiliate marketing agency in Gurgaon. We build and manage programs to ensure maximum ROI for your brand." />
+        <title>Top Affiliate Marketing Agency in India | WebNest Media</title>
+        <meta name="description" content="Grow your brand with India’s top affiliate marketing agency. Our AM services span affiliate partnerships, campaign management, lead generation & ROI optimization." />
+        <meta name="keywords" content="Affiliate Marketing Agency in India, Affiliate Marketing Services" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/affiliate-marketing" />
