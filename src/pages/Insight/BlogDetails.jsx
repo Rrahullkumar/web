@@ -1,9 +1,10 @@
 
-
 import  { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+
+import "./blogdetail.css"
 
 const BlogDetails = () => {
   const { slug } = useParams();
@@ -77,7 +78,6 @@ const BlogDetails = () => {
   </Helmet>
 )}
     
-
      <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
       {/* 🔹 Back Button */}
       <button onClick={() => navigate(-1)} className="text-blue-600 underline mb-4">
@@ -91,6 +91,7 @@ const BlogDetails = () => {
             src={blog.imageUrl}
             alt={blog.title}
             className="w-full h-80 object-cover rounded"
+            
           />
         </div>
         <div className="flex flex-col justify-between lg:w-1/2">
@@ -103,7 +104,7 @@ const BlogDetails = () => {
         </div>
       </div>
 
-      <div className="text-lg leading-relaxed mt-10 lg:w-[80%]"    dangerouslySetInnerHTML={{
+      <div className="text-lg leading-relaxed mt-10 lg:w-[80%] blog-content"    dangerouslySetInnerHTML={{
       __html: (blog.content || "")
     }}>
       
