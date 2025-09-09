@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Map from "./resources/Map.svg";
 import "./contactus.css";
-import { motion } from "framer-motion";
+import  { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 import sales from "./resources/sales.svg";
 import call from "./resources/call2.svg";
