@@ -131,7 +131,7 @@ const Insight = () => {
                   // src={latestBlog.image}
                   src={latestBlog.imageUrl}
                   alt={latestBlog.title}
-                  className="w-full h-64 sm:h-80 object-cover rounded-lg"
+                  className="w-full h-auto  object-cover rounded-lg"
                 />
               </div>
               <div className="flex flex-col w-full md:w-1/2 space-y-4">

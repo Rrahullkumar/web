@@ -90,7 +90,7 @@ const BlogDetails = () => {
           <img
             src={blog.imageUrl}
             alt={blog.title}
-            className="w-full h-80 object-cover rounded"
+            className="w-full h-auto object-contain rounded"
             
           />
         </div>
@@ -99,7 +99,7 @@ const BlogDetails = () => {
           <h1 className="text-4xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">
             {blog.title}
           </h1>
-          <p>{blog.subtitle}</p>
+          <p className=" text-2xl max-lg:text-xl font-normal  text-[#53525e] leading-snug">{blog.subtitle}</p>
           <p>Author: <i>{blog.author}</i></p>
         </div>
       </div>

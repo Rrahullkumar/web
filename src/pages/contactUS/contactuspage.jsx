@@ -132,7 +132,7 @@ const ContactUsPage = () => {
           We have the team and know-how to scale your business 10X faster
         </motion.h2>
 
-        <div className="bg-left max-lg:bg-center bg-no-repeat w-full flex justify-end   " style={{ backgroundImage: `url(${Map})` }}>
+        <div className="bg-left max-lg:bg-center bg-no-repeat w-full flex justify-end container   " style={{ backgroundImage: `url(${Map})` }}>
         
           <div className="max-w-[26rem] max-lg:mx-auto  pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[25px] rounded-[20px]  backdrop-blur-md mt-10 border border-[#5c945c]">
             <h2 className="text-[#5c945c]  font-semibold max-lg:font-bold text-[26px] max-md:text-[22px] mb-4 max-lg:mb-6 text-center">
