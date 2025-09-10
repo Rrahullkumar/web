@@ -130,11 +130,11 @@ const filteredBlogs = blogs.filter((blog) => {
 
 
       <div className="mx-auto container p-4 sm:p-8">
-        {/* ✅ Latest Blog */}
+     
    <div
   className="container mx-auto cursor-pointer"
   onClick={(e) => {
-    e.stopPropagation(); // stops event bubbling if needed
+    e.stopPropagation();
     window.location.href = `/blogs/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`;
   }}
 >
