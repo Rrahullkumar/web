@@ -350,7 +350,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
           <HeroSection
             backgroundImage={c1image}
             heading="Online Reputation Management "
-            highlight="Company"
+            highlight="Services In India"
             paragraph="Take control of your online narrative with expert reputation management that highlights your strengths and wins customer trust.
 "
           />
@@ -386,7 +386,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
               <p data-aos="fade-up" className='text-base '>
 
 
-                Whether your business is being unfairly targeted by competitors or naturally receiving mixed reviews due to a large customer base, our online reputation management services are designed to help you regain control.
+                Whether your business is being unfairly targeted by competitors or naturally receiving mixed reviews due to a large customer base, our best online reputation management services in India are designed to help you regain control.
 
                 <br /><br className='' />
 
@@ -435,7 +435,7 @@ A single misleading review shouldn’t define your business. With strategic repu
           <div className="flex max-lg:flex-col gap-6 justify-between">
 
             <div className="w-[667px]  max-lg:w-[100%] lg:sticky lg:top-[200px] self-start max-lg:sticky-unset">
-              <h6 data-aos="fade-up" className='text-[46px] max-md:text-[30px] text-[black] '>Types of Online Reputation Management Services</h6>
+              <h2 data-aos="fade-up" className='text-[46px] max-md:text-[30px] text-[black] '>Types of Online Reputation Management Services</h2>
               <p data-aos="fade-up" className='text-base mt-8 text-[black] font-normal max-lg:mb-4'>As India’s no. 1 online reputation management, We keep you updated about what is being said about your business or brand online by managing, tracking, and reporting on the most crucial elements of your online reputation. </p>
             </div>
 
@@ -527,7 +527,7 @@ A single misleading review shouldn’t define your business. With strategic repu
         </section>
 
 
-        <section className='max-w-[1440px] w-[100%] mx-auto mb-24 max-lg:mb-10'>
+        <section className='max-w-[1440px] w-[100%] mx-auto mb-24 max-lg:mb-10 px-10 '>
           <div className="">
         <h2 className='text-[44px] max-lg:text-[34px] mb-3 font-medium '>
           Why Choose WebNest Media for Online Reputation Management Services in India?</h2> 

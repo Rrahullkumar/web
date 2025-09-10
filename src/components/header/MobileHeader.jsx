@@ -52,10 +52,11 @@ const menuItems = [
     subItems: [
       { title: "Careers", path: "/contact/careers" },
       { title: "Contact", path: "/contact-us" },
-      { title: "Insight", path: "/Insight" },
-      { title: "Blogs", path: "/contact/blogs" }
+    
     ]
-  }
+  },
+
+    { title: "Blogs", path: "/blogs" },
 ];
 
 export default function MobileHeader() {

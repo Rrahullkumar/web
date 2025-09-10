@@ -4,6 +4,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 
+import { FaArrowLeft } from "react-icons/fa";
+
 import "./blogdetail.css"
 
 const BlogDetails = () => {
@@ -35,11 +37,17 @@ const BlogDetails = () => {
   const blog = blogs[currentIndex];
 
  
-  if (loading) return <p className="text-center mt-10">Loading...</p>;
+  // if (loading) return <p className="text-center mt-10">Loading...</p>;
+
+
+
 
   if (!blog) {
     return <p className="text-center text-red-500 mt-10">Blog not found.</p>;
   }
+
+
+  console.log("blog.date",blog.date);
 
   return (
     
@@ -79,12 +87,23 @@ const BlogDetails = () => {
 )}
     
      <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
-      {/* 🔹 Back Button */}
-      <button onClick={() => navigate(-1)} className="text-blue-600 underline mb-4">
+{/*  
+      <button onClick={() => navigate(-1)} className="text-blue-600 border px-2 py-3 underline mb-4">
         ← Back
-      </button>
+      </button> */}
 
-      {/* 🔹 Blog Details */}
+
+
+<button
+  onClick={() => navigate(-1)}
+  className="px-5 py-2 text-[#277A2D] hover:bg-[#277A2D] hover:text-white border border-[#4CAF50] rounded-md transition-colors duration-300 cursor-pointer flex items-center gap-2 mb-4"
+>
+  <span><FaArrowLeft /></span> <span> Back</span>
+</button>
+
+
+
+ 
       <div className="flex flex-row max-lg:flex-col gap-10">
         <div className="lg:w-1/2">
           <img
@@ -95,12 +114,27 @@ const BlogDetails = () => {
           />
         </div>
         <div className="flex flex-col justify-between lg:w-1/2">
-          <p className="text-gray-500 mb-2">{blog.date.slice(0, 10)}</p>
+          {/* <p className="text-gray-500 mb-2">{blog.date.slice(0, 10)}</p> */}
+
+
+
+
+
           <h1 className="text-4xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">
             {blog.title}
           </h1>
-          <p className=" text-2xl max-lg:text-xl font-normal  text-[#53525e] leading-snug">{blog.subtitle}</p>
-          <p>Author: <i>{blog.author}</i></p>
+          <p className=" text-2xl max-lg:text-xl font-normal text-[#221F49] leading-snug">{blog.subtitle}</p>
+<div className=" flex items-center gap-4">
+
+
+            <p className="text-[#221F49] font-bold">Author: <i>{blog.author}</i></p>   <p className="font-bold  text-[#221F49] ">
+  {new Date(blog.date).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  })}
+</p>
+</div>
         </div>
       </div>
 

@@ -96,7 +96,7 @@ const contactfooter = () => {
                 
                 {/* ✅ Animated Heading */}
                 <div className="text-center mb-16">
-                    <h2 ref={headingRef} className="max-md:text-4xl md:text-6xl lg:text-6xl mt-6 leading-tight flex justify-center flex-wrap">
+                    <p ref={headingRef} className="max-md:text-4xl md:text-6xl lg:text-6xl mt-6 leading-tight flex justify-center flex-wrap">
                         {headingText.split("").map((char, index) => (
                             <span
                                 key={`${animateKey}-${index}`}
@@ -111,7 +111,7 @@ const contactfooter = () => {
                                 {char === " " ? "\u00A0" : char}
                             </span>
                         ))}
-                    </h2>
+                    </p>
                 </div>
 
                 {/* ✅ Responsive Form */}
