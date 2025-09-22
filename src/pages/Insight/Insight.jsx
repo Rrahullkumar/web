@@ -356,3 +356,8 @@ const filteredBlogs = blogs.filter((blog) => {
 };
 
 export default Insight;
+
+
+
+
+
