@@ -64,7 +64,7 @@ const Insight = () => {
   };
 
 
-  console.log("blogs",blogs);
+  // console.log("blogs",blogs);
 
 const filteredBlogs = blogs.filter((blog) => {
   const search = searchTerm.toLowerCase();
@@ -201,7 +201,7 @@ const filteredBlogs = blogs.filter((blog) => {
               </div>
             </div>
           ) : (
-            <p className="text-center text-gray-500">No blogs available.</p>
+            <p className="text-center text-gray-500"></p>
           )}
         </div>
 
@@ -297,7 +297,7 @@ const filteredBlogs = blogs.filter((blog) => {
           {/* Blog Cards */}
           <div className="w-full lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {loading ? (
-              <p className="col-span-3 text-center text-gray-500">Loading blogs...</p>
+              <p className="col-span-3 text-center text-gray-500"> </p>
             ) : filteredBlogs.length > 0 ? (
               filteredBlogs.map((blog, index) => {
                 // const slug = blog.title.replace(/\s+/g, "-").toLowerCase();

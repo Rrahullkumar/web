@@ -43,11 +43,11 @@ const BlogDetails = () => {
 
 
   if (!blog) {
-    return <p className="text-center text-red-500 mt-10">Blog not found.</p>;
+    return <p className="text-center text-red-500 mt-10"> </p>;
   }
 
 
-  console.log("blog.date",blog.date);
+ 
 
   return (
     
