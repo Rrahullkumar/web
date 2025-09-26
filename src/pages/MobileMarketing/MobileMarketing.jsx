@@ -313,7 +313,7 @@ const MobileMarketing = () => {
 
                             {/* Tab Content */}
                             <div className="relative flex items-start justify-center lg:px-32 py-10 lg:min-h-[450px]">
-                                <div className="relative w-full max-lg:min-h-[600px]">
+                                <div className="relative w-full max-lg:min-h-[50rem]">
                                     <AnimatePresence custom={direction}>
                                         <motion.div
                                             key={activeTab}
@@ -354,9 +354,6 @@ const MobileMarketing = () => {
                                     </AnimatePresence>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
