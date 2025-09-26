@@ -311,7 +311,7 @@ const filteredBlogs = blogs.filter((blog) => {
                       <img
                         src={blog.imageUrl}
                         alt={blog.title}
-                        className="w-full h-40 max-md:h-auto object-cover rounded"
+                        className="w-full h-40 max-md:h-auto object-contain rounded"
                       />
 
                       <p className="text-black font-medium mt-2">

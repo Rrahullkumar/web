@@ -113,11 +113,8 @@ const BlogDetails = () => {
             
           />
         </div>
-        <div className="flex flex-col justify-between lg:w-1/2">
+        <div className="flex flex-col justify-center gap-7 lg:w-1/2">
           {/* <p className="text-gray-500 mb-2">{blog.date.slice(0, 10)}</p> */}
-
-
-
 
 
           <h1 className="text-4xl max-lg:text-3xl font-medium mb-4 text-[#221F49] leading-snug">

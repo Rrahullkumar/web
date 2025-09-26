@@ -54,6 +54,7 @@ import smoIcon from './resources/smoIcon.svg'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
+import HearFromYou from "../../components/HearFromYou/HearFromYou";
 
 
 const Smm = () => {
@@ -204,9 +205,19 @@ const Smm = () => {
               "@type": "Answer",
               "text": "We’re a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
             }
-          }
+          },
+
+
         ]
-      }
+      },
+
+      {
+        "@type": "smm",
+        "@id": "https://webnestmedia.com/social-media-marketing#webpage",
+        "url": "https://webnestmedia.com/social-media-marketing",
+        "name": "Best Social Media Marketing Agency | Grow Your Brand Online",
+        "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively."
+      },
     ]
   };
 
@@ -280,6 +291,12 @@ const Smm = () => {
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
 
+        <meta property="og:title" content="Best Social Media Marketing Agency | Grow Your Brand Online" />
+        <meta property="og:description" content="Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://webnestmedia.com/social-media-marketing" />
+        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CDPM3k0Q.svg" />
+        <meta property="og:site_name" content="WebNest Media" />
 
         {/* <meta property="og:title" content="Best Social Media Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
@@ -418,9 +435,9 @@ const Smm = () => {
 
         {/* new our social media marketing service */}
         <div className="mx-auto container">
-          <div className="flex flex-col gap-16 mt-8 px-4 w-full items-start">
+          <div className="flex flex-col gap-16 mt-8 px-10 w-full items-start">
             {/* heading */}
-            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-[52px] w-[70%] font-semibold lg:leading-[1.6]">
+            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-[52px] sm:w-[70%] font-semibold lg:leading-[1.6]">
               What's Included in Our Social Media Marketing Services
             </p>
 
@@ -430,67 +447,84 @@ const Smm = () => {
             </p>
 
             {/* 2 functional cards */}
-            <div className="flex flex-col lg:flex-row gap-6 md:gap-8">
-              {/* left section - Service Cards List */}
-              <div className="w-full lg:w-[40%]">
-                {servicesData.map((service) => (
-                  <div
-                    key={service.id}
-                    onClick={() => setActiveService(service)}
-                    className={`flex items-center justify-between gap-3 md:gap-4 p-3 md:p-4 mb-3 rounded-xl cursor-pointer transition-all duration-300 ${activeService.id === service.id
-                      ? 'bg-white border-l-4 border-blue-500'
-                      : 'bg-[#007AFF0A] hover:bg-gray-100'
-                      }`}
-                  >
-                    {/* Content */}
-                    <div className="flex-1">
-                      <h3 className={`font-semibold text-base md:text-lg ${activeService.id === service.id ? 'text-gray-800' : 'text-gray-600'
-                        }`}>
-                        {service.title}
-                      </h3>
-                      <p className="text-[#000000]/60 text-sm cursor-pointer hover:text-blue-700">
-                        {service.learnMore}
-                      </p>
-                    </div>
+            <div className="w-full">
+              <div className="flex flex-col lg:flex-row gap-6 md:gap-8 lg:items-stretch">
+                {/* left section - Service Cards List */}
+                <div className="w-full lg:w-[40%]">
+                  <div className="overflow-x-auto lg:overflow-visible pb-3 lg:pb-0 lg:[&::-webkit-scrollbar]:hidden lg:[-ms-overflow-style:none] lg:[scrollbar-width:none] [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:bg-blue-400 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:hover:bg-blue-500">
+                    <div className="flex lg:flex-col gap-3 md:gap-4 w-max lg:w-full">
+                      {servicesData.map((service) => (
+                        <div
+                          key={service.id}
+                          onClick={() => setActiveService(service)}
+                          className={`
+                flex items-center justify-between gap-3 md:gap-4 
+                p-3 md:p-4 mb-3 rounded-xl cursor-pointer transition-all duration-300 
+                flex-shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-full
+                ${activeService.id === service.id
+                              ? 'bg-white border-l-4 border-blue-500'
+                              : 'bg-[#007AFF0A] hover:bg-gray-100'
+                            }
+              `}
+                        >
+                          {/* Content */}
+                          <div className="flex-1 min-w-0">
+                            <h3
+                              className={`font-semibold text-sm sm:text-base md:text-lg ${activeService.id === service.id
+                                ? 'text-gray-800'
+                                : 'text-gray-600'
+                                }`}
+                            >
+                              {service.title}
+                            </h3>
+                            <p className="text-[#000000]/60 text-xs sm:text-sm cursor-pointer hover:text-blue-700">
+                              {service.learnMore}
+                            </p>
+                          </div>
 
-                    {/* Icon - moved to right */}
-                    <div
-                      className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-                      style={{ backgroundColor: service.color }}
-                    >
-                      <service.icon className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                          {/* Icon - moved to right */}
+                          <div
+                            className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                            style={{ backgroundColor: service.color }}
+                          >
+                            <service.icon className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
-                ))}
-              </div>
-
-              {/* right section */}
-              <div className="w-full lg:w-[60%] flex flex-col md:flex-row bg-[#007AFF0A] rounded-2xl ">
-                {/* left content area */}
-                <div className="flex-1 p-4 md:p-6 lg:p-8">
-                  <h2 className="text-xl md:text-2xl font-bold text-[#000000] mb-3 md:mb-4">
-                    {activeService.title}
-                  </h2>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-[16px]">
-                    {activeService.description}
-                  </p>
                 </div>
 
-                {/* right image area */}
-                <div className="w-full h-48 md:w-64 lg:w-96 md:h-auto rounded-b-2xl md:rounded-b-none md:rounded-r-2xl flex items-center justify-center p-4">
-                  <img
-                    src={activeService.image}
-                    alt={activeService.title}
-                    className="w-full h-auto max-w-[180px] md:max-w-[220px] lg:max-w-[320px] object-contain"
-                    onError={(e) => {
-                      // Fallback placeholder
-                      e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzlmYTZiNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlPC90ZXh0Pgo8L3N2Zz4K';
-                    }}
-                  />
-                </div>
+                {/* right section - Exact Desktop Structure */}
+                <div className="w-full lg:w-[60%] flex flex-col md:flex-row bg-[#007AFF0A] rounded-2xl">
+                  {/* left content area */}
+                  <div className="flex-1 p-4 md:p-6 lg:p-8">
+                    <h2 className="text-xl md:text-2xl font-bold text-[#000000] mb-3 md:mb-4">
+                      {activeService.title}
+                    </h2>
+                    <p className="text-gray-600 leading-relaxed text-sm md:text-[16px]">
+                      {activeService.description}
+                    </p>
+                  </div>
 
+                  {/* right image area */}
+                  <div className="w-full h-48 md:w-64 lg:w-96 md:h-auto rounded-b-2xl md:rounded-b-none md:rounded-r-2xl flex items-center justify-center p-4">
+                    <img
+                      src={activeService.image}
+                      alt={activeService.title}
+                      className="w-full h-auto max-w-[180px] md:max-w-[220px] lg:max-w-[320px] object-contain"
+                      onError={(e) => {
+                        e.target.src =
+                          'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzlmYTZiNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlPC90ZXh0Pgo8L3N2Zz4K';
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
+
+
+
 
             <p className="text-[16px] lg:max-w-[80%] italic">
               By choosing us, you’re not just hiring an agency, you’re partnering with a team that understands your vision and transforms it into success. Whether you’re looking for a trusted social media marketing company in India or a result-driven social media marketing agency in Gurgaon, WebNest Media is here to be your digital growth partner.
@@ -525,9 +559,11 @@ const Smm = () => {
 
         </div>
 
+        <HearFromYou />
+
         {/* pros and cons section */}
-        <div className="mx-auto container mt-3 sm:mt-6">
-          <div className="w-full px-10 max-w-7xl py-10 sm:py-24  flex flex-col gap-8 md:gap-12 lg:gap-16">
+        <div className="mx-auto container">
+          <div className="w-full px-10 max-w-7xl  flex flex-col gap-8 md:gap-12 lg:gap-16">
             <h2 className="text-2xlsm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
               Analyzing the Pros and Cons of Social Media Marketing Services for Better ROI
             </h2>
@@ -539,7 +575,7 @@ const Smm = () => {
         </div>
 
         {/* pros and cons table remaining */}
-        <div className="mx-auto">
+        <div className="mx-auto mt-3">
           <div className="relative w-full">
             {/* Mobile/Tablet Layout - Stacked */}
             <div className="block md:hidden">
@@ -743,11 +779,6 @@ const Smm = () => {
 
 
 
-
-
-
-
-
         {/* why choose us section - Mobile First Responsive */}
         <div className="mx-auto container mt-3 sm:mt-6">
           <div className="w-full px-10  flex flex-col gap-6 md:gap-8 lg:gap-10">
@@ -790,7 +821,6 @@ const Smm = () => {
             </div>
           </div>
         </div>
-
 
 
 
@@ -927,6 +957,8 @@ const Smm = () => {
             </div>
           </div>
         </section>
+
+
 
 
       </div>
