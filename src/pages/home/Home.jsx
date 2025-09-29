@@ -1,4 +1,4 @@
-import  { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { Link } from "react-router-dom";
 import "./homeStyle.css"
@@ -220,14 +220,14 @@ const Home = () => {
   return (
     <>
 
-   
+
       <Helmet>
-       <title>Best Digital Marketing Agency in Gurgaon | WebNest Media</title>
-<meta name="description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
-<meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="WebNest Media" />
-<link rel="canonical" href="https://webnestmedia.com/" />
+        <title>Best Digital Marketing Agency in Gurgaon, India | WebNest Media</title>
+        <meta name="description" content="Grow your business online with WebNest Media, a top digital marketing agency in Gurgaon offering SEO, PPC, SMM, and more." />
+        <meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, India , top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="WebNest Media" />
+        <link rel="canonical" href="https://webnestmedia.com/" />
 
 
         {/* Organization Schema */}
@@ -347,49 +347,49 @@ const Home = () => {
       <div className=' homeclass  '>
 
 
-      <div className="relative h-[100vh] max-md:h-[80vh] overflow-hidden">
-      {/* Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 max-lg:"
-      >
-        <source src={bgVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        <div className="relative h-[100vh] max-md:h-[80vh] overflow-hidden">
+          {/* Background Video */}
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute top-0 left-0 w-full h-full object-cover z-0 max-lg:"
+          >
+            <source src={bgVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
 
-      {/* Optional Overlay for readability */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
+          {/* Optional Overlay for readability */}
+          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
 
-      {/* Foreground Content */}
-      <div className="relative z-20 flex items-center justify-center gap-[60px] h-full">
+          {/* Foreground Content */}
+          <div className="relative z-20 flex items-center justify-center gap-[60px] h-full">
 
-        <div className="text-part max-md:p-[16px] text-white">
-          <div>
-            <h1 className="h1tag">
-              <span>Best </span>
-              <span className="text-[#FFBA34] floating-text">Digital Marketing</span> <br />
-              <span>
-                Agency with
-                <span className="text-[#FFBA34] floating-text-two pl-3 inline-block">Smart Strategies</span>
-              </span>
-            </h1>
-          </div>
+            <div className="text-part max-md:p-[16px] text-white">
+              <div>
+                <h1 className="h1tag">
+                  <span>Best </span>
+                  <span className="text-[#FFBA34] floating-text">Digital Marketing</span> <br />
+                  <span>
+                    Agency with
+                    <span className="text-[#FFBA34] floating-text-two pl-3 inline-block">Smart Strategies</span>
+                  </span>
+                </h1>
+              </div>
 
-          <h2 className="h2tag text-white">Where strategy meets trust to fuel digital growth</h2>
+              <h2 className="h2tag text-white">Where strategy meets trust to fuel digital growth</h2>
 
-          <hr className="line border-white" />
+              <hr className="line border-white" />
 
-          <strong className="text-[white] trust max-lg:mt-4">Trusted by 2,000+ local brands and businesses</strong>
+              <strong className="text-[white] trust max-lg:mt-4">Trusted by 2,000+ local brands and businesses</strong>
 
-          <div className="text-center flex items-center justify-center mt-4">
-            <LazyLoadImage src={client} alt="Client Logo" />
+              <div className="text-center flex items-center justify-center mt-4">
+                <LazyLoadImage src={client} alt="Client Logo" />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
         <div className=" w-[100%] mt-16 max-lg:mt-10 container mx-auto flex flex-col-reverse items-center lg:flex-row  justify-between pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]  gap-8 ">
 
@@ -405,9 +405,9 @@ const Home = () => {
               Our team combines strategic thinking, creativity, and technology to elevate your brand across digital channels.
             </p>
             <Link to={"/contact-us"}
-                     aria-label="WebNest Media Get Started "
+              aria-label="WebNest Media Get Started "
             >
-              <button className="uiverse-button" style={{backgroundColor:"#4caf50"}}>
+              <button className="uiverse-button" style={{ backgroundColor: "#4caf50" }}>
                 Get Started
               </button>
             </Link>
@@ -424,7 +424,7 @@ const Home = () => {
             />
           </div>
 
-        
+
         </div>
 
         <div className="text-center flex flex-col items-center justify-center overflow-hidden pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-16" >
@@ -433,7 +433,7 @@ const Home = () => {
         </div>
 
 
-        <div className="mt-16">
+        {/* <div className="mt-16">
 
           <div className="wrapper flex items-center" >
             <div className="item item1 "><img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" style={{ transform: "scale(1.2)" }} /></div>
@@ -454,7 +454,115 @@ const Home = () => {
             <div className="item item16"><img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" style={{ transform: "scale(1.6)" }} /></div>
           </div>
 
+        </div> */}
+
+
+        <div className="mt-16">
+          <div className="wrapper">
+            <div className="marquee-track">
+              {/* First set of logos */}
+              <div className="item">
+                <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Digiwizards} alt="Digiwizards Logo" aria-label="Digiwizards Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Divyanshed} alt="Divyanshed Logo" aria-label="Divyanshed Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={divyanshglobal} alt="Divyansh Global Logo" aria-label="Divyansh Global Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={dosaada} alt="Dosaada Logo" aria-label="Dosaada Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ForeCorner} alt="ForeCorner Logo" aria-label="ForeCorner Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Harishresidennce} alt="Harish Residence Logo" aria-label="Harish Residence Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={HouseForever} alt="House Forever Logo" aria-label="House Forever Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Lotus} alt="Lotus Logo" aria-label="Lotus Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ntech} alt="NTech Logo" aria-label="NTech Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Readit360} alt="Readit360 Logo" aria-label="Readit360 Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={sandstone} alt="Sandstone Logo" aria-label="Sandstone Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={shreehari} alt="Shree Hari Logo" aria-label="Shree Hari Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
+              </div>
+
+              {/* Duplicate set for seamless loop */}
+              <div className="item">
+                <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Digiwizards} alt="Digiwizards Logo" aria-label="Digiwizards Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Divyanshed} alt="Divyanshed Logo" aria-label="Divyanshed Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={divyanshglobal} alt="Divyansh Global Logo" aria-label="Divyansh Global Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={dosaada} alt="Dosaada Logo" aria-label="Dosaada Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ForeCorner} alt="ForeCorner Logo" aria-label="ForeCorner Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Harishresidennce} alt="Harish Residence Logo" aria-label="Harish Residence Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={HouseForever} alt="House Forever Logo" aria-label="House Forever Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Lotus} alt="Lotus Logo" aria-label="Lotus Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ntech} alt="NTech Logo" aria-label="NTech Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={Readit360} alt="Readit360 Logo" aria-label="Readit360 Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={sandstone} alt="Sandstone Logo" aria-label="Sandstone Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={shreehari} alt="Shree Hari Logo" aria-label="Shree Hari Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
+              </div>
+            </div>
+          </div>
         </div>
+
 
 
 
@@ -485,7 +593,7 @@ const Home = () => {
         <div className=' w-[100%] container  mx-auto  flipcard bg-[white] p-[40px] max-lg:p-[16px] transparenbody'>
 
 
-          <h2 className="" style={{color:'#4caf50'}}> Our Core Solutions </h2>
+          <h2 className="" style={{ color: '#4caf50' }}> Our Core Solutions </h2>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             {cardsData.map(({ id, icon, content, paracontent }) => {
@@ -598,7 +706,7 @@ const Home = () => {
             </p>
 
             <Link to="/about-us"
-                     aria-label="WebNest Media  Know More"
+              aria-label="WebNest Media  Know More"
 
             >
               <button className="uiverse-button mt-10">
@@ -613,7 +721,7 @@ const Home = () => {
         <div className=" w-[100%] container  overflow-hidden mx-auto tetonomial mt-[30px]">
           <ImageSlider data={testimonialsData} />
         </div>
- 
+
         <div className="w-[100%] container  mx-auto accordian pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px] mt-6 ">
           <p className="text-[#409338] font-bold text-[40px] leading-[40px]  max-md:text-[28px] max-md:leading-[28px] text-center stroke-custom fill-custom mt-6 max-lg:mt-0">Frequently Asked Questions (FAQs)</p>
           <Accordion />

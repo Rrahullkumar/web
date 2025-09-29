@@ -20,6 +20,7 @@ import  newimg from './resourse/new.png'
 import c1image from './resourse/c1image.png'
 import HeroSection from '../../components/Herosection/Herosection';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import ContactSection from '../../components/HearFromYou/HearFromYou';
 
 const Orm = () => {
 
@@ -111,7 +112,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       "url": "https://webnestmedia.com/online-reputation-management",
       "name": "Online Reputation Management | WebNest Media",
       "description":
-        "WebNest Media provides trusted ORM company in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation.",
+        "We provide trusted ORM Services in India to manage online reputation, remove negative results, and build a strong positive image for your brand, products, and services.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -199,7 +200,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       "@id": "https://webnestmedia.com/online-reputation-management#webpage",
       "url": "https://webnestmedia.com/online-reputation-management",
       "name": "Online Reputation Management | WebNest Media",
-      "description": "WebNest Media provides trusted ORM company in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation.",
+      "description": "We provide trusted ORM Services in India to manage online reputation, remove negative results, and build a strong positive image for your brand, products, and services.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -288,7 +289,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "ratingCount": "543"
+        "ratingCount": "2436"
       }
     }
   ]
@@ -430,6 +431,8 @@ A single misleading review shouldn’t define your business. With strategic repu
           </div>
         </section>
 
+        
+
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4'>
 
           <div className="flex max-lg:flex-col gap-6 justify-between">
@@ -469,6 +472,8 @@ A single misleading review shouldn’t define your business. With strategic repu
 
         </section>
 
+
+        <ContactSection/>
 
 
         <section className="max-w-[1440px] mb-24 max-lg:mb-10 mx-auto px-10 max-lg:px-4 flex flex-col lg:flex-row items-start justify-between mt-[96px] max-lg:mt-10 gap-8">

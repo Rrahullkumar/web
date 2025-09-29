@@ -20,6 +20,7 @@ import {
 
 import image16 from './resources/image16.png';
 import TestimonialSlider from '../../components/testimonial/TestimoniaSlider.jsx';
+import ContactSection from '../../components/HearFromYou/HearFromYou.jsx';
 
 const webDevelopmentSchema = {
   "@context": "https://schema.org",
@@ -43,7 +44,7 @@ const webDevelopmentSchema = {
       "@type": "Service",
       "@id": "https://webnestmedia.com/web-development#service",
       "name": "Web Development",
-      "description": "WebNest Media is a top web development company in Gurgaon offering responsive, SEO-friendly, and scalable website solutions. We specialize in custom websites, eCommerce platforms, CMS development, and performance optimization for businesses of all sizes.",
+      "description": "Get high-performing, responsive websites with the Best Web Development Services in India. We create custom, user-friendly solutions that boost your brand and drive results.",
       "serviceType": "Web Development",
       "provider": {
         "@type": "Organization",
@@ -73,8 +74,8 @@ const webDevelopmentSchema = {
       "@type": "WebPage",
       "@id": "https://webnestmedia.com/web-development#webpage",
       "url": "https://webnestmedia.com/web-development",
-      "name": "Web Development Company in Gurgaon – WebNest Media",
-      "description": "Get high-performing, mobile-friendly websites developed by WebNest Media – a leading web development company in Gurgaon. We build fast, scalable, and SEO-ready websites that convert visitors into customers."
+      "name": "Web Development Services in India – WebNest Media",
+      "description": "Get high-performing, mobile-friendly websites developed by WebNest Media – a leading web development Services in India. We build fast, scalable, and SEO-ready websites that convert visitors into customers."
     },
     {
       "@type": "BreadcrumbList",
@@ -125,7 +126,7 @@ const webDevelopmentSchema = {
           "name": "Why choose WebNest Media for web development?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We’re a top web development company in Gurgaon with a team of skilled developers focused on delivering clean code, fast performance, SEO optimization, and custom design tailored to your brand."
+            "text": "We’re a top web development Services with a team of skilled developers focused on delivering clean code, fast performance, SEO optimization, and custom design tailored to your brand."
           }
         }
       ]
@@ -239,13 +240,13 @@ const web = () => {
     <>
 
       <Helmet>
-        <title>Best Web Development Services India
-</title>
+        <title>Best Web Development Services in India
+        </title>
 
 
         <meta name="description" content="Get high-performing, responsive websites with the Best Web Development Services in India. We create custom, user-friendly solutions that boost your brand and drive results.
 " />
-<meta name="keywords" content="Web Development Services, Website Development Services, Custom Websites, Web Developemnt Company in India" />
+        <meta name="keywords" content="Web Development Services, Website Development Services, Custom Websites, Web Developemnt Company in India" />
 
 
 
@@ -337,7 +338,7 @@ const web = () => {
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold  '>Customized Web Development Services for Your Success
             </h2>
             <p className='text-base'>
-              WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our web development team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
+              WebNest Media goes above and beyond in creating visually stunning websites that outperform in metrics and are engineered for conversion. Our best web development service team works on providing your company with a reliable, agile, and technologically advanced website if it is an industry leader or even a nascent company. In either case, our team has extensive experience to ensure the best results.
 
 
               <br /> <br />
@@ -347,20 +348,20 @@ const web = () => {
           </div>
 
 
-          
-        <div className="mx-auto max-lg:mt-10 mt-24">
-          <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold'>Web Development Company | Your Vision, Our Expertise</h2>
-          <p className='text-base'>
-As one of the top web development service company, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
-<br /> <br />
-With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
-<br /> <br />
-From an eCommerce store or blog to a corporate website, WebNest Media can turn any vision into a fully functional experience as trusted partners to all their client’s site development needs. We facilitate businesses, large or small build robust online presences that accelerates growth while engaging deeply with core audiences.
-</p>
+
+          <div className="mx-auto max-lg:mt-10 mt-24">
+            <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold'>Web Development Company | Your Vision, Our Expertise</h2>
+            <p className='text-base'>
+              As one of the top web development service company, WebNest Media has been in business for over 21 years, turning concepts into powerful digital solutions. We have served clients from UK, USA, Australia, Canada, and India. To date, we have delivered hundreds of custom projects across multiple sectors owing to our strong industry presence. Our reputation is reflected in the impressive 92% retention rate we enjoy over clients!
+              <br /> <br />
+              With headless CMS and PWAs to Node.js, Vue.js, React, Angular, and more sophisticated technologies we offer ultra fast websites that are also scalable and secure. To boost user engagement and conversions, our designs incorporate AI tools, automation, and intuitive UI/UX along with responsive design aimed at seamless device function uninterrupted mobile interface automation.
+              <br /> <br />
+              From an eCommerce store or blog to a corporate website, WebNest Media can turn any vision into a fully functional experience as trusted partners to all their client’s site development needs. We facilitate businesses, large or small build robust online presences that accelerates growth while engaging deeply with core audiences.
+            </p>
 
 
 
-        </div>
+          </div>
 
           <div className=' mx-auto'>
             <h2 className='text-[52px] max-lg:text-3xl mb-9 font-semibold mt-24 max-md:mt-10  mx-auto'>Benefits of Top Web Designing & Development Company</h2>
@@ -488,12 +489,14 @@ From an eCommerce store or blog to a corporate website, WebNest Media can turn a
 
         </section>
 
+        <ContactSection/>
+
         <section className='max-w-[1440px] mx-auto px-10 max-lg:px-4 mt-24 max-md:mt-10 lg:text-center '>
           <div className="lg:w-[60%] mx-auto ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>What makes us different in Web Development?</h2>
 
             <p data-aos="fade-up" className="text-[black] mt-9 mb-12 text-base mx-auto md:mx-0">
-As a top website design & development service, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
+              As a top website design & development service, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
 
 
 
@@ -559,13 +562,13 @@ As a top website design & development service, we have years of experience. Our 
               <img src={image16} alt="Web Development Company" className="w-full h-auto" />
             </div>
             <p data-aos="fade-up" className="text-[black] lg:mt-4 text-base mx-auto md:mx-0">
-              Choosing the right partner for your website is a big decision — and that’s exactly why businesses trust WebNest Media. As one of the top web development companies in Delhi/NCR, we don’t just build websites — we craft digital experiences that help brands grow.
-<br /> <br />
-Our team blends creativity with cutting-edge technology to deliver websites that are fast, stunning, and user-friendly. Whether you need an online store, a sleek corporate site, or a custom solution, we’re known as a top website development company in Delhi/NCR for a reason — we make it happen.
-<br /><br />
-Looking for an ecommerce website development company in Delhi/NCR? We’ve helped countless businesses launch powerful online stores that drive sales and create loyal customers. And when it comes to design, we’re recognized as a website designing services that truly understands what works online — blending beauty with functionality. That’s why many call us the best website designing company.
-<br /> <br />
-At WebNest Media, we believe every brand has a story. Let’s build a website that tells yours — beautifully, effectively, and with results you can measure.
+              Choosing the right partner for your website is a big decision — and that’s exactly why businesses trust WebNest Media. As one of the top web development services in Gurugram/Delhi-NCR, we don’t just build websites — we craft digital experiences that help brands grow.
+              <br /> <br />
+              Our team blends creativity with cutting-edge technology to deliver websites that are fast, stunning, and user-friendly. Whether you need an online store, a sleek corporate site, or a custom solution, we’re known as a top website development company in Delhi/NCR for a reason — we make it happen.
+              <br /><br />
+              Looking for an ecommerce website development company in Delhi/NCR? We’ve helped countless businesses launch powerful online stores that drive sales and create loyal customers. And when it comes to design, we’re recognized as a website designing services that truly understands what works online — blending beauty with functionality. That’s why many call us the best website designing company.
+              <br /> <br />
+              At WebNest Media, we believe every brand has a story. Let’s build a website that tells yours — beautifully, effectively, and with results you can measure.
 
             </p>
 

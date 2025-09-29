@@ -36,6 +36,8 @@ import updatedBgImage from "./resources/updatedBgHeadphoneImage.png"
 import servicesImages from "./resources/servicesImage.png"
 import thumbsUp from "./resources/thumbsUp.png"
 import thumbsDown from "./resources/thumbsDown.png"
+import smmHeroImage from "./resources/smmHeroImage.jpg"
+import chooseUs from "./resources/chooseWebnest.svg"
 
 import { MdContentPasteGo } from "react-icons/md";
 import { SiGooglemarketingplatform } from "react-icons/si";
@@ -121,8 +123,7 @@ const Smm = () => {
         "@type": "Service",
         "@id": "https://webnestmedia.com/social-media-marketing#service",
         "name": "Social Media Marketing",
-        "description": "WebNest Media is a trusted social media marketing agency in Gurgaon offering expert services in Instagram ads, Facebook marketing, content creation, influencer outreach, and brand engagement to help your business grow online.",
-        "serviceType": "Social Media Marketing",
+        "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively.",
         "provider": {
           "@type": "Organization",
           "name": "WebNest Media",
@@ -151,12 +152,12 @@ const Smm = () => {
         "@type": "WebPage",
         "@id": "https://webnestmedia.com/social-media-marketing#webpage",
         "url": "https://webnestmedia.com/social-media-marketing",
-        "name": "Social Media Marketing Services – WebNest Media",
+        "name": "Social Media Marketing Agency – WebNest Media",
         "description": "Grow your brand presence and engagement with social media marketing services by WebNest Media. We create tailored content strategies, run paid social ad campaigns, and help you connect with your audience on every platform."
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://webnestmedia.com/social-media-marketing#breadcrumb",
+        "@id": "https://webnestmedia.com/social-media-marketing/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -168,7 +169,7 @@ const Smm = () => {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/#services"
+            "item": "https://webnestmedia.com/"
           },
           {
             "@type": "ListItem",
@@ -315,10 +316,10 @@ const Smm = () => {
 
 
           <HeroSection
-            backgroundImage={topimage}
-            heading="Social Media Marketing Agency
+            backgroundImage={smmHeroImage}
+            heading="Social Media Marketing 
 "
-            highlight=""
+            highlight="Agency"
             paragraph="Let’s take your website from hidden to high-ranking with smart SEO, search-friendly content, and organic growth."
           />
 
@@ -674,7 +675,7 @@ const Smm = () => {
               ></div>
 
               {/* Content Container */}
-              <div className="relative flex w-full">
+              <div className="relative flex w-full sm:mt-3">
                 {/* Pros Section Content - Constrained to avoid red area */}
                 <div className="w-1/2 p-4 lg:p-8 text-white flex flex-col justify-start z-10"
                   style={{
@@ -781,7 +782,7 @@ const Smm = () => {
 
         {/* why choose us section - Mobile First Responsive */}
         <div className="mx-auto container mt-3 sm:mt-6">
-          <div className="w-full px-10  flex flex-col gap-6 md:gap-8 lg:gap-10">
+          <div className="w-full px-10  flex flex-col gap-6 md:gap-2 lg:gap-2">
             {/* Responsive heading */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
               Why Choose WebNest Media for Social Media Marketing Services?
@@ -813,7 +814,7 @@ const Smm = () => {
               {/* Image Section */}
               <div className="w-full lg:w-[45%] order-1 lg:order-2 flex lg:justify-end">
                 <img
-                  src={servicesImages}
+                  src={chooseUs}
                   alt="Why Choose WebNest Media"
                   className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-full h-auto object-contain rounded-lg"
                 />

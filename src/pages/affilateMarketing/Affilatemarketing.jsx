@@ -17,6 +17,7 @@ import heroimage from './resources/heroimage.png'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom'
+import ContactSection from '../../components/HearFromYou/HearFromYou.jsx'
 
 const Affilatemarketing = () => {
 
@@ -38,7 +39,7 @@ const affiliateMarketingSchema = {
       "@type": "Service",
       "@id": "https://webnestmedia.com/affiliate-marketing#service",
       "name": "Affiliate Marketing",
-      "description": "WebNest Media offers performance-driven affiliate marketing services in Gurgaon to help brands expand reach and boost revenue through trusted affiliate networks, influencer partners, and ROI-focused campaigns.",
+      "description": "Grow your brand with India’s top affiliate marketing agency. Our AM services span affiliate partnerships, campaign management, lead generation & ROI optimization.",
       "serviceType": "Affiliate Marketing",
       "provider": {
         "@type": "Organization",
@@ -68,7 +69,7 @@ const affiliateMarketingSchema = {
       "@type": "WebPage",
       "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
       "url": "https://webnestmedia.com/affiliate-marketing",
-      "name": "Affiliate Marketing Services – WebNest Media",
+      "name": "Affiliate Marketing Agency – WebNest Media",
       "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
     },
     {
@@ -319,7 +320,7 @@ const affiliateMarketingSchema = {
         <div className='bg-[#EFF4EE] '>
           <div className="amc4 max-lg:mt-10 pt-16 container w-[100%] px-[40px] max-lg:px-[16px] mx-auto ">
             <div className=" pb-[72px] text-center">
-              <p data-aos="fade-up" style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Service </p>
+              <p data-aos="fade-up" style={{ color: '#EEC370', fontSize: 18 }}>The no. 1 Affiliate Marketing Agency</p>
               <p data-aos="fade-up" className='text-[32px] max-md:text-3xl font-semibold mb-8'> Grow Smarter with <span className='highlight'>Affiliate Marketing</span></p>
               <p data-aos="fade-up" className='text-base mb-14'>
                 Drive results through performance-based partnerships – only pay when you earn.
@@ -420,7 +421,8 @@ At WebNest Media, we believe affiliate marketing is more than just links—it's 
 
         </div>
 
-
+        
+        <ContactSection/>
 
 
         <div className="max-w-[1440px] w-full mx-auto px-[40px] max-lg:px-[16px] mt-[96px] max-lg:mt-10 mb-24 max-lg:mb-10">

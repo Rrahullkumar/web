@@ -18,6 +18,7 @@ import newlogo from "./resources/newsseologo.svg";
 
 import AnimatedCardList from "../../components/industryCard/AnimatedCardList.jsx";
 import TestimonialSlider from "../../components/testimonial/TestimoniaSlider.jsx";
+import ContactSection from "../../components/HearFromYou/HearFromYou.jsx";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
@@ -189,7 +190,7 @@ const Seo = () => {
         url: "https://webnestmedia.com/search-engine-optimization",
         name: "Search Engine Optimization Services | WebNest Media",
         description:
-          "Top-rated SEO Services in Gurgaon by WebNest Media. We help your business rank higher on Google with proven strategies for organic growth.",
+          "Boost your online presence with the best SEO agency in India. We help you in increasing your traffic, ranking higher, and converting clicks into loyal customers.",
         inLanguage: "en-IN",
         isPartOf: {
           "@id": "https://webnestmedia.com/#website",
@@ -204,21 +205,27 @@ const Seo = () => {
       },
       {
         "@type": "BreadcrumbList",
-        "@id":
-          "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
-        itemListElement: [
+        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+        "itemListElement": [
           {
             "@type": "ListItem",
-            position: 1,
+            "position": 1,
             name: "Home",
-            item: "https://webnestmedia.com/",
+            "item": "https://webnestmedia.com/"
           },
           {
             "@type": "ListItem",
-            position: 2,
-            name: "Search Engine Optimization",
+            "position": 2,
+            name: "Services",
+            "item": "https://webnestmedia.com/"
           },
-        ],
+          {
+            "@type": "ListItem",
+            "position": 3,
+            name: "Search Engine Optimization",
+            "item": "https://webnestmedia.com/search-engine-optimization"
+          }
+        ]
       },
       {
         "@type": "Service",
@@ -274,7 +281,7 @@ const Seo = () => {
       },
       {
         "@type": "Product",
-        name: "Best SEO Company in Gurgaon | Affordable SEO Solutions",
+        name: "Best SEO Agency in India | Boost Rankings and Traffic",
         image: "https://webnestmedia.com/assets/heroimage-32ufLjb8.png",
         description:
           "WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth.",
@@ -303,14 +310,14 @@ const Seo = () => {
       <Helmet>
 
         <title>Best SEO Agency in India | Boost Rankings and Traffic</title>
-        <meta  name="description" content="Boost your online presence with the best SEO agency in India. We help you in increasing your traffic, ranking higher, and converting clicks into loyal customers.
+        <meta name="description" content="Boost your online presence with the best SEO agency in India. We help you in increasing your traffic, ranking higher, and converting clicks into loyal customers.
 " />
-      
-      <meta name="keywords" content="Top SEO Agency, SEO Agency, Best SEO Agency in India, Best SEO Services, SEO Company" />
 
-        <meta  name="robots" content="index, follow" />
-        <meta  name="author" content="WebNest Media" />
-        <link  rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
+        <meta name="keywords" content="Top SEO Agency, SEO Agency, Best SEO Agency in India, Best SEO Services, SEO Company" />
+
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="WebNest Media" />
+        <link rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
 
         {/* <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
         <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
@@ -483,7 +490,7 @@ const Seo = () => {
             <p className="text-base mt-10 leading-7">
               You know your business needs to show up on Google. You just don't
               know how to make it happen. That’s where WebNest Media comes in.
-              We’re the SEO agency that helps brands stop guessing and start
+              We’re the SEO agency in India that helps brands stop guessing and start
               growing.
             </p>
             <p className="text-base mt-4 leading-7">
@@ -568,7 +575,7 @@ const Seo = () => {
             ))}
           </div>
 
-
+          <ContactSection/>
 
           <h2 data-aos="fade-up" className='text-[52px] mt-24  max-md:text-3xl max-md:font-semibold text-[#000000] mb-6 leading-normal'>
 
@@ -617,7 +624,7 @@ const Seo = () => {
         </section>
 
 
-
+        
 
         <section className='mt-[62px] max-lg:mt-[40px] container w-[100%] mx-auto  pl-[40px] pr-[40px] max-lg:pl-[16px] max-lg:pr-[16px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] ">

@@ -239,13 +239,11 @@ const AboutUS = () => {
             position="right"
             background="lightblue"
           />
-          
-           <ProfileCard
-            img={Parulimg}
-            name="Parul Kapoor"
-            role="Buisness Consultant"
+              <ProfileCard
+            img={Arbaazimg}
+            name="Arbaaz"
+            role="BD Lead Sales"
             position="right"
-            
           />
        
           <ProfileCard
@@ -254,15 +252,15 @@ const AboutUS = () => {
             role="Product Designer"
             position="left"
           />
-          <ProfileCard
-            img={Divyamimg}
-            name="Divyam Bajaj"
-            role="Parternship Manager"
+          
+           <ProfileCard
+            img={Parulimg}
+            name="Parul Kapoor"
+            role="Buisness Consultant"
             position="left"
-
-            background="lightblue"
+            
           />
-    
+
           <ProfileCard
             img={Shashankimg}
             name="Shashank Panchal"
@@ -270,13 +268,15 @@ const AboutUS = () => {
             position="right"
             background="lightblue"
           />
-         
-          <ProfileCard
-            img={Arbaazimg}
-            name="Arbaaz"
-            role="BD Lead Sales"
+         <ProfileCard
+            img={Divyamimg}
+            name="Divyam Bajaj"
+            role="Parternship Manager"
             position="right"
+
+            background="lightblue"
           />
+          
          <ProfileCard
             img={Harshimg}
             name="Harsh Lodhi"

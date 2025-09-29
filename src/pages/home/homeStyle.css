@@ -223,9 +223,9 @@
  
 
 }
-.slider-track2{
+/* .slider-track2{
 
-}
+} */
 
 .slider-container,.slider-container2{
 width: 100%;
@@ -381,7 +381,7 @@ cursor: pointer;
 
 
 
-.iconimage {}
+/* .iconimage {} */
 
 .Slidercrausol {
   margin-top: 90px;
@@ -808,7 +808,7 @@ cursor: pointer;
 
   overflow-x: hidden;
 }
-.wrapper {
+/* .wrapper {
   width: 100%;
   margin-inline: auto;
   position: relative;
@@ -821,15 +821,15 @@ cursor: pointer;
     rgba(0, 0, 0, 1) 80%,
     rgba(0, 0, 0, 0)
   );
-}
+} */
 
-@keyframes scrollLeft {
+/* @keyframes scrollLeft {
   to {
     left: -200px;
   }
-}
+} */
 
-.item {
+/* .item {
 
   position: absolute;
   left: max(calc(200px * 16), 100%);
@@ -862,4 +862,105 @@ cursor: pointer;
 .item13 { animation-delay: calc(35s / 16 * (16 - 13) * -1); }
 .item14 { animation-delay: calc(35s / 16 * (16 - 14) * -1); }
 .item15 { animation-delay: calc(35s / 16 * (16 - 15) * -1); }
-.item16 { animation-delay: calc(35s / 16 * (16 - 16) * -1); }
+.item16 { animation-delay: calc(35s / 16 * (16 - 16) * -1); } */
+
+/* Container styling */
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+/* Marquee animation container */
+.marquee-track {
+  display: flex;
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Individual item styling */
+.item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 2rem;
+}
+
+/* Consistent logo image styling */
+.logo-img {
+  width: 150px;
+  height: 110px;
+  object-fit: contain;
+  padding: 5px;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* Smooth marquee animation keyframes */
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Optional: Pause animation on hover */
+/* .wrapper:hover .marquee-track {
+  animation-play-state: paused;
+} */
+
+/* Optional: Fade effect at edges */
+.wrapper::before,
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo-img {
+    width: 120px;
+    height: 90px;
+  }
+  
+  .item {
+    margin-right: 1rem;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+}
+
+/* Accessibility: Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation-play-state: paused;
+  }
+}
+

@@ -23,13 +23,13 @@ const ContactSection = () => {
     }, [services.length]);
 
     return (
-        <div className="w-full container mx-auto flex flex-col lg:flex-row my-8 md:my-16 lg:my-24 xl:my-32">
+        <div className="w-full container mx-auto flex flex-col lg:flex-row my-8 md:my-16 lg:my-20 xl:my-20">
             {/* Left side */}
             <div
                 className="w-full lg:w-1/2 h-80 lg:h-96 flex items-center justify-center text-white 
                    bg-cover bg-center bg-no-repeat"
                 style={{ backgroundImage: `url(${bgImage})` }}
-            >
+            >   
                 <div className="text-left flex flex-col gap-5">
                     <h2 className="text-xl lg:text-[3.1rem]  font-bold mb-3 leading-tight">
                         We'd Love to<br />
