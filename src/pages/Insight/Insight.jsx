@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { ChevronDown, ChevronUp, Filter, ChevronRight } from "lucide-react";
@@ -48,13 +47,12 @@ const Insight = () => {
   useEffect(() => {
     axios.get('https://crm-1-x26w.onrender.com/api/blogs')
       .then(response => {
-
-        console.log("resposne ", response)
+        // console.log("response ", response)
         setBlogs(response.data);
         setLoading(false);
       })
       .catch(error => {
-        console.error('Error fetching blogs:', error);
+        // console.error('Error fetching blogs:', error);
         setLoading(false);
       });
   }, []);
@@ -63,141 +61,83 @@ const Insight = () => {
     setOpenMenu(openMenu === menu ? "" : menu);
   };
 
+  const filteredBlogs = blogs.filter((blog) => {
+    const search = searchTerm.toLowerCase();
 
-  // console.log("blogs",blogs);
+    const matchesSearch =
+      blog.title?.toLowerCase().includes(search) ||
+      blog.content?.toLowerCase().includes(search) ||
+      blog.author?.toLowerCase().includes(search);
 
-const filteredBlogs = blogs.filter((blog) => {
-  const search = searchTerm.toLowerCase();
+    const matchesCategory =
+      selectedCategory === "" || // no category filter
+      (Array.isArray(blog.category) && blog.category.includes(selectedCategory)) ||
+      blog.content === selectedCategory || 
+      blog.author === selectedCategory;
 
-  const matchesSearch =
-    blog.title?.toLowerCase().includes(search) ||
-    blog.content?.toLowerCase().includes(search) ||
-    blog.author?.toLowerCase().includes(search);
-
-  const matchesCategory =
-    selectedCategory === "" || // no category filter
-    (Array.isArray(blog.category) && blog.category.includes(selectedCategory)) ||
-    blog.content === selectedCategory || 
-    blog.author === selectedCategory;
-
-  return matchesSearch && matchesCategory;
-});
-
+    return matchesSearch && matchesCategory;
+  });
 
   const latestBlog = blogs.length > 0 ? blogs[0] : null;
 
-
-
-  // const latestBlog = blogs.length > 0 ? blogs[blogs.length - 1] : null;
-
-
-
-
-
   return (
-
     <>
-
-      {/* {latestBlog && (
-  <Helmet>
-   
-    <title>{latestBlog.metaTitle?.trim() || latestBlog.title?.trim()}</title>
-
-    <meta
-      name="description"
-      content={latestBlog.metaDescription?.trim() || latestBlog.subtitle?.trim()}
-    />
-
-    
-    {Array.isArray(latestBlog.keywords) && latestBlog.keywords.length > 0 && (
-      <meta name="keywords" content={latestBlog.keywords.join(", ")} />
-    )}
-
- 
-    <meta property="og:title" content={latestBlog.ogTitle?.trim() || latestBlog.title?.trim()} />
-    <meta
-      property="og:description"
-      content={latestBlog.ogDescription?.trim() || latestBlog.metaDescription?.trim()}
-    />
-    <meta property="og:image" content={latestBlog.imageUrl} />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content={window.location.href} />
-
-    
-    <meta name="author" content={latestBlog.author?.trim()} />
-  </Helmet>
-)} */}
-
-
       <div className="mx-auto container p-4 sm:p-8">
-     
-   <div
-  className="container mx-auto cursor-pointer"
-  onClick={(e) => {
-    e.stopPropagation();
-    window.location.href = `/blogs/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`;
-  }}
->
-
-         
-          <h2 className="text-3xl sm:text-5xl font-semibold mb-8 pl-6 max-md:pl-3" >Latest Blog</h2>
+        {/*Latest Blog Section - Using slug instead of title */}
+        <div
+          className="container mx-auto cursor-pointer"
+          onClick={(e) => {
+            e.stopPropagation();
+            if (latestBlog?.slug) {
+              window.location.href = `/blogs/${latestBlog.slug}`;
+            }
+          }}
+        >
+          <h2 className="text-3xl sm:text-5xl font-semibold mb-8 pl-6 max-md:pl-3">Latest Blog</h2>
 
           {latestBlog ? (
             <div className="flex flex-col md:flex-row items-start gap-6 p-4 sm:p-6 bg-white">
               <div className="w-full md:w-1/2">
                 <LazyLoadImage
-                  // src={latestBlog.image}
                   src={latestBlog.imageUrl}
                   alt={latestBlog.title}
-                  className="w-full h-auto  object-cover rounded-lg"
+                  className="w-full h-auto object-cover rounded-lg"
                 />
               </div>
               <div className="flex flex-col w-full md:w-1/2 space-y-4">
-                <div className="flex justify-between text-sm sm:text-lg  font-medium text-gray-600">
-                  <p className=' text-[#221F49]'>
+                <div className="flex justify-between text-sm sm:text-lg font-medium text-gray-600">
+                  <p className='text-[#221F49]'>
                     {new Date(latestBlog.date).toLocaleDateString("en-US", {
                       month: "long",
                       day: "numeric",
                       year: "numeric",
                     })}
                   </p>
-
                   <p className='text-[#221F49] font-medium'>Author: <span className="text-blue-600 font-semibold">{latestBlog.author}</span></p>
                 </div>
                 <h3 className="text-2xl sm:text-[32px] leading-snug font-semibold text-[#221F49]">{latestBlog.title}</h3>
-
-
-
 
                 <div className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: (latestBlog.content || "").substring(0, 280) + "..."
                     }}
-
                   />
 
-
-
-              
-
-<button
-  onClick={(e) => {
-    e.stopPropagation(); 
-    window.location.href = `/blogs/${latestBlog.title.replace(/\s+/g, '-').toLowerCase()}`;
-  }}
-  className="uiverse-button mt-5"
-  style={{ paddingTop: "4px", paddingBottom: "4px" }}
->
-  Read More
-</button>
-
-
-
+                  {/* Read More button using slug */}
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation(); 
+                      if (latestBlog?.slug) {
+                        window.location.href = `/blogs/${latestBlog.slug}`;
+                      }
+                    }}
+                    className="uiverse-button mt-5"
+                    style={{ paddingTop: "4px", paddingBottom: "4px" }}
+                  >
+                    Read More
+                  </button>
                 </div>
-
-
-
               </div>
             </div>
           ) : (
@@ -294,20 +234,18 @@ const filteredBlogs = blogs.filter((blog) => {
             </div>
           </div>
 
-          {/* Blog Cards */}
+          {/*Blog Cards - Using slug instead of generated slug from title */}
           <div className="w-full lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {loading ? (
               <p className="col-span-3 text-center text-gray-500"> </p>
             ) : filteredBlogs.length > 0 ? (
               filteredBlogs.map((blog, index) => {
-                // const slug = blog.title.replace(/\s+/g, "-").toLowerCase();
-                const slug = blog.title ? blog.title.replace(/\s+/g, "-").toLowerCase() : "untitled-blog";
+                // Use blog.slug instead of generating from title
+                const slug = blog.slug || "untitled-blog";
 
                 return (
                   <Link key={index} to={`/blogs/${slug}`}>
                     <div className="border rounded-lg p-4 cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-[#FFBA34] hover:shadow-sm">
-
-
                       <img
                         src={blog.imageUrl}
                         alt={blog.title}
@@ -322,24 +260,17 @@ const filteredBlogs = blogs.filter((blog) => {
                             year: "numeric",
                           })}
                         </p>  <br /> 
-                        
-                        
                         Author: {blog.author}
                       </p>
-                  {/* <h3 className="text-lg font-bold mt-2">
-  {blog.title.length > 45 ? blog.title.slice(0,45) + "..." : blog.title}
-</h3> */}
 
-<h3 className="text-lg font-bold mt-2 line-clamp-2"> {blog.title} </h3>
-
+                      <h3 className="text-lg font-bold mt-2 line-clamp-2">{blog.title}</h3>
 
                       <div
-                        className="text-gray-600 text-sm mt-2 line-clamp-3 "
+                        className="text-gray-600 text-sm mt-2 line-clamp-3"
                         dangerouslySetInnerHTML={{
-                          __html: (blog.content )
+                          __html: (blog.content)
                         }}
                       />
-
                     </div>
                   </Link>
                 );
@@ -351,13 +282,7 @@ const filteredBlogs = blogs.filter((blog) => {
         </div>
       </div>
     </>
-
   );
 };
 
 export default Insight;
-
-
-
-
-

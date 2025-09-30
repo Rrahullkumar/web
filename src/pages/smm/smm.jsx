@@ -413,7 +413,7 @@ const Smm = () => {
 
         }} className="" >
           <div className="mx-auto container">
-            <div className="w-full px-10 max-w-7xl py-8 sm:py-32 flex flex-col gap-8 md:gap-12 lg:gap-16">
+            <div className="w-full px-4 sm:px-10 max-w-7xl py-8 sm:py-32 flex flex-col gap-8 md:gap-12 lg:gap-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
                 Grow Your Business with Data-Driven Best Social Media Marketing Agency in India
               </h2>
@@ -436,7 +436,7 @@ const Smm = () => {
 
         {/* new our social media marketing service */}
         <div className="mx-auto container">
-          <div className="flex flex-col gap-16 mt-8 px-10 w-full items-start">
+          <div className="flex flex-col gap-4 mt-8 px-4 sm:px-10 w-full items-start">
             {/* heading */}
             <p className="text-2xl sm:text-3xl md:text-4xl lg:text-[52px] sm:w-[70%] font-semibold lg:leading-[1.6]">
               What's Included in Our Social Media Marketing Services
@@ -541,7 +541,7 @@ const Smm = () => {
 
         }} className="sm:mt-6" >
           <div className="mx-auto container py-16 mt-7">
-            <div className="w-full px-10 max-w-7xl flex flex-col gap-8 md:gap-12 lg:gap-16">
+            <div className="w-full px-4 sm:px-10 max-w-7xl flex flex-col gap-4 md:gap-12 lg:gap-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
                 Why Partnering with a Best Social Media Agency Is a Game-Changer
               </h2>
@@ -564,7 +564,7 @@ const Smm = () => {
 
         {/* pros and cons section */}
         <div className="mx-auto container">
-          <div className="w-full px-10 max-w-7xl  flex flex-col gap-8 md:gap-12 lg:gap-16">
+          <div className="w-full px-4 sm:px-10 max-w-7xl  flex flex-col gap-8 md:gap-12 lg:gap-16">
             <h2 className="text-2xlsm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
               Analyzing the Pros and Cons of Social Media Marketing Services for Better ROI
             </h2>
@@ -771,7 +771,7 @@ const Smm = () => {
 
         {/*  */}
         <div className="mx-auto container">
-          <div className="w-full px-10 max-w-7xl py-10  flex flex-col gap-8 md:gap-12 lg:gap-16">
+          <div className="w-full px-4 sm:px-10 max-w-7xl py-10  flex flex-col gap-8 md:gap-12 lg:gap-16">
             <p className="text-[16px] lg:max-w-[80%] italic">
               Balancing the pros and cons of social media marketing is essential for long-term success. With the right social media marketing service in India, businesses can overcome challenges, maximize returns, and build stronger connections with their audience. Partnering with a trusted social media marketing company in India ensures you have the right strategy, expertise, and support to turn social platforms into powerful engines of growth.
             </p>
@@ -782,7 +782,7 @@ const Smm = () => {
 
         {/* why choose us section - Mobile First Responsive */}
         <div className="mx-auto container mt-3 sm:mt-6">
-          <div className="w-full px-10  flex flex-col gap-6 md:gap-2 lg:gap-2">
+          <div className="w-full px-4 sm:px-10  flex flex-col gap-6 md:gap-2 lg:gap-2">
             {/* Responsive heading */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold !leading-snug">
               Why Choose WebNest Media for Social Media Marketing Services?
@@ -910,7 +910,7 @@ const Smm = () => {
 
 
 
-        <div className='mt-[100px] max-lg:mt-10 container px-10 max-lg:px-4 mx-auto '>
+        <div className='mt-[100px] max-lg:mt-10 container px-4 sm:px-10 max-lg:px-4 mx-auto '>
           <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
           <Accordian />
         </div>
