@@ -4,6 +4,7 @@ import { ChevronDown, ChevronUp, Filter, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
+import Skeleton from "./Skeleton";
 
 const Insight = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -47,12 +48,11 @@ const Insight = () => {
   useEffect(() => {
     axios.get('https://crm-1-x26w.onrender.com/api/blogs')
       .then(response => {
-        // console.log("response ", response)
         setBlogs(response.data);
         setLoading(false);
       })
       .catch(error => {
-        // console.error('Error fetching blogs:', error);
+        console.error('Error fetching blogs:', error);
         setLoading(false);
       });
   }, []);
@@ -80,70 +80,117 @@ const Insight = () => {
 
   const latestBlog = blogs.length > 0 ? blogs[0] : null;
 
+  // 🔹 Latest Blog Skeleton Component
+  const LatestBlogSkeleton = () => (
+    <div className="container mx-auto">
+      <Skeleton className="w-48 h-12 mb-8 pl-6 max-md:pl-3" />
+      <div className="flex flex-col md:flex-row items-start gap-6 p-4 sm:p-6 bg-white">
+        <div className="w-full md:w-1/2">
+          <Skeleton className="w-full h-64 rounded-lg" />
+        </div>
+        <div className="flex flex-col w-full md:w-1/2 space-y-4">
+          <div className="flex justify-between text-sm sm:text-lg font-medium">
+            <Skeleton className="w-32 h-6" />
+            <Skeleton className="w-36 h-6" />
+          </div>
+          <Skeleton className="w-full h-10" />
+          <Skeleton className="w-4/5 h-8" />
+          <div className="space-y-2">
+            <Skeleton className="w-full h-4" />
+            <Skeleton className="w-full h-4" />
+            <Skeleton className="w-3/4 h-4" />
+          </div>
+          <Skeleton className="w-32 h-10 mt-5" />
+        </div>
+      </div>
+    </div>
+  );
+
+  // 🔹 Blog Card Skeleton Component
+  const BlogCardSkeleton = () => (
+    <div className="border rounded-lg p-4">
+      <Skeleton className="w-full h-40 rounded" />
+      <div className="mt-2 space-y-2">
+        <Skeleton className="w-32 h-4" />
+        <Skeleton className="w-24 h-4" />
+      </div>
+      <Skeleton className="w-full h-6 mt-2" />
+      <Skeleton className="w-4/5 h-6" />
+      <div className="mt-2 space-y-1">
+        <Skeleton className="w-full h-3" />
+        <Skeleton className="w-full h-3" />
+        <Skeleton className="w-3/4 h-3" />
+      </div>
+    </div>
+  );
+
   return (
     <>
       <div className="mx-auto container p-4 sm:p-8">
-        {/*Latest Blog Section - Using slug instead of title */}
-        <div
-          className="container mx-auto cursor-pointer"
-          onClick={(e) => {
-            e.stopPropagation();
-            if (latestBlog?.slug) {
-              window.location.href = `/blogs/${latestBlog.slug}`;
-            }
-          }}
-        >
-          <h2 className="text-3xl sm:text-5xl font-semibold mb-8 pl-6 max-md:pl-3">Latest Blog</h2>
+        {/* 🔹 Latest Blog Section with Skeleton */}
+        {loading ? (
+          <LatestBlogSkeleton />
+        ) : (
+          <div
+            className="container mx-auto cursor-pointer"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (latestBlog?.slug) {
+                window.location.href = `/blogs/${latestBlog.slug}`;
+              }
+            }}
+          >
+            <h2 className="text-3xl sm:text-5xl font-semibold mb-8 pl-6 max-md:pl-3">Latest Blog</h2>
 
-          {latestBlog ? (
-            <div className="flex flex-col md:flex-row items-start gap-6 p-4 sm:p-6 bg-white">
-              <div className="w-full md:w-1/2">
-                <LazyLoadImage
-                  src={latestBlog.imageUrl}
-                  alt={latestBlog.title}
-                  className="w-full h-auto object-cover rounded-lg"
-                />
-              </div>
-              <div className="flex flex-col w-full md:w-1/2 space-y-4">
-                <div className="flex justify-between text-sm sm:text-lg font-medium text-gray-600">
-                  <p className='text-[#221F49]'>
-                    {new Date(latestBlog.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}
-                  </p>
-                  <p className='text-[#221F49] font-medium'>Author: <span className="text-blue-600 font-semibold">{latestBlog.author}</span></p>
-                </div>
-                <h3 className="text-2xl sm:text-[32px] leading-snug font-semibold text-[#221F49]">{latestBlog.title}</h3>
-
-                <div className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: (latestBlog.content || "").substring(0, 280) + "..."
-                    }}
+            {latestBlog ? (
+              <div className="flex flex-col md:flex-row items-start gap-6 p-4 sm:p-6 bg-white">
+                <div className="w-full md:w-1/2">
+                  <LazyLoadImage
+                    src={latestBlog.imageUrl}
+                    alt={latestBlog.title}
+                    className="w-full h-auto object-cover rounded-lg"
                   />
+                </div>
+                <div className="flex flex-col w-full md:w-1/2 space-y-4">
+                  <div className="flex justify-between text-sm sm:text-lg font-medium text-gray-600">
+                    <p className='text-[#221F49]'>
+                      {new Date(latestBlog.date).toLocaleDateString("en-US", {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                      })}
+                    </p>
+                    <p className='text-[#221F49] font-medium'>Author: <span className="text-blue-600 font-semibold">{latestBlog.author}</span></p>
+                  </div>
+                  <h3 className="text-2xl sm:text-[32px] leading-snug font-semibold text-[#221F49]">{latestBlog.title}</h3>
 
-                  {/* Read More button using slug */}
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation(); 
-                      if (latestBlog?.slug) {
-                        window.location.href = `/blogs/${latestBlog.slug}`;
-                      }
-                    }}
-                    className="uiverse-button mt-5"
-                    style={{ paddingTop: "4px", paddingBottom: "4px" }}
-                  >
-                    Read More
-                  </button>
+                  <div className="text-base sm:text-lg leading-relaxed text-gray-700 font-light">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: (latestBlog.content || "").substring(0, 280) + "..."
+                      }}
+                    />
+
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation(); 
+                        if (latestBlog?.slug) {
+                          window.location.href = `/blogs/${latestBlog.slug}`;
+                        }
+                      }}
+                      className="uiverse-button mt-5"
+                      style={{ paddingTop: "4px", paddingBottom: "4px" }}
+                    >
+                      Read More
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          ) : (
-            <p className="text-center text-gray-500"></p>
-          )}
-        </div>
+            ) : (
+              <p className="text-center text-gray-500"></p>
+            )}
+          </div>
+        )}
 
         <div className="w-full h-[2px] bg-gray-300 my-8 sm:my-16"></div>
 
@@ -234,13 +281,15 @@ const Insight = () => {
             </div>
           </div>
 
-          {/*Blog Cards - Using slug instead of generated slug from title */}
+          {/* 🔹 Blog Cards with Skeleton Loading */}
           <div className="w-full lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {loading ? (
-              <p className="col-span-3 text-center text-gray-500"> </p>
+              // Show 6 skeleton cards while loading
+              Array.from({ length: 6 }, (_, index) => (
+                <BlogCardSkeleton key={index} />
+              ))
             ) : filteredBlogs.length > 0 ? (
               filteredBlogs.map((blog, index) => {
-                // Use blog.slug instead of generating from title
                 const slug = blog.slug || "untitled-blog";
 
                 return (
@@ -250,6 +299,7 @@ const Insight = () => {
                         src={blog.imageUrl}
                         alt={blog.title}
                         className="w-full h-40 max-md:h-auto object-contain rounded"
+                        loading="lazy"
                       />
 
                       <p className="text-black font-medium mt-2">

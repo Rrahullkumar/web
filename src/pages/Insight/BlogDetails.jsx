@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { FaArrowLeft } from "react-icons/fa";
+import Skeleton from "./Skeleton";
 import "./blogdetail.css"
 
 const BlogDetails = () => {
@@ -16,7 +17,6 @@ const BlogDetails = () => {
     const fetchBlogs = async () => {
       try {
         const response = await axios.get("https://crm-1-x26w.onrender.com/api/blogs");
-        // console.log("BlogDetails - API Response:", response.data); // Debug log
         setBlogs(response.data);
       } catch (error) {
         console.error("Error fetching blogs:", error);
@@ -28,25 +28,79 @@ const BlogDetails = () => {
     fetchBlogs();
   }, []);
 
-  // 🔹 UPDATED: Find the blog that matches the slug (same logic as Insights.jsx)
+  // 🔹 Find the blog that matches the slug
   const currentIndex = blogs.findIndex((b) => {
     const blogSlug = b.slug || "untitled-blog";
-    // console.log(`Comparing URL slug "${slug}" with blog slug "${blogSlug}" for: "${b.title}"`); // Debug log
     return blogSlug === slug;
   });
 
   const blog = blogs[currentIndex];
 
-  // console.log("Found blog:", blog); // Debug log
-
-  if (loading) return <p className="text-center mt-10">Loading...</p>;
-
-  if (!blog) {6
+  // 🔹 Show skeleton while loading
+  if (loading) {
     return (
-      <div className="text-center text-red-500 mt-10">
-        <p>Blog post not found</p>
-        <p className="text-sm text-gray-500 mt-2">Looking for slug: "{slug}"</p>
-        <p className="text-xs text-gray-400 mt-1">Available slugs: {blogs.map(b => b.slug || 'no-slug').join(', ')}</p>
+      <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
+        {/* Back Button Skeleton */}
+        <Skeleton className="w-32 h-10 mb-4" />
+
+        <div className="flex flex-row max-lg:flex-col gap-10">
+          {/* Image Skeleton */}
+          <div className="lg:w-1/2">
+            <Skeleton className="w-full h-80 rounded" />
+          </div>
+          
+          {/* Content Skeleton */}
+          <div className="flex flex-col justify-center gap-7 lg:w-1/2">
+            {/* Title Skeleton */}
+            <Skeleton className="w-full h-12" />
+            <Skeleton className="w-4/5 h-10" />
+            
+            {/* Subtitle Skeleton */}
+            <Skeleton className="w-full h-8" />
+            <Skeleton className="w-3/4 h-6" />
+            
+            {/* Author and Date Skeleton */}
+            <div className="flex items-center gap-4">
+              <Skeleton className="w-32 h-6" />
+              <Skeleton className="w-28 h-6" />
+            </div>
+          </div>
+        </div>
+
+        {/* Content Skeleton */}
+        <div className="mt-10 lg:w-[80%] space-y-4">
+          <Skeleton className="w-full h-6" />
+          <Skeleton className="w-full h-6" />
+          <Skeleton className="w-4/5 h-6" />
+          <Skeleton className="w-full h-6" />
+          <Skeleton className="w-3/4 h-6" />
+          <Skeleton className="w-full h-6" />
+          <Skeleton className="w-5/6 h-6" />
+          <Skeleton className="w-full h-6" />
+        </div>
+      </div>
+    );
+  }
+
+  // 🔹 Show error if blog not found
+  if (!blog) {
+    return (
+      <div className="container mt-10 mx-auto px-10 max-lg:px-4 pb-24">
+        <button
+          onClick={() => navigate(-1)}
+          className="px-5 py-2 text-[#277A2D] hover:bg-[#277A2D] hover:text-white border border-[#4CAF50] rounded-md transition-colors duration-300 cursor-pointer flex items-center gap-2 mb-4"
+        >
+          <span><FaArrowLeft /></span> <span>Back</span>
+        </button>
+        
+        <div className="text-center text-red-500 mt-20">
+          <h2 className="text-2xl font-bold mb-4">Blog Post Not Found</h2>
+          <p className="text-lg mb-2">Sorry, we couldn't find the blog post you're looking for.</p>
+          <p className="text-sm text-gray-500 mt-2">Slug: "{slug}"</p>
+          <p className="text-xs text-gray-400 mt-1">
+            Available slugs: {blogs.map(b => b.slug || 'no-slug').join(', ')}
+          </p>
+        </div>
       </div>
     );
   }
@@ -89,6 +143,7 @@ const BlogDetails = () => {
               src={blog.imageUrl}
               alt={blog.title}
               className="w-full h-auto object-contain rounded"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col justify-center gap-7 lg:w-1/2">
