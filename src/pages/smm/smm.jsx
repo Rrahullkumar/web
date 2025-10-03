@@ -287,7 +287,7 @@ const Smm = () => {
       <Helmet>
 
         <title>Best Social Media Marketing Agency in Gurgaon | WebNest Media</title>
-        <meta name="description" content="WebNest Media is Gurgaon's top social media marketing agency. We offer paid ads, regular posting, influencer marketing, A/B testing & more to boost your brand online." />
+        <meta name="description" content="Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
         <link rel="canonical" href="https://webnestmedia.com/social-media-marketing" />
@@ -730,7 +730,7 @@ const Smm = () => {
 
                 {/* Cons Section Content */}
                 <div className="w-1/2 p-4 lg:p-8 text-white flex flex-col justify-start z-10 pl-8 lg:pl-12">
-                  <div className="flex flex-col gap-3 lg:gap-5">
+                  <div className="flex flex-col gap-11 lg:gap-14">
                     {/* Thumbs Down Icon */}
                     <div className="mx-auto">
                       <img src={thumbsDown} alt="" />
@@ -914,50 +914,6 @@ const Smm = () => {
           <h2 className="text-[#409338] mb-[50px] font-bold text-[32px] leading-[40px]  text-center stroke-custom fill-custom">FAQs About Social Media Marketing     </h2>
           <Accordian />
         </div>
-
-        {/* get in touch section */}
-        <section className="w-full bg-white py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col items-center justify-center text-center space-y-8 md:space-y-12">
-              {/* Small heading */}
-              <p className="text-sm md:text-base lg:text-lg text-gray-600 font-medium tracking-wide uppercase">
-                LET'S COLLABORATE
-              </p>
-
-              {/* Main content area using CSS Grid */}
-              <div className="grid grid-cols-1 place-items-center relative">
-                {/* Foreground text */}
-                <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black col-start-1 row-start-1 z-10">
-                  LET'S WORK
-                  <br />
-                  <span className="block mt-8">TOGETHER</span>
-                </h2>
-
-                {/* Circular Button */}
-                <div className="col-start-1 row-start-1 z-20 flex flex-col items-center justify-center">
-                  <button
-                    className="bg-[#4CAF50] hover:bg-[#45a049] text-white w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 rounded-full flex flex-col items-center justify-center transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#4CAF50]/30 shadow-lg hover:shadow-xl group"
-                    aria-label="Get in touch with us"
-                  >
-                    {/* Arrow Icon */}
-                    <svg
-                      className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8 mb-1 transform transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                    </svg>
-
-                    {/* Get In Touch Text */}
-                    <span className="text-xs md:text-sm lg:text-base font-medium leading-tight">
-                      Get In Touch
-                    </span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
 
 
