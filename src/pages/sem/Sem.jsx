@@ -74,7 +74,7 @@ const Sem = () => {
       description: (
         <>
           <section className="">
-            <div className="flex flex-row gap-32 justify-between max-lg:flex-col max-lg:gap-5 gap-10">
+            <div className="flex flex-row justify-between max-lg:flex-col max-lg:gap-5 gap-10">
               <div className="flex  items-center">
                 <h3 className="text-5xl max-lg:text-3xl font-semibold ">
                   PPC Services
@@ -1408,7 +1408,7 @@ const Sem = () => {
           </div>
         </section>
 
-        <div className="FAQS mx-auto container ">
+        <div className="mx-auto container ">
           <h2 className="text-[#409338] font-bold text-[40px] leading-[40px] text-center max-md:text-[28px] max-md:leading-[28px]  stroke-custom fill-custom">
             Let's address your questions today
           </h2>

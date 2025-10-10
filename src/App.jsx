@@ -1,5 +1,5 @@
-
-import  { useEffect } from 'react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'; // Added this import
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -30,6 +30,40 @@ import SmoothCursor from "./components/smoothCursor";
 import Insight from './pages/Insight/Insight'
 import BlogDetails from './pages/Insight/BlogDetails';
 import Contactfooter from './components/contactfooter/contactfooter';
+
+// Main Content Component with conditional padding
+const MainContent = () => {
+  const location = useLocation();
+
+  return (
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search-engine-marketing" element={<Sem />} />
+        <Route path="/search-engine-optimization" element={<SEo />} />
+        <Route path="/social-media-marketing" element={<Smm />} />
+        <Route path="/web-development" element={<Web />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/content-marketing" element={<ContentMarketing />} />
+        <Route path="/affiliate-marketing" element={<Affilatemarketing />} />
+        <Route path="/brand-strategy" element={<Brandmarketing />} />
+        <Route path="/customer-retention" element={<Customer />} />
+        <Route path="/online-reputation-management" element={<Orm />} />
+        <Route path="/digital-transformation" element={<DigitalTranformationservice />} />
+        <Route path="/market-research-insights" element={<MarketingResearch />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Conatct />} />
+        <Route path="/lead-generation" element={<Leadgeneration />} />
+        <Route path="/mobile-marketing" element={<MobileMarketing />} />
+        <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
+        <Route path='/sms-marketing' element={<SmsMarketing />} />
+        <Route path='/email-marketing' element={<Emailmarketing />} />
+        <Route path='/blogs' element={<Insight />} />
+        <Route path="/blogs/:slug" element={<BlogDetails />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+  );
+};
+
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -38,50 +72,17 @@ const App = () => {
     });
   }, []);
 
-
-  
-
   return (
     <>
-      
-      
+      <Router>
+        <ScrollToTop />
+        <Header />
 
-        <Router>
-          <ScrollToTop />
-          <Header />
+        <MainContent />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search-engine-marketing" element={<Sem />} />
-            <Route path="/search-engine-optimization" element={<SEo />} />
-            <Route path="/social-media-marketing" element={<Smm />} />
-            <Route path="/web-development" element={<Web />} />
-            <Route path="/privacy-policy" element={<Privacy />} />
-            <Route path="/content-marketing" element={<ContentMarketing />} />
-            <Route path="/affiliate-marketing" element={<Affilatemarketing />} />
-            <Route path="/brand-strategy" element={<Brandmarketing />} />
-            <Route path="/customer-retention" element={<Customer />} />
-            <Route path="/online-reputation-management" element={<Orm />} />
-            <Route path="/digital-transformation" element={<DigitalTranformationservice />} />
-            <Route path="/market-research-insights" element={<MarketingResearch />} />
-            <Route path="/about-us" element={<About />} />
-            <Route path="/contact-us" element={<Conatct />} />
-            <Route path="/lead-generation" element={<Leadgeneration />} />
-            <Route path="/mobile-marketing" element={<MobileMarketing />} />
-            <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
-            <Route path='/sms-marketing' element={<SmsMarketing />} />
-            <Route path='/email-marketing' element={<Emailmarketing />} />
-            
-            <Route path='/blogs' element={<Insight />} />
-              <Route path="/blogs/:slug" element={<BlogDetails />} />
-
-            <Route path="*" element={<Navigate to="/" replace />} />
-          
-          </Routes>
-          <Contactfooter></Contactfooter>
-          <Footer />
-        </Router>
-      
+        <Contactfooter />
+        <Footer />
+      </Router>
     </>
   );
 }

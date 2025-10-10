@@ -1,5 +1,5 @@
 // import React from "react";
-import "./accordian.css";
+// import "./accordian.css";
 
 const Accordion = () => {
   return (
