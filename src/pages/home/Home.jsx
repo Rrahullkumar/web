@@ -45,6 +45,17 @@ import Divyanshed from './resources/logo/Divyanshed.svg';
 import divyanshglobal from './resources/logo/divyanshglobal.svg';
 import dosaada from './resources/logo/dosaada.svg';
 import ForeCorner from './resources/logo/ForeCorner.svg';
+import heritage from './resources/industries/Heritage.png'
+import houseFrover from './resources/industries/Houseforever.png'
+import lotus from './resources/industries/Lotus.png'
+import nt from './resources/industries/NT.png'
+import stonesand from './resources/industries/sandstones.png'
+import shree from './resources/industries/shree.png'
+import sports from './resources/industries/Sports.png'
+import ankImg from './resources/industries/ank.png'
+import carworldImg from './resources/industries/carworld.png'
+import dosaImg from './resources/industries/Dosa.png'
+import harishImg from './resources/industries/Harish.png'
 
 import Harishresidennce from './resources/logo/Harishresidence.svg';
 import HouseForever from './resources/logo/HouseForever.svg';
@@ -461,7 +472,7 @@ const Home = () => {
           <div className="wrapper">
             <div className="marquee-track">
               {/* First set of logos */}
-              <div className="item">
+              {/* <div className="item">
                 <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
               </div>
               <div className="item">
@@ -508,10 +519,43 @@ const Home = () => {
               </div>
               <div className="item">
                 <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
+              </div> */}
+              <div className="item">
+                <img className="logo-img" src={heritage} alt="heritage Logo" aria-label="Heritage Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={houseFrover} alt="houseFrover Logo" aria-label="houseFrover Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={lotus} alt="lotus Logo" aria-label="lotus Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={nt} alt="nt Logo" aria-label="nt Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={stonesand} alt="sandstone Logo" aria-label="sandstone Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={sports} alt="sports Logo" aria-label="sports Logo" />
+              </div>
+               <div className="item">
+                <img className="logo-img" src={shree} alt="shree Logo" aria-label="shree Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ankImg} alt="ank Logo" aria-label="ank Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={carworldImg} alt="carworld Logo" aria-label="carworld Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={dosaImg} alt="dosa Logo" aria-label="dosa Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
               </div>
 
               {/* Duplicate set for seamless loop */}
-              <div className="item">
+              {/* <div className="item">
                 <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
               </div>
               <div className="item">
@@ -558,7 +602,42 @@ const Home = () => {
               </div>
               <div className="item">
                 <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
+              </div> */}
+
+              <div className="item">
+                <img className="logo-img" src={heritage} alt="heritage Logo" aria-label="Heritage Logo" />
               </div>
+              <div className="item">
+                <img className="logo-img" src={houseFrover} alt="houseFrover Logo" aria-label="houseFrover Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={lotus} alt="lotus Logo" aria-label="lotus Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={nt} alt="nt Logo" aria-label="nt Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={stonesand} alt="sandstone Logo" aria-label="sandstone Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={sports} alt="sports Logo" aria-label="sports Logo" />
+              </div>
+               <div className="item">
+                <img className="logo-img" src={shree} alt="shree Logo" aria-label="shree Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={ankImg} alt="ank Logo" aria-label="ank Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={carworldImg} alt="carworld Logo" aria-label="carworld Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={dosaImg} alt="dosa Logo" aria-label="dosa Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
+              </div>
+
             </div>
           </div>
         </div>

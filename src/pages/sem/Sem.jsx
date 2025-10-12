@@ -1322,8 +1322,8 @@ const Sem = () => {
             <img src={image12} alt="" />
           </div>
         </div>
-            
-        <ContactSection/>
+
+        <ContactSection />
 
         <section className=" max-w-[1440px] mx-auto pb-12 px-4 lg:px-10 bg-white text-black lg:mt-24 max-lg:mt-10">
           <h2 className="text-3xl lg:text-5xl font-semibold mb-4 leading-relaxed">
@@ -1423,7 +1423,7 @@ const Sem = () => {
                 <div className="accordion-content">
                   <p>
                     Search Engine Marketing (SEM) is a form of online marketing
-                    that aims to increase a website’s visibility on search
+                    that aims to increase a website's visibility on search
                     engine results pages (SERPs). It involves paid strategies,
                     like pay-per-click (PPC) advertising, to ensure a website
                     appears at the top of search results for relevant keywords.
@@ -1481,7 +1481,7 @@ const Sem = () => {
                 <div className="accordion-content">
                   <p>
                     With the pay-per-click (PPC) model, marketers are charged a
-                    fee each time a user clicks on their ad. It’s a key
+                    fee each time a user clicks on their ad. It's a key
                     component of SEM, allowing advertisers to bid on keywords
                     and have their ads appear in the sponsored section of search
                     results. Google Ads is one of the most popular platforms for
@@ -1489,10 +1489,13 @@ const Sem = () => {
                   </p>
                 </div>
               </div>
+            </div>
 
+            {/* Right Column */}
+            <div className="accordion-column">
               <div className="accordion ">
-                <input type="checkbox" id="left-5" />
-                <label className="accordion-label" htmlFor="left-5">
+                <input type="checkbox" id="right-5" />
+                <label className="accordion-label" htmlFor="right-5">
                   Why is keyword research important in SEM?
                 </label>
                 <div className="accordion-content">
@@ -1505,10 +1508,7 @@ const Sem = () => {
                   </p>
                 </div>
               </div>
-            </div>
 
-            {/* Right Column */}
-            <div className="accordion-column">
               <div className="accordion">
                 <input type="checkbox" id="right-6" />
                 <label className="accordion-label" htmlFor="right-6">
@@ -1519,7 +1519,7 @@ const Sem = () => {
                     Google Ads is a PPC platform that allows advertisers to bid
                     on keywords targeting users who search for terms related to
                     their business. Ads appear in search results or across
-                    Google’s network and are ranked based on bid amount, ad
+                    Google's network and are ranked based on bid amount, ad
                     quality, and keyword relevance.
                   </p>
                 </div>
@@ -1533,7 +1533,7 @@ const Sem = () => {
                 <div className="accordion-content">
                   <p>
                     Ad Rank is a metric used by Google Ads to determine the
-                    position of your ad on the results page. It’s based on your
+                    position of your ad on the results page. It's based on your
                     bid, Quality Score, ad relevance, and the expected impact of
                     ad extensions and formats. Higher Ad Rank gives better ad
                     placements.
@@ -1559,6 +1559,7 @@ const Sem = () => {
             </div>
           </div>
         </div>
+
       </div>
     </>
   );

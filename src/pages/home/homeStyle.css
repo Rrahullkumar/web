@@ -899,6 +899,12 @@ cursor: pointer;
   display: block;
 }
 
+.long-logo{
+  width: 300px;
+  height: 210px;
+  
+}
+
 /* Smooth marquee animation keyframes */
 @keyframes marquee {
   0% {
@@ -942,6 +948,12 @@ cursor: pointer;
     width: 120px;
     height: 90px;
   }
+
+  .long-logo{
+  width: 200px;
+  height: 210px;
+  
+}
   
   .item {
     margin-right: 1rem;

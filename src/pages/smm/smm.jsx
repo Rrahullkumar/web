@@ -116,6 +116,112 @@ const Smm = () => {
   ];
 
 
+  // const socialMediaSchema = {
+  //   "@context": "https://schema.org",
+  //   "@graph": [
+  //     {
+  //       "@type": "Service",
+  //       "@id": "https://webnestmedia.com/social-media-marketing#service",
+  //       "name": "Social Media Marketing",
+  //       "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively.",
+  //       "provider": {
+  //         "@type": "Organization",
+  //         "name": "WebNest Media",
+  //         "url": "https://webnestmedia.com",
+  //         "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+  //         "sameAs": [
+  //           "https://www.instagram.com/webnestmediagroup/",
+  //           "https://www.facebook.com/people/WebNest-Media/61576616442478/",
+  //           "https://www.linkedin.com/company/webnest-media-group/"
+  //         ]
+  //       },
+  //       "areaServed": {
+  //         "@type": "Place",
+  //         "address": {
+  //           "@type": "PostalAddress",
+  //           "streetAddress": "Floor no. 1, AltF Coworking, Orchid Business Park, Sohna Road",
+  //           "addressLocality": "Gurgaon",
+  //           "addressRegion": "Haryana",
+  //           "postalCode": "122001",
+  //           "addressCountry": "IN"
+  //         }
+  //       },
+  //       "url": "https://webnestmedia.com/social-media-marketing"
+  //     },
+  //     {
+  //       "@type": "WebPage",
+  //       "@id": "https://webnestmedia.com/social-media-marketing#webpage",
+  //       "url": "https://webnestmedia.com/social-media-marketing",
+  //       "name": "Social Media Marketing Agency – WebNest Media",
+  //       "description": "Grow your brand presence and engagement with social media marketing services by WebNest Media. We create tailored content strategies, run paid social ad campaigns, and help you connect with your audience on every platform."
+  //     },
+  //     {
+  //       "@type": "BreadcrumbList",
+  //       "@id": "https://webnestmedia.com/social-media-marketing/#breadcrumb",
+  //       "itemListElement": [
+  //         {
+  //           "@type": "ListItem",
+  //           "position": 1,
+  //           "name": "Home",
+  //           "item": "https://webnestmedia.com/"
+  //         },
+  //         {
+  //           "@type": "ListItem",
+  //           "position": 2,
+  //           "name": "Services",
+  //           "item": "https://webnestmedia.com/"
+  //         },
+  //         {
+  //           "@type": "ListItem",
+  //           "position": 3,
+  //           "name": "Social Media Marketing",
+  //           "item": "https://webnestmedia.com/social-media-marketing"
+  //         }
+  //       ]
+  //     },
+  //     {
+  //       "@type": "FAQPage",
+  //       "@id": "https://webnestmedia.com/social-media-marketing#faq",
+  //       "mainEntity": [
+  //         {
+  //           "@type": "Question",
+  //           "name": "What does your social media marketing service include?",
+  //           "acceptedAnswer": {
+  //             "@type": "Answer",
+  //             "text": "We handle content creation, paid social ad campaigns, strategy development, community management, and influencer outreach tailored to your brand goals."
+  //           }
+  //         },
+  //         {
+  //           "@type": "Question",
+  //           "name": "Which platforms do you manage?",
+  //           "acceptedAnswer": {
+  //             "@type": "Answer",
+  //             "text": "We manage campaigns and content across Instagram, Facebook, LinkedIn, Twitter, and YouTube, depending on where your audience is most active."
+  //           }
+  //         },
+  //         {
+  //           "@type": "Question",
+  //           "name": "Why choose WebNest Media for social media marketing?",
+  //           "acceptedAnswer": {
+  //             "@type": "Answer",
+  //             "text": "We’re a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
+  //           }
+  //         },
+
+
+  //       ]
+  //     },
+
+  //     {
+  //       "@type": "smm",
+  //       "@id": "https://webnestmedia.com/social-media-marketing#webpage",
+  //       "url": "https://webnestmedia.com/social-media-marketing",
+  //       "name": "Best Social Media Marketing Agency | Grow Your Brand Online",
+  //       "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively."
+  //     },
+  //   ]
+  // };
+
   const socialMediaSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -204,23 +310,30 @@ const Smm = () => {
             "name": "Why choose WebNest Media for social media marketing?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We’re a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
+              "text": "We're a results-driven agency in Gurgaon that combines creativity with strategy. Our campaigns drive engagement, leads, and real brand growth."
             }
-          },
-
-
+          }
         ]
       },
-
       {
-        "@type": "smm",
-        "@id": "https://webnestmedia.com/social-media-marketing#webpage",
-        "url": "https://webnestmedia.com/social-media-marketing",
+        "@type": "Product",
+        "@id": "https://webnestmedia.com/social-media-marketing#product",
         "name": "Best Social Media Marketing Agency | Grow Your Brand Online",
-        "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively."
-      },
+        "image": "https://webnestmedia.com/assets/topimage-CDPM3k0Q.svg",
+        "description": "Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively.",
+        "brand": {
+          "@type": "Brand",
+          "name": "WebNest Media"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1709"
+        }
+      }
     ]
   };
+
 
   const servicesData = [
     {
@@ -286,7 +399,7 @@ const Smm = () => {
     <>
       <Helmet>
 
-        <title>Best Social Media Marketing Agency in Gurgaon | WebNest Media</title>
+        <title>Best Social Media Marketing Agency | Grow Your Brand Online</title>
         <meta name="description" content="Our Social Media Marketing Agency helps businesses connect with audiences, increase reach, and grow their online presence effectively." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
