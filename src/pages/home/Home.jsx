@@ -24,6 +24,7 @@ import facebookads from "../../pages/home/resources/Facebookads.png";
 import instagramads from "../../pages/home/resources/instagramads.png";
 import Youtubeads from "../../pages/home/resources/Youtubeads.png";
 
+
 import Slider from "./componnet/ResponsiveCarousel";
 import AnimatedCardList from "../../components/industryCard/AnimatedCardList";
 
@@ -56,6 +57,11 @@ import ankImg from './resources/industries/ank.png'
 import carworldImg from './resources/industries/carworld.png'
 import dosaImg from './resources/industries/Dosa.png'
 import harishImg from './resources/industries/Harish.png'
+import reality from "./resources/industries/realtyxpo.png"
+import divyansh from "./resources/industries/divyansh.png"
+import gramroots from "./resources/industries/gramroots.png"
+import infraguru from "./resources/industries/infra.png"
+import nimble from "./resources/industries/nim.png"
 
 import Harishresidennce from './resources/logo/Harishresidence.svg';
 import HouseForever from './resources/logo/HouseForever.svg';
@@ -553,6 +559,21 @@ const Home = () => {
               <div className="item">
                 <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
               </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={reality} alt="reality Logo" aria-label="reality Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={divyansh} alt="divyansh Logo" aria-label="divyansh Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
+              </div>
 
               {/* Duplicate set for seamless loop */}
               {/* <div className="item">
@@ -636,6 +657,21 @@ const Home = () => {
               </div>
               <div className="item">
                 <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img long-logo" src={reality} alt="reality Logo" aria-label="reality Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={divyansh} alt="divyansh Logo" aria-label="divyansh Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
+              </div>
+               <div className="item">
+                <img className="logo-img" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
+              </div>
+              <div className="item">
+                <img className="logo-img" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
               </div>
 
             </div>
