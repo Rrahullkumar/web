@@ -40,7 +40,7 @@ const contactfooter = () => {
         };
 
         try {
-            const response = await fetch("https://webnestmedia.com/webnestmediacontac.php/contact", {
+            const response = await fetch("https://webnestmedia.in/webnestmediacontac.php/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),
