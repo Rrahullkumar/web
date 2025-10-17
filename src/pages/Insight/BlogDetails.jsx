@@ -104,7 +104,7 @@ const BlogDetails = () => {
       </div>
     );
   }
-
+    
   return (
     <>
       {blog && (
@@ -167,7 +167,7 @@ const BlogDetails = () => {
         </div>
 
         <div 
-          className="text-lg leading-relaxed mt-10 lg:w-[80%] blog-content"
+          className="text-lg leading-relaxed mt-10 lg:w-[100%] blog-content"
           dangerouslySetInnerHTML={{
             __html: (blog.content || "")
           }}
