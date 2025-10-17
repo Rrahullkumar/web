@@ -302,7 +302,7 @@ const ContactUsPage = () => {
                 className="text-base p-3 font-semibold rounded-lg border border-opacity-50 overflow-hidden relative"
               >
                 <a
-                  href="mailto:connect@webnestmedia.com"
+                  href="mailto:connect@webnestmedia.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WebNest Media  Conatct us page"
@@ -333,12 +333,12 @@ const ContactUsPage = () => {
                 className="text-base p-3 font-semibold rounded-lg border border-opacity-50 overflow-hidden relative"
               >
                 <a
-                  href="mailto:info@webnestmedia.com"
+                  href="mailto:info@webnestmedia.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WebNest Media  info website "
                 >
-                  info@webnestmedia.com
+                  info@webnestmedia.in
                 </a>
               </motion.button>
             </div>

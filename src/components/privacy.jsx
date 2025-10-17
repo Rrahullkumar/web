@@ -223,7 +223,7 @@ const privacy = () => {
       <h2>Contact Us</h2>
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
       <ul>
-        <li>By email: info@webnestmedia.com</li>
+        <li>By email: info@webnestmedia.in</li>
         <li>By visiting this page on our website: <a href="https://webnestmedia.in/contact" target="_blank"
                  aria-label="WebNest Media  Conatct us page"
 
@@ -240,7 +240,7 @@ const privacy = () => {
       </p>
       
       <h3>Email Us</h3>
-      <p>info@webnestmedia.com</p>
+      <p>info@webnestmedia.in</p>
     </div>
 
 

@@ -105,10 +105,10 @@ const Footer = () => {
     <h4 className="text-lg font-semibold mb-2">Contact US</h4>
     <p>
       <a
-        href="mailto:info@webnestmedia.com"
+        href="mailto:info@webnestmedia.in"
         className="text-sm text-blue-300 hover:underline"
       >
-        info@webnestmedia.com
+        info@webnestmedia.in
       </a>
     </p>
    <p>

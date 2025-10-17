@@ -27,10 +27,10 @@ const Accordion = () => {
           </label>
           <div className="accordion-content">
             <p>
-              You can contact us via email at <a href="mailto:info@webnestmedia.com"
+              You can contact us via email at <a href="mailto:info@webnestmedia.in"
                 aria-label="WebNest Media  info webmail"
               
-              >info@webnestmedia.com</a> or call us at +91-9696964606.
+              >info@webnestmedia.in</a> or call us at +91-9696964606.
             </p>
           </div>
         </div>
@@ -69,11 +69,11 @@ const Accordion = () => {
           </label>
           <div className="accordion-content">
             <p>
-              Emailing us at <a href="mailto:info@webnestmedia.com"
+              Emailing us at <a href="mailto:info@webnestmedia.in"
                        aria-label="WebNest Media  info Email"
 
               
-              >info@webnestmedia.com</a> or calling +91-9696964606 is the fastest way to reach us.
+              >info@webnestmedia.in</a> or calling +91-9696964606 is the fastest way to reach us.
             </p>
           </div>
         </div>

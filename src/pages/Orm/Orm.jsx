@@ -149,7 +149,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
           "@type": "ContactPoint",
           "telephone": "+91-9696964606",
           "contactType": "Customer Support",
-          "email": "info@webnestmedia.com",
+          "email": "info@webnestmedia.in",
           "areaServed": "IN",
           "availableLanguage": ["English", "Hindi"],
         },
@@ -237,7 +237,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
           "@type": "ContactPoint",
           "telephone": "+91-9696964606",
           "contactType": "Customer Support",
-          "email": "info@webnestmedia.com",
+          "email": "info@webnestmedia.in",
           "areaServed": "IN",
           "availableLanguage": ["English", "Hindi"]
         },

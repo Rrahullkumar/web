@@ -89,7 +89,7 @@ const SmsMarketing = () => {
           "@type": "ContactPoint",
           "telephone": "+91-9696964606",
           "contactType": "Customer Support",
-          "email": "info@webnestmedia.com",
+          "email": "info@webnestmedia.in",
           "areaServed": "IN",
           "availableLanguage": ["English", "Hindi"],
         },

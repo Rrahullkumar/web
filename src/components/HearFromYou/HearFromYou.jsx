@@ -38,7 +38,7 @@ const ContactSection = () => {
                     <div className="space-y-1 lg:space-y-3">
                         <p className="text-xs lg:text-base xl:text-lg">
                             <span className="font-semibold">Email:</span>{" "}
-                            info@webnestmedia.com
+                            info@webnestmedia.in
                         </p>
                         <p className="text-xs lg:text-base xl:text-lg">
                             <span className="font-semibold">Phone no.:</span> +91 9696 964 606
