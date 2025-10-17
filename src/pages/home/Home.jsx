@@ -244,7 +244,7 @@ const Home = () => {
         <meta name="keywords" content="digital marketing company in India, digital marketing service, top digital marketing agencies in gurgaon, top digital marketing companies in gurgaon, India , top 10 digital marketing companies in gurgaon, creative digital marketing company in gurgaon, digital marketing consultant in gurgaon" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/" />
+        <link rel="canonical" href="https://webnestmedia.in/" />
 
 
         {/* Organization Schema */}
@@ -253,12 +253,12 @@ const Home = () => {
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com/",
+        "url": "https://webnestmedia.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
           "width": 152,
           "height": 43
         },
@@ -290,11 +290,11 @@ const Home = () => {
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://webnestmedia.com/#localbusiness",
+        "@id": "https://webnestmedia.in/#localbusiness",
         "name": "WebNest Media",
         "image": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
           "width": 152,
           "height": 43
         },
@@ -311,7 +311,7 @@ const Home = () => {
           "latitude": 28.4260573,
           "longitude": 77.0365718
         },
-        "url": "https://webnestmedia.com/",
+        "url": "https://webnestmedia.in/",
         "telephone": "+91-9696964606",
         "priceRange": "Varies",
         "openingHoursSpecification": [
@@ -328,7 +328,7 @@ const Home = () => {
           "https://www.instagram.com/webnestmediagroup?igsh=MTFscDJvdGRzYjd3Zw=="
         ],
         "parentOrganization": {
-          "@id": "https://webnestmedia.com/#organization"
+          "@id": "https://webnestmedia.in/#organization"
         }
       }
       `}
@@ -340,18 +340,18 @@ const Home = () => {
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "@id": "https://webnestmedia.com/#website",
-        "url": "https://webnestmedia.com/",
+        "@id": "https://webnestmedia.in/#website",
+        "url": "https://webnestmedia.in/",
         "name": "WebNest Media",
         "description": "WebNest Media is a Gurgaon-based digital marketing agency specializing in SEO, SMM, PPC, Email Marketing, Influencer Marketing, and content strategy for businesses of all sizes.",
         "publisher": {
-          "@id": "https://webnestmedia.com/#organization"
+          "@id": "https://webnestmedia.in/#organization"
         },
         "potentialAction": {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://webnestmedia.com/?s={search_term_string}"
+            "urlTemplate": "https://webnestmedia.in/?s={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         }

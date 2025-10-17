@@ -32,15 +32,15 @@ const InfluencerMarketing = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/influencer-marketing" />
+  <link rel="canonical" href="https://webnestmedia.in/influencer-marketing" />
 
   {/* Open Graph tags can be uncommented if needed */}
   {/* 
   <meta property="og:title" content="Influencer Marketing Company in Gurgaon | Instagram, YouTube & More" />
   <meta property="og:description" content="Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/influencer-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/influencer-marketing" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-CWYK5-Lz.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -49,7 +49,7 @@ const InfluencerMarketing = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/influencer-marketing",
+      "url": "https://webnestmedia.in/influencer-marketing",
       "name": "Influencer Marketing | WebNest Media",
       "description":
         "Connect with top social media influencers in Gurgaon to amplify your brand’s voice. WebNest Media offers tailored influencer marketing strategies across Instagram, YouTube, and more.",
@@ -60,29 +60,29 @@ const InfluencerMarketing = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Influencer Marketing",
-            "item": "https://webnestmedia.com/influencer-marketing",
+            "item": "https://webnestmedia.in/influencer-marketing",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -122,7 +122,7 @@ const InfluencerMarketing = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

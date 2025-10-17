@@ -78,15 +78,15 @@ const Leadgeneration = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/lead-generation" />
+  <link rel="canonical" href="https://webnestmedia.in/lead-generation" />
 
   {/* Optional Open Graph Tags */}
   {/*
   <meta property="og:title" content="Lead Generation Company in Gurgaon | Drive Quality Leads" />
   <meta property="og:description" content="Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/lead-generation" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-Dc6cZZ9c.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/lead-generation" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-Dc6cZZ9c.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -95,7 +95,7 @@ const Leadgeneration = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/lead-generation",
+      "url": "https://webnestmedia.in/lead-generation",
       "name": "Lead Generation Services | WebNest Media",
       "description":
         "Generate high-quality leads with targeted strategies. WebNest Media offers expert lead generation services in Gurgaon that drive real results.",
@@ -106,30 +106,30 @@ const Leadgeneration = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Lead Generation",
-            "item": "https://webnestmedia.com/lead-generation",
+            "item": "https://webnestmedia.in/lead-generation",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -153,7 +153,7 @@ const Leadgeneration = () => {
         "serviceType": "Lead Generation",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -170,7 +170,7 @@ const Leadgeneration = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

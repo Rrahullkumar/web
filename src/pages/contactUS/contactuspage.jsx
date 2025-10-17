@@ -54,7 +54,7 @@ const ContactUsPage = () => {
 
     try {
       const response = await fetch(
-        "https://webnestmedia.com/webnestmediacontac.php/contact",
+        "https://webnestmedia.in/webnestmediacontac.php/contact",
         {
           method: "POST",
           headers: {
@@ -101,7 +101,7 @@ const ContactUsPage = () => {
   return (
     <div className="">
       <Helmet>
-        <link rel="canonical" href="https://webnestmedia.com/contact-us" />
+        <link rel="canonical" href="https://webnestmedia.in/contact-us" />
       </Helmet>
 
       <div className=" flex flex-col justify-center items-center text-center  md:px-8 relative">

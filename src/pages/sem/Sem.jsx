@@ -854,14 +854,14 @@ const Sem = () => {
         <meta name="author" content="WebNest Media" />
         <link
           rel="canonical"
-          href="https://webnestmedia.com/search-engine-marketing"
+          href="https://webnestmedia.in/search-engine-marketing"
         />
 
         {/* <meta property="og:title" content="Best Search Engine Marketing Agency in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media is the best Search Engine Marketing agency in Gurgaon. We boost your Google visibility, traffic & leads with expert PPC management." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/search-engine-marketing" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-h3UpqiFv.png" />
+        <meta property="og:url" content="https://webnestmedia.in/search-engine-marketing" />
+        <meta property="og:image" content="https://webnestmedia.in/assets/heroimage-h3UpqiFv.png" />
         <meta property="og:site_name" content="WebNest Media" /> */}
         {/* 
         <script type="application/ld+json">
@@ -871,7 +871,7 @@ const Sem = () => {
               {
                 "@type": "Service",
                 "@id":
-                  "https://webnestmedia.com/search-engine-marketing#service",
+                  "https://webnestmedia.in/search-engine-marketing#service",
                 name: "Search Engine Marketing",
                 description:
                   "WebNest Media offers expert Search Engine Marketing services to help businesses increase online visibility, drive quality traffic, and grow leads through PPC campaigns.",
@@ -879,8 +879,8 @@ const Sem = () => {
                 provider: {
                   "@type": "Organization",
                   name: "WebNest Media",
-                  url: "https://webnestmedia.com",
-                  logo: "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+                  url: "https://webnestmedia.in",
+                  logo: "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
                   sameAs: [
                     "https://www.instagram.com/webnestmediagroup/",
                     "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -899,13 +899,13 @@ const Sem = () => {
                     addressCountry: "IN",
                   },
                 },
-                url: "https://webnestmedia.com/search-engine-marketing",
+                url: "https://webnestmedia.in/search-engine-marketing",
               },
               {
                 "@type": "WebPage",
                 "@id":
-                  "https://webnestmedia.com/search-engine-marketing#webpage",
-                url: "https://webnestmedia.com/search-engine-marketing",
+                  "https://webnestmedia.in/search-engine-marketing#webpage",
+                url: "https://webnestmedia.in/search-engine-marketing",
                 name: "Search Engine Marketing Services - WebNest Media",
                 description:
                   "Boost your business with powerful SEM services from WebNest Media. Get expert Google Ads management and lead generation strategies tailored for you.",
@@ -913,31 +913,31 @@ const Sem = () => {
               {
                 "@type": "BreadcrumbList",
                 "@id":
-                  "https://webnestmedia.com/search-engine-marketing#breadcrumb",
+                  "https://webnestmedia.in/search-engine-marketing#breadcrumb",
                 itemListElement: [
                   {
                     "@type": "ListItem",
                     position: 1,
                     name: "Home",
-                    item: "https://webnestmedia.com/",
+                    item: "https://webnestmedia.in/",
                   },
                   {
                     "@type": "ListItem",
                     position: 2,
                     name: "Services",
-                    item: "https://webnestmedia.com/#services",
+                    item: "https://webnestmedia.in/#services",
                   },
                   {
                     "@type": "ListItem",
                     position: 3,
                     name: "Search Engine Marketing",
-                    item: "https://webnestmedia.com/search-engine-marketing",
+                    item: "https://webnestmedia.in/search-engine-marketing",
                   },
                 ],
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://webnestmedia.com/search-engine-marketing#faq",
+                "@id": "https://webnestmedia.in/search-engine-marketing#faq",
                 mainEntity: [
                   {
                     "@type": "Question",
@@ -975,15 +975,15 @@ const Sem = () => {
             "@graph": [
               {
                 "@type": "Service",
-                "@id": "https://webnestmedia.com/search-engine-marketing#service",
+                "@id": "https://webnestmedia.in/search-engine-marketing#service",
                 "name": "Search Engine Marketing",
                 "description": "WebNest Media offers expert Search Engine Marketing services to help businesses increase online visibility, drive quality traffic, and grow leads through PPC campaigns.",
                 "serviceType": "Search Engine Marketing",
                 "provider": {
                   "@type": "Organization",
                   "name": "WebNest Media",
-                  "url": "https://webnestmedia.com",
-                  "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+                  "url": "https://webnestmedia.in",
+                  "logo": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
                   "sameAs": [
                     "https://www.instagram.com/webnestmediagroup/",
                     "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -1001,42 +1001,42 @@ const Sem = () => {
                     "addressCountry": "IN"
                   }
                 },
-                "url": "https://webnestmedia.com/search-engine-marketing"
+                "url": "https://webnestmedia.in/search-engine-marketing"
               },
               {
                 "@type": "WebPage",
-                "@id": "https://webnestmedia.com/search-engine-marketing#webpage",
-                "url": "https://webnestmedia.com/search-engine-marketing",
+                "@id": "https://webnestmedia.in/search-engine-marketing#webpage",
+                "url": "https://webnestmedia.in/search-engine-marketing",
                 "name": "Search Engine Marketing Services - WebNest Media",
                 "description": "Boost your business with powerful SEM services from WebNest Media. Get expert Google Ads management and lead generation strategies tailored for you."
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://webnestmedia.com/search-engine-marketing/#breadcrumb",
+                "@id": "https://webnestmedia.in/search-engine-marketing/#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://webnestmedia.com/"
+                    "item": "https://webnestmedia.in/"
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Services",
-                    "item": "https://webnestmedia.com/"
+                    "item": "https://webnestmedia.in/"
                   },
                   {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Search Engine Marketing",
-                    "item": "https://webnestmedia.com/search-engine-marketing"
+                    "item": "https://webnestmedia.in/search-engine-marketing"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://webnestmedia.com/search-engine-marketing#faq",
+                "@id": "https://webnestmedia.in/search-engine-marketing#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -1066,9 +1066,9 @@ const Sem = () => {
               },
               {
                 "@type": "Product",
-                "@id": "https://webnestmedia.com/search-engine-marketing#product",
+                "@id": "https://webnestmedia.in/search-engine-marketing#product",
                 "name": "Best Search Engine Marketing Agency in India",
-                "image": "https://webnestmedia.com/assets/heroimage-DbIYDVwc.png",
+                "image": "https://webnestmedia.in/assets/heroimage-DbIYDVwc.png",
                 "description": "Drive growth with best search engine marketing agency in India. Our SEM services cover PPC, Google Ads, display ads, remarketing & more to maximize ROI and increase website traffic.",
                 "brand": {
                   "@type": "Brand",

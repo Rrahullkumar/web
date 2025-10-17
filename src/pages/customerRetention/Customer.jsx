@@ -33,14 +33,14 @@ const Lead = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/customer-retention" />
+  <link rel="canonical" href="https://webnestmedia.in/customer-retention" />
 
   {/* Open Graph Tags */}
   {/* <meta property="og:title" content="Top Customer Retention Company in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media offers customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/customer-retention" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-E-ZJr6R3.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/customer-retention" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-E-ZJr6R3.svg" />
   <meta property="og:site_name" content="WebNest Media" /> */}
 
   {/* WebPage Structured Data */}
@@ -48,7 +48,7 @@ const Lead = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/customer-retention",
+      "url": "https://webnestmedia.in/customer-retention",
       "name": "Customer Retention Services | WebNest Media",
       "description":
         "WebNest Media offers customer retention services in Gurgaon to improve loyalty, increase repeat sales, and increase long-term business value.",
@@ -59,30 +59,30 @@ const Lead = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Customer Retention",
-            "item": "https://webnestmedia.com/customer-retention",
+            "item": "https://webnestmedia.in/customer-retention",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -106,7 +106,7 @@ const Lead = () => {
         "serviceType": "Customer Retention",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -123,7 +123,7 @@ const Lead = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

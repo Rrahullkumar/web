@@ -92,15 +92,15 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
 
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/online-reputation-management" />
+  <link rel="canonical" href="https://webnestmedia.in/online-reputation-management" />
 
   {/* Optional: Open Graph tags for social sharing */}
   {/* 
   <meta property="og:title" content="Best Online Reputation Management Company in Gurgaon" />
   <meta property="og:description" content="WebNest Media provides trusted ORM services in Gurgaon. We manage reviews, suppress negativity, and grow your brand's online reputation." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/online-reputation-management" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/online-reputation-management" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/c1image-BqeSZwwV.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -109,7 +109,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/online-reputation-management",
+      "url": "https://webnestmedia.in/online-reputation-management",
       "name": "Online Reputation Management | WebNest Media",
       "description":
         "We provide trusted ORM Services in India to manage online reputation, remove negative results, and build a strong positive image for your brand, products, and services.",
@@ -120,30 +120,30 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Online Reputation Management",
-            "item": "https://webnestmedia.com/online-reputation-management",
+            "item": "https://webnestmedia.in/online-reputation-management",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -167,7 +167,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
         "serviceType": "Online Reputation Management",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -184,7 +184,7 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}
@@ -197,8 +197,8 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://webnestmedia.com/online-reputation-management#webpage",
-      "url": "https://webnestmedia.com/online-reputation-management",
+      "@id": "https://webnestmedia.in/online-reputation-management#webpage",
+      "url": "https://webnestmedia.in/online-reputation-management",
       "name": "Online Reputation Management | WebNest Media",
       "description": "We provide trusted ORM Services in India to manage online reputation, remove negative results, and build a strong positive image for your brand, products, and services.",
       "breadcrumb": {
@@ -208,30 +208,30 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/"
+            "item": "https://webnestmedia.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services"
+            "item": "https://webnestmedia.in/services"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Online Reputation Management",
-            "item": "https://webnestmedia.com/online-reputation-management"
+            "item": "https://webnestmedia.in/online-reputation-management"
           }
         ]
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg"
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg"
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -252,11 +252,11 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       },
       "mainEntity": {
         "@type": "Service",
-        "@id": "https://webnestmedia.com/online-reputation-management#service",
+        "@id": "https://webnestmedia.in/online-reputation-management#service",
         "serviceType": "Online Reputation Management",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media"
         },
         "areaServed": {
@@ -272,15 +272,15 @@ We provide trusted ORM Services in India to manage online reputation, remove neg
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "Product",
-      "@id": "https://webnestmedia.com/online-reputation-management#product",
+      "@id": "https://webnestmedia.in/online-reputation-management#product",
       "name": "Best Online Reputation Management",
-      "image": "https://webnestmedia.com/assets/c1image-CYckrPTa.png",
+      "image": "https://webnestmedia.in/assets/c1image-CYckrPTa.png",
       "description": "WebNest Media offers the best online reputation management services in India, helping businesses protect, repair, and enhance their brand image. Our expert ORM strategies remove harmful content, promote positive visibility, and build lasting trust with your audience.",
       "brand": {
         "@type": "Brand",

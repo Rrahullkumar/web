@@ -70,15 +70,15 @@ const ContentMarketing = () => {
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://webnestmedia.com/content-marketing#service",
+        "@id": "https://webnestmedia.in/content-marketing#service",
         "name": "Content Marketing",
         "description": "WebNest Media is a leading content marketing agency in Gurgaon offering strategy-driven content creation, blog writing, SEO content, social content, and storytelling that drives traffic, engagement, and conversions for your brand.",
         "serviceType": "Content Marketing",
         "provider": {
           "@type": "Organization",
           "name": "WebNest Media",
-          "url": "https://webnestmedia.com",
-          "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in",
+          "logo": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
           "sameAs": [
             "https://www.instagram.com/webnestmediagroup/",
             "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -96,42 +96,42 @@ const ContentMarketing = () => {
             "addressCountry": "IN"
           }
         },
-        "url": "https://webnestmedia.com/content-marketing"
+        "url": "https://webnestmedia.in/content-marketing"
       },
       {
         "@type": "WebPage",
-        "@id": "https://webnestmedia.com/content-marketing#webpage",
-        "url": "https://webnestmedia.com/content-marketing",
+        "@id": "https://webnestmedia.in/content-marketing#webpage",
+        "url": "https://webnestmedia.in/content-marketing",
         "name": "Content Marketing Services in Gurgaon – WebNest Media",
         "description": "Looking to grow your brand with high-impact content? WebNest Media offers expert content marketing services in Gurgaon — including blog writing, SEO content, and strategy to attract and engage your ideal audience."
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://webnestmedia.com/content-marketing#breadcrumb",
+        "@id": "https://webnestmedia.in/content-marketing#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/"
+            "item": "https://webnestmedia.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/#services"
+            "item": "https://webnestmedia.in/#services"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Content Marketing",
-            "item": "https://webnestmedia.com/content-marketing"
+            "item": "https://webnestmedia.in/content-marketing"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://webnestmedia.com/content-marketing#faq",
+        "@id": "https://webnestmedia.in/content-marketing#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -180,13 +180,13 @@ const ContentMarketing = () => {
         <meta name="description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/content-marketing" />
+        <link rel="canonical" href="https://webnestmedia.in/content-marketing" />
 
         {/* <meta property="og:title" content="Best Content Marketing Agency in Gurgaon | WebNest Media " />
         <meta property="og:description" content="WebNest Media is the top content marketing agency in Gurgaon. We deliver high-quality, SEO-friendly content that attracts traffic and generates leads." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/content-marketing" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/Rectangle-BqtkALH1.svg" />
+        <meta property="og:url" content="https://webnestmedia.in/content-marketing" />
+        <meta property="og:image" content="https://webnestmedia.in/assets/Rectangle-BqtkALH1.svg" />
         <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">

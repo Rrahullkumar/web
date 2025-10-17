@@ -32,15 +32,15 @@ const SmsMarketing = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/sms-marketing" />
+  <link rel="canonical" href="https://webnestmedia.in/sms-marketing" />
 
   {/* Open Graph tags (optional) */}
   {/* 
   <meta property="og:title" content="Bulk SMS Marketing Services in Gurgaon | Fast & Affordable" />
   <meta property="og:description" content="Reach your audience instantly with WebNest Media's SMS marketing services in Gurgaon. Whether it's promotional, transactional, or OTP messages, we help you connect with your customers." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/sms-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CcByDmTi.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/sms-marketing" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-CcByDmTi.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -49,7 +49,7 @@ const SmsMarketing = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/sms-marketing",
+      "url": "https://webnestmedia.in/sms-marketing",
       "name": "SMS Marketing | WebNest Media",
       "description":
         "Reach your audience instantly with SMS marketing company in Gurgaon. Whether it's promotional or OTP messages, we help you connect with your customers.",
@@ -60,30 +60,30 @@ const SmsMarketing = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "SMS Marketing",
-            "item": "https://webnestmedia.com/sms-marketing",
+            "item": "https://webnestmedia.in/sms-marketing",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -107,7 +107,7 @@ const SmsMarketing = () => {
         "serviceType": "Bulk SMS Marketing",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -124,7 +124,7 @@ const SmsMarketing = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

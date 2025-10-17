@@ -133,15 +133,15 @@ const MobileMarketing = () => {
         "@graph": [
             {
                 "@type": "Service",
-                "@id": "https://webnestmedia.com/mobile-marketing#service",
+                "@id": "https://webnestmedia.in/mobile-marketing#service",
                 "name": "Mobile Marketing",
                 "description": "WebNest Media offers expert mobile marketing services designed to engage your audience via SMS campaigns, app-based ads, push notifications, and mobile-first strategies that drive brand awareness and conversions.",
                 "serviceType": "Mobile Marketing",
                 "provider": {
                     "@type": "Organization",
                     "name": "WebNest Media",
-                    "url": "https://webnestmedia.com",
-                    "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+                    "url": "https://webnestmedia.in",
+                    "logo": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
                     "sameAs": [
                         "https://www.instagram.com/webnestmediagroup/",
                         "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -159,42 +159,42 @@ const MobileMarketing = () => {
                         "addressCountry": "IN"
                     }
                 },
-                "url": "https://webnestmedia.com/mobile-marketing"
+                "url": "https://webnestmedia.in/mobile-marketing"
             },
             {
                 "@type": "WebPage",
-                "@id": "https://webnestmedia.com/mobile-marketing#webpage",
-                "url": "https://webnestmedia.com/mobile-marketing",
+                "@id": "https://webnestmedia.in/mobile-marketing#webpage",
+                "url": "https://webnestmedia.in/mobile-marketing",
                 "name": "Mobile Marketing Services – WebNest Media",
                 "description": "Boost your business with tailored mobile marketing strategies from WebNest Media, including SMS campaigns, app ads, push notifications, and mobile-first initiatives to attract, engage, and convert your audience."
             },
             {
                 "@type": "BreadcrumbList",
-                "@id": "https://webnestmedia.com/mobile-marketing#breadcrumb",
+                "@id": "https://webnestmedia.in/mobile-marketing#breadcrumb",
                 "itemListElement": [
                     {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://webnestmedia.com/"
+                        "item": "https://webnestmedia.in/"
                     },
                     {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "Services",
-                        "item": "https://webnestmedia.com/#services"
+                        "item": "https://webnestmedia.in/#services"
                     },
                     {
                         "@type": "ListItem",
                         "position": 3,
                         "name": "Mobile Marketing",
-                        "item": "https://webnestmedia.com/mobile-marketing"
+                        "item": "https://webnestmedia.in/mobile-marketing"
                     }
                 ]
             },
             {
                 "@type": "FAQPage",
-                "@id": "https://webnestmedia.com/mobile-marketing#faq",
+                "@id": "https://webnestmedia.in/mobile-marketing#faq",
                 "mainEntity": [
                     {
                         "@type": "Question",
@@ -238,13 +238,13 @@ const MobileMarketing = () => {
 
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="WebNest Media" />
-                <link rel="canonical" href="https://webnestmedia.com/mobile-marketing"></link>
+                <link rel="canonical" href="https://webnestmedia.in/mobile-marketing"></link>
 
                 {/* <meta property="og:title" content="Best Mobile Marketing Company in Gurgaon | WebNest Media" />
                 <meta property="og:description" content="Raise your brand’s reach with top mobile marketing company in Gurgaon. We craft data-driven strategies for app promotion & SMS campaigns. Get a free consultation!" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://webnestmedia.com/mobile-marketing" />
-                <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+                <meta property="og:url" content="https://webnestmedia.in/mobile-marketing" />
+                <meta property="og:image" content="https://webnestmedia.in/assets/topimage-CWYK5-Lz.svg" />
                 <meta property="og:site_name" content="WebNest Media" />
  */}
 

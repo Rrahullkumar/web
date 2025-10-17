@@ -37,15 +37,15 @@ const affiliateMarketingSchema = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://webnestmedia.com/affiliate-marketing#service",
+      "@id": "https://webnestmedia.in/affiliate-marketing#service",
       "name": "Affiliate Marketing",
       "description": "Grow your brand with India’s top affiliate marketing agency. Our AM services span affiliate partnerships, campaign management, lead generation & ROI optimization.",
       "serviceType": "Affiliate Marketing",
       "provider": {
         "@type": "Organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "url": "https://webnestmedia.in",
+        "logo": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         "sameAs": [
           "https://www.instagram.com/webnestmediagroup/",
           "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -63,42 +63,42 @@ const affiliateMarketingSchema = {
           "addressCountry": "IN"
         }
       },
-      "url": "https://webnestmedia.com/affiliate-marketing"
+      "url": "https://webnestmedia.in/affiliate-marketing"
     },
     {
       "@type": "WebPage",
-      "@id": "https://webnestmedia.com/affiliate-marketing#webpage",
-      "url": "https://webnestmedia.com/affiliate-marketing",
+      "@id": "https://webnestmedia.in/affiliate-marketing#webpage",
+      "url": "https://webnestmedia.in/affiliate-marketing",
       "name": "Affiliate Marketing Agency – WebNest Media",
       "description": "Maximize your digital reach with affiliate marketing services from WebNest Media. We manage partnerships, track performance, and scale campaigns for higher conversions and ROI through trusted affiliate networks."
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/affiliate-marketing#breadcrumb",
+      "@id": "https://webnestmedia.in/affiliate-marketing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://webnestmedia.com/"
+          "item": "https://webnestmedia.in/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://webnestmedia.com/#services"
+          "item": "https://webnestmedia.in/#services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Affiliate Marketing",
-          "item": "https://webnestmedia.com/affiliate-marketing"
+          "item": "https://webnestmedia.in/affiliate-marketing"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/affiliate-marketing#faq",
+      "@id": "https://webnestmedia.in/affiliate-marketing#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -128,9 +128,9 @@ const affiliateMarketingSchema = {
     },
     {
       "@type": "Product",
-      "@id": "https://webnestmedia.com/affiliate-marketing#product",
+      "@id": "https://webnestmedia.in/affiliate-marketing#product",
       "name": "Best Affiliate Marketing Agency",
-      "image": "https://webnestmedia.com/assets/heroimage-Cxuzhe7b.png",
+      "image": "https://webnestmedia.in/assets/heroimage-Cxuzhe7b.png",
       "description": "WebNest Media is the best affiliate marketing agency in India, connecting brands with top affiliate marketers to drive sales, leads, and traffic. Our tailored affiliate marketing services deliver measurable results and maximize ROI. Get started today!",
       "brand": {
         "@type": "Brand",
@@ -166,13 +166,13 @@ const affiliateMarketingSchema = {
         <meta name="keywords" content="Affiliate Marketing Agency in India, Affiliate Marketing Services" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/affiliate-marketing" />
+        <link rel="canonical" href="https://webnestmedia.in/affiliate-marketing" />
 
         {/* <meta property="og:title" content="Top Affiliate Marketing Agency in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media: Top affiliate marketing agency in Gurgaon. We build and manage programs to ensure maximum ROI for your brand." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/affiliate-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/heroimage--fNAPUCz.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/affiliate-marketing" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/heroimage--fNAPUCz.svg" />
   <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">

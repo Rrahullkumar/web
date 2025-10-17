@@ -25,15 +25,15 @@ const Emailmarketing = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/email-marketing" />
+  <link rel="canonical" href="https://webnestmedia.in/email-marketing" />
 
   {/* Open Graph tags (optional) */}
   {/* 
   <meta property="og:title" content="Email Marketing Company in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media offers expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/email-marketing" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-n24Nf5ba.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/email-marketing" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-n24Nf5ba.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -42,7 +42,7 @@ const Emailmarketing = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/email-marketing",
+      "url": "https://webnestmedia.in/email-marketing",
       "name": "Email Marketing | WebNest Media",
       "description":
         "WebNest Media is an expert email marketing company in Gurgaon. Connect with your audience through personalized and automated campaigns.",
@@ -53,30 +53,30 @@ const Emailmarketing = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Email Marketing",
-            "item": "https://webnestmedia.com/email-marketing",
+            "item": "https://webnestmedia.in/email-marketing",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -100,7 +100,7 @@ const Emailmarketing = () => {
         "serviceType": "Email Marketing",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -117,7 +117,7 @@ const Emailmarketing = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

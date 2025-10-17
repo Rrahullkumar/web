@@ -155,15 +155,15 @@ const Brandmarketing = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/brand-strategy" />
+  <link rel="canonical" href="https://webnestmedia.in/brand-strategy" />
 
   {/* Optional Open Graph Tags */}
   {/* 
   <meta property="og:title" content="Best Branding Agency in Gurgaon | Build a Powerful Brand" />
   <meta property="og:description" content="Develop a winning brand identity with strategy services in Gurgaon. We help define your voice, values, and market positioning and beyond." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/brand-strategy" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/topimage-CWYK5-Lz.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/brand-strategy" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/topimage-CWYK5-Lz.svg" />
   <meta property="og:site_name" content="WebNest Media" />
   */}
 
@@ -172,7 +172,7 @@ const Brandmarketing = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/brand-strategy",
+      "url": "https://webnestmedia.in/brand-strategy",
       "name": "Brand Strategy Services | WebNest Media",
       "description":
         "Develop a winning brand identity with branding agency in Gurgaon. We help define your voice, values, and market positioning and beyond.",
@@ -183,30 +183,30 @@ const Brandmarketing = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Brand Strategy",
-            "item": "https://webnestmedia.com/brand-strategy",
+            "item": "https://webnestmedia.in/brand-strategy",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -230,7 +230,7 @@ const Brandmarketing = () => {
         "serviceType": "Brand Strategy",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -247,7 +247,7 @@ const Brandmarketing = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

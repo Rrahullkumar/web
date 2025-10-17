@@ -40,14 +40,14 @@ const DigitalTranformationservice = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/digital-transformation" />
+  <link rel="canonical" href="https://webnestmedia.in/digital-transformation" />
 
   {/* Open Graph */}
   {/* <meta property="og:title" content="Digital Transformation Services in Gurgaon | WebNest Media" />
   <meta property="og:description" content="Accelerate growth with digital transformation. We help businesses innovate through strategy, automation, and tech integration." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/digital-transformation" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/c1_image-CzR_E7CY.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/digital-transformation" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/c1_image-CzR_E7CY.svg" />
   <meta property="og:site_name" content="WebNest Media" />
  */}
   {/* WebPage Structured Data */}
@@ -55,7 +55,7 @@ const DigitalTranformationservice = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/digital-transformation",
+      "url": "https://webnestmedia.in/digital-transformation",
       "name": "Digital Transformation Services | WebNest Media",
       "description":
         "Accelerate growth with digital transformation services in Gurgaon. We help businesses innovate through strategy, automation, and tech integration.",
@@ -66,30 +66,30 @@ const DigitalTranformationservice = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Digital Transformation",
-            "item": "https://webnestmedia.com/digital-transformation",
+            "item": "https://webnestmedia.in/digital-transformation",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -113,7 +113,7 @@ const DigitalTranformationservice = () => {
         "serviceType": "Digital Transformation",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -130,7 +130,7 @@ const DigitalTranformationservice = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

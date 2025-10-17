@@ -28,7 +28,7 @@ const webDevelopmentSchema = {
     {
       "@type": "Product",
       "name": "Best Web Development Services",
-      "image": "https://webnestmedia.com/assets/topimage-DRW6kc3V.png",
+      "image": "https://webnestmedia.in/assets/topimage-DRW6kc3V.png",
       "description": "WebNest Media is the best web development service provider. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!",
       "brand": {
         "@type": "Brand",
@@ -42,15 +42,15 @@ const webDevelopmentSchema = {
     },
     {
       "@type": "Service",
-      "@id": "https://webnestmedia.com/web-development#service",
+      "@id": "https://webnestmedia.in/web-development#service",
       "name": "Web Development",
       "description": "Get high-performing, responsive websites with the Best Web Development Services in India. We create custom, user-friendly solutions that boost your brand and drive results.",
       "serviceType": "Web Development",
       "provider": {
         "@type": "Organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
-        "logo": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+        "url": "https://webnestmedia.in",
+        "logo": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         "sameAs": [
           "https://www.instagram.com/webnestmediagroup/",
           "https://www.facebook.com/people/WebNest-Media/61576616442478/",
@@ -68,42 +68,42 @@ const webDevelopmentSchema = {
           "addressCountry": "IN"
         }
       },
-      "url": "https://webnestmedia.com/web-development"
+      "url": "https://webnestmedia.in/web-development"
     },
     {
       "@type": "WebPage",
-      "@id": "https://webnestmedia.com/web-development#webpage",
-      "url": "https://webnestmedia.com/web-development",
+      "@id": "https://webnestmedia.in/web-development#webpage",
+      "url": "https://webnestmedia.in/web-development",
       "name": "Web Development Services in India – WebNest Media",
       "description": "Get high-performing, mobile-friendly websites developed by WebNest Media – a leading web development Services in India. We build fast, scalable, and SEO-ready websites that convert visitors into customers."
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://webnestmedia.com/web-development#breadcrumb",
+      "@id": "https://webnestmedia.in/web-development#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://webnestmedia.com/"
+          "item": "https://webnestmedia.in/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://webnestmedia.com/#services"
+          "item": "https://webnestmedia.in/#services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Web Development",
-          "item": "https://webnestmedia.com/web-development"
+          "item": "https://webnestmedia.in/web-development"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://webnestmedia.com/web-development#faq",
+      "@id": "https://webnestmedia.in/web-development#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -252,14 +252,14 @@ const web = () => {
 
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/web-development" />
+        <link rel="canonical" href="https://webnestmedia.in/web-development" />
 
 
         {/* <meta property="og:title" content="Best Web Development Company in Gurgaon | WebNest Media" />
         <meta property="og:description" content="WebNest Media is your top web development company in Gurgaon. We develop professional and secure websites, from e-commerce to custom applications. Get free quote today!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/web-development" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/topimage-VsfXwUOb.svg" />
+        <meta property="og:url" content="https://webnestmedia.in/web-development" />
+        <meta property="og:image" content="https://webnestmedia.in/assets/topimage-VsfXwUOb.svg" />
         <meta property="og:site_name" content="WebNest Media" /> */}
 
 

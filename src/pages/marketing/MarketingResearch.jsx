@@ -38,14 +38,14 @@ const MarketingResearch = () => {
   />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="WebNest Media" />
-  <link rel="canonical" href="https://webnestmedia.com/market-research-insights" />
+  <link rel="canonical" href="https://webnestmedia.in/market-research-insights" />
 
   {/* Open Graph */}
   <meta property="og:title" content="Market Research and Insights Company in Gurgaon | WebNest Media" />
   <meta property="og:description" content="WebNest Media offers expert market research and insights. Gain a clear understanding of your audience, industry, and competitors." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://webnestmedia.com/market-research-insights" />
-  <meta property="og:image" content="https://webnestmedia.com/assets/c1image-BqeSZwwV.svg" />
+  <meta property="og:url" content="https://webnestmedia.in/market-research-insights" />
+  <meta property="og:image" content="https://webnestmedia.in/assets/c1image-BqeSZwwV.svg" />
   <meta property="og:site_name" content="WebNest Media" />
 
   {/* WebPage Schema */}
@@ -53,7 +53,7 @@ const MarketingResearch = () => {
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "url": "https://webnestmedia.com/market-research-insights",
+      "url": "https://webnestmedia.in/market-research-insights",
       "name": "Market Research & Insights | WebNest Media",
       "description":
         "WebNest Media offers expert market research and insights in Gurgaon. Gain a clear understanding of your audience, industry, and competitors.",
@@ -64,30 +64,30 @@ const MarketingResearch = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://webnestmedia.com/",
+            "item": "https://webnestmedia.in/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://webnestmedia.com/services",
+            "item": "https://webnestmedia.in/services",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Market Research & Insights",
-            "item": "https://webnestmedia.com/market-research-insights",
+            "item": "https://webnestmedia.in/market-research-insights",
           },
         ],
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://webnestmedia.com/#organization",
+        "@id": "https://webnestmedia.in/#organization",
         "name": "WebNest Media",
-        "url": "https://webnestmedia.com",
+        "url": "https://webnestmedia.in",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://webnestmedia.com/assets/newlogo-CQU_gx5-.svg",
+          "url": "https://webnestmedia.in/assets/newlogo-CQU_gx5-.svg",
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -111,7 +111,7 @@ const MarketingResearch = () => {
         "serviceType": "Market Research & Insights",
         "provider": {
           "@type": "Organization",
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
           "name": "WebNest Media",
         },
         "areaServed": {
@@ -128,7 +128,7 @@ const MarketingResearch = () => {
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://webnestmedia.com/?s={search_term_string}",
+        "target": "https://webnestmedia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     })}

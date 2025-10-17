@@ -186,64 +186,64 @@ const Seo = () => {
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#webpage",
-        url: "https://webnestmedia.com/search-engine-optimization",
+        "@id": "https://webnestmedia.in/search-engine-optimization/#webpage",
+        url: "https://webnestmedia.in/search-engine-optimization",
         name: "Search Engine Optimization Services | WebNest Media",
         description:
           "Boost your online presence with the best SEO agency in India. We help you in increasing your traffic, ranking higher, and converting clicks into loyal customers.",
         inLanguage: "en-IN",
         isPartOf: {
-          "@id": "https://webnestmedia.com/#website",
+          "@id": "https://webnestmedia.in/#website",
         },
         breadcrumb: {
           "@id":
-            "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+            "https://webnestmedia.in/search-engine-optimization/#breadcrumb",
         },
         mainEntity: {
-          "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+          "@id": "https://webnestmedia.in/search-engine-optimization/#service",
         },
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#breadcrumb",
+        "@id": "https://webnestmedia.in/search-engine-optimization/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             name: "Home",
-            "item": "https://webnestmedia.com/"
+            "item": "https://webnestmedia.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             name: "Services",
-            "item": "https://webnestmedia.com/"
+            "item": "https://webnestmedia.in/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             name: "Search Engine Optimization",
-            "item": "https://webnestmedia.com/search-engine-optimization"
+            "item": "https://webnestmedia.in/search-engine-optimization"
           }
         ]
       },
       {
         "@type": "Service",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#service",
+        "@id": "https://webnestmedia.in/search-engine-optimization/#service",
         serviceType: "Search Engine Optimization (SEO)",
         provider: {
-          "@id": "https://webnestmedia.com/#organization",
+          "@id": "https://webnestmedia.in/#organization",
         },
         areaServed: {
           "@type": "Place",
           name: "India",
         },
-        url: "https://webnestmedia.com/search-engine-optimization",
+        url: "https://webnestmedia.in/search-engine-optimization",
         description:
           "Professional SEO services from WebNest Media. On-page SEO, Off-page SEO, Technical SEO, and Local SEO to boost your Google rankings.",
         offers: {
           "@type": "Offer",
-          url: "https://webnestmedia.com/contact",
+          url: "https://webnestmedia.in/contact",
           price: "Varies",
           priceCurrency: "INR",
           availability: "https://schema.org/InStock",
@@ -251,7 +251,7 @@ const Seo = () => {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://webnestmedia.com/search-engine-optimization/#faq",
+        "@id": "https://webnestmedia.in/search-engine-optimization/#faq",
         mainEntity: [
           {
             "@type": "Question",
@@ -282,7 +282,7 @@ const Seo = () => {
       {
         "@type": "Product",
         name: "Best SEO Agency in India | Boost Rankings and Traffic",
-        image: "https://webnestmedia.com/assets/heroimage-32ufLjb8.png",
+        image: "https://webnestmedia.in/assets/heroimage-32ufLjb8.png",
         description:
           "WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth.",
         brand: {
@@ -317,13 +317,13 @@ const Seo = () => {
 
         <meta name="robots" content="index, follow" />
         <meta name="author" content="WebNest Media" />
-        <link rel="canonical" href="https://webnestmedia.com/search-engine-optimization" />
+        <link rel="canonical" href="https://webnestmedia.in/search-engine-optimization" />
 
         {/* <meta property="og:title" content="Best SEO Agency in Gurgaon | Affordable SEO Solutions" />
         <meta property="og:description" content="WebNest Media offers affordable SEO services with guaranteed first page ranking. Our SEO experts handle on-page, off-page, and technical SEO for organic growth." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webnestmedia.com/search-engine-optimization" />
-        <meta property="og:image" content="https://webnestmedia.com/assets/heroimage-CzLAVzJe.svg" />
+        <meta property="og:url" content="https://webnestmedia.in/search-engine-optimization" />
+        <meta property="og:image" content="https://webnestmedia.in/assets/heroimage-CzLAVzJe.svg" />
         <meta property="og:site_name" content="WebNest Media" /> */}
 
         <script type="application/ld+json">
