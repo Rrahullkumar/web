@@ -189,7 +189,7 @@ const OurProvenSEO = () => {
                     />
                 </div>
 
-                <h2 data-aos="fade-up" className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Here’s how our SEO process works:</h2>
+                <h2 data-aos="fade-up" className='text-[52px] lg:text-center max-md:text-3xl max-md:font-semibold text-[#000000] leading-snug mt-[22px] mb-4'>Here’s How our SEO process works:</h2>
                 <p data-aos="fade-up" className='text-base  lg:text-center text-[#000000]leading-7  font-[350] lg:mx-24'>
                     WebNest Media is the best SEO agency in India. We provide the best SEO services for every organization. Our SEO tech expert team is capable of understanding how different industries work             </p>
 

@@ -19,7 +19,7 @@ const DriveLeadesDelhi = () => {
                 {/* Text Section */}
                 <div className="lg:w-[60%]">
                     <h2 className="text-[52px] max-lg:text-[36px] font-semibold">
-                        Leading SEO Services in Delhi for Businesses That Want to Rank #1
+                        Leading SEO Services in Delhi for Businesses That Want to Rank No.1
                     </h2>
                     <br />
                     <p className="text-base mt-2 font-manrope">
