@@ -31,10 +31,10 @@ const ContactSection = () => {
                 style={{ backgroundImage: `url(${bgImage})` }}
             >   
                 <div className="text-left flex flex-col gap-5">
-                    <h2 className="text-xl lg:text-[3.1rem]  font-bold mb-3 leading-tight">
+                    <p className="text-xl lg:text-[3.1rem]  font-bold mb-3 leading-tight">
                         We'd Love to<br />
                         Hear from you
-                    </h2>
+                    </p>
                     <div className="space-y-1 lg:space-y-3">
                         <p className="text-xs lg:text-base xl:text-lg">
                             <span className="font-semibold">Email:</span>{" "}

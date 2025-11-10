@@ -36,6 +36,7 @@ import Accordion from "./componnet/Accordian";
 import { FaPhoneVolume } from "react-icons/fa6";
 
 import { Helmet } from "react-helmet";
+import Marquee from "react-fast-marquee";
 
 
 import ank from './resources/logo/ank.svg';
@@ -474,213 +475,65 @@ const Home = () => {
         </div> */}
 
 
+
+
         <div className="mt-16">
-          <div className="wrapper">
-            <div className="marquee-track">
-              {/* First set of logos */}
-              {/* <div className="item">
-                <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Digiwizards} alt="Digiwizards Logo" aria-label="Digiwizards Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Divyanshed} alt="Divyanshed Logo" aria-label="Divyanshed Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={divyanshglobal} alt="Divyansh Global Logo" aria-label="Divyansh Global Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={dosaada} alt="Dosaada Logo" aria-label="Dosaada Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ForeCorner} alt="ForeCorner Logo" aria-label="ForeCorner Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Harishresidennce} alt="Harish Residence Logo" aria-label="Harish Residence Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={HouseForever} alt="House Forever Logo" aria-label="House Forever Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Lotus} alt="Lotus Logo" aria-label="Lotus Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ntech} alt="NTech Logo" aria-label="NTech Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Readit360} alt="Readit360 Logo" aria-label="Readit360 Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={sandstone} alt="Sandstone Logo" aria-label="Sandstone Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={shreehari} alt="Shree Hari Logo" aria-label="Shree Hari Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
-              </div> */}
-              <div className="item">
-                <img className="logo-img" src={heritage} alt="heritage Logo" aria-label="Heritage Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={houseFrover} alt="houseFrover Logo" aria-label="houseFrover Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={lotus} alt="lotus Logo" aria-label="lotus Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={nt} alt="nt Logo" aria-label="nt Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={stonesand} alt="sandstone Logo" aria-label="sandstone Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={sports} alt="sports Logo" aria-label="sports Logo" />
-              </div>
-               <div className="item">
-                <img className="logo-img" src={shree} alt="shree Logo" aria-label="shree Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ankImg} alt="ank Logo" aria-label="ank Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={carworldImg} alt="carworld Logo" aria-label="carworld Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={dosaImg} alt="dosa Logo" aria-label="dosa Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={reality} alt="reality Logo" aria-label="reality Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={divyansh} alt="divyansh Logo" aria-label="divyansh Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
-              </div>
-
-              {/* Duplicate set for seamless loop */}
-              {/* <div className="item">
-                <img className="logo-img" src={ank} alt="ANK Logo" aria-label="ANK Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={badminton} alt="Badminton Logo" aria-label="Badminton Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={carworld} alt="Car World Logo" aria-label="Car World Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Digiwizards} alt="Digiwizards Logo" aria-label="Digiwizards Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Divyanshed} alt="Divyanshed Logo" aria-label="Divyanshed Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={divyanshglobal} alt="Divyansh Global Logo" aria-label="Divyansh Global Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={dosaada} alt="Dosaada Logo" aria-label="Dosaada Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ForeCorner} alt="ForeCorner Logo" aria-label="ForeCorner Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Harishresidennce} alt="Harish Residence Logo" aria-label="Harish Residence Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={HouseForever} alt="House Forever Logo" aria-label="House Forever Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Lotus} alt="Lotus Logo" aria-label="Lotus Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ntech} alt="NTech Logo" aria-label="NTech Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={Readit360} alt="Readit360 Logo" aria-label="Readit360 Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={sandstone} alt="Sandstone Logo" aria-label="Sandstone Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={shreehari} alt="Shree Hari Logo" aria-label="Shree Hari Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={sportsline} alt="Sportsline Logo" aria-label="Sportsline Logo" />
-              </div> */}
-
-              <div className="item">
-                <img className="logo-img" src={heritage} alt="heritage Logo" aria-label="Heritage Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={houseFrover} alt="houseFrover Logo" aria-label="houseFrover Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={lotus} alt="lotus Logo" aria-label="lotus Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={nt} alt="nt Logo" aria-label="nt Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={stonesand} alt="sandstone Logo" aria-label="sandstone Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={sports} alt="sports Logo" aria-label="sports Logo" />
-              </div>
-               <div className="item">
-                <img className="logo-img" src={shree} alt="shree Logo" aria-label="shree Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={ankImg} alt="ank Logo" aria-label="ank Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={carworldImg} alt="carworld Logo" aria-label="carworld Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={dosaImg} alt="dosa Logo" aria-label="dosa Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img long-logo" src={reality} alt="reality Logo" aria-label="reality Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={divyansh} alt="divyansh Logo" aria-label="divyansh Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
-              </div>
-               <div className="item">
-                <img className="logo-img" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
-              </div>
-              <div className="item">
-                <img className="logo-img" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
-              </div>
-
+          <Marquee
+            speed={100}
+            pauseOnHover={false}
+            autoFill={true}
+            gradient={true}
+          >
+            <div className="item">
+              <img className="logo-img" src={heritage} alt="heritage Logo" aria-label="Heritage Logo" />
             </div>
-          </div>
+            <div className="item">
+              <img className="logo-img" src={houseFrover} alt="houseFrover Logo" aria-label="houseFrover Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={lotus} alt="lotus Logo" aria-label="lotus Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={nt} alt="nt Logo" aria-label="nt Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={stonesand} alt="sandstone Logo" aria-label="sandstone Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={sports} alt="sports Logo" aria-label="sports Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={shree} alt="shree Logo" aria-label="shree Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={ankImg} alt="ank Logo" aria-label="ank Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={carworldImg} alt="carworld Logo" aria-label="carworld Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={dosaImg} alt="dosa Logo" aria-label="dosa Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={harishImg} alt="harish Logo" aria-label="harish Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={reality} alt="reality Logo" aria-label="reality Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={divyansh} alt="divyansh Logo" aria-label="divyansh Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
+            </div>
+          </Marquee>
         </div>
-
-
-
-
 
 
 

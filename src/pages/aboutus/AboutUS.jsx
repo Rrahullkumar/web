@@ -14,6 +14,8 @@ import Tusharimg from '../../assets/team/3.png'
 import Divyamimg from '../../assets/team/5.png'
 import Arbaazimg from '../../assets/team/6.png'
 import Parulimg from '../../assets/team/7.png'
+import Bishwajeet from './resources/bishwajeetimg.png'
+import rahulimg from './resources/rahulimg.png'
 
 import Kartikimg from '../../assets/team/Kartik.png'
 import Abhishekimg from '../../assets/team/Abhishek.png'
@@ -219,8 +221,8 @@ const AboutUS = () => {
             <img src={Manojimg} alt="" className="object-fit object-cover" />
           </div>
           <div className="w-1/6 max-lg:w-1/3">
-            <img src={Antaraimg} alt="" className="object-fit object-cover"/>
-                        <h2 className="text-2xl max-lg:text-base text-center mr-12">Antara Deb</h2>
+            <img src={Antaraimg} alt="" className="object-fit object-cover" />
+            <h2 className="text-2xl max-lg:text-base text-center mr-12">Antara Deb</h2>
             <p className="text-md text-[#006039] text-center mr-12">(Process Head)</p>
           </div>
         </div>
@@ -232,33 +234,36 @@ const AboutUS = () => {
             position="left"
             background="lightblue"
           />
-           <ProfileCard
+          <ProfileCard
             img={Abhishekimg}
             name="Abhishek Singh"
             role="Full Stack Developer"
             position="right"
             background="lightblue"
           />
-              <ProfileCard
-            img={Arbaazimg}
-            name="Arbaaz"
-            role="BD Lead Sales"
+
+
+          <ProfileCard
+            img={Kartikimg}
+            name="Kartik Sharma"
+            role="SEO Analyst"
             position="right"
+            background="lightblue"
           />
-       
+
           <ProfileCard
             img={Tusharimg}
             name="Tushar Negi"
             role="Product Designer"
             position="left"
           />
-          
-           <ProfileCard
+
+          <ProfileCard
             img={Parulimg}
             name="Parul Kapoor"
             role="Buisness Consultant"
             position="left"
-            
+
           />
 
           <ProfileCard
@@ -268,7 +273,7 @@ const AboutUS = () => {
             position="right"
             background="lightblue"
           />
-         <ProfileCard
+          <ProfileCard
             img={Divyamimg}
             name="Divyam Bajaj"
             role="Parternship Manager"
@@ -276,25 +281,32 @@ const AboutUS = () => {
 
             background="lightblue"
           />
-          
-         <ProfileCard
+          <ProfileCard
+            img={rahulimg}
+            name="Rahul Kumar"
+            role="Frontend Developer"
+            position="left"
+
+          />
+
+          <ProfileCard
             img={Harshimg}
             name="Harsh Lodhi"
             role="Google Ads Expert"
             position="left"
-            
+
           />
-          <div className=""></div>
-             <ProfileCard
-            img={Kartikimg}
-            name="Kartik Sharma"
-            role="SEO Analyst"
-            position="right"
-            background="lightblue"
-          />
+
           
-          
-          
+          <ProfileCard
+         img={Bishwajeet}
+         name="Bishwajeet Singh"
+         role="SEO Analyst"
+         position="right"
+       />
+
+
+
         </div>
       </section>
 

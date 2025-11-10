@@ -55,7 +55,7 @@ const HeroSection = ({ backgroundImage, heading, highlight, paragraph }) => {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60 z-0" />
+      <div className="absolute inset-0 bg-black/60 z-0 " />
 
       {/* Content */}
       <div className="flex flex-col lg:flex-row gap-10 justify-center items-center w-full container mx-auto relative z-10">

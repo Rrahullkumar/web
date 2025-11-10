@@ -30,6 +30,9 @@ import SmoothCursor from "./components/smoothCursor";
 import Insight from './pages/Insight/Insight'
 import BlogDetails from './pages/Insight/BlogDetails';
 import Contactfooter from './components/contactfooter/contactfooter';
+import SeoGurgaon from './pages/seoCompanyInGurgaon/SeoGurgaon';
+import SeoDelhi from './pages/seo/seoCompanyInDelhiNCR/SeoDelhi';
+import SeoMumbai from "./pages/seo/seoCompanyInMumbai/SeoMumbai"
 
 // Main Content Component with conditional padding
 const MainContent = () => {
@@ -60,6 +63,9 @@ const MainContent = () => {
         <Route path='/blogs' element={<Insight />} />
         <Route path="/blogs/:slug" element={<BlogDetails />} />
         <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path='/seo-company-in-gurgaon' element={<SeoGurgaon/>} />
+        <Route path='/seo-services-in-delhi' element={<SeoDelhi/>} />
+        <Route path='/seo-services-in-mumbai' element={<SeoMumbai/>} />
       </Routes>
   );
 };

@@ -7,126 +7,126 @@ import blacklogo from '../../assets/blacklogo.svg';
 // import WhatsAppIcon from './WhatsappStickyIcon';
 import { Link } from 'react-router-dom';
 import msme from '../../../public/msme.png';
-import {  FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import footer from '../../../public/footer.png'
 
 const Footer = () => {
   return (
-<footer
-  className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain bg-[#C6CFFF20]
+    <footer
+      className="text-white pt-[40px] max-md:px-0   bg-no-repeat bg-cover max-md:bg-contain bg-[#C6CFFF20]
       "
-  style={{
-    backgroundImage: `url(${footer})`,
+      style={{
+        backgroundImage: `url(${footer})`,
 
-  }}
->
+      }}
+    >
 
       <div className="container w-[100%] mx-auto space-y-10 mt-36 max-md:mt-16 max-md:bg-black px-4 pb-4 ">
 
 
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-  {/* Logo Section */}
-  <div className="flex   ">
-    <Link to="/">
-        <LazyLoadImage
-        src={blacklogo}
-        alt="WebNest Media Logo"
-        className="w-[186px]"
-        aria-label="Webnest media Logo"
-      />
-    </Link>
-    
-  </div>
+          {/* Logo Section */}
+          <div className="flex   ">
+            <Link to="/">
+              <LazyLoadImage
+                src={blacklogo}
+                alt="WebNest Media Logo"
+                className="w-[186px]"
+                aria-label="Webnest media Logo"
+              />
+            </Link>
 
-  {/* Social Media Section */}
-  <div className="flex flex-col  gap-2">
-    <h6 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
-      Connect on Social Media
-    </h6>
-    <div className="flex justify-center max-md:justify-start lg:justify-start space-x-4 text-xl">
-      <a
-        href="https://www.facebook.com/profile.php?id=61576616442478"
-        target="_blank"
-        rel="noopener noreferrer"
-         aria-label="WebNest Media  Facebook"
-      >
-        <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
-      </a>
-      <a
-        href="https://x.com/webnestmediag?s=21"
-        target="_blank"
-        rel="noopener noreferrer"
-         aria-label="WebNest Media  Twitter Page"
-      >
-        <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
-      </a>
-      <a
-        href="https://www.linkedin.com/company/webnest-media-group/"
-        target="_blank"
-        rel="noopener noreferrer"
-                 aria-label="WebNest Media Linkedin Page"
+          </div>
 
-      >
-        <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
-      </a>
-      <a
-        href="https://www.instagram.com/webnestmediagroup/"
-        target="_blank"
-        rel="noopener noreferrer"
-                 aria-label="WebNest Media  Instagram Page"
+          {/* Social Media Section */}
+          <div className="flex flex-col  gap-2">
+            <h6 className="text-lg font-semibold hover:text-[#25D366] transition-colors duration-300">
+              Connect on Social Media
+            </h6>
+            <div className="flex justify-center max-md:justify-start lg:justify-start space-x-4 text-xl">
+              <a
+                href="https://www.facebook.com/profile.php?id=61576616442478"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WebNest Media  Facebook"
+              >
+                <FaFacebookF className="hover:text-blue-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+              </a>
+              <a
+                href="https://x.com/webnestmediag?s=21"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WebNest Media  Twitter Page"
+              >
+                <FaTwitter className="hover:text-blue-400 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/webnest-media-group/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WebNest Media Linkedin Page"
 
-      >
-        <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
-      </a>
-    </div>
-  </div>
+              >
+                <FaLinkedinIn className="hover:text-blue-700 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+              </a>
+              <a
+                href="https://www.instagram.com/webnestmediagroup/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WebNest Media  Instagram Page"
 
-  {/* Address Section */}
-  <div className="flex flex-col ">
-    <h4 className="text-lg font-semibold mb-2">Our Address</h4>
-    <p className="text-sm">
-      1st Floor Orchid Business Park,<br />
-      Near Subhash Chowk, Sector 48,<br />
-      Gurugram, Haryana 122004 <br />
-      
-    </p>
-  </div>
+              >
+                <FaInstagram className="hover:text-pink-500 transition-transform transform hover:scale-110 duration-300 cursor-pointer" />
+              </a>
+            </div>
+          </div>
 
-  {/* Email & Privacy Section */}
-  <div className="flex flex-col items-start gap-6">
-    <img src={msme} alt="MSME image" className='w-[70%] max-lg:w-[51%] '  />
-    <p className="text-sm font-semibold">
-      GST No:- 06DKNPK2512K2Z1
-    </p>
-  </div>
-  <div className="flex flex-col ">
-    <h4 className="text-lg font-semibold mb-2">Contact US</h4>
-    <p>
-      <a
-        href="mailto:info@webnestmedia.in"
-        className="text-sm text-blue-300 hover:underline"
-      >
-        info@webnestmedia.in
-      </a>
-    </p>
-   <p>
-  <a
-    href="tel:+919696964606"
-    className="text-sm text-blue-300 hover:underline"
-  >
-    +91-9696964606
-  </a>
-</p>
+          {/* Address Section */}
+          <div className="flex flex-col ">
+            <h4 className="text-lg font-semibold mb-2">Our Address</h4>
+            <p className="text-sm">
+              1st Floor Orchid Business Park,<br />
+              Near Subhash Chowk, Sector 48,<br />
+              Gurugram, Haryana 122004 <br />
 
-    <Link to="/privacy-policy" 
-    aria-label="webnest Privacy Policy"
-    className="text-sm text-white hover:underline inline mt-5">
-      <p className="text-sm text-white hover:underline inline-block">Privacy Policy</p>
-    </Link>
-  </div>
-</div>
+            </p>
+          </div>
+
+          {/* Email & Privacy Section */}
+          <div className="flex flex-col items-start gap-6">
+            <img src={msme} alt="MSME image" className='w-[70%] max-lg:w-[51%] ' />
+            <p className="text-sm font-semibold">
+              GST No:- 06DKNPK2512K2Z1
+            </p>
+          </div>
+          <div className="flex flex-col ">
+            <h4 className="text-lg font-semibold mb-2">Contact US</h4>
+            <p>
+              <a
+                href="mailto:info@webnestmedia.in"
+                className="text-sm text-blue-300 hover:underline"
+              >
+                info@webnestmedia.in
+              </a>
+            </p>
+            <p>
+              <a
+                href="tel:+919696964606"
+                className="text-sm text-blue-300 hover:underline"
+              >
+                +91-9696964606
+              </a>
+            </p>
+
+            <Link to="/privacy-policy"
+              aria-label="webnest Privacy Policy"
+              className="text-sm text-white hover:underline inline mt-5">
+              <p className="text-sm text-white hover:underline inline-block">Privacy Policy</p>
+            </Link>
+          </div>
+        </div>
 
 
         <svg width="100%" height="2">
@@ -140,7 +140,14 @@ const Footer = () => {
             title="Digital Marketing"
             items={[
               { label: 'Search Engine Marketing', path: '/search-engine-marketing' },
-              { label: 'Search Engine Optimization', path: '/search-engine-optimization' },
+              {
+                label: 'Search Engine Optimization', path: '/search-engine-optimization',
+                children: [
+                  { label: 'SEO Company in Gurgaon', path: '/seo-company-in-gurgaon' },
+                  {label:'SEO Company in Delhi-NCR', path: '/seo-services-in-delhi  '},
+                  {label:'SEO Company in Mumbai', path:'/seo-services-in-mumbai'}
+                ]
+              },
               { label: 'Social Media Marketing', path: '/social-media-marketing' },
               { label: 'Web Development', path: '/web-development' },
               { label: 'Content Marketing', path: '/content-marketing' },
@@ -200,8 +207,8 @@ const Footer = () => {
         </div>
       </div>
 
-  
-           <div className="fixed bottom-[20px] right-6 flex flex-col items-center gap-4 z-[99999999999999]">
+
+      <div className="fixed bottom-[20px] right-6 flex flex-col items-center gap-4 z-[99999999999999]">
         {/* WhatsApp */}
         <a
           href="https://wa.me/919696964606" // Replace with your number
@@ -221,7 +228,7 @@ const Footer = () => {
         </a>
       </div>
 
-      
+
     </footer>
   );
 };

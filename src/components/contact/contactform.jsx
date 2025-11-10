@@ -83,7 +83,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="max-w-[500px] w-[95%] mx-auto pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[25px] rounded-[20px] border border-[#FFFFFF73] ">
+    <div className="max-w-[500px] w-[95%] mx-auto pb-[47px] pt-[30px] px-[44px]  max-lg:px-[16px]  max-lg:py-[25px] rounded-[20px] border border-[#FFFFFF73] backdrop-blur-sm">
       <h2 className="text-gray-300 shadow-sm font-semibold max-lg:font-bold text-[26px] max-md:text-[22px] mb-4 max-lg:mb-6 text-center">Book a Free Consultation! </h2>
       <form onSubmit={handleSubmit}>
         {/* Name */}

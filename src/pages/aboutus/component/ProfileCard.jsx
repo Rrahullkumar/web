@@ -6,7 +6,7 @@ const ProfileCard = (props) => {
       <img
         src={props.img}
         alt=""
-        className={`absolute w-[35%] h-auto bottom-0 ${
+        className={`absolute w-[35%] h-60 bottom-0 ${
           props.position === "left" ? "left-6 max-lg:left-0" : "right-0 "
         }`}
       />
