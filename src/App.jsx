@@ -65,7 +65,7 @@ const MainContent = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route path='/seo-company-in-gurgaon' element={<SeoGurgaon/>} />
         <Route path='/seo-services-in-delhi' element={<SeoDelhi/>} />
-        <Route path='/seo-services-in-mumbai' element={<SeoMumbai/>} />
+        <Route path='/seo-company-in-mumbai' element={<SeoMumbai/>} />
       </Routes>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react'
-import newimage from "../../pages/seo/resources/newimage.png";
+import newimage from "../../pages/seo/resources/seomumbai.png";
 
 const HowOurSEOIsDiffrent = () => {
     return (

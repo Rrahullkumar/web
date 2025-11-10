@@ -145,7 +145,7 @@ const Footer = () => {
                 children: [
                   { label: 'SEO Company in Gurgaon', path: '/seo-company-in-gurgaon' },
                   {label:'SEO Company in Delhi-NCR', path: '/seo-services-in-delhi  '},
-                  {label:'SEO Company in Mumbai', path:'/seo-services-in-mumbai'}
+                  {label:'SEO Company in Mumbai', path:'/seo-company-in-mumbai'}
                 ]
               },
               { label: 'Social Media Marketing', path: '/social-media-marketing' },
