@@ -8,7 +8,7 @@ const ProfileCard = (props) => {
         alt=""
         className={`absolute w-[35%] h-60 bottom-0 ${
           props.position === "left" ? "left-6 max-lg:left-0" : "right-0 "
-        }`}
+        } ${props.imgHeight ? props.imgHeight : "h-60"}`}
       />
 
       <div

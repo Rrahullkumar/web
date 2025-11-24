@@ -33,6 +33,8 @@ import Contactfooter from './components/contactfooter/contactfooter';
 import SeoGurgaon from './pages/seoCompanyInGurgaon/SeoGurgaon';
 import SeoDelhi from './pages/seo/seoCompanyInDelhiNCR/SeoDelhi';
 import SeoMumbai from "./pages/seo/seoCompanyInMumbai/SeoMumbai"
+import WebGurgaon from './pages/web3/webdevGurgaon/webGurgaon';
+
 
 // Main Content Component with conditional padding
 const MainContent = () => {
@@ -66,6 +68,7 @@ const MainContent = () => {
         <Route path='/seo-company-in-gurgaon' element={<SeoGurgaon/>} />
         <Route path='/seo-services-in-delhi' element={<SeoDelhi/>} />
         <Route path='/seo-company-in-mumbai' element={<SeoMumbai/>} />
+        <Route path='/website-development-company-in-gurgaon' element={<WebGurgaon/>}/>
       </Routes>
   );
 };

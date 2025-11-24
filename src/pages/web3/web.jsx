@@ -418,6 +418,7 @@ const web = () => {
           </div>
 
         </section>
+
         <section className='flex flex-row max-lg:flex-col items-center mt-24 justify-between max-lg:mt-10 mx-auto max-w-[1440px] px-10 max-lg:px-4'>
           <div className="lg:w-[60%] ">
             <h2 className='text-[52px] max-lg:text-3xl font-semibold'>Web Development <br className='max-md:hidden' />Best Quality Service</h2>
@@ -497,9 +498,6 @@ const web = () => {
 
             <p data-aos="fade-up" className="text-[black] mt-9 mb-12 text-base mx-auto md:mx-0">
               As a top website design & development service, we have years of experience. Our web development teams design SEO friendly and an attractive websites, and we redesign them also.
-
-
-
             </p>
 
           </div>

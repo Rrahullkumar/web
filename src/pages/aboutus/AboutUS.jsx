@@ -15,7 +15,7 @@ import Divyamimg from '../../assets/team/5.png'
 import Arbaazimg from '../../assets/team/6.png'
 import Parulimg from '../../assets/team/7.png'
 import Bishwajeet from './resources/bishwajeetimg.png'
-import rahulimg from './resources/rahulimg.png'
+import rahulimg from './resources/rahulimg2.png'
 
 import Kartikimg from '../../assets/team/Kartik.png'
 import Abhishekimg from '../../assets/team/Abhishek.png'
@@ -286,6 +286,7 @@ const AboutUS = () => {
             name="Rahul Kumar"
             role="Frontend Developer"
             position="left"
+            imgHeight="h-[122%]"
 
           />
 
@@ -303,6 +304,7 @@ const AboutUS = () => {
          name="Bishwajeet Singh"
          role="SEO Analyst"
          position="right"
+         imgHeight="h-[122%]"
        />
 
 

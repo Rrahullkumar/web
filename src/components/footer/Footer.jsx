@@ -149,7 +149,14 @@ const Footer = () => {
                 ]
               },
               { label: 'Social Media Marketing', path: '/social-media-marketing' },
-              { label: 'Web Development', path: '/web-development' },
+              { label: 'Web Development', path: '/web-development',
+
+                children: [
+                  { label: 'Website development Company  in Gurgaon', path: '/website-development-company-in-gurgaon' },
+                ]
+
+              },
+                
               { label: 'Content Marketing', path: '/content-marketing' },
               { label: 'Affiliate Marketing', path: '/affiliate-marketing' },
             ]}

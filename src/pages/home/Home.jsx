@@ -526,9 +526,7 @@ const Home = () => {
             <div className="item">
               <img className="logo-img" src={gramroots} alt="gramroots Logo" aria-label="gramroots Logo" />
             </div>
-            <div className="item">
-              <img className="logo-img long-logo" src={infraguru} alt="infraguru Logo" aria-label="infraguru Logo" />
-            </div>
+            
             <div className="item">
               <img className="logo-img long-logo" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
             </div>
