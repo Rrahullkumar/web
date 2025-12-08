@@ -10,7 +10,7 @@ const WebDevggn = () => {
             <div>
                 <HeroSection
                     backgroundImage={webHeroimage}
-                    heading="Web Development Company in "
+                    heading="Website Development Company in "
                     highlight="Gurgaon"
                     paragraph="Building future-ready websites that load fast, look beautiful, and deliver measurable results to take your brand to the next level."
                 />

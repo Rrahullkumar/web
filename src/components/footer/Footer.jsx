@@ -152,7 +152,7 @@ const Footer = () => {
               { label: 'Web Development', path: '/web-development',
 
                 children: [
-                  { label: 'Website development Company  in Gurgaon', path: '/website-development-company-in-gurgaon' },
+                  { label: 'Website Development Company in Gurgaon', path: '/website-development-company-in-gurgaon' },
                 ]
 
               },

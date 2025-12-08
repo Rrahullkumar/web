@@ -52,8 +52,8 @@ const SeoGurgaon = () => {
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "723"
+          "ratingValue": "4.9",
+          "ratingCount": "1796"
         },
         "areaServed": {
           "@type": "Place",
@@ -139,40 +139,40 @@ const SeoGurgaon = () => {
     <>
       <Helmet>
         <title>Best SEO Company in Gurgaon | Affordable SEO Services in Gurgaon</title>
-        
-        <meta 
-          name="description" 
-          content="Get top rankings with WebNest Media — the best SEO company in Gurgaon. We offer on-page SEO, link building, local SEO, and complete digital marketing solutions." 
+
+        <meta
+          name="description"
+          content="Get top rankings with WebNest Media — the best SEO company in Gurgaon. We offer on-page SEO, link building, local SEO, and complete digital marketing solutions."
         />
-        
-        <meta 
-          name="keywords" 
-          content="SEO Company in Gurgaon, SEO Services in Gurgaon, SEO Agency in Gurgaon, Digital Marketing Company, On-page SEO, Off-page SEO, Link Building" 
+
+        <meta
+          name="keywords"
+          content="SEO Company in Gurgaon, SEO Services in Gurgaon, SEO Agency in Gurgaon, Digital Marketing Company, On-page SEO, Off-page SEO, Link Building"
         />
-        
-        <link 
-          rel="canonical" 
-          href="https://webnestmedia.in/seo-company-in-gurgaon" 
+
+        <link
+          rel="canonical"
+          href="https://webnestmedia.in/seo-company-in-gurgaon"
         />
-        
+
         {/* Open Graph Meta Tags */}
-        <meta 
-          property="og:title" 
-          content="Best SEO Company in Gurgaon | Affordable SEO Services in Gurgaon" 
+        <meta
+          property="og:title"
+          content="Best SEO Company in Gurgaon | Affordable SEO Services in Gurgaon"
         />
-        <meta 
-          property="og:description" 
-          content="Get top rankings with WebNest Media — the best SEO company in Gurgaon. We offer on-page SEO, link building, local SEO, and complete digital marketing solutions." 
+        <meta
+          property="og:description"
+          content="Get top rankings with WebNest Media — the best SEO company in Gurgaon. We offer on-page SEO, link building, local SEO, and complete digital marketing solutions."
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
-        <meta 
-          property="og:url" 
-          content="https://www.webnestmedia.in/seo-company-in-gurgaon" 
+        <meta
+          property="og:url"
+          content="https://www.webnestmedia.in/seo-company-in-gurgaon"
         />
-        <meta 
-          property="og:image" 
-          content="https://www.webnestmedia.in/images/seo-company-in-gurgaon-banner.jpg" 
+        <meta
+          property="og:image"
+          content="https://www.webnestmedia.in/images/seo-company-in-gurgaon-banner.jpg"
         />
         <meta property="og:site_name" content="WebNest Media" />
 

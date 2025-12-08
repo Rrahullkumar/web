@@ -10,7 +10,7 @@ const HeroDelhi = () => {
                 backgroundImage={delhiBg}
                 heading="Best SEO Services in"
                 highlight="Delhi"
-                paragraph="Get discovered online with Delhi’s Best SEO Services — result-driven, ethical, and affordable."
+                paragraph="Get discovered online with Delhi’s best SEO services — result-driven, ethical, and affordable."
                 altText=""
             />
         </div>

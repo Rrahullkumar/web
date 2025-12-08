@@ -63,6 +63,7 @@ import divyansh from "./resources/industries/divyansh.png"
 import gramroots from "./resources/industries/gramroots.png"
 import infraguru from "./resources/industries/infra.png"
 import nimble from "./resources/industries/nim.png"
+import bha from "./resources/industries/BHA-logo.svg"
 
 import Harishresidennce from './resources/logo/Harishresidence.svg';
 import HouseForever from './resources/logo/HouseForever.svg';
@@ -529,6 +530,9 @@ const Home = () => {
             
             <div className="item">
               <img className="logo-img long-logo" src={nimble} alt="nimble Logo" aria-label="nimble Logo" />
+            </div>
+            <div className="item">
+              <img className="logo-img long-logo" src={bha} alt="bha Logo" aria-label="bha Logo" />
             </div>
           </Marquee>
         </div>

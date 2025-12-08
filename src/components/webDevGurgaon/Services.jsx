@@ -77,9 +77,9 @@ const Services = () => {
 
                                 {/* Icon and Title Row */}
                                 <div className='flex items-center gap-3 mb-3 max-h-12'>
-                                    <h6 className="w-[24px] h-[24px] flex items-center justify-center">
+                                    <div className="w-[24px] h-[24px] flex items-center justify-center">
                                         {card.icon}
-                                    </h6>
+                                    </div>
                                     <h4 className="text-base sm:text-lg font-semibold text-[#1a1a1a]">{card.title}</h4>
                                 </div>
 

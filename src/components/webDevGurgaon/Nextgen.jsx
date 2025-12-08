@@ -1,5 +1,5 @@
 import React from 'react'
-import image15 from '../../pages/web3/resources/image15.png'
+import image15 from '../../pages/web3/resources/webggnsideimage.jpg'
 
 const Nextgen = () => {
     return (
@@ -18,7 +18,7 @@ const Nextgen = () => {
                 </div>
                 <div className="">
                     <div data-aos="fade-up" className=" max-md:hidden">
-                        <img src={image15} alt="Web Development Company" className="w-full h-auto" />
+                        <img src={image15} alt="Web Development Company" className="w-96 h-auto" />
                     </div>
                 </div>
             </section>

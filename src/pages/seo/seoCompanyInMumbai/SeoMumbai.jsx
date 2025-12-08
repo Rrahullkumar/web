@@ -54,8 +54,8 @@ const SeoMumbai = () => {
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "944"
+          "ratingValue": "4.9",
+          "ratingCount": "1810"
         },
         "areaServed": {
           "@type": "Place",
@@ -143,14 +143,14 @@ const SeoMumbai = () => {
     <>
       <Helmet>
         <title>Best SEO Company in Mumbai | Rank #1 with Expert SEO Services</title>
-        <meta 
-          name="description" 
-          content="Our expert SEO services help you generate more leads for your business and Google rankings, boost traffic. Grow business with best SEO company in Mumbai." 
+        <meta
+          name="description"
+          content="Our expert SEO services help you generate more leads for your business and Google rankings, boost traffic. Grow business with best SEO company in Mumbai."
         />
         <meta name="robots" content="index, follow" />
-        <link 
-          rel="canonical" 
-          href="https://webnestmedia.in/seo-company-in-mumbai" 
+        <link
+          rel="canonical"
+          href="https://webnestmedia.in/seo-company-in-mumbai"
         />
 
         {/* JSON-LD Structured Data */}

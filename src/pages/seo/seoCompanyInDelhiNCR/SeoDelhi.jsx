@@ -53,8 +53,8 @@ const SeoDelhi = () => {
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "654"
+          "ratingValue": "4.8",
+          "ratingCount": "1473"
         },
         "areaServed": {
           "@type": "Place",
@@ -142,41 +142,41 @@ const SeoDelhi = () => {
     <>
       <Helmet>
         <title>Best SEO Services in Delhi | Rank Higher in Your Area</title>
-        
-        <meta 
-          name="description" 
-          content="Get high-quality SEO services in Delhi at affordable prices. Improve rankings, drive organic leads, and grow your business without overspending." 
+
+        <meta
+          name="description"
+          content="Get high-quality SEO services in Delhi at affordable prices. Improve rankings, drive organic leads, and grow your business without overspending."
         />
-        
-        <link 
-          rel="canonical" 
-          href="https://webnestmedia.in/seo-services-in-delhi" 
+
+        <link
+          rel="canonical"
+          href="https://webnestmedia.in/seo-services-in-delhi"
         />
-        
+
         {/* Open Graph Meta Tags */}
-        <meta 
-          property="og:title" 
-          content="Best SEO Services in Delhi | Rank Higher in Your Area" 
+        <meta
+          property="og:title"
+          content="Best SEO Services in Delhi | Rank Higher in Your Area"
         />
-        <meta 
-          property="og:description" 
-          content="Get high-quality SEO services in Delhi at affordable prices. Improve rankings, drive organic leads, and grow your business without overspending." 
+        <meta
+          property="og:description"
+          content="Get high-quality SEO services in Delhi at affordable prices. Improve rankings, drive organic leads, and grow your business without overspending."
         />
-        <meta 
-          property="og:url" 
-          content="https://www.webnestmedia.in/seo-services-in-delhi" 
+        <meta
+          property="og:url"
+          content="https://www.webnestmedia.in/seo-services-in-delhi"
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Webnest Media" />
         <meta property="og:locale" content="en_IN" />
         <meta name="robots" content="index, follow" />
-        <meta 
-          property="og:image" 
-          content="https://www.webnestmedia.in/assets/images/seo-services-delhi.jpg" 
+        <meta
+          property="og:image"
+          content="https://www.webnestmedia.in/assets/images/seo-services-delhi.jpg"
         />
-        <meta 
-          property="og:image:alt" 
-          content="SEO Services in Delhi by Webnest Media" 
+        <meta
+          property="og:image:alt"
+          content="SEO Services in Delhi by Webnest Media"
         />
 
         {/* JSON-LD Structured Data */}

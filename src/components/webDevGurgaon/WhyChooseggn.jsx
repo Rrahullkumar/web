@@ -1,5 +1,5 @@
 import React from 'react'
-import image16 from '../../pages/web3/resources/image16.png';
+import image16 from '../../pages/web3/resources/webggnsideimage2.jpg';
 
 const WhyChooseggn = () => {
     return (
@@ -20,7 +20,7 @@ const WhyChooseggn = () => {
                 </div>
                 <div className="">
                     <div data-aos="fade-up" className=" max-md:hidden">
-                        <img src={image16} alt="Web Development Company" className="w-full h-auto" />
+                        <img src={image16} alt="Web Development Company" className="w-96 h-auto" />
                     </div>
                 </div>
             </section>
